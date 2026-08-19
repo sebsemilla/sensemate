@@ -10,152 +10,109 @@
       {
         "word": "你",
         "pos": "pron",
-        "phonetic": "ni3",
-        "translation": "あなた",
-        "note": "二人称単数。親しい間柄や目下の人に使う。",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
+        "phonetic": "nǐ",
+        "translation": "あなた"
       },
       {
         "word": "好",
         "pos": "adj",
-        "phonetic": "xao3",
-        "translation": "良い、元気だ",
-        "note": "挨拶で「〜好」の形で使う。",
-        "pinyin": "hǎo",
-        "pinyin_num": "hao3"
+        "phonetic": "hǎo",
+        "translation": "良い、いい"
+      },
+      {
+        "word": "吗",
+        "pos": "part",
+        "phonetic": "ma",
+        "translation": "(疑問を表す)"
       },
       {
         "word": "我",
         "pos": "pron",
-        "phonetic": "wo3",
-        "translation": "私",
-        "note": "一人称単数。",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
-      },
-      {
-        "word": "叫",
-        "pos": "verb",
-        "phonetic": "tɕjau4",
-        "translation": "（名前を）言う、〜という",
-        "note": "自己紹介で「我叫〜」＝「私は〜です」。",
-        "pinyin": "jiào",
-        "pinyin_num": "jiao4"
-      },
-      {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "ʂən2 mə",
-        "translation": "何",
-        "note": "疑問詞。",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
-      },
-      {
-        "word": "名字",
-        "pos": "noun",
-        "phonetic": "miŋ2 tsɿ",
-        "translation": "名前",
-        "note": "姓名全体を指すことが多い。",
-        "pinyin": "míng zì",
-        "pinyin_num": "ming2 zi4"
-      },
-      {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "je3",
-        "translation": "〜も",
-        "note": "同様のことを表す副詞。",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
+        "phonetic": "wǒ",
+        "translation": "私"
       },
       {
         "word": "很",
         "pos": "adv",
-        "phonetic": "xən3",
-        "translation": "とても",
-        "note": "形容詞の前で「とても〜」の意味。",
-        "pinyin": "hěn",
-        "pinyin_num": "hen3"
-      },
-      {
-        "word": "认识",
-        "pos": "verb",
-        "phonetic": "ʐən2 ʂɿ",
-        "translation": "知り合う、知っている",
-        "note": "「认识你」＝「あなたと知り合う」。",
-        "pinyin": "rèn shi",
-        "pinyin_num": "ren4 shi0"
+        "phonetic": "hěn",
+        "translation": "とても"
       },
       {
         "word": "高兴",
         "pos": "adj",
-        "phonetic": "kau1 ɕiŋ4",
-        "translation": "うれしい",
-        "note": "「很高兴」＝「とてもうれしい」。",
-        "pinyin": "gāo xìng",
-        "pinyin_num": "gao1 xing4"
+        "phonetic": "gāo xìng",
+        "translation": "嬉しい"
+      },
+      {
+        "word": "认识",
+        "pos": "verb",
+        "phonetic": "rèn shi",
+        "translation": "知り合う、知る"
+      },
+      {
+        "word": "你",
+        "pos": "pron",
+        "phonetic": "nǐ",
+        "translation": "あなた"
+      },
+      {
+        "word": "呢",
+        "pos": "part",
+        "phonetic": "ne",
+        "translation": "(相手の状態を尋ねる)"
+      },
+      {
+        "word": "也",
+        "pos": "adv",
+        "phonetic": "yě",
+        "translation": "も"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好！我叫李华。你叫什么名字？",
-        "translation": "こんにちは！私は李華です。あなたの名前は何ですか？",
+        "text": "你好！",
+        "translation": "こんにちは！",
         "highlights": [
-          "你",
-          "好",
-          "我",
-          "叫",
-          "什么",
-          "名字"
+          "你好"
         ]
       },
       {
         "speaker": "B",
-        "text": "你好！我叫田中。我也很高兴认识你。",
-        "translation": "こんにちは！私は田中です。私もあなたに会えてうれしいです。",
+        "text": "你好！",
+        "translation": "こんにちは！",
         "highlights": [
-          "你",
-          "好",
-          "我",
-          "叫",
-          "也",
-          "很",
-          "高兴",
-          "认识"
+          "你好"
         ]
       },
       {
         "speaker": "A",
-        "text": "我也很高兴认识你。",
-        "translation": "私もあなたに会えてうれしいです。",
+        "text": "认识你很高兴！",
+        "translation": "お会いできてとても嬉しいです！",
         "highlights": [
-          "也",
-          "很",
-          "高兴",
           "认识",
-          "你"
+          "很",
+          "高兴"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "我也是。你呢？",
+        "translation": "私もです。あなたは？",
+        "highlights": [
+          "我也",
+          "呢"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "你好",
-        "translation": "こんにちは"
+        "phrase": "你好！",
+        "translation": "こんにちは！"
       },
       {
-        "phrase": "我叫〜",
-        "translation": "私は〜です"
-      },
-      {
-        "phrase": "你叫什么名字？",
-        "translation": "あなたの名前は何ですか？"
-      },
-      {
-        "phrase": "很高兴认识你",
-        "translation": "お会いできてうれしいです"
+        "phrase": "认识你很高兴！",
+        "translation": "お会いできてとても嬉しいです！"
       }
     ]
   },
@@ -170,153 +127,124 @@
       {
         "word": "在",
         "pos": "prep",
-        "phonetic": "tsai̯˥˩",
-        "translation": "〜に（場所・存在）",
-        "note": "場所を表す前置詞。存在の動詞としても使う。",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "phonetic": "zài",
+        "translation": "～に(いる/ある)"
       },
       {
-        "word": "哪里",
+        "word": "哪儿",
         "pos": "pron",
-        "phonetic": "na˨˩˦li˧˥",
-        "translation": "どこ",
-        "note": "疑問詞「どこ」",
-        "pinyin": "nǎ lǐ",
-        "pinyin_num": "na3 li3"
+        "phonetic": "nǎr",
+        "translation": "どこ"
       },
       {
         "word": "有",
         "pos": "verb",
-        "phonetic": "joʊ̯˨˩˦",
-        "translation": "ある、いる",
-        "note": "所有・存在を表す動詞",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
+        "phonetic": "yǒu",
+        "translation": "ある、いる"
       },
       {
-        "word": "这",
+        "word": "这儿",
         "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩",
-        "translation": "これ、この",
-        "note": "近称の指示代名詞",
-        "pinyin": "zhè",
-        "pinyin_num": "zhe4"
-      },
-      {
-        "word": "那",
-        "pos": "pron",
-        "phonetic": "na˥˩",
-        "translation": "あれ、あの",
-        "note": "遠称の指示代名詞",
-        "pinyin": "nà",
-        "pinyin_num": "na4"
-      },
-      {
-        "word": "是",
-        "pos": "verb",
-        "phonetic": "ʂɻ̩˥˩",
-        "translation": "〜である",
-        "note": "コピュラ動詞",
-        "pinyin": "shì",
-        "pinyin_num": "shi4"
+        "phonetic": "zhèr",
+        "translation": "ここ"
       },
       {
         "word": "请",
-        "pos": "verb",
-        "phonetic": "tɕʰiŋ˨˩˦",
-        "translation": "〜してください、どうぞ",
-        "note": "丁寧に依頼するときに使う",
-        "pinyin": "qǐng",
-        "pinyin_num": "qing3"
+        "pos": "adv",
+        "phonetic": "qǐng",
+        "translation": "どうぞ(丁寧な依頼)"
       },
       {
         "word": "看",
         "pos": "verb",
-        "phonetic": "kʰan˥˩",
-        "translation": "見る、見える",
-        "note": "視覚の動詞",
-        "pinyin": "kàn",
-        "pinyin_num": "kan4"
+        "phonetic": "kàn",
+        "translation": "見る"
       },
       {
-        "word": "吗",
-        "pos": "particle",
-        "phonetic": "ma˧˥",
-        "translation": "〜か（疑問）",
-        "note": "文末に置いて疑問文を作る助詞",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
+        "word": "那儿",
+        "pos": "pron",
+        "phonetic": "nàr",
+        "translation": "そこ、あそこ"
       },
       {
-        "word": "吧",
-        "pos": "particle",
-        "phonetic": "pa˥˩",
-        "translation": "〜でしょう、〜しなさい（提案・推量）",
-        "note": "文末に置いて提案や推量を表す助詞",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
+        "word": "也",
+        "pos": "adv",
+        "phonetic": "yě",
+        "translation": "～も"
+      },
+      {
+        "word": "谢谢",
+        "pos": "verb",
+        "phonetic": "xièxie",
+        "translation": "ありがとう"
+      },
+      {
+        "word": "里",
+        "pos": "noun",
+        "phonetic": "lǐ",
+        "translation": "中、内部"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "请问，水在哪里？",
-        "translation": "すみません、水はどこにありますか？",
+        "text": "请问，洗发水在哪儿？",
+        "translation": "すみません、シャンプーはどこにありますか？",
         "highlights": [
-          "请",
+          "请问",
           "在",
-          "哪里"
+          "哪儿"
         ]
       },
       {
         "speaker": "B",
-        "text": "在那里，你看，有。",
-        "translation": "あそこにありますよ、見てください、あります。",
+        "text": "洗发水在哪儿有，您看那儿。",
+        "translation": "シャンプーはあそこにあります。ご覧ください。",
         "highlights": [
-          "那",
           "在",
+          "哪儿",
+          "有",
           "看",
-          "有"
+          "那儿"
         ]
       },
       {
         "speaker": "A",
-        "text": "这个是吗？",
-        "translation": "これですか？",
+        "text": "谢谢！肥皂也在哪儿吗？",
+        "translation": "ありがとうございます！石鹸もそこですか？",
         "highlights": [
-          "这",
-          "是",
-          "吗"
+          "谢谢",
+          "哪儿",
+          "也"
         ]
       },
       {
         "speaker": "B",
-        "text": "是，这个是吧。",
-        "translation": "はい、これでしょう。",
+        "text": "是的，肥皂在洗发水旁边的里边。",
+        "translation": "はい、石鹸はシャンプーの隣の内側にあります。",
         "highlights": [
-          "是",
-          "这",
-          "吧"
+          "在",
+          "旁边",
+          "里边"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "在哪里？",
-        "translation": "どこにありますか？"
+        "phrase": "请问，洗发水在哪儿？",
+        "translation": "すみません、シャンプーはどこにありますか？"
       },
       {
-        "phrase": "在那里",
-        "translation": "あそこにあります"
+        "phrase": "洗发水在哪儿有，您看那儿。",
+        "translation": "シャンプーはあそこにあります。ご覧ください。"
       },
       {
-        "phrase": "是吗？",
-        "translation": "そうですか？"
+        "phrase": "肥皂也在哪儿吗？",
+        "translation": "石鹸もそこですか？"
       },
       {
-        "phrase": "是吧",
-        "translation": "そうでしょう"
+        "phrase": "是的，肥皂在洗发水旁边的里边。",
+        "translation": "はい、石鹸はシャンプーの隣の内側にあります。"
       }
     ]
   },
@@ -331,154 +259,133 @@
       {
         "word": "要",
         "pos": "verb",
-        "phonetic": "jɑʊ̯˥˩",
-        "translation": "欲しい、〜したい",
-        "note": "注文で「〜をください」の意味でよく使う",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
+        "phonetic": "yào",
+        "translation": "欲しい、要る",
+        "note": "主に「欲しい」「要る」の意味で使う、注文の際に頻出"
+      },
+      {
+        "word": "什么",
+        "pos": "pronoun",
+        "phonetic": "shénme",
+        "translation": "何（ですか）",
+        "note": "疑問文で「何が」「何を」を表す疑問詞"
       },
       {
         "word": "杯",
-        "pos": "noun (量詞)",
-        "phonetic": "peɪ̯˥",
-        "translation": "カップ（飲み物の量詞）",
-        "note": "飲み物を数えるときに使う",
-        "pinyin": "bēi",
-        "pinyin_num": "bei1"
-      },
-      {
-        "word": "咖啡",
         "pos": "noun",
-        "phonetic": "kʰɑ˥˥ feɪ̯˥",
-        "translation": "コーヒー",
-        "note": "「茶」はお茶、これと混同しない",
-        "pinyin": "kā fēi",
-        "pinyin_num": "ka1 fei1"
+        "phonetic": "bēi",
+        "translation": "杯",
+        "note": "飲み物を数える量詞"
       },
       {
-        "word": "热",
-        "pos": "adjective",
-        "phonetic": "ʐɤ˥˩",
-        "translation": "熱い",
-        "note": "温度が高いこと。飲み物では「ホット」の意味",
-        "pinyin": "rè",
-        "pinyin_num": "re4"
+        "word": "水",
+        "pos": "noun",
+        "phonetic": "shuǐ",
+        "translation": "水"
       },
       {
-        "word": "冰",
-        "pos": "noun/adj",
-        "phonetic": "piŋ˥",
-        "translation": "氷、冷たい",
-        "note": "「冰咖啡」でアイスコーヒー",
-        "pinyin": "bīng",
-        "pinyin_num": "bing1"
+        "word": "一共",
+        "pos": "adv",
+        "phonetic": "yígòng",
+        "translation": "合計で"
       },
       {
-        "word": "喝",
-        "pos": "verb",
-        "phonetic": "xɤ˥",
-        "translation": "飲む",
-        "note": "液体を飲む動作",
-        "pinyin": "hē",
-        "pinyin_num": "he1"
-      },
-      {
-        "word": "还",
-        "pos": "adverb",
-        "phonetic": "xaɪ̯˧˥",
-        "translation": "また、さらに",
-        "note": "追加の注文や「まだ」の意味にも",
-        "pinyin": "hái",
-        "pinyin_num": "hai2"
-      },
-      {
-        "word": "一点",
-        "pos": "adverb/quantifier",
-        "phonetic": "i˥˥ tiɛn˨˩˦",
-        "translation": "少し、ちょっと",
-        "note": "量や程度が少ないことを表す",
-        "pinyin": "yì diǎn",
-        "pinyin_num": "yi4 dian3"
+        "word": "多少",
+        "pos": "pronoun",
+        "phonetic": "duōshǎo",
+        "translation": "いくら（ですか）"
       },
       {
         "word": "钱",
         "pos": "noun",
-        "phonetic": "tɕʰjɛn˧˥",
-        "translation": "お金",
-        "note": "値段を聞くときに「多少钱？」",
-        "pinyin": "qián",
-        "pinyin_num": "qian2"
+        "phonetic": "qián",
+        "translation": "お金"
       },
       {
         "word": "给",
-        "pos": "verb/prep",
-        "phonetic": "keɪ̯˨˩˦",
-        "translation": "与える、〜に",
-        "note": "「给我」で「私にください」",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
+        "pos": "verb",
+        "phonetic": "gěi",
+        "translation": "与える、渡す"
+      },
+      {
+        "word": "找",
+        "pos": "verb",
+        "phonetic": "zhǎo",
+        "translation": "お釣りを出す"
+      },
+      {
+        "word": "零钱",
+        "pos": "noun",
+        "phonetic": "língqián",
+        "translation": "小銭"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "你好，我要一杯咖啡。",
-        "translation": "こんにちは、コーヒーを一杯ください。",
+        "speaker": "客人",
+        "text": "请给我一杯水。",
+        "translation": "水を一杯ください。",
+        "highlights": [
+          "给",
+          "我",
+          "一杯",
+          "水"
+        ]
+      },
+      {
+        "speaker": "店員",
+        "text": "您要什么？",
+        "translation": "何にしますか？",
         "highlights": [
           "要",
-          "杯",
-          "咖啡"
+          "什么"
         ]
       },
       {
-        "speaker": "B",
-        "text": "热的还是冰的？",
-        "translation": "ホットとアイス、どちらですか？",
+        "speaker": "客人",
+        "text": "一共多少钱？",
+        "translation": "合計でいくらですか？",
         "highlights": [
-          "热",
-          "冰"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我要冰的，还给我一点水。",
-        "translation": "アイスでお願いします。あと、水も少しください。",
-        "highlights": [
-          "冰",
-          "还",
-          "给",
-          "一点"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "好的，一共多少钱？",
-        "translation": "かしこまりました。全部でいくらですか？",
-        "highlights": [
+          "一共",
+          "多少",
           "钱"
         ]
       },
       {
-        "speaker": "A",
-        "text": "给你。谢谢！",
-        "translation": "はい、どうぞ。ありがとう！",
+        "speaker": "店員",
+        "text": "三十元，给您。",
+        "translation": "30元です、どうぞ。",
         "highlights": [
-          "给"
+          "给",
+          "您"
+        ]
+      },
+      {
+        "speaker": "客人",
+        "text": "请找我零钱。",
+        "translation": "お釣りをお願いします。",
+        "highlights": [
+          "找",
+          "零钱"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要一杯咖啡",
-        "translation": "コーヒーを一杯ください"
+        "phrase": "请给我一杯水。",
+        "translation": "水を一杯ください。"
       },
       {
-        "phrase": "热的还是冰的？",
-        "translation": "ホットとアイス、どちらですか？"
+        "phrase": "您要什么？",
+        "translation": "何にしますか？"
       },
       {
-        "phrase": "多少钱？",
-        "translation": "いくらですか？"
+        "phrase": "一共多少钱？",
+        "translation": "合計でいくらですか？"
+      },
+      {
+        "phrase": "请找我零钱。",
+        "translation": "お釣りをお願いします。"
       }
     ]
   },
@@ -491,148 +398,131 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "去",
-        "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
-        "translation": "行く",
-        "note": "目的地へ行くことを表す",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
-      },
-      {
-        "word": "一个",
-        "pos": "det",
-        "phonetic": "i˥˩ kɤ˥˩",
-        "translation": "一つ",
-        "note": "数量詞の「一个」",
-        "pinyin": "yí gè",
-        "pinyin_num": "yi2 ge4"
-      },
-      {
-        "word": "票",
+        "word": "车",
         "pos": "noun",
-        "phonetic": "pʰjɑʊ̯˥˩",
-        "translation": "切符",
-        "note": "チケット",
-        "pinyin": "piào",
-        "pinyin_num": "piao4"
+        "phonetic": "chē",
+        "translation": "車（くるま / 汽車）",
+        "note": "主に「汽車（列車）」「バス」「自動車」などの輸送機関を指す"
       },
       {
-        "word": "这里",
-        "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩ li˨˩˦",
-        "translation": "ここ",
-        "note": "場所を指す",
-        "pinyin": "zhè lǐ",
-        "pinyin_num": "zhe4 li3"
-      },
-      {
-        "word": "到",
-        "pos": "prep",
-        "phonetic": "tɑʊ̯˥˩",
-        "translation": "～まで",
-        "note": "到達点を表す",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
-      },
-      {
-        "word": "多少钱",
-        "pos": "pron",
-        "phonetic": "tʊ̯ɔ˥˥ ɕjɛn˥˩ tɕʰjɛn˧˥",
-        "translation": "いくら",
-        "note": "値段を尋ねる表現",
-        "pinyin": "duō shǎo qián",
-        "pinyin_num": "duo1 shao3 qian2"
+        "word": "站",
+        "pos": "noun",
+        "phonetic": "zhàn",
+        "translation": "駅・停留所",
+        "note": "「バス停」「駅」「停留所」などの停留地を指す"
       },
       {
         "word": "买",
         "pos": "verb",
-        "phonetic": "maɪ̯˨˩˦",
-        "translation": "買う",
-        "note": "購入する",
-        "pinyin": "mǎi",
-        "pinyin_num": "mai3"
+        "phonetic": "mǎi",
+        "translation": "買う"
       },
       {
-        "word": "从",
+        "word": "票",
+        "pos": "noun",
+        "phonetic": "piào",
+        "translation": "切符・チケット"
+      },
+      {
+        "word": "去",
+        "pos": "verb",
+        "phonetic": "qù",
+        "translation": "行く"
+      },
+      {
+        "word": "哪",
+        "pos": "pron",
+        "phonetic": "nǎ",
+        "translation": "どの・どれ"
+      },
+      {
+        "word": "到",
         "pos": "prep",
-        "phonetic": "tsʰʊŋ˧˥",
-        "translation": "～から",
-        "note": "出発点を表す",
-        "pinyin": "cóng",
-        "pinyin_num": "cong2"
+        "phonetic": "dào",
+        "translation": "～まで（目的地を示す）"
       },
       {
-        "word": "可以",
-        "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦ i˨˩˦",
-        "translation": "～できる",
-        "note": "可能を表す助動詞",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "word": "时间",
+        "pos": "noun",
+        "phonetic": "shíjiān",
+        "translation": "時間"
       },
       {
-        "word": "谢谢",
-        "pos": "verb",
-        "phonetic": "ɕjɛ˥˩ ɕjɛ˥˩",
-        "translation": "ありがとう",
-        "note": "感謝を表す",
-        "pinyin": "xiè xiè",
-        "pinyin_num": "xie4 xie4"
+        "word": "太",
+        "pos": "adv",
+        "phonetic": "tài",
+        "translation": "あまりに・～すぎる"
+      },
+      {
+        "word": "了",
+        "pos": "particle",
+        "phonetic": "le",
+        "translation": "完了や変化を表す語気助詞",
+        "note": "文末に使われ、状況の変化や完了を示す"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我要买一张票，去北京。",
-        "translation": "こんにちは、北京行きの切符を一枚買いたいです。",
+        "text": "请问，我要买去北京的车票。",
+        "translation": "すみません、北京行きの切符を買いたいのですが。",
         "highlights": [
-          "买",
-          "票",
-          "去"
+          "车票",
+          "去",
+          "北京"
         ]
       },
       {
         "speaker": "B",
-        "text": "从这里到北京，多少钱？",
-        "translation": "ここから北京までいくらですか？",
+        "text": "您要到哪个站？",
+        "translation": "どの駅まで行かれますか？",
         "highlights": [
-          "这里",
-          "到",
-          "多少钱"
+          "哪",
+          "站",
+          "到"
         ]
       },
       {
         "speaker": "A",
-        "text": "一个票，五十块钱。",
-        "translation": "一枚、五十元です。",
+        "text": "北京站。今天下午的票多少钱？",
+        "translation": "北京駅です。今日の午後の切符はいくらですか？",
         "highlights": [
-          "一个"
+          "车",
+          "时间",
+          "票"
         ]
       },
       {
         "speaker": "B",
-        "text": "可以，我要一个。谢谢！",
-        "translation": "いいですね、一枚ください。ありがとう！",
+        "text": "三十五块。太贵了，还有便宜一点的吗？",
+        "translation": "35元です。高すぎますね、もう少し安いのはありますか？",
         "highlights": [
-          "可以",
-          "一个",
-          "谢谢"
+          "太",
+          "了"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "下一班是下午三点的。",
+        "translation": "次の便は午後3時のものです。",
+        "highlights": [
+          "车",
+          "时间"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要买一张票",
-        "translation": "切符を一枚買いたい"
+        "phrase": "我要买去北京的车票。",
+        "translation": "北京行きの切符を買いたいです。"
       },
       {
-        "phrase": "从这里到北京多少钱？",
-        "translation": "ここから北京までいくらですか？"
+        "phrase": "您要到哪个站？",
+        "translation": "どの駅まで行かれますか？"
       },
       {
-        "phrase": "可以，我要一个。",
-        "translation": "いいですね、一枚ください。"
+        "phrase": "太贵了，还有便宜一点的吗？",
+        "translation": "高すぎますね、もう少し安いのはありますか？"
       }
     ]
   },
@@ -645,148 +535,130 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
+        "word": "早上",
+        "pos": "noun",
+        "phonetic": "zǎo shang",
+        "translation": "朝、午前",
+        "note": "時間帯や時刻を表す。例：早上好"
+      },
+      {
+        "word": "住",
+        "pos": "verb",
+        "phonetic": "zhù",
+        "translation": "住む、滞在する",
+        "note": "宿泊先で使う。例：我住在这里"
+      },
+      {
         "word": "房间",
         "pos": "noun",
-        "phonetic": "fángjiān",
+        "phonetic": "fáng jiān",
         "translation": "部屋",
-        "note": "ホテルの部屋を指す一般的な名詞",
-        "pinyin": "fáng jiān",
-        "pinyin_num": "fang2 jian1"
+        "note": "ホテルの部屋を指す。"
       },
       {
         "word": "预订",
         "pos": "verb",
-        "phonetic": "yùdìng",
+        "phonetic": "yù dìng",
         "translation": "予約する",
-        "note": "ホテルやレストランなどの予約に使う",
-        "pinyin": "yù dìng",
-        "pinyin_num": "yu4 ding4"
+        "note": "事前にホテルの部屋を確保する。"
       },
       {
-        "word": "入住",
-        "pos": "verb",
-        "phonetic": "rùzhù",
-        "translation": "チェックインする",
-        "note": "ホテルに滞在し始めること",
-        "pinyin": "rù zhù",
-        "pinyin_num": "ru4 zhu4"
-      },
-      {
-        "word": "需要",
-        "pos": "verb",
-        "phonetic": "xūyào",
-        "translation": "必要とする",
-        "note": "目的語を取る他動詞",
-        "pinyin": "xū yào",
-        "pinyin_num": "xu1 yao4"
-      },
-      {
-        "word": "护照",
+        "word": "姓名",
         "pos": "noun",
-        "phonetic": "hùzhào",
-        "translation": "パスポート",
-        "note": "旅行の際に必要な身分証明書",
-        "pinyin": "hù zhào",
-        "pinyin_num": "hu4 zhao4"
+        "phonetic": "xìng míng",
+        "translation": "氏名",
+        "note": "正式な名前の表記。"
       },
       {
-        "word": "给您",
-        "pos": "verb phrase",
-        "phonetic": "gěi nín",
-        "translation": "差し上げます",
-        "note": "「給」+「您（丁寧な『あなた』）」で、物を渡す尊敬表現",
-        "pinyin": "gěi nín",
-        "pinyin_num": "gei3 nin2"
-      },
-      {
-        "word": "行李",
+        "word": "号码",
         "pos": "noun",
-        "phonetic": "xínglǐ",
-        "translation": "荷物",
-        "note": "旅行用のスーツケースやバッグ",
-        "pinyin": "xíng li",
-        "pinyin_num": "xing2 li0"
+        "phonetic": "hào mǎ",
+        "translation": "番号",
+        "note": "部屋番号や電話番号を指す。"
       },
       {
-        "word": "帮",
-        "pos": "verb",
-        "phonetic": "bāng",
-        "translation": "手伝う",
-        "note": "「帮 + 人 + 動詞」の構文で使う",
-        "pinyin": "bāng",
-        "pinyin_num": "bang1"
+        "word": "那",
+        "pos": "pron",
+        "phonetic": "nà",
+        "translation": "それ、あれ",
+        "note": "指示代名詞。例：那个房间"
       },
       {
-        "word": "拿",
-        "pos": "verb",
-        "phonetic": "ná",
-        "translation": "持つ、運ぶ",
-        "note": "手で持って運ぶ動作",
-        "pinyin": "ná",
-        "pinyin_num": "na2"
+        "word": "位",
+        "pos": "measure word",
+        "phonetic": "wèi",
+        "translation": "～人（敬称の量詞）",
+        "note": "人を数える際に使う。例：两位客人"
       },
       {
-        "word": "二楼",
-        "pos": "noun",
-        "phonetic": "èr lóu",
-        "translation": "2階",
-        "note": "建物の階数を表す（中国では1階は「一楼」）",
-        "pinyin": "èr lóu",
-        "pinyin_num": "er4 lou2"
+        "word": "可以",
+        "pos": "modal verb",
+        "phonetic": "kě yǐ",
+        "translation": "～してもよい、できる",
+        "note": "許可を求める際に使う。例：可以进来吗？"
+      },
+      {
+        "word": "还",
+        "pos": "adv",
+        "phonetic": "hái",
+        "translation": "まだ、さらに",
+        "note": "状態の継続や追加を表す。例：还需要帮忙吗？"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A (お客様)",
-        "text": "你好，我预订了房间，现在需要入住。",
-        "translation": "こんにちは、部屋を予約しました。今チェックインが必要です。",
+        "speaker": "A",
+        "text": "早上好！请问您预订了房间吗？",
+        "translation": "おはようございます！お部屋は予約されていますか？",
         "highlights": [
-          "预订",
-          "房间",
-          "需要",
-          "入住"
+          "早上",
+          "预订"
         ]
       },
       {
-        "speaker": "B (フロント係)",
-        "text": "好的，请给我您的护照。",
-        "translation": "かしこまりました。パスポートをください。",
+        "speaker": "B",
+        "text": "是的，我住那家酒店。姓名是铃木太郎。",
+        "translation": "はい、あのホテルに滞在します。名前は鈴木太郎です。",
         "highlights": [
-          "护照"
+          "住",
+          "姓名"
         ]
       },
       {
-        "speaker": "A (お客様)",
-        "text": "给您，这是我的护照。",
-        "translation": "どうぞ、これが私のパスポートです。",
+        "speaker": "A",
+        "text": "好的，您的房间号码是305。两位客人可以进来吗？",
+        "translation": "承知しました。お部屋の番号は305号室です。お二人様でお入りいただけますか？",
         "highlights": [
-          "给您"
+          "号码",
+          "位",
+          "可以"
         ]
       },
       {
-        "speaker": "B (フロント係)",
-        "text": "谢谢。您的房间在二楼，我帮您拿行李。",
-        "translation": "ありがとうございます。お部屋は2階です。お荷物をお運びします。",
+        "speaker": "B",
+        "text": "可以，还需要帮忙吗？",
+        "translation": "はい、大丈夫です。他に手伝うことはありますか？",
         "highlights": [
-          "二楼",
-          "帮",
-          "拿",
-          "行李"
+          "还"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我预订了房间",
-        "translation": "部屋を予約しました"
+        "phrase": "早上好！请问您预订了房间吗？",
+        "translation": "おはようございます！お部屋は予約されていますか？"
       },
       {
-        "phrase": "给您",
-        "translation": "どうぞ（差し上げます）"
+        "phrase": "您的房间号码是305。",
+        "translation": "お部屋の番号は305号室です。"
       },
       {
-        "phrase": "帮您拿行李",
-        "translation": "お荷物をお運びします"
+        "phrase": "两位客人可以进来吗？",
+        "translation": "お二人様でお入りいただけますか？"
+      },
+      {
+        "phrase": "还需要帮忙吗？",
+        "translation": "他に手伝うことはありますか？"
       }
     ]
   },
@@ -799,155 +671,129 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
+        "word": "对",
+        "pos": "prep",
+        "phonetic": "duì",
+        "translation": "～に対して、～に向かって",
+        "note": "使われる時に「向かって」の意味もある。例：「对他笑」"
+      },
+      {
+        "word": "说",
+        "pos": "verb",
+        "phonetic": "shuō",
+        "translation": "言う、話す"
+      },
+      {
         "word": "家",
         "pos": "noun",
-        "phonetic": "tɕja˥",
-        "translation": "家",
-        "note": "「家」は「いえ」や「家庭」を意味します。",
-        "pinyin": "jiā",
-        "pinyin_num": "jia1"
+        "phonetic": "jiā",
+        "translation": "家、家庭"
       },
       {
-        "word": "住",
-        "pos": "verb",
-        "phonetic": "ʈʂu˥˩",
-        "translation": "住む",
-        "note": "「〜に住む」は「住在〜」とも言います。",
-        "pinyin": "zhù",
-        "pinyin_num": "zhu4"
-      },
-      {
-        "word": "新",
-        "pos": "adj",
-        "phonetic": "ɕin˥",
-        "translation": "新しい",
-        "note": "形容詞として名詞の前に置きます。",
-        "pinyin": "xīn",
-        "pinyin_num": "xin1"
-      },
-      {
-        "word": "邻居",
+        "word": "孩子",
         "pos": "noun",
-        "phonetic": "lin˧˥ tɕy˥",
-        "translation": "隣人、近所の人",
-        "note": "「隣人」を表します。",
-        "pinyin": "lín jū",
-        "pinyin_num": "lin2 ju1"
-      },
-      {
-        "word": "我们",
-        "pos": "pron",
-        "phonetic": "u̯o˨˩˦ mən",
-        "translation": "私たち",
-        "note": "一人称複数。",
-        "pinyin": "wǒ men",
-        "pinyin_num": "wo3 men0"
+        "phonetic": "hái zi",
+        "translation": "子供"
       },
       {
         "word": "都",
         "pos": "adv",
-        "phonetic": "tou˥",
-        "translation": "みんな、すべて",
-        "note": "主語の後に置き、「すべて〜」と強調します。",
-        "pinyin": "dōu",
-        "pinyin_num": "dou1"
+        "phonetic": "dōu",
+        "translation": "全て、全部"
       },
       {
-        "word": "和",
-        "pos": "conj",
-        "phonetic": "xɤ˧˥",
-        "translation": "〜と",
-        "note": "名詞を並列する接続詞。",
-        "pinyin": "hé",
-        "pinyin_num": "he2"
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "良い、立派な"
       },
       {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "iɛ˨˩˦",
-        "translation": "〜も",
-        "note": "既に学習済みですが、ここでは「〜もまた」の用法で使います。",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
+        "word": "一下",
+        "pos": "particle",
+        "phonetic": "yī xià",
+        "translation": "ちょっと、少し（動作の軽い実行を表す）"
+      },
+      {
+        "word": "住",
+        "pos": "verb",
+        "phonetic": "zhù",
+        "translation": "住む"
+      },
+      {
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shí hou",
+        "translation": "時、時間"
       },
       {
         "word": "在",
         "pos": "prep",
-        "phonetic": "tsai˥˩",
-        "translation": "〜に（場所）",
-        "note": "場所を示す前置詞。",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "来",
-        "pos": "verb",
-        "phonetic": "lai˧˥",
-        "translation": "来る",
-        "note": "「〜しに来る」の用法もあります。",
-        "pinyin": "lái",
-        "pinyin_num": "lai2"
+        "phonetic": "zài",
+        "translation": "～に（位置を表す）"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我是新来的邻居，我住在一楼。",
-        "translation": "こんにちは、私は新しく来た隣人です。1階に住んでいます。",
+        "text": "对, 你好像有孩子。",
+        "translation": "あの、子供がいるようですね。",
         "highlights": [
-          "新",
-          "邻居",
-          "住",
-          "在"
+          "对"
         ]
       },
       {
         "speaker": "B",
-        "text": "你好！我们也是这里的邻居，我姓王。",
-        "translation": "こんにちは！私たちもここの隣人です。私は王と申します。",
+        "text": "对, 是的。家里有两个孩子。",
+        "translation": "ええ、そうです。家には子供が二人います。",
         "highlights": [
-          "我们",
-          "邻居",
-          "也"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "王先生，您家有几口人？",
-        "translation": "王さん、ご家族は何人ですか？",
-        "highlights": [
+          "对",
           "家"
         ]
       },
       {
-        "speaker": "B",
-        "text": "我家有我和我太太，还有两个小孩。我们都住在这里。",
-        "translation": "私の家は私と妻、そして子供が2人です。みんなここに住んでいます。",
+        "speaker": "A",
+        "text": "他们都好可爱！",
+        "translation": "彼らはみんなとても可愛いですね！",
         "highlights": [
-          "家",
           "都",
-          "住",
-          "和"
+          "好"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "谢谢！您也住在这里吗？",
+        "translation": "ありがとうございます！あなたもここに住んでいるんですか？",
+        "highlights": [
+          "住"
         ]
       },
       {
         "speaker": "A",
-        "text": "太好了，以后我们可以一起来喝茶。",
-        "translation": "よかった、これから一緒にお茶を飲みに来られますね。",
+        "text": "对, 我住在对门。",
+        "translation": "ええ、私はお向かいに住んでいます。",
         "highlights": [
-          "来",
-          "我们"
+          "对",
+          "住",
+          "在"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我是新来的邻居",
-        "translation": "私は新しく来た隣人です。"
+        "phrase": "对, 你好像有孩子。",
+        "translation": "あの、子供がいるようですね。"
       },
       {
-        "phrase": "我们都住在这里",
-        "translation": "私たちはみんなここに住んでいます。"
+        "phrase": "他们都好可爱！",
+        "translation": "彼らはみんなとても可愛いですね！"
+      },
+      {
+        "phrase": "您也住在这里吗？",
+        "translation": "あなたもここに住んでいるんですか？"
+      },
+      {
+        "phrase": "我住在对门。",
+        "translation": "私はお向かいに住んでいます。"
       }
     ]
   },
@@ -962,172 +808,130 @@
       {
         "word": "现在",
         "pos": "noun",
-        "phonetic": "ɕjɛn˥˩ tsai˥˩",
-        "translation": "今",
-        "note": "「今」という意味。時間を尋ねるときは「现在几点？」のように使う。",
-        "pinyin": "xiàn zài",
-        "pinyin_num": "xian4 zai4"
-      },
-      {
-        "word": "点",
-        "pos": "noun",
-        "phonetic": "tjɛn˨˩˦",
-        "translation": "時（〜時）",
-        "note": "時刻を表す「〜時」。例：两点＝2時。",
-        "pinyin": "diǎn",
-        "pinyin_num": "dian3"
-      },
-      {
-        "word": "半",
-        "pos": "noun",
-        "phonetic": "pan˥˩",
-        "translation": "半（30分）",
-        "note": "「〜時半」で「〜時30分」を表す。",
-        "pinyin": "bàn",
-        "pinyin_num": "ban4"
+        "phonetic": "xiànzài",
+        "translation": "いま",
+        "note": "時間を表すときに使う。"
       },
       {
         "word": "几",
         "pos": "pron",
-        "phonetic": "tɕi˨˩˦",
-        "translation": "いくつ",
-        "note": "数を尋ねる疑問詞。「几点」で「何時」。",
-        "pinyin": "jǐ",
-        "pinyin_num": "ji3"
+        "phonetic": "jǐ",
+        "translation": "いくつ（数を尋ねる）"
       },
       {
-        "word": "知道",
-        "pos": "verb",
-        "phonetic": "ʈʂɻ̩˥˥ tau˥˩",
-        "translation": "知っている",
-        "note": "「知る」「分かる」の意味。否定は「不知道」。",
-        "pinyin": "zhī dào",
-        "pinyin_num": "zhi1 dao4"
-      },
-      {
-        "word": "对不起",
-        "pos": "verb",
-        "phonetic": "twei˥˩ pu˥˩ tɕʰi˨˩˦",
-        "translation": "すみません、申し訳ありません",
-        "note": "謝罪や呼びかけに使う。",
-        "pinyin": "duì bù qǐ",
-        "pinyin_num": "dui4 bu4 qi3"
-      },
-      {
-        "word": "没",
-        "pos": "adv",
-        "phonetic": "mei˧˥",
-        "translation": "〜ない（否定）",
-        "note": "動作の完了や状態を否定する「没」。「没有」の略としても使う。",
-        "pinyin": "méi",
-        "pinyin_num": "mei2"
-      },
-      {
-        "word": "关系",
+        "word": "点",
         "pos": "noun",
-        "phonetic": "kwan˥˥ ɕi˥˩",
-        "translation": "関係",
-        "note": "「没关系」で「大丈夫です」「気にしないで」。",
-        "pinyin": "guān xì",
-        "pinyin_num": "guan1 xi4"
-      },
-      {
-        "word": "等",
-        "pos": "verb",
-        "phonetic": "təŋ˨˩˦",
-        "translation": "待つ",
-        "note": "「等一下」で「ちょっと待って」。",
-        "pinyin": "děng",
-        "pinyin_num": "deng3"
+        "phonetic": "diǎn",
+        "translation": "時（○時○分）"
       },
       {
         "word": "分",
         "pos": "noun",
-        "phonetic": "fən˥˥",
-        "translation": "分（時間の単位）",
-        "note": "時刻の「分」を表す。例：五点十分＝5時10分。",
-        "pinyin": "fēn",
-        "pinyin_num": "fen1"
+        "phonetic": "fēn",
+        "translation": "分（○時○分）"
+      },
+      {
+        "word": "知道",
+        "pos": "verb",
+        "phonetic": "zhīdào",
+        "translation": "知っている"
+      },
+      {
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shíhou",
+        "translation": "とき"
+      },
+      {
+        "word": "现在",
+        "pos": "adv",
+        "phonetic": "xiànzài",
+        "translation": "いま"
+      },
+      {
+        "word": "快",
+        "pos": "adj",
+        "phonetic": "kuài",
+        "translation": "はやい（時間的に）"
+      },
+      {
+        "word": "了",
+        "pos": "particle",
+        "phonetic": "le",
+        "translation": "完了や変化を表す助詞"
+      },
+      {
+        "word": "大概",
+        "pos": "adv",
+        "phonetic": "dàgài",
+        "translation": "おそらく"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "对不起，现在几点？",
-        "translation": "すみません、今何時ですか。",
+        "speaker": "B",
+        "text": "请问，现在几点？",
+        "translation": "すみません、今何時ですか？",
         "highlights": [
-          "对不起",
+          "请问",
           "现在",
           "几点"
         ]
       },
       {
-        "speaker": "B",
-        "text": "现在三点半。",
-        "translation": "今3時半です。",
+        "speaker": "A",
+        "text": "现在三点半了。",
+        "translation": "今、3時半です。",
         "highlights": [
           "现在",
           "点",
-          "半"
+          "了"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "知道了。这附近有银行吗？",
+        "translation": "わかりました。この近くに銀行はありますか？",
+        "highlights": [
+          "知道了",
+          "时候"
         ]
       },
       {
         "speaker": "A",
-        "text": "你知道现在几点吗？",
-        "translation": "今何時か知っていますか。",
+        "text": "大概四点的时候银行还开门。",
+        "translation": "おそらく4時ごろまで銀行は開いていると思います。",
         "highlights": [
-          "知道",
-          "现在",
-          "几点"
+          "大概",
+          "时候"
         ]
       },
       {
         "speaker": "B",
-        "text": "不知道，没表。等一下，我看手机。",
-        "translation": "知らない、時計がない。ちょっと待って、携帯を見ます。",
+        "text": "太好了！快四点了。",
+        "translation": "よかった！もう4時ですね。",
         "highlights": [
-          "不知道",
-          "没",
-          "等",
-          "一下",
-          "看"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "现在五点十分。",
-        "translation": "今5時10分です。",
-        "highlights": [
-          "现在",
-          "点",
-          "分"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "没关系，谢谢！",
-        "translation": "大丈夫です、ありがとう！",
-        "highlights": [
-          "没关系"
+          "快",
+          "了"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "现在几点？",
-        "translation": "今何時ですか？"
+        "phrase": "请问，现在几点？",
+        "translation": "すみません、今何時ですか？"
       },
       {
-        "phrase": "三点半",
-        "translation": "3時半"
+        "phrase": "现在三点半了。",
+        "translation": "今、3時半です。"
       },
       {
-        "phrase": "不知道",
-        "translation": "知らない"
+        "phrase": "知道了。",
+        "translation": "わかりました。"
       },
       {
-        "phrase": "没关系",
-        "translation": "大丈夫です"
+        "phrase": "大概四点的时候银行还开门。",
+        "translation": "おそらく4時ごろまで銀行は開いていると思います。"
       }
     ]
   },
@@ -1142,156 +946,130 @@
       {
         "word": "医生",
         "pos": "noun",
-        "phonetic": "[i˥ ʂəŋ˥]",
-        "translation": "医者",
-        "note": "一般的な医者を指す。",
-        "pinyin": "yī shēng",
-        "pinyin_num": "yi1 sheng1"
-      },
-      {
-        "word": "我",
-        "pos": "pron",
-        "phonetic": "[u̯o˨˩˦]",
-        "translation": "私",
-        "note": "一人称代名詞。",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
-      },
-      {
-        "word": "你",
-        "pos": "pron",
-        "phonetic": "[ni˨˩˦]",
-        "translation": "あなた",
-        "note": "二人称代名詞。",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
-      },
-      {
-        "word": "很",
-        "pos": "adv",
-        "phonetic": "[xən˨˩˦]",
-        "translation": "とても",
-        "note": "形容詞の前におく程度副詞。",
-        "pinyin": "hěn",
-        "pinyin_num": "hen3"
-      },
-      {
-        "word": "好",
-        "pos": "adj",
-        "phonetic": "[xɑʊ̯˨˩˦]",
-        "translation": "良い、元気な",
-        "note": "状態が良いことを表す。",
-        "pinyin": "hǎo",
-        "pinyin_num": "hao3"
-      },
-      {
-        "word": "不",
-        "pos": "adv",
-        "phonetic": "[pu˥˩]",
-        "translation": "〜ない",
-        "note": "否定を表す。",
-        "pinyin": "bù",
-        "pinyin_num": "bu4"
-      },
-      {
-        "word": "觉得",
-        "pos": "verb",
-        "phonetic": "[tɕy̯ɛ˧˥ tɤ˧˥]",
-        "translation": "感じる、思う",
-        "note": "主観的な感覚や意見を述べる。",
-        "pinyin": "jué de",
-        "pinyin_num": "jue2 de0"
+        "phonetic": "yīsheng",
+        "translation": "医者、お医者さん"
       },
       {
         "word": "身体",
         "pos": "noun",
-        "phonetic": "[ʂən˥ tʰi˨˩˦]",
-        "translation": "体",
-        "note": "からだ全体を指す。",
-        "pinyin": "shēn tǐ",
-        "pinyin_num": "shen1 ti3"
+        "phonetic": "shēntǐ",
+        "translation": "体、身体"
       },
       {
-        "word": "但是",
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "良い、大丈夫な"
+      },
+      {
+        "word": "不",
+        "pos": "adv",
+        "phonetic": "bù",
+        "translation": "～でない、～ない"
+      },
+      {
+        "word": "很",
+        "pos": "adv",
+        "phonetic": "hěn",
+        "translation": "とても"
+      },
+      {
+        "word": "痛",
+        "pos": "adj",
+        "phonetic": "tòng",
+        "translation": "痛い"
+      },
+      {
+        "word": "这里",
+        "pos": "noun",
+        "phonetic": "zhèli",
+        "translation": "ここに、ここ"
+      },
+      {
+        "word": "叫",
+        "pos": "verb",
+        "phonetic": "jiào",
+        "translation": "言う、～と呼ばれる"
+      },
+      {
+        "word": "吗",
+        "pos": "particle",
+        "phonetic": "ma",
+        "translation": "疑問文の語気を表す"
+      },
+      {
+        "word": "和",
         "pos": "conj",
-        "phonetic": "[tan˥˩ ʂɻ̩˥˩]",
-        "translation": "しかし",
-        "note": "逆接の接続詞。",
-        "pinyin": "dàn shì",
-        "pinyin_num": "dan4 shi4"
-      },
-      {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "[ʂən˧˥ mə˧]",
-        "translation": "何",
-        "note": "疑問詞。",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
+        "phonetic": "hé",
+        "translation": "と"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "医生，您好。我身体不舒服。",
-        "translation": "医者さん、こんにちは。体の調子が悪いです。",
-        "highlights": [
-          "医生",
-          "我",
-          "身体"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你好。你觉得怎么样？",
-        "translation": "こんにちは。どのように感じますか？",
-        "highlights": [
-          "你",
-          "觉得"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我很好，但是很累。",
-        "translation": "私は大丈夫ですが、とても疲れています。",
-        "highlights": [
-          "很",
-          "好",
-          "但是"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你不舒服，但是很好？这是什么意思？",
-        "translation": "調子が悪いのに、大丈夫？これはどういう意味ですか？",
-        "highlights": [
-          "不",
-          "什么"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "身体不累，但是心很累。",
-        "translation": "体は疲れていませんが、心がとても疲れています。",
+        "speaker": "医者",
+        "text": "您好！请问身体怎么样？",
+        "translation": "こんにちは！体の具合はいかがですか？",
         "highlights": [
           "身体",
-          "不",
+          "怎么样"
+        ]
+      },
+      {
+        "speaker": "患者",
+        "text": "还好，就是这里有点痛。",
+        "translation": "まあまあです。ただ、ここが少し痛いです。",
+        "highlights": [
+          "好",
+          "这里",
+          "痛"
+        ]
+      },
+      {
+        "speaker": "医者",
+        "text": "请叫医生，您的身体很健康。",
+        "translation": "医者と呼んでください。あなたの体はとても健康です。",
+        "highlights": [
+          "叫",
+          "身体",
           "很"
+        ]
+      },
+      {
+        "speaker": "患者",
+        "text": "这里也有点不舒服。",
+        "translation": "ここも少し具合が悪いです。",
+        "highlights": [
+          "这里",
+          "也",
+          "不",
+          "舒服"
+        ]
+      },
+      {
+        "speaker": "医者",
+        "text": "请问您的名字和这里的痛是什么时候开始的吗？",
+        "translation": "お名前と、この痛みはいつから始まったのですか？",
+        "highlights": [
+          "请问",
+          "什么",
+          "时候",
+          "开始",
+          "吗"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我身体不舒服",
-        "translation": "体の調子が悪いです"
+        "phrase": "身体怎么样？",
+        "translation": "体の具合はどうですか？"
       },
       {
-        "phrase": "你觉得怎么样？",
-        "translation": "どのように感じますか？"
+        "phrase": "这里有点痛。",
+        "translation": "ここが少し痛いです。"
       },
       {
-        "phrase": "这是什么意思？",
-        "translation": "これはどういう意味ですか？"
+        "phrase": "您的身体很健康。",
+        "translation": "あなたの体はとても健康です。"
       }
     ]
   },
@@ -1304,152 +1082,147 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "这个",
+        "word": "请",
+        "pos": "verb",
+        "phonetic": "qǐng",
+        "translation": "どうか（丁寧な依頼）",
+        "note": "相手に何かを依頼するときに使う"
+      },
+      {
+        "word": "这里",
+        "pos": "pronoun",
+        "phonetic": "zhè li",
+        "translation": "ここ",
+        "note": "場所を指すときに使う"
+      },
+      {
+        "word": "有",
+        "pos": "verb",
+        "phonetic": "yǒu",
+        "translation": "ある・いる",
+        "note": "所有や存在を表す"
+      },
+      {
+        "word": "还",
+        "pos": "adv",
+        "phonetic": "hái",
+        "translation": "まだ・そのうえ",
+        "note": "追加や継続を表す副詞"
+      },
+      {
+        "word": "个",
+        "pos": "det",
+        "phonetic": "gè",
+        "translation": "個（量詞）",
+        "note": "数を数えるときに使う"
+      },
+      {
+        "word": "都",
+        "pos": "adv",
+        "phonetic": "dōu",
+        "translation": "全部・どれも",
+        "note": "複数のものを指すときに使う"
+      },
+      {
+        "word": "那",
         "pos": "pron",
-        "phonetic": "zhè ge",
-        "translation": "これ",
-        "note": "指示代名詞。物を指すときに使う。",
-        "pinyin": "zhè ge",
-        "pinyin_num": "zhe4 ge0"
+        "phonetic": "nà",
+        "translation": "それ・あれ",
+        "note": "遠くのものを指す指示代名詞"
       },
       {
-        "word": "一共",
-        "pos": "adv",
-        "phonetic": "yīgòng",
-        "translation": "全部で、合計で",
-        "note": "合計金額を言うときによく使う。",
-        "pinyin": "yí gòng",
-        "pinyin_num": "yi2 gong4"
+        "word": "张",
+        "pos": "mw",
+        "phonetic": "zhāng",
+        "translation": "枚（紙などの量詞）",
+        "note": "薄く平たいものを数える"
       },
       {
-        "word": "块",
-        "pos": "noun",
-        "phonetic": "kuài",
-        "translation": "元（お金の単位）",
-        "note": "口語で「元」の代わりに使う。",
-        "pinyin": "kuài",
-        "pinyin_num": "kuai4"
+        "word": "在",
+        "pos": "prep",
+        "phonetic": "zài",
+        "translation": "～で・～に",
+        "note": "場所を表す前置詞"
       },
       {
-        "word": "找",
+        "word": "行",
         "pos": "verb",
-        "phonetic": "zhǎo",
-        "translation": "（おつりを）渡す",
-        "note": "「おつりを探す」から転じて「おつりを渡す」意味。",
-        "pinyin": "zhǎo",
-        "pinyin_num": "zhao3"
-      },
-      {
-        "word": "收",
-        "pos": "verb",
-        "phonetic": "shōu",
-        "translation": "受け取る、収める",
-        "note": "お金を受け取る意味でも使う。",
-        "pinyin": "shōu",
-        "pinyin_num": "shou1"
-      },
-      {
-        "word": "现金",
-        "pos": "noun",
-        "phonetic": "xiànjīn",
-        "translation": "現金",
-        "note": "カードと対比して使うことが多い。",
-        "pinyin": "xiàn jīn",
-        "pinyin_num": "xian4 jin1"
-      },
-      {
-        "word": "卡",
-        "pos": "noun",
-        "phonetic": "kǎ",
-        "translation": "カード",
-        "note": "クレジットカードやデビットカードを指す。",
-        "pinyin": "kǎ",
-        "pinyin_num": "ka3"
-      },
-      {
-        "word": "刷",
-        "pos": "verb",
-        "phonetic": "shuā",
-        "translation": "（カードを）通す",
-        "note": "カードを決済する際に使う動詞。",
-        "pinyin": "shuā",
-        "pinyin_num": "shua1"
-      },
-      {
-        "word": "对",
-        "pos": "adj",
-        "phonetic": "duì",
-        "translation": "正しい、その通り",
-        "note": "相手の言ったことを確認するときにも使う。",
-        "pinyin": "duì",
-        "pinyin_num": "dui4"
-      },
-      {
-        "word": "先",
-        "pos": "adv",
-        "phonetic": "xiān",
-        "translation": "先に、まず",
-        "note": "順序を表す。",
-        "pinyin": "xiān",
-        "pinyin_num": "xian1"
+        "phonetic": "xíng",
+        "translation": "大丈夫・OK",
+        "note": "提案や依頼が受け入れられるときに使う"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A (客)",
-        "text": "一共多少钱？这个也收现金吗？",
-        "translation": "全部でいくらですか？これも現金で受け付けていますか？",
+        "speaker": "店員",
+        "text": "请问，这里有袋子吗？",
+        "translation": "すみません、ここにお袋はありますか？",
         "highlights": [
-          "一共",
-          "这个",
-          "收",
-          "现金"
+          "请",
+          "这里",
+          "有",
+          "个"
         ]
       },
       {
-        "speaker": "B (店員)",
-        "text": "一共十五块。现金可以，卡也可以刷。",
-        "translation": "全部で15元です。現金でもいいですし、カードも使えますよ。",
+        "speaker": "客",
+        "text": "有的。您要几个？",
+        "translation": "ありますよ。いくつほしいですか？",
         "highlights": [
-          "一共",
-          "块",
-          "现金",
-          "卡",
-          "刷"
+          "有",
+          "个"
         ]
       },
       {
-        "speaker": "A (客)",
-        "text": "好，我刷信用卡。这是找您的钱吗？",
-        "translation": "はい、クレジットカードでお願いします。これはあなたへのおつりですか？",
+        "speaker": "店員",
+        "text": "还需要那张纸，可以吗？",
+        "translation": "その紙も必要ですが、いいですか？",
         "highlights": [
-          "刷",
-          "找"
+          "还",
+          "那",
+          "张",
+          "行"
         ]
       },
       {
-        "speaker": "B (店員)",
-        "text": "对，先给您收据，然后找您钱。",
-        "translation": "はい、まずレシートをお渡しして、それからおつりを差し上げます。",
+        "speaker": "客",
+        "text": "都行。谢谢！",
+        "translation": "どれでも大丈夫。ありがとうございます！",
         "highlights": [
-          "对",
-          "先",
-          "找"
+          "都",
+          "行"
+        ]
+      },
+      {
+        "speaker": "店員",
+        "text": "请在这儿付款。",
+        "translation": "こちらでお支払いください。",
+        "highlights": [
+          "请",
+          "在"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "一共多少钱？",
-        "translation": "全部でいくらですか？"
+        "phrase": "请问，这里有袋子吗？",
+        "translation": "すみません、ここにお袋はありますか？"
       },
       {
-        "phrase": "刷信用卡",
-        "translation": "クレジットカードで支払う"
+        "phrase": "您要几个？",
+        "translation": "いくつほしいですか？"
       },
       {
-        "phrase": "找您钱",
-        "translation": "おつりを差し上げます"
+        "phrase": "还需要那张纸，可以吗？",
+        "translation": "その紙も必要ですが、いいですか？"
+      },
+      {
+        "phrase": "都行。",
+        "translation": "どれでも大丈夫。"
+      },
+      {
+        "phrase": "请在这儿付款。",
+        "translation": "こちらでお支払いください。"
       }
     ]
   },
@@ -1462,152 +1235,124 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "吗",
-        "pos": "part",
-        "phonetic": "ma",
-        "translation": "か（疑問の助詞）",
-        "note": "文末に置いて疑問文を作る",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
-      },
-      {
-        "word": "呢",
-        "pos": "part",
-        "phonetic": "ne",
-        "translation": "〜は？（相手に問い返す）",
-        "note": "文脈によっては「どう？」の意味",
-        "pinyin": "ne",
-        "pinyin_num": "ne0"
-      },
-      {
-        "word": "今天",
-        "pos": "noun",
-        "phonetic": "jīntiān",
-        "translation": "今日",
-        "pinyin": "jīn tiān",
-        "pinyin_num": "jin1 tian1"
-      },
-      {
-        "word": "明天",
-        "pos": "noun",
-        "phonetic": "míngtiān",
-        "translation": "明日",
-        "pinyin": "míng tiān",
-        "pinyin_num": "ming2 tian1"
-      },
-      {
-        "word": "时间",
-        "pos": "noun",
-        "phonetic": "shíjiān",
-        "translation": "時間",
-        "pinyin": "shí jiān",
-        "pinyin_num": "shi2 jian1"
-      },
-      {
-        "word": "有",
+        "word": "打",
         "pos": "verb",
-        "phonetic": "yǒu",
-        "translation": "ある、いる、持っている",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
+        "phonetic": "dǎ",
+        "translation": "かける（電話を）"
       },
       {
-        "word": "会",
+        "word": "电话",
+        "pos": "noun",
+        "phonetic": "diànhuà",
+        "translation": "電話"
+      },
+      {
+        "word": "见",
         "pos": "verb",
-        "phonetic": "huì",
-        "translation": "できる、〜するつもり",
-        "note": "可能や予定を表す",
-        "pinyin": "huì",
-        "pinyin_num": "hui4"
+        "phonetic": "jiàn",
+        "translation": "会う"
+      },
+      {
+        "word": "下午",
+        "pos": "noun",
+        "phonetic": "xiàwǔ",
+        "translation": "午後"
       },
       {
         "word": "想",
         "pos": "verb",
         "phonetic": "xiǎng",
-        "translation": "〜したい、思う",
-        "pinyin": "xiǎng",
-        "pinyin_num": "xiang3"
+        "translation": "思う、したい"
       },
       {
-        "word": "吧",
-        "pos": "part",
-        "phonetic": "ba",
-        "translation": "〜しよう（提案）",
-        "note": "文末で提案・勧誘を表す",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "良い"
       },
       {
-        "word": "太",
+        "word": "在",
+        "pos": "prep",
+        "phonetic": "zài",
+        "translation": "いる（場所に）"
+      },
+      {
+        "word": "地方",
+        "pos": "noun",
+        "phonetic": "dìfang",
+        "translation": "場所"
+      },
+      {
+        "word": "多",
         "pos": "adv",
-        "phonetic": "tài",
-        "translation": "とても、あまりにも",
-        "note": "「太…了」で「とても〜だ」",
-        "pinyin": "tài",
-        "pinyin_num": "tai4"
+        "phonetic": "duō",
+        "translation": "どのくらい"
+      },
+      {
+        "word": "也",
+        "pos": "adv",
+        "phonetic": "yě",
+        "translation": "もまた"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "喂，你今天有时间吗？",
-        "translation": "もしもし、今日時間ある？",
+        "text": "喂，你在哪个地方？",
+        "translation": "もしもし、あなたは今どこにいるの？",
         "highlights": [
-          "今天",
-          "有",
-          "时间",
-          "吗"
+          "在",
+          "地方"
         ]
       },
       {
         "speaker": "B",
-        "text": "有。你呢？",
-        "translation": "あるよ。君は？",
+        "text": "我在公园。下午想见面吗？",
+        "translation": "公園にいるよ。午後会いたい？",
         "highlights": [
-          "有",
-          "呢"
+          "我",
+          "下午",
+          "想"
         ]
       },
       {
         "speaker": "A",
-        "text": "我想去看电影，你会去吗？",
-        "translation": "映画を見に行きたいんだけど、行く？",
+        "text": "好啊，下午三点怎么样？",
+        "translation": "いいわよ、午後3時はどう？",
         "highlights": [
-          "想",
-          "会",
-          "吗"
+          "好",
+          "下午",
+          "点"
         ]
       },
       {
         "speaker": "B",
-        "text": "好，我们明天去吧。",
-        "translation": "いいよ、明日行こう。",
+        "text": "那里有公园的咖啡店，我们在哪儿见？",
+        "translation": "そこに公園のカフェがあるから、そこで会おうか？",
         "highlights": [
-          "明天",
-          "吧"
+          "那",
+          "地方",
+          "见"
         ]
       },
       {
         "speaker": "A",
-        "text": "太好了！明天见！",
-        "translation": "よかった！また明日！",
+        "text": "多长时间能到那里？我也坐车去。",
+        "translation": "そこまでどのくらい時間がかかる？私も車で行くわ。",
         "highlights": [
-          "太"
+          "多",
+          "也"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "有时间吗？",
-        "translation": "時間ある？"
+        "phrase": "下午见面吗？",
+        "translation": "午後会いたい？"
       },
       {
-        "phrase": "去吧",
-        "translation": "行こう（提案）"
-      },
-      {
-        "phrase": "太好了",
-        "translation": "よかった、最高"
+        "phrase": "在公园见",
+        "translation": "公園で会う"
       }
     ]
   },
@@ -1622,163 +1367,116 @@
       {
         "word": "爸爸",
         "pos": "noun",
-        "phonetic": "pa4 pa5",
-        "translation": "父、お父さん",
-        "note": "口語で一般的な呼称。",
-        "pinyin": "bà ba",
-        "pinyin_num": "ba4 ba0"
+        "phonetic": "bàba",
+        "translation": "父"
       },
       {
         "word": "妈妈",
         "pos": "noun",
-        "phonetic": "ma1 ma5",
-        "translation": "母、お母さん",
-        "note": "口語で一般的な呼称。",
-        "pinyin": "mā ma",
-        "pinyin_num": "ma1 ma0"
+        "phonetic": "māma",
+        "translation": "母"
       },
       {
         "word": "哥哥",
         "pos": "noun",
-        "phonetic": "ge1 ge5",
-        "translation": "兄、お兄さん",
-        "note": "年上の兄弟を指す。",
-        "pinyin": "gē ge",
-        "pinyin_num": "ge1 ge0"
+        "phonetic": "gēge",
+        "translation": "兄"
       },
       {
         "word": "姐姐",
         "pos": "noun",
-        "phonetic": "jie3 jie5",
-        "translation": "姉、お姉さん",
-        "note": "年上の姉妹を指す。",
-        "pinyin": "jiě jie",
-        "pinyin_num": "jie3 jie0"
+        "phonetic": "jiějie",
+        "translation": "姉"
       },
       {
-        "word": "孩子",
+        "word": "弟弟",
         "pos": "noun",
-        "phonetic": "hai2 zi5",
-        "translation": "子供",
-        "note": "子ども全般を指す。",
-        "pinyin": "hái zi",
-        "pinyin_num": "hai2 zi0"
+        "phonetic": "dìdi",
+        "translation": "弟"
+      },
+      {
+        "word": "妹妹",
+        "pos": "noun",
+        "phonetic": "mèimei",
+        "translation": "妹"
+      },
+      {
+        "word": "工作",
+        "pos": "verb/noun",
+        "phonetic": "gōngzuò",
+        "translation": "働く、仕事"
+      },
+      {
+        "word": "多大",
+        "pos": "pron",
+        "phonetic": "duō dà",
+        "translation": "いくつ"
+      },
+      {
+        "word": "几",
+        "pos": "pron",
+        "phonetic": "jǐ",
+        "translation": "いくつ"
       },
       {
         "word": "岁",
-        "pos": "noun",
-        "phonetic": "sui4",
-        "translation": "歳（年齢の単位）",
-        "note": "年齢を言うときに使う。",
-        "pinyin": "suì",
-        "pinyin_num": "sui4"
-      },
-      {
-        "word": "多",
-        "pos": "adj",
-        "phonetic": "duo1",
-        "translation": "多い、どれくらい",
-        "note": "「多少」の疑問文で使う。",
-        "pinyin": "duō",
-        "pinyin_num": "duo1"
-      },
-      {
-        "word": "少",
-        "pos": "adj",
-        "phonetic": "shao3",
-        "translation": "少ない",
-        "note": "「多少」の疑問文で使う。",
-        "pinyin": "shǎo",
-        "pinyin_num": "shao3"
-      },
-      {
-        "word": "还",
-        "pos": "adv",
-        "phonetic": "hai2",
-        "translation": "まだ、さらに、また",
-        "note": "追加や継続を表す。",
-        "pinyin": "hái",
-        "pinyin_num": "hai2"
-      },
-      {
-        "word": "就",
-        "pos": "adv",
-        "phonetic": "jiu4",
-        "translation": "ちょうど、それだけ",
-        "note": "数量を限定するときによく使う。",
-        "pinyin": "jiù",
-        "pinyin_num": "jiu4"
+        "pos": "measure word",
+        "phonetic": "suì",
+        "translation": "歳"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你家有几个人？",
-        "translation": "あなたの家族は何人ですか？",
+        "text": "你家有几口人？",
+        "translation": "あなたの家には何人いますか？",
         "highlights": [
           "几"
         ]
       },
       {
         "speaker": "B",
-        "text": "我家有爸爸妈妈，一个哥哥，一个姐姐，还有我，就五个人。",
-        "translation": "私の家族は、父と母、兄が一人、姉が一人、それに私で、ちょうど5人です。",
+        "text": "我家有五口人。爸爸、妈妈、哥哥、妹妹和我。",
+        "translation": "私の家には5人います。父、母、兄、妹と私です。",
         "highlights": [
           "爸爸",
           "妈妈",
           "哥哥",
-          "姐姐",
-          "还",
-          "就"
+          "妹妹",
+          "和"
         ]
       },
       {
         "speaker": "A",
-        "text": "你哥哥多大？",
-        "translation": "お兄さんは何歳ですか？",
+        "text": "你哥哥多大了？",
+        "translation": "お兄さんはおいくつですか？",
         "highlights": [
-          "多"
+          "哥哥",
+          "多大"
         ]
       },
       {
         "speaker": "B",
-        "text": "他二十五岁。我姐姐二十一岁。",
-        "translation": "彼は25歳です。姉は21歳です。",
+        "text": "他今年二十三岁，在北京工作。",
+        "translation": "彼は今年23歳で、北京で働いています。",
         "highlights": [
+          "工作",
           "岁"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "你家孩子多吗？",
-        "translation": "あなたの家は子供が多いですか？",
-        "highlights": [
-          "孩子",
-          "多"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "不多，就三个孩子。",
-        "translation": "多くないです、ちょうど3人の子供です。",
-        "highlights": [
-          "少",
-          "就"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "你家有几个人？",
-        "translation": "あなたの家族は何人ですか？"
+        "phrase": "你家有几口人？",
+        "translation": "あなたの家には何人いますか？"
       },
       {
-        "phrase": "就五个人",
-        "translation": "ちょうど5人です"
+        "phrase": "他今年二十三岁",
+        "translation": "彼は今年23歳です"
       },
       {
-        "phrase": "多大？",
-        "translation": "何歳ですか？"
+        "phrase": "在北京工作",
+        "translation": "北京で働く"
       }
     ]
   },
@@ -1791,164 +1489,137 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "去",
+        "word": "走",
         "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
-        "translation": "行く",
-        "note": "目的地へ行く動作を表す",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
+        "phonetic": "zǒu",
+        "translation": "歩く、行く",
+        "note": "「行きます」や「走ります」の意味で方向を尋ねる時に使う"
       },
       {
         "word": "怎么",
         "pos": "adv",
-        "phonetic": "tsən˨˩˦ mə",
-        "translation": "どうやって",
-        "note": "方法を尋ねるときに使う",
-        "pinyin": "zěn me",
-        "pinyin_num": "zen3 me0"
-      },
-      {
-        "word": "路",
-        "pos": "noun",
-        "phonetic": "lu˥˩",
-        "translation": "道、道路",
-        "note": "道順や通りを指す",
-        "pinyin": "lù",
-        "pinyin_num": "lu4"
-      },
-      {
-        "word": "走",
-        "pos": "verb",
-        "phonetic": "tsou˨˩˦",
-        "translation": "歩く、進む",
-        "note": "移動の動作",
-        "pinyin": "zǒu",
-        "pinyin_num": "zou3"
+        "phonetic": "zěnme",
+        "translation": "どうやって、どのように",
+        "note": "方法や状況を尋ねる疑問詞"
       },
       {
         "word": "到",
+        "pos": "prep/verb",
+        "phonetic": "dào",
+        "translation": "～に到着する、～まで",
+        "note": "目的地に到着することを示す"
+      },
+      {
+        "word": "那",
+        "pos": "pron",
+        "phonetic": "nà",
+        "translation": "あれ、その、そこ",
+        "note": "指示代名詞として使う"
+      },
+      {
+        "word": "还是",
+        "pos": "conj",
+        "phonetic": "háishì",
+        "translation": "それとも、あるいは",
+        "note": "選択を尋ねる時に使う"
+      },
+      {
+        "word": "远",
+        "pos": "adj",
+        "phonetic": "yuǎn",
+        "translation": "遠い",
+        "note": "距離が遠いことを表す"
+      },
+      {
+        "word": "近",
+        "pos": "adj",
+        "phonetic": "jìn",
+        "translation": "近い",
+        "note": "距離が近いことを表す"
+      },
+      {
+        "word": "请",
         "pos": "verb",
-        "phonetic": "tau˥˩",
-        "translation": "着く",
-        "note": "到達を表す",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "phonetic": "qǐng",
+        "translation": "どうぞ、おねがいします",
+        "note": "丁寧に依頼する時に使う"
       },
       {
-        "word": "往",
-        "pos": "prep",
-        "phonetic": "waŋ˨˩˦",
-        "translation": "〜の方へ",
-        "note": "方向を示す前置詞",
-        "pinyin": "wǎng",
-        "pinyin_num": "wang3"
+        "word": "请问",
+        "pos": "verb+question particle",
+        "phonetic": "qǐng wèn",
+        "translation": "すみません、お尋ねします",
+        "note": "丁寧に尋ねる時に使う定型表現"
       },
       {
-        "word": "左",
-        "pos": "noun",
-        "phonetic": "tswo˨˩˦",
-        "translation": "左",
-        "note": "方向の左",
-        "pinyin": "zuǒ",
-        "pinyin_num": "zuo3"
-      },
-      {
-        "word": "右",
-        "pos": "noun",
-        "phonetic": "jou˥˩",
-        "translation": "右",
-        "note": "方向の右",
-        "pinyin": "yòu",
-        "pinyin_num": "you4"
-      },
-      {
-        "word": "一直",
-        "pos": "adv",
-        "phonetic": "i˥˩ tʂɻ̩˧˥",
-        "translation": "まっすぐ、ずっと",
-        "note": "途中で止まらずに進む様子",
-        "pinyin": "yì zhí",
-        "pinyin_num": "yi4 zhi2"
-      },
-      {
-        "word": "可以",
-        "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦ i˨˩˦",
-        "translation": "〜できる",
-        "note": "可能性や許可を表す助動詞",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "word": "这里",
+        "pos": "pron",
+        "phonetic": "zhèli",
+        "translation": "ここ",
+        "note": "場所を指す代名詞"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "请问，去火车站怎么走？",
-        "translation": "すみません、駅へはどうやって行きますか？",
+        "text": "请问，到火车站怎么走？",
+        "translation": "すみません、駅までどうやって行けばいいですか？",
         "highlights": [
-          "去",
+          "请问",
+          "到",
           "怎么",
           "走"
         ]
       },
       {
         "speaker": "B",
-        "text": "你一直走，到路口往左走。",
-        "translation": "まっすぐ行って、交差点で左へ行ってください。",
+        "text": "你一直走，到那条路还是远不远？",
+        "translation": "まっすぐ歩いて、あの道は遠いですか？",
         "highlights": [
-          "一直",
-          "走",
-          "到",
-          "往",
-          "左"
+          "那",
+          "还是",
+          "远"
         ]
       },
       {
         "speaker": "A",
-        "text": "然后呢？往右走吗？",
-        "translation": "それから？右へ行くのですか？",
+        "text": "不远，走五分钟就到了。",
+        "translation": "遠くありません、5分歩けば着きます。",
         "highlights": [
-          "往",
-          "右",
-          "走"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "不，不用往右。你走到路头就到了。",
-        "translation": "いいえ、右へは行かなくて大丈夫です。道の端まで行けば着きます。",
-        "highlights": [
-          "往",
-          "右",
-          "走",
-          "到",
-          "路",
+          "不",
+          "远",
           "到"
         ]
       },
       {
-        "speaker": "A",
-        "text": "好的，我可以坐公交车去吗？",
-        "translation": "わかりました。バスで行ってもいいですか？",
+        "speaker": "B",
+        "text": "好的，谢谢！",
+        "translation": "わかりました、ありがとうございます！",
         "highlights": [
-          "可以",
-          "去"
+          "好"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "不客气，请小心。",
+        "translation": "どういたしまして、お気をつけて。",
+        "highlights": [
+          "请"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "怎么走",
-        "translation": "どうやって行くか"
-      },
-      {
-        "phrase": "往左走",
-        "translation": "左へ行く"
+        "phrase": "请问，到...怎么走？",
+        "translation": "すみません、～までどうやって行けばいいですか？"
       },
       {
         "phrase": "一直走",
-        "translation": "まっすぐ行く"
+        "translation": "まっすぐ歩く"
+      },
+      {
+        "phrase": "走五分钟就到了",
+        "translation": "5分歩けば着く"
       }
     ]
   },
@@ -1961,168 +1632,122 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "到",
+        "word": "能",
         "pos": "verb",
-        "phonetic": "tɑʊ̯˥˩",
-        "translation": "着く、到着する",
-        "note": "目的地に着くときによく使う",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "phonetic": "néng",
+        "translation": "できる"
       },
       {
-        "word": "站",
-        "pos": "noun",
-        "phonetic": "ʈʂän˥˩",
-        "translation": "停留所、駅",
-        "note": "バス停や駅の意味",
-        "pinyin": "zhàn",
-        "pinyin_num": "zhan4"
+        "word": "可以",
+        "pos": "verb",
+        "phonetic": "kěyǐ",
+        "translation": "してもいい"
       },
       {
         "word": "下",
-        "pos": "verb",
-        "phonetic": "ɕjä˥˩",
-        "translation": "降りる",
-        "note": "乗り物から降りるときに使う",
-        "pinyin": "xià",
-        "pinyin_num": "xia4"
+        "pos": "noun",
+        "phonetic": "xià",
+        "translation": "下（した）"
       },
       {
         "word": "车",
         "pos": "noun",
-        "phonetic": "ʈʂʰɤ˥",
-        "translation": "車、バス",
-        "note": "バスの場合は「公共汽车」だが、会話では「车」で十分",
-        "pinyin": "chē",
-        "pinyin_num": "che1"
+        "phonetic": "chē",
+        "translation": "車"
       },
       {
-        "word": "帮",
-        "pos": "verb",
-        "phonetic": "pɑŋ˥",
-        "translation": "手伝う、助ける",
-        "note": "「帮忙」のように使うこともある",
-        "pinyin": "bāng",
-        "pinyin_num": "bang1"
+        "word": "给",
+        "pos": "prep",
+        "phonetic": "gěi",
+        "translation": "に、を"
       },
       {
-        "word": "请",
+        "word": "停",
         "pos": "verb",
-        "phonetic": "t͡ɕʰiŋ˨˩˦",
-        "translation": "どうぞ、お願いします",
-        "note": "丁寧に依頼するときに使う",
-        "pinyin": "qǐng",
-        "pinyin_num": "qing3"
+        "phonetic": "tíng",
+        "translation": "止まる"
       },
       {
         "word": "一下",
-        "pos": "adverb",
-        "phonetic": "i˥ ɕjä˥˩",
-        "translation": "ちょっと、少し",
-        "note": "動詞の後ろに付けて軽い動作を表す",
-        "pinyin": "yí xià",
-        "pinyin_num": "yi2 xia4"
+        "pos": "adv",
+        "phonetic": "yíxià",
+        "translation": "ちょっと"
       },
       {
-        "word": "这儿",
-        "pos": "pronoun",
-        "phonetic": "ʈʂɤɻ˥˩",
-        "translation": "ここ",
-        "note": "話し手の近くを指す",
-        "pinyin": "zhè ér",
-        "pinyin_num": "zhe4 er2"
+        "word": "到",
+        "pos": "prep",
+        "phonetic": "dào",
+        "translation": "～まで"
       },
       {
-        "word": "前面",
-        "pos": "noun",
-        "phonetic": "t͡ɕʰjɛn˧˥ mjɛn˥˩",
-        "translation": "前方",
-        "note": "場所を表す名詞",
-        "pinyin": "qián miàn",
-        "pinyin_num": "qian2 mian4"
+        "word": "给",
+        "pos": "verb",
+        "phonetic": "gěi",
+        "translation": "あげる"
       },
       {
-        "word": "远",
-        "pos": "adjective",
-        "phonetic": "ɥɛn˨˩˦",
-        "translation": "遠い",
-        "note": "距離が遠いことを表す",
-        "pinyin": "yuǎn",
-        "pinyin_num": "yuan3"
+        "word": "了",
+        "pos": "particle",
+        "phonetic": "le",
+        "translation": "完了を示す助詞（～した）"
       }
     ],
     "dialogue": [
       {
-        "speaker": "乘客",
-        "text": "师傅，请帮我一下。到前面那个站，我要下车。",
-        "translation": "運転手さん、ちょっと手伝ってください。前方のあの停留所に着いたら、降りたいんです。",
+        "speaker": "乗客",
+        "text": "师傅，请问能不能下车给一下？",
+        "translation": "運転手さん、降りてもいいですか？",
         "highlights": [
-          "请",
-          "帮",
-          "一下",
+          "能",
+          "下",
+          "给",
+          "一下"
+        ]
+      },
+      {
+        "speaker": "運転手",
+        "text": "可以，请你下车给我一下。",
+        "translation": "いいですよ。降りて私にちょっとあげてください。",
+        "highlights": [
+          "可以",
+          "下",
+          "给",
+          "一下"
+        ]
+      },
+      {
+        "speaker": "乗客",
+        "text": "那我到前面下车可以吗？",
+        "translation": "じゃあ前で降りてもいいですか？",
+        "highlights": [
           "到",
-          "前面",
-          "站",
           "下",
           "车"
         ]
       },
       {
-        "speaker": "司机",
-        "text": "好，这儿就是那个站。你在这儿下吗？",
-        "translation": "はい、ここがその停留所です。ここで降りますか？",
+        "speaker": "運転手",
+        "text": "好的，车停一下。",
+        "translation": "はい、車を止めます。",
         "highlights": [
-          "这儿",
-          "站",
-          "下"
-        ]
-      },
-      {
-        "speaker": "乘客",
-        "text": "不是，我要到前面那个站。远吗？",
-        "translation": "いいえ、前方のあの停留所まで行きたいんです。遠いですか？",
-        "highlights": [
-          "到",
-          "前面",
-          "站",
-          "远"
-        ]
-      },
-      {
-        "speaker": "司机",
-        "text": "不远，下一站就是。你在那儿下吧。",
-        "translation": "遠くないですよ、次の停留所です。そこで降りてください。",
-        "highlights": [
-          "远",
+          "停",
           "下",
-          "车"
+          "了"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "请帮我一下",
-        "translation": "ちょっと手伝ってください"
+        "phrase": "能不能下车给一下？",
+        "translation": "降りてもいいですか？"
       },
       {
-        "phrase": "到前面那个站",
-        "translation": "前方のあの停留所まで"
+        "phrase": "请你下车给我一下。",
+        "translation": "降りて私にちょっとあげてください。"
       },
       {
-        "phrase": "我要下车",
-        "translation": "降りたいんです"
-      },
-      {
-        "phrase": "在这儿下",
-        "translation": "ここで降りる"
-      },
-      {
-        "phrase": "远吗？",
-        "translation": "遠いですか？"
-      },
-      {
-        "phrase": "下一站就是",
-        "translation": "次の停留所です"
+        "phrase": "那我到前面下车可以吗？",
+        "translation": "じゃあ前で降りてもいいですか？"
       }
     ]
   },
@@ -2137,147 +1762,141 @@
       {
         "word": "是",
         "pos": "verb",
-        "phonetic": "ʂɻ̩˥˩",
-        "translation": "〜です（断定）",
-        "note": "「A是B」で「AはBです」の意味。紹介の基本形。",
-        "pinyin": "shì",
-        "pinyin_num": "shi4"
+        "phonetic": "shì",
+        "translation": "〜です（be動詞）",
+        "note": "連結動詞として使う"
       },
       {
-        "word": "同事",
-        "pos": "noun",
-        "phonetic": "tʰʊŋ˧˥ʂɻ̩˥˩",
-        "translation": "同僚",
-        "note": "「同」は「同じ」、「事」は「仕事」の意。職場の仲間を指す。",
-        "pinyin": "tóng shì",
-        "pinyin_num": "tong2 shi4"
+        "word": "我",
+        "pos": "pron",
+        "phonetic": "wǒ",
+        "translation": "私",
+        "note": "一人称単数"
+      },
+      {
+        "word": "你",
+        "pos": "pron",
+        "phonetic": "nǐ",
+        "translation": "あなた",
+        "note": "二人称単数"
       },
       {
         "word": "他",
         "pos": "pron",
-        "phonetic": "tʰa˥˥",
+        "phonetic": "tā",
         "translation": "彼",
-        "note": "男性の三人称。女性は「她（tā）」だが、発音は同じ。",
-        "pinyin": "tā",
-        "pinyin_num": "ta1"
-      },
-      {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "jɛ˨˩˦",
-        "translation": "〜も",
-        "note": "「私も」「彼も」など、同様のことを付け加える時に使う。",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
-      },
-      {
-        "word": "在",
-        "pos": "prep",
-        "phonetic": "tsaɪ̯˥˩",
-        "translation": "〜に（場所・時間）",
-        "note": "場所や時間を示す前置詞。ここでは「会社で」の「で」にあたる。",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "公司",
-        "pos": "noun",
-        "phonetic": "kʊŋ˥˥ʂɻ̩˥˥",
-        "translation": "会社",
-        "note": "「公」は「公共」、「司」は「司る（つかさどる）」。",
-        "pinyin": "gōng sī",
-        "pinyin_num": "gong1 si1"
-      },
-      {
-        "word": "工作",
-        "pos": "verb/noun",
-        "phonetic": "kʊŋ˥˥tsu̯ɔ˥˩",
-        "translation": "仕事（する）",
-        "note": "動詞でも名詞でも使える。「仕事をしています」のように使う。",
-        "pinyin": "gōng zuò",
-        "pinyin_num": "gong1 zuo4"
+        "note": "三人称男性"
       },
       {
         "word": "认识",
         "pos": "verb",
-        "phonetic": "ʐən˥˩ʂɻ̩˥˩",
+        "phonetic": "rènshi",
         "translation": "知り合う、知っている",
-        "note": "人を紹介する時に「认识一下」で「知り合ってください」の意味。",
-        "pinyin": "rèn shi",
-        "pinyin_num": "ren4 shi0"
+        "note": "人に対して使う"
       },
       {
-        "word": "我们",
+        "word": "这",
         "pos": "pron",
-        "phonetic": "u̯o˨˩mən˧˥",
-        "translation": "私たち",
-        "note": "「我（私）」の複数形。聞き手を含む「私たち」を表す。",
-        "pinyin": "wǒ men",
-        "pinyin_num": "wo3 men0"
+        "phonetic": "zhè",
+        "translation": "これ、この",
+        "note": "近称の指示代名詞"
       },
       {
-        "word": "做",
-        "pos": "verb",
-        "phonetic": "tsu̯ɔ˥˩",
-        "translation": "する、作る",
-        "note": "「做工作」で「仕事をする」。非常に汎用性の高い動詞。",
-        "pinyin": "zuò",
-        "pinyin_num": "zuo4"
+        "word": "位",
+        "pos": "mw",
+        "phonetic": "wèi",
+        "translation": "〜方（敬称の量詞）",
+        "note": "人に対して使う丁寧な量詞"
+      },
+      {
+        "word": "工作",
+        "pos": "noun",
+        "phonetic": "gōngzuò",
+        "translation": "仕事"
+      },
+      {
+        "word": "的",
+        "pos": "particle",
+        "phonetic": "de",
+        "translation": "〜の（所有を示す）",
+        "note": "所有格のマーカー"
+      },
+      {
+        "word": "吗",
+        "pos": "particle",
+        "phonetic": "ma",
+        "translation": "〜ですか？（疑問を示す）",
+        "note": "Yes/No疑問文に使う"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，这是我们公司的同事。",
-        "translation": "こんにちは、こちらは私たちの会社の同僚です。",
+        "text": "你好，我是小李。这是我们公司新来的同事，他姓王。",
+        "translation": "こんにちは、私は李です。こちらは当社の新しい同僚で、姓が王さんです。",
         "highlights": [
-          "我们",
-          "公司",
-          "同事"
+          "你好",
+          "我",
+          "是",
+          "这"
         ]
       },
       {
         "speaker": "B",
-        "text": "你好！他也在公司工作吗？",
-        "translation": "こんにちは！彼も会社で働いていますか？",
+        "text": "认识你很高兴。我叫田中，是销售部的。",
+        "translation": "お会いできて嬉しいです。私は田中と申します。営業部所属です。",
         "highlights": [
-          "他",
-          "也",
-          "在",
-          "工作"
+          "认识",
+          "你",
+          "我",
+          "是"
         ]
       },
       {
         "speaker": "A",
-        "text": "是，他在这里做工作。来，认识一下。",
-        "translation": "はい、彼はここで仕事をしています。さあ、知り合ってください。",
+        "text": "王先生，这位是田中，新同事的上司。",
+        "translation": "王さん、こちらが田中さん、新しい同僚の上司です。",
         "highlights": [
-          "是",
-          "做",
-          "认识"
+          "这",
+          "位",
+          "是"
         ]
       },
       {
         "speaker": "C",
-        "text": "你好，认识你很高兴。",
-        "translation": "こんにちは、お会いできてうれしいです。",
+        "text": "您好！王经理在吗？",
+        "translation": "こんにちは！王部長はおいででしょうか？",
         "highlights": [
-          "认识"
+          "您",
+          "吗"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "他在办公室，我们一起过去吧。",
+        "translation": "彼は事務所にいますよ、一緒に行きましょう。",
+        "highlights": [
+          "他",
+          "工作"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "这是我们公司的同事。",
-        "translation": "こちらは私たちの会社の同僚です。"
+        "phrase": "我是X。",
+        "translation": "私はXです。"
       },
       {
-        "phrase": "认识一下。",
-        "translation": "知り合ってください。（紹介の定型句）"
+        "phrase": "认识你很高兴。",
+        "translation": "お会いできて嬉しいです。"
       },
       {
-        "phrase": "他在这里做工作。",
-        "translation": "彼はここで仕事をしています。"
+        "phrase": "这位是X。",
+        "translation": "こちらがXです。"
+      },
+      {
+        "phrase": "您好！X在吗？",
+        "translation": "こんにちは！Xはおいででしょうか？"
       }
     ]
   },
@@ -2290,161 +1909,127 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "喂",
-        "pos": "interjection",
-        "phonetic": "wéi",
-        "translation": "もしもし",
-        "note": "電話の応答に使う",
-        "pinyin": "wèi",
-        "pinyin_num": "wei4"
-      },
-      {
-        "word": "我",
-        "pos": "pronoun",
-        "phonetic": "wǒ",
-        "translation": "私",
-        "note": "一人称代名詞",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
-      },
-      {
-        "word": "你",
-        "pos": "pronoun",
-        "phonetic": "nǐ",
-        "translation": "あなた",
-        "note": "二人称代名詞",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
-      },
-      {
-        "word": "给",
-        "pos": "prep",
-        "phonetic": "gěi",
-        "translation": "～に（与える）",
-        "note": "相手に何かをするときの前置詞",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
-      },
-      {
-        "word": "打",
-        "pos": "verb",
-        "phonetic": "dǎ",
-        "translation": "電話をかける",
-        "note": "「打电话」で電話をかける意味",
-        "pinyin": "dǎ",
-        "pinyin_num": "da3"
-      },
-      {
-        "word": "电话",
+        "word": "message",
         "pos": "noun",
-        "phonetic": "diànhuà",
-        "translation": "電話",
-        "note": "電話機・電話の意味",
-        "pinyin": "diàn huà",
-        "pinyin_num": "dian4 hua4"
+        "phonetic": "xiāoxi",
+        "translation": "メッセージ"
       },
       {
-        "word": "回",
-        "pos": "verb",
+        "word": "back",
+        "pos": "adv",
         "phonetic": "huí",
-        "translation": "折り返す、返事をする",
-        "note": "「回电话」で折り返し電話する",
-        "pinyin": "huí",
-        "pinyin_num": "hui2"
+        "translation": "戻って（から）",
+        "note": "「戻ったら」のような副詞的用法"
       },
       {
-        "word": "在",
-        "pos": "prep",
-        "phonetic": "zài",
-        "translation": "～に（場所・時間）",
-        "note": "存在・位置を表す",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "家",
-        "pos": "noun",
-        "phonetic": "jiā",
-        "translation": "家",
-        "note": "自宅",
-        "pinyin": "jiā",
-        "pinyin_num": "jia1"
-      },
-      {
-        "word": "说",
+        "word": "call",
         "pos": "verb",
-        "phonetic": "shuō",
-        "translation": "言う、話す",
-        "note": "「说」は話す内容を表す",
-        "pinyin": "shuō",
-        "pinyin_num": "shuo1"
+        "phonetic": "jiào",
+        "translation": "電話をする"
       },
       {
-        "word": "再",
+        "word": "time",
+        "pos": "noun",
+        "phonetic": "shíhou",
+        "translation": "時間"
+      },
+      {
+        "word": "after",
+        "pos": "prep",
+        "phonetic": "yǐhòu",
+        "translation": "～の後で"
+      },
+      {
+        "word": "tomorrow",
+        "pos": "noun",
+        "phonetic": "míngtiān",
+        "translation": "明日"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "phonetic": "xiànzài",
+        "translation": "今"
+      },
+      {
+        "word": "sorry",
+        "pos": "adj",
+        "phonetic": "duìbuqǐ",
+        "translation": "すみません"
+      },
+      {
+        "word": "meet",
+        "pos": "verb",
+        "phonetic": "jiàn",
+        "translation": "会う"
+      },
+      {
+        "word": "again",
         "pos": "adv",
         "phonetic": "zài",
-        "translation": "また、もう一度",
-        "note": "「再见」でさようなら",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "translation": "再び"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "喂，你好。我是山田。",
-        "translation": "もしもし、こんにちは。山田です。",
+        "text": "喂，你好！我现在不在，请在听到‘嘟’的一声后留言。",
+        "translation": "もしもし、こんにちは！今不在です。ピーという音の後にメッセージを残してください。",
         "highlights": [
-          "喂",
-          "我"
+          "现在",
+          "不在",
+          "听到",
+          "留言"
         ]
       },
       {
-        "speaker": "A",
-        "text": "我给你打电话，你不在家。",
-        "translation": "あなたに電話をかけましたが、家にいませんでした。",
+        "speaker": "B",
+        "text": "喂，你好！我是小李。我刚才打电话找你，但是没人接。",
+        "translation": "もしもし、こんにちは！私は李です。さっき電話したけど、出なかった。",
         "highlights": [
-          "给",
-          "你",
-          "打",
-          "电话",
-          "在",
-          "家"
+          "刚才",
+          "打电话",
+          "没",
+          "接"
         ]
       },
       {
-        "speaker": "A",
-        "text": "请你回电话给我，好吗？",
-        "translation": "折り返し電話をください、いいですか？",
+        "speaker": "B",
+        "text": "我明天下午可以回这里，请你回去后给我回个电话。",
+        "translation": "私は明日の午後ここに戻れます。戻ったら電話をください。",
         "highlights": [
-          "回",
-          "电话",
-          "给",
-          "我"
+          "明天",
+          "下午",
+          "可以",
+          "回去"
         ]
       },
       {
-        "speaker": "A",
-        "text": "再说，再见！",
-        "translation": "また話しましょう、さようなら！",
+        "speaker": "B",
+        "text": "对不起，再见！",
+        "translation": "すみません、さようなら！",
         "highlights": [
-          "说",
-          "再"
+          "对不起",
+          "再见"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "给你打电话",
-        "translation": "あなたに電話をかける"
+        "phrase": "我现在不在",
+        "translation": "今不在です"
       },
       {
-        "phrase": "回电话给我",
-        "translation": "折り返し電話を私にする"
+        "phrase": "留言",
+        "translation": "メッセージを残す"
       },
       {
-        "phrase": "不在家",
-        "translation": "家にいない"
+        "phrase": "回个电话",
+        "translation": "電話を返す"
+      },
+      {
+        "phrase": "对不起",
+        "translation": "すみません"
       }
     ]
   },
@@ -2457,142 +2042,142 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "要",
-        "pos": "verb",
-        "phonetic": "jɑʊ˥˩",
-        "translation": "〜したい、〜する必要がある",
-        "note": "want/need to do something",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
+        "word": "包裹",
+        "pos": "noun",
+        "phonetic": "bāo guǒ",
+        "translation": "小包、郵便物",
+        "note": "荷物を指す一般的な表現"
       },
       {
         "word": "寄",
         "pos": "verb",
-        "phonetic": "tɕi˥˩",
-        "translation": "送る（郵便で）",
-        "pinyin": "jì",
-        "pinyin_num": "ji4"
+        "phonetic": "jì",
+        "translation": "送る、出す（手紙や荷物を）",
+        "note": "郵便局で使う動詞"
       },
       {
-        "word": "这个",
-        "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩ kɤ˥˩",
-        "translation": "これ",
-        "pinyin": "zhè ge",
-        "pinyin_num": "zhe4 ge0"
+        "word": "重",
+        "pos": "adj",
+        "phonetic": "zhòng",
+        "translation": "重い",
+        "note": "重さを表す形容詞"
       },
       {
-        "word": "东西",
-        "pos": "noun",
-        "phonetic": "tʊŋ˥˥ ɕi˥˩",
-        "translation": "もの、品物",
-        "pinyin": "dōng xī",
-        "pinyin_num": "dong1 xi1"
+        "word": "轻",
+        "pos": "adj",
+        "phonetic": "qīng",
+        "translation": "軽い",
+        "note": "重さを表す形容詞（重の反対）"
       },
       {
-        "word": "哪里",
-        "pos": "pron",
-        "phonetic": "nɑ˨˩˦ li˨˩˦",
-        "translation": "どこ",
-        "pinyin": "nǎ lǐ",
-        "pinyin_num": "na3 li3"
-      },
-      {
-        "word": "钱",
-        "pos": "noun",
-        "phonetic": "tɕʰjɛn˧˥",
-        "translation": "お金",
-        "pinyin": "qián",
-        "pinyin_num": "qian2"
+        "word": "称",
+        "pos": "verb",
+        "phonetic": "chēng",
+        "translation": "計る、測る",
+        "note": "重さを計る動詞"
       },
       {
         "word": "多少",
-        "pos": "adj",
-        "phonetic": "twɔ˥˥ ʂɑʊ˨˩˦",
+        "pos": "pron",
+        "phonetic": "duō shǎo",
         "translation": "いくら、どれくらい",
-        "pinyin": "duō shǎo",
-        "pinyin_num": "duo1 shao3"
+        "note": "金額や数量を尋ねる疑問詞"
       },
       {
-        "word": "要",
-        "pos": "verb",
-        "phonetic": "jɑʊ˥˩",
-        "translation": "かかる（費用が）",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
+        "word": "多少钱",
+        "pos": "phrase",
+        "phonetic": "duō shǎo qián",
+        "translation": "いくらですか",
+        "note": "値段を尋ねるフレーズ"
       },
       {
-        "word": "块",
+        "word": "还",
+        "pos": "adv",
+        "phonetic": "hái",
+        "translation": "まだ、さらに",
+        "note": "追加の情報を表す副詞"
+      },
+      {
+        "word": "里",
         "pos": "noun",
-        "phonetic": "kʰwɑɪ˥˩",
-        "translation": "元（通貨単位）",
-        "pinyin": "kuài",
-        "pinyin_num": "kuai4"
+        "phonetic": "lǐ",
+        "translation": "中、内側",
+        "note": "場所や範囲を表す名詞（例：包裹里）"
       },
       {
-        "word": "给",
-        "pos": "prep",
-        "phonetic": "keɪ˨˩˦",
-        "translation": "〜に（相手を表す）",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
+        "word": "写",
+        "pos": "verb",
+        "phonetic": "xiě",
+        "translation": "書く",
+        "note": "住所や名前を書く動詞"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
         "text": "你好，我要寄这个包裹。",
-        "translation": "こんにちは、これを送りたいのですが。",
+        "translation": "こんにちは、この小包を送りたいです。",
         "highlights": [
-          "要",
           "寄",
-          "这个"
+          "包裹"
         ]
       },
       {
         "speaker": "B",
-        "text": "好的。你要寄到哪里？",
-        "translation": "はい。どこに送りますか？",
+        "text": "好的，请先称一下重量。",
+        "translation": "はい、まず重さを量ってください。",
         "highlights": [
-          "要",
-          "寄",
-          "哪里"
+          "称",
+          "重量"
         ]
       },
       {
         "speaker": "A",
-        "text": "寄到日本。这个要多少钱？",
-        "translation": "日本に送ります。これはいくらですか？",
+        "text": "这个包裹很轻，只有两公斤。",
+        "translation": "この小包は軽くて、2キログラムだけです。",
         "highlights": [
-          "寄",
-          "这个",
-          "要",
-          "多少",
-          "钱"
+          "轻",
+          "公斤"
         ]
       },
       {
         "speaker": "B",
-        "text": "一共三十块。请给我。",
-        "translation": "全部で30元です。ください。",
+        "text": "还需要写收件人的地址。",
+        "translation": "さらに、受取人の住所を書いてください。",
         "highlights": [
-          "块",
-          "给"
+          "还",
+          "写"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "多少钱？",
+        "translation": "いくらですか？",
+        "highlights": [
+          "多少"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要寄这个",
-        "translation": "これを送りたいです"
+        "phrase": "我要寄这个包裹。",
+        "translation": "この小包を送りたいです。"
+      },
+      {
+        "phrase": "请先称一下重量。",
+        "translation": "まず重さを量ってください。"
+      },
+      {
+        "phrase": "这个包裹很轻。",
+        "translation": "この小包は軽いです。"
+      },
+      {
+        "phrase": "还需要写收件人的地址。",
+        "translation": "さらに、受取人の住所を書いてください。"
       },
       {
         "phrase": "多少钱？",
         "translation": "いくらですか？"
-      },
-      {
-        "phrase": "请给我",
-        "translation": "ください"
       }
     ]
   },
@@ -2605,161 +2190,116 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "起来",
+        "word": "起床",
         "pos": "verb",
-        "phonetic": "tɕʰi˨˩ laɪ̯˧˥",
-        "translation": "起きる",
-        "note": "起床の意味で、日常でよく使う",
-        "pinyin": "qǐ lái",
-        "pinyin_num": "qi3 lai2"
+        "phonetic": "qǐ chuáng",
+        "translation": "起きる"
       },
       {
-        "word": "早饭",
+        "word": "早上",
         "pos": "noun",
-        "phonetic": "tsaʊ̯˨˩ fan˥˩",
-        "translation": "朝食",
-        "note": "朝ごはん",
-        "pinyin": "zǎo fàn",
-        "pinyin_num": "zao3 fan4"
+        "phonetic": "zǎoshang",
+        "translation": "朝"
       },
       {
         "word": "吃",
         "pos": "verb",
-        "phonetic": "ʈʂʰɻ̩˥",
-        "translation": "食べる",
-        "pinyin": "chī",
-        "pinyin_num": "chi1"
+        "phonetic": "chī",
+        "translation": "食べる"
+      },
+      {
+        "word": "饭",
+        "pos": "noun",
+        "phonetic": "fàn",
+        "translation": "ご飯"
       },
       {
         "word": "然后",
         "pos": "conj",
-        "phonetic": "ʐän˧˥ xoʊ̯˥˩",
-        "translation": "それから",
-        "note": "時間の順序を示す接続詞",
-        "pinyin": "rán hòu",
-        "pinyin_num": "ran2 hou4"
+        "phonetic": "rán hòu",
+        "translation": "それから"
       },
       {
-        "word": "上班",
+        "word": "去",
         "pos": "verb",
-        "phonetic": "ʂɑŋ˥˩ pan˥",
-        "translation": "出勤する",
-        "note": "仕事に行く",
-        "pinyin": "shàng bān",
-        "pinyin_num": "shang4 ban1"
+        "phonetic": "qù",
+        "translation": "行く"
       },
       {
-        "word": "中午",
+        "word": "学校",
         "pos": "noun",
-        "phonetic": "ʈʂʊŋ˥ u˨˩˦",
-        "translation": "昼",
-        "note": "正午",
-        "pinyin": "zhōng wǔ",
-        "pinyin_num": "zhong1 wu3"
-      },
-      {
-        "word": "休息",
-        "pos": "verb",
-        "phonetic": "ɕjoʊ̯˥ ɕi˧˥",
-        "translation": "休憩する",
-        "pinyin": "xiū xi",
-        "pinyin_num": "xiu1 xi0"
+        "phonetic": "xué xiào",
+        "translation": "学校"
       },
       {
         "word": "晚上",
         "pos": "noun",
-        "phonetic": "wän˨˩˦ ʂɑŋ˥˩",
-        "translation": "夜",
-        "note": "夕方以降",
-        "pinyin": "wǎn shàng",
-        "pinyin_num": "wan3 shang4"
+        "phonetic": "wǎnshang",
+        "translation": "夜"
       },
       {
-        "word": "回家",
+        "word": "看",
         "pos": "verb",
-        "phonetic": "xweɪ̯˧˥ tɕja˥",
-        "translation": "家に帰る",
-        "note": "帰宅する",
-        "pinyin": "huí jiā",
-        "pinyin_num": "hui2 jia1"
+        "phonetic": "kàn",
+        "translation": "見る"
       },
       {
-        "word": "睡觉",
-        "pos": "verb",
-        "phonetic": "ʂweɪ̯˥˩ tɕjaʊ̯˥˩",
-        "translation": "寝る",
-        "note": "睡眠をとる",
-        "pinyin": "shuì jiào",
-        "pinyin_num": "shui4 jiao4"
+        "word": "电视",
+        "pos": "noun",
+        "phonetic": "diàn shì",
+        "translation": "テレビ"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你每天几点起来？",
-        "translation": "毎日何時に起きますか？",
+        "text": "你早上几点起床？",
+        "translation": "あなたは朝何時に起きますか？",
         "highlights": [
-          "起来"
+          "早上",
+          "起床"
         ]
       },
       {
         "speaker": "B",
-        "text": "我七点起来，然后吃早饭，八点上班。",
-        "translation": "7時に起きて、それから朝ごはんを食べて、8時に出勤します。",
+        "text": "我六点起床。然后吃早饭。",
+        "translation": "私は6時に起きます。それから朝ご飯を食べます。",
         "highlights": [
-          "起来",
+          "起床",
           "然后",
           "吃",
-          "早饭",
-          "上班"
+          "饭"
         ]
       },
       {
         "speaker": "A",
-        "text": "中午你休息吗？",
-        "translation": "昼は休憩しますか？",
+        "text": "你去哪里上学？",
+        "translation": "あなたはどこに学校に行きますか？",
         "highlights": [
-          "中午",
-          "休息"
+          "去",
+          "学校"
         ]
       },
       {
         "speaker": "B",
-        "text": "中午休息一个小时。晚上我回家，十点睡觉。",
-        "translation": "昼は1時間休憩します。夜は家に帰って、10時に寝ます。",
+        "text": "我去学校。晚上看电视。",
+        "translation": "私は学校に行きます。夜はテレビを見ます。",
         "highlights": [
-          "中午",
-          "休息",
+          "去",
           "晚上",
-          "回家",
-          "睡觉"
+          "看",
+          "电视"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "几点起来",
-        "translation": "何時に起きる"
+        "phrase": "你早上几点起床？",
+        "translation": "あなたは朝何時に起きますか？"
       },
       {
-        "phrase": "吃早饭",
-        "translation": "朝ごはんを食べる"
-      },
-      {
-        "phrase": "上班",
-        "translation": "出勤する"
-      },
-      {
-        "phrase": "中午休息",
-        "translation": "昼休憩"
-      },
-      {
-        "phrase": "回家",
-        "translation": "家に帰る"
-      },
-      {
-        "phrase": "睡觉",
-        "translation": "寝る"
+        "phrase": "我去学校。",
+        "translation": "私は学校に行きます。"
       }
     ]
   },
@@ -2772,150 +2312,141 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "开门",
-        "pos": "verb",
-        "phonetic": "kāi mén",
-        "translation": "開店する、営業を始める",
-        "note": "「開く」+「ドア」で、店が開く時間を表す",
-        "pinyin": "kāi mén",
-        "pinyin_num": "kai1 men2"
-      },
-      {
         "word": "几点",
         "pos": "pron",
         "phonetic": "jǐ diǎn",
         "translation": "何時",
-        "note": "時間を尋ねる疑問詞",
-        "pinyin": "jǐ diǎn",
-        "pinyin_num": "ji3 dian3"
+        "note": "疑問詞として使い、時間を尋ねる"
       },
       {
-        "word": "现在",
+        "word": "开门",
+        "pos": "verb",
+        "phonetic": "kāi mén",
+        "translation": "開店する",
+        "note": "店が営業を開始することを表す"
+      },
+      {
+        "word": "关门",
+        "pos": "verb",
+        "phonetic": "guān mén",
+        "translation": "閉店する",
+        "note": "店が営業を終了することを表す"
+      },
+      {
+        "word": "今天",
         "pos": "noun",
-        "phonetic": "xiànzài",
-        "translation": "今、現在",
-        "note": "時間の副詞としても使う",
-        "pinyin": "xiàn zài",
-        "pinyin_num": "xian4 zai4"
+        "phonetic": "jīn tiān",
+        "translation": "今日"
       },
       {
-        "word": "知道",
-        "pos": "verb",
-        "phonetic": "zhīdào",
-        "translation": "知っている",
-        "note": "「知っていますか？」は「知道吗？」",
-        "pinyin": "zhī dào",
-        "pinyin_num": "zhi1 dao4"
-      },
-      {
-        "word": "开",
-        "pos": "verb",
-        "phonetic": "kāi",
-        "translation": "開く、営業する",
-        "note": "店が開いている状態も表す",
-        "pinyin": "kāi",
-        "pinyin_num": "kai1"
-      },
-      {
-        "word": "关",
-        "pos": "verb",
-        "phonetic": "guān",
-        "translation": "閉まる、閉店する",
-        "note": "「開」の反対",
-        "pinyin": "guān",
-        "pinyin_num": "guan1"
-      },
-      {
-        "word": "小时",
+        "word": "明天",
         "pos": "noun",
-        "phonetic": "xiǎoshí",
-        "translation": "時間（〜時間）",
-        "note": "時間の長さを表す",
-        "pinyin": "xiǎo shí",
-        "pinyin_num": "xiao3 shi2"
+        "phonetic": "míng tiān",
+        "translation": "明日"
       },
       {
-        "word": "从",
-        "pos": "prep",
-        "phonetic": "cóng",
-        "translation": "〜から（時間・場所の起点）",
-        "note": "「从…到…」で「〜から〜まで」",
-        "pinyin": "cóng",
-        "pinyin_num": "cong2"
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shí hòu",
+        "translation": "時"
       },
       {
-        "word": "到",
-        "pos": "prep",
-        "phonetic": "dào",
-        "translation": "〜まで（時間・場所の終点）",
-        "note": "「从…到…」で使う",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "word": "星期",
+        "pos": "noun",
+        "phonetic": "xīng qī",
+        "translation": "曜日"
       },
       {
         "word": "都",
         "pos": "adv",
         "phonetic": "dōu",
-        "translation": "〜も、全部",
-        "note": "「每天都」で「毎日」",
-        "pinyin": "dōu",
-        "pinyin_num": "dou1"
+        "translation": "すべて"
+      },
+      {
+        "word": "几",
+        "pos": "pron",
+        "phonetic": "jǐ",
+        "translation": "いくつ、どれくらい"
+      },
+      {
+        "word": "天",
+        "pos": "noun",
+        "phonetic": "tiān",
+        "translation": "日"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "请问，现在开门吗？",
-        "translation": "すみません、今開いていますか？",
+        "text": "请问，这家店几点开门？",
+        "translation": "すみません、この店は何時に開店しますか？",
         "highlights": [
-          "现在",
+          "请问",
+          "这家",
+          "几点",
           "开门"
         ]
       },
       {
         "speaker": "B",
-        "text": "现在开门。我们每天从早上九点到晚上十点都开。",
-        "translation": "今開いています。私たちは毎日朝9時から夜10時までやっています。",
+        "text": "它每天上午十点开门。",
+        "translation": "毎日、午前10時に開店します。",
         "highlights": [
-          "现在",
-          "从",
-          "到",
-          "都"
+          "它",
+          "每天",
+          "上午",
+          "十点",
+          "开门"
         ]
       },
       {
         "speaker": "A",
-        "text": "知道几点关门吗？",
-        "translation": "何時に閉まるか知っていますか？",
+        "text": "关门是几点？",
+        "translation": "閉店は何時ですか？",
         "highlights": [
-          "知道",
-          "几点",
-          "关"
+          "关门",
+          "是",
+          "几点"
         ]
       },
       {
         "speaker": "B",
-        "text": "知道，十点关门。还有一小时。",
-        "translation": "知っています、10時に閉まります。あと1時間あります。",
+        "text": "晚上八点关门。",
+        "translation": "午後8時に閉店します。",
         "highlights": [
-          "知道",
-          "关",
-          "小时"
+          "晚上",
+          "八点",
+          "关门"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "今天是星期几？",
+        "translation": "今日は何曜日ですか？",
+        "highlights": [
+          "今天",
+          "是",
+          "星期",
+          "几"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "现在开门吗？",
-        "translation": "今開いていますか？"
+        "phrase": "请问，这家店几点开门？",
+        "translation": "すみません、この店は何時に開店しますか？"
       },
       {
-        "phrase": "从早上九点到晚上十点",
-        "translation": "朝9時から夜10時まで"
+        "phrase": "它每天上午十点开门。",
+        "translation": "毎日、午前10時に開店します。"
       },
       {
-        "phrase": "几点关门？",
-        "translation": "何時に閉まりますか？"
+        "phrase": "关门是几点？",
+        "translation": "閉店は何時ですか？"
+      },
+      {
+        "phrase": "今天是星期几？",
+        "translation": "今日は何曜日ですか？"
       }
     ]
   },
@@ -2930,148 +2461,136 @@
       {
         "word": "想",
         "pos": "verb",
-        "phonetic": "ɕiaŋ˨˩˦",
-        "translation": "〜したい、思う",
-        "note": "希望や意図を表す。",
-        "pinyin": "xiǎng",
-        "pinyin_num": "xiang3"
-      },
-      {
-        "word": "看",
-        "pos": "verb",
-        "phonetic": "kʰan˥˩",
-        "translation": "見る",
-        "note": "メニューを見る、確認する。",
-        "pinyin": "kàn",
-        "pinyin_num": "kan4"
-      },
-      {
-        "word": "菜单",
-        "pos": "noun",
-        "phonetic": "tsʰai˥˩tan˥",
-        "translation": "メニュー",
-        "note": "料理のリスト。",
-        "pinyin": "cài dān",
-        "pinyin_num": "cai4 dan1"
+        "phonetic": "xiǎng",
+        "translation": "～したい、思う"
       },
       {
         "word": "有",
         "pos": "verb",
-        "phonetic": "joʊ˨˩˦",
-        "translation": "ある、いる",
-        "note": "存在を表す。",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
+        "phonetic": "yǒu",
+        "translation": "ある、いる"
       },
       {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "ʂən˧˥mə",
-        "translation": "何",
-        "note": "疑問詞。",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
+        "word": "点",
+        "pos": "verb",
+        "phonetic": "diǎn",
+        "translation": "注文する（点菜）"
+      },
+      {
+        "word": "太",
+        "pos": "adv",
+        "phonetic": "tài",
+        "translation": "～すぎる"
+      },
+      {
+        "word": "辣",
+        "pos": "adj",
+        "phonetic": "là",
+        "translation": "辛い"
+      },
+      {
+        "word": "再",
+        "pos": "adv",
+        "phonetic": "zài",
+        "translation": "もう一度、また"
+      },
+      {
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "良い、ok"
+      },
+      {
+        "word": "请",
+        "pos": "verb",
+        "phonetic": "qǐng",
+        "translation": "どうぞ、お願いします"
       },
       {
         "word": "菜",
         "pos": "noun",
-        "phonetic": "tsʰai˥˩",
-        "translation": "料理、おかず",
-        "note": "一般的な料理を指す。",
-        "pinyin": "cài",
-        "pinyin_num": "cai4"
+        "phonetic": "cài",
+        "translation": "料理、野菜"
       },
       {
-        "word": "推荐",
-        "pos": "verb",
-        "phonetic": "tʰuei˥tɕiɛn˥˩",
-        "translation": "おすすめする",
-        "note": "相手に勧める。",
-        "pinyin": "tuī jiàn",
-        "pinyin_num": "tui1 jian4"
-      },
-      {
-        "word": "好吃",
-        "pos": "adj",
-        "phonetic": "xaʊ˨˩˦tʂʰɨ˥",
-        "translation": "おいしい",
-        "note": "味が良い。",
-        "pinyin": "hǎo chī",
-        "pinyin_num": "hao3 chi1"
-      },
-      {
-        "word": "就",
-        "pos": "adv",
-        "phonetic": "tɕjoʊ˥˩",
-        "translation": "それでは、ちょうど",
-        "note": "決定を表す。",
-        "pinyin": "jiù",
-        "pinyin_num": "jiu4"
-      },
-      {
-        "word": "吧",
-        "pos": "part",
-        "phonetic": "pa˥",
-        "translation": "〜しましょう（提案・勧め）",
-        "note": "文末に置いて提案を表す。",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
+        "word": "了",
+        "pos": "particle",
+        "phonetic": "le",
+        "translation": "（完了を表す）"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "你好，我想看菜单。",
-        "translation": "こんにちは、メニューを見たいです。",
+        "speaker": "客",
+        "text": "我想点菜，请问有什么好吃的吗？",
+        "translation": "注文したいんですが、おいしいものはありますか？",
         "highlights": [
           "想",
-          "看",
-          "菜单"
+          "点",
+          "请",
+          "有",
+          "好"
         ]
       },
       {
-        "speaker": "B",
-        "text": "好的，这是菜单。今天有什么菜？",
-        "translation": "はい、こちらがメニューです。今日はどんな料理がありますか？",
+        "speaker": "店員",
+        "text": "我们有招牌菜，很辣，您能吃辣吗？",
+        "translation": "当店の看板料理がありますが、とても辛いです。辛いのが大丈夫ですか？",
         "highlights": [
           "有",
-          "什么",
-          "菜"
+          "辣"
         ]
       },
       {
-        "speaker": "A",
-        "text": "你推荐什么菜？",
-        "translation": "何のお料理をおすすめですか？",
+        "speaker": "客",
+        "text": "太辣了，我不能吃辣。有不辣的菜吗？",
+        "translation": "辛すぎるので、辛いものは食べられません。辛くない料理はありますか？",
         "highlights": [
-          "推荐",
-          "什么",
-          "菜"
+          "太",
+          "辣",
+          "有"
         ]
       },
       {
-        "speaker": "B",
-        "text": "这个菜很好吃，就点这个吧。",
-        "translation": "この料理はとてもおいしいです。これを注文しましょう。",
+        "speaker": "店員",
+        "text": "有，清淡的青菜也很好。您再看看别的菜吗？",
+        "translation": "ありますよ。あっさりした野菜料理もとても良いです。他の料理もご覧になりますか？",
         "highlights": [
-          "好吃",
-          "就",
-          "吧"
+          "好",
+          "再"
+        ]
+      },
+      {
+        "speaker": "客",
+        "text": "好，请给我那个青菜。",
+        "translation": "では、その野菜料理をお願いします。",
+        "highlights": [
+          "好",
+          "请",
+          "菜"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我想看菜单",
-        "translation": "メニューを見たいです"
+        "phrase": "我想点菜，请问有什么好吃的吗？",
+        "translation": "注文したいんですが、おいしいものはありますか？"
       },
       {
-        "phrase": "你推荐什么菜？",
-        "translation": "何のお料理をおすすめですか？"
+        "phrase": "有招牌菜，很辣，您能吃辣吗？",
+        "translation": "当店の看板料理がありますが、とても辛いです。辛いのが大丈夫ですか？"
       },
       {
-        "phrase": "就点这个吧",
-        "translation": "これを注文しましょう"
+        "phrase": "太辣了，我不能吃辣。有不辣的菜吗？",
+        "translation": "辛すぎるので、辛いものは食べられません。辛くない料理はありますか？"
+      },
+      {
+        "phrase": "有清淡的青菜也很好。您再看看别的菜吗？",
+        "translation": "あっさりした野菜料理もとても良いです。他の料理もご覧になりますか？"
+      },
+      {
+        "phrase": "请给我那个青菜。",
+        "translation": "その野菜料理をお願いします。"
       }
     ]
   },
@@ -3084,164 +2603,123 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "去",
+        "word": "要",
         "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
-        "translation": "行く",
-        "note": "目的地へ行くことを表す",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
+        "phonetic": "yào",
+        "translation": "必要とする、欲しいと思う",
+        "note": "「欲しい」「必要」の意味で、依頼や要求を表す"
       },
       {
-        "word": "银行",
+        "word": "帮助",
+        "pos": "noun/verb",
+        "phonetic": "bāngzhù",
+        "translation": "助けること、手伝い"
+      },
+      {
+        "word": "请",
+        "pos": "verb",
+        "phonetic": "qǐng",
+        "translation": "招く、どうぞ～してください（依頼の丁寧語）"
+      },
+      {
+        "word": "给",
+        "pos": "prep/verb",
+        "phonetic": "gěi",
+        "translation": "～に（与える、受け取る側を示す）"
+      },
+      {
+        "word": "一下",
+        "pos": "adv",
+        "phonetic": "yīxià",
+        "translation": "ちょっと（短い時間・行為を示す）"
+      },
+      {
+        "word": "账户",
         "pos": "noun",
-        "phonetic": "in˧˥xaŋ˧˥",
-        "translation": "銀行",
-        "note": "金融機関",
-        "pinyin": "yín háng",
-        "pinyin_num": "yin2 hang2"
+        "phonetic": "zhànghù",
+        "translation": "口座"
       },
       {
         "word": "取",
         "pos": "verb",
-        "phonetic": "tɕʰy˨˩˦",
-        "translation": "引き出す、取り出す",
-        "note": "お金を引き出す場合に使う",
-        "pinyin": "qǔ",
-        "pinyin_num": "qu3"
+        "phonetic": "qǔ",
+        "translation": "引き出す"
       },
       {
-        "word": "先",
-        "pos": "adv",
-        "phonetic": "ɕjɛn˥",
-        "translation": "まず、先に",
-        "note": "順序を表す副詞",
-        "pinyin": "xiān",
-        "pinyin_num": "xian1"
-      },
-      {
-        "word": "号",
+        "word": "钱",
         "pos": "noun",
-        "phonetic": "xaʊ˥˩",
-        "translation": "番号",
-        "note": "整理券の番号など",
-        "pinyin": "hào",
-        "pinyin_num": "hao4"
-      },
-      {
-        "word": "再",
-        "pos": "adv",
-        "phonetic": "tsaɪ˥˩",
-        "translation": "それから、また",
-        "note": "順序を示す",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "phonetic": "qián",
+        "translation": "お金"
       },
       {
         "word": "可以",
-        "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦i˨˩˦",
-        "translation": "〜してもいい、できる",
-        "note": "許可や可能性を表す助動詞",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "pos": "auxiliary verb",
+        "phonetic": "kěyǐ",
+        "translation": "～できる、～してよい（許可）"
       },
       {
-        "word": "吗",
-        "pos": "part",
-        "phonetic": "ma˧",
-        "translation": "〜か（疑問）",
-        "note": "文末について疑問文を作る",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
-      },
-      {
-        "word": "这",
-        "pos": "pron",
-        "phonetic": "tʂɤ˥˩",
-        "translation": "これ",
-        "note": "近称の指示代名詞",
-        "pinyin": "zhè",
-        "pinyin_num": "zhe4"
-      },
-      {
-        "word": "张",
-        "pos": "measure word",
-        "phonetic": "tʂaŋ˥",
-        "translation": "（平らなもの）〜枚",
-        "note": "紙やカードなどに使う量詞",
-        "pinyin": "zhāng",
-        "pinyin_num": "zhang1"
+        "word": "马上",
+        "pos": "adv",
+        "phonetic": "mǎshàng",
+        "translation": "すぐに"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "我去银行取钱，先拿号，再等。",
-        "translation": "銀行にお金を引き出しに行くよ。まず番号を取って、それから待つ。",
+        "text": "你好，我想要取钱。",
+        "translation": "こんにちは。お金を引き出したいのですが。",
         "highlights": [
-          "去",
-          "银行",
-          "取",
-          "先",
-          "号",
-          "再"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "可以给我一张号吗？",
-        "translation": "私に番号を一枚くれますか？",
-        "highlights": [
-          "可以",
-          "给",
-          "一",
-          "张",
-          "号",
-          "吗"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "可以，这张给你。",
-        "translation": "いいよ、この番号をあげる。",
-        "highlights": [
-          "可以",
-          "这",
-          "张",
-          "给"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "谢谢！那我去取钱。",
-        "translation": "ありがとう！じゃあお金を引き出すね。",
-        "highlights": [
-          "去",
+          "要",
           "取"
         ]
       },
       {
-        "speaker": "A",
-        "text": "好，你先去，我再取一张号。",
-        "translation": "うん、あなたが先に行って、私はもう一枚番号を取るよ。",
+        "speaker": "B",
+        "text": "请给我看一下你的账户。",
+        "translation": "口座を拝見させてください。",
         "highlights": [
-          "先",
-          "去",
-          "再",
-          "张",
-          "号"
+          "请",
+          "给",
+          "一下",
+          "账户"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "可以吗？",
+        "translation": "大丈夫ですか？",
+        "highlights": [
+          "可以"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "可以，马上给你。",
+        "translation": "大丈夫です。すぐにあげます。",
+        "highlights": [
+          "可以",
+          "马上",
+          "给"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "取钱",
-        "translation": "お金を引き出す"
+        "phrase": "我想要取钱。",
+        "translation": "お金を引き出したいのですが。"
       },
       {
-        "phrase": "拿号",
-        "translation": "整理券を取る"
+        "phrase": "请给我看一下你的账户。",
+        "translation": "口座を拝見させてください。"
+      },
+      {
+        "phrase": "可以吗？",
+        "translation": "大丈夫ですか？"
+      },
+      {
+        "phrase": "马上给你。",
+        "translation": "すぐにあげます。"
       }
     ]
   }

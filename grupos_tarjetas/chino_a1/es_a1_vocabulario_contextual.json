@@ -10,131 +10,113 @@
       {
         "word": "你",
         "pos": "pron",
-        "phonetic": "ni3",
-        "translation": "tú",
-        "note": "Segunda persona del singular. Se usa entre personas cercanas o de menor rango.",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
+        "phonetic": "nǐ",
+        "translation": "tú"
       },
       {
         "word": "好",
         "pos": "adj",
-        "phonetic": "xao3",
-        "translation": "bueno, bien",
-        "note": "En saludos se usa en la forma \"〜好\".",
-        "pinyin": "hǎo",
-        "pinyin_num": "hao3"
+        "phonetic": "hǎo",
+        "translation": "bueno/bien"
       },
       {
-        "word": "我",
-        "pos": "pron",
-        "phonetic": "wo3",
-        "translation": "yo",
-        "note": "Primera persona del singular.",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
-      },
-      {
-        "word": "叫",
+        "word": "是",
         "pos": "verb",
-        "phonetic": "tɕjau4",
-        "translation": "llamarse, decir (el nombre)",
-        "note": "En presentaciones, \"我叫〜\" = \"Yo soy〜\".",
-        "pinyin": "jiào",
-        "pinyin_num": "jiao4"
-      },
-      {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "ʂən2 mə",
-        "translation": "qué",
-        "note": "Pronombre interrogativo.",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
-      },
-      {
-        "word": "名字",
-        "pos": "noun",
-        "phonetic": "miŋ2 tsɿ",
-        "translation": "nombre",
-        "note": "A menudo se refiere al nombre completo.",
-        "pinyin": "míng zì",
-        "pinyin_num": "ming2 zi4"
-      },
-      {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "je3",
-        "translation": "también",
-        "note": "Adverbio que indica similitud.",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
+        "phonetic": "shì",
+        "translation": "ser/estar"
       },
       {
         "word": "很",
         "pos": "adv",
-        "phonetic": "xən3",
-        "translation": "muy",
-        "note": "Antes de un adjetivo significa \"muy\".",
-        "pinyin": "hěn",
-        "pinyin_num": "hen3"
+        "phonetic": "hěn",
+        "translation": "muy"
+      },
+      {
+        "word": "吗",
+        "pos": "part",
+        "phonetic": "ma",
+        "translation": "partícula interrogativa"
+      },
+      {
+        "word": "我",
+        "pos": "pron",
+        "phonetic": "wǒ",
+        "translation": "yo"
+      },
+      {
+        "word": "也",
+        "pos": "adv",
+        "phonetic": "yě",
+        "translation": "también"
+      },
+      {
+        "word": "很",
+        "pos": "adv",
+        "phonetic": "hěn",
+        "translation": "muy"
       },
       {
         "word": "认识",
         "pos": "verb",
-        "phonetic": "ʐən2 ʂɿ",
-        "translation": "conocer, conocer a alguien",
-        "note": "\"认识你\" = \"conocerte a ti\".",
-        "pinyin": "rèn shi",
-        "pinyin_num": "ren4 shi0"
+        "phonetic": "rènshi",
+        "translation": "conocer"
       },
       {
-        "word": "高兴",
-        "pos": "adj",
-        "phonetic": "kau1 ɕiŋ4",
-        "translation": "contento, alegre",
-        "note": "\"很高兴\" = \"muy contento\".",
-        "pinyin": "gāo xìng",
-        "pinyin_num": "gao1 xing4"
+        "word": "你",
+        "pos": "pron",
+        "phonetic": "nǐ",
+        "translation": "tú"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好！我叫李华。你叫什么名字？",
-        "translation": "¡Hola! Soy Li Hua. ¿Cómo te llamas?",
+        "text": "你好！",
+        "translation": "¡Hola!",
         "highlights": [
-          "你",
-          "好",
-          "我",
-          "叫",
-          "什么",
-          "名字"
+          "你好"
         ]
       },
       {
         "speaker": "B",
-        "text": "你好！我叫田中。我也很高兴认识你。",
-        "translation": "¡Hola! Soy Tanaka. También estoy muy contento de conocerte.",
+        "text": "你好！你好吗？",
+        "translation": "¡Hola! ¿Cómo estás?",
         "highlights": [
+          "你好",
           "你",
           "好",
-          "我",
-          "叫",
-          "也",
-          "很",
-          "高兴",
-          "认识"
+          "吗"
         ]
       },
       {
         "speaker": "A",
-        "text": "我也很高兴认识你。",
-        "translation": "Yo también estoy muy contento de conocerte.",
+        "text": "我很好，谢谢。你呢？",
+        "translation": "Estoy muy bien, gracias. ¿Y tú?",
         "highlights": [
-          "也",
+          "我",
           "很",
-          "高兴",
+          "好",
+          "呢"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "我也很好。你是新来的吗？",
+        "translation": "Yo también estoy muy bien. ¿Eres nuevo aquí?",
+        "highlights": [
+          "我也",
+          "很",
+          "是",
+          "吗"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "是的，我是。很高兴认识你！",
+        "translation": "Sí, lo soy. ¡Mucho gusto en conocerte!",
+        "highlights": [
+          "是",
+          "很",
           "认识",
           "你"
         ]
@@ -142,20 +124,28 @@
     ],
     "key_phrases": [
       {
-        "phrase": "你好",
-        "translation": "Hola"
+        "phrase": "你好！",
+        "translation": "¡Hola!"
       },
       {
-        "phrase": "我叫〜",
-        "translation": "Me llamo〜"
+        "phrase": "你好吗？",
+        "translation": "¿Cómo estás?"
       },
       {
-        "phrase": "你叫什么名字？",
-        "translation": "¿Cómo te llamas?"
+        "phrase": "我很好，谢谢。",
+        "translation": "Estoy muy bien, gracias."
       },
       {
-        "phrase": "很高兴认识你",
-        "translation": "Encantado de conocerte"
+        "phrase": "你呢？",
+        "translation": "¿Y tú?"
+      },
+      {
+        "phrase": "我也很好。",
+        "translation": "Yo también estoy muy bien."
+      },
+      {
+        "phrase": "很高兴认识你！",
+        "translation": "¡Mucho gusto en conocerte!"
       }
     ]
   },
@@ -170,153 +160,139 @@
       {
         "word": "在",
         "pos": "prep",
-        "phonetic": "tsai̯˥˩",
-        "translation": "en (lugar, existencia)",
-        "note": "Preposición que indica lugar. También se usa como verbo de existencia.",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "phonetic": "zài",
+        "translation": "en, estar en",
+        "note": "Indica ubicación o posición"
       },
       {
         "word": "哪里",
         "pos": "pron",
-        "phonetic": "na˨˩˦li˧˥",
+        "phonetic": "nǎli",
         "translation": "dónde",
-        "note": "Pronombre interrogativo 'dónde'",
-        "pinyin": "nǎ lǐ",
-        "pinyin_num": "na3 li3"
+        "note": "Se usa para preguntar ubicación"
       },
       {
         "word": "有",
         "pos": "verb",
-        "phonetic": "joʊ̯˨˩˦",
-        "translation": "haber, tener",
-        "note": "Verbo que indica posesión o existencia",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
+        "phonetic": "yǒu",
+        "translation": "tener, haber",
+        "note": "Indica existencia o posesión"
+      },
+      {
+        "word": "那边",
+        "pos": "adv",
+        "phonetic": "nàbiān",
+        "translation": "allí, por allá",
+        "note": "Indica dirección o lugar cercano"
+      },
+      {
+        "word": "找",
+        "pos": "verb",
+        "phonetic": "zhǎo",
+        "translation": "buscar",
+        "note": "Usado para encontrar algo o alguien"
       },
       {
         "word": "这",
         "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩",
-        "translation": "esto, este",
-        "note": "Pronombre demostrativo de cercanía",
-        "pinyin": "zhè",
-        "pinyin_num": "zhe4"
+        "phonetic": "zhè",
+        "translation": "este, esta",
+        "note": "Indica cercanía"
       },
       {
         "word": "那",
         "pos": "pron",
-        "phonetic": "na˥˩",
-        "translation": "eso, aquello",
-        "note": "Pronombre demostrativo de lejanía",
-        "pinyin": "nà",
-        "pinyin_num": "na4"
-      },
-      {
-        "word": "是",
-        "pos": "verb",
-        "phonetic": "ʂɻ̩˥˩",
-        "translation": "ser, estar",
-        "note": "Verbo copulativo",
-        "pinyin": "shì",
-        "pinyin_num": "shi4"
-      },
-      {
-        "word": "请",
-        "pos": "verb",
-        "phonetic": "tɕʰiŋ˨˩˦",
-        "translation": "por favor, haga el favor de",
-        "note": "Se usa para hacer peticiones corteses",
-        "pinyin": "qǐng",
-        "pinyin_num": "qing3"
+        "phonetic": "nà",
+        "translation": "ese, esa",
+        "note": "Indica distancia media"
       },
       {
         "word": "看",
         "pos": "verb",
-        "phonetic": "kʰan˥˩",
-        "translation": "ver, mirar",
-        "note": "Verbo de percepción visual",
-        "pinyin": "kàn",
-        "pinyin_num": "kan4"
+        "phonetic": "kàn",
+        "translation": "mirar, ver",
+        "note": "Usado para observar"
       },
       {
-        "word": "吗",
-        "pos": "particle",
-        "phonetic": "ma˧˥",
-        "translation": "¿...? (partícula interrogativa)",
-        "note": "Partícula que se coloca al final de la oración para formar preguntas",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
+        "word": "里",
+        "pos": "noun",
+        "phonetic": "lǐ",
+        "translation": "dentro, interior",
+        "note": "Indica ubicación interna"
       },
       {
-        "word": "吧",
-        "pos": "particle",
-        "phonetic": "pa˥˩",
-        "translation": "¿verdad?, hazlo (sugerencia, suposición)",
-        "note": "Partícula que se coloca al final de la oración para expresar sugerencia o suposición",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
+        "word": "就",
+        "pos": "adv",
+        "phonetic": "jiù",
+        "translation": "justo, precisamente",
+        "note": "Indica exactitud o inmediatez"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "请问，水在哪里？",
-        "translation": "Disculpe, ¿dónde está el agua?",
+        "text": "请问，哪里有洗手液？",
+        "translation": "Disculpe, ¿dónde hay jabón de manos?",
         "highlights": [
-          "请",
-          "在",
-          "哪里"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "在那里，你看，有。",
-        "translation": "Está allí, mire, ahí está.",
-        "highlights": [
-          "那",
-          "在",
-          "看",
+          "哪里",
           "有"
         ]
       },
       {
-        "speaker": "A",
-        "text": "这个是吗？",
-        "translation": "¿Es esto?",
+        "speaker": "B",
+        "text": "洗手液在哪边，您看那边。",
+        "translation": "El jabón de manos está por allá, mire por allí.",
         "highlights": [
-          "这",
-          "是",
-          "吗"
+          "在",
+          "那边",
+          "看"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "谢谢！请问，这边有没有水果？",
+        "translation": "¡Gracias! Disculpe, ¿hay frutas por aquí?",
+        "highlights": [
+          "这边",
+          "有"
         ]
       },
       {
         "speaker": "B",
-        "text": "是，这个是吧。",
-        "translation": "Sí, esto es, ¿verdad?",
+        "text": "有，水果就在这边里面。",
+        "translation": "Sí, las frutas están justo dentro de esta sección.",
         "highlights": [
-          "是",
-          "这",
-          "吧"
+          "有",
+          "这边",
+          "里",
+          "就"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "太好了，我找水果。",
+        "translation": "¡Genial, voy a buscar frutas!",
+        "highlights": [
+          "找"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "在哪里？",
-        "translation": "¿Dónde está?"
+        "phrase": "请问，哪里有洗手液？",
+        "translation": "Disculpe, ¿dónde hay jabón de manos?"
       },
       {
-        "phrase": "在那里",
-        "translation": "Está allí"
+        "phrase": "洗手液在哪边，您看那边。",
+        "translation": "El jabón de manos está por allá, mire por allí."
       },
       {
-        "phrase": "是吗？",
-        "translation": "¿En serio?"
+        "phrase": "请问，这边有没有水果？",
+        "translation": "Disculpe, ¿hay frutas por aquí?"
       },
       {
-        "phrase": "是吧",
-        "translation": "¿Verdad?"
+        "phrase": "水果就在这边里面。",
+        "translation": "Las frutas están justo dentro de esta sección."
       }
     ]
   },
@@ -331,150 +307,129 @@
       {
         "word": "要",
         "pos": "verb",
-        "phonetic": "jɑʊ̯˥˩",
-        "translation": "querer, desear",
-        "note": "En pedidos, se usa a menudo para significar 'quiero' o 'dame'",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
+        "phonetic": "yào",
+        "translation": "querer/tomar",
+        "note": "Usado para expresar deseos o pedidos"
       },
       {
-        "word": "杯",
-        "pos": "noun (量詞)",
-        "phonetic": "peɪ̯˥",
-        "translation": "taza (clasificador para bebidas)",
-        "note": "Se usa para contar bebidas",
-        "pinyin": "bēi",
-        "pinyin_num": "bei1"
+        "word": "点",
+        "pos": "verb",
+        "phonetic": "diǎn",
+        "translation": "pedir (en contexto de comida/bebida)",
+        "note": "Combina con objetos como café o té"
       },
       {
-        "word": "咖啡",
-        "pos": "noun",
-        "phonetic": "kʰɑ˥˥ feɪ̯˥",
-        "translation": "café",
-        "note": "No confundir con '茶' que significa té",
-        "pinyin": "kā fēi",
-        "pinyin_num": "ka1 fei1"
-      },
-      {
-        "word": "热",
-        "pos": "adjective",
-        "phonetic": "ʐɤ˥˩",
-        "translation": "caliente",
-        "note": "Se refiere a temperatura alta. En bebidas significa 'caliente'",
-        "pinyin": "rè",
-        "pinyin_num": "re4"
-      },
-      {
-        "word": "冰",
-        "pos": "noun/adj",
-        "phonetic": "piŋ˥",
-        "translation": "hielo, frío",
-        "note": "'冰咖啡' significa café con hielo",
-        "pinyin": "bīng",
-        "pinyin_num": "bing1"
+        "word": "什么",
+        "pos": "pron",
+        "phonetic": "shénme",
+        "translation": "qué",
+        "note": "Pregunta por cosas, no por personas"
       },
       {
         "word": "喝",
         "pos": "verb",
-        "phonetic": "xɤ˥",
+        "phonetic": "hē",
         "translation": "beber",
-        "note": "Acción de beber líquidos",
-        "pinyin": "hē",
-        "pinyin_num": "he1"
+        "note": "Verbo específico para líquidos"
       },
       {
-        "word": "还",
-        "pos": "adverb",
-        "phonetic": "xaɪ̯˧˥",
-        "translation": "también, además",
-        "note": "También se usa para pedidos adicionales o para 'todavía'",
-        "pinyin": "hái",
-        "pinyin_num": "hai2"
+        "word": "杯",
+        "pos": "clasificador",
+        "phonetic": "bēi",
+        "translation": "taza/clase (medida)",
+        "note": "Clasificador para bebidas en tazas"
       },
       {
-        "word": "一点",
-        "pos": "adverb/quantifier",
-        "phonetic": "i˥˥ tiɛn˨˩˦",
-        "translation": "un poco",
-        "note": "Indica poca cantidad o grado",
-        "pinyin": "yì diǎn",
-        "pinyin_num": "yi4 dian3"
+        "word": "多少",
+        "pos": "pron",
+        "phonetic": "duōshao",
+        "translation": "cuánto",
+        "note": "Pregunta por cantidad (precios o unidades)"
       },
       {
         "word": "钱",
         "pos": "noun",
-        "phonetic": "tɕʰjɛn˧˥",
+        "phonetic": "qián",
         "translation": "dinero",
-        "note": "Para preguntar el precio: '多少钱？'",
-        "pinyin": "qián",
-        "pinyin_num": "qian2"
+        "note": "Usado en contextos de pago"
+      },
+      {
+        "word": "可以",
+        "pos": "modal",
+        "phonetic": "kěyǐ",
+        "translation": "poder (permiso)",
+        "note": "Indica posibilidad o permiso"
       },
       {
         "word": "给",
-        "pos": "verb/prep",
-        "phonetic": "keɪ̯˨˩˦",
-        "translation": "dar, para",
-        "note": "'给我' significa 'dame'",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
+        "pos": "verb",
+        "phonetic": "gěi",
+        "translation": "dar",
+        "note": "Usado para objetos o servicios"
+      },
+      {
+        "word": "谢谢",
+        "pos": "interj",
+        "phonetic": "xièxie",
+        "translation": "gracias"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我要一杯咖啡。",
-        "translation": "Hola, quiero una taza de café.",
+        "text": "我想点一杯咖啡，可以吗？",
+        "translation": "Quiero pedir una taza de café, ¿puedo?",
         "highlights": [
-          "要",
+          "点",
           "杯",
-          "咖啡"
+          "可以"
         ]
       },
       {
         "speaker": "B",
-        "text": "热的还是冰的？",
-        "translation": "¿Caliente o con hielo?",
+        "text": "可以。您要喝什么？",
+        "translation": "Sí. ¿Qué quiere beber?",
         "highlights": [
-          "热",
-          "冰"
+          "要",
+          "什么",
+          "喝"
         ]
       },
       {
         "speaker": "A",
-        "text": "我要冰的，还给我一点水。",
-        "translation": "Quiero con hielo, y también dame un poco de agua.",
+        "text": "我要咖啡。多少钱？",
+        "translation": "Quiero un café. ¿Cuánto cuesta?",
         "highlights": [
-          "冰",
-          "还",
-          "给",
-          "一点"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "好的，一共多少钱？",
-        "translation": "Está bien, ¿cuánto es en total?",
-        "highlights": [
+          "要",
+          "多少",
           "钱"
         ]
       },
       {
-        "speaker": "A",
-        "text": "给你。谢谢！",
-        "translation": "Aquí tienes. ¡Gracias!",
+        "speaker": "B",
+        "text": "三十五块。给您。",
+        "translation": "Treinta y cinco yuanes. Aquí tiene.",
         "highlights": [
           "给"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "谢谢！",
+        "translation": "¡Gracias!",
+        "highlights": [
+          "谢谢"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要一杯咖啡",
-        "translation": "Quiero una taza de café"
+        "phrase": "我想点一杯咖啡",
+        "translation": "Quiero pedir una taza de café"
       },
       {
-        "phrase": "热的还是冰的？",
-        "translation": "¿Caliente o con hielo?"
+        "phrase": "您要喝什么？",
+        "translation": "¿Qué quiere beber?"
       },
       {
         "phrase": "多少钱？",
@@ -491,148 +446,144 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "去",
-        "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
-        "translation": "ir",
-        "note": "Indica ir a un destino",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
-      },
-      {
-        "word": "一个",
-        "pos": "det",
-        "phonetic": "i˥˩ kɤ˥˩",
-        "translation": "uno",
-        "note": "El clasificador numérico 'un'",
-        "pinyin": "yí gè",
-        "pinyin_num": "yi2 ge4"
+        "word": "车",
+        "pos": "noun",
+        "phonetic": "chē",
+        "translation": "vehículo, coche",
+        "note": "puede referirse a trenes, autobuses o coches"
       },
       {
         "word": "票",
         "pos": "noun",
-        "phonetic": "pʰjɑʊ̯˥˩",
-        "translation": "billete",
-        "note": "Boleto",
-        "pinyin": "piào",
-        "pinyin_num": "piao4"
+        "phonetic": "piào",
+        "translation": "billete"
       },
       {
-        "word": "这里",
-        "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩ li˨˩˦",
-        "translation": "aquí",
-        "note": "Se refiere a un lugar",
-        "pinyin": "zhè lǐ",
-        "pinyin_num": "zhe4 li3"
+        "word": "去",
+        "pos": "verb",
+        "phonetic": "qù",
+        "translation": "ir (a un lugar)"
       },
       {
         "word": "到",
         "pos": "prep",
-        "phonetic": "tɑʊ̯˥˩",
-        "translation": "hasta",
-        "note": "Indica el punto de llegada",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "phonetic": "dào",
+        "translation": "hasta, llegar a",
+        "note": "indica destino o llegada"
       },
       {
-        "word": "多少钱",
+        "word": "这",
         "pos": "pron",
-        "phonetic": "tʊ̯ɔ˥˥ ɕjɛn˥˩ tɕʰjɛn˧˥",
-        "translation": "cuánto cuesta",
-        "note": "Expresión para preguntar el precio",
-        "pinyin": "duō shǎo qián",
-        "pinyin_num": "duo1 shao3 qian2"
+        "phonetic": "zhè",
+        "translation": "este/a"
       },
       {
-        "word": "买",
-        "pos": "verb",
-        "phonetic": "maɪ̯˨˩˦",
-        "translation": "comprar",
-        "note": "Adquirir",
-        "pinyin": "mǎi",
-        "pinyin_num": "mai3"
+        "word": "时",
+        "pos": "noun",
+        "phonetic": "shí",
+        "translation": "tiempo",
+        "note": "en expresiones como \"tiempo de viaje\""
       },
       {
-        "word": "从",
-        "pos": "prep",
-        "phonetic": "tsʰʊŋ˧˥",
-        "translation": "desde",
-        "note": "Indica el punto de partida",
-        "pinyin": "cóng",
-        "pinyin_num": "cong2"
+        "word": "大",
+        "pos": "adj",
+        "phonetic": "dà",
+        "translation": "grande",
+        "note": "para describir tamaño o importancia"
       },
       {
-        "word": "可以",
-        "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦ i˨˩˦",
-        "translation": "poder",
-        "note": "Verbo auxiliar que expresa posibilidad",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "word": "都",
+        "pos": "adv",
+        "phonetic": "dōu",
+        "translation": "todos, todo"
       },
       {
-        "word": "谢谢",
-        "pos": "verb",
-        "phonetic": "ɕjɛ˥˩ ɕjɛ˥˩",
-        "translation": "gracias",
-        "note": "Expresa agradecimiento",
-        "pinyin": "xiè xiè",
-        "pinyin_num": "xie4 xie4"
+        "word": "和",
+        "pos": "conj",
+        "phonetic": "hé",
+        "translation": "y",
+        "note": "para conectar sustantivos"
+      },
+      {
+        "word": "不",
+        "pos": "adv",
+        "phonetic": "bù",
+        "translation": "no"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我要买一张票，去北京。",
-        "translation": "Hola, quiero comprar un billete para ir a Pekín.",
+        "text": "我要买去北京的车票。",
+        "translation": "Quiero comprar un billete para Beijing.",
         "highlights": [
+          "要",
           "买",
-          "票",
-          "去"
+          "去",
+          "的"
         ]
       },
       {
         "speaker": "B",
-        "text": "从这里到北京，多少钱？",
-        "translation": "¿Cuánto cuesta de aquí a Pekín?",
+        "text": "到北京的票多少钱？",
+        "translation": "¿Cuánto cuesta el billete hasta Beijing?",
         "highlights": [
-          "这里",
           "到",
-          "多少钱"
+          "票",
+          "多少",
+          "钱"
         ]
       },
       {
         "speaker": "A",
-        "text": "一个票，五十块钱。",
-        "translation": "Un billete, cincuenta yuanes.",
+        "text": "这趟车几点到？这车很大。",
+        "translation": "¿A qué hora llega este tren? Este tren es muy grande.",
         "highlights": [
-          "一个"
+          "这",
+          "车",
+          "几点",
+          "到",
+          "很",
+          "大"
         ]
       },
       {
         "speaker": "B",
-        "text": "可以，我要一个。谢谢！",
-        "translation": "Está bien, quiero uno. ¡Gracias!",
+        "text": "下午三点到，坐这趟车都没问题。",
+        "translation": "Llega a las tres de la tarde, no hay problema con este tren.",
         "highlights": [
-          "可以",
-          "一个",
-          "谢谢"
+          "到",
+          "三点",
+          "坐",
+          "都",
+          "没",
+          "问题"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "好的，我买一张票。",
+        "translation": "Muy bien, compro un billete.",
+        "highlights": [
+          "好的",
+          "买",
+          "一张",
+          "票"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要买一张票",
-        "translation": "Quiero comprar un billete"
+        "phrase": "我要买去北京的车票。",
+        "translation": "Quiero comprar un billete para Beijing."
       },
       {
-        "phrase": "从这里到北京多少钱？",
-        "translation": "¿Cuánto cuesta de aquí a Pekín?"
+        "phrase": "到北京的票多少钱？",
+        "translation": "¿Cuánto cuesta el billete hasta Beijing?"
       },
       {
-        "phrase": "可以，我要一个。",
-        "translation": "Está bien, quiero uno."
+        "phrase": "下午三点到。",
+        "translation": "Llega a las tres de la tarde."
       }
     ]
   },
@@ -645,148 +596,135 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
+        "word": "早上",
+        "pos": "noun",
+        "phonetic": "zǎoshang",
+        "translation": "mañana (hora)",
+        "note": "se refiere al primer período del día, antes del mediodía"
+      },
+      {
+        "word": "晚上",
+        "pos": "noun",
+        "phonetic": "wǎnshang",
+        "translation": "noche (hora)",
+        "note": "se refiere al período después del atardecer"
+      },
+      {
+        "word": "住",
+        "pos": "verb",
+        "phonetic": "zhù",
+        "translation": "vivir, alojarse",
+        "note": "usado para indicar residencia temporal (ej. en un hotel)"
+      },
+      {
         "word": "房间",
         "pos": "noun",
         "phonetic": "fángjiān",
         "translation": "habitación",
-        "note": "Sustantivo general que se refiere a la habitación de un hotel",
-        "pinyin": "fáng jiān",
-        "pinyin_num": "fang2 jian1"
+        "note": "espacio en un hotel donde se aloja el cliente"
       },
       {
         "word": "预订",
         "pos": "verb",
         "phonetic": "yùdìng",
         "translation": "reservar",
-        "note": "Se usa para reservar hoteles, restaurantes, etc.",
-        "pinyin": "yù dìng",
-        "pinyin_num": "yu4 ding4"
+        "note": "acción de asegurar el alojamiento con antelación"
       },
       {
-        "word": "入住",
-        "pos": "verb",
-        "phonetic": "rùzhù",
-        "translation": "hacer el check-in",
-        "note": "Comenzar a alojarse en un hotel",
-        "pinyin": "rù zhù",
-        "pinyin_num": "ru4 zhu4"
-      },
-      {
-        "word": "需要",
-        "pos": "verb",
-        "phonetic": "xūyào",
-        "translation": "necesitar",
-        "note": "Verbo transitivo que toma objeto",
-        "pinyin": "xū yào",
-        "pinyin_num": "xu1 yao4"
-      },
-      {
-        "word": "护照",
+        "word": "名字",
         "pos": "noun",
-        "phonetic": "hùzhào",
-        "translation": "pasaporte",
-        "note": "Documento de identidad necesario para viajar",
-        "pinyin": "hù zhào",
-        "pinyin_num": "hu4 zhao4"
+        "phonetic": "míngzi",
+        "translation": "nombre",
+        "note": "identificador personal"
       },
       {
-        "word": "给您",
-        "pos": "verb phrase",
-        "phonetic": "gěi nín",
-        "translation": "le doy",
-        "note": "「給」+「您（usted, forma cortés）」, expresión de respeto al entregar algo",
-        "pinyin": "gěi nín",
-        "pinyin_num": "gei3 nin2"
-      },
-      {
-        "word": "行李",
+        "word": "先生",
         "pos": "noun",
-        "phonetic": "xínglǐ",
-        "translation": "equipaje",
-        "note": "Maletas o bolsos de viaje",
-        "pinyin": "xíng li",
-        "pinyin_num": "xing2 li0"
+        "phonetic": "xiānsheng",
+        "translation": "señor",
+        "note": "título formal para hombres"
       },
       {
-        "word": "帮",
+        "word": "进",
         "pos": "verb",
-        "phonetic": "bāng",
-        "translation": "ayudar",
-        "note": "Se usa en la estructura '帮 + persona + verbo'",
-        "pinyin": "bāng",
-        "pinyin_num": "bang1"
+        "phonetic": "jìn",
+        "translation": "entrar",
+        "note": "movimiento hacia el interior de un lugar"
       },
       {
-        "word": "拿",
+        "word": "请",
         "pos": "verb",
-        "phonetic": "ná",
-        "translation": "llevar, coger",
-        "note": "Acción de llevar algo con la mano",
-        "pinyin": "ná",
-        "pinyin_num": "na2"
+        "phonetic": "qǐng",
+        "translation": "por favor",
+        "note": "palabra de cortesía para hacer una petición"
       },
       {
-        "word": "二楼",
-        "pos": "noun",
-        "phonetic": "èr lóu",
-        "translation": "segunda planta",
-        "note": "Indica el número de planta de un edificio (en China, la primera planta es '一楼')",
-        "pinyin": "èr lóu",
-        "pinyin_num": "er4 lou2"
+        "word": "一下",
+        "pos": "adv",
+        "phonetic": "yíxià",
+        "translation": "un momento, brevemente",
+        "note": "indica una acción breve o un corto período"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A (お客様)",
-        "text": "你好，我预订了房间，现在需要入住。",
-        "translation": "Hola, he reservado una habitación y necesito hacer el check-in ahora.",
+        "speaker": "Recepcionista",
+        "text": "早上好！请问您预订了吗？",
+        "translation": "¡Buenos días! ¿Tiene reserva?",
         "highlights": [
-          "预订",
-          "房间",
-          "需要",
-          "入住"
+          "早上",
+          "请",
+          "预订"
         ]
       },
       {
-        "speaker": "B (フロント係)",
-        "text": "好的，请给我您的护照。",
-        "translation": "De acuerdo, por favor deme su pasaporte.",
+        "speaker": "Cliente",
+        "text": "是的，我姓 López。请问我的房间在哪里？",
+        "translation": "Sí, me apellido López. ¿Dónde está mi habitación?",
         "highlights": [
-          "护照"
+          "房间"
         ]
       },
       {
-        "speaker": "A (お客様)",
-        "text": "给您，这是我的护照。",
-        "translation": "Aquí tiene, este es mi pasaporte.",
+        "speaker": "Recepcionista",
+        "text": "请稍等一下，现在就为您办理入住。",
+        "translation": "Espere un momento, por favor. Ahora mismo le registro.",
         "highlights": [
-          "给您"
+          "请",
+          "一下",
+          "住"
         ]
       },
       {
-        "speaker": "B (フロント係)",
-        "text": "谢谢。您的房间在二楼，我帮您拿行李。",
-        "translation": "Gracias. Su habitación está en la segunda planta. Le ayudo con el equipaje.",
+        "speaker": "Cliente",
+        "text": "谢谢！晚上好！",
+        "translation": "¡Gracias! ¡Buenas noches!",
         "highlights": [
-          "二楼",
-          "帮",
-          "拿",
-          "行李"
+          "晚上"
+        ]
+      },
+      {
+        "speaker": "Recepcionista",
+        "text": "不客气！先生，请进。",
+        "translation": "¡De nada! Señor, pase, por favor.",
+        "highlights": [
+          "请",
+          "进"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我预订了房间",
-        "translation": "He reservado una habitación"
+        "phrase": "请问您预订了吗？",
+        "translation": "¿Tiene reserva?"
       },
       {
-        "phrase": "给您",
-        "translation": "Aquí tiene (le doy)"
+        "phrase": "请稍等一下",
+        "translation": "Espere un momento, por favor"
       },
       {
-        "phrase": "帮您拿行李",
-        "translation": "Le ayudo con el equipaje"
+        "phrase": "现在就为您办理入住",
+        "translation": "Ahora mismo le registro"
       }
     ]
   },
@@ -801,153 +739,137 @@
       {
         "word": "家",
         "pos": "noun",
-        "phonetic": "tɕja˥",
+        "phonetic": "jiā",
         "translation": "casa, hogar",
-        "note": "「家」 significa \"casa\" u \"hogar\".",
-        "pinyin": "jiā",
-        "pinyin_num": "jia1"
-      },
-      {
-        "word": "住",
-        "pos": "verb",
-        "phonetic": "ʈʂu˥˩",
-        "translation": "vivir",
-        "note": "Para decir \"vivir en\", también se usa \"住在〜\".",
-        "pinyin": "zhù",
-        "pinyin_num": "zhu4"
-      },
-      {
-        "word": "新",
-        "pos": "adj",
-        "phonetic": "ɕin˥",
-        "translation": "nuevo",
-        "note": "Como adjetivo, se coloca antes del sustantivo.",
-        "pinyin": "xīn",
-        "pinyin_num": "xin1"
-      },
-      {
-        "word": "邻居",
-        "pos": "noun",
-        "phonetic": "lin˧˥ tɕy˥",
-        "translation": "vecino",
-        "note": "Significa \"vecino\".",
-        "pinyin": "lín jū",
-        "pinyin_num": "lin2 ju1"
-      },
-      {
-        "word": "我们",
-        "pos": "pron",
-        "phonetic": "u̯o˨˩˦ mən",
-        "translation": "nosotros",
-        "note": "Primera persona del plural.",
-        "pinyin": "wǒ men",
-        "pinyin_num": "wo3 men0"
-      },
-      {
-        "word": "都",
-        "pos": "adv",
-        "phonetic": "tou˥",
-        "translation": "todos, todo",
-        "note": "Se coloca después del sujeto y enfatiza \"todos\".",
-        "pinyin": "dōu",
-        "pinyin_num": "dou1"
-      },
-      {
-        "word": "和",
-        "pos": "conj",
-        "phonetic": "xɤ˧˥",
-        "translation": "y",
-        "note": "Conjunción que coordina sustantivos.",
-        "pinyin": "hé",
-        "pinyin_num": "he2"
-      },
-      {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "iɛ˨˩˦",
-        "translation": "también",
-        "note": "Ya aprendido, pero aquí se usa con el sentido de \"también\".",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
-      },
-      {
-        "word": "在",
-        "pos": "prep",
-        "phonetic": "tsai˥˩",
-        "translation": "en (lugar)",
-        "note": "Preposición que indica lugar.",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "note": "se refiere al lugar donde vives o a la familia"
       },
       {
         "word": "来",
         "pos": "verb",
-        "phonetic": "lai˧˥",
+        "phonetic": "lái",
         "translation": "venir",
-        "note": "También se usa con el sentido de \"venir a hacer algo\".",
-        "pinyin": "lái",
-        "pinyin_num": "lai2"
+        "note": "movimiento hacia el hablante"
+      },
+      {
+        "word": "这边",
+        "pos": "adv",
+        "phonetic": "zhè biān",
+        "translation": "por aquí, este lado",
+        "note": "indica dirección cercana al hablante"
+      },
+      {
+        "word": "看见",
+        "pos": "verb",
+        "phonetic": "kàn jiàn",
+        "translation": "ver, divisar",
+        "note": "acción de percibir con la vista"
+      },
+      {
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shí hou",
+        "translation": "momento, tiempo",
+        "note": "se usa para referirse a un momento específico"
+      },
+      {
+        "word": "一下",
+        "pos": "adv",
+        "phonetic": "yī xià",
+        "translation": "un momento, brevemente",
+        "note": "indica acción breve o rápida"
+      },
+      {
+        "word": "太",
+        "pos": "adv",
+        "phonetic": "tài",
+        "translation": "demasiado",
+        "note": "indica exceso (positivo o negativo)"
+      },
+      {
+        "word": "还",
+        "pos": "adv",
+        "phonetic": "hái",
+        "translation": "todavía, además",
+        "note": "indica continuidad o adición"
+      },
+      {
+        "word": "过",
+        "pos": "partícula",
+        "phonetic": "guo",
+        "translation": "partícula de experiencia pasada",
+        "note": "se usa después de verbos para indicar que se ha hecho algo antes"
+      },
+      {
+        "word": "别",
+        "pos": "adv",
+        "phonetic": "bié",
+        "translation": "no (imperativo), otro",
+        "note": "usado para prohibiciones o para indicar diferencias"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我是新来的邻居，我住在一楼。",
-        "translation": "Hola, soy el vecino nuevo. Vivo en el primer piso.",
-        "highlights": [
-          "新",
-          "邻居",
-          "住",
-          "在"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你好！我们也是这里的邻居，我姓王。",
-        "translation": "¡Hola! Nosotros también somos vecinos de aquí. Mi apellido es Wang.",
-        "highlights": [
-          "我们",
-          "邻居",
-          "也"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "王先生，您家有几口人？",
-        "translation": "Señor Wang, ¿cuántas personas hay en su familia?",
-        "highlights": [
-          "家"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "我家有我和我太太，还有两个小孩。我们都住在这里。",
-        "translation": "En mi familia estamos mi esposa y yo, y también dos niños. Todos vivimos aquí.",
+        "text": "你好！我家在这边。",
+        "translation": "¡Hola! Mi casa está por aquí.",
         "highlights": [
           "家",
-          "都",
-          "住",
-          "和"
+          "这边"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "你好！我刚才看见你正在进门。",
+        "translation": "¡Hola! Acabo de verte entrando.",
+        "highlights": [
+          "看见",
+          "时候"
         ]
       },
       {
         "speaker": "A",
-        "text": "太好了，以后我们可以一起来喝茶。",
-        "translation": "Qué bien, de ahora en adelante podemos venir a tomar té juntos.",
+        "text": "对，我正在搬东西。你是新邻居吗？",
+        "translation": "Sí, estoy llevando cosas. ¿Eres el nuevo vecino?",
         "highlights": [
-          "来",
-          "我们"
+          "新"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "是的，我刚来。这栋楼太安静了，平时还有别人住这边吗？",
+        "translation": "Sí, acabo de llegar. Este edificio está muy tranquilo. ¿Normalmente hay más gente viviendo por aquí?",
+        "highlights": [
+          "太",
+          "还",
+          "别"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "偶尔Someone来，不过多数时候就我们两家。",
+        "translation": "A veces viene alguien, pero la mayoría del tiempo solo estamos nuestras dos familias.",
+        "highlights": [
+          "过",
+          "一下"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我是新来的邻居",
-        "translation": "Soy el vecino nuevo."
+        "phrase": "我家在这边",
+        "translation": "Mi casa está por aquí"
       },
       {
-        "phrase": "我们都住在这里",
-        "translation": "Todos vivimos aquí."
+        "phrase": "刚才看见你",
+        "translation": "Acabo de verte"
+      },
+      {
+        "phrase": "这栋楼太安静了",
+        "translation": "Este edificio está muy tranquilo"
+      },
+      {
+        "phrase": "平时还有别人住这边吗",
+        "translation": "Normalmente hay más gente viviendo por aquí"
       }
     ]
   },
@@ -962,172 +884,148 @@
       {
         "word": "现在",
         "pos": "noun",
-        "phonetic": "ɕjɛn˥˩ tsai˥˩",
+        "phonetic": "xiàn zài",
         "translation": "ahora",
-        "note": "Significa \"ahora\". Para preguntar la hora se usa como en \"现在几点？\".",
-        "pinyin": "xiàn zài",
-        "pinyin_num": "xian4 zai4"
+        "note": "Se usa para preguntar o indicar el momento actual"
+      },
+      {
+        "word": "几",
+        "pos": "pronoun",
+        "phonetic": "jǐ",
+        "translation": "qué / cuál",
+        "note": "Se usa en preguntas sobre números pequeños o tiempo"
       },
       {
         "word": "点",
         "pos": "noun",
-        "phonetic": "tjɛn˨˩˦",
-        "translation": "hora (en punto)",
-        "note": "Indica la hora en punto. Ejemplo: 两点 = 2 en punto.",
-        "pinyin": "diǎn",
-        "pinyin_num": "dian3"
+        "phonetic": "diǎn",
+        "translation": "punto / hora (en contexto de tiempo)",
+        "note": "Indica horas en reloj ('siete punto tres cero' = 7:30)"
       },
       {
-        "word": "半",
-        "pos": "noun",
-        "phonetic": "pan˥˩",
-        "translation": "media (30 minutos)",
-        "note": "Se usa para indicar \"y media\". Ejemplo: 三点半 = 3 y media.",
-        "pinyin": "bàn",
-        "pinyin_num": "ban4"
+        "word": "了",
+        "pos": "particle",
+        "phonetic": "le",
+        "translation": "partícula aspectual (cambio o final)",
+        "note": "Indica que una acción ha ocurrido o cambiado"
       },
       {
-        "word": "几",
-        "pos": "pron",
-        "phonetic": "tɕi˨˩˦",
-        "translation": "cuántos",
-        "note": "Pronombre interrogativo para preguntar por una cantidad. \"几点\" significa \"qué hora\".",
-        "pinyin": "jǐ",
-        "pinyin_num": "ji3"
-      },
-      {
-        "word": "知道",
-        "pos": "verb",
-        "phonetic": "ʈʂɻ̩˥˥ tau˥˩",
-        "translation": "saber",
-        "note": "Significa \"saber\" o \"conocer\". La negación es \"不知道\".",
-        "pinyin": "zhī dào",
-        "pinyin_num": "zhi1 dao4"
-      },
-      {
-        "word": "对不起",
-        "pos": "verb",
-        "phonetic": "twei˥˩ pu˥˩ tɕʰi˨˩˦",
-        "translation": "lo siento, disculpe",
-        "note": "Se usa para disculparse o para llamar la atención de alguien.",
-        "pinyin": "duì bù qǐ",
-        "pinyin_num": "dui4 bu4 qi3"
-      },
-      {
-        "word": "没",
+        "word": "还",
         "pos": "adv",
-        "phonetic": "mei˧˥",
-        "translation": "no (negación)",
-        "note": "Niega la realización de una acción o un estado. También se usa como abreviatura de \"没有\".",
-        "pinyin": "méi",
-        "pinyin_num": "mei2"
+        "phonetic": "hái",
+        "translation": "todavía / aún",
+        "note": "Se usa para indicar continuación o algo no completado"
       },
       {
-        "word": "关系",
-        "pos": "noun",
-        "phonetic": "kwan˥˥ ɕi˥˩",
-        "translation": "relación",
-        "note": "En \"没关系\" significa \"no importa\" o \"no te preocupes\".",
-        "pinyin": "guān xì",
-        "pinyin_num": "guan1 xi4"
-      },
-      {
-        "word": "等",
+        "word": "能",
         "pos": "verb",
-        "phonetic": "təŋ˨˩˦",
-        "translation": "esperar",
-        "note": "En \"等一下\" significa \"espera un momento\".",
-        "pinyin": "děng",
-        "pinyin_num": "deng3"
+        "phonetic": "néng",
+        "translation": "poder (capacidad o permiso)",
+        "note": "Indica habilidad o posibilidad de hacer algo"
       },
       {
-        "word": "分",
+        "word": "说",
+        "pos": "verb",
+        "phonetic": "shuō",
+        "translation": "decir / hablar",
+        "note": "Verbo clave para comunicación"
+      },
+      {
+        "word": "抱歉",
+        "pos": "adj",
+        "phonetic": "bào qiàn",
+        "translation": "lo siento / perdón",
+        "note": "Expresión de disculpa formal"
+      },
+      {
+        "word": "下",
         "pos": "noun",
-        "phonetic": "fən˥˥",
-        "translation": "minuto (unidad de tiempo)",
-        "note": "Indica los minutos en la hora. Ejemplo: 五点十分 = 5 y 10 minutos.",
-        "pinyin": "fēn",
-        "pinyin_num": "fen1"
+        "phonetic": "xià",
+        "translation": "abajo / próximo",
+        "note": "En contexto de tiempo: próximo evento"
+      },
+      {
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shí hou",
+        "translation": "momento / tiempo",
+        "note": "Se usa para referirse a un momento específico"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "对不起，现在几点？",
-        "translation": "Disculpe, ¿qué hora es?",
+        "text": "请问，现在几点了？",
+        "translation": "Disculpe, ¿qué hora es ahora?",
         "highlights": [
-          "对不起",
+          "请问",
           "现在",
-          "几点"
+          "几",
+          "点",
+          "了"
         ]
       },
       {
         "speaker": "B",
-        "text": "现在三点半。",
-        "translation": "Son las tres y media.",
+        "text": "抱歉，我还能说一点中文。现在差五分六点。",
+        "translation": "Perdón, aún puedo hablar un poco de chino. Ahora faltan cinco para las seis.",
         "highlights": [
+          "抱歉",
+          "还",
+          "能",
+          "说",
           "现在",
           "点",
-          "半"
+          "了"
         ]
       },
       {
         "speaker": "A",
-        "text": "你知道现在几点吗？",
-        "translation": "¿Sabes qué hora es?",
+        "text": "能再说一次吗？",
+        "translation": "¿Puede decirlo otra vez?",
         "highlights": [
-          "知道",
-          "现在",
-          "几点"
+          "能",
+          "说",
+          "一次"
         ]
       },
       {
         "speaker": "B",
-        "text": "不知道，没表。等一下，我看手机。",
-        "translation": "No sé, no tengo reloj. Espera un momento, miro el móvil.",
-        "highlights": [
-          "不知道",
-          "没",
-          "等",
-          "一下",
-          "看"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "现在五点十分。",
-        "translation": "Son las cinco y diez.",
+        "text": "现在是五点五十五分。",
+        "translation": "Ahora son las cinco y cincuenta y cinco.",
         "highlights": [
           "现在",
-          "点",
-          "分"
+          "是",
+          "点"
         ]
       },
       {
         "speaker": "A",
-        "text": "没关系，谢谢！",
-        "translation": "No importa, ¡gracias!",
+        "text": "好的，谢谢！下次见！",
+        "translation": "Perfecto, ¡gracias! ¡Hasta luego!",
         "highlights": [
-          "没关系"
+          "下",
+          "次",
+          "见"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "现在几点？",
-        "translation": "¿Qué hora es?"
+        "phrase": "请问，现在几点了？",
+        "translation": "Disculpe, ¿qué hora es ahora?"
       },
       {
-        "phrase": "三点半",
-        "translation": "tres y media"
+        "phrase": "现在差五分六点。",
+        "translation": "Faltan cinco para las seis."
       },
       {
-        "phrase": "不知道",
-        "translation": "no sé"
+        "phrase": "能再说一次吗？",
+        "translation": "¿Puede decirlo otra vez?"
       },
       {
-        "phrase": "没关系",
-        "translation": "no importa"
+        "phrase": "下次见！",
+        "translation": "¡Hasta luego!"
       }
     ]
   },
@@ -1140,158 +1038,138 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "医生",
+        "word": "身体",
         "pos": "noun",
-        "phonetic": "[i˥ ʂəŋ˥]",
-        "translation": "médico",
-        "note": "Se refiere a un médico en general.",
-        "pinyin": "yī shēng",
-        "pinyin_num": "yi1 sheng1"
-      },
-      {
-        "word": "我",
-        "pos": "pron",
-        "phonetic": "[u̯o˨˩˦]",
-        "translation": "yo",
-        "note": "Pronombre de primera persona.",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
-      },
-      {
-        "word": "你",
-        "pos": "pron",
-        "phonetic": "[ni˨˩˦]",
-        "translation": "tú",
-        "note": "Pronombre de segunda persona.",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
-      },
-      {
-        "word": "很",
-        "pos": "adv",
-        "phonetic": "[xən˨˩˦]",
-        "translation": "muy",
-        "note": "Adverbio de grado que se coloca antes de un adjetivo.",
-        "pinyin": "hěn",
-        "pinyin_num": "hen3"
+        "phonetic": "shēntǐ",
+        "translation": "cuerpo"
       },
       {
         "word": "好",
-        "pos": "adj",
-        "phonetic": "[xɑʊ̯˨˩˦]",
-        "translation": "bueno, bien",
-        "note": "Indica que el estado es bueno.",
-        "pinyin": "hǎo",
-        "pinyin_num": "hao3"
+        "pos": "adjective",
+        "phonetic": "hǎo",
+        "translation": "bueno/bien"
+      },
+      {
+        "word": "问",
+        "pos": "verb",
+        "phonetic": "wèn",
+        "translation": "preguntar"
+      },
+      {
+        "word": "得",
+        "pos": "particle",
+        "phonetic": "de",
+        "translation": "partícula de resultado o estado (ej. 'tienes que estar...')",
+        "note": "Usado después de verbos para indicar resultado o estado"
+      },
+      {
+        "word": "很",
+        "pos": "adverb",
+        "phonetic": "hěn",
+        "translation": "muy"
+      },
+      {
+        "word": "吗",
+        "pos": "particle",
+        "phonetic": "ma",
+        "translation": "partícula interrogativa (equivalente a '¿?')",
+        "note": "Se usa al final de una oración para indicar pregunta"
+      },
+      {
+        "word": "痛",
+        "pos": "verb",
+        "phonetic": "tòng",
+        "translation": "doler"
       },
       {
         "word": "不",
-        "pos": "adv",
-        "phonetic": "[pu˥˩]",
-        "translation": "no",
-        "note": "Indica negación.",
-        "pinyin": "bù",
-        "pinyin_num": "bu4"
+        "pos": "adverb",
+        "phonetic": "bù",
+        "translation": "no"
       },
       {
-        "word": "觉得",
-        "pos": "verb",
-        "phonetic": "[tɕy̯ɛ˧˥ tɤ˧˥]",
-        "translation": "sentir, pensar",
-        "note": "Expresa sensaciones u opiniones subjetivas.",
-        "pinyin": "jué de",
-        "pinyin_num": "jue2 de0"
+        "word": "都",
+        "pos": "adverb",
+        "phonetic": "dōu",
+        "translation": "todo(s)/ambos"
       },
       {
-        "word": "身体",
-        "pos": "noun",
-        "phonetic": "[ʂən˥ tʰi˨˩˦]",
-        "translation": "cuerpo",
-        "note": "Se refiere a todo el cuerpo.",
-        "pinyin": "shēn tǐ",
-        "pinyin_num": "shen1 ti3"
-      },
-      {
-        "word": "但是",
-        "pos": "conj",
-        "phonetic": "[tan˥˩ ʂɻ̩˥˩]",
-        "translation": "pero",
-        "note": "Conjunción adversativa.",
-        "pinyin": "dàn shì",
-        "pinyin_num": "dan4 shi4"
-      },
-      {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "[ʂən˧˥ mə˧]",
-        "translation": "qué",
-        "note": "Pronombre interrogativo.",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
+        "word": "和",
+        "pos": "conjunction",
+        "phonetic": "hé",
+        "translation": "y"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "医生，您好。我身体不舒服。",
-        "translation": "Médico, hola. Me siento mal.",
-        "highlights": [
-          "医生",
-          "我",
-          "身体"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你好。你觉得怎么样？",
-        "translation": "Hola. ¿Cómo te sientes?",
-        "highlights": [
-          "你",
-          "觉得"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我很好，但是很累。",
-        "translation": "Estoy bien, pero muy cansado.",
-        "highlights": [
-          "很",
-          "好",
-          "但是"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你不舒服，但是很好？这是什么意思？",
-        "translation": "¿Te sientes mal, pero estás bien? ¿Qué significa eso?",
-        "highlights": [
-          "不",
-          "什么"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "身体不累，但是心很累。",
-        "translation": "El cuerpo no está cansado, pero el corazón está muy cansado.",
+        "speaker": "医生",
+        "text": "身体怎么样？",
+        "translation": "¿Cómo está tu cuerpo?",
         "highlights": [
           "身体",
-          "不",
+          "怎么样"
+        ]
+      },
+      {
+        "speaker": "病人",
+        "text": "还好，就是头有点痛。",
+        "translation": "Bien, solo me duele un poco la cabeza.",
+        "highlights": [
+          "还",
+          "好",
+          "头",
+          "痛"
+        ]
+      },
+      {
+        "speaker": "医生",
+        "text": "痛得很厉害吗？",
+        "translation": "¿Duele mucho?",
+        "highlights": [
+          "痛",
+          "得",
           "很"
+        ]
+      },
+      {
+        "speaker": "病人",
+        "text": "不太厉害，头和胃都有点不舒服。",
+        "translation": "No es muy fuerte, pero la cabeza y el estómago están un poco incómodos.",
+        "highlights": [
+          "不",
+          "头",
+          "胃",
+          "都",
+          "和"
+        ]
+      },
+      {
+        "speaker": "医生",
+        "text": "来，我先问你几个问题。",
+        "translation": "Ven, te haré algunas preguntas primero.",
+        "highlights": [
+          "问",
+          "你",
+          "几个"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我身体不舒服",
-        "translation": "Me siento mal"
+        "phrase": "身体怎么样？",
+        "translation": "¿Cómo está tu cuerpo?"
       },
       {
-        "phrase": "你觉得怎么样？",
-        "translation": "¿Cómo te sientes?"
+        "phrase": "头有点痛",
+        "translation": "Me duele un poco la cabeza"
       },
       {
-        "phrase": "这是什么意思？",
-        "translation": "¿Qué significa esto?"
+        "phrase": "痛得很厉害吗？",
+        "translation": "¿Duele mucho?"
+      },
+      {
+        "phrase": "头和胃都有点不舒服",
+        "translation": "La cabeza y el estómago están un poco incómodos"
       }
     ]
   },
@@ -1304,152 +1182,125 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "这个",
+        "word": "我",
         "pos": "pron",
-        "phonetic": "zhè ge",
-        "translation": "esto",
-        "note": "Pronombre demostrativo. Se usa para señalar objetos.",
-        "pinyin": "zhè ge",
-        "pinyin_num": "zhe4 ge0"
+        "phonetic": "wǒ",
+        "translation": "yo"
       },
       {
-        "word": "一共",
+        "word": "你",
+        "pos": "pron",
+        "phonetic": "nǐ",
+        "translation": "tú"
+      },
+      {
+        "word": "有",
+        "pos": "verb",
+        "phonetic": "yǒu",
+        "translation": "tener"
+      },
+      {
+        "word": "里",
+        "pos": "prep",
+        "phonetic": "li",
+        "translation": "dentro de",
+        "note": "se usa como sufijo para indicar ubicación, ej. 'en'"
+      },
+      {
+        "word": "那",
+        "pos": "pron",
+        "phonetic": "nà",
+        "translation": "ese/esa"
+      },
+      {
+        "word": "就",
         "pos": "adv",
-        "phonetic": "yīgòng",
-        "translation": "en total",
-        "note": "Se usa a menudo para decir el importe total.",
-        "pinyin": "yí gòng",
-        "pinyin_num": "yi2 gong4"
+        "phonetic": "jiù",
+        "translation": "justo (para enfatizar inmediatez)"
       },
       {
-        "word": "块",
-        "pos": "noun",
-        "phonetic": "kuài",
-        "translation": "yuan (unidad monetaria)",
-        "note": "En el lenguaje coloquial se usa en lugar de 'yuan'.",
-        "pinyin": "kuài",
-        "pinyin_num": "kuai4"
+        "word": "请",
+        "pos": "verb",
+        "phonetic": "qǐng",
+        "translation": "por favor (pedir)"
+      },
+      {
+        "word": "位",
+        "pos": "clasificador",
+        "phonetic": "wèi",
+        "translation": "clasificador para personas (formal)"
+      },
+      {
+        "word": "再",
+        "pos": "adv",
+        "phonetic": "zài",
+        "translation": "otra vez"
       },
       {
         "word": "找",
         "pos": "verb",
         "phonetic": "zhǎo",
-        "translation": "dar (el cambio)",
-        "note": "Deriva de 'buscar el cambio' y significa 'dar el cambio'.",
-        "pinyin": "zhǎo",
-        "pinyin_num": "zhao3"
-      },
-      {
-        "word": "收",
-        "pos": "verb",
-        "phonetic": "shōu",
-        "translation": "recibir, aceptar",
-        "note": "También se usa para recibir dinero.",
-        "pinyin": "shōu",
-        "pinyin_num": "shou1"
-      },
-      {
-        "word": "现金",
-        "pos": "noun",
-        "phonetic": "xiànjīn",
-        "translation": "efectivo",
-        "note": "Se usa a menudo en contraste con la tarjeta.",
-        "pinyin": "xiàn jīn",
-        "pinyin_num": "xian4 jin1"
-      },
-      {
-        "word": "卡",
-        "pos": "noun",
-        "phonetic": "kǎ",
-        "translation": "tarjeta",
-        "note": "Se refiere a tarjeta de crédito o débito.",
-        "pinyin": "kǎ",
-        "pinyin_num": "ka3"
-      },
-      {
-        "word": "刷",
-        "pos": "verb",
-        "phonetic": "shuā",
-        "translation": "pasar (la tarjeta)",
-        "note": "Verbo usado al pagar con tarjeta.",
-        "pinyin": "shuā",
-        "pinyin_num": "shua1"
-      },
-      {
-        "word": "对",
-        "pos": "adj",
-        "phonetic": "duì",
-        "translation": "correcto, así es",
-        "note": "También se usa para confirmar lo que dice la otra persona.",
-        "pinyin": "duì",
-        "pinyin_num": "dui4"
-      },
-      {
-        "word": "先",
-        "pos": "adv",
-        "phonetic": "xiān",
-        "translation": "primero",
-        "note": "Indica orden.",
-        "pinyin": "xiān",
-        "pinyin_num": "xian1"
+        "translation": "buscar / dar cambio"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A (客)",
-        "text": "一共多少钱？这个也收现金吗？",
-        "translation": "¿Cuánto es en total? ¿Aceptan efectivo para esto también?",
+        "speaker": "A",
+        "text": "你好！请问您要找什吗？",
+        "translation": "¡Hola! ¿Qué desea buscar, por favor?",
         "highlights": [
-          "一共",
-          "这个",
-          "收",
-          "现金"
-        ]
-      },
-      {
-        "speaker": "B (店員)",
-        "text": "一共十五块。现金可以，卡也可以刷。",
-        "translation": "Son quince yuanes en total. Puede pagar en efectivo o con tarjeta.",
-        "highlights": [
-          "一共",
-          "块",
-          "现金",
-          "卡",
-          "刷"
-        ]
-      },
-      {
-        "speaker": "A (客)",
-        "text": "好，我刷信用卡。这是找您的钱吗？",
-        "translation": "Bien, pagaré con tarjeta de crédito. ¿Este es su cambio?",
-        "highlights": [
-          "刷",
+          "你",
+          "要",
           "找"
         ]
       },
       {
-        "speaker": "B (店員)",
-        "text": "对，先给您收据，然后找您钱。",
-        "translation": "Sí, primero le doy el recibo y luego le doy el cambio.",
+        "speaker": "B",
+        "text": "我有这个里面的苹果，请问在哪里？",
+        "translation": "Tengo estas manzanas dentro del supermercado. ¿Dónde están?",
         "highlights": [
-          "对",
-          "先",
+          "我",
+          "有",
+          "里"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "那位客人，请往前走，苹果就在就那边。",
+        "translation": "Ese señor, por favor, camine hacia adelante, las manzanas están justo allí.",
+        "highlights": [
+          "那",
+          "位",
+          "就"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "好的，谢谢！还要再找一位店员。",
+        "translation": "¡Entendido, gracias! También necesito buscar a otro empleado.",
+        "highlights": [
+          "再",
           "找"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "好的，我帮您找。",
+        "translation": "Muy bien, yo le ayudo a buscar.",
+        "highlights": [
+          "我",
+          "帮您"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "一共多少钱？",
-        "translation": "¿Cuánto es en total?"
+        "phrase": "请问您要找什么？",
+        "translation": "¿Qué desea buscar, por favor?"
       },
       {
-        "phrase": "刷信用卡",
-        "translation": "pagar con tarjeta de crédito"
-      },
-      {
-        "phrase": "找您钱",
-        "translation": "darle el cambio"
+        "phrase": "我帮您找。",
+        "translation": "Yo le ayudo a buscar."
       }
     ]
   },
@@ -1462,152 +1313,156 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "吗",
-        "pos": "part",
-        "phonetic": "ma",
-        "translation": "¿(partícula interrogativa)?",
-        "note": "Se coloca al final de la oración para formar una pregunta",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
-      },
-      {
-        "word": "呢",
-        "pos": "part",
-        "phonetic": "ne",
-        "translation": "¿y...? (para preguntar de vuelta)",
-        "note": "Dependiendo del contexto, puede significar '¿qué tal?'",
-        "pinyin": "ne",
-        "pinyin_num": "ne0"
-      },
-      {
-        "word": "今天",
-        "pos": "noun",
-        "phonetic": "jīntiān",
-        "translation": "hoy",
-        "pinyin": "jīn tiān",
-        "pinyin_num": "jin1 tian1"
-      },
-      {
-        "word": "明天",
-        "pos": "noun",
-        "phonetic": "míngtiān",
-        "translation": "mañana",
-        "pinyin": "míng tiān",
-        "pinyin_num": "ming2 tian1"
-      },
-      {
-        "word": "时间",
-        "pos": "noun",
-        "phonetic": "shíjiān",
-        "translation": "tiempo",
-        "pinyin": "shí jiān",
-        "pinyin_num": "shi2 jian1"
-      },
-      {
-        "word": "有",
+        "word": "打",
         "pos": "verb",
-        "phonetic": "yǒu",
-        "translation": "haber, tener",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
+        "phonetic": "dǎ",
+        "translation": "llamar (por teléfono)"
       },
       {
-        "word": "会",
-        "pos": "verb",
-        "phonetic": "huì",
-        "translation": "poder, tener la intención de",
-        "note": "Indica posibilidad o plan",
-        "pinyin": "huì",
-        "pinyin_num": "hui4"
+        "word": "可以",
+        "pos": "verb modal",
+        "phonetic": "kěyǐ",
+        "translation": "poder (permitido/habilidad)"
       },
       {
         "word": "想",
         "pos": "verb",
         "phonetic": "xiǎng",
-        "translation": "querer, pensar",
-        "pinyin": "xiǎng",
-        "pinyin_num": "xiang3"
+        "translation": "querer (pensar en hacer algo)"
+      },
+      {
+        "word": "吃",
+        "pos": "verb",
+        "phonetic": "chī",
+        "translation": "comer"
+      },
+      {
+        "word": "饭",
+        "pos": "noun",
+        "phonetic": "fàn",
+        "translation": "comida, arroz cocido"
+      },
+      {
+        "word": "时候",
+        "pos": "noun",
+        "phonetic": "shíhou",
+        "translation": "momento, tiempo (cuando)"
+      },
+      {
+        "word": "明天",
+        "pos": "noun",
+        "phonetic": "míngtiān",
+        "translation": "mañana (día siguiente)"
+      },
+      {
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "bueno, bien"
+      },
+      {
+        "word": "在",
+        "pos": "preposition",
+        "phonetic": "zài",
+        "translation": "en, estar (en un lugar)"
       },
       {
         "word": "吧",
-        "pos": "part",
+        "pos": "partícula",
         "phonetic": "ba",
-        "translation": "vamos a... (sugerencia)",
-        "note": "Al final de la oración indica sugerencia o invitación",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
-      },
-      {
-        "word": "太",
-        "pos": "adv",
-        "phonetic": "tài",
-        "translation": "muy, demasiado",
-        "note": "Con '太…了' significa 'muy...'",
-        "pinyin": "tài",
-        "pinyin_num": "tai4"
+        "translation": "partícula de sugerencia o confirmación (¿no?)"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "喂，你今天有时间吗？",
-        "translation": "Hola, ¿tienes tiempo hoy?",
+        "text": "喂，你好！我是小明，你现在可以聊天吗？",
+        "translation": "¡Hola! Soy Xiao Ming. ¿Puedes hablar ahora?",
         "highlights": [
-          "今天",
-          "有",
-          "时间",
+          "喂",
+          "你好",
+          "我是",
+          "你现在",
+          "可以",
+          "聊天",
           "吗"
         ]
       },
       {
         "speaker": "B",
-        "text": "有。你呢？",
-        "translation": "Sí. ¿Y tú?",
+        "text": "你好！我现在有点忙，明天下午可以吗？",
+        "translation": "¡Hola! Ahora estoy un poco ocupado. ¿Mañana por la tarde está bien?",
         "highlights": [
-          "有",
-          "呢"
+          "你好",
+          "现在",
+          "有点",
+          "明天",
+          "下午",
+          "可以",
+          "吗"
         ]
       },
       {
         "speaker": "A",
-        "text": "我想去看电影，你会去吗？",
-        "translation": "Quiero ir al cine, ¿irás?",
-        "highlights": [
-          "想",
-          "会",
-          "吗"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "好，我们明天去吧。",
-        "translation": "Bien, vayamos mañana.",
+        "text": "明天下午我可以，我们在哪里吃饭？",
+        "translation": "Mañana por la tarde puedo. ¿Dónde comemos?",
         "highlights": [
           "明天",
-          "吧"
+          "下午",
+          "我",
+          "可以",
+          "我们",
+          "在",
+          "哪里",
+          "吃饭"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "饭店那边有一个很好的地方，可以吗？",
+        "translation": "Hay un lugar bueno por la zona del restaurante. ¿Te parece?",
+        "highlights": [
+          "饭店",
+          "那边",
+          "有一个",
+          "很好的",
+          "地方",
+          "可以",
+          "吗"
         ]
       },
       {
         "speaker": "A",
-        "text": "太好了！明天见！",
-        "translation": "¡Genial! ¡Hasta mañana!",
+        "text": "好，明天下午见！",
+        "translation": "¡Perfecto! ¡Hasta mañana por la tarde!",
         "highlights": [
-          "太"
+          "好",
+          "明天",
+          "下午",
+          "见"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "有时间吗？",
-        "translation": "¿Tienes tiempo?"
+        "phrase": "你现在可以聊天吗？",
+        "translation": "¿Puedes hablar ahora?"
       },
       {
-        "phrase": "去吧",
-        "translation": "Vamos (sugerencia)"
+        "phrase": "明天下午可以吗？",
+        "translation": "¿Mañana por la tarde está bien?"
       },
       {
-        "phrase": "太好了",
-        "translation": "Genial, excelente"
+        "phrase": "我们在哪里吃饭？",
+        "translation": "¿Dónde comemos?"
+      },
+      {
+        "phrase": "饭店那边有一个很好的地方",
+        "translation": "Hay un lugar bueno por la zona del restaurante"
+      },
+      {
+        "phrase": "明天下午见！",
+        "translation": "¡Hasta mañana por la tarde!"
       }
     ]
   },
@@ -1620,94 +1475,64 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
+        "word": "多",
+        "pos": "adv",
+        "phonetic": "duō",
+        "translation": "cuánto, mucho"
+      },
+      {
+        "word": "也",
+        "pos": "adv",
+        "phonetic": "yě",
+        "translation": "también"
+      },
+      {
+        "word": "大",
+        "pos": "adj",
+        "phonetic": "dà",
+        "translation": "grande"
+      },
+      {
+        "word": "小",
+        "pos": "adj",
+        "phonetic": "xiǎo",
+        "translation": "pequeño"
+      },
+      {
+        "word": "做",
+        "pos": "verb",
+        "phonetic": "zuò",
+        "translation": "hacer, trabajar"
+      },
+      {
         "word": "爸爸",
         "pos": "noun",
-        "phonetic": "pa4 pa5",
-        "translation": "padre, papá",
-        "note": "Término común en el lenguaje coloquial.",
-        "pinyin": "bà ba",
-        "pinyin_num": "ba4 ba0"
+        "phonetic": "bàba",
+        "translation": "papá"
       },
       {
         "word": "妈妈",
         "pos": "noun",
-        "phonetic": "ma1 ma5",
-        "translation": "madre, mamá",
-        "note": "Término común en el lenguaje coloquial.",
-        "pinyin": "mā ma",
-        "pinyin_num": "ma1 ma0"
+        "phonetic": "māma",
+        "translation": "mamá"
       },
       {
-        "word": "哥哥",
-        "pos": "noun",
-        "phonetic": "ge1 ge5",
-        "translation": "hermano mayor",
-        "note": "Se refiere a un hermano mayor.",
-        "pinyin": "gē ge",
-        "pinyin_num": "ge1 ge0"
+        "word": "工作",
+        "pos": "verb/noun",
+        "phonetic": "gōngzuò",
+        "translation": "trabajar/trabajo"
       },
       {
-        "word": "姐姐",
-        "pos": "noun",
-        "phonetic": "jie3 jie5",
-        "translation": "hermana mayor",
-        "note": "Se refiere a una hermana mayor.",
-        "pinyin": "jiě jie",
-        "pinyin_num": "jie3 jie0"
+        "word": "个",
+        "pos": "clasificador",
+        "phonetic": "ge",
+        "translation": "clasificador"
       },
       {
-        "word": "孩子",
-        "pos": "noun",
-        "phonetic": "hai2 zi5",
-        "translation": "niño, hijo",
-        "note": "Se refiere a los niños en general.",
-        "pinyin": "hái zi",
-        "pinyin_num": "hai2 zi0"
-      },
-      {
-        "word": "岁",
-        "pos": "noun",
-        "phonetic": "sui4",
-        "translation": "año (unidad de edad)",
-        "note": "Se usa para decir la edad.",
-        "pinyin": "suì",
-        "pinyin_num": "sui4"
-      },
-      {
-        "word": "多",
-        "pos": "adj",
-        "phonetic": "duo1",
-        "translation": "mucho, cuánto",
-        "note": "Se usa en preguntas con '多少'.",
-        "pinyin": "duō",
-        "pinyin_num": "duo1"
-      },
-      {
-        "word": "少",
-        "pos": "adj",
-        "phonetic": "shao3",
-        "translation": "poco",
-        "note": "Se usa en preguntas con '多少'.",
-        "pinyin": "shǎo",
-        "pinyin_num": "shao3"
-      },
-      {
-        "word": "还",
-        "pos": "adv",
-        "phonetic": "hai2",
-        "translation": "todavía, además, también",
-        "note": "Expresa adición o continuación.",
-        "pinyin": "hái",
-        "pinyin_num": "hai2"
-      },
-      {
-        "word": "就",
-        "pos": "adv",
-        "phonetic": "jiu4",
-        "translation": "exactamente, solo",
-        "note": "Se usa a menudo para limitar una cantidad.",
-        "pinyin": "jiù",
-        "pinyin_num": "jiu4"
+        "word": "个",
+        "pos": "pron",
+        "phonetic": "tā",
+        "translation": "él/ella"
       }
     ],
     "dialogue": [
@@ -1716,54 +1541,47 @@
         "text": "你家有几个人？",
         "translation": "¿Cuántas personas hay en tu familia?",
         "highlights": [
+          "有",
           "几"
         ]
       },
       {
         "speaker": "B",
-        "text": "我家有爸爸妈妈，一个哥哥，一个姐姐，还有我，就五个人。",
-        "translation": "En mi familia están papá, mamá, un hermano mayor, una hermana mayor, y yo, somos exactamente cinco.",
+        "text": "我家有五个人。爸爸、妈妈、我、弟弟和妹妹。",
+        "translation": "En mi familia hay cinco personas: papá, mamá, yo, mi hermano menor y mi hermana menor.",
         "highlights": [
           "爸爸",
           "妈妈",
-          "哥哥",
-          "姐姐",
-          "还",
-          "就"
+          "我",
+          "和"
         ]
       },
       {
         "speaker": "A",
-        "text": "你哥哥多大？",
-        "translation": "¿Cuántos años tiene tu hermano mayor?",
+        "text": "你爸爸做什么工作？",
+        "translation": "¿Qué trabajo hace tu papá?",
         "highlights": [
-          "多"
+          "做",
+          "什么"
         ]
       },
       {
         "speaker": "B",
-        "text": "他二十五岁。我姐姐二十一岁。",
-        "translation": "Él tiene veinticinco años. Mi hermana mayor tiene veintiún años.",
+        "text": "他做医生，妈妈也做医生。",
+        "translation": "Él es médico y mamá también es médica.",
         "highlights": [
-          "岁"
+          "他",
+          "也",
+          "做"
         ]
       },
       {
         "speaker": "A",
-        "text": "你家孩子多吗？",
-        "translation": "¿Hay muchos niños en tu familia?",
+        "text": "你弟弟和妹妹多大？",
+        "translation": "¿Cuántos años tienen tu hermano y tu hermana?",
         "highlights": [
-          "孩子",
-          "多"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "不多，就三个孩子。",
-        "translation": "No muchos, solo tres hijos.",
-        "highlights": [
-          "少",
-          "就"
+          "多",
+          "大"
         ]
       }
     ],
@@ -1773,12 +1591,12 @@
         "translation": "¿Cuántas personas hay en tu familia?"
       },
       {
-        "phrase": "就五个人",
-        "translation": "exactamente cinco personas"
+        "phrase": "爸爸做什么工作？",
+        "translation": "¿Qué trabajo hace tu papá?"
       },
       {
-        "phrase": "多大？",
-        "translation": "¿Cuántos años?"
+        "phrase": "妈妈也做医生。",
+        "translation": "Mamá también es médica."
       }
     ]
   },
@@ -1793,92 +1611,68 @@
       {
         "word": "去",
         "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
+        "phonetic": "qù",
         "translation": "ir",
-        "note": "Indica la acción de ir a un destino",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
+        "note": "para indicar movimiento hacia un lugar"
+      },
+      {
+        "word": "在那",
+        "pos": "adv",
+        "phonetic": "zài nà",
+        "translation": "allí",
+        "note": "indica lugar"
       },
       {
         "word": "怎么",
         "pos": "adv",
-        "phonetic": "tsən˨˩˦ mə",
-        "translation": "cómo",
-        "note": "Se usa para preguntar por el método",
-        "pinyin": "zěn me",
-        "pinyin_num": "zen3 me0"
-      },
-      {
-        "word": "路",
-        "pos": "noun",
-        "phonetic": "lu˥˩",
-        "translation": "camino, calle",
-        "note": "Se refiere a la ruta o la calle",
-        "pinyin": "lù",
-        "pinyin_num": "lu4"
+        "phonetic": "zěn me",
+        "translation": "cómo"
       },
       {
         "word": "走",
         "pos": "verb",
-        "phonetic": "tsou˨˩˦",
-        "translation": "caminar, avanzar",
-        "note": "Acción de movimiento",
-        "pinyin": "zǒu",
-        "pinyin_num": "zou3"
+        "phonetic": "zǒu",
+        "translation": "caminar",
+        "note": "para indicar movimiento a pie"
       },
       {
         "word": "到",
-        "pos": "verb",
-        "phonetic": "tau˥˩",
-        "translation": "llegar",
-        "note": "Indica llegada",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "pos": "prep",
+        "phonetic": "dào",
+        "translation": "a/hasta",
+        "note": "indica dirección o destino"
       },
       {
-        "word": "往",
-        "pos": "prep",
-        "phonetic": "waŋ˨˩˦",
-        "translation": "hacia",
-        "note": "Preposición que indica dirección",
-        "pinyin": "wǎng",
-        "pinyin_num": "wang3"
+        "word": "前",
+        "pos": "noun",
+        "phonetic": "qián",
+        "translation": "delante",
+        "note": "dirección espacial"
+      },
+      {
+        "word": "后",
+        "pos": "noun",
+        "phonetic": "hòu",
+        "translation": "detrás",
+        "note": "dirección espacial"
       },
       {
         "word": "左",
         "pos": "noun",
-        "phonetic": "tswo˨˩˦",
-        "translation": "izquierda",
-        "note": "Dirección izquierda",
-        "pinyin": "zuǒ",
-        "pinyin_num": "zuo3"
+        "phonetic": "zuǒ",
+        "translation": "izquierda"
       },
       {
         "word": "右",
         "pos": "noun",
-        "phonetic": "jou˥˩",
-        "translation": "derecha",
-        "note": "Dirección derecha",
-        "pinyin": "yòu",
-        "pinyin_num": "you4"
+        "phonetic": "yòu",
+        "translation": "derecha"
       },
       {
-        "word": "一直",
-        "pos": "adv",
-        "phonetic": "i˥˩ tʂɻ̩˧˥",
-        "translation": "recto, todo el tiempo",
-        "note": "Avanzar sin detenerse en el camino",
-        "pinyin": "yì zhí",
-        "pinyin_num": "yi4 zhi2"
-      },
-      {
-        "word": "可以",
-        "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦ i˨˩˦",
-        "translation": "poder",
-        "note": "Verbo auxiliar que expresa posibilidad o permiso",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "word": "远",
+        "pos": "adj",
+        "phonetic": "yuǎn",
+        "translation": "lejos"
       }
     ],
     "dialogue": [
@@ -1894,61 +1688,58 @@
       },
       {
         "speaker": "B",
-        "text": "你一直走，到路口往左走。",
-        "translation": "Siga recto, en el cruce gire a la izquierda.",
+        "text": "从这里一直往前走，到第三个路口左拐。",
+        "translation": "Desde aquí, siga todo recto hacia adelante y en el tercer cruce gire a la izquierda.",
         "highlights": [
-          "一直",
+          "从",
+          "这里",
+          "前",
           "走",
           "到",
-          "往",
           "左"
         ]
       },
       {
         "speaker": "A",
-        "text": "然后呢？往右走吗？",
-        "translation": "¿Y luego? ¿Giro a la derecha?",
+        "text": "右边那个银行旁边？",
+        "translation": "¿Al lado de ese banco a la derecha?",
         "highlights": [
-          "往",
-          "右",
-          "走"
+          "右"
         ]
       },
       {
         "speaker": "B",
-        "text": "不，不用往右。你走到路头就到了。",
-        "translation": "No, no hace falta girar a la derecha. Camine hasta el final de la calle y llegará.",
+        "text": "对，火车站就在银行后边。",
+        "translation": "Sí, la estación de tren está justo detrás del banco.",
         "highlights": [
-          "往",
-          "右",
-          "走",
-          "到",
-          "路",
-          "到"
+          "后"
         ]
       },
       {
         "speaker": "A",
-        "text": "好的，我可以坐公交车去吗？",
-        "translation": "Bien, ¿puedo ir en autobús?",
+        "text": "那远吗？",
+        "translation": "¿Está lejos?",
         "highlights": [
-          "可以",
-          "去"
+          "远"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "怎么走",
-        "translation": "cómo ir"
+        "phrase": "请问，去火车站怎么走？",
+        "translation": "Disculpe, ¿cómo se va a la estación de tren?"
       },
       {
-        "phrase": "往左走",
-        "translation": "ir a la izquierda"
+        "phrase": "从这里一直往前走",
+        "translation": "Desde aquí siga todo recto hacia adelante"
       },
       {
-        "phrase": "一直走",
-        "translation": "ir recto"
+        "phrase": "到第三个路口左拐",
+        "translation": "En el tercer cruce gire a la izquierda"
+      },
+      {
+        "phrase": "火车站就在银行后边",
+        "translation": "La estación de tren está justo detrás del banco"
       }
     ]
   },
@@ -1961,168 +1752,137 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
+        "word": "车",
+        "pos": "noun",
+        "phonetic": "chē",
+        "translation": "autobús"
+      },
+      {
         "word": "到",
         "pos": "verb",
-        "phonetic": "tɑʊ̯˥˩",
-        "translation": "llegar",
-        "note": "Se usa a menudo al llegar a un destino",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "phonetic": "dào",
+        "translation": "llegar"
+      },
+      {
+        "word": "哪",
+        "pos": "pronoun",
+        "phonetic": "nǎ",
+        "translation": "cuál"
       },
       {
         "word": "站",
         "pos": "noun",
-        "phonetic": "ʈʂän˥˩",
-        "translation": "parada, estación",
-        "note": "Significa parada de autobús o estación",
-        "pinyin": "zhàn",
-        "pinyin_num": "zhan4"
+        "phonetic": "zhàn",
+        "translation": "parada"
       },
       {
         "word": "下",
         "pos": "verb",
-        "phonetic": "ɕjä˥˩",
-        "translation": "bajar",
-        "note": "Se usa al bajar de un vehículo",
-        "pinyin": "xià",
-        "pinyin_num": "xia4"
+        "phonetic": "xià",
+        "translation": "bajar"
       },
       {
-        "word": "车",
-        "pos": "noun",
-        "phonetic": "ʈʂʰɤ˥",
-        "translation": "coche, autobús",
-        "note": "Para autobús se dice '公共汽车', pero en conversación '车' es suficiente",
-        "pinyin": "chē",
-        "pinyin_num": "che1"
+        "word": "是",
+        "pos": "verb",
+        "phonetic": "shì",
+        "translation": "ser"
+      },
+      {
+        "word": "这",
+        "pos": "pronoun",
+        "phonetic": "zhè",
+        "translation": "esto"
+      },
+      {
+        "word": "要",
+        "pos": "modal verb",
+        "phonetic": "yào",
+        "translation": "querer/necesitar",
+        "note": "indica deseo o necesidad"
       },
       {
         "word": "帮",
-        "pos": "verb",
-        "phonetic": "pɑŋ˥",
-        "translation": "ayudar",
-        "note": "También se usa en expresiones como '帮忙'",
-        "pinyin": "bāng",
-        "pinyin_num": "bang1"
-      },
-      {
-        "word": "请",
-        "pos": "verb",
-        "phonetic": "t͡ɕʰiŋ˨˩˦",
-        "translation": "por favor",
-        "note": "Se usa para hacer peticiones corteses",
-        "pinyin": "qǐng",
-        "pinyin_num": "qing3"
-      },
-      {
-        "word": "一下",
-        "pos": "adverb",
-        "phonetic": "i˥ ɕjä˥˩",
-        "translation": "un poco, un momento",
-        "note": "Se coloca después del verbo para indicar una acción breve",
-        "pinyin": "yí xià",
-        "pinyin_num": "yi2 xia4"
-      },
-      {
-        "word": "这儿",
-        "pos": "pronoun",
-        "phonetic": "ʈʂɤɻ˥˩",
-        "translation": "aquí",
-        "note": "Se refiere a un lugar cercano al hablante",
-        "pinyin": "zhè ér",
-        "pinyin_num": "zhe4 er2"
-      },
-      {
-        "word": "前面",
         "pos": "noun",
-        "phonetic": "t͡ɕʰjɛn˧˥ mjɛn˥˩",
-        "translation": "delante, más adelante",
-        "note": "Sustantivo que indica lugar",
-        "pinyin": "qián miàn",
-        "pinyin_num": "qian2 mian4"
+        "phonetic": "bāng",
+        "translation": "ayuda"
       },
       {
-        "word": "远",
-        "pos": "adjective",
-        "phonetic": "ɥɛn˨˩˦",
-        "translation": "lejos",
-        "note": "Indica que la distancia es larga",
-        "pinyin": "yuǎn",
-        "pinyin_num": "yuan3"
+        "word": "一",
+        "pos": "numeral",
+        "phonetic": "yī",
+        "translation": "uno"
       }
     ],
     "dialogue": [
       {
-        "speaker": "乘客",
-        "text": "师傅，请帮我一下。到前面那个站，我要下车。",
-        "translation": "Conductor, por favor, ayúdeme un momento. Cuando llegue a esa parada de más adelante, quiero bajar.",
+        "speaker": "Pasajero",
+        "text": "师傅，这车到哪站下吗？",
+        "translation": "Señor conductor, ¿esta autobús dónde se baja?",
         "highlights": [
-          "请",
-          "帮",
-          "一下",
+          "车",
           "到",
-          "前面",
-          "站",
-          "下",
-          "车"
-        ]
-      },
-      {
-        "speaker": "司机",
-        "text": "好，这儿就是那个站。你在这儿下吗？",
-        "translation": "Bien, aquí es esa parada. ¿Baja aquí?",
-        "highlights": [
-          "这儿",
+          "哪",
           "站",
           "下"
         ]
       },
       {
-        "speaker": "乘客",
-        "text": "不是，我要到前面那个站。远吗？",
-        "translation": "No, quiero ir a esa parada de más adelante. ¿Está lejos?",
+        "speaker": "Conductor",
+        "text": "到前面的站是体育馆站。",
+        "translation": "La próxima parada es la del estadio deportivo.",
         "highlights": [
           "到",
-          "前面",
           "站",
-          "远"
+          "是"
         ]
       },
       {
-        "speaker": "司机",
-        "text": "不远，下一站就是。你在那儿下吧。",
-        "translation": "No está lejos, es la próxima parada. Baje allí.",
+        "speaker": "Pasajero",
+        "text": "师傅，我要在这下车。",
+        "translation": "Señor conductor, necesito bajarme aquí.",
         "highlights": [
-          "远",
-          "下",
-          "车"
+          "师傅",
+          "我",
+          "要",
+          "在这",
+          "下"
+        ]
+      },
+      {
+        "speaker": "Conductor",
+        "text": "好的，帮你停车。",
+        "translation": "De acuerdo, te ayudo a parar el autobús.",
+        "highlights": [
+          "好",
+          "帮",
+          "你",
+          "停"
+        ]
+      },
+      {
+        "speaker": "Pasajero",
+        "text": "谢谢，这是一张百元钞票。",
+        "translation": "Gracias, esto es un billete de cien yuanes.",
+        "highlights": [
+          "一",
+          "张",
+          "百元",
+          "钞票"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "请帮我一下",
-        "translation": "Por favor, ayúdeme un momento"
+        "phrase": "师傅，这车到哪站下？",
+        "translation": "Señor conductor, ¿esta autobús dónde se baja?"
       },
       {
-        "phrase": "到前面那个站",
-        "translation": "Hasta esa parada de más adelante"
+        "phrase": "我要在这下车。",
+        "translation": "Necesito bajarme aquí."
       },
       {
-        "phrase": "我要下车",
-        "translation": "Quiero bajar"
-      },
-      {
-        "phrase": "在这儿下",
-        "translation": "Bajar aquí"
-      },
-      {
-        "phrase": "远吗？",
-        "translation": "¿Está lejos?"
-      },
-      {
-        "phrase": "下一站就是",
-        "translation": "Es la próxima parada"
+        "phrase": "帮你停车。",
+        "translation": "Te ayudo a parar el autobús."
       }
     ]
   },
@@ -2135,149 +1895,130 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "是",
+        "word": "认识",
         "pos": "verb",
-        "phonetic": "ʂɻ̩˥˩",
-        "translation": "ser (afirmación)",
-        "note": "«A是B» significa «A es B». Forma básica de presentación.",
-        "pinyin": "shì",
-        "pinyin_num": "shi4"
+        "phonetic": "rènshi",
+        "translation": "conocer (a alguien)"
       },
       {
-        "word": "同事",
+        "word": "这位",
+        "pos": "det",
+        "phonetic": "zhè wèi",
+        "translation": "este/a (para personas)"
+      },
+      {
+        "word": "名字",
         "pos": "noun",
-        "phonetic": "tʰʊŋ˧˥ʂɻ̩˥˩",
-        "translation": "colega",
-        "note": "«同» significa «mismo», «事» significa «trabajo». Se refiere a compañeros de trabajo.",
-        "pinyin": "tóng shì",
-        "pinyin_num": "tong2 shi4"
+        "phonetic": "míngzi",
+        "translation": "nombre"
+      },
+      {
+        "word": "叫",
+        "pos": "verb",
+        "phonetic": "jiào",
+        "translation": "llamarse"
+      },
+      {
+        "word": "哪里",
+        "pos": "pron",
+        "phonetic": "nǎli",
+        "translation": "de dónde (literalmente 'dónde')"
+      },
+      {
+        "word": "来",
+        "pos": "verb",
+        "phonetic": "lái",
+        "translation": "venir"
+      },
+      {
+        "word": "部门",
+        "pos": "noun",
+        "phonetic": "bùmén",
+        "translation": "departamento"
+      },
+      {
+        "word": "工作",
+        "pos": "noun",
+        "phonetic": "gōngzuò",
+        "translation": "trabajo"
+      },
+      {
+        "word": "你",
+        "pos": "pron",
+        "phonetic": "nǐ",
+        "translation": "tú"
       },
       {
         "word": "他",
         "pos": "pron",
-        "phonetic": "tʰa˥˥",
-        "translation": "él",
-        "note": "Tercera persona masculina. Para femenino es «她 (tā)», pero la pronunciación es la misma.",
-        "pinyin": "tā",
-        "pinyin_num": "ta1"
-      },
-      {
-        "word": "也",
-        "pos": "adv",
-        "phonetic": "jɛ˨˩˦",
-        "translation": "también",
-        "note": "Se usa para añadir algo similar, como «yo también», «él también».",
-        "pinyin": "yě",
-        "pinyin_num": "ye3"
-      },
-      {
-        "word": "在",
-        "pos": "prep",
-        "phonetic": "tsaɪ̯˥˩",
-        "translation": "en (lugar, tiempo)",
-        "note": "Preposición que indica lugar o tiempo. Aquí equivale a «en» en «en la empresa».",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "公司",
-        "pos": "noun",
-        "phonetic": "kʊŋ˥˥ʂɻ̩˥˥",
-        "translation": "empresa",
-        "note": "«公» significa «público», «司» significa «administrar».",
-        "pinyin": "gōng sī",
-        "pinyin_num": "gong1 si1"
-      },
-      {
-        "word": "工作",
-        "pos": "verb/noun",
-        "phonetic": "kʊŋ˥˥tsu̯ɔ˥˩",
-        "translation": "trabajo (trabajar)",
-        "note": "Se usa como verbo o sustantivo. Se usa como «estoy trabajando».",
-        "pinyin": "gōng zuò",
-        "pinyin_num": "gong1 zuo4"
-      },
-      {
-        "word": "认识",
-        "pos": "verb",
-        "phonetic": "ʐən˥˩ʂɻ̩˥˩",
-        "translation": "conocer, estar familiarizado",
-        "note": "Al presentar a alguien, «认识一下» significa «conozcámonos».",
-        "pinyin": "rèn shi",
-        "pinyin_num": "ren4 shi0"
-      },
-      {
-        "word": "我们",
-        "pos": "pron",
-        "phonetic": "u̯o˨˩mən˧˥",
-        "translation": "nosotros",
-        "note": "Forma plural de «我 (yo)». Incluye al oyente, «nosotros».",
-        "pinyin": "wǒ men",
-        "pinyin_num": "wo3 men0"
-      },
-      {
-        "word": "做",
-        "pos": "verb",
-        "phonetic": "tsu̯ɔ˥˩",
-        "translation": "hacer, crear",
-        "note": "«做工作» significa «hacer un trabajo». Verbo muy versátil.",
-        "pinyin": "zuò",
-        "pinyin_num": "zuo4"
+        "phonetic": "tā",
+        "translation": "él"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，这是我们公司的同事。",
-        "translation": "Hola, este es nuestro colega de la empresa.",
+        "text": "你好！这位是新来的同事，他想认识大家。",
+        "translation": "¡Hola! Esta persona es un nuevo colega, quiere conoceros a todos.",
         "highlights": [
-          "我们",
-          "公司",
-          "同事"
+          "这位",
+          "认识"
         ]
       },
       {
         "speaker": "B",
-        "text": "你好！他也在公司工作吗？",
-        "translation": "¡Hola! ¿Él también trabaja en la empresa?",
+        "text": "你好！请问你叫什么名字？",
+        "translation": "¡Hola! ¿Puedo preguntarte tu nombre?",
         "highlights": [
-          "他",
-          "也",
-          "在",
-          "工作"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "是，他在这里做工作。来，认识一下。",
-        "translation": "Sí, él trabaja aquí. Vamos, conozcámonos.",
-        "highlights": [
-          "是",
-          "做",
-          "认识"
+          "你",
+          "叫",
+          "名字"
         ]
       },
       {
         "speaker": "C",
-        "text": "你好，认识你很高兴。",
-        "translation": "Hola, mucho gusto en conocerte.",
+        "text": "我叫李明。我从上海来。",
+        "translation": "Me llamo Li Ming. Vengo de Shanghái.",
         "highlights": [
-          "认识"
+          "叫",
+          "来"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "李明在我们公司的销售部门工作。",
+        "translation": "Li Ming trabaja en el departamento de ventas de nuestra empresa.",
+        "highlights": [
+          "部门",
+          "工作"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "原来你从上海来！那边工作很忙吗？",
+        "translation": "¡Ah, vienes de Shanghái! ¿Allí el trabajo es muy ocupado?",
+        "highlights": [
+          "来",
+          "他"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "这是我们公司的同事。",
-        "translation": "Este es nuestro colega de la empresa."
+        "phrase": "这位是新来的同事",
+        "translation": "Esta persona es un nuevo colega"
       },
       {
-        "phrase": "认识一下。",
-        "translation": "Conozcámonos. (Frase hecha de presentación)"
+        "phrase": "请问你叫什么名字？",
+        "translation": "¿Puedo preguntarte tu nombre?"
       },
       {
-        "phrase": "他在这里做工作。",
-        "translation": "Él trabaja aquí."
+        "phrase": "我从上海来",
+        "translation": "Vengo de Shanghái"
+      },
+      {
+        "phrase": "在销售部门工作",
+        "translation": "Trabaja en el departamento de ventas"
       }
     ]
   },
@@ -2290,161 +2031,127 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "喂",
-        "pos": "interjection",
-        "phonetic": "wéi",
-        "translation": "Hola (al contestar el teléfono)",
-        "note": "Se usa para responder al teléfono",
-        "pinyin": "wèi",
-        "pinyin_num": "wei4"
+        "word": "说",
+        "pos": "verb",
+        "phonetic": "shuō",
+        "translation": "decir, hablar"
       },
       {
-        "word": "我",
-        "pos": "pronoun",
-        "phonetic": "wǒ",
-        "translation": "yo",
-        "note": "pronombre de primera persona",
-        "pinyin": "wǒ",
-        "pinyin_num": "wo3"
+        "word": "听",
+        "pos": "verb",
+        "phonetic": "tīng",
+        "translation": "escuchar"
       },
       {
-        "word": "你",
-        "pos": "pronoun",
-        "phonetic": "nǐ",
-        "translation": "tú",
-        "note": "pronombre de segunda persona",
-        "pinyin": "nǐ",
-        "pinyin_num": "ni3"
+        "word": "很",
+        "pos": "adv",
+        "phonetic": "hěn",
+        "translation": "muy"
+      },
+      {
+        "word": "不",
+        "pos": "adv",
+        "phonetic": "bù",
+        "translation": "no"
+      },
+      {
+        "word": "什么",
+        "pos": "pron",
+        "phonetic": "shénme",
+        "translation": "qué"
+      },
+      {
+        "word": "时间",
+        "pos": "noun",
+        "phonetic": "shíjiān",
+        "translation": "tiempo"
+      },
+      {
+        "word": "回来",
+        "pos": "verb",
+        "phonetic": "huílái",
+        "translation": "volver"
       },
       {
         "word": "给",
         "pos": "prep",
         "phonetic": "gěi",
-        "translation": "a (para dar)",
-        "note": "preposición para indicar hacia quién se dirige una acción",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
+        "translation": "a, para"
       },
       {
-        "word": "打",
+        "word": "知道",
         "pos": "verb",
-        "phonetic": "dǎ",
-        "translation": "llamar (por teléfono)",
-        "note": "En '打电话' significa hacer una llamada",
-        "pinyin": "dǎ",
-        "pinyin_num": "da3"
+        "phonetic": "zhīdào",
+        "translation": "saber"
       },
       {
-        "word": "电话",
-        "pos": "noun",
-        "phonetic": "diànhuà",
-        "translation": "teléfono",
-        "note": "significa teléfono o llamada telefónica",
-        "pinyin": "diàn huà",
-        "pinyin_num": "dian4 hua4"
-      },
-      {
-        "word": "回",
+        "word": "回电话",
         "pos": "verb",
-        "phonetic": "huí",
-        "translation": "devolver (una llamada), responder",
-        "note": "En '回电话' significa devolver una llamada",
-        "pinyin": "huí",
-        "pinyin_num": "hui2"
-      },
-      {
-        "word": "在",
-        "pos": "prep",
-        "phonetic": "zài",
-        "translation": "en (lugar o tiempo)",
-        "note": "indica existencia o ubicación",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "家",
-        "pos": "noun",
-        "phonetic": "jiā",
-        "translation": "casa",
-        "note": "hogar",
-        "pinyin": "jiā",
-        "pinyin_num": "jia1"
-      },
-      {
-        "word": "说",
-        "pos": "verb",
-        "phonetic": "shuō",
-        "translation": "decir, hablar",
-        "note": "'说' se refiere al contenido de lo que se habla",
-        "pinyin": "shuō",
-        "pinyin_num": "shuo1"
-      },
-      {
-        "word": "再",
-        "pos": "adv",
-        "phonetic": "zài",
-        "translation": "otra vez, de nuevo",
-        "note": "En '再见' significa adiós",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
+        "phonetic": "huí diànhuà",
+        "translation": "llamar de vuelta"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "喂，你好。我是山田。",
-        "translation": "Hola, buenos días. Soy Yamada.",
-        "highlights": [
-          "喂",
-          "我"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我给你打电话，你不在家。",
-        "translation": "Te llamé, pero no estabas en casa.",
+        "text": "喂，您好！我给您打电话，但是您不在。请给我回电话，好吗？",
+        "translation": "Hola, ¡buenos días! Le llamo, pero no está. Por favor, llámeme de vuelta, ¿vale?",
         "highlights": [
           "给",
-          "你",
-          "打",
-          "电话",
-          "在",
-          "家"
+          "您",
+          "不",
+          "在"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "喂，您好！我听到您的留言了。什么时间给您回电话？",
+        "translation": "Hola, ¡buenos días! Escuché su mensaje. ¿A qué hora le devuelvo la llamada?",
+        "highlights": [
+          "听",
+          "什么",
+          "时间",
+          "给"
         ]
       },
       {
         "speaker": "A",
-        "text": "请你回电话给我，好吗？",
-        "translation": "Por favor, devuélveme la llamada, ¿de acuerdo?",
+        "text": "现在很忙吗？请您知道，我的电话号码是...",
+        "translation": "¿Está muy ocupado ahora? Por favor, sepa que mi número de teléfono es...",
         "highlights": [
-          "回",
-          "电话",
+          "很",
+          "知道"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "好的，我马上回来再给您回电话。请等一下。",
+        "translation": "Vale, le llamo de vuelta en seguida. Espere un momento, por favor.",
+        "highlights": [
+          "回来",
           "给",
-          "我"
+          "您"
         ]
       },
       {
         "speaker": "A",
-        "text": "再说，再见！",
-        "translation": "Hablemos de nuevo, ¡adiós!",
+        "text": "非常感谢！请您回电话给我。再见。",
+        "translation": "¡Muchas gracias! Por favor, llámeme de vuelta. ¡Adiós!",
         "highlights": [
-          "说",
-          "再"
+          "非常",
+          "给",
+          "回电话"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "给你打电话",
-        "translation": "llamarte por teléfono"
+        "phrase": "请给我回电话",
+        "translation": "Por favor, llámeme de vuelta"
       },
       {
-        "phrase": "回电话给我",
-        "translation": "devolverme la llamada"
-      },
-      {
-        "phrase": "不在家",
-        "translation": "no estar en casa"
+        "phrase": "什么时间给您回电话？",
+        "translation": "¿A qué hora le devuelvo la llamada?"
       }
     ]
   },
@@ -2457,142 +2164,139 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "要",
-        "pos": "verb",
-        "phonetic": "jɑʊ˥˩",
-        "translation": "querer, necesitar hacer algo",
-        "note": "want/need to do something",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
+        "word": "包裹",
+        "pos": "noun",
+        "phonetic": "bāoguǒ",
+        "translation": "paquete",
+        "note": "usado para envíos postales"
       },
       {
         "word": "寄",
         "pos": "verb",
-        "phonetic": "tɕi˥˩",
-        "translation": "enviar (por correo)",
-        "pinyin": "jì",
-        "pinyin_num": "ji4"
+        "phonetic": "jì",
+        "translation": "enviar, mandar",
+        "note": "verbo para expresar envío de paquetes o cartas"
       },
       {
-        "word": "这个",
+        "word": "多少",
         "pos": "pron",
-        "phonetic": "ʈʂɤ˥˩ kɤ˥˩",
-        "translation": "esto",
-        "pinyin": "zhè ge",
-        "pinyin_num": "zhe4 ge0"
-      },
-      {
-        "word": "东西",
-        "pos": "noun",
-        "phonetic": "tʊŋ˥˥ ɕi˥˩",
-        "translation": "cosa, objeto",
-        "pinyin": "dōng xī",
-        "pinyin_num": "dong1 xi1"
-      },
-      {
-        "word": "哪里",
-        "pos": "pron",
-        "phonetic": "nɑ˨˩˦ li˨˩˦",
-        "translation": "dónde",
-        "pinyin": "nǎ lǐ",
-        "pinyin_num": "na3 li3"
+        "phonetic": "duōshǎo",
+        "translation": "cuánto, cuántos",
+        "note": "se usa para preguntar cantidad o precio"
       },
       {
         "word": "钱",
         "pos": "noun",
-        "phonetic": "tɕʰjɛn˧˥",
+        "phonetic": "qián",
         "translation": "dinero",
-        "pinyin": "qián",
-        "pinyin_num": "qian2"
+        "note": "se refiere al coste del envío"
       },
       {
-        "word": "多少",
+        "word": "重",
         "pos": "adj",
-        "phonetic": "twɔ˥˥ ʂɑʊ˨˩˦",
-        "translation": "cuánto, cuántos",
-        "pinyin": "duō shǎo",
-        "pinyin_num": "duo1 shao3"
+        "phonetic": "zhòng",
+        "translation": "pesado",
+        "note": "describe el peso del paquete"
       },
       {
-        "word": "要",
-        "pos": "verb",
-        "phonetic": "jɑʊ˥˩",
-        "translation": "costar (un precio)",
-        "pinyin": "yào",
-        "pinyin_num": "yao4"
-      },
-      {
-        "word": "块",
+        "word": "里",
         "pos": "noun",
-        "phonetic": "kʰwɑɪ˥˩",
-        "translation": "yuan (unidad monetaria)",
-        "pinyin": "kuài",
-        "pinyin_num": "kuai4"
+        "phonetic": "lǐ",
+        "translation": "dentro",
+        "note": "indica ubicación interior, como 'dentro de'"
+      },
+      {
+        "word": "外",
+        "pos": "noun",
+        "phonetic": "wài",
+        "translation": "fuera",
+        "note": "indica ubicación exterior, opuesto a '里'"
+      },
+      {
+        "word": "快",
+        "pos": "adv",
+        "phonetic": "kuài",
+        "translation": "rápido",
+        "note": "describe velocidad o urgencia"
+      },
+      {
+        "word": "慢",
+        "pos": "adj",
+        "phonetic": "màn",
+        "translation": "lento",
+        "note": "opuesto de '快'"
       },
       {
         "word": "给",
         "pos": "prep",
-        "phonetic": "keɪ˨˩˦",
-        "translation": "a (indica el receptor)",
-        "pinyin": "gěi",
-        "pinyin_num": "gei3"
+        "phonetic": "gěi",
+        "translation": "a, para",
+        "note": "indica destinatario o propósito"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "你好，我要寄这个包裹。",
-        "translation": "Hola, quiero enviar este paquete.",
+        "speaker": "Empleado",
+        "text": "请问您要寄什么？",
+        "translation": "¿Qué desea enviar?",
         "highlights": [
-          "要",
-          "寄",
-          "这个"
+          "寄"
         ]
       },
       {
-        "speaker": "B",
-        "text": "好的。你要寄到哪里？",
-        "translation": "Bien. ¿A dónde quiere enviarlo?",
+        "speaker": "Cliente",
+        "text": "我要寄这个包裹，里面有书和一件小礼物。",
+        "translation": "Quiero enviar este paquete, dentro tiene libros y un pequeño regalo.",
         "highlights": [
-          "要",
-          "寄",
-          "哪里"
+          "包裹",
+          "里"
         ]
       },
       {
-        "speaker": "A",
-        "text": "寄到日本。这个要多少钱？",
-        "translation": "Enviarlo a Japón. ¿Cuánto cuesta esto?",
+        "speaker": "Empleado",
+        "text": "这个包裹很重，您知道吗？多少钱？",
+        "translation": "Este paquete está muy pesado, ¿lo sabía? ¿Cuánto cuesta?",
         "highlights": [
-          "寄",
-          "这个",
-          "要",
+          "重",
           "多少",
           "钱"
         ]
       },
       {
-        "speaker": "B",
-        "text": "一共三十块。请给我。",
-        "translation": "En total son treinta yuanes. Por favor, démelo.",
+        "speaker": "Cliente",
+        "text": "我希望用快递，给我那张单子。",
+        "translation": "Espero que sea por correo rápido, deme ese formulario.",
         "highlights": [
-          "块",
+          "快",
           "给"
+        ]
+      },
+      {
+        "speaker": "Empleado",
+        "text": "请您在单子外填地址，慢一点写，别出错。",
+        "translation": "Por favor, escriba la dirección fuera del formulario, escriba despacio y no se equivoque.",
+        "highlights": [
+          "外",
+          "慢"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我要寄这个",
-        "translation": "Quiero enviar esto"
+        "phrase": "请问您要寄什么？",
+        "translation": "¿Qué desea enviar?"
       },
       {
-        "phrase": "多少钱？",
-        "translation": "¿Cuánto cuesta?"
+        "phrase": "我要寄这个包裹",
+        "translation": "Quiero enviar este paquete"
       },
       {
-        "phrase": "请给我",
-        "translation": "Por favor, démelo"
+        "phrase": "这个包裹很重",
+        "translation": "Este paquete está muy pesado"
+      },
+      {
+        "phrase": "给我那张单子",
+        "translation": "Deme ese formulario"
       }
     ]
   },
@@ -2605,161 +2309,143 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "起来",
-        "pos": "verb",
-        "phonetic": "tɕʰi˨˩ laɪ̯˧˥",
-        "translation": "levantarse",
-        "note": "En el sentido de levantarse de la cama, se usa comúnmente en la vida diaria",
-        "pinyin": "qǐ lái",
-        "pinyin_num": "qi3 lai2"
+        "word": "早上",
+        "pos": "noun",
+        "phonetic": "zǎoshang",
+        "translation": "mañana (hora)",
+        "note": "Se refiere al tiempo desde el amanecer hasta el mediodía."
       },
       {
-        "word": "早饭",
-        "pos": "noun",
-        "phonetic": "tsaʊ̯˨˩ fan˥˩",
-        "translation": "desayuno",
-        "note": "comida de la mañana",
-        "pinyin": "zǎo fàn",
-        "pinyin_num": "zao3 fan4"
+        "word": "起床",
+        "pos": "verb",
+        "phonetic": "qǐchuáng",
+        "translation": "levantarse de la cama",
+        "note": "Verbo compuesto: 'levantarse' + 'cama'."
       },
       {
         "word": "吃",
         "pos": "verb",
-        "phonetic": "ʈʂʰɻ̩˥",
-        "translation": "comer",
-        "pinyin": "chī",
-        "pinyin_num": "chi1"
+        "phonetic": "chī",
+        "translation": "comer"
+      },
+      {
+        "word": "饭",
+        "pos": "noun",
+        "phonetic": "fàn",
+        "translation": "comida, arroz cocido",
+        "note": "En contexto puede significar 'comida' en general o específicamente 'arroz cocido'."
       },
       {
         "word": "然后",
         "pos": "conj",
-        "phonetic": "ʐän˧˥ xoʊ̯˥˩",
-        "translation": "después",
-        "note": "conjunción que indica orden temporal",
-        "pinyin": "rán hòu",
-        "pinyin_num": "ran2 hou4"
+        "phonetic": "ránhòu",
+        "translation": "luego, después"
       },
       {
-        "word": "上班",
-        "pos": "verb",
-        "phonetic": "ʂɑŋ˥˩ pan˥",
-        "translation": "ir al trabajo",
-        "note": "ir a trabajar",
-        "pinyin": "shàng bān",
-        "pinyin_num": "shang4 ban1"
+        "word": "上",
+        "pos": "prep",
+        "phonetic": "shàng",
+        "translation": "a (lugar), hacia arriba",
+        "note": "En contexto: 'ir a' (ej. ir a clase, ir a la oficina)."
       },
       {
-        "word": "中午",
+        "word": "班",
         "pos": "noun",
-        "phonetic": "ʈʂʊŋ˥ u˨˩˦",
-        "translation": "mediodía",
-        "note": "mediodía",
-        "pinyin": "zhōng wǔ",
-        "pinyin_num": "zhong1 wu3"
-      },
-      {
-        "word": "休息",
-        "pos": "verb",
-        "phonetic": "ɕjoʊ̯˥ ɕi˧˥",
-        "translation": "descansar",
-        "pinyin": "xiū xi",
-        "pinyin_num": "xiu1 xi0"
+        "phonetic": "bān",
+        "translation": "clase, turno de trabajo"
       },
       {
         "word": "晚上",
         "pos": "noun",
-        "phonetic": "wän˨˩˦ ʂɑŋ˥˩",
-        "translation": "noche",
-        "note": "desde el atardecer en adelante",
-        "pinyin": "wǎn shàng",
-        "pinyin_num": "wan3 shang4"
-      },
-      {
-        "word": "回家",
-        "pos": "verb",
-        "phonetic": "xweɪ̯˧˥ tɕja˥",
-        "translation": "volver a casa",
-        "note": "regresar a casa",
-        "pinyin": "huí jiā",
-        "pinyin_num": "hui2 jia1"
+        "phonetic": "wǎnshang",
+        "translation": "noche (hora)",
+        "note": "Se refiere al tiempo desde el atardecer hasta la medianoche."
       },
       {
         "word": "睡觉",
         "pos": "verb",
-        "phonetic": "ʂweɪ̯˥˩ tɕjaʊ̯˥˩",
-        "translation": "dormir",
-        "note": "dormir",
-        "pinyin": "shuì jiào",
-        "pinyin_num": "shui4 jiao4"
+        "phonetic": "shuìjiào",
+        "translation": "dormir, irse a la cama"
+      },
+      {
+        "word": "累",
+        "pos": "adj",
+        "phonetic": "lèi",
+        "translation": "cansado"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你每天几点起来？",
-        "translation": "¿A qué hora te levantas cada día?",
+        "text": "你早上几点起床？",
+        "translation": "¿A qué hora te levantas por la mañana?",
         "highlights": [
-          "起来"
+          "早上",
+          "起床"
         ]
       },
       {
         "speaker": "B",
-        "text": "我七点起来，然后吃早饭，八点上班。",
-        "translation": "Me levanto a las siete, luego desayuno y voy al trabajo a las ocho.",
+        "text": "我六点起床，然后吃饭。",
+        "translation": "Me levanto a las seis y luego como.",
         "highlights": [
-          "起来",
+          "起床",
           "然后",
           "吃",
-          "早饭",
-          "上班"
+          "饭"
         ]
       },
       {
         "speaker": "A",
-        "text": "中午你休息吗？",
-        "translation": "¿Descansas al mediodía?",
+        "text": "你吃什么饭？",
+        "translation": "¿Qué comes?",
         "highlights": [
-          "中午",
-          "休息"
+          "吃",
+          "饭"
         ]
       },
       {
         "speaker": "B",
-        "text": "中午休息一个小时。晚上我回家，十点睡觉。",
-        "translation": "Descanso una hora al mediodía. Por la noche vuelvo a casa y me duermo a las diez.",
+        "text": "我吃米饭和鸡蛋。上班前我都吃。",
+        "translation": "Como arroz y huevos. Siempre como antes de ir al trabajo.",
         "highlights": [
-          "中午",
-          "休息",
+          "吃",
+          "饭",
+          "上",
+          "班"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "你晚上几点睡觉？累不累？",
+        "translation": "¿A qué hora te acuestas por la noche? ¿Estás cansado?",
+        "highlights": [
           "晚上",
-          "回家",
-          "睡觉"
+          "睡觉",
+          "累"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "几点起来",
-        "translation": "a qué hora levantarse"
+        "phrase": "你早上几点起床？",
+        "translation": "¿A qué hora te levantas por la mañana?"
       },
       {
-        "phrase": "吃早饭",
-        "translation": "desayunar"
+        "phrase": "然后吃饭。",
+        "translation": "Luego como."
       },
       {
-        "phrase": "上班",
-        "translation": "ir al trabajo"
+        "phrase": "上班前我都吃。",
+        "translation": "Siempre como antes de ir al trabajo."
       },
       {
-        "phrase": "中午休息",
-        "translation": "descanso del mediodía"
+        "phrase": "你晚上几点睡觉？",
+        "translation": "¿A qué hora te acuestas por la noche?"
       },
       {
-        "phrase": "回家",
-        "translation": "volver a casa"
-      },
-      {
-        "phrase": "睡觉",
-        "translation": "dormir"
+        "phrase": "累不累？",
+        "translation": "¿Estás cansado?"
       }
     ]
   },
@@ -2772,150 +2458,140 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "开门",
-        "pos": "verb",
-        "phonetic": "kāi mén",
-        "translation": "abrir, comenzar a operar",
-        "note": "'abrir' + 'puerta', indica la hora a la que abre una tienda",
-        "pinyin": "kāi mén",
-        "pinyin_num": "kai1 men2"
-      },
-      {
-        "word": "几点",
+        "word": "几",
         "pos": "pron",
-        "phonetic": "jǐ diǎn",
-        "translation": "qué hora",
-        "note": "pronombre interrogativo para preguntar la hora",
-        "pinyin": "jǐ diǎn",
-        "pinyin_num": "ji3 dian3"
-      },
-      {
-        "word": "现在",
-        "pos": "noun",
-        "phonetic": "xiànzài",
-        "translation": "ahora, actualmente",
-        "note": "también se usa como adverbio de tiempo",
-        "pinyin": "xiàn zài",
-        "pinyin_num": "xian4 zai4"
-      },
-      {
-        "word": "知道",
-        "pos": "verb",
-        "phonetic": "zhīdào",
-        "translation": "saber",
-        "note": "'¿Sabes?' se dice '知道吗？'",
-        "pinyin": "zhī dào",
-        "pinyin_num": "zhi1 dao4"
+        "phonetic": "jǐ",
+        "translation": "cuántos/cuántas",
+        "note": "interrogativo para cantidad"
       },
       {
         "word": "开",
         "pos": "verb",
         "phonetic": "kāi",
-        "translation": "abrir, estar abierto",
-        "note": "también indica el estado de estar abierto",
-        "pinyin": "kāi",
-        "pinyin_num": "kai1"
+        "translation": "abrir",
+        "note": "usado para horarios"
       },
       {
-        "word": "关",
-        "pos": "verb",
-        "phonetic": "guān",
-        "translation": "cerrar, cerrar el negocio",
-        "note": "opuesto de '开'",
-        "pinyin": "guān",
-        "pinyin_num": "guan1"
-      },
-      {
-        "word": "小时",
+        "word": "门",
         "pos": "noun",
-        "phonetic": "xiǎoshí",
-        "translation": "hora (duración)",
-        "note": "indica la duración de tiempo",
-        "pinyin": "xiǎo shí",
-        "pinyin_num": "xiao3 shi2"
+        "phonetic": "mén",
+        "translation": "puerta/tienda (en contexto)",
+        "note": "puede significar tienda en algunos contextos comerciales"
       },
       {
-        "word": "从",
-        "pos": "prep",
-        "phonetic": "cóng",
-        "translation": "desde (punto de inicio de tiempo o lugar)",
-        "note": "'从…到…' significa 'desde… hasta…'",
-        "pinyin": "cóng",
-        "pinyin_num": "cong2"
+        "word": "现在",
+        "pos": "adv",
+        "phonetic": "xiànzài",
+        "translation": "ahora",
+        "note": "tiempo presente"
       },
       {
-        "word": "到",
-        "pos": "prep",
-        "phonetic": "dào",
-        "translation": "hasta (punto final de tiempo o lugar)",
-        "note": "se usa en '从…到…'",
-        "pinyin": "dào",
-        "pinyin_num": "dao4"
+        "word": "可以",
+        "pos": "modal verb",
+        "phonetic": "kěyǐ",
+        "translation": "poder (permisivo)",
+        "note": "similar a 'puedo' en español"
+      },
+      {
+        "word": "天",
+        "pos": "noun",
+        "phonetic": "tiān",
+        "translation": "día",
+        "note": "para días de la semana o general"
       },
       {
         "word": "都",
         "pos": "adv",
         "phonetic": "dōu",
-        "translation": "también, todos",
-        "note": "'每天都' significa 'todos los días'",
-        "pinyin": "dōu",
-        "pinyin_num": "dou1"
+        "translation": "todo/todos",
+        "note": "indica totalidad"
+      },
+      {
+        "word": "吗",
+        "pos": "particle",
+        "phonetic": "ma",
+        "translation": "partícula interrogativa",
+        "note": "se añade al final para preguntas"
+      },
+      {
+        "word": "多",
+        "pos": "adv",
+        "phonetic": "duō",
+        "translation": "mucho",
+        "note": "para preguntas como 'qué hora'"
+      },
+      {
+        "word": "点",
+        "pos": "noun",
+        "phonetic": "diǎn",
+        "translation": "punto/hora",
+        "note": "para decir la hora exacta"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "请问，现在开门吗？",
-        "translation": "Disculpe, ¿está abierto ahora?",
+        "text": "请问，这家店几点开门？",
+        "translation": "Disculpe, ¿a qué hora abre esta tienda?",
         "highlights": [
-          "现在",
-          "开门"
+          "几",
+          "开",
+          "店",
+          "点"
         ]
       },
       {
         "speaker": "B",
-        "text": "现在开门。我们每天从早上九点到晚上十点都开。",
-        "translation": "Ahora está abierto. Estamos abiertos todos los días de 9 de la mañana a 10 de la noche.",
+        "text": "现在开门，可以进来。",
+        "translation": "Ahora está abierta, puede entrar.",
         "highlights": [
           "现在",
-          "从",
-          "到",
+          "开",
+          "可以"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "那明天几点开门？",
+        "translation": "¿Y mañana a qué hora abre?",
+        "highlights": [
+          "几",
+          "开",
+          "门"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "明天早上九点开门，都可以。",
+        "translation": "Mañana abre a las nueve, todos pueden venir.",
+        "highlights": [
+          "明天",
+          "天",
+          "开",
           "都"
         ]
       },
       {
         "speaker": "A",
-        "text": "知道几点关门吗？",
-        "translation": "¿Sabes a qué hora cierra?",
+        "text": "多谢！",
+        "translation": "¡Muchas gracias!",
         "highlights": [
-          "知道",
-          "几点",
-          "关"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "知道，十点关门。还有一小时。",
-        "translation": "Sí, cierra a las 10. Todavía queda una hora.",
-        "highlights": [
-          "知道",
-          "关",
-          "小时"
+          "多"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "现在开门吗？",
-        "translation": "¿Está abierto ahora?"
+        "phrase": "几点开门？",
+        "translation": "¿A qué hora abre?"
       },
       {
-        "phrase": "从早上九点到晚上十点",
-        "translation": "de 9 de la mañana a 10 de la noche"
+        "phrase": "现在开门。",
+        "translation": "Ahora está abierta."
       },
       {
-        "phrase": "几点关门？",
-        "translation": "¿A qué hora cierra?"
+        "phrase": "明天早上九点开门。",
+        "translation": "Mañana abre a las nueve."
       }
     ]
   },
@@ -2928,150 +2604,146 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "想",
-        "pos": "verb",
-        "phonetic": "ɕiaŋ˨˩˦",
-        "translation": "querer, desear",
-        "note": "Expresa deseo o intención.",
-        "pinyin": "xiǎng",
-        "pinyin_num": "xiang3"
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "bueno/bien",
+        "note": "puede usarse para expresar aprobación o estado favorable"
       },
       {
         "word": "看",
         "pos": "verb",
-        "phonetic": "kʰan˥˩",
+        "phonetic": "kàn",
         "translation": "mirar",
-        "note": "Mirar el menú, revisar.",
-        "pinyin": "kàn",
-        "pinyin_num": "kan4"
+        "note": "para indicar atención visual o revisión"
       },
       {
-        "word": "菜单",
-        "pos": "noun",
-        "phonetic": "tsʰai˥˩tan˥",
-        "translation": "menú",
-        "note": "Lista de platos.",
-        "pinyin": "cài dān",
-        "pinyin_num": "cai4 dan1"
-      },
-      {
-        "word": "有",
+        "word": "点",
         "pos": "verb",
-        "phonetic": "joʊ˨˩˦",
-        "translation": "haber, tener",
-        "note": "Indica existencia.",
-        "pinyin": "yǒu",
-        "pinyin_num": "you3"
-      },
-      {
-        "word": "什么",
-        "pos": "pron",
-        "phonetic": "ʂən˧˥mə",
-        "translation": "qué",
-        "note": "Pronombre interrogativo.",
-        "pinyin": "shén me",
-        "pinyin_num": "shen2 me0"
+        "phonetic": "diǎn",
+        "translation": "pedir (comida)",
+        "note": "usado específicamente para seleccionar platos en un menú"
       },
       {
         "word": "菜",
         "pos": "noun",
-        "phonetic": "tsʰai˥˩",
-        "translation": "plato, comida",
-        "note": "Se refiere a un plato en general.",
-        "pinyin": "cài",
-        "pinyin_num": "cai4"
+        "phonetic": "cài",
+        "translation": "plato/comida",
+        "note": "se refiere a la comida o a un plato en particular"
       },
       {
-        "word": "推荐",
-        "pos": "verb",
-        "phonetic": "tʰuei˥tɕiɛn˥˩",
-        "translation": "recomendar",
-        "note": "Sugerir algo a alguien.",
-        "pinyin": "tuī jiàn",
-        "pinyin_num": "tui1 jian4"
-      },
-      {
-        "word": "好吃",
-        "pos": "adj",
-        "phonetic": "xaʊ˨˩˦tʂʰɨ˥",
-        "translation": "delicioso",
-        "note": "Que tiene buen sabor.",
-        "pinyin": "hǎo chī",
-        "pinyin_num": "hao3 chi1"
-      },
-      {
-        "word": "就",
+        "word": "很",
         "pos": "adv",
-        "phonetic": "tɕjoʊ˥˩",
-        "translation": "entonces, justo",
-        "note": "Indica decisión.",
-        "pinyin": "jiù",
-        "pinyin_num": "jiu4"
+        "phonetic": "hěn",
+        "translation": "muy",
+        "note": "adverbio intensificador de adjetivos"
       },
       {
-        "word": "吧",
-        "pos": "part",
-        "phonetic": "pa˥",
-        "translation": "vamos a... (sugerencia)",
-        "note": "Se coloca al final de la oración para sugerir.",
-        "pinyin": "ba",
-        "pinyin_num": "ba0"
+        "word": "喜欢",
+        "pos": "verb",
+        "phonetic": "xǐhuān",
+        "translation": "gustar",
+        "note": "expresa preferencia o agrado"
+      },
+      {
+        "word": "都",
+        "pos": "adv",
+        "phonetic": "dōu",
+        "translation": "todos/as, todo/a",
+        "note": "indica totalidad o inclusión"
+      },
+      {
+        "word": "再",
+        "pos": "adv",
+        "phonetic": "zài",
+        "translation": "otra vez, de nuevo",
+        "note": "indica repetición o continuación de una acción"
+      },
+      {
+        "word": "有",
+        "pos": "verb",
+        "phonetic": "yǒu",
+        "translation": "tener, haber",
+        "note": "indica posesión o existencia"
+      },
+      {
+        "word": "和",
+        "pos": "conj",
+        "phonetic": "hé",
+        "translation": "y",
+        "note": "conjunción para unir elementos"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你好，我想看菜单。",
-        "translation": "Hola, quiero ver el menú.",
+        "text": "你看看菜单，有什么好吃的吗？",
+        "translation": "Mira el menú, ¿qué hay bueno para comer?",
         "highlights": [
-          "想",
-          "看",
+          "看看",
+          "好",
           "菜单"
         ]
       },
       {
         "speaker": "B",
-        "text": "好的，这是菜单。今天有什么菜？",
-        "translation": "Bien, aquí tiene el menú. ¿Qué platos hay hoy?",
+        "text": "我喜欢点这个菜，很有名。",
+        "translation": "Me gustaría pedir este plato, es muy famoso.",
         "highlights": [
-          "有",
-          "什么",
+          "喜欢",
+          "点",
+          "很",
           "菜"
         ]
       },
       {
         "speaker": "A",
-        "text": "你推荐什么菜？",
-        "translation": "¿Qué plato recomienda?",
+        "text": "这个菜好吃吗？",
+        "translation": "¿Este plato está bueno?",
         "highlights": [
-          "推荐",
-          "什么",
-          "菜"
+          "好",
+          "好吃"
         ]
       },
       {
         "speaker": "B",
-        "text": "这个菜很好吃，就点这个吧。",
-        "translation": "Este plato está muy rico, pidamos este.",
+        "text": "我再看看别的，都很有意思。",
+        "translation": "Voy a mirar otros, todos son muy interesantes.",
         "highlights": [
-          "好吃",
-          "就",
-          "吧"
+          "再",
+          "看看",
+          "都",
+          "有"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "好的，我喜欢和你一起点菜。",
+        "translation": "Vale, me gusta pedir contigo.",
+        "highlights": [
+          "好",
+          "喜欢",
+          "和",
+          "点"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "我想看菜单",
-        "translation": "Quiero ver el menú"
+        "phrase": "你看看菜单",
+        "translation": "Mira el menú"
       },
       {
-        "phrase": "你推荐什么菜？",
-        "translation": "¿Qué plato recomienda?"
+        "phrase": "有什么好吃的吗？",
+        "translation": "¿Qué hay bueno para comer?"
       },
       {
-        "phrase": "就点这个吧",
-        "translation": "Pidamos este"
+        "phrase": "我喜欢点这个菜",
+        "translation": "Me gustaría pedir este plato"
+      },
+      {
+        "phrase": "我再看看别的",
+        "translation": "Voy a mirar otros"
       }
     ]
   },
@@ -3084,164 +2756,139 @@
     "frequency_note": "top 300 most frequent words of Mandarin",
     "vocabulary": [
       {
-        "word": "去",
+        "word": "请",
         "pos": "verb",
-        "phonetic": "tɕʰy˥˩",
-        "translation": "ir",
-        "note": "Indica ir a un destino",
-        "pinyin": "qù",
-        "pinyin_num": "qu4"
+        "phonetic": "qǐng",
+        "translation": "por favor, invitar",
+        "note": "usado para hacer una petición educada"
       },
       {
-        "word": "银行",
-        "pos": "noun",
-        "phonetic": "in˧˥xaŋ˧˥",
-        "translation": "banco",
-        "note": "Institución financiera",
-        "pinyin": "yín háng",
-        "pinyin_num": "yin2 hang2"
-      },
-      {
-        "word": "取",
-        "pos": "verb",
-        "phonetic": "tɕʰy˨˩˦",
-        "translation": "retirar, sacar",
-        "note": "Se usa para retirar dinero",
-        "pinyin": "qǔ",
-        "pinyin_num": "qu3"
-      },
-      {
-        "word": "先",
+        "word": "一下",
         "pos": "adv",
-        "phonetic": "ɕjɛn˥",
-        "translation": "primero",
-        "note": "Adverbio que indica orden",
-        "pinyin": "xiān",
-        "pinyin_num": "xian1"
+        "phonetic": "yīxià",
+        "translation": "un momento, brevemente",
+        "note": "indica una acción breve o por un instante"
       },
       {
-        "word": "号",
-        "pos": "noun",
-        "phonetic": "xaʊ˥˩",
-        "translation": "número",
-        "note": "Número de ticket, etc.",
-        "pinyin": "hào",
-        "pinyin_num": "hao4"
-      },
-      {
-        "word": "再",
-        "pos": "adv",
-        "phonetic": "tsaɪ˥˩",
-        "translation": "luego, después",
-        "note": "Indica orden",
-        "pinyin": "zài",
-        "pinyin_num": "zai4"
-      },
-      {
-        "word": "可以",
+        "word": "办",
         "pos": "verb",
-        "phonetic": "kʰɤ˨˩˦i˨˩˦",
-        "translation": "poder, estar permitido",
-        "note": "Verbo auxiliar que expresa permiso o posibilidad",
-        "pinyin": "kě yǐ",
-        "pinyin_num": "ke3 yi3"
+        "phonetic": "bàn",
+        "translation": "hacer, manejar (trámites)",
+        "note": "usado en contextos administrativos o de servicio"
       },
       {
-        "word": "吗",
-        "pos": "part",
-        "phonetic": "ma˧",
-        "translation": "¿? (partícula interrogativa)",
-        "note": "Se coloca al final de la oración para formar preguntas",
-        "pinyin": "ma",
-        "pinyin_num": "ma0"
+        "word": "那",
+        "pos": "pron",
+        "phonetic": "nà",
+        "translation": "ese/aquel",
+        "note": "pronombre demostrativo o conectivo"
+      },
+      {
+        "word": "能",
+        "pos": "modal",
+        "phonetic": "néng",
+        "translation": "poder (capacidad o permiso)",
+        "note": "indica posibilidad o habilidad"
+      },
+      {
+        "word": "要",
+        "pos": "verb",
+        "phonetic": "yào",
+        "translation": "querer, necesitar",
+        "note": "también puede funcionar como verbo de obligación"
       },
       {
         "word": "这",
         "pos": "pron",
-        "phonetic": "tʂɤ˥˩",
-        "translation": "esto, este",
-        "note": "Pronombre demostrativo de proximidad",
-        "pinyin": "zhè",
-        "pinyin_num": "zhe4"
+        "phonetic": "zhè",
+        "translation": "este/a",
+        "note": "pronombre demostrativo"
       },
       {
-        "word": "张",
-        "pos": "measure word",
-        "phonetic": "tʂaŋ˥",
-        "translation": "clasificador para objetos planos",
-        "note": "Clasificador para papel, tarjetas, etc.",
-        "pinyin": "zhāng",
-        "pinyin_num": "zhang1"
+        "word": "就",
+        "pos": "adv",
+        "phonetic": "jiù",
+        "translation": "justo, exactamente, entonces",
+        "note": "indica inmediatez, exactitud o consecuencia"
+      },
+      {
+        "word": "好",
+        "pos": "adj",
+        "phonetic": "hǎo",
+        "translation": "bien, bueno",
+        "note": "puede usarse como interjección o adjetivo"
+      },
+      {
+        "word": "个",
+        "pos": "clasificador",
+        "phonetic": "ge",
+        "translation": "(clasificador general para personas u objetos)",
+        "note": "el clasificador más común en chino"
       }
     ],
     "dialogue": [
       {
-        "speaker": "A",
-        "text": "我去银行取钱，先拿号，再等。",
-        "translation": "Voy al banco a retirar dinero. Primero tomo número y luego espero.",
+        "speaker": "Cliente",
+        "text": "你好，我想办一下这个手续。请问能在这儿办吗？",
+        "translation": "Hola, quiero hacer este trámite. ¿Puedo hacerlo aquí por favor?",
         "highlights": [
-          "去",
-          "银行",
-          "取",
-          "先",
-          "号",
-          "再"
+          "办",
+          "一下",
+          "能",
+          "这儿"
         ]
       },
       {
-        "speaker": "B",
-        "text": "可以给我一张号吗？",
-        "translation": "¿Me puedes dar un número?",
+        "speaker": "Empleado",
+        "text": "你好，请坐一下。你要办什么业务？",
+        "translation": "Hola, toma asiento un momento. ¿Qué trámite quiere hacer?",
         "highlights": [
-          "可以",
+          "请",
+          "一下",
+          "要",
+          "什么"
+        ]
+      },
+      {
+        "speaker": "Cliente",
+        "text": "我想取一点钱。那边的机器好像坏了。",
+        "translation": "Quiero retirar un poco de dinero. La máquina de allá parece estar rota.",
+        "highlights": [
+          "那",
+          "好像"
+        ]
+      },
+      {
+        "speaker": "Empleado",
+        "text": "这位客户，请把您的卡给我，我帮您办理。",
+        "translation": "Señor/a cliente, por favor entrégueme su tarjeta para procesarlo.",
+        "highlights": [
           "给",
-          "一",
-          "张",
-          "号",
-          "吗"
+          "帮您办理"
         ]
       },
       {
-        "speaker": "A",
-        "text": "可以，这张给你。",
-        "translation": "Claro, te doy este número.",
+        "speaker": "Cliente",
+        "text": "好的，谢谢您的帮忙！",
+        "translation": "¡De acuerdo, gracias por su ayuda!",
         "highlights": [
-          "可以",
-          "这",
-          "张",
-          "给"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "谢谢！那我去取钱。",
-        "translation": "¡Gracias! Entonces voy a retirar dinero.",
-        "highlights": [
-          "去",
-          "取"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "好，你先去，我再取一张号。",
-        "translation": "Bien, ve tú primero, yo tomo otro número.",
-        "highlights": [
-          "先",
-          "去",
-          "再",
-          "张",
-          "号"
+          "好",
+          "您"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "取钱",
-        "translation": "retirar dinero"
+        "phrase": "我想办一下这个手续。",
+        "translation": "Quiero hacer este trámite."
       },
       {
-        "phrase": "拿号",
-        "translation": "tomar número"
+        "phrase": "请问能在这儿办吗？",
+        "translation": "¿Puedo hacerlo aquí por favor?"
+      },
+      {
+        "phrase": "把您的卡给我。",
+        "translation": "Entrégueme su tarjeta."
       }
     ]
   }

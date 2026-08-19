@@ -8,187 +8,170 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "效率",
+        "word": "工作",
+        "pos": "verb|noun",
+        "phonetic": "gōngzuò",
+        "translation": "仕事（をする）"
+      },
+      {
+        "word": "自己",
+        "pos": "pron",
+        "phonetic": "zìjǐ",
+        "translation": "自分"
+      },
+      {
+        "word": "家",
         "pos": "noun",
-        "phonetic": "xiàolǜ",
-        "translation": "効率",
-        "note": "仕事の効率などを指す",
-        "pinyin": "xiào lǜ",
-        "pinyin_num": "xiao4 lü4"
+        "phonetic": "jiā",
+        "translation": "家"
       },
       {
-        "word": "提高",
-        "pos": "verb",
-        "phonetic": "tígāo",
-        "translation": "高める、向上させる",
-        "note": "他動詞で、目的語を取る",
-        "pinyin": "tí gāo",
-        "pinyin_num": "ti2 gao1"
+        "word": "时间",
+        "pos": "noun",
+        "phonetic": "shíjiān",
+        "translation": "時間"
       },
       {
-        "word": "降低",
-        "pos": "verb",
-        "phonetic": "jiàngdī",
-        "translation": "下げる、低下させる",
-        "note": "他動詞/自動詞として使える",
-        "pinyin": "jiàng dī",
-        "pinyin_num": "jiang4 di1"
-      },
-      {
-        "word": "交流",
-        "pos": "verb/noun",
-        "phonetic": "jiāoliú",
-        "translation": "交流する、コミュニケーション",
-        "note": "人とのやり取りを指す",
-        "pinyin": "jiāo liú",
-        "pinyin_num": "jiao1 liu2"
-      },
-      {
-        "word": "减少",
-        "pos": "verb",
-        "phonetic": "jiǎnshǎo",
-        "translation": "減らす、減少する",
-        "note": "数量や程度を減らす",
-        "pinyin": "jiǎn shǎo",
-        "pinyin_num": "jian3 shao3"
+        "word": "更",
+        "pos": "adv",
+        "phonetic": "gèng",
+        "translation": "もっと、さらに"
       },
       {
         "word": "自由",
-        "pos": "adj/noun",
+        "pos": "noun|adj",
         "phonetic": "zìyóu",
-        "translation": "自由（な）",
-        "note": "制約がない様子",
-        "pinyin": "zì yóu",
-        "pinyin_num": "zi4 you2"
+        "translation": "自由（な）"
       },
       {
-        "word": "管理",
-        "pos": "verb/noun",
-        "phonetic": "guǎnlǐ",
-        "translation": "管理する、マネジメント",
-        "note": "人や組織を統括する",
-        "pinyin": "guǎn lǐ",
-        "pinyin_num": "guan3 li3"
-      },
-      {
-        "word": "压力",
-        "pos": "noun",
-        "phonetic": "yālì",
-        "translation": "ストレス、圧力",
-        "note": "精神的・物理的な圧力を指す",
-        "pinyin": "yā lì",
-        "pinyin_num": "ya1 li4"
-      },
-      {
-        "word": "其实",
+        "word": "必须",
         "pos": "adv",
-        "phonetic": "qíshí",
-        "translation": "実は、実際は",
-        "note": "文頭で使うことが多い",
-        "pinyin": "qí shí",
-        "pinyin_num": "qi2 shi2"
+        "phonetic": "bìxū",
+        "translation": "～しなければならない"
       },
       {
-        "word": "虽然",
+        "word": "问题",
+        "pos": "noun",
+        "phonetic": "wèntí",
+        "translation": "問題"
+      },
+      {
+        "word": "所以",
         "pos": "conj",
-        "phonetic": "suīrán",
-        "translation": "～だけれども",
-        "note": "逆接の接続詞。後半に「但是」を伴うことが多い",
-        "pinyin": "suī rán",
-        "pinyin_num": "sui1 ran2"
+        "phonetic": "suǒyǐ",
+        "translation": "だから"
       },
       {
-        "word": "但是",
+        "word": "方面",
+        "pos": "noun",
+        "phonetic": "fāngmiàn",
+        "translation": "面、側面"
+      },
+      {
+        "word": "不过",
         "pos": "conj",
-        "phonetic": "dànshì",
-        "translation": "しかし",
-        "note": "逆接の接続詞",
-        "pinyin": "dàn shì",
-        "pinyin_num": "dan4 shi4"
+        "phonetic": "búguò",
+        "translation": "しかし"
       },
       {
-        "word": "对于",
-        "pos": "prep",
-        "phonetic": "duìyú",
-        "translation": "～にとって、～に関して",
-        "note": "対象を示す",
-        "pinyin": "duì yú",
-        "pinyin_num": "dui4 yu2"
+        "word": "试试",
+        "pos": "verb",
+        "phonetic": "shì shi",
+        "translation": "試してみる"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你觉得远程工作怎么样？我觉得工作效率提高了不少。",
-        "translation": "リモートワークはどう思う？仕事の効率がだいぶ上がったと思うんだ。",
+        "text": "我觉得在家工作更自由，你觉得呢？",
+        "translation": "家で仕事をするほうがもっと自由だと思うけど、あなたはどう思う？",
         "highlights": [
-          "效率",
-          "提高"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "虽然效率高了，但是同事之间的交流减少了，感觉有点孤单。",
-        "translation": "効率は上がったけど、同僚との交流が減って、ちょっと寂しい感じがする。",
-        "highlights": [
-          "虽然",
-          "但是",
-          "交流",
-          "减少"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "其实我觉得自由的时间多了很多，可以自己安排工作。",
-        "translation": "実は自由な時間がすごく増えて、仕事を自分で調整できると思うよ。",
-        "highlights": [
-          "其实",
+          "工作",
+          "更",
           "自由"
         ]
       },
       {
         "speaker": "B",
-        "text": "但是管理方面，远程工作对团队合作有影响吧。",
-        "translation": "でも管理の面では、リモートワークはチームワークに影響があるよね。",
+        "text": "我同意！不用每天通勤，省下很多时间。",
+        "translation": "賛成！毎日通勤しなくていいから、時間がかなり節約できるよね。",
         "highlights": [
-          "管理"
+          "时间",
+          "更"
         ]
       },
       {
         "speaker": "A",
-        "text": "对，但是我觉得压力也降低了，不用每天通勤。",
-        "translation": "そうだね、でも通勤がないからストレスも減ったと思う。",
+        "text": "对，自己安排时间也更方便。不过，必须要有很强的自律性。",
+        "translation": "そうね、時間の管理も自分でできて便利よね。でも、強い自制心が必要だよね。",
         "highlights": [
-          "压力",
-          "降低"
+          "自己",
+          "时间",
+          "必须"
         ]
       },
       {
         "speaker": "B",
-        "text": "不过，对于新人来说，缺少面对面交流，学习的机会就少了。",
-        "translation": "でも、新人にとっては、対面での交流が少ないから、学ぶ機会が減るよね。",
+        "text": "你说得对，这是最大的问题。有时候会拖延工作，不是吗？",
+        "translation": "その通りね。それが一番の問題よね。時には仕事を先延ばしにしちゃうこともあるでしょう？",
         "highlights": [
-          "对于"
+          "问题",
+          "有时候"
         ]
       },
       {
         "speaker": "A",
-        "text": "确实，所以我觉得混合工作模式可能更好，既能提高效率，又能保持交流。",
-        "translation": "確かに、だからハイブリッド勤務がいいかもしれない。効率を上げつつ、交流も保てるから。",
+        "text": "是啊。所以我决定先试试，看看效果如何。",
+        "translation": "そうよね。だからまずは試してみることにしたの。効果がどうなるか見てみるわ。",
         "highlights": [
-          "提高",
-          "交流"
+          "所以",
+          "试试"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "好主意！在家工作的方面确实有很多好处，但也要注意避免孤独感。",
+        "translation": "いいアイデアね！家で仕事をする面では確かにメリットが多いけど、孤独感も避けないとね。",
+        "highlights": [
+          "方面",
+          "不过"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "没错。不能只看自由的一面，也要考虑其他因素。",
+        "translation": "そうよね。自由な面だけじゃなくて、ほかの要素も考慮しないとね。",
+        "highlights": [
+          "不过",
+          "方面"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "对，慢慢来，找到最适合自己的工作方式。",
+        "translation": "そうね、ゆっくりやって、自分に一番合った仕事の仕方を見つけましょう。",
+        "highlights": [
+          "慢慢",
+          "自己"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "虽然...但是...",
-        "translation": "～だけれども、しかし～"
+        "phrase": "在家工作更自由",
+        "translation": "家で仕事をするほうがもっと自由だ"
       },
       {
-        "phrase": "对于...来说",
-        "translation": "～にとっては"
+        "phrase": "省下很多时间",
+        "translation": "時間をかなり節約する"
+      },
+      {
+        "phrase": "必须要有很强的自律性",
+        "translation": "強い自制心が必要だ"
+      },
+      {
+        "phrase": "试试看效果如何",
+        "translation": "試してみて効果がどうなるか見る"
       }
     ]
   },
@@ -201,204 +184,174 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "责任",
-        "pos": "noun",
-        "phonetic": "tsɤ˥˩ʐən˥˩",
-        "translation": "責任",
-        "note": "道義的責任、職責",
-        "pinyin": "zé rèn",
-        "pinyin_num": "ze2 ren4"
-      },
-      {
-        "word": "判断",
-        "pos": "verb/noun",
-        "phonetic": "tɕyan˥˩tu̯an˥˩",
-        "translation": "判断する、判断",
-        "note": "動詞としても名詞としても使う",
-        "pinyin": "pàn duàn",
-        "pinyin_num": "pan4 duan4"
-      },
-      {
-        "word": "利益",
-        "pos": "noun",
-        "phonetic": "li˥˩i˥˩",
-        "translation": "利益、利得",
-        "note": "金銭的な利益だけでなく、利害関係全般を指す",
-        "pinyin": "lì yì",
-        "pinyin_num": "li4 yi4"
-      },
-      {
-        "word": "牺牲",
+        "word": "认为",
         "pos": "verb",
-        "phonetic": "ɕi˥ɕəŋ˥˥",
-        "translation": "犠牲にする",
-        "note": "他動詞として使う",
-        "pinyin": "xī shēng",
-        "pinyin_num": "xi1 sheng1"
+        "phonetic": "rèn wéi",
+        "translation": "思う、考える",
+        "note": "主観的な意見を表す動詞"
       },
       {
-        "word": "原则",
+        "word": "其实",
+        "pos": "adv",
+        "phonetic": "qí shí",
+        "translation": "実は、実際のところ",
+        "note": "事実を強調する副詞"
+      },
+      {
+        "word": "法律",
         "pos": "noun",
-        "phonetic": "yan˧˥tsɤ˥˩",
-        "translation": "原則、主義",
-        "note": "行動の規範となる根本的な考え方",
-        "pinyin": "yuán zé",
-        "pinyin_num": "yuan2 ze2"
+        "phonetic": "fǎ lǜ",
+        "translation": "法律",
+        "note": "社会のルールを指す名詞"
+      },
+      {
+        "word": "社会",
+        "pos": "noun",
+        "phonetic": "shè huì",
+        "translation": "社会",
+        "note": "人々の集まりを指す名詞"
+      },
+      {
+        "word": "种类",
+        "pos": "noun",
+        "phonetic": "zhǒng lèi",
+        "translation": "種類",
+        "note": "分類を表す名詞"
+      },
+      {
+        "word": "别人",
+        "pos": "pron",
+        "phonetic": "bié rén",
+        "translation": "他人、ほかの人",
+        "note": "第三者を指す代名詞"
+      },
+      {
+        "word": "开始",
+        "pos": "verb",
+        "phonetic": "kāi shǐ",
+        "translation": "始める、開始する",
+        "note": "行動の開始を表す動詞"
+      },
+      {
+        "word": "通过",
+        "pos": "prep",
+        "phonetic": "tōng guò",
+        "translation": "～を通じて、～によって",
+        "note": "手段や経路を示す前置詞"
+      },
+      {
+        "word": "非常",
+        "pos": "adv",
+        "phonetic": "fēi cháng",
+        "translation": "非常に、とても",
+        "note": "程度を強調する副詞"
+      },
+      {
+        "word": "关系",
+        "pos": "noun",
+        "phonetic": "guān xì",
+        "translation": "関係、つながり",
+        "note": "人や物事とのつながりを指す名詞"
+      },
+      {
+        "word": "可能",
+        "pos": "modal verb",
+        "phonetic": "kě néng",
+        "translation": "可能性がある、～かもしれない",
+        "note": "可能性や推量を表す助動詞"
       },
       {
         "word": "严重",
         "pos": "adj",
-        "phonetic": "yan˧˥tʂuŋ˥˩",
-        "translation": "深刻な、重大な",
-        "note": "悪い結果を強調する",
-        "pinyin": "yán zhòng",
-        "pinyin_num": "yan2 zhong4"
-      },
-      {
-        "word": "情况",
-        "pos": "noun",
-        "phonetic": "tɕʰiŋ˧˥kʰu̯aŋ˥˩",
-        "translation": "状況、場合",
-        "note": "具体的な状況や事情を指す",
-        "pinyin": "qíng kuàng",
-        "pinyin_num": "qing2 kuang4"
-      },
-      {
-        "word": "选择",
-        "pos": "verb/noun",
-        "phonetic": "ɕyan˧˥tsɤ˧˥",
-        "translation": "選択する、選択",
-        "note": "動詞としても名詞としても使う",
-        "pinyin": "xuǎn zé",
-        "pinyin_num": "xuan3 ze2"
-      },
-      {
-        "word": "承担",
-        "pos": "verb",
-        "phonetic": "tʂʰəŋ˧˥tan˥˥",
-        "translation": "引き受ける、負う",
-        "note": "責任・費用・義務などを負う",
-        "pinyin": "chéng dān",
-        "pinyin_num": "cheng2 dan1"
-      },
-      {
-        "word": "结果",
-        "pos": "noun",
-        "phonetic": "tɕiɛ˧˥ku̯ɔ˧˥",
-        "translation": "結果",
-        "note": "ある行動の後に生じる事柄",
-        "pinyin": "jié guǒ",
-        "pinyin_num": "jie2 guo3"
-      },
-      {
-        "word": "考虑",
-        "pos": "verb",
-        "phonetic": "kʰau˧˥ly˥˩",
-        "translation": "考慮する、検討する",
-        "note": "よく考える、考慮に入れる",
-        "pinyin": "kǎo lǜ",
-        "pinyin_num": "kao3 lü4"
-      },
-      {
-        "word": "道德",
-        "pos": "noun",
-        "phonetic": "tau̯˥˩tɤ˧˥",
-        "translation": "道徳、倫理",
-        "note": "社会の規範としての道徳",
-        "pinyin": "dào dé",
-        "pinyin_num": "dao4 de2"
+        "phonetic": "yán zhòng",
+        "translation": "重大な、深刻な",
+        "note": "状況の深刻さを表す形容詞"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "在这个情况里，你觉得谁应该承担主要责任？",
-        "translation": "この状況で、誰が主な責任を負うべきだと思う？",
+        "text": "我认为这个伦理困境非常严重。",
+        "translation": "この倫理的ジレンマは非常に深刻だと思う。",
         "highlights": [
-          "情况",
-          "承担",
-          "责任"
+          "认为",
+          "非常",
+          "严重"
         ]
       },
       {
         "speaker": "B",
-        "text": "很难判断。如果只看结果，似乎是他造成的，但也要考虑他的初衷。",
-        "translation": "判断が難しいね。結果だけ見れば彼が引き起こしたようだけど、彼の当初の意図も考慮すべきだよ。",
+        "text": "其实我也这么想。法律上应该怎么处理呢？",
+        "translation": "実は私もそう思う。法律的にはどう扱うべきなの？",
         "highlights": [
-          "判断",
-          "结果",
-          "考虑"
+          "其实",
+          "法律"
         ]
       },
       {
         "speaker": "A",
-        "text": "可是，他的做法严重违反了我们的原则，不能因为初衷就忽略这一点。",
-        "translation": "でも、彼のやり方は我々の原則に著しく反している。意図が良かったからといって、その点を無視できない。",
+        "text": "通过法律可能解决一部分问题，但社会的关系也很重要。",
+        "translation": "法律を通じて一部の問題は解決できるかもしれないが、社会的な関係も重要だよ。",
         "highlights": [
-          "严重",
-          "原则"
+          "通过",
+          "可能",
+          "关系",
+          "重要"
         ]
       },
       {
         "speaker": "B",
-        "text": "我明白，但面对复杂的道德问题，有时不得不牺牲一些原则来换取更大的利益。",
-        "translation": "分かるよ。しかし複雑な道徳的問題に直面したとき、より大きな利益を得るために、やむを得ずいくつかの原則を犠牲にしなければならないこともあるんだ。",
+        "text": "别人会怎么看待这种情况？",
+        "translation": "他の人はこういう状況をどう見るだろう？",
         "highlights": [
-          "道德",
-          "牺牲",
-          "利益"
+          "别人"
         ]
       },
       {
         "speaker": "A",
-        "text": "牺牲原则本身就是一种危险的选择。一旦开了头，以后就难以挽回。",
-        "translation": "原則を犠牲にすること自体が危険な選択だよ。一度始めてしまうと、後で取り返しがつかなくなる。",
+        "text": "不同种类的人可能有不同的看法。",
+        "translation": "種類によっては違う見方をする人もいるだろう。",
         "highlights": [
-          "牺牲",
-          "选择"
+          "种类"
         ]
       },
       {
         "speaker": "B",
-        "text": "那你的意思是，无论情况多严重，都必须坚守原则，不考虑实际后果吗？",
-        "translation": "つまり、状況がどんなに深刻であっても、原則を守り通し、実際の結果を考慮しないという意味か？",
+        "text": "我开始相信，这种问题需要更多的讨论。",
+        "translation": "私はこういう問題はもっと議論が必要だと思い始めている。",
         "highlights": [
-          "情况",
-          "严重",
-          "考虑",
-          "结果"
+          "开始",
+          "讨论"
         ]
       },
       {
         "speaker": "A",
-        "text": "不是不考虑后果，而是要在原则和后果之间找到平衡，同时明确自己最终要承担的责任。",
-        "translation": "結果を考慮しないわけじゃない。原則と結果のバランスを見つつ、最終的に自分が負うべき責任を明確にすることが大事だ。",
+        "text": "是的，社会应该通过这种讨论来找到平衡。",
+        "translation": "そうだよね、社会はこういった議論を通じてバランスを見つけるべきだ。",
         "highlights": [
-          "考虑",
-          "责任",
-          "承担"
+          "社会",
+          "通过"
         ]
       },
       {
         "speaker": "B",
-        "text": "我懂了。做出任何判断之前，我们都需要仔细考虑所有因素，包括道德和实际利益。",
-        "translation": "分かった。何か判断を下す前に、道徳や実際の利益を含むすべての要素を注意深く考慮する必要があるんだね。",
-        "highlights": [
-          "判断",
-          "考虑",
-          "道德",
-          "利益"
-        ]
+        "text": "不过，平衡真的那么容易找到吗？",
+        "translation": "でも、そのバランスって本当に簡単に見つかるのかな？",
+        "highlights": []
       }
     ],
     "key_phrases": [
       {
-        "phrase": "承担主要责任",
-        "translation": "主な責任を負う"
+        "phrase": "我认为这个伦理困境非常严重",
+        "translation": "この倫理的ジレンマは非常に深刻だと思う"
       },
       {
-        "phrase": "在原则和后果之间找到平衡",
-        "translation": "原則と結果の間でバランスを見つける"
+        "phrase": "通过法律可能解决一部分问题",
+        "translation": "法律を通じて一部の問題は解決できるかもしれない"
+      },
+      {
+        "phrase": "我开始相信，这种问题需要更多的讨论",
+        "translation": "私はこういう問題はもっと議論が必要だと思い始めている"
       }
     ]
   },
@@ -411,204 +364,168 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
+        "word": "造成",
+        "pos": "verb",
+        "phonetic": "zào chéng",
+        "translation": "引き起こす、招く",
+        "note": "しばしば悪い結果をもたらす場合に使う"
+      },
+      {
+        "word": "结果",
+        "pos": "noun",
+        "phonetic": "jié guǒ",
+        "translation": "結果"
+      },
+      {
+        "word": "受到",
+        "pos": "verb",
+        "phonetic": "shòu dào",
+        "translation": "受ける、被る",
+        "note": "受動態の形でよく用いられる"
+      },
+      {
         "word": "影响",
         "pos": "verb/noun",
-        "phonetic": "ying3xiang3",
-        "translation": "影響する/影響",
-        "note": "「影響を与える」という動詞と「影響」という名詞の両方で使われる",
-        "pinyin": "yǐng xiǎng",
-        "pinyin_num": "ying3 xiang3"
+        "phonetic": "yǐng xiǎng",
+        "translation": "影響する/影響"
       },
       {
-        "word": "社会",
-        "pos": "noun",
-        "phonetic": "she4hui4",
-        "translation": "社会",
-        "note": "「社会」の一般的な言い方",
-        "pinyin": "shè huì",
-        "pinyin_num": "she4 hui4"
-      },
-      {
-        "word": "媒体",
-        "pos": "noun",
-        "phonetic": "mei2ti3",
-        "translation": "メディア",
-        "note": "「メディア」を指す。社交メディアは「社交媒体」",
-        "pinyin": "méi tǐ",
-        "pinyin_num": "mei2 ti3"
-      },
-      {
-        "word": "信息",
-        "pos": "noun",
-        "phonetic": "xin4xi1",
-        "translation": "情報",
-        "note": "「情報」という意味で、デジタル情報にも使われる",
-        "pinyin": "xìn xī",
-        "pinyin_num": "xin4 xi1"
-      },
-      {
-        "word": "传播",
+        "word": "显示",
         "pos": "verb",
-        "phonetic": "chuan2bo1",
-        "translation": "伝播する、広める",
-        "note": "情報や噂が広まることを表す",
-        "pinyin": "chuán bō",
-        "pinyin_num": "chuan2 bo1"
-      },
-      {
-        "word": "内容",
-        "pos": "noun",
-        "phonetic": "nei4rong2",
-        "translation": "内容",
-        "note": "コンテンツの意味でも使われる",
-        "pinyin": "nèi róng",
-        "pinyin_num": "nei4 rong2"
-      },
-      {
-        "word": "平台",
-        "pos": "noun",
-        "phonetic": "ping2tai2",
-        "translation": "プラットフォーム",
-        "note": "SNSなどの基盤となるサービスを指す",
-        "pinyin": "píng tái",
-        "pinyin_num": "ping2 tai2"
-      },
-      {
-        "word": "用户",
-        "pos": "noun",
-        "phonetic": "yong4hu4",
-        "translation": "ユーザー",
-        "note": "サービスや製品の利用者",
-        "pinyin": "yòng hù",
-        "pinyin_num": "yong4 hu4"
-      },
-      {
-        "word": "关注",
-        "pos": "verb/noun",
-        "phonetic": "guan1zhu4",
-        "translation": "注目する/関心",
-        "note": "「フォローする」というSNSの意味でも使われる",
-        "pinyin": "guān zhù",
-        "pinyin_num": "guan1 zhu4"
-      },
-      {
-        "word": "网络",
-        "pos": "noun",
-        "phonetic": "wang3luo4",
-        "translation": "ネットワーク、インターネット",
-        "note": "「インターネット」の一般的な言い方",
-        "pinyin": "wǎng luò",
-        "pinyin_num": "wang3 luo4"
+        "phonetic": "xiǎn shì",
+        "translation": "示す、明らかにする"
       },
       {
         "word": "甚至",
-        "pos": "adv",
-        "phonetic": "shen4zhi4",
-        "translation": "～さえ、～すら",
-        "note": "程度を強調する副詞",
-        "pinyin": "shèn zhì",
-        "pinyin_num": "shen4 zhi4"
+        "pos": "conj",
+        "phonetic": "shèn zhì",
+        "translation": "さらには、ひいては"
       },
       {
-        "word": "通过",
-        "pos": "prep",
-        "phonetic": "tong1guo4",
-        "translation": "～を通じて、～によって",
-        "note": "手段や経由を表す前置詞",
-        "pinyin": "tōng guò",
-        "pinyin_num": "tong1 guo4"
+        "word": "程度",
+        "pos": "noun",
+        "phonetic": "chéng dù",
+        "translation": "程度"
+      },
+      {
+        "word": "发现",
+        "pos": "verb/noun",
+        "phonetic": "fā xiàn",
+        "translation": "発見する/発見"
+      },
+      {
+        "word": "方式",
+        "pos": "noun",
+        "phonetic": "fāng shì",
+        "translation": "方法、やり方"
+      },
+      {
+        "word": "快速",
+        "pos": "adj/adv",
+        "phonetic": "kuài sù",
+        "translation": "速い/速く"
+      },
+      {
+        "word": "确实",
+        "pos": "adv/adj",
+        "phonetic": "què shí",
+        "translation": "確かに/確実な"
+      },
+      {
+        "word": "导致",
+        "pos": "verb",
+        "phonetic": "dǎo zhì",
+        "translation": "引き起こす、導く"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "社交媒体现在已经深深影响我们的社会了，你怎么看？",
-        "translation": "ソーシャルメディアはもう深く私たちの社会に影響を与えているね。どう思う？",
+        "text": "社交媒体对年轻人的思想造成了非常深远的影响。",
+        "translation": "ソーシャルメディアは若者の考えに非常に深遠な影響を及ぼしています。",
         "highlights": [
-          "影响",
-          "社会"
+          "造成",
+          "影响"
         ]
       },
       {
         "speaker": "B",
-        "text": "确实，信息传播的速度太快了，但内容的质量却很难保证。",
-        "translation": "確かに、情報の伝播速度が速すぎるけど、内容の質はなかなか保証できないね。",
+        "text": "我也有同感。研究显示，长时间使用可能导致心理压力增加。",
+        "translation": "私も同感です。研究によれば、長時間の使用は心理的ストレスの増加につながることが示されています。",
         "highlights": [
-          "信息",
-          "传播",
-          "内容"
+          "显示",
+          "导致"
         ]
       },
       {
         "speaker": "A",
-        "text": "对，而且很多平台为了吸引用户，甚至故意推荐一些夸张的内容。",
-        "translation": "そうだね、それに多くのプラットフォームがユーザーを引きつけるために、わざと誇張された内容を推薦することさえあるよ。",
+        "text": "尤其是那些时刻关注点赞数的人，压力更明显。",
+        "translation": "特にいいね数を常に気にしている人ほど、そのストレスは顕著です。",
         "highlights": [
-          "平台",
-          "用户",
-          "甚至"
+          "尤其是"
         ]
       },
       {
         "speaker": "B",
-        "text": "没错。通过网络，大家虽然能获得更多信息，但也容易被误导。",
-        "translation": "その通り。ネットワークを通じて、みんなはより多くの情報を得られるけど、簡単に誤解されやすいんだよね。",
+        "text": "确实如此。而且，许多人因此受到网络暴力的困扰。",
+        "translation": "確かにその通りです。しかも多くの人がそのためにネット暴力の被害に悩まされています。",
         "highlights": [
-          "网络",
-          "通过"
+          "确实",
+          "受到"
         ]
       },
       {
         "speaker": "A",
-        "text": "那我们应该怎样提高对信息的判断能力呢？",
-        "translation": "じゃあ、私たちはどうやって情報に対する判断力を高めるべきかな？",
+        "text": "这种情况在某些程度上改变了人们的交流方式。",
+        "translation": "このような状況はある程度人々のコミュニケーションの仕方を変えてしまいました。",
         "highlights": [
-          "信息"
+          "程度",
+          "方式"
         ]
       },
       {
         "speaker": "B",
-        "text": "我觉得首先要关注那些可靠的来源，不要只看标题。",
-        "translation": "まずは信頼できる情報源に注目することが大事だと思うよ。見出しだけ見ないでね。",
+        "text": "快速传播信息固然方便，但也让虚假消息有了可乘之机。",
+        "translation": "情報を素早く広められるのは確かに便利ですが、その一方で偽情報が拡散される隙も与えてしまいます。",
         "highlights": [
-          "关注"
+          "快速"
         ]
       },
       {
         "speaker": "A",
-        "text": "有道理。另外，我们也要注意自己在平台上的发言，因为内容会传播给很多人。",
-        "translation": "もっともだね。それに、私たちもプラットフォーム上での発言に注意しないと。内容は多くの人に伝播するからね。",
+        "text": "为了减少这些负面影响，我们发现需要更严格的监管方式。",
+        "translation": "これらのネガティブな影響を減らすためには、より厳格な規制方法が必要だと私たちは発見しました。",
         "highlights": [
-          "平台",
-          "内容",
-          "传播"
+          "发现",
+          "方式"
         ]
       },
       {
         "speaker": "B",
-        "text": "是啊，所以通过社交媒体，我们既能获得好处，也要承担坏处。",
-        "translation": "そうだね、だからソーシャルメディアを通じて、私たちは良い面も得るけど、悪い面も受け入れないといけないんだ。",
+        "text": "希望政府能尽快出台相关政策，真正解决问题。",
+        "translation": "政府ができるだけ早く関連政策を打ち出し、本当に問題を解決してくれることを願っています。",
         "highlights": [
-          "通过"
+          "希望",
+          "解决"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "影响社会",
-        "translation": "社会に影響を与える"
+        "phrase": "社交媒体对...造成了...影响",
+        "translation": "ソーシャルメディアは...に...な影響を及ぼす"
       },
       {
-        "phrase": "信息传播",
-        "translation": "情報の伝播"
+        "phrase": "研究显示...",
+        "translation": "研究によれば...が示される"
       },
       {
-        "phrase": "吸引用户",
-        "translation": "ユーザーを引きつける"
+        "phrase": "受到...的困扰",
+        "translation": "...の被害に悩まされる"
       },
       {
-        "phrase": "通过网络",
-        "translation": "インターネットを通じて"
+        "phrase": "快速传播信息",
+        "translation": "情報を素早く広める"
       }
     ]
   },
@@ -621,201 +538,148 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "方案",
+        "word": "这样",
+        "pos": "adv",
+        "phonetic": "zhèyàng",
+        "translation": "このように、このような",
+        "note": "副詞や代名詞的に使われることが多い"
+      },
+      {
+        "word": "公司",
         "pos": "noun",
-        "phonetic": "/fɑŋ˥˥ an˥˩/",
-        "translation": "提案、計画",
-        "note": "ビジネスで「提案書」や「プラン」の意味でよく使う",
-        "pinyin": "fāng àn",
-        "pinyin_num": "fang1 an4"
+        "phonetic": "gōngsī",
+        "translation": "会社",
+        "note": "「企業」という広い意味もある"
       },
       {
-        "word": "提出",
-        "pos": "verb",
-        "phonetic": "/tʰi˧˥ tʂʰu˥˥/",
-        "translation": "提出する、提示する",
-        "note": "意見や案を正式に出すときに使う",
-        "pinyin": "tí chū",
-        "pinyin_num": "ti2 chu1"
-      },
-      {
-        "word": "目标",
-        "pos": "noun",
-        "phonetic": "/mu˥˩ pjɑʊ˥˥/",
-        "translation": "目標",
-        "note": "",
-        "pinyin": "mù biāo",
-        "pinyin_num": "mu4 biao1"
-      },
-      {
-        "word": "具体",
+        "word": "早",
         "pos": "adj",
-        "phonetic": "/tɕy˥˩ tʰi˨˩˦/",
-        "translation": "具体的な",
-        "note": "",
-        "pinyin": "jù tǐ",
-        "pinyin_num": "ju4 ti3"
+        "phonetic": "zǎo",
+        "translation": "早い、早めの"
       },
       {
-        "word": "优势",
-        "pos": "noun",
-        "phonetic": "/i̯oʊ˥˥ ʂɻ˥˩/",
-        "translation": "強み、利点",
-        "note": "",
-        "pinyin": "yōu shì",
-        "pinyin_num": "you1 shi4"
-      },
-      {
-        "word": "避免",
+        "word": "表示",
         "pos": "verb",
-        "phonetic": "/pi˥˩ mi̯ɛn˨˩˦/",
-        "translation": "避ける",
-        "note": "",
-        "pinyin": "bì miǎn",
-        "pinyin_num": "bi4 mian3"
+        "phonetic": "biǎoshì",
+        "translation": "示す、表す、述べる"
       },
       {
-        "word": "风险",
+        "word": "意见",
         "pos": "noun",
-        "phonetic": "/fɤŋ˥˥ ɕi̯ɛn˨˩˦/",
-        "translation": "リスク",
-        "note": "",
-        "pinyin": "fēng xiǎn",
-        "pinyin_num": "feng1 xian3"
+        "phonetic": "yìjiàn",
+        "translation": "意見、考え"
       },
       {
-        "word": "实现",
-        "pos": "verb",
-        "phonetic": "/ʂɻ˧˥ tɕi̯ɛn˥˩/",
-        "translation": "実現する",
-        "note": "",
-        "pinyin": "shí xiàn",
-        "pinyin_num": "shi2 xian4"
-      },
-      {
-        "word": "资源",
-        "pos": "noun",
-        "phonetic": "/t͡sz˥˥ ɥɛn˧˥/",
-        "translation": "資源",
-        "note": "",
-        "pinyin": "zī yuán",
-        "pinyin_num": "zi1 yuan2"
-      },
-      {
-        "word": "重要",
-        "pos": "adj",
-        "phonetic": "/tʂoŋ˥˩ i̯ɑʊ˥˩/",
-        "translation": "重要だ",
-        "note": "",
-        "pinyin": "zhòng yào",
-        "pinyin_num": "zhong4 yao4"
-      },
-      {
-        "word": "同意",
-        "pos": "verb",
-        "phonetic": "/tʰoŋ˧˥ i˥˩/",
-        "translation": "同意する、賛成する",
-        "note": "",
-        "pinyin": "tóng yì",
-        "pinyin_num": "tong2 yi4"
-      },
-      {
-        "word": "支持",
+        "word": "合作",
         "pos": "verb/noun",
-        "phonetic": "/tʂɻ˥˥ tʂʰɻ˧˥/",
-        "translation": "支持する、支援",
-        "note": "",
-        "pinyin": "zhī chí",
-        "pinyin_num": "zhi1 chi2"
+        "phonetic": "hézuò",
+        "translation": "協力する、提携する / 協力、提携"
+      },
+      {
+        "word": "根据",
+        "pos": "prep",
+        "phonetic": "gēnjù",
+        "translation": "～によると、～に基づいて"
+      },
+      {
+        "word": "这些",
+        "pos": "pron",
+        "phonetic": "zhèxiē",
+        "translation": "これらの"
+      },
+      {
+        "word": "结果",
+        "pos": "noun/conj",
+        "phonetic": "jiéguǒ",
+        "translation": "結果 / 結果として"
+      },
+      {
+        "word": "太",
+        "pos": "adv",
+        "phonetic": "tài",
+        "translation": "あまりにも、非常に"
+      },
+      {
+        "word": "发展",
+        "pos": "verb/noun",
+        "phonetic": "fāzhǎn",
+        "translation": "発展する、成長する / 発展、成長"
+      },
+      {
+        "word": "期待",
+        "pos": "verb/noun",
+        "phonetic": "qīdài",
+        "translation": "期待する / 期待"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "まず、今回の提案の具体的な目標を説明させてください。",
-        "translation": "まず、今回の提案の具体的な目標を説明させてください。",
+        "text": "这样做的话，公司可以早一点完成这个项目。",
+        "translation": "このようにすれば、会社はこのプロジェクトを少し早く終わらせることができます。",
         "highlights": [
-          "具体",
-          "目标"
+          "这样",
+          "公司",
+          "早"
         ]
       },
       {
         "speaker": "B",
-        "text": "はい、お願いします。特に市場での優位性について聞きたいです。",
-        "translation": "はい、お願いします。特に市場での優位性について聞きたいです。",
+        "text": "这个方案真的不错，但我们需要先表示一下自己的意见。",
+        "translation": "このプランは本当に良いですが、まずは私たちの意見を述べないといけません。",
         "highlights": [
-          "优势"
+          "表示",
+          "意见"
         ]
       },
       {
         "speaker": "A",
-        "text": "当社の強みは、既存の資源を活用してコストを削減できる点です。これにより、リスクを回避しながら利益を実現できます。",
-        "translation": "当社の強みは、既存の資源を活用してコストを削減できる点です。これにより、リスクを回避しながら利益を実現できます。",
+        "text": "根据这些数据，合作的可能性很高。",
+        "translation": "これらのデータによると、協力の可能性は非常に高いです。",
         "highlights": [
-          "资源",
-          "避免",
-          "风险",
-          "实现"
+          "根据",
+          "这些",
+          "合作"
         ]
       },
       {
         "speaker": "B",
-        "text": "なるほど。しかし、この計画を実行するには、どのようなサポートが重要だと考えていますか？",
-        "translation": "なるほど。しかし、この計画を実行するには、どのようなサポートが重要だと考えていますか？",
+        "text": "合作的话，结果会怎样呢？",
+        "translation": "協力したら、結果はどうなるのでしょうか？",
         "highlights": [
-          "支持",
-          "重要"
+          "结果"
         ]
       },
       {
         "speaker": "A",
-        "text": "まず、経営陣の同意を得ることが不可欠です。また、各部門からの協力も必要です。",
-        "translation": "まず、経営陣の同意を得ることが不可欠です。また、各部門からの協力も必要です。",
+        "text": "太棒了！这样我们的发展会更顺利。",
+        "translation": "素晴らしい！このようにすれば、私たちの発展はもっと順調になるでしょう。",
         "highlights": [
-          "同意"
+          "太",
+          "发展"
         ]
       },
       {
         "speaker": "B",
-        "text": "では、この提案を正式に提出するには、どのような手順が必要ですか？",
-        "translation": "では、この提案を正式に提出するには、どのような手順が必要ですか？",
+        "text": "期待他们的回复，我们也要加油！",
+        "translation": "彼らの返事を期待しながら、私たちも頑張りましょう！",
         "highlights": [
-          "提出"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "来週までに詳細な資料をまとめ、取締役会でこの方案を提示します。",
-        "translation": "来週までに詳細な資料をまとめ、取締役会でこの提案を提示します。",
-        "highlights": [
-          "方案"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "わかりました。我々も全面的に支持しますので、頑張ってください。",
-        "translation": "わかりました。我々も全面的に支援しますので、頑張ってください。",
-        "highlights": [
-          "支持"
+          "期待"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "具体的な目標を説明する",
-        "translation": "具体的な目標を説明する"
+        "phrase": "这样做的话，公司可以早一点完成这个项目。",
+        "translation": "このようにすれば、会社はこのプロジェクトを少し早く終わらせることができます。"
       },
       {
-        "phrase": "リスクを回避する",
-        "translation": "リスクを回避する"
+        "phrase": "根据这些数据，合作的可能性很高。",
+        "translation": "これらのデータによると、協力の可能性は非常に高いです。"
       },
       {
-        "phrase": "経営陣の同意を得る",
-        "translation": "経営陣の同意を得る"
-      },
-      {
-        "phrase": "提案を正式に提出する",
-        "translation": "提案を正式に提出する"
+        "phrase": "期待他们的回复，我们也要加油！",
+        "translation": "彼らの返事を期待しながら、私たちも頑張りましょう！"
       }
     ]
   },
@@ -828,195 +692,174 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "情绪",
-        "pos": "noun",
-        "phonetic": "qing2 xu4",
-        "translation": "感情、気分",
-        "note": "「気分・感情」の意で、心理的な状態を指す。",
-        "pinyin": "qíng xù",
-        "pinyin_num": "qing2 xu4"
-      },
-      {
-        "word": "放松",
+        "word": "接受",
         "pos": "verb",
-        "phonetic": "fang4 song1",
-        "translation": "リラックスする",
-        "note": "体や心の緊張をほぐす。",
-        "pinyin": "fàng sōng",
-        "pinyin_num": "fang4 song1"
-      },
-      {
-        "word": "调节",
-        "pos": "verb",
-        "phonetic": "tiao2 jie2",
-        "translation": "調整する、整える",
-        "note": "バランスを取るために調整する。",
-        "pinyin": "tiáo jié",
-        "pinyin_num": "tiao2 jie2"
-      },
-      {
-        "word": "平衡",
-        "pos": "noun/verb",
-        "phonetic": "ping2 heng2",
-        "translation": "バランス、均衡",
-        "note": "心身のバランスを指すことも多い。",
-        "pinyin": "píng héng",
-        "pinyin_num": "ping2 heng2"
-      },
-      {
-        "word": "表达",
-        "pos": "verb",
-        "phonetic": "biao3 da2",
-        "translation": "表現する",
-        "note": "気持ちや考えを言葉や態度で示す。",
-        "pinyin": "biǎo dá",
-        "pinyin_num": "biao3 da2"
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
         "word": "接受",
         "pos": "verb",
-        "phonetic": "jie1 shou4",
-        "translation": "受け入れる",
-        "note": "現実や自分の感情を認める。",
-        "pinyin": "jiē shòu",
-        "pinyin_num": "jie1 shou4"
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "调整",
+        "word": "接受",
         "pos": "verb",
-        "phonetic": "tiao2 zheng3",
-        "translation": "調整する、立て直す",
-        "note": "変化に合わせて修正する。",
-        "pinyin": "tiáo zhěng",
-        "pinyin_num": "tiao2 zheng3"
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "心态",
-        "pos": "noun",
-        "phonetic": "xin1 tai4",
-        "translation": "心構え、姿勢",
-        "note": "物事に対する心理的な態度。",
-        "pinyin": "xīn tài",
-        "pinyin_num": "xin1 tai4"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "主动",
-        "pos": "adj/adv",
-        "phonetic": "zhu3 dong4",
-        "translation": "自発的な、進んで",
-        "note": "自ら進んで行動する様子。",
-        "pinyin": "zhǔ dòng",
-        "pinyin_num": "zhu3 dong4"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "规律",
-        "pos": "noun/adj",
-        "phonetic": "gui1 lv4",
-        "translation": "規則、規則的な",
-        "note": "生活のリズムや規則性。",
-        "pinyin": "guī lǜ",
-        "pinyin_num": "gui1 lü4"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "反而",
-        "pos": "adv",
-        "phonetic": "fan3 er2",
-        "translation": "かえって、逆に",
-        "note": "予想に反して、反対の結果になる。",
-        "pinyin": "fǎn ér",
-        "pinyin_num": "fan3 er2"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       },
       {
-        "word": "逐渐",
-        "pos": "adv",
-        "phonetic": "zhu2 jian4",
-        "translation": "だんだん、次第に",
-        "note": "徐々に変化する様子。",
-        "pinyin": "zhú jiàn",
-        "pinyin_num": "zhu2 jian4"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
+      },
+      {
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
+      },
+      {
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
+      },
+      {
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
+      },
+      {
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる、受け取る",
+        "note": "「受け入れる」の意味で使われることが多い"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "最近、仕事が忙しくて、自分の気持ちをうまく表現できないんです。",
-        "translation": "最近仕事が忙しくて、自分の気持ちをうまく表現できないんです。",
+        "text": "面对这种情况，你是怎么接受的？",
+        "translation": "こういう状況に直面したら、どうやって受け入れるの？",
         "highlights": [
-          "表现"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "それは大変ですね。まずは自分の感情を認めて、受け入れることが大切ですよ。",
-        "translation": "それは大変ですね。まずは自分の感情を認めて、受け入れることが大切ですよ。",
-        "highlights": [
-          "感情",
+          "面对",
           "接受"
         ]
       },
       {
-        "speaker": "A",
-        "text": "でも、そうすると余計に落ち込んでしまいそうで、逆に不安になります。",
-        "translation": "でも、そうすると余計に落ち込んでしまいそうで、かえって不安になります。",
+        "speaker": "B",
+        "text": "我一开始也很难接受，但慢慢地就习惯了。",
+        "translation": "最初は受け入れられなかったけど、徐々に慣れてきたんだ。",
         "highlights": [
-          "反而"
+          "习惯了"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "要是身边的人也这样想，会更容易接受一些。",
+        "translation": "周りの人が同じように思ってくれると、もっと受け入れやすくなるよね。",
+        "highlights": [
+          "身边",
+          "接受"
         ]
       },
       {
         "speaker": "B",
-        "text": "分かります。でも、心のバランスを整えるには、自分から積極的にリラックスする時間を作る必要があります。",
-        "translation": "分かります。でも、心のバランスを整えるには、自分から積極的にリラックスする時間を作る必要があります。",
+        "text": "对，尤其是在大家都支持你的时候。",
+        "translation": "うん、特にみんなが支えてくれてる時はね。",
         "highlights": [
-          "平衡",
-          "调整",
-          "主动",
-          "放松"
+          "支持"
         ]
       },
       {
         "speaker": "A",
-        "text": "リラックスと言っても、何をすればいいのか分からなくて。",
-        "translation": "リラックスと言っても、何をすればいいのか分からなくて。",
+        "text": "不过，有时候别人的话也会让人更加烦恼。",
+        "translation": "でも、時には人の言葉が余計に悩みを増やすこともある。",
+        "highlights": [
+          "烦恼"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "确实，不如去寻找一些有用的建议。",
+        "translation": "確かに、有用なアドバイスを探した方がいい。",
+        "highlights": [
+          "有用",
+          "建议"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "现在有很多关于心理健康的书籍和课程。",
+        "translation": "今は心の健康に関する本や講座がたくさんあるね。",
+        "highlights": [
+          "心理",
+          "健康"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "你可以试试看，也许会有帮助。",
+        "translation": "実際に試してみるといいかも。もしかしたら助けになるかも。",
         "highlights": []
-      },
-      {
-        "speaker": "B",
-        "text": "例えば、毎日少しずつでいいので、規則正しい生活を心がけて、気分を徐々に整えていきましょう。",
-        "translation": "例えば、毎日少しずつでいいので、規則正しい生活を心がけて、気分を徐々に整えていきましょう。",
-        "highlights": [
-          "规律",
-          "逐渐"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "そうですね。生活リズムを整えることで、自然と心の持ちようも良くなるかもしれません。",
-        "translation": "そうですね。生活リズムを整えることで、自然と心の持ちようも良くなるかもしれません。",
-        "highlights": [
-          "心态"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "そうです。感情をため込まず、時には人に話して、上手に気持ちを調整しましょう。",
-        "translation": "そうです。感情をため込まず、時には人に話して、上手に気持ちを調整しましょう。",
-        "highlights": [
-          "调节"
-        ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "自分の感情を受け入れる",
-        "translation": "自分の感情を受け入れる"
+        "phrase": "面对这种情况，你是怎么接受的？",
+        "translation": "こういう状況に直面したら、どうやって受け入れるの？"
       },
       {
-        "phrase": "心のバランスを整える",
-        "translation": "心のバランスを整える"
+        "phrase": "尤其是在大家都支持你的时候",
+        "translation": "特にみんなが支えてくれてる時はね"
       },
       {
-        "phrase": "規則正しい生活",
-        "translation": "規則正しい生活"
+        "phrase": "去寻找一些有用的建议",
+        "translation": "有用なアドバイスを探した方がいい"
+      },
+      {
+        "phrase": "现在有很多关于心理健康的书籍和课程",
+        "translation": "今は心の健康に関する本や講座がたくさんあるね"
       }
     ]
   },
@@ -1029,197 +872,160 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "环境",
+        "word": "看来",
+        "pos": "adv",
+        "phonetic": "kàn lái",
+        "translation": "どうやら、見たところ",
+        "note": "推測を表す副詞"
+      },
+      {
+        "word": "决定",
+        "pos": "verb",
+        "phonetic": "jué dìng",
+        "translation": "決める、決定する"
+      },
+      {
+        "word": "条件",
         "pos": "noun",
-        "phonetic": "huan2jing4",
-        "translation": "環境",
-        "note": "文脈に応じて「自然環境」や「生活環境」を指す。",
-        "pinyin": "huán jìng",
-        "pinyin_num": "huan2 jing4"
+        "phonetic": "tiáo jiàn",
+        "translation": "条件、状況"
       },
       {
-        "word": "方便",
-        "pos": "adj",
-        "phonetic": "fang1bian4",
-        "translation": "便利だ",
-        "note": "「～は便利だ」の形でよく使う。",
-        "pinyin": "fāng biàn",
-        "pinyin_num": "fang1 bian4"
+        "word": "附近",
+        "pos": "noun",
+        "phonetic": "fù jìn",
+        "translation": "近く、近所"
       },
       {
-        "word": "安静",
-        "pos": "adj",
-        "phonetic": "an1jing4",
-        "translation": "静かだ",
-        "note": "",
-        "pinyin": "ān jìng",
-        "pinyin_num": "an1 jing4"
+        "word": "活动",
+        "pos": "noun",
+        "phonetic": "huó dòng",
+        "translation": "活動、イベント"
       },
       {
         "word": "空气",
         "pos": "noun",
-        "phonetic": "kong1qi4",
-        "translation": "空気",
-        "note": "",
-        "pinyin": "kōng qì",
-        "pinyin_num": "kong1 qi4"
-      },
-      {
-        "word": "生活",
-        "pos": "verb/noun",
-        "phonetic": "sheng1huo2",
-        "translation": "生活する／生活",
-        "note": "名詞としても動詞としても使う。",
-        "pinyin": "shēng huó",
-        "pinyin_num": "sheng1 huo2"
-      },
-      {
-        "word": "方便",
-        "pos": "adj",
-        "phonetic": "fang1bian4",
-        "translation": "便利だ",
-        "note": "重複を避けるため、別の文脈で使用。",
-        "pinyin": "fāng biàn",
-        "pinyin_num": "fang1 bian4"
-      },
-      {
-        "word": "交通",
-        "pos": "noun",
-        "phonetic": "jiao1tong1",
-        "translation": "交通",
-        "note": "",
-        "pinyin": "jiāo tōng",
-        "pinyin_num": "jiao1 tong1"
-      },
-      {
-        "word": "距离",
-        "pos": "noun",
-        "phonetic": "ju4li2",
-        "translation": "距離",
-        "note": "",
-        "pinyin": "jù lí",
-        "pinyin_num": "ju4 li2"
-      },
-      {
-        "word": "自然",
-        "pos": "noun",
-        "phonetic": "zi4ran2",
-        "translation": "自然",
-        "note": "",
-        "pinyin": "zì rán",
-        "pinyin_num": "zi4 ran2"
-      },
-      {
-        "word": "热闹",
-        "pos": "adj",
-        "phonetic": "re4nao4",
-        "translation": "にぎやかだ",
-        "note": "",
-        "pinyin": "rè nào",
-        "pinyin_num": "re4 nao4"
+        "phonetic": "kōng qì",
+        "translation": "空気"
       },
       {
         "word": "安静",
         "pos": "adj",
-        "phonetic": "an1jing4",
-        "translation": "静かだ",
-        "note": "重複を避けるため、別の文脈で使用。",
-        "pinyin": "ān jìng",
-        "pinyin_num": "an1 jing4"
+        "phonetic": "ān jìng",
+        "translation": "静かである"
       },
       {
-        "word": "设施",
+        "word": "不但",
+        "pos": "conj",
+        "phonetic": "bù dàn",
+        "translation": "～だけでなく"
+      },
+      {
+        "word": "而且",
+        "pos": "conj",
+        "phonetic": "ér qiě",
+        "translation": "しかも、そのうえ"
+      },
+      {
+        "word": "最后",
         "pos": "noun",
-        "phonetic": "she4shi1",
-        "translation": "施設",
-        "note": "",
-        "pinyin": "shè shī",
-        "pinyin_num": "she4 shi1"
+        "phonetic": "zuì hòu",
+        "translation": "最後、最終的に"
+      },
+      {
+        "word": "受到",
+        "pos": "verb",
+        "phonetic": "shòu dào",
+        "translation": "受ける、もたらされる（既に含まれているため除外したが、重要語のため再掲）"
+      },
+      {
+        "word": "节省",
+        "pos": "verb",
+        "phonetic": "jié shěng",
+        "translation": "節約する、省く"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你住在城市还是农村？我觉得城市的生活很方便，但环境不太好。",
-        "translation": "あなたは都市に住んでいますか、それとも農村ですか？都市の生活は便利だと思うけど、環境はあまり良くないね。",
+        "text": "你决定住在城市还是农村？",
+        "translation": "あなたは都市に住むことに決めましたか、それとも田舎ですか？",
         "highlights": [
-          "生活",
-          "方便",
-          "环境"
+          "决定"
         ]
       },
       {
         "speaker": "B",
-        "text": "我住在农村。这里空气很新鲜，晚上也特别安静，但是交通不太方便。",
-        "translation": "私は農村に住んでいます。ここは空気が新鮮で、夜はとても静かですが、交通はあまり便利ではありません。",
+        "text": "看起来城市生活更方便，但我觉得农村的空气和安静更好。",
+        "translation": "街の生活は便利そうだけど、農村の空気と静けさの方が好きかな。",
         "highlights": [
+          "看来",
           "空气",
-          "安静",
-          "交通"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "确实，农村离城市很远，距离是个大问题。买东西、看病都不方便。",
-        "translation": "確かに、農村は都市から遠く、距離が大きな問題です。買い物や病院も不便です。",
-        "highlights": [
-          "距离"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "可是农村的自然环境好，每天都能接触大自然，心情很放松。",
-        "translation": "でも農村は自然環境が良くて、毎日自然に触れられて、気分がリラックスします。",
-        "highlights": [
-          "自然"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "城市里有很多娱乐场所，晚上也很热闹，生活很丰富。",
-        "translation": "都市には娯楽施設がたくさんあり、夜もにぎやかで、生活は豊かです。",
-        "highlights": [
-          "热闹"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "但是城市太吵了，我更喜欢安静的农村。而且农村的邻里关系很亲密。",
-        "translation": "でも都市はうるさすぎます。私は静かな農村のほうが好きです。それに農村の近所付き合いは親密です。",
-        "highlights": [
           "安静"
         ]
       },
       {
         "speaker": "A",
-        "text": "各有好处吧。如果农村的设施再完善一些，我也考虑去住。",
-        "translation": "それぞれに良さがありますね。もし農村の施設がもっと整えば、私も住むことを考えます。",
+        "text": "农村附近有很多活动吗？",
+        "translation": "田舎の近くにはたくさんのアクティビティがありますか？",
         "highlights": [
-          "设施"
+          "附近",
+          "活动"
         ]
       },
       {
         "speaker": "B",
-        "text": "是啊，希望以后农村的交通和设施都能改善，那样就完美了。",
-        "translation": "そうですね。今後農村の交通や施設が改善されるといいですね。そうすれば完璧です。",
+        "text": "不但有农贸市场，而且有时候还有音乐会。",
+        "translation": "農産市場があるだけでなく、時にはコンサートもあるよ。",
         "highlights": [
-          "交通",
-          "设施"
+          "不但",
+          "而且"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "条件好的农村生活方式也越来越受欢迎。",
+        "translation": "条件のいい農村ライフスタイルもますます人気が出てきています。",
+        "highlights": [
+          "条件",
+          "受到"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "是啊，不过生活费用也不低。",
+        "translation": "そうね、でも生活費も安くはないわ。",
+        "highlights": []
+      },
+      {
+        "speaker": "A",
+        "text": "最后你决定去哪里？",
+        "translation": "最終的にどこに決めたの？",
+        "highlights": [
+          "最后"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "我打算节省一点钱，先在城市住几年，然后再考虑农村。",
+        "translation": "少し節約して、まずは数年都市で住んでから、農村も検討しようと思っています。",
+        "highlights": [
+          "节省"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "城市的生活很方便",
-        "translation": "都市の生活は便利だ"
+        "phrase": "农村的空气和安静更好",
+        "translation": "田舎の空気と静けさの方がいい"
       },
       {
-        "phrase": "空气很新鲜",
-        "translation": "空気が新鮮だ"
+        "phrase": "条件好的农村生活方式",
+        "translation": "条件のいい農村ライフスタイル"
       },
       {
-        "phrase": "距离是个大问题",
-        "translation": "距離が大きな問題だ"
+        "phrase": "节省一点钱",
+        "translation": "少し節約する"
       }
     ]
   },
@@ -1232,190 +1038,178 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "条件",
+        "word": "报酬",
         "pos": "noun",
-        "phonetic": "tjao˥˩ tɕjɛn˥˩",
-        "translation": "条件",
-        "note": "契約や雇用の条件を指す",
-        "pinyin": "tiáo jiàn",
-        "pinyin_num": "tiao2 jian4"
+        "phonetic": "bào chou",
+        "translation": "報酬、給料",
+        "note": "一般的に仕事に対する報酬を指す"
       },
       {
-        "word": "待遇",
-        "pos": "noun",
-        "phonetic": "tai˥˩ y˥˩",
-        "translation": "待遇",
-        "note": "給与・福利厚生を含む待遇全般",
-        "pinyin": "dài yù",
-        "pinyin_num": "dai4 yu4"
-      },
-      {
-        "word": "增加",
+        "word": "提出",
         "pos": "verb",
-        "phonetic": "tsəŋ˥ tɕja˥",
-        "translation": "増やす",
-        "note": "数量や程度を増す",
-        "pinyin": "zēng jiā",
-        "pinyin_num": "zeng1 jia1"
+        "phonetic": "tí chū",
+        "translation": "提出する",
+        "note": "書類や意見などを差し出すこと"
       },
       {
-        "word": "降低",
+        "word": "补充",
         "pos": "verb",
-        "phonetic": "tɕjaŋ˥˩ ti˥˩",
-        "translation": "下げる",
-        "note": "基準を下げる、減らす",
-        "pinyin": "jiàng dī",
-        "pinyin_num": "jiang4 di1"
+        "phonetic": "bǔ chōng",
+        "translation": "補足する、追加する",
+        "note": "情報やデータを追加で提供すること"
       },
       {
-        "word": "要求",
-        "pos": "verb/noun",
-        "phonetic": "jau˥ tɕʰjəu˥˩",
-        "translation": "要求する／要求",
-        "note": "強く求めること",
-        "pinyin": "yāo qiú",
-        "pinyin_num": "yao1 qiu2"
-      },
-      {
-        "word": "对方",
+        "word": "目前",
         "pos": "noun",
-        "phonetic": "tuei˥˩ faŋ˥",
-        "translation": "相手",
-        "note": "交渉の相手",
-        "pinyin": "duì fāng",
-        "pinyin_num": "dui4 fang1"
-      },
-      {
-        "word": "根据",
-        "pos": "prep",
-        "phonetic": "kən˥ tɕy˥˩",
-        "translation": "～に基づいて",
-        "note": "根拠を示す",
-        "pinyin": "gēn jù",
-        "pinyin_num": "gen1 ju4"
-      },
-      {
-        "word": "市场",
-        "pos": "noun",
-        "phonetic": "ʂɻ˥˩ tʂʰaŋ˨˩˦",
-        "translation": "市場",
-        "note": "労働市場などを指す",
-        "pinyin": "shì chǎng",
-        "pinyin_num": "shi4 chang3"
-      },
-      {
-        "word": "标准",
-        "pos": "noun/adj",
-        "phonetic": "pjaʊ˥ tʂən˥˩",
-        "translation": "基準",
-        "note": "判断の基準",
-        "pinyin": "biāo zhǔn",
-        "pinyin_num": "biao1 zhun3"
+        "phonetic": "mù qián",
+        "translation": "目下、現在",
+        "note": "現在の時点でという意味"
       },
       {
         "word": "合理",
         "pos": "adj",
-        "phonetic": "xɤ˧˥ li˨˩˦",
-        "translation": "合理的",
-        "note": "道理にかなっている",
-        "pinyin": "hé lǐ",
-        "pinyin_num": "he2 li3"
+        "phonetic": "hé lǐ",
+        "translation": "合理的な",
+        "note": "道理にかなった、適切な状態"
       },
       {
-        "word": "达成",
-        "pos": "verb",
-        "phonetic": "ta˧˥ tʂʰəŋ˧˥",
-        "translation": "達成する",
-        "note": "合意に達する",
-        "pinyin": "dá chéng",
-        "pinyin_num": "da2 cheng2"
+        "word": "依据",
+        "pos": "prep",
+        "phonetic": "yī jù",
+        "translation": "...に基づいて",
+        "note": "根拠となるものを示す表現"
       },
       {
-        "word": "协议",
+        "word": "立即",
+        "pos": "adv",
+        "phonetic": "lì jí",
+        "translation": "すぐに、直ちに",
+        "note": "時間をおかずにすぐ行動すること"
+      },
+      {
+        "word": "范围",
         "pos": "noun",
-        "phonetic": "ɕjɛ˧˥ i˥˩",
-        "translation": "合意・協定",
-        "note": "正式な合意",
-        "pinyin": "xié yì",
-        "pinyin_num": "xie2 yi4"
+        "phonetic": "fàn wéi",
+        "translation": "範囲",
+        "note": "ある物事が及ぶ広さや限界"
+      },
+      {
+        "word": "职位",
+        "pos": "noun",
+        "phonetic": "zhí wèi",
+        "translation": "職位、ポジション",
+        "note": "会社内での役職や地位"
+      },
+      {
+        "word": "考虑",
+        "pos": "verb",
+        "phonetic": "kǎo lǜ",
+        "translation": "検討する、考慮する",
+        "note": "物事をじっくりと考えること"
+      },
+      {
+        "word": "大约",
+        "pos": "adv",
+        "phonetic": "dà yuē",
+        "translation": "およそ、約",
+        "note": "数量や時間などのおよその見積もり"
+      },
+      {
+        "word": "情况",
+        "pos": "noun",
+        "phonetic": "qíng kuàng",
+        "translation": "状況、状態",
+        "note": "物事の現状や様子"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "关于这个职位，我们给出的待遇可能和您的预期有差距。",
-        "translation": "このポジションについて、当社が提示する待遇はご期待と差があるかもしれません。",
+        "text": "关于报酬的问题，我能提出一点补充意见吗？",
+        "translation": "報酬に関することですが、一点補足させていただけますか？",
         "highlights": [
-          "待遇"
+          "报酬",
+          "提出",
+          "补充"
         ]
       },
       {
         "speaker": "B",
-        "text": "我理解，但根据市场标准，我的要求并不过分。",
-        "translation": "理解しますが、市場の基準に基づけば、私の要求は過剰ではありません。",
+        "text": "当然可以，请说。目前我们公司的报酬范围是每月三万到五万。",
+        "translation": "もちろんです。どうぞ。当社の報酬の範囲は月額3万円から5万円です。",
         "highlights": [
-          "根据",
-          "市场",
-          "标准",
-          "要求"
+          "目前",
+          "报酬",
+          "范围"
         ]
       },
       {
         "speaker": "A",
-        "text": "如果您能降低一些要求，我们可以考虑增加一些其他福利。",
-        "translation": "もし要求を少し下げていただけるなら、他の福利を増やすことを検討できます。",
+        "text": "依据我的经验，这个职位在市场上大约值四万五千。",
+        "translation": "私の経験では、この職位は市場でおよそ45,000円の価値があります。",
         "highlights": [
-          "降低",
-          "要求",
-          "增加"
+          "依据",
+          "职位",
+          "大约"
         ]
       },
       {
         "speaker": "B",
-        "text": "我可以考虑，但前提是对方必须在合同里写明具体条件。",
-        "translation": "検討できますが、前提として相手側が契約書に具体的な条件を明記することが必要です。",
+        "text": "您的情况我会考虑。不过合理的涨幅在目前的基础上大约是百分之十左右。",
+        "translation": "あなたの状況は検討します。とはいえ、適切な増額は現在の基準でおよそ10%前後です。",
         "highlights": [
-          "对方",
-          "条件"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "当然，我们希望在合理范围内达成一个双方都满意的协议。",
-        "translation": "もちろん、合理的な範囲で双方が満足する合意に達したいと考えています。",
-        "highlights": [
+          "情况",
+          "考虑",
           "合理",
-          "达成",
-          "协议"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "那好，如果待遇能增加百分之十，我就同意这个条件。",
-        "translation": "では、待遇を10%増やしていただけるなら、この条件に同意します。",
-        "highlights": [
-          "待遇",
-          "增加",
-          "条件"
+          "大约"
         ]
       },
       {
         "speaker": "A",
-        "text": "根据我们的预算，这个数字有点高，但我们可以再协商。",
-        "translation": "当社の予算に基づくと、その数字は少し高いですが、再協議は可能です。",
+        "text": "能不能先涨到四万三？我立即就可以开始工作。",
+        "translation": "とりあえず43,000円まで上げてもらえませんか？すぐにでも仕事を始められます。",
         "highlights": [
-          "根据"
+          "涨到",
+          "立即"
         ]
+      },
+      {
+        "speaker": "B",
+        "text": "四万三确实在我们的范围内。但要看您的具体表现，三个月后再调整。",
+        "translation": "43,000円なら確かに当社の範囲内です。ただ、具体的な成果次第で、3か月後に再調整します。",
+        "highlights": [
+          "确实",
+          "范围",
+          "情况"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "好的，那这份合同我可以签字了吗？",
+        "translation": "わかりました。では、この契約書にサインしてもよろしいですか？",
+        "highlights": [
+          "合同"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "可以。请您仔细阅读后再签字。",
+        "translation": "はい。ご確認の上、署名をお願いします。",
+        "highlights": []
       }
     ],
     "key_phrases": [
       {
-        "phrase": "达成协议",
-        "translation": "合意に達する"
+        "phrase": "关于报酬的问题，我能提出一点补充意见吗？",
+        "translation": "報酬に関することですが、一点補足させていただけますか？"
       },
       {
-        "phrase": "根据市场标准",
-        "translation": "市場の基準に基づいて"
+        "phrase": "依据我的经验，这个职位在市场上大约值四万五千。",
+        "translation": "私の経験では、この職位は市場でおよそ45,000円の価値があります。"
+      },
+      {
+        "phrase": "合理的涨幅在目前的基础上大约是百分之十左右。",
+        "translation": "適切な増額は現在の基準でおよそ10%前後です。"
       }
     ]
   },
@@ -1430,206 +1224,185 @@
       {
         "word": "政策",
         "pos": "noun",
-        "phonetic": "tʂəŋ˥˩ tʰɤ˥˩",
+        "phonetic": "zhèngcè",
         "translation": "政策",
-        "note": "政策（せいさく）",
-        "pinyin": "zhèng cè",
-        "pinyin_num": "zheng4 ce4"
+        "note": "主に政府や団体によるルールや施策を指す"
       },
       {
-        "word": "减少",
-        "pos": "verb",
-        "phonetic": "tɕjɛn˨˩˦ ʂau˨˩˦",
-        "translation": "減らす",
-        "note": "減少（げんしょう）させる",
-        "pinyin": "jiǎn shǎo",
-        "pinyin_num": "jian3 shao3"
-      },
-      {
-        "word": "排放",
-        "pos": "verb",
-        "phonetic": "pʰai˥˩ faŋ˥˩",
-        "translation": "排出する",
-        "note": "排気ガスなどの排出",
-        "pinyin": "pái fàng",
-        "pinyin_num": "pai2 fang4"
-      },
-      {
-        "word": "措施",
+        "word": "环境",
         "pos": "noun",
-        "phonetic": "tsʰwo˥˩ ʂɻ̩˥˩",
-        "translation": "措置、対策",
-        "note": "具体的な対策",
-        "pinyin": "cuò shī",
-        "pinyin_num": "cuo4 shi1"
+        "phonetic": "huánjìng",
+        "translation": "環境",
+        "note": "自然や社会の周囲の状況を指す"
       },
       {
-        "word": "效果",
+        "word": "问题",
         "pos": "noun",
-        "phonetic": "ɕjɑu˥˩ kwɔ˨˩˦",
-        "translation": "効果",
-        "note": "",
-        "pinyin": "xiào guǒ",
-        "pinyin_num": "xiao4 guo3"
+        "phonetic": "wèntí",
+        "translation": "問題",
+        "note": "解決すべき課題や困難な点"
       },
       {
-        "word": "立即",
-        "pos": "adverb",
-        "phonetic": "li˥˩ tɕi˧˥",
-        "translation": "直ちに",
-        "note": "緊急性を強調",
-        "pinyin": "lì jí",
-        "pinyin_num": "li4 ji2"
+        "word": "同意",
+        "pos": "verb",
+        "phonetic": "tóngyì",
+        "translation": "同意する",
+        "note": "他人の意見に賛成する"
       },
       {
-        "word": "然而",
+        "word": "认为",
+        "pos": "verb",
+        "phonetic": "rènwéi",
+        "translation": "～だと考える",
+        "note": "自分なりの意見や判断を述べる際に用いる"
+      },
+      {
+        "word": "可能",
+        "pos": "adj/adv",
+        "phonetic": "kěnéng",
+        "translation": "可能（な）",
+        "note": "可能性や実現のしやすさを表す"
+      },
+      {
+        "word": "应该",
+        "pos": "modal verb",
+        "phonetic": "yīnggāi",
+        "translation": "～すべきだ",
+        "note": "当然の義務や倫理的な必要性を表す"
+      },
+      {
+        "word": "意识",
+        "pos": "noun",
+        "phonetic": "yìshí",
+        "translation": "意識",
+        "note": "認識や自覚の状態を指す"
+      },
+      {
+        "word": "确实",
+        "pos": "adv",
+        "phonetic": "quèshí",
+        "translation": "確かに",
+        "note": "事実や真実を強調する際に用いる"
+      },
+      {
+        "word": "否则",
         "pos": "conj",
-        "phonetic": "ʐan˧˥ ɤ˧˥",
-        "translation": "しかしながら",
-        "note": "文語的、フォーマルな逆接",
-        "pinyin": "rán ér",
-        "pinyin_num": "ran2 er2"
+        "phonetic": "fǒuzé",
+        "translation": "さもなければ",
+        "note": "前文の条件が満たされない場合の結果を示す"
       },
       {
-        "word": "成本",
-        "pos": "noun",
-        "phonetic": "tʂʰəŋ˧˥ pən˨˩˦",
-        "translation": "コスト",
-        "note": "経済的コスト",
-        "pinyin": "chéng běn",
-        "pinyin_num": "cheng2 ben3"
-      },
-      {
-        "word": "利益",
-        "pos": "noun",
-        "phonetic": "li˥˩ i˥˩",
-        "translation": "利益",
-        "note": "業界の利益",
-        "pinyin": "lì yì",
-        "pinyin_num": "li4 yi4"
-      },
-      {
-        "word": "长期",
-        "pos": "adj",
-        "phonetic": "tʂʰaŋ˧˥ tɕʰi˧˥",
-        "translation": "長期的な",
-        "note": "長期（ちょうき）",
-        "pinyin": "cháng qī",
-        "pinyin_num": "chang2 qi1"
+        "word": "解决",
+        "pos": "verb",
+        "phonetic": "jiějué",
+        "translation": "解決する",
+        "note": "問題をうまく処理する"
       },
       {
         "word": "反对",
         "pos": "verb",
-        "phonetic": "fan˨˩˦ tui˥˩",
+        "phonetic": "fǎnduì",
         "translation": "反対する",
-        "note": "",
-        "pinyin": "fǎn duì",
-        "pinyin_num": "fan3 dui4"
-      },
-      {
-        "word": "尽管",
-        "pos": "conj",
-        "phonetic": "tɕin˨˩˦ kwan˥˩",
-        "translation": "〜にもかかわらず",
-        "note": "譲歩を表す",
-        "pinyin": "jǐn guǎn",
-        "pinyin_num": "jin3 guan3"
+        "note": "他人の意見や提案に反する"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "我们讨论一下新的环境政策吧。我觉得应该立即减少排放，这样才能保护环境。",
-        "translation": "新しい環境政策について話し合おう。私はすぐに排出を減らすべきだと思う。そうすれば環境を守れる。",
+        "text": "你觉得这个环境政策怎么样？",
+        "translation": "この環境政策はどう思う？",
         "highlights": [
-          "政策",
-          "立即",
-          "减少",
-          "排放"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "我同意减少排放很重要，然而，如果措施太急，成本会很高，很多企业会反对。",
-        "translation": "排出削減が重要だとは同意するが、しかしあまりに急な対策だとコストが高くなり、多くの企業が反対するだろう。",
-        "highlights": [
-          "减少",
-          "然而",
-          "措施",
-          "成本",
-          "反对"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "但是长期来看，不行动的效果会更糟。我们不能只考虑短期利益。",
-        "translation": "しかし長期的に見れば、行動しない方が効果はもっと悪い。短期的な利益だけを考えるべきではない。",
-        "highlights": [
-          "长期",
-          "效果",
-          "利益"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "尽管你说得有道理，可是很多中小企业没有能力承担这些成本。",
-        "translation": "君の言うことはもっともだが、多くの中小企業にはこれらのコストを負担する能力がない。",
-        "highlights": [
-          "尽管",
-          "成本"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我们可以提供补助，帮助它们过渡。这样既能减少排放，又能保护经济。",
-        "translation": "補助金を提供して、移行を助けることができる。そうすれば排出を減らしつつ、経済も守れる。",
-        "highlights": [
-          "减少",
-          "排放"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "补助金需要大量资金，效果可能有限。而且政策执行起来很复杂。",
-        "translation": "補助金には多額の資金が必要で、効果は限られるかもしれない。しかも政策の実行は複雑だ。",
-        "highlights": [
-          "效果",
+          "环境",
           "政策"
         ]
       },
       {
-        "speaker": "A",
-        "text": "但是如果我们不立即行动，未来的成本会更大。我们必须把长期利益放在首位。",
-        "translation": "しかし今すぐ行動しなければ、将来のコストはもっと大きくなる。長期的な利益を最優先すべきだ。",
+        "speaker": "B",
+        "text": "我认为这个政策可能有点严格，同意吗？",
+        "translation": "この政策はちょっと厳しすぎるかもしれないと考えるんだけど、同意する？",
         "highlights": [
-          "立即",
-          "成本",
-          "长期",
-          "利益"
+          "认为",
+          "可能"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "确实有道理，但是环境问题已经很严重了，应该要采取一些强硬措施。",
+        "translation": "確かにもつともだね、でも環境問題は深刻だから、厳しい措置を取るべきだよ。",
+        "highlights": [
+          "确实",
+          "环境",
+          "问题",
+          "应该"
         ]
       },
       {
         "speaker": "B",
-        "text": "好吧，尽管我仍然有些担心，但我们可以试着平衡一下。反对完全放弃，不过需要更多时间。",
-        "translation": "わかった、まだ少し心配だが、バランスを取ってみよう。完全に放棄することには反対だが、もう少し時間が必要だ。",
+        "text": "我同意环境意识很重要，否则情况会更糟。",
+        "translation": "環境意識が重要なのは同意するけど、さもなければ状況はもっと悪くなる。",
         "highlights": [
-          "尽管",
+          "同意",
+          "环境",
+          "意识",
+          "否则"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "那解决问题的方法有什么建议吗？",
+        "translation": "じゃあ、問題を解決する方法には何か提案がある？",
+        "highlights": [
+          "解决",
+          "问题"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "可以从教育着手，提高所有人的环境意识。",
+        "translation": "教育から始めて、みんなの環境意識を高めることができる。",
+        "highlights": [
+          "环境",
+          "意识"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "这个想法不错，但我也反对只靠教育，工厂也要配合。",
+        "translation": "いい考えだね、でも教育だけに頼るのは反対で、工場も協力しないと。",
+        "highlights": [
           "反对"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "你说得对，政府和企业必须一起努力解决问题。",
+        "translation": "その通り。政府と企業が一緒に努力して問題を解決しないと。",
+        "highlights": [
+          "解决",
+          "问题"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "减少排放",
-        "translation": "排出を減らす"
+        "phrase": "你觉得这个环境政策怎么样？",
+        "translation": "この環境政策はどう思う？"
       },
       {
-        "phrase": "考虑到成本",
-        "translation": "コストを考慮する"
+        "phrase": "我认为这个政策可能有点严格，同意吗？",
+        "translation": "この政策はちょっと厳しすぎるかもしれないと考えるんだけど、同意する？"
       },
       {
-        "phrase": "尽管……可是……",
-        "translation": "〜にもかかわらず、〜だが"
+        "phrase": "环境问题已经很严重了，应该要采取一些强硬措施。",
+        "translation": "環境問題は深刻だから、厳しい措置を取るべきだよ。"
+      },
+      {
+        "phrase": "可以从教育着手，提高所有人的环境意识。",
+        "translation": "教育から始めて、みんなの環境意識を高めることができる。"
+      },
+      {
+        "phrase": "这个想法不错，但我也反对只靠教育。",
+        "translation": "いい考えだね、でも教育だけに頼るのは反対だよ。"
       }
     ]
   },
@@ -1642,194 +1415,169 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "身份",
-        "pos": "noun",
-        "phonetic": "shēnfèn",
-        "translation": "身分、アイデンティティ",
-        "pinyin": "shēn fèn",
-        "pinyin_num": "shen1 fen4"
-      },
-      {
         "word": "移民",
         "pos": "noun",
         "phonetic": "yímín",
         "translation": "移民",
-        "pinyin": "yí mín",
-        "pinyin_num": "yi2 min2"
+        "note": "人や家族が他国へ移住すること、またはその人"
       },
       {
-        "word": "融入",
+        "word": "身份",
+        "pos": "noun",
+        "phonetic": "shēnfèn",
+        "translation": "アイデンティティ、身分",
+        "note": "個人や社会における自分の位置づけ"
+      },
+      {
+        "word": "改变",
         "pos": "verb",
-        "phonetic": "róngrù",
-        "translation": "溶け込む、統合される",
-        "pinyin": "róng rù",
-        "pinyin_num": "rong2 ru4"
+        "phonetic": "gǎibiàn",
+        "translation": "変える、変わる"
+      },
+      {
+        "word": "社会",
+        "pos": "noun",
+        "phonetic": "shèhuì",
+        "translation": "社会"
       },
       {
         "word": "文化",
         "pos": "noun",
         "phonetic": "wénhuà",
-        "translation": "文化",
-        "pinyin": "wén huà",
-        "pinyin_num": "wen2 hua4"
+        "translation": "文化"
       },
       {
-        "word": "背景",
+        "word": "法律",
         "pos": "noun",
-        "phonetic": "bèijǐng",
-        "translation": "背景、経歴",
-        "pinyin": "bèi jǐng",
-        "pinyin_num": "bei4 jing3"
+        "phonetic": "fǎlǜ",
+        "translation": "法律"
       },
       {
-        "word": "认同",
+        "word": "问题",
+        "pos": "noun",
+        "phonetic": "wèntí",
+        "translation": "問題（すでにリストされているため除外）"
+      },
+      {
+        "word": "移动",
         "pos": "verb",
-        "phonetic": "rèntóng",
-        "translation": "認める、同一視する",
-        "pinyin": "rèn tóng",
-        "pinyin_num": "ren4 tong2"
+        "phonetic": "yídòng",
+        "translation": "移動する、動く"
       },
       {
-        "word": "冲突",
-        "pos": "noun/verb",
-        "phonetic": "chōngtū",
-        "translation": "衝突、対立",
-        "pinyin": "chōng tū",
-        "pinyin_num": "chong1 tu1"
+        "word": "影响",
+        "pos": "verb|noun",
+        "phonetic": "yǐngxiǎng",
+        "translation": "影響する、影響"
       },
       {
-        "word": "保留",
+        "word": "传统",
+        "pos": "noun",
+        "phonetic": "chuántǒng",
+        "translation": "伝統"
+      },
+      {
+        "word": "保持",
         "pos": "verb",
-        "phonetic": "bǎoliú",
-        "translation": "保持する、残す",
-        "pinyin": "bǎo liú",
-        "pinyin_num": "bao3 liu2"
+        "phonetic": "bǎochí",
+        "translation": "保持する、維持する"
       },
       {
-        "word": "对于",
-        "pos": "prep",
-        "phonetic": "duìyú",
-        "translation": "〜にとって、〜に関して",
-        "pinyin": "duì yú",
-        "pinyin_num": "dui4 yu2"
-      },
-      {
-        "word": "往往",
-        "pos": "adv",
-        "phonetic": "wǎngwǎng",
-        "translation": "しばしば、往々にして",
-        "pinyin": "wǎng wǎng",
-        "pinyin_num": "wang3 wang3"
-      },
-      {
-        "word": "逐渐",
-        "pos": "adv",
-        "phonetic": "zhújiàn",
-        "translation": "徐々に",
-        "pinyin": "zhú jiàn",
-        "pinyin_num": "zhu2 jian4"
-      },
-      {
-        "word": "然而",
-        "pos": "conj",
-        "phonetic": "rán'ér",
-        "translation": "しかし、だが",
-        "pinyin": "rán ér",
-        "pinyin_num": "ran2 er2"
+        "word": "必要",
+        "pos": "adj",
+        "phonetic": "bìyào",
+        "translation": "必要な、必要"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你覺得移民到一个新国家之后，身份认同会有什么变化？",
-        "translation": "新しい国に移民した後、アイデンティティはどう変わると思う？",
+        "text": "最近很多移民来到这个国家，他们的身份认同感会如何改变？",
+        "translation": "最近多くの移民がこの国に来ていますが、彼らのアイデンティティはどう変わるでしょうか？",
         "highlights": [
           "移民",
-          "身份"
+          "身份",
+          "改变"
         ]
       },
       {
         "speaker": "B",
-        "text": "我觉得刚开始往往很难融入当地文化，因为背景不一样。",
-        "translation": "最初は往々にして現地の文化に溶け込むのが難しいと思う。背景が違うからね。",
+        "text": "社会的な压力和文化的な差异会让他们感到困惑，但也可能让他们更清楚自己的身份。",
+        "translation": "社会的なプレッシャーや文化的な違いは混乱を引き起こしますが、自分のアイデンティティをより明確にするかもしれません。",
         "highlights": [
-          "往往",
-          "融入",
+          "社会",
           "文化",
-          "背景"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "那对于我来说，最重要的是保留自己的文化，同时逐渐接受新的文化。",
-        "translation": "私にとっては、自分の文化を保持しながら、徐々に新しい文化を受け入れることが一番大切だ。",
-        "highlights": [
-          "对于",
-          "保留",
-          "逐渐"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "可是有时候两种文化会冲突，让人不知道应该认同哪一个。",
-        "translation": "でも時々、二つの文化が衝突して、どちらを認めればいいのか分からなくなるよね。",
-        "highlights": [
-          "冲突",
-          "认同"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "确实，然而我觉得身份不是固定的，可以同时认同多种文化。",
-        "translation": "確かに、しかしアイデンティティは固定されていないと思う。複数の文化を同時に認めることもできる。",
-        "highlights": [
-          "然而"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "你说得对，但很多人还是希望保留原来的身份，不想完全融入。",
-        "translation": "その通りだけど、多くの人は元のアイデンティティを保持したいと思っていて、完全には溶け込みたくないんだ。",
-        "highlights": [
-          "保留",
-          "融入"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "我觉得关键在于找到一种平衡，既能融入新社会，又不失去自己的背景。",
-        "translation": "鍵はバランスを見つけることだと思う。新しい社会に溶け込みつつ、自分の背景を失わないようにね。",
-        "highlights": [
-          "融入",
-          "背景"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "嗯，移民的身份问题确实复杂，但慢慢来，总能找到适合自己的方式。",
-        "translation": "うん、移民のアイデンティティ問題は確かに複雑だけど、ゆっくりやれば、自分に合う方法が見つかるよ。",
-        "highlights": [
-          "移民",
           "身份"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "法律上，移民的权利和义务是什么？",
+        "translation": "法律的には、移民の権利と義務は何ですか？",
+        "highlights": [
+          "法律",
+          "移民"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "主要是遵守当地的法律，同时保持自己的传统文化。",
+        "translation": "主に現地の法律を守りながら、自分の伝統的な文化を維持することです。",
+        "highlights": [
+          "法律",
+          "传统",
+          "保持"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "他们移动到这里是为了更好的生活吗？",
+        "translation": "彼らはより良い生活を求めてここに移動したのですか？",
+        "highlights": [
+          "移动",
+          "这里"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "有些人是，但有些人可能只是为了寻找安全的环境。",
+        "translation": "そうした人もいますが、安全な環境を求めている人もいます。",
+        "highlights": [
+          "环境"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "他们的文化传统会不会受到影响？",
+        "translation": "彼らの文化的な伝統は影響を受けるでしょうか？",
+        "highlights": [
+          "文化",
+          "传统"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "多少会有一些影响，但保持他们的传统也是非常必要的。",
+        "translation": "多少なりとも影響はありますが、彼らの伝統を維持することも非常に必要です。",
+        "highlights": [
+          "传统",
+          "保持",
+          "必要"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "身份认同",
-        "translation": "アイデンティティの認識"
+        "phrase": "移民的身份认同感会如何改变？",
+        "translation": "移民のアイデンティティはどう変わるでしょうか？"
       },
       {
-        "phrase": "融入文化",
-        "translation": "文化に溶け込む"
+        "phrase": "遵守当地的法律，保持自己的传统文化",
+        "translation": "現地の法律を守り、自分の伝統的な文化を維持する"
       },
       {
-        "phrase": "文化冲突",
-        "translation": "文化の衝突"
-      },
-      {
-        "phrase": "保留传统",
-        "translation": "伝統を保持する"
+        "phrase": "他们的文化传统会受到影响",
+        "translation": "彼らの文化的な伝統は影響を受ける"
       }
     ]
   },
@@ -1842,193 +1590,163 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "主题",
-        "pos": "noun",
-        "phonetic": "zhǔtí",
-        "translation": "テーマ",
-        "note": "作品の中心的な思想や題材",
-        "pinyin": "zhǔ tí",
-        "pinyin_num": "zhu3 ti2"
-      },
-      {
-        "word": "象征",
-        "pos": "verb",
-        "phonetic": "xiàngzhēng",
-        "translation": "象徴する",
-        "note": "比喩的に何かを表す",
-        "pinyin": "xiàng zhēng",
-        "pinyin_num": "xiang4 zheng1"
-      },
-      {
-        "word": "深刻",
+        "word": "明显",
         "pos": "adj",
-        "phonetic": "shēnkè",
-        "translation": "深い、深遠な",
-        "note": "内容が深く考えさせられる",
-        "pinyin": "shēn kè",
-        "pinyin_num": "shen1 ke4"
+        "phonetic": "míngxiǎn",
+        "translation": "明らかな、顕著な"
       },
       {
-        "word": "表现",
+        "word": "经常",
+        "pos": "adv",
+        "phonetic": "jīngcháng",
+        "translation": "しばしば、よく"
+      },
+      {
+        "word": "清楚",
+        "pos": "adj",
+        "phonetic": "qīngchu",
+        "translation": "はっきりした、明確な"
+      },
+      {
+        "word": "表示",
         "pos": "verb",
-        "phonetic": "biǎoxiàn",
-        "translation": "表現する、示す",
-        "note": "感情や考えを外に現す",
-        "pinyin": "biǎo xiàn",
-        "pinyin_num": "biao3 xian4"
+        "phonetic": "biǎoshì",
+        "translation": "表す、示す"
       },
       {
-        "word": "角度",
+        "word": "立刻",
+        "pos": "adv",
+        "phonetic": "lìkè",
+        "translation": "すぐに、直ちに"
+      },
+      {
+        "word": "过程",
         "pos": "noun",
-        "phonetic": "jiǎodù",
-        "translation": "視点、角度",
-        "note": "物事を見る立場",
-        "pinyin": "jiǎo dù",
-        "pinyin_num": "jiao3 du4"
+        "phonetic": "guòchéng",
+        "translation": "過程"
       },
       {
-        "word": "分析",
+        "word": "其中",
+        "pos": "pron",
+        "phonetic": "qízhōng",
+        "translation": "その中で"
+      },
+      {
+        "word": "直接",
+        "pos": "adj/adv",
+        "phonetic": "zhíjiē",
+        "translation": "直接的な、直接"
+      },
+      {
+        "word": "完全",
+        "pos": "adv",
+        "phonetic": "wánquán",
+        "translation": "完全に"
+      },
+      {
+        "word": "形成",
         "pos": "verb",
-        "phonetic": "fēnxī",
-        "translation": "分析する",
-        "note": "細かく分けて考える",
-        "pinyin": "fēn xī",
-        "pinyin_num": "fen1 xi1"
+        "phonetic": "xíngchéng",
+        "translation": "形成する"
       },
       {
-        "word": "细节",
-        "pos": "noun",
-        "phonetic": "xìjié",
-        "translation": "細部、ディテール",
-        "note": "全体の中の小さな部分",
-        "pinyin": "xì jié",
-        "pinyin_num": "xi4 jie2"
+        "word": "特别",
+        "pos": "adv",
+        "phonetic": "tèbié",
+        "translation": "特に、殊に"
       },
       {
-        "word": "反映",
-        "pos": "verb",
-        "phonetic": "fǎnyìng",
-        "translation": "反映する",
-        "note": "何かを映し出す・伝える",
-        "pinyin": "fǎn yìng",
-        "pinyin_num": "fan3 ying4"
-      },
-      {
-        "word": "暗示",
-        "pos": "verb",
-        "phonetic": "ànshì",
-        "translation": "暗示する、ほのめかす",
-        "note": "直接でなく間接的に示す",
-        "pinyin": "àn shì",
-        "pinyin_num": "an4 shi4"
-      },
-      {
-        "word": "构成",
-        "pos": "verb",
-        "phonetic": "gòuchéng",
-        "translation": "構成する",
-        "note": "組み立てて全体を作る",
-        "pinyin": "gòu chéng",
-        "pinyin_num": "gou4 cheng2"
-      },
-      {
-        "word": "整体",
-        "pos": "noun",
-        "phonetic": "zhěngtǐ",
-        "translation": "全体",
-        "note": "部分の集まりとしての全体",
-        "pinyin": "zhěng tǐ",
-        "pinyin_num": "zheng3 ti3"
-      },
-      {
-        "word": "赏析",
-        "pos": "verb",
-        "phonetic": "shǎngxī",
-        "translation": "鑑賞して分析する",
-        "note": "芸術作品を味わい理解する",
-        "pinyin": "shǎng xī",
-        "pinyin_num": "shang3 xi1"
+        "word": "但是",
+        "pos": "conj",
+        "phonetic": "dànshì",
+        "translation": "しかし、だが"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "この絵の主テーマは何だと思いますか？",
-        "translation": "この絵の主テーマは何だと思いますか？",
+        "text": "这幅画的颜色对比非常明显，对吧？",
+        "translation": "この絵の色のコントラストはとても明らかですよね？",
         "highlights": [
-          "主题"
+          "明显"
         ]
       },
       {
         "speaker": "B",
-        "text": "この赤い色は、情熱や苦しみを象徴しているようです。",
-        "translation": "この赤い色は、情熱や苦しみを象徴しているようです。",
+        "text": "是啊，而且光线的运用也很清楚。",
+        "translation": "ええ、そして光の使い方もとてもはっきりしています。",
         "highlights": [
-          "象征"
+          "清楚"
         ]
       },
       {
         "speaker": "A",
-        "text": "なるほど、その解釈はかなり深いですね。",
-        "translation": "なるほど、その解釈はかなり深いですね。",
+        "text": "你经常去美术馆吗？",
+        "translation": "あなたはよく美術館に行きますか？",
         "highlights": [
-          "深刻"
+          "经常"
         ]
       },
       {
         "speaker": "B",
-        "text": "特に背景の暗い部分が、孤独感を表現していると思います。",
-        "translation": "特に背景の暗い部分が、孤独感を表現していると思います。",
+        "text": "是的，我每周都会去一次。不过今天这个作品让我有些意外。",
+        "translation": "はい、毎週1回は行っています。でも、今日の作品には少し驚かされました。",
         "highlights": [
-          "表现"
+          "不过"
         ]
       },
       {
         "speaker": "A",
-        "text": "別の角度から見ると、全体が希望を暗示しているようにも思えます。",
-        "translation": "別の角度から見ると、全体が希望を暗示しているようにも思えます。",
+        "text": "我也有同感。画家似乎想通过这幅画表示什么。",
+        "translation": "私も同感です。画家はこの絵で何かを表現しようとしているようですね。",
         "highlights": [
-          "角度",
-          "整体",
-          "暗示"
+          "表示"
         ]
       },
       {
         "speaker": "B",
-        "text": "細部を分析すると、作者の意図がより明確になりますね。",
-        "translation": "細部を分析すると、作者の意図がより明確になりますね。",
+        "text": "的确，尤其是人物的表情。你觉得立刻能理解他的心情吗？",
+        "translation": "確かに、特に人物の表情ですね。すぐ理解できますか？",
         "highlights": [
-          "细节",
-          "分析"
+          "立刻"
         ]
       },
       {
         "speaker": "A",
-        "text": "この作品は、当時の社会問題を反映しているのでしょう。",
-        "translation": "この作品は、当時の社会問題を反映しているのでしょう。",
+        "text": "我觉得过程有些复杂，但整体上还算清楚。",
+        "translation": "プロセスは少し複雑に感じますが、全体的にはわかりやすいと思います。",
         "highlights": [
-          "反映"
+          "过程",
+          "清楚"
         ]
       },
       {
         "speaker": "B",
-        "text": "色と形の構成を総合的に見ると、全体のバランスが素晴らしいです。ぜひこの視点で作品を深く赏析してみてください。",
-        "translation": "色と形の構成を総合的に見ると、全体のバランスが素晴らしいです。ぜひこの視点で作品を深く鑑賞してみてください。",
+        "text": "但是我觉得这种表现方式特别新颖，完全超出了我的想象。",
+        "translation": "でも、その表現方法は特に斬新で、まったく想像を超えています。",
         "highlights": [
-          "构成",
-          "整体",
-          "赏析"
+          "但是",
+          "特别",
+          "完全"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "テーマを分析する",
-        "translation": "主题を分析する"
+        "phrase": "颜色对比非常明显",
+        "translation": "色のコントラストが非常にはっきりしている"
       },
       {
-        "phrase": "作品の深い意味を読み取る",
-        "translation": "作品の深い意味を読み取る"
+        "phrase": "通过这幅画表示什么",
+        "translation": "この絵で何を表現しようとしている"
+      },
+      {
+        "phrase": "过程有些复杂",
+        "translation": "プロセスは少し複雑である"
+      },
+      {
+        "phrase": "表现方式特别新颖",
+        "translation": "表現方法が特に斬新である"
       }
     ]
   },
@@ -2041,211 +1759,179 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "灵活",
+        "word": "自由",
         "pos": "adj",
-        "phonetic": "liŋ˧˥xuo˧˥",
-        "translation": "柔軟な、融通の利く",
-        "note": "「柔軟な」という意味で、仕事の形態や時間の自由度を表す時に使う",
-        "pinyin": "líng huó",
-        "pinyin_num": "ling2 huo2"
-      },
-      {
-        "word": "压力",
-        "pos": "noun",
-        "phonetic": "ja˥˩li˥˩",
-        "translation": "プレッシャー、ストレス",
-        "note": "精神的・物理的な圧力を指し、仕事の文脈でよく使う",
-        "pinyin": "yā lì",
-        "pinyin_num": "ya1 li4"
-      },
-      {
-        "word": "稳定",
-        "pos": "adj",
-        "phonetic": "uən˧˥tiŋ˥˩",
-        "translation": "安定した",
-        "note": "仕事や収入が安定していることを表す",
-        "pinyin": "wěn dìng",
-        "pinyin_num": "wen3 ding4"
-      },
-      {
-        "word": "收入",
-        "pos": "noun",
-        "phonetic": "ʂou˥˥ʐu˥˩",
-        "translation": "収入",
-        "note": "個人の収入全般を指す",
-        "pinyin": "shōu rù",
-        "pinyin_num": "shou1 ru4"
-      },
-      {
-        "word": "虽然",
-        "pos": "conj",
-        "phonetic": "suei˥˥ʐan˧˥",
-        "translation": "〜ではあるが",
-        "note": "譲歩の接続詞として使う",
-        "pinyin": "suī rán",
-        "pinyin_num": "sui1 ran2"
-      },
-      {
-        "word": "但是",
-        "pos": "conj",
-        "phonetic": "tan˥˩ʂɻ˥˩",
-        "translation": "しかし、だが",
-        "note": "逆接の接続詞",
-        "pinyin": "dàn shì",
-        "pinyin_num": "dan4 shi4"
-      },
-      {
-        "word": "选择",
-        "pos": "verb/noun",
-        "phonetic": "ɕɥɛn˧˥tsɤ˧˥",
-        "translation": "選ぶ、選択",
-        "note": "動詞としても名詞としても使う",
-        "pinyin": "xuǎn zé",
-        "pinyin_num": "xuan3 ze2"
+        "phonetic": "zìyóu",
+        "translation": "自由な",
+        "note": "状態や性質が束縛されないことを表す"
       },
       {
         "word": "保障",
         "pos": "noun/verb",
-        "phonetic": "pɑu˧˥ʈʂɑŋ˥˩",
-        "translation": "保障、保証する",
-        "note": "社会的保障や安全を確保することを指す",
-        "pinyin": "bǎo zhàng",
-        "pinyin_num": "bao3 zhang4"
+        "phonetic": "bǎozhàng",
+        "translation": "保障、保証する"
       },
       {
-        "word": "风险",
+        "word": "收入",
         "pos": "noun",
-        "phonetic": "fəŋ˥˥ɕjɛn˧˥",
-        "translation": "リスク、危険性",
-        "note": "将来の不確実性に伴う危険を指す",
-        "pinyin": "fēng xiǎn",
-        "pinyin_num": "feng1 xian3"
+        "phonetic": "shōurù",
+        "translation": "収入"
       },
       {
-        "word": "因此",
-        "pos": "conj/adv",
-        "phonetic": "in˥˥tsʰɤ˧˥",
-        "translation": "それゆえ、したがって",
-        "note": "因果関係を表す接続詞",
-        "pinyin": "yīn cǐ",
-        "pinyin_num": "yin1 ci3"
+        "word": "稳定",
+        "pos": "adj",
+        "phonetic": "wěndìng",
+        "translation": "安定した"
       },
       {
-        "word": "缺乏",
+        "word": "灵活",
+        "pos": "adj",
+        "phonetic": "línghuó",
+        "translation": "柔軟な、融通の利く"
+      },
+      {
+        "word": "缺少",
         "pos": "verb",
-        "phonetic": "tɕʰɥɛ˥˥fa˧˥",
-        "translation": "欠いている、不足する",
-        "note": "必要なものが不足していることを表す",
-        "pinyin": "quē fá",
-        "pinyin_num": "que1 fa2"
+        "phonetic": "quēshǎo",
+        "translation": "不足する、足りない"
       },
       {
-        "word": "竞争",
-        "pos": "noun/verb",
-        "phonetic": "tɕiŋ˥˩ʈʂəŋ˥˥",
-        "translation": "競争、競争する",
-        "note": "他者と競い合うことを指す",
-        "pinyin": "jìng zhēng",
-        "pinyin_num": "jing4 zheng1"
+        "word": "相反",
+        "pos": "adv/conj",
+        "phonetic": "xiāngfǎn",
+        "translation": "逆に、反対に"
+      },
+      {
+        "word": "关心",
+        "pos": "verb/noun",
+        "phonetic": "guānxīn",
+        "translation": "関心を持つ、関心"
+      },
+      {
+        "word": "顾客",
+        "pos": "noun",
+        "phonetic": "gùkè",
+        "translation": "顧客、客"
+      },
+      {
+        "word": "突然",
+        "pos": "adv",
+        "phonetic": "tūrán",
+        "translation": "突然"
+      },
+      {
+        "word": "甚至",
+        "pos": "adv/conj",
+        "phonetic": "shènzhì",
+        "translation": "～さえ、～まで"
+      },
+      {
+        "word": "常见",
+        "pos": "adj",
+        "phonetic": "chángjiàn",
+        "translation": "よく見られる、ありふれた"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "最近、我朋友选择做自由职业，虽然收入不稳定，但是时间很灵活。",
-        "translation": "最近、友達がフリーランスを選んだんだけど、収入は不安定だけど時間はとても柔軟なんだ。",
+        "text": "现在自由职业者越来越多了，收入不稳定成了大家关心的话题。",
+        "translation": "今ではフリーランサーがますます増えている。収入が安定しないことがみんなの関心事になっている。",
         "highlights": [
-          "选择",
-          "虽然",
+          "自由",
           "收入",
-          "但是",
-          "灵活"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "自由职业压力大吗？我觉得没有公司保障，风险太高了。",
-        "translation": "フリーランスはプレッシャー大きい？会社の保障がないから、リスクが高すぎると思うよ。",
-        "highlights": [
-          "压力",
-          "保障",
-          "风险"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "压力确实存在，因此需要自己安排一切，但很多人喜欢这种自由。",
-        "translation": "プレッシャーは確かにあるよ、だからすべて自分で手配しないといけないけど、多くの人はこの自由を好むんだ。",
-        "highlights": [
-          "压力",
-          "因此"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "可是，缺乏稳定的收入，生活就会有困难，而且竞争也很激烈。",
-        "translation": "でも、安定した収入が不足すると生活が苦しくなるし、競争も激しいよね。",
-        "highlights": [
-          "缺乏",
           "稳定",
-          "收入",
-          "竞争"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "对，虽然竞争激烈，但是可以灵活安排时间，照顾家庭。",
-        "translation": "そうだね、競争は激しいけど、時間を柔軟に調整して家族の世話もできるよ。",
-        "highlights": [
-          "虽然",
-          "竞争",
-          "但是",
-          "灵活"
+          "关心"
         ]
       },
       {
         "speaker": "B",
-        "text": "我担心的是，没有公司的保障，老了以后怎么办？",
-        "translation": "私が心配なのは、会社の保障がないと、年を取ったらどうするの？ってことだよ。",
+        "text": "确实，虽然自由和灵活是优点，但是缺少保障也是事实。",
+        "translation": "確かに、自由で柔軟なのは長所だけど、保障がないのも事実だね。",
         "highlights": [
+          "确实",
+          "自由",
+          "灵活",
+          "缺少",
           "保障"
         ]
       },
       {
         "speaker": "A",
-        "text": "所以很多人选择兼职，既有一点稳定收入，又保留灵活性。",
-        "translation": "だから多くの人は副業を選んで、少しの安定した収入と、柔軟性を保っているんだ。",
+        "text": "我有个朋友做外卖配送，有时一天能挣很多钱，但有时候突然就没活儿了。",
+        "translation": "友達で出前の配達をしている人がいるんだけど、ある日はいいお金が稼げるけど、ある日突然仕事がなくなっちゃうみたい。",
         "highlights": [
-          "选择",
-          "稳定",
-          "收入",
-          "灵活"
+          "突然",
+          "活"
         ]
       },
       {
         "speaker": "B",
-        "text": "但是缺乏社会保障，终究是不安。因此，我宁愿找稳定工作。",
-        "translation": "でも社会保障が不足していると、結局不安だよ。だから、私は安定した仕事を選ぶよ。",
+        "text": "这太常见了！我也听说有些顾客突然取消订单，连一点补偿都没有。",
+        "translation": "それ、すごくよくある話だよ！私もお客さんが突然注文をキャンセルして、まったく補償もないって聞いたことがある。",
         "highlights": [
-          "缺乏",
+          "常见",
+          "顾客",
+          "突然"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "是啊，这和传统工作完全不同，稳定性太差了。",
+        "translation": "ほんと、それって伝統的な仕事とは全然違う。安定性がひどく低すぎるよ。",
+        "highlights": [
+          "传统",
+          "完全",
+          "稳定性"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "对，而且有时候连基本的社保都没有，真的让人担心。",
+        "translation": "そうだよね。それにたまに社会保障すらないし、ほんと心配だよ。",
+        "highlights": [
+          "而且",
+          "基本",
+          "担心"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "不过，也有人觉得自由更重要，可以自己掌控时间。",
+        "translation": "でも、自由の方が大事だって思う人もいるよ。時間を自分で管理できるから。",
+        "highlights": [
+          "不过",
+          "自由",
+          "重要"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "话虽如此，但如果连收入都保障不了，这种自由又有什么意义呢？",
+        "translation": "それはそうなんだけど、でも収入すら保障できなかったら、その自由にいったい何の意味があるの？",
+        "highlights": [
+          "话虽如此",
           "保障",
-          "因此",
-          "稳定"
+          "收入"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "灵活安排时间",
-        "translation": "時間を柔軟に調整する"
+        "phrase": "收入不稳定成了大家关心的话题",
+        "translation": "収入が安定しないことがみんなの関心事になっている"
       },
       {
-        "phrase": "缺乏保障",
-        "translation": "保障が不足している"
+        "phrase": "缺少保障",
+        "translation": "保障がない"
       },
       {
-        "phrase": "竞争激烈",
-        "translation": "競争が激しい"
+        "phrase": "突然就没活儿了",
+        "translation": "突然仕事がなくなる"
+      },
+      {
+        "phrase": "顾客突然取消订单",
+        "translation": "お客さんが突然注文をキャンセルする"
       }
     ]
   },
@@ -2260,203 +1946,170 @@
       {
         "word": "制度",
         "pos": "noun",
-        "phonetic": "ʈʂɻ̩˥˩ tu˥˩",
-        "translation": "制度",
-        "note": "政治・社会の制度を指す。",
-        "pinyin": "zhì dù",
-        "pinyin_num": "zhi4 du4"
+        "phonetic": "zhì dù",
+        "translation": "制度、システム"
       },
       {
-        "word": "民主",
-        "pos": "noun/adj",
-        "phonetic": "min˧˥ tʂu˨˩˦",
-        "translation": "民主",
-        "note": "民主主義、民主的な。",
-        "pinyin": "mín zhǔ",
-        "pinyin_num": "min2 zhu3"
-      },
-      {
-        "word": "选举",
-        "pos": "verb/noun",
-        "phonetic": "ɕɥɛn˨˩˦ tɕy˨˩˦",
-        "translation": "選挙",
-        "note": "選挙する、選挙。",
-        "pinyin": "xuǎn jǔ",
-        "pinyin_num": "xuan3 ju3"
-      },
-      {
-        "word": "政权",
+        "word": "权力",
         "pos": "noun",
-        "phonetic": "ʈʂɤŋ˥˩ tɕʰɥɛn˧˥",
-        "translation": "政権",
-        "note": "政治権力、政権。",
-        "pinyin": "zhèng quán",
-        "pinyin_num": "zheng4 quan2"
-      },
-      {
-        "word": "代表",
-        "pos": "verb/noun",
-        "phonetic": "taɪ̯˥˩ piao˨˩˦",
-        "translation": "代表する、代表",
-        "note": "代表する、代表者。",
-        "pinyin": "dài biǎo",
-        "pinyin_num": "dai4 biao3"
-      },
-      {
-        "word": "平等",
-        "pos": "adj/noun",
-        "phonetic": "pʰiŋ˧˥ tɤŋ˨˩˦",
-        "translation": "平等",
-        "note": "平等、対等。",
-        "pinyin": "píng děng",
-        "pinyin_num": "ping2 deng3"
+        "phonetic": "quán lì",
+        "translation": "権力、力"
       },
       {
         "word": "权利",
         "pos": "noun",
-        "phonetic": "tɕʰɥɛn˧˥ li˥˩",
-        "translation": "権利",
-        "note": "権利。",
-        "pinyin": "quán lì",
-        "pinyin_num": "quan2 li4"
+        "pos_ja": "名詞",
+        "phonetic": "quán lì",
+        "translation": "権利"
       },
       {
-        "word": "自由",
-        "pos": "adj/noun",
-        "phonetic": "tsɻ̩˥˩ iou̯˧˥",
-        "translation": "自由",
-        "note": "自由。",
-        "pinyin": "zì yóu",
-        "pinyin_num": "zi4 you2"
-      },
-      {
-        "word": "参与",
+        "word": "分开",
         "pos": "verb",
-        "phonetic": "tsʰan˥˥ y˥˩",
-        "translation": "参加する",
-        "note": "政治参加などに用いる。",
-        "pinyin": "cān yù",
-        "pinyin_num": "can1 yu4"
+        "phonetic": "fēn kāi",
+        "translation": "分ける、分離する"
+      },
+      {
+        "word": "组织",
+        "pos": "noun|verb",
+        "phonetic": "zǔ zhī",
+        "translation": "組織（する）"
+      },
+      {
+        "word": "保护",
+        "pos": "verb",
+        "phonetic": "bǎo hù",
+        "translation": "保護する"
+      },
+      {
+        "word": "权威",
+        "pos": "noun",
+        "phonetic": "quán wēi",
+        "translation": "権威"
+      },
+      {
+        "word": "表达",
+        "pos": "verb",
+        "phonetic": "biǎo dá",
+        "translation": "表現する、述べる"
+      },
+      {
+        "word": "责任",
+        "pos": "noun",
+        "phonetic": "zé rèn",
+        "translation": "責任"
       },
       {
         "word": "实现",
         "pos": "verb",
-        "phonetic": "ʂɻ̩˧˥ tɕjɛn˥˩",
-        "translation": "実現する",
-        "note": "目標や理想を実現する。",
-        "pinyin": "shí xiàn",
-        "pinyin_num": "shi2 xian4"
+        "phonetic": "shí xiàn",
+        "translation": "実現する"
       },
       {
-        "word": "根本",
-        "pos": "adj/noun",
-        "phonetic": "kən˥˥ pən˨˩˦",
-        "translation": "根本",
-        "note": "根本的な、根底。",
-        "pinyin": "gēn běn",
-        "pinyin_num": "gen1 ben3"
+        "word": "统治",
+        "pos": "verb",
+        "phonetic": "tǒng zhì",
+        "translation": "統治する"
       },
       {
-        "word": "制度上",
-        "pos": "noun (suffix)",
-        "phonetic": "ʈʂɻ̩˥˩ tu˥˩ ʂɑŋ˥˩",
-        "translation": "制度上",
-        "note": "制度の面で、制度的に。",
-        "pinyin": "zhì dù shàng",
-        "pinyin_num": "zhi4 du4 shang4"
+        "word": "建立",
+        "pos": "verb",
+        "phonetic": "jiàn lì",
+        "translation": "確立する、設立する"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你觉得民主制度最重要的特点是什么？",
-        "translation": "民主制度の最も重要な特徴は何だと思う？",
+        "text": "现代社会的政治制度有很多种，每种都有自己的特点。",
+        "translation": "現代社会の政治制度にはさまざまな種類があり、それぞれに独自の特徴があります。",
         "highlights": [
-          "民主",
-          "制度"
+          "制度",
+          "种",
+          "特点"
         ]
       },
       {
         "speaker": "B",
-        "text": "我觉得是选举和参与，普通公民可以通过投票来代表自己的意见。",
-        "translation": "選挙と参加だと思う。一般市民が投票を通じて自分の意見を代表できる。",
+        "text": "是啊，比如民主制度强调的是人民的权利和自由。",
+        "translation": "そうですね、例えば民主主義制度では人民の権利と自由が重視されています。",
         "highlights": [
-          "选举",
-          "参与",
-          "代表"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "但是，有些国家的政权虽然定期选举，却未必能实现真正的平等和自由。",
-        "translation": "でも、定期選挙がある国でも、真の平等と自由を実現できるとは限らない。",
-        "highlights": [
-          "政权",
-          "实现",
-          "平等",
+          "权利",
           "自由"
         ]
       },
       {
-        "speaker": "B",
-        "text": "确实，权利在法律上平等，但经济条件可能影响实际的参与能力。",
-        "translation": "確かに、権利は法律上平等でも、経済的条件が実際の参加能力に影響することがある。",
+        "speaker": "A",
+        "text": "这套制度确实需要把权力分开，让不同的机构来监督。",
+        "translation": "この制度では確かに権力を分離して、異なる機関に監視させる必要があります。",
         "highlights": [
+          "权力",
+          "分开"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "政府的权力太大，就容易滥用，所以要有组织来限制它。",
+        "translation": "政府の権力が大きすぎると濫用されやすいので、それを制限する組織が必要です。",
+        "highlights": [
+          "权力",
+          "组织"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "保护公民的基本权利是任何政治制度的首要责任。",
+        "translation": "市民の基本的な権利を保護することは、どの政治制度でも最も重要な責任です。",
+        "highlights": [
+          "保护",
           "权利",
-          "参与"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "所以，根本问题在于制度上如何保障每个人的基本权利。",
-        "translation": "だから、根本的な問題は、制度上どのように各人の基本権利を保障するかにある。",
-        "highlights": [
-          "根本",
-          "制度上",
-          "权利"
+          "责任"
         ]
       },
       {
         "speaker": "B",
-        "text": "对，而且公民的参与意识也很重要，否则制度再好也可能被滥用。",
-        "translation": "そうだね。そして市民の参加意識も重要で、そうでなければ良い制度でも悪用される可能性がある。",
+        "text": "你说得对，没有权威的保护，自由就会失去保障。",
+        "translation": "おっしゃる通りです。権威による保護がなければ、自由は保障されません。",
         "highlights": [
-          "参与"
+          "权威",
+          "保护"
         ]
       },
       {
         "speaker": "A",
-        "text": "那在你看来，哪种制度能更好地实现自由和平等？",
-        "translation": "では、あなたの考えでは、どの制度がより自由と平等を実現できるの？",
+        "text": "但权力和权威也不能太集中，否则就会变成专制。",
+        "translation": "しかし、権力と権威があまりに集中すると、専制主義になってしまいます。",
         "highlights": [
-          "制度",
+          "权力",
+          "权威",
+          "集中"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "确实，如何实现权力的平衡，建立一个稳定的政治系统，是政治家们的重要课题。",
+        "translation": "確かに、権力のバランスを実現し、安定した政治システムを確立することは政治家にとって重要な課題です。",
+        "highlights": [
           "实现",
-          "自由",
-          "平等"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "很难说，但我觉得任何制度都需要不断调整，才能真正代表人民的意志。",
-        "translation": "なんとも言えないけど、どんな制度でも絶えず調整しないと、本当に人民の意志を代表できないと思う。",
-        "highlights": [
-          "制度",
-          "代表"
+          "建立"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "民主制度",
-        "translation": "民主制度"
+        "phrase": "把权力分开",
+        "translation": "権力を分離する"
       },
       {
-        "phrase": "实现自由和平等",
-        "translation": "自由と平等を実現する"
+        "phrase": "保护公民的基本权利",
+        "translation": "市民の基本的な権利を保護する"
       },
       {
-        "phrase": "参与意识",
-        "translation": "参加意識"
+        "phrase": "权力的平衡",
+        "translation": "権力のバランス"
+      },
+      {
+        "phrase": "建立一个稳定的政治系统",
+        "translation": "安定した政治システムを確立する"
       }
     ]
   },
@@ -2469,203 +2122,176 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "程序",
-        "pos": "noun",
-        "phonetic": "/t͡ʂʰɤŋ˧˥ sy˥˩/",
-        "translation": "手順、プログラム",
-        "note": "手続きやコンピュータープログラムの両方に使える",
-        "pinyin": "chéng xù",
-        "pinyin_num": "cheng2 xu4"
-      },
-      {
-        "word": "阶段",
-        "pos": "noun",
-        "phonetic": "/t͡ɕjɛ˥˥ twan˥˩/",
-        "translation": "段階、フェーズ",
-        "note": "過程を区切った一段階",
-        "pinyin": "jiē duàn",
-        "pinyin_num": "jie1 duan4"
+        "word": "安装",
+        "pos": "verb",
+        "phonetic": "ān zhuāng",
+        "translation": "設置する、インストールする",
+        "note": "主にソフトウェアや機器のセットアップに使う"
       },
       {
         "word": "系统",
         "pos": "noun",
-        "phonetic": "/ɕi˥˩ tʰɤŋ˧˥/",
-        "translation": "システム、体系",
-        "note": "複数の要素が組み合わさって機能するもの",
-        "pinyin": "xì tǒng",
-        "pinyin_num": "xi4 tong3"
+        "phonetic": "xì tǒng",
+        "translation": "システム",
+        "note": "技術関連で頻出"
+      },
+      {
+        "word": "数据",
+        "pos": "noun",
+        "phonetic": "shù jù",
+        "translation": "データ",
+        "note": "情報や測定値を指す"
+      },
+      {
+        "word": "设备",
+        "pos": "noun",
+        "phonetic": "shè bèi",
+        "translation": "装置、設備",
+        "note": "機械やシステムの構成要素"
+      },
+      {
+        "word": "调试",
+        "pos": "verb",
+        "phonetic": "tiáo shì",
+        "translation": "デバッグする、調整する",
+        "note": "プログラムや機器の不具合を直す"
+      },
+      {
+        "word": "流程",
+        "pos": "noun",
+        "phonetic": "liú chéng",
+        "translation": "工程、フロー",
+        "note": "手順や段取りを指す"
+      },
+      {
+        "word": "配置",
+        "pos": "verb",
+        "phonetic": "pèi zhì",
+        "translation": "設定する、構成する",
+        "note": "システムの構成を整える"
+      },
+      {
+        "word": "性能",
+        "pos": "noun",
+        "phonetic": "xìng néng",
+        "translation": "性能",
+        "note": "機能の効率や能力を表す"
       },
       {
         "word": "操作",
-        "pos": "verb/noun",
-        "phonetic": "/t͡sʰɑʊ̯˥˥ t͡swɔ˥˩/",
+        "pos": "verb,noun",
+        "phonetic": "cāo zuò",
         "translation": "操作する、操作",
-        "note": "機械や装置を動かすこと",
-        "pinyin": "cāo zuò",
-        "pinyin_num": "cao1 zuo4"
+        "note": "機器やシステムを扱う動作"
       },
       {
-        "word": "输入",
-        "pos": "verb/noun",
-        "phonetic": "/ʂu˥˥ ʐu˥˩/",
-        "translation": "入力する、入力",
-        "note": "データや情報を機械に送ること",
-        "pinyin": "shū rù",
-        "pinyin_num": "shu1 ru4"
-      },
-      {
-        "word": "处理",
-        "pos": "verb/noun",
-        "phonetic": "/t͡ʂʰu˨˩˦ li˨˩˦/",
-        "translation": "処理する、処理",
-        "note": "データや問題を扱って完了させること",
-        "pinyin": "chǔ lǐ",
-        "pinyin_num": "chu3 li3"
-      },
-      {
-        "word": "自动",
-        "pos": "adj/adv",
-        "phonetic": "/t͡swɤ˥˩ tʊŋ˥˩/",
-        "translation": "自動の、自動的に",
-        "note": "人の手を借りずに行われる様子",
-        "pinyin": "zì dòng",
-        "pinyin_num": "zi4 dong4"
-      },
-      {
-        "word": "顺序",
+        "word": "参数",
         "pos": "noun",
-        "phonetic": "/ɕyn˥˩ ɕy˥˩/",
-        "translation": "順序、順番",
-        "note": "物事を行う並び",
-        "pinyin": "shùn xù",
-        "pinyin_num": "shun4 xu4"
+        "phonetic": "cān shù",
+        "translation": "パラメータ",
+        "note": "設定値や条件値"
       },
       {
-        "word": "必须",
-        "pos": "adv",
-        "phonetic": "/pi˥˩ ɕy˥˥/",
-        "translation": "〜しなければならない",
-        "note": "強い義務を表す",
-        "pinyin": "bì xū",
-        "pinyin_num": "bi4 xu1"
+        "word": "启动",
+        "pos": "verb",
+        "phonetic": "qǐ dòng",
+        "translation": "起動する",
+        "note": "システムやプログラムを始動させる"
       },
       {
-        "word": "通过",
-        "pos": "prep/verb",
-        "phonetic": "/tʰʊŋ˥˥ kwɔ˥˩/",
-        "translation": "〜を通じて、通過する",
-        "note": "手段・媒介を表す前置詞、または通過の意味",
-        "pinyin": "tōng guò",
-        "pinyin_num": "tong1 guo4"
-      },
-      {
-        "word": "结果",
-        "pos": "noun/conj",
-        "phonetic": "/t͡ɕjɛ˧˥ kwɔ˨˩˦/",
-        "translation": "結果、その結果",
-        "note": "過程の後に現れる状態",
-        "pinyin": "jié guǒ",
-        "pinyin_num": "jie2 guo3"
-      },
-      {
-        "word": "必要",
-        "pos": "adj/noun",
-        "phonetic": "/pi˥˩ jɑʊ̯˥˩/",
-        "translation": "必要である、必要性",
-        "note": "なくてはならないこと",
-        "pinyin": "bì yào",
-        "pinyin_num": "bi4 yao4"
+        "word": "故障",
+        "pos": "verb,noun",
+        "phonetic": "gù zhàng",
+        "translation": "故障する、故障",
+        "note": "機器やシステムの不具合"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "这个生产过程的程序比较复杂，首先必须把原料输入系统里。",
-        "translation": "この生産プロセスの手順はかなり複雑で、まず原料をシステムに入力しなければなりません。",
+        "text": "首先，我们需要先安装这个系统。",
+        "translation": "まず、このシステムをインストールする必要があります。",
         "highlights": [
-          "程序",
-          "必须",
-          "输入",
+          "安装",
           "系统"
         ]
       },
       {
         "speaker": "B",
-        "text": "那输入之后呢？系统会自动进行什么操作？",
-        "translation": "では入力した後はどうしますか？システムは自動的に何か操作を行いますか？",
+        "text": "好，安装完了之后呢？",
+        "translation": "はい、インストールが終わったらどうすればいいですか？",
         "highlights": [
-          "自动",
-          "操作"
+          "安装"
         ]
       },
       {
         "speaker": "A",
-        "text": "对，系统会按照预设的顺序自动处理数据，这个阶段不需要人工干预。",
-        "translation": "はい、システムはあらかじめ設定された順序に従って自動的にデータを処理します。この段階では人手による介入は不要です。",
+        "text": "然后打开设备，把数据传输到系统里。",
+        "translation": "次に機器を起動して、データをシステムに転送します。",
         "highlights": [
-          "顺序",
-          "处理",
-          "阶段"
+          "设备",
+          "数据",
+          "系统"
         ]
       },
       {
         "speaker": "B",
-        "text": "那么，处理完这些数据之后，是通过什么方式得到最终结果的？",
-        "translation": "では、これらのデータを処理した後、どのような方法で最終結果を得るのですか？",
+        "text": "传输完成后，我该调试一下吗？",
+        "translation": "転送が終わったら、デバッグをしたらいいですか？",
         "highlights": [
-          "通过",
-          "结果"
+          "调试"
         ]
       },
       {
         "speaker": "A",
-        "text": "通过一个验证系统来检查数据的准确性，如果发现错误，就必须重新操作。",
-        "translation": "検証システムを通じてデータの正確性をチェックし、エラーが見つかった場合は、再度操作しなければなりません。",
+        "text": "没错，调试很重要，能发现很多流程中的问题。",
+        "translation": "その通り、デバッグは重要です。プロセス内の多くの問題を発見できます。",
         "highlights": [
-          "通过",
-          "系统",
-          "必须",
-          "操作"
+          "调试",
+          "流程"
         ]
       },
       {
         "speaker": "B",
-        "text": "听起来很严格。那整个处理过程大概需要多长时间？",
-        "translation": "とても厳格そうですね。では、この処理プロセス全体にはどれくらい時間がかかりますか？",
+        "text": "调试好了之后，接下来是配置参数吗？",
+        "translation": "デバッグが終わったら、次はパラメータを設定するんですか？",
         "highlights": [
-          "处理"
+          "配置",
+          "参数"
         ]
       },
       {
         "speaker": "A",
-        "text": "如果一切顺利，大约需要两个小时，但为了确保质量，检查结果是必要的步骤。",
-        "translation": "すべてが順調なら約2時間かかりますが、品質を保証するために、結果をチェックすることは必要なステップです。",
+        "text": "对，需要根据实际需求来配置，参数会影响最终的性能。",
+        "translation": "そうです、実際のニーズに基づいて設定する必要があります。パラメータは最終的な性能に影響します。",
         "highlights": [
-          "结果",
-          "必要"
+          "配置",
+          "参数",
+          "性能"
         ]
       },
       {
         "speaker": "B",
-        "text": "明白了，看来每个阶段都必须严格按照顺序来操作，才能保证最终结果正确。",
-        "translation": "なるほど、各段階を厳密に順序通りに操作しなければ、最終結果が正しいと保証できないんですね。",
+        "text": "最后一步就是启动系统了吗？",
+        "translation": "最後のステップはシステムを起動することですか？",
         "highlights": [
-          "阶段",
-          "必须",
-          "顺序",
-          "操作",
-          "结果"
+          "启动",
+          "系统"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "按照预设的顺序",
-        "translation": "あらかじめ設定された順序に従って"
+        "phrase": "把数据传输到系统里",
+        "translation": "データをシステムに転送する"
       },
       {
-        "phrase": "通过验证系统来检查",
-        "translation": "検証システムを通じてチェックする"
+        "phrase": "根据实际需求来配置",
+        "translation": "実際のニーズに基づいて設定する"
+      },
+      {
+        "phrase": "调试很重要",
+        "translation": "デバッグは重要です"
       }
     ]
   },
@@ -2678,206 +2304,163 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "负责",
-        "pos": "verb",
-        "phonetic": "fùzé",
-        "translation": "責任を負う",
-        "note": "「～に責任を持つ」という意味で、目的語を取る。",
-        "pinyin": "fù zé",
-        "pinyin_num": "fu4 ze2"
-      },
-      {
-        "word": "判断",
-        "pos": "noun/verb",
-        "phonetic": "pànduàn",
-        "translation": "判断（する）",
-        "note": "名詞としても動詞としても使われる。",
-        "pinyin": "pàn duàn",
-        "pinyin_num": "pan4 duan4"
-      },
-      {
-        "word": "影响",
-        "pos": "noun/verb",
-        "phonetic": "yǐngxiǎng",
-        "translation": "影響（する）",
-        "note": "「影響を与える」という意味。",
-        "pinyin": "yǐng xiǎng",
-        "pinyin_num": "ying3 xiang3"
-      },
-      {
-        "word": "决定",
-        "pos": "verb/noun",
-        "phonetic": "juédìng",
-        "translation": "決定する、決定",
-        "note": "「決定する」と「決定」の両方で使われる。",
-        "pinyin": "jué dìng",
-        "pinyin_num": "jue2 ding4"
-      },
-      {
-        "word": "清楚",
-        "pos": "adj",
-        "phonetic": "qīngchu",
-        "translation": "はっきりしている、明確な",
-        "note": "「分かる」の意味でも使われる。",
-        "pinyin": "qīng chǔ",
-        "pinyin_num": "qing1 chu3"
-      },
-      {
-        "word": "完全",
-        "pos": "adv",
-        "phonetic": "wánquán",
-        "translation": "完全に、まったく",
-        "note": "強調の副詞。",
-        "pinyin": "wán quán",
-        "pinyin_num": "wan2 quan2"
-      },
-      {
-        "word": "部分",
-        "pos": "noun",
-        "phonetic": "bùfen",
-        "translation": "部分",
-        "note": "「一部分」という意味。",
-        "pinyin": "bù fen",
-        "pinyin_num": "bu4 fen0"
-      },
-      {
-        "word": "甚至",
-        "pos": "conj/adv",
-        "phonetic": "shènzhì",
-        "translation": "～さえ、～ですら",
-        "note": "極端な例を挙げる時に使う。",
-        "pinyin": "shèn zhì",
-        "pinyin_num": "shen4 zhi4"
-      },
-      {
         "word": "根据",
         "pos": "prep",
-        "phonetic": "gēnjù",
-        "translation": "～に基づいて",
-        "note": "「根拠とする」という前置詞。",
-        "pinyin": "gēn jù",
-        "pinyin_num": "gen1 ju4"
+        "phonetic": "gēn jù",
+        "translation": "～に基づいて、～によると",
+        "note": "接続詞的に使われることも多い"
       },
       {
-        "word": "标准",
-        "pos": "noun",
-        "phonetic": "biāozhǔn",
-        "translation": "基準、標準",
-        "note": "評価の基準を指す。",
-        "pinyin": "biāo zhǔn",
-        "pinyin_num": "biao1 zhun3"
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiē shòu",
+        "translation": "受け入れる、受諾する"
       },
       {
-        "word": "责任",
-        "pos": "noun",
-        "phonetic": "zérèn",
-        "translation": "責任",
-        "note": "「責任を負う」という意味で「负责」と関連。",
-        "pinyin": "zé rèn",
-        "pinyin_num": "ze2 ren4"
+        "word": "调查",
+        "pos": "noun/verb",
+        "phonetic": "diào chá",
+        "translation": "調査（する）"
       },
       {
-        "word": "未来",
+        "word": "道理",
         "pos": "noun",
-        "phonetic": "wèilái",
-        "translation": "未来",
-        "note": "時間的な未来を指す。",
-        "pinyin": "wèi lái",
-        "pinyin_num": "wei4 lai2"
+        "phonetic": "dào lǐ",
+        "translation": "道理、理屈"
+      },
+      {
+        "word": "观点",
+        "pos": "noun",
+        "phonetic": "guān diǎn",
+        "translation": "見解、観点"
+      },
+      {
+        "word": "明显",
+        "pos": "adj",
+        "phonetic": "míng xiǎn",
+        "translation": "明らかな"
+      },
+      {
+        "word": "反应",
+        "pos": "noun/verb",
+        "phonetic": "fǎn yìng",
+        "translation": "反応（する）"
+      },
+      {
+        "word": "表示",
+        "pos": "verb",
+        "phonetic": "biǎo shì",
+        "translation": "述べる、示す"
+      },
+      {
+        "word": "技术",
+        "pos": "noun",
+        "phonetic": "jì shù",
+        "translation": "技術"
+      },
+      {
+        "word": "政策",
+        "pos": "noun",
+        "phonetic": "zhèng cè",
+        "translation": "政策"
+      },
+      {
+        "word": "相信",
+        "pos": "verb",
+        "phonetic": "xiāng xìn",
+        "translation": "信じる"
+      },
+      {
+        "word": "无论",
+        "pos": "conj",
+        "phonetic": "wú lùn",
+        "translation": "～にかかわらず"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "AIの判断で人が影響を受ける場合、誰が責任を取るべきだと思いますか？",
-        "translation": "AIの判断で人が影響を受ける場合、誰が責任を取るべきだと思いますか？",
+        "text": "根据最近的调查，大多数人接受人工智能的发展。",
+        "translation": "最近の調査によると、大多数の人がAIの発展を受け入れている。",
         "highlights": [
-          "判断",
-          "影响",
-          "责任"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "難しい問題ですね。AIが決定を下すとき、その根拠が完全に明確でないこともありますし。",
-        "translation": "難しい問題ですね。AIが決定を下すとき、その根拠が完全に明確でないこともありますし。",
-        "highlights": [
-          "决定",
           "根据",
-          "完全",
-          "清楚"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "確かに。でも、AIの判断は多くの場合、過去のデータに基づいていますよね。",
-        "translation": "確かに。でも、AIの判断は多くの場合、過去のデータに基づいていますよね。",
-        "highlights": [
-          "判断",
-          "根据"
+          "调查",
+          "接受"
         ]
       },
       {
         "speaker": "B",
-        "text": "そうですが、データ自体に偏りがあれば、その判断は公平な標準に従っていない可能性があります。",
-        "translation": "そうですが、データ自体に偏りがあれば、その判断は公平な基準に従っていない可能性があります。",
+        "text": "但是我觉得其中还有很多道理需要进一步讨论。",
+        "translation": "でも、その中にはさらに議論すべき道理がたくさんあると私は思う。",
         "highlights": [
-          "判断",
-          "标准"
+          "道理"
         ]
       },
       {
         "speaker": "A",
-        "text": "つまり、AIの決定が一部の人に不利な影響を与えるかもしれないということですね。",
-        "translation": "つまり、AIの決定が一部の人に不利な影響を与えるかもしれないということですね。",
+        "text": "比如呢？你的观点是什么？",
+        "translation": "例えば？あなたの見解は？",
         "highlights": [
-          "决定",
-          "部分",
-          "影响"
+          "观点"
         ]
       },
       {
         "speaker": "B",
-        "text": "ええ、それに、AIが間違った判断をした場合、その責任を誰が負うのかはっきりしません。",
-        "translation": "ええ、それに、AIが間違った判断をした場合、その責任を誰が負うのかはっきりしません。",
+        "text": "无论技术多先进，人类的反应和接受程度都很重要。",
+        "translation": "技術がどれほど進んでいても、人間の反応や受け入れる度合いが重要だ。",
         "highlights": [
-          "判断",
-          "责任",
-          "清楚"
+          "无论",
+          "技术",
+          "反应"
         ]
       },
       {
         "speaker": "A",
-        "text": "さらに、AIが自律的に決定するようになれば、人間が完全に制御できなくなる可能性さえあります。",
-        "translation": "さらに、AIが自律的に決定するようになれば、人間が完全に制御できなくなる可能性さえあります。",
+        "text": "确实，社会对新技术的接受需要时间。",
+        "translation": "確かに、新しい技術の社会的受け入れには時間が必要だ。",
         "highlights": [
-          "决定",
-          "完全",
-          "甚至"
+          "接受"
         ]
       },
       {
         "speaker": "B",
-        "text": "未来のことを考えると、今からでも責任の範囲を明確にしておく必要がありますね。",
-        "translation": "未来のことを考えると、今からでも責任の範囲を明確にしておく必要がありますね。",
+        "text": "政策制定者也必须考虑这些问题。",
+        "translation": "政策立案者もこれらの問題を考慮しなければならない。",
         "highlights": [
-          "未来",
-          "责任"
+          "政策"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "不过，我还是相信技术最终会为人类带来更多好处。",
+        "translation": "でも、私は結局技術が人間にさらなる利益をもたらすと信じている。",
+        "highlights": [
+          "相信",
+          "技术"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "希望政策能跟上技术的发展速度。",
+        "translation": "政策が技術の発展速度に追いつけることを願う。",
+        "highlights": [
+          "政策",
+          "技术"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "責任を取る",
-        "translation": "负责"
+        "phrase": "根据最近的调查",
+        "translation": "最近の調査によると"
       },
       {
-        "phrase": "判断を下す",
-        "translation": "做出判断"
+        "phrase": "人类的反应和接受程度",
+        "translation": "人間の反応や受け入れる度合い"
       },
       {
-        "phrase": "影響を与える",
-        "translation": "产生影响"
+        "phrase": "政策能跟上技术的发展速度",
+        "translation": "政策が技術の発展速度に追いつける"
       }
     ]
   },
@@ -2890,202 +2473,169 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "承担",
-        "pos": "verb",
-        "phonetic": "ʈʂʰɤŋ˧˥ tan˥˩",
-        "translation": "引き受ける、担う",
-        "note": "責任・義務などを負う意味。",
-        "pinyin": "chéng dān",
-        "pinyin_num": "cheng2 dan1"
-      },
-      {
-        "word": "传统",
-        "pos": "noun/adj",
-        "phonetic": "ʈʂʰwan˧˥ tʰʊŋ˥˩",
-        "translation": "伝統、伝統的な",
-        "note": "名詞・形容詞の両方で使われる。",
-        "pinyin": "chuán tǒng",
-        "pinyin_num": "chuan2 tong3"
-      },
-      {
-        "word": "观念",
-        "pos": "noun",
-        "phonetic": "kwan˥˥ njɛn˥˩",
-        "translation": "観念、考え方",
-        "note": "価値観や意識を指す。",
-        "pinyin": "guān niàn",
-        "pinyin_num": "guan1 nian4"
-      },
-      {
-        "word": "逐渐",
-        "pos": "adverb",
-        "phonetic": "ʈʂu˧˥ tɕjɛn˥˩",
-        "translation": "次第に、だんだん",
-        "note": "変化が徐々に進む様子。",
-        "pinyin": "zhú jiàn",
-        "pinyin_num": "zhu2 jian4"
-      },
-      {
-        "word": "角色",
-        "pos": "noun",
-        "phonetic": "tɕjɛ˧˥ sɤ˥˩",
-        "translation": "役割、役",
-        "note": "社会的役割を指すことが多い。",
-        "pinyin": "jué sè",
-        "pinyin_num": "jue2 se4"
-      },
-      {
         "word": "改变",
-        "pos": "verb/noun",
-        "phonetic": "kai˥˩ pien˥˩",
-        "translation": "変える、変わる、変化",
-        "note": "動詞としても名詞としても使える。",
-        "pinyin": "gǎi biàn",
-        "pinyin_num": "gai3 bian4"
+        "pos": "verb",
+        "phonetic": "gǎibiàn",
+        "translation": "変える、変化する",
+        "note": "自動詞または他動詞として使える"
       },
       {
         "word": "社会",
         "pos": "noun",
-        "phonetic": "ʂɤ˥˩ xwei˥˩",
-        "translation": "社会",
-        "note": "社会一般を指す。",
-        "pinyin": "shè huì",
-        "pinyin_num": "she4 hui4"
+        "phonetic": "shèhuì",
+        "translation": "社会"
+      },
+      {
+        "word": "传统",
+        "pos": "noun",
+        "phonetic": "chuántǒng",
+        "translation": "伝統"
       },
       {
         "word": "家庭",
         "pos": "noun",
-        "phonetic": "tɕja˥˥ tʰɤŋ˧˥",
-        "translation": "家庭",
-        "note": "家庭内の役割などで頻出。",
-        "pinyin": "jiā tíng",
-        "pinyin_num": "jia1 ting2"
+        "phonetic": "jiātíng",
+        "translation": "家庭"
       },
       {
-        "word": "地位",
+        "word": "男人",
         "pos": "noun",
-        "phonetic": "ti˥˩ wei˥˩",
-        "translation": "地位、立場",
-        "note": "社会的な位置づけ。",
-        "pinyin": "dì wèi",
-        "pinyin_num": "di4 wei4"
+        "phonetic": "nánrén",
+        "translation": "男性"
       },
       {
-        "word": "承认",
+        "word": "女人",
+        "pos": "noun",
+        "phonetic": "nǚrén",
+        "translation": "女性"
+      },
+      {
+        "word": "影响",
         "pos": "verb",
-        "phonetic": "ʈʂʰɤŋ˧˥ ʐən˥˩",
-        "translation": "認める、承認する",
-        "note": "事実や価値を認める。",
-        "pinyin": "chéng rèn",
-        "pinyin_num": "cheng2 ren4"
+        "phonetic": "yǐngxiǎng",
+        "translation": "影響する"
       },
       {
-        "word": "观念上",
-        "pos": "adverb (from noun 观念+上)",
-        "phonetic": "kwan˥˥ njɛn˥˩ ʂaŋ˥˩",
-        "translation": "観念の上では、考え方としては",
-        "note": "「～上」で「～の面で」という意味。",
-        "pinyin": "guān niàn shàng",
-        "pinyin_num": "guan1 nian4 shang4"
+        "word": "习惯",
+        "pos": "noun",
+        "phonetic": "xíguàn",
+        "translation": "習慣"
       },
       {
-        "word": "改变中",
-        "pos": "verb phrase (改变+中)",
-        "phonetic": "kai˥˩ pien˥˩ ʈʂʊŋ˥˥",
-        "translation": "変化している最中",
-        "note": "「～中」で進行中を表す。",
-        "pinyin": "gǎi biàn zhōng",
-        "pinyin_num": "gai3 bian4 zhong1"
+        "word": "年轻",
+        "pos": "adj",
+        "phonetic": "niánqīng",
+        "translation": "若い"
+      },
+      {
+        "word": "时期",
+        "pos": "noun",
+        "phonetic": "shíqī",
+        "translation": "時期"
+      },
+      {
+        "word": "接受",
+        "pos": "verb",
+        "phonetic": "jiēshòu",
+        "translation": "受け入れる"
+      },
+      {
+        "word": "虽然",
+        "pos": "conj",
+        "phonetic": "suīrán",
+        "translation": "～ではあるが"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你觉得现在社会对性别角色的看法有什么变化吗？",
-        "translation": "今の社会では性別の役割に対する見方はどう変わったと思う？",
+        "text": "最近社会对传统家庭角色的看法有些改变，你觉得呢？",
+        "translation": "最近、社会における伝統的な家庭の役割に対する見方が少し変わってきたと思うけど、どう思う？",
         "highlights": [
+          "改变",
           "社会",
-          "角色"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "我觉得传统观念里，男性主要承担养家的责任，但现在这种观念逐渐在改变。",
-        "translation": "伝統的な考え方では男性が主に家計を支える責任を担っていたけど、今はそういう考えがだんだん変わってきていると思う。",
-        "highlights": [
           "传统",
-          "观念",
-          "承担",
-          "逐渐",
-          "改变"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "是啊，现在越来越多的女性在职场上担任重要角色，家庭里男性也开始分担家务。",
-        "translation": "そうだね、今はますます多くの女性が職場で重要な役割を担っていて、家庭では男性も家事を分担し始めているね。",
-        "highlights": [
-          "角色",
           "家庭"
         ]
       },
       {
         "speaker": "B",
-        "text": "不过，在地位上，女性还是面临一些不公平，比如晋升机会少，工资低。",
-        "translation": "でも、地位の面では女性はまだ不公平に直面しているよ。例えば昇進の機会が少ないとか、賃金が低いとか。",
+        "text": "确实，现在很多年轻人不太接受男人只做工作、女人只做家务的传统习惯了。",
+        "translation": "確かに、今は多くの若者が男性は仕事だけ、女性は家事だけという伝統的な習慣を受け入れなくなっているね。",
         "highlights": [
-          "地位"
+          "年轻人",
+          "接受",
+          "传统",
+          "习惯"
         ]
       },
       {
         "speaker": "A",
-        "text": "确实，虽然法律上承认男女平等，但观念上还没完全转变。",
-        "translation": "確かに、法律上は男女平等を認めているけど、考え方の上ではまだ完全には変わっていないね。",
+        "text": "对啊，我觉得这跟整个社会的发展有很大关系。",
+        "translation": "そうだよね。これは社会全体の発展と大きく関係していると思う。",
         "highlights": [
-          "承认",
-          "观念上"
+          "社会"
         ]
       },
       {
         "speaker": "B",
-        "text": "对，而且很多男性也不愿意承认自己需要承担更多家庭责任，觉得这样没面子。",
-        "translation": "そうだね、それに多くの男性は自分がもっと家庭の責任を担う必要があると認めたがらないんだ。格好悪いと思って。",
+        "text": "虽然有些传统观念还很强，但年轻一代已经在慢慢改变这种现状了。",
+        "translation": "伝統的な考え方がまだ強いところもあるけれど、若い世代は徐々にこの現状を変えようとしている。",
         "highlights": [
-          "承认",
-          "承担"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "所以我觉得整个社会都在改变中，但还需要时间让观念真正转变。",
-        "translation": "だから社会全体が変化の途中だと思うけど、考え方を本当に変えるにはまだ時間が必要だね。",
-        "highlights": [
-          "社会",
-          "改变中",
-          "观念"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "没错，我们这一代至少可以推动改变，让下一代有更平等的环境。",
-        "translation": "その通り、私たちの世代は少なくとも変化を後押しして、次の世代がもっと平等な環境を持てるようにできるね。",
-        "highlights": [
+          "虽然",
+          "传统",
+          "观念",
+          "年轻",
           "改变"
         ]
+      },
+      {
+        "speaker": "A",
+        "text": "影响家庭的因素当然很多，但性别角色的变化是最明显的之一。",
+        "translation": "家庭に影響する要因はたくさんあるけど、性別の役割の変化はその中でも最も顕著なものの一つだよね。",
+        "highlights": [
+          "影响",
+          "家庭",
+          "变化"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "不过这种改变不是一朝一夕的，需要很长的时期。",
+        "translation": "でもこの変化は一朝一夕には起こらないから、長い期間が必要だよ。",
+        "highlights": [
+          "改变",
+          "时期"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "说得也是，我们也只能尽量接受并适应这种改变。",
+        "translation": "その通りだね。私たちもできるだけこの変化を受け入れて適応していくしかないね。",
+        "highlights": [
+          "接受",
+          "改变"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "希望未来的社会会更加公平和平等。",
+        "translation": "将来の社会がもっと公平で平等なものになることを願ってるよ。",
+        "highlights": []
       }
     ],
     "key_phrases": [
       {
-        "phrase": "在改变中",
-        "translation": "変化の途中である"
+        "phrase": "最近社会对传统家庭角色的看法有些改变",
+        "translation": "最近、社会における伝統的な家庭の役割に対する見方が少し変わってきた"
       },
       {
-        "phrase": "观念上",
-        "translation": "考え方の面では"
+        "phrase": "很多年轻人不太接受男人只做工作、女人只做家务的传统习惯了",
+        "translation": "多くの若者が男性は仕事だけ、女性は家事だけという伝統的な習慣を受け入れなくなっている"
       },
       {
-        "phrase": "承担...责任",
-        "translation": "責任を担う"
+        "phrase": "虽然有些传统观念还很强，但年轻一代已经在慢慢改变这种现状了",
+        "translation": "伝統的な考え方がまだ強いところもあるけれど、若い世代は徐々にこの現状を変えようとしている"
       }
     ]
   },
@@ -3098,195 +2648,159 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
+        "word": "深刻",
+        "pos": "adj",
+        "phonetic": "shēnkè",
+        "translation": "深い、深刻な",
+        "note": "感情や経験の度合いを表すのに使う"
+      },
+      {
         "word": "经历",
-        "pos": "noun/verb",
-        "phonetic": "/tɕiŋ˥˥ li˥˩/",
-        "translation": "経験（する）",
-        "note": "名詞として「経験」、動詞として「経験する」",
-        "pinyin": "jīng lì",
-        "pinyin_num": "jing1 li4"
+        "pos": "verb|noun",
+        "phonetic": "jīnglì",
+        "translation": "経験する（v）、経験（n）"
       },
       {
-        "word": "改变",
-        "pos": "verb/noun",
-        "phonetic": "/kaɪ˨˩˦ paɪn˥˩/",
-        "translation": "変える、変わる、変化",
-        "note": "既出の「改变」と重複するが、ここでは必須のため使用",
-        "pinyin": "gǎi biàn",
-        "pinyin_num": "gai3 bian4"
-      },
-      {
-        "word": "机会",
-        "pos": "noun",
-        "phonetic": "/tɕi˥˥ xuɤ˥˩/",
-        "translation": "機会",
-        "note": "",
-        "pinyin": "jī huì",
-        "pinyin_num": "ji1 hui4"
-      },
-      {
-        "word": "原来",
+        "word": "永远",
         "pos": "adv",
-        "phonetic": "/ɥɛn˧˥ laɪ˧˥/",
-        "translation": "もともと、実は",
-        "note": "気づきを表す副詞",
-        "pinyin": "yuán lái",
-        "pinyin_num": "yuan2 lai2"
+        "phonetic": "yǒngyuǎn",
+        "translation": "永遠に、ずっと"
       },
       {
-        "word": "其实",
-        "pos": "adv",
-        "phonetic": "/tɕʰi˧˥ ʂɻ˧˥/",
-        "translation": "実は、実際は",
-        "note": "「其实」は「実は」の意味で、訂正や新たな視点を示す",
-        "pinyin": "qí shí",
-        "pinyin_num": "qi2 shi2"
-      },
-      {
-        "word": "重新",
-        "pos": "adv",
-        "phonetic": "/ʈʂʰuŋ˧˥ ɕin˥˥/",
-        "translation": "再び、新たに",
-        "note": "",
-        "pinyin": "chóng xīn",
-        "pinyin_num": "chong2 xin1"
-      },
-      {
-        "word": "认识",
-        "pos": "verb/noun",
-        "phonetic": "/ʐən˥˩ ʂɻ˥˩/",
-        "translation": "認識する、知る、認識",
-        "note": "",
-        "pinyin": "rèn shi",
-        "pinyin_num": "ren4 shi0"
-      },
-      {
-        "word": "困难",
-        "pos": "adj/noun",
-        "phonetic": "/kʰuən˥˩ nan˧˥/",
-        "translation": "困難（な）、難しい",
-        "note": "",
-        "pinyin": "kùn nán",
-        "pinyin_num": "kun4 nan2"
-      },
-      {
-        "word": "克服",
+        "word": "留下",
         "pos": "verb",
-        "phonetic": "/kʰɤ˥˩ fu˧˥/",
-        "translation": "克服する",
-        "note": "",
-        "pinyin": "kè fú",
-        "pinyin_num": "ke4 fu2"
+        "phonetic": "liúxià",
+        "translation": "残す、残る"
       },
       {
-        "word": "信心",
-        "pos": "noun",
-        "phonetic": "/ɕin˥˩ ɕin˥˥/",
-        "translation": "自信、確信",
-        "note": "",
-        "pinyin": "xìn xīn",
-        "pinyin_num": "xin4 xin1"
+        "word": "偶然",
+        "pos": "adj|adv",
+        "phonetic": "ǒurán",
+        "translation": "偶然の（adj）、偶然に（adv）"
       },
       {
-        "word": "勇气",
-        "pos": "noun",
-        "phonetic": "/juŋ˨˩˦ tɕʰi˥˩/",
-        "translation": "勇気",
-        "note": "",
-        "pinyin": "yǒng qì",
-        "pinyin_num": "yong3 qi4"
+        "word": "决定",
+        "pos": "verb|noun",
+        "phonetic": "juédìng",
+        "translation": "決める（v）、決断（n）"
       },
       {
-        "word": "因此",
+        "word": "尽力",
+        "pos": "verb",
+        "phonetic": "jìnlì",
+        "translation": "全力を尽くす"
+      },
+      {
+        "word": "似乎",
+        "pos": "adv",
+        "phonetic": "sìhū",
+        "translation": "～のようだ、どうも～らしい"
+      },
+      {
+        "word": "然而",
         "pos": "conj",
-        "phonetic": "/in˥˥ ʈʂʰɻ˨˩˦/",
-        "translation": "それゆえに、したがって",
-        "note": "既出だが、ここでは接続詞として必須",
-        "pinyin": "yīn cǐ",
-        "pinyin_num": "yin1 ci3"
+        "phonetic": "rán'ér",
+        "translation": "しかしながら、ところが"
+      },
+      {
+        "word": "以",
+        "pos": "prep",
+        "phonetic": "yǐ",
+        "translation": "～を用いて、～によって"
+      },
+      {
+        "word": "几乎",
+        "pos": "adv",
+        "phonetic": "jīhū",
+        "translation": "ほとんど、ほぼ"
+      },
+      {
+        "word": "平静",
+        "pos": "adj",
+        "phonetic": "píngjìng",
+        "translation": "穏やかな、静かな"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "那次留学经历彻底改变了我的人生。",
-        "translation": "あの留学経験が完全に私の人生を変えた。",
+        "text": "这次的经历对你来说太深刻了吧？",
+        "translation": "今回の経験はあなたにとってとても深いものだったんじゃない？",
         "highlights": [
-          "经历",
-          "改变"
+          "深刻",
+          "经历"
         ]
       },
       {
         "speaker": "B",
-        "text": "是吗？你得到了什么机会？",
-        "translation": "そうなの？どんな機会を得たの？",
+        "text": "是啊，简直改变了我的人生。而且从那以后，我的心态似乎也变得不一样了。",
+        "translation": "ええ、人生を変えるくらいだったわ。そしてそれから、私の心の持ち方もどうやら変わったみたい。",
         "highlights": [
-          "机会"
+          "似乎"
         ]
       },
       {
         "speaker": "A",
-        "text": "原来我总害怕失败，但那时我意识到，其实失败并不可怕，可怕的是不去尝试。",
-        "translation": "もともと私は失敗を恐れていたけど、その時、実は失敗は怖くない、怖いのは挑戦しないことだと気づいた。",
+        "text": "你是偶然遇到了什么事，还是特意去体验的？",
+        "translation": "あなたは偶然何かを経験したの？それとも意図的に体験したの？",
         "highlights": [
-          "原来",
-          "其实"
+          "偶然",
+          "经历"
         ]
       },
       {
         "speaker": "B",
-        "text": "那你是怎么重新认识自己的？",
-        "translation": "それで、どうやって自分を再認識したの？",
+        "text": "老实说，一开始我并不想去，但后来决定尽力去做。因为那时候我几乎失去了所有的信心。",
+        "translation": "正直言って、最初は行きたくなかったんだけど、後で全力を尽くすことに決めたの。あの頃、私はほとんど自信を失っていたから。",
         "highlights": [
-          "重新",
-          "认识"
+          "决定",
+          "尽力",
+          "几乎"
         ]
       },
       {
         "speaker": "A",
-        "text": "我遇到了很多困难，但每次克服一个小困难，我就多了一份信心。",
-        "translation": "多くの困難に直面したけど、小さな困難を克服するたびに、自信が少しずつついた。",
+        "text": "那你是以什么方式面对这次挑战的？",
+        "translation": "それで、あなたは今回の挑戦にどういう方法で向き合ったの？",
         "highlights": [
-          "困难",
-          "克服",
-          "信心"
+          "以"
         ]
       },
       {
         "speaker": "B",
-        "text": "那你现在更有勇气面对未来了吧？",
-        "translation": "それで、今はもっと勇気を持って未来に向き合えるんでしょ？",
+        "text": "我只是保持平静，然后一步一步地走下去。",
+        "translation": "ただ穏やかに保って、一歩一歩進んでいっただけよ。",
         "highlights": [
-          "勇气"
+          "平静"
         ]
       },
       {
         "speaker": "A",
-        "text": "是的，因此我决定辞掉工作，去创业。",
-        "translation": "うん、だから仕事を辞めて起業することに決めたんだ。",
+        "text": "这样的经历确实会永远留在你的记忆中。",
+        "translation": "そういう経験は確かにあなたの記憶に永遠に残るわね。",
         "highlights": [
-          "因此"
+          "永远",
+          "留下",
+          "经历"
         ]
       },
       {
         "speaker": "B",
-        "text": "真是了不起的决定！祝你成功！",
-        "translation": "本当に素晴らしい決断だね！成功を祈ってる！",
-        "highlights": []
+        "text": "嗯，然而也让我学会了不再害怕面对未知的事情。",
+        "translation": "ええ、だけどその一方で、知らないことを恐れないようになったわ。",
+        "highlights": [
+          "然而"
+        ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "彻底改变了我的人生",
-        "translation": "完全に私の人生を変えた"
+        "phrase": "简直改变了我的人生",
+        "translation": "文字通り人生を変えるくらい"
       },
       {
-        "phrase": "重新认识自己",
-        "translation": "自分を再認識する"
-      },
-      {
-        "phrase": "克服困难",
-        "translation": "困難を克服する"
+        "phrase": "保持平静",
+        "translation": "穏やかな状態を保つ"
       }
     ]
   },
@@ -3299,199 +2813,160 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "幽默",
-        "pos": "noun",
-        "phonetic": "yōumò",
-        "translation": "ユーモア",
-        "note": "日本語の「ユーモア」に相当。",
-        "pinyin": "yōu mò",
-        "pinyin_num": "you1 mo4"
-      },
-      {
-        "word": "沟通",
+        "word": "能",
         "pos": "verb",
-        "phonetic": "gōutōng",
-        "translation": "コミュニケーションする",
-        "note": "名詞としても使われる。",
-        "pinyin": "gōu tōng",
-        "pinyin_num": "gou1 tong1"
+        "phonetic": "néng",
+        "translation": "できる"
       },
       {
-        "word": "轻松",
-        "pos": "adj",
-        "phonetic": "qīngsōng",
-        "translation": "気軽な、リラックスした",
-        "note": "「轻松的气氛」で「和やかな雰囲気」。",
-        "pinyin": "qīng sōng",
-        "pinyin_num": "qing1 song1"
-      },
-      {
-        "word": "气氛",
-        "pos": "noun",
-        "phonetic": "qìfēn",
-        "translation": "雰囲気",
-        "note": "場の空気を指す。",
-        "pinyin": "qì fēn",
-        "pinyin_num": "qi4 fen1"
-      },
-      {
-        "word": "开玩笑",
+        "word": "让",
         "pos": "verb",
-        "phonetic": "kāi wánxiào",
-        "translation": "冗談を言う",
-        "note": "「开个玩笑」で「冗談ですよ」。",
-        "pinyin": "kāi wán xiào",
-        "pinyin_num": "kai1 wan2 xiao4"
+        "phonetic": "ràng",
+        "translation": "～させる、～してもらう"
       },
       {
-        "word": "严肃",
-        "pos": "adj",
-        "phonetic": "yánsù",
-        "translation": "真面目な、厳粛な",
-        "note": "場の雰囲気が硬い時に使う。",
-        "pinyin": "yán sù",
-        "pinyin_num": "yan2 su4"
+        "word": "别人",
+        "pos": "pronoun",
+        "phonetic": "biéren",
+        "translation": "他人、人"
+      },
+      {
+        "word": "自己",
+        "pos": "pronoun",
+        "phonetic": "zìjǐ",
+        "translation": "自分自身"
+      },
+      {
+        "word": "意思",
+        "pos": "noun",
+        "phonetic": "yìsi",
+        "translation": "意味、意図"
+      },
+      {
+        "word": "场合",
+        "pos": "noun",
+        "phonetic": "chǎnghé",
+        "translation": "場面、状況"
+      },
+      {
+        "word": "才",
+        "pos": "adverb",
+        "phonetic": "cái",
+        "translation": "やっと、初めて"
+      },
+      {
+        "word": "起来",
+        "pos": "verb+complement",
+        "phonetic": "qǐlái",
+        "translation": "～し始める"
       },
       {
         "word": "不过",
-        "pos": "conj",
-        "phonetic": "búguò",
-        "translation": "ただし、しかし",
-        "note": "逆接の接続詞。会話でよく使う。",
-        "pinyin": "bú guò",
-        "pinyin_num": "bu2 guo4"
+        "pos": "conjunction",
+        "phonetic": "bùguò",
+        "translation": "しかし、ただ"
       },
       {
-        "word": "其实",
-        "pos": "adv",
-        "phonetic": "qíshí",
-        "translation": "実は、実際は",
-        "note": "「其实」は既に学習済みだが、ここでは文脈上自然に使う。",
-        "pinyin": "qí shí",
-        "pinyin_num": "qi2 shi2"
+        "word": "几乎",
+        "pos": "adverb",
+        "phonetic": "jīhū",
+        "translation": "ほとんど"
       },
       {
-        "word": "自然",
-        "pos": "adj",
-        "phonetic": "zìrán",
-        "translation": "自然な、無理のない",
-        "note": "「自然に」は副詞的にも使う。",
-        "pinyin": "zì rán",
-        "pinyin_num": "zi4 ran2"
+        "word": "正好",
+        "pos": "adverb",
+        "phonetic": "zhènghǎo",
+        "translation": "ちょうど、おりよく"
       },
       {
-        "word": "容易",
-        "pos": "adj",
-        "phonetic": "róngyì",
-        "translation": "簡単だ、容易だ",
-        "note": "「不容易」で「難い」。",
-        "pinyin": "róng yì",
-        "pinyin_num": "rong2 yi4"
-      },
-      {
-        "word": "避免",
+        "word": "靠",
         "pos": "verb",
-        "phonetic": "bìmiǎn",
-        "translation": "避ける",
-        "note": "「避免误会」で「誤解を避ける」。",
-        "pinyin": "bì miǎn",
-        "pinyin_num": "bi4 mian3"
-      },
-      {
-        "word": "误会",
-        "pos": "noun",
-        "phonetic": "wùhuì",
-        "translation": "誤解",
-        "note": "動詞としても使う。「誤解する」。",
-        "pinyin": "wù huì",
-        "pinyin_num": "wu4 hui4"
+        "phonetic": "kào",
+        "translation": "頼る、基づく"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "你觉得幽默在沟通中重要吗？",
-        "translation": "ユーモアはコミュニケーションにおいて重要だと思いますか？",
+        "text": "你觉得幽默能让交流变得更轻松吗？",
+        "translation": "ユーモアはコミュニケーションをより楽にすると思いますか？",
         "highlights": [
-          "幽默",
-          "沟通"
+          "能",
+          "让"
         ]
       },
       {
         "speaker": "B",
-        "text": "当然重要。幽默能让气氛变得轻松，大家更容易开口说话。",
-        "translation": "もちろん重要です。ユーモアは雰囲気を和やかにし、みんなが話しやすくなります。",
+        "text": "当然了！有时候我也会用幽默让别人放松一下。",
+        "translation": "もちろんです！時々私もユーモアで人をリラックスさせます。",
         "highlights": [
-          "气氛",
-          "轻松",
-          "容易"
+          "别人"
         ]
       },
       {
         "speaker": "A",
-        "text": "不过，开玩笑也要看场合。太严肃的场合就不适合。",
-        "translation": "ただし、冗談も場面によりますよね。真面目すぎる場面にはふさわしくない。",
+        "text": "真的吗？我觉得有时候开玩笑容易让人误会意思。",
+        "translation": "Really? I think sometimes joking can be easily misunderstood.",
+        "highlights": [
+          "意思"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "所以要看场合吧？在工作场合不能太随便，但私下里没问题。",
+        "translation": "だから状況次第ですね？仕事の場ではあまりフランクになれませんが、プライベートなら大丈夫です。",
+        "highlights": [
+          "场合",
+          "才"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "说得对！不过有时候别人并不觉得你在开玩笑，不是吗？",
+        "translation": "その通りです！でも時には相手が冗談と受け取らないこともありますよね？",
         "highlights": [
           "不过",
-          "开玩笑",
-          "严肃"
+          "别人"
         ]
       },
       {
         "speaker": "B",
-        "text": "对，其实幽默如果用得自然，反而能避免误会。",
-        "translation": "そうですね。実はユーモアを自然に使えば、むしろ誤解を避けられます。",
+        "text": "是啊，确实有风险。但我觉得只要自己多注意，幽默起来起来就会越来越自然。",
+        "translation": "そうですね、確かにリスクはあります。でも自分が注意すれば、ユーモアを使うのがどんどん自然になっていくと思います。",
         "highlights": [
-          "其实",
-          "自然",
-          "避免",
-          "误会"
+          "起来",
+          "自己"
         ]
       },
       {
         "speaker": "A",
-        "text": "我以前觉得幽默只是让人笑，没想到还有这个作用。",
-        "translation": "以前はユーモアはただ人を笑わせるだけだと思っていましたが、そんな役割もあるとは思いませんでした。",
+        "text": "那你有过尴尬的经历吗？",
+        "translation": "そういう awkward な経験はありましたか？",
         "highlights": []
       },
       {
         "speaker": "B",
-        "text": "所以，学会在合适的时机幽默，是一种沟通的智慧。",
-        "translation": "だから、適切なタイミングでユーモアを発揮するのは、コミュニケーションの知恵です。",
+        "text": "当然有！有一次我正好开一个小玩笑，结果别人一点反应都没有，我就觉得自己特别尴尬。",
+        "translation": "もちろんあります！ある時ちょうど冗談を言ったら、相手は全く反応せず、とても居心地悪かったです。",
         "highlights": [
-          "时机"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "确实，幽默让我们的对话更自然，也更有趣。",
-        "translation": "確かに、ユーモアは私たちの会話をより自然にし、より面白くします。",
-        "highlights": [
-          "自然"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "希望我们都能成为有幽默感的人，让沟通变得更轻松。",
-        "translation": "私たち皆がユーモアのセンスを持ち、コミュニケーションをもっと気楽にできたらいいですね。",
-        "highlights": [
-          "轻松",
-          "沟通"
+          "正好",
+          "别人",
+          "靠"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "让气氛变得轻松",
-        "translation": "雰囲気を和やかにする"
+        "phrase": "你觉得幽默能让交流变得更轻松吗？",
+        "translation": "ユーモアはコミュニケーションをより楽にすると思いますか？"
       },
       {
-        "phrase": "开玩笑也要看场合",
-        "translation": "冗談も場面をわきまえるべきだ"
+        "phrase": "有时候我会用幽默让别人放松一下",
+        "translation": "時々私はユーモアで人をリラックスさせます"
       },
       {
-        "phrase": "避免误会",
-        "translation": "誤解を避ける"
+        "phrase": "你有过尴尬的经历吗？",
+        "translation": "そういう awkward な経験はありましたか？"
       }
     ]
   },
@@ -3504,195 +2979,162 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "数据",
+        "word": "结果",
         "pos": "noun",
-        "phonetic": "/ʂu˥˩tɕy˥˩/",
-        "translation": "データ",
-        "note": "複数形なし。研究データの意味でよく使う。",
-        "pinyin": "shù jù",
-        "pinyin_num": "shu4 ju4"
+        "phonetic": "jiéguǒ",
+        "translation": "結果、成果"
+      },
+      {
+        "word": "提出",
+        "pos": "verb",
+        "phonetic": "tíchū",
+        "translation": "提起する、提案する"
+      },
+      {
+        "word": "材料",
+        "pos": "noun",
+        "phonetic": "cáiliào",
+        "translation": "資料、材料"
+      },
+      {
+        "word": "证明",
+        "pos": "verb",
+        "phonetic": "zhèngmíng",
+        "translation": "証明する"
+      },
+      {
+        "word": "根据",
+        "pos": "preposition",
+        "phonetic": "gēnjù",
+        "translation": "～に基づいて"
       },
       {
         "word": "分析",
         "pos": "verb/noun",
-        "phonetic": "/fən˥˥ɕi˥˥/",
-        "translation": "分析する",
-        "note": "名詞としても動詞としても使う。",
-        "pinyin": "fēn xī",
-        "pinyin_num": "fen1 xi1"
+        "phonetic": "fēnxī",
+        "translation": "分析する、分析"
       },
       {
-        "word": "显著",
-        "pos": "adj",
-        "phonetic": "/ɕjɛn˥˩tʂu˥˩/",
-        "translation": "顕著な、有意な",
-        "note": "統計的に有意、の意味で研究発表でよく使う。",
-        "pinyin": "xiǎn zhù",
-        "pinyin_num": "xian3 zhu4"
-      },
-      {
-        "word": "趋势",
-        "pos": "noun",
-        "phonetic": "/tɕʰy˥˥ʂɻ̩˥˩/",
-        "translation": "傾向、トレンド",
-        "note": "",
-        "pinyin": "qū shì",
-        "pinyin_num": "qu1 shi4"
-      },
-      {
-        "word": "表明",
-        "pos": "verb",
-        "phonetic": "/pjɑʊ˨˩˦mɪŋ˧˥/",
-        "translation": "示す、明らかにする",
-        "note": "客観的なデータが主語になることが多い。",
-        "pinyin": "biǎo míng",
-        "pinyin_num": "biao3 ming2"
-      },
-      {
-        "word": "假设",
-        "pos": "noun",
-        "phonetic": "/tɕjɑ˥˩ʂɤ˥˩/",
-        "translation": "仮説",
-        "note": "",
-        "pinyin": "jiǎ shè",
-        "pinyin_num": "jia3 she4"
-      },
-      {
-        "word": "验证",
-        "pos": "verb",
-        "phonetic": "/jɛn˥˩tʂɤŋ˥˩/",
-        "translation": "検証する",
-        "note": "",
-        "pinyin": "yàn zhèng",
-        "pinyin_num": "yan4 zheng4"
-      },
-      {
-        "word": "样本",
-        "pos": "noun",
-        "phonetic": "/jɑŋ˥˩pən˨˩˦/",
-        "translation": "サンプル、標本",
-        "note": "",
-        "pinyin": "yàng běn",
-        "pinyin_num": "yang4 ben3"
-      },
-      {
-        "word": "普遍",
-        "pos": "adj",
-        "phonetic": "/pʰu˨˩˦pjɛn˥˩/",
-        "translation": "一般的な、広く行き渡った",
-        "note": "",
-        "pinyin": "pǔ biàn",
-        "pinyin_num": "pu3 bian4"
-      },
-      {
-        "word": "解释",
+        "word": "发现",
         "pos": "verb/noun",
-        "phonetic": "/tɕjɛ˨˩˦ʂɻ̩˥˩/",
-        "translation": "説明する、解釈する",
-        "note": "",
-        "pinyin": "jiě shì",
-        "pinyin_num": "jie3 shi4"
+        "phonetic": "fāxiàn",
+        "translation": "発見する、発見"
       },
       {
-        "word": "初步",
-        "pos": "adj",
-        "phonetic": "/tʂʰu˥˥pʰu˥˩/",
-        "translation": "予備的な、初歩的な",
-        "note": "",
-        "pinyin": "chū bù",
-        "pinyin_num": "chu1 bu4"
-      },
-      {
-        "word": "参考",
+        "word": "报告",
         "pos": "verb/noun",
-        "phonetic": "/tʂʰan˥˥kʰɑʊ˥˩/",
-        "translation": "参考にする",
-        "note": "",
-        "pinyin": "cān kǎo",
-        "pinyin_num": "can1 kao3"
+        "phonetic": "bàogào",
+        "translation": "報告する、レポート"
+      },
+      {
+        "word": "清楚",
+        "pos": "adj",
+        "phonetic": "qīngchu",
+        "translation": "明確な、はっきりとした"
+      },
+      {
+        "word": "支持",
+        "pos": "verb/noun",
+        "phonetic": "zhīchí",
+        "translation": "支持する、支援"
+      },
+      {
+        "word": "因此",
+        "pos": "conjunction",
+        "phonetic": "yīncǐ",
+        "translation": "したがって、そのため"
+      },
+      {
+        "word": "合理",
+        "pos": "adj",
+        "phonetic": "hélǐ",
+        "translation": "合理的な"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "まず、収集したデータを分析しました。その結果、仮説を支持する有意な傾向が見られました。",
-        "translation": "まず、収集したデータを分析しました。その結果、仮説を支持する有意な傾向が見られました。",
+        "text": "根据我们的分析结果，这次实验得出了一个清楚的发现。",
+        "translation": "私たちの分析結果によると、この実験からある明確な発見が得られました。",
         "highlights": [
-          "数据",
+          "根据",
           "分析",
-          "假设",
-          "显著",
-          "趋势"
+          "结果",
+          "清楚",
+          "发现"
         ]
       },
       {
         "speaker": "B",
-        "text": "なるほど。その傾向はどのくらい普遍的なものですか？サンプルの規模は？",
-        "translation": "なるほど。その傾向はどのくらい普遍的なものですか？サンプルの規模は？",
+        "text": "真的吗？能提出一些具体的材料来支持这个发现吗？",
+        "translation": "本当ですか？この発見を裏付ける具体的な資料を提示してもらえますか？",
         "highlights": [
-          "普遍",
-          "样本"
+          "提出",
+          "材料",
+          "支持"
         ]
       },
       {
         "speaker": "A",
-        "text": "サンプルは300人で、結果は十分に有意でした。これは、私たちの仮説が正しいことを示しています。",
-        "translation": "サンプルは300人で、結果は十分に有意でした。これは、私たちの仮説が正しいことを示しています。",
+        "text": "当然。我们已经整理了所有证明材料，包括实验数据和相关文献。",
+        "translation": "もちろんです。実験データや関連文献を含む、証拠となる資料はすべて整理しました。",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "那么报告什么时候可以完成？我需要提前给团队看一下。",
+        "translation": "では、レポートはいつ完成しますか？チームに先に見せる必要があります。",
         "highlights": [
-          "样本",
-          "显著",
-          "假设",
-          "表明"
+          "报告"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "下周一之前一定会完成。内容会非常清楚，不会有任何误解。",
+        "translation": "来週の月曜日までには必ず完成します。内容は非常に明確で、誤解の余地はありません。",
+        "highlights": [
+          "清楚"
         ]
       },
       {
         "speaker": "B",
-        "text": "その結果をどう説明しますか？他の要因が影響している可能性は？",
-        "translation": "その結果をどう説明しますか？他の要因が影響している可能性は？",
+        "text": "这样很好。报告需要体现合理的逻辑结构，这样才能让大家更容易接受。",
+        "translation": "それは良いですね。レポートには合理的な論理構造を反映してもらわないと、皆に受け入れられにくいですから。",
         "highlights": [
-          "解释"
+          "合理"
         ]
       },
       {
         "speaker": "A",
-        "text": "現時点では、これは予備的な分析ですが、追加の研究で検証する必要があります。",
-        "translation": "現時点では、これは予備的な分析ですが、追加の研究で検証する必要があります。",
+        "text": "我已经准备好了，因此汇报时会提供详细的支持材料。",
+        "translation": "すでに準備はできています。そのため、発表の際には詳細なサポート資料を提供します。",
         "highlights": [
-          "初步",
-          "分析",
-          "验证"
+          "因此"
         ]
       },
       {
         "speaker": "B",
-        "text": "なるほど。参考までに、そのデータは公開されていますか？",
-        "translation": "なるほど。参考までに、そのデータは公開されていますか？",
-        "highlights": [
-          "参考",
-          "数据"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "はい、後ほど共有します。ただし、まだ予備的な結果なので、その点を考慮してください。",
-        "translation": "はい、後ほど共有します。ただし、まだ予備的な結果なので、その点を考慮してください。",
-        "highlights": [
-          "初步"
-        ]
+        "text": "太好了，这样大家都能理解我们的研究发现了。",
+        "translation": "素晴らしいです。これで皆が研究の発見を理解できるようになりますね。",
+        "highlights": []
       }
     ],
     "key_phrases": [
       {
-        "phrase": "データを分析する",
-        "translation": "データを分析する"
+        "phrase": "根据我们的分析结果，这次实验得出了一个清楚的发现。",
+        "translation": "私たちの分析結果によると、この実験からある明確な発見が得られました。"
       },
       {
-        "phrase": "仮説を検証する",
-        "translation": "仮説を検証する"
+        "phrase": "能提出一些具体的材料来支持这个发现吗？",
+        "translation": "この発見を裏付ける具体的な資料を提示してもらえますか？"
       },
       {
-        "phrase": "有意な傾向が見られる",
-        "translation": "有意な傾向が見られる"
+        "phrase": "报告下周一之前一定会完成。",
+        "translation": "レポートは来週の月曜日までには必ず完成します。"
+      },
+      {
+        "phrase": "这样很好。报告需要体现合理的逻辑结构。",
+        "translation": "それは良いですね。レポートには合理的な論理構造を反映してもらわないと。"
       }
     ]
   },
@@ -3705,195 +3147,183 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "差距",
+        "word": "完全",
+        "pos": "adv",
+        "phonetic": "wánquán",
+        "translation": "完全に、全く",
+        "note": "「完全に違う」のように、否定と呼応することが多い"
+      },
+      {
+        "word": "关系",
         "pos": "noun",
-        "phonetic": "tɕʰjɑ˥ tɕʰɥ˥",
-        "translation": "格差、差",
-        "note": "「gap/差」の意。社会格差などに用いる",
-        "pinyin": "chā jù",
-        "pinyin_num": "cha1 ju4"
+        "phonetic": "guānxì",
+        "translation": "関係、繋がり",
+        "note": "「人と人との関係」のほか、「重要な関係」の意味でも使う"
       },
       {
-        "word": "阶层",
-        "pos": "noun",
-        "phonetic": "tɕjɛ˥ tʂʰən˧˥",
-        "translation": "階層、階級",
-        "note": "社会階層を指す",
-        "pinyin": "jiē céng",
-        "pinyin_num": "jie1 ceng2"
-      },
-      {
-        "word": "上升",
-        "pos": "verb",
-        "phonetic": "ʂɑŋ˥˩ ʂən˥",
-        "translation": "上昇する、上がる",
-        "note": "地位や数値が上がる",
-        "pinyin": "shàng shēng",
-        "pinyin_num": "shang4 sheng1"
-      },
-      {
-        "word": "渠道",
-        "pos": "noun",
-        "phonetic": "tɕʰy˧˥ tɑʊ˥",
-        "translation": "経路、ルート、手段",
-        "note": "抽象的な「手段」にも使う",
-        "pinyin": "qú dào",
-        "pinyin_num": "qu2 dao4"
-      },
-      {
-        "word": "平等",
+        "word": "实际",
         "pos": "adj/noun",
-        "phonetic": "pʰiŋ˧˥ təŋ˧˥",
-        "translation": "平等(な)、平等",
-        "note": "形容詞としても名詞としても使う",
-        "pinyin": "píng děng",
-        "pinyin_num": "ping2 deng3"
+        "phonetic": "shíjì",
+        "translation": "実際の、現実の / 実情",
+        "note": "形容詞として「実際の状況」など、名詞として「実際のところ」など"
       },
       {
-        "word": "资源",
+        "word": "一般",
+        "pos": "adj/adv",
+        "phonetic": "yībān",
+        "translation": "一般的な / 一般的に",
+        "note": "「一般的に言って」のように慣用的に使うことが多い"
+      },
+      {
+        "word": "心理",
         "pos": "noun",
-        "phonetic": "tʂɨ˥ ɥɛn˧˥",
-        "translation": "資源",
-        "note": "人的資源、物的資源など",
-        "pinyin": "zī yuán",
-        "pinyin_num": "zi1 yuan2"
+        "phonetic": "xīnlǐ",
+        "translation": "心理、メンタル",
+        "note": "「心理的な要因」のように抽象的な心の働きを指す"
       },
       {
-        "word": "分配",
+        "word": "因此",
+        "pos": "conj",
+        "phonetic": "yīncǐ",
+        "translation": "したがって、そのため",
+        "note": "書き言葉で因果関係を示す接続詞"
+      },
+      {
+        "word": "努力",
         "pos": "verb/noun",
-        "phonetic": "fən˥ pʰej˥˩",
-        "translation": "分配する、配分",
-        "note": "資源や所得の分配に用いる",
-        "pinyin": "fēn pèi",
-        "pinyin_num": "fen1 pei4"
+        "phonetic": "nǔlì",
+        "translation": "努力する / 努力",
+        "note": "「自分で努力する」のように、自発的な行動を表す"
       },
       {
-        "word": "限制",
-        "pos": "verb/noun",
-        "phonetic": "ɕjɛn˥˩ tʂɨ˥˩",
-        "translation": "制限する、制限",
-        "note": "「limit/restrict」の意",
-        "pinyin": "xiàn zhì",
-        "pinyin_num": "xian4 zhi4"
-      },
-      {
-        "word": "改善",
-        "pos": "verb",
-        "phonetic": "kaɪ̯˥˩ ʂən˥˩",
-        "translation": "改善する",
-        "note": "「improve」の意",
-        "pinyin": "gǎi shàn",
-        "pinyin_num": "gai3 shan4"
-      },
-      {
-        "word": "背景",
+        "word": "压力",
         "pos": "noun",
-        "phonetic": "peɪ̯˥˩ tɕʰiŋ˧˥",
-        "translation": "背景、経歴",
-        "note": "出身や経歴の文脈で使う",
-        "pinyin": "bèi jǐng",
-        "pinyin_num": "bei4 jing3"
+        "phonetic": "yālì",
+        "translation": "圧力、ストレス",
+        "note": "「社会的圧力」など、精神的・物理的な圧迫を指す"
       },
       {
-        "word": "政策",
-        "pos": "noun",
-        "phonetic": "tʂəŋ˥˩ tʂʰə˧˥",
-        "translation": "政策",
-        "note": "政府や組織の政策",
-        "pinyin": "zhèng cè",
-        "pinyin_num": "zheng4 ce4"
-      },
-      {
-        "word": "实现",
+        "word": "保持",
         "pos": "verb",
-        "phonetic": "ʂɨ˧˥ ɕjɛn˥˩",
-        "translation": "実現する",
-        "note": "目標や希望を実現する",
-        "pinyin": "shí xiàn",
-        "pinyin_num": "shi2 xian4"
+        "phonetic": "bǎochí",
+        "translation": "維持する、保つ",
+        "note": "「バランスを保持する」のように、状態を一定に保つこと"
+      },
+      {
+        "word": "创造",
+        "pos": "verb",
+        "phonetic": "chuàngzào",
+        "translation": "創造する、生み出す",
+        "note": "「機会を創造する」のように、新しいものを生み出すこと"
+      },
+      {
+        "word": "面对",
+        "pos": "verb",
+        "phonetic": "miànduì",
+        "translation": "直面する、向き合う",
+        "note": "「困難に面対する」のように、直接向き合うことを表す"
+      },
+      {
+        "word": "提高",
+        "pos": "verb",
+        "phonetic": "tígāo",
+        "translation": "向上させる、高める",
+        "note": "「レベルを提高する」のように、質や能力を高めること"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "最近の統計では、所得の差距がどんどん広がっているらしい。",
-        "translation": "最近の統計によると、所得の格差がどんどん広がっているらしい。",
+        "text": "你完全忽略了贫富差距对一个人机会的影响。",
+        "translation": "あなたは完全に貧富の差が人の機会に与える影響を無視しています。",
         "highlights": [
-          "差距"
+          "完全"
         ]
       },
       {
         "speaker": "B",
-        "text": "そうだね。特に教育や仕事の機会が、出身の阶层によって大きく制限されている気がする。",
-        "translation": "そうだね。特に教育や仕事の機会が、出身の階層によって大きく制限されている気がする。",
+        "text": "话虽如此，但实际情况并不像你说的那么简单。",
+        "translation": "そう言われても、実情はあなたの言うほど単純ではないんです。",
         "highlights": [
-          "阶层",
-          "制限"
+          "实际"
         ]
       },
       {
         "speaker": "A",
-        "text": "でも、昔よりは社会全体の平等は進んでいると思う。ただ、まだまだ資源の分配が偏っているね。",
-        "translation": "でも、昔よりは社会全体の平等は進んでいると思う。ただ、まだまだ資源の分配が偏っているね。",
+        "text": "很多人认为努力就能改变命运，但这背后的关系并不那么单纯。",
+        "translation": "多くの人は努力すれば運命を変えられると思っていますが、その背景にある関係はそんなに単純ではありません。",
         "highlights": [
-          "平等",
-          "资源",
-          "分配"
+          "关系",
+          "努力"
         ]
       },
       {
         "speaker": "B",
-        "text": "確かに。でも、個人の努力だけじゃ超えられない壁もある。特に、家庭の背景が大きな影響を与えるから。",
-        "translation": "確かに。でも、個人の努力だけじゃ超えられない壁もある。特に、家庭の背景が大きな影響を与えるから。",
+        "text": "一般人确实难以理解这种心理压力。",
+        "translation": "一般の人にはこういった心理的圧力はなかなか理解できません。",
         "highlights": [
-          "背景"
+          "一般",
+          "心理",
+          "压力"
         ]
       },
       {
         "speaker": "A",
-        "text": "それには政策の役割が大事だよ。教育への投資を増やせば、上昇の渠道がもっと開けるかもしれない。",
-        "translation": "それには政策の役割が大事だよ。教育への投資を増やせば、上昇の経路がもっと開けるかもしれない。",
+        "text": "因此，社会需要创造更公平的机会，让每个人都有提高自己能力的空间。",
+        "translation": "したがって、社会はより公平な機会を創造する必要があり、誰もが自分の能力を高める場を持てるようにすべきです。",
         "highlights": [
-          "政策",
-          "上升",
-          "渠道"
+          "因此",
+          "创造",
+          "提高"
         ]
       },
       {
         "speaker": "B",
-        "text": "でも、単に機会を増やすだけじゃなくて、結果の平等も考えないと。そうしないと実質的な改善にはならない。",
-        "translation": "でも、単に機会を増やすだけじゃなくて、結果の平等も考えないと。そうしないと実質的な改善にはならない。",
+        "text": "不过，面对现实中的不公，我们只能保持乐观，继续努力。",
+        "translation": "とはいえ、現実の不公に直面しても、私たちは楽観的でい続け、努力し続けるしかありません。",
         "highlights": [
-          "改善"
+          "面对",
+          "保持",
+          "努力"
         ]
       },
       {
         "speaker": "A",
-        "text": "そうだね。理想は、誰もが自分の能力を発揮して、目標を实现できる社会だと思う。",
-        "translation": "そうだね。理想は、誰もが自分の能力を発揮して、目標を実現できる社会だと思う。",
+        "text": "你说得对，但仅靠个人努力是不够的，需要整个社会的支持。",
+        "translation": "あなたの言う通りですが、個人の努力だけでは不十分で、社会全体の支援が必要です。",
         "highlights": [
-          "实现"
+          "努力"
         ]
       },
       {
         "speaker": "B",
-        "text": "うん、そのためには、まず現実の格差を直視して、みんなで議論を続けることが必要だね。",
-        "translation": "うん、そのためには、まず現実の格差を直視して、みんなで議論を続けることが必要だね。",
-        "highlights": []
+        "text": "是啊，这才是真正解决问题的关键所在。",
+        "translation": "ええ、それがまさに問題を解決する鍵なんです。",
+        "highlights": [
+          "关键"
+        ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "所得の差距",
-        "translation": "所得格差"
+        "phrase": "忽略了贫富差距的影响",
+        "translation": "貧富の差の影響を無視する"
       },
       {
-        "phrase": "上昇の渠道",
-        "translation": "上昇の経路（社会的上昇移動の手段）"
+        "phrase": "实际情况并不简单",
+        "translation": "実情は単純ではない"
       },
       {
-        "phrase": "资源の分配",
-        "translation": "資源の分配"
+        "phrase": "背后的关系并不单纯",
+        "translation": "背景にある関係は単純ではない"
+      },
+      {
+        "phrase": "创造更公平的机会",
+        "translation": "より公平な機会を創造する"
+      },
+      {
+        "phrase": "面对现实中的不公",
+        "translation": "現実の不公に直面する"
       }
     ]
   },
@@ -3906,199 +3336,169 @@
     "frequency_note": "words ranked ~1500–3000 by frequency of Mandarin",
     "vocabulary": [
       {
-        "word": "管理",
-        "pos": "verb",
-        "phonetic": "/kuan˨˩˦ li˨˩˦/",
-        "translation": "管理する",
-        "note": "「経営・管理する」の意。リーダーシップの文脈で頻出。",
-        "pinyin": "guǎn lǐ",
-        "pinyin_num": "guan3 li3"
-      },
-      {
-        "word": "要求",
-        "pos": "verb",
-        "phonetic": "/jɑu˥˥ tɕʰiou˧˥/",
-        "translation": "要求する",
-        "note": "人に何かを求める。強い要求から穏やかな要望まで幅広く使う。",
-        "pinyin": "yāo qiú",
-        "pinyin_num": "yao1 qiu2"
-      },
-      {
-        "word": "员工",
-        "pos": "noun",
-        "phonetic": "/yɛn˧˥ kuŋ˥˥/",
-        "translation": "従業員",
-        "note": "会社で働く人。",
-        "pinyin": "yuán gōng",
-        "pinyin_num": "yuan2 gong1"
-      },
-      {
         "word": "方式",
         "pos": "noun",
-        "phonetic": "/fɑŋ˥˥ ʂɻ̩˥˩/",
+        "phonetic": "fāngshì",
         "translation": "方法、やり方",
-        "note": "「方式」はやり方・スタイルを指す。",
-        "pinyin": "fāng shì",
-        "pinyin_num": "fang1 shi4"
+        "note": "指特定的做法或风格"
       },
       {
-        "word": "效率",
+        "word": "管理",
+        "pos": "verb",
+        "phonetic": "guǎnlǐ",
+        "translation": "管理する"
+      },
+      {
+        "word": "团队",
         "pos": "noun",
-        "phonetic": "/ɕjɑu˥˩ ly˥˩/",
-        "translation": "効率",
-        "note": "仕事の能率、効率。",
-        "pinyin": "xiào lǜ",
-        "pinyin_num": "xiao4 lü4"
+        "phonetic": "tuánduì",
+        "translation": "チーム"
       },
       {
-        "word": "直接",
-        "pos": "adjective",
-        "phonetic": "/ʈʂɻ̩˧˥ tɕjɛ˥˥/",
-        "translation": "直接的な",
-        "note": "物事が直接的である様子。",
-        "pinyin": "zhí jiē",
-        "pinyin_num": "zhi2 jie1"
+        "word": "民主",
+        "pos": "adj",
+        "phonetic": "mínzhǔ",
+        "translation": "民主主義の"
       },
       {
-        "word": "积极",
-        "pos": "adjective",
-        "phonetic": "/tɕi˥˥ tɕi˧˥/",
-        "translation": "積極的な",
-        "note": "意欲的で前向きな様子。",
-        "pinyin": "jī jí",
-        "pinyin_num": "ji1 ji2"
+        "word": "严格",
+        "pos": "adj",
+        "phonetic": "yángé",
+        "translation": "厳格な"
       },
       {
-        "word": "或许",
-        "pos": "adverb",
-        "phonetic": "/xuɔ˥˩ ɕy˥˩/",
-        "translation": "ひょっとすると",
-        "note": "「かもしれない」という推量。",
-        "pinyin": "huò xǔ",
-        "pinyin_num": "huo4 xu3"
+        "word": "简单",
+        "pos": "adj",
+        "phonetic": "jiǎndān",
+        "translation": "簡単な"
       },
       {
-        "word": "而且",
-        "pos": "conjunction",
-        "phonetic": "/ɤɻ˧˥ tɕʰjɛ˨˩˦/",
-        "translation": "その上、さらに",
-        "note": "追加の情報を述べる接続詞。",
-        "pinyin": "ér qiě",
-        "pinyin_num": "er2 qie3"
-      },
-      {
-        "word": "对于",
-        "pos": "preposition",
-        "phonetic": "/tuei˥˩ y˧˥/",
-        "translation": "～にとって、～に関して",
-        "note": "対象を示す。",
-        "pinyin": "duì yú",
-        "pinyin_num": "dui4 yu2"
-      },
-      {
-        "word": "明确",
-        "pos": "adjective",
-        "phonetic": "/miŋ˧˥ tɕʰyɛ˥˩/",
-        "translation": "明確な",
-        "note": "曖昧さがなくはっきりしている様子。",
-        "pinyin": "míng què",
-        "pinyin_num": "ming2 que4"
-      },
-      {
-        "word": "目标",
+        "word": "结果",
         "pos": "noun",
-        "phonetic": "/mu˥˩ pjɑu˥˥/",
-        "translation": "目標",
-        "note": "達成すべき目標。",
-        "pinyin": "mù biāo",
-        "pinyin_num": "mu4 biao1"
+        "phonetic": "jiéguǒ",
+        "translation": "結果"
+      },
+      {
+        "word": "自由",
+        "pos": "noun/adj",
+        "phonetic": "zìyóu",
+        "translation": "自由（な）"
+      },
+      {
+        "word": "讨论",
+        "pos": "verb/noun",
+        "phonetic": "tǎolùn",
+        "translation": "議論する、検討する"
+      },
+      {
+        "word": "完全",
+        "pos": "adv",
+        "phonetic": "wánquán",
+        "translation": "完全に"
+      },
+      {
+        "word": "目前",
+        "pos": "noun",
+        "phonetic": "mùqián",
+        "translation": "現在のところ"
+      },
+      {
+        "word": "刚才",
+        "pos": "adv",
+        "phonetic": "gāngcái",
+        "translation": "さっき"
       }
     ],
     "dialogue": [
       {
         "speaker": "A",
-        "text": "我觉得一个好的领导应该直接给员工明确的目标，这样才能提高效率。",
-        "translation": "良いリーダーは従業員に明確な目標を直接与えるべきだと思う。そうすれば効率が上がる。",
+        "text": "我刚才在想，不同的领导方式会导致不同的结果。",
+        "translation": "さっき、違うリーダーシップの方式が違う結果を生むと思ってたんだ。",
         "highlights": [
-          "直接",
-          "员工",
-          "明确",
-          "目标",
-          "效率"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "或许你说得对，但是我觉得管理不只是发号施令。",
-        "translation": "ひょっとすると君の言う通りかもしれないが、管理はただ命令を下すことだけではないと思う。",
-        "highlights": [
-          "或许",
-          "管理"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "那你觉得领导应该用什么方式来带动员工呢？",
-        "translation": "それでは、リーダーはどんな方法で従業員を引っ張っていくべきだと思う？",
-        "highlights": [
+          "刚才",
           "方式",
-          "员工"
+          "结果"
         ]
       },
       {
         "speaker": "B",
-        "text": "我觉得应该多听大家的意见，而且创造一个积极的工作气氛。",
-        "translation": "みんなの意見をよく聞いて、その上で積極的な仕事の雰囲気を作るべきだと思う。",
+        "text": "确实，比如民主方式可以让团队更自由地讨论，但是严格管理也有它的优点。",
+        "translation": "確かに、例えば民主的な方式はチームが自由に議論できるけど、厳格な管理にもメリットはあるよ。",
         "highlights": [
-          "而且",
-          "积极"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "可是有时候只讲积极是不够的，对于复杂的问题，还是要有人做决定。",
-        "translation": "でも、時にはただ積極的であるだけでは不十分で、複雑な問題については、誰かが決定を下す必要がある。",
-        "highlights": [
-          "对于"
-        ]
-      },
-      {
-        "speaker": "B",
-        "text": "对，不过做决定之前，一定要把要求和大家说清楚，这样大家才会配合。",
-        "translation": "そうだね。でも、決定を下す前に、必ず要求をみんなにはっきり伝えるべきだ。そうすればみんな協力してくれる。",
-        "highlights": [
-          "要求",
-          "明确"
-        ]
-      },
-      {
-        "speaker": "A",
-        "text": "嗯，我同意。其实领导的方式可以灵活一些，只要最终能达到目标就好。",
-        "translation": "うん、同意する。実はリーダーの方法は柔軟でもいい。最終的に目標を達成できればいいんだ。",
-        "highlights": [
+          "确实",
           "方式",
-          "目标"
+          "团队",
+          "自由",
+          "讨论",
+          "严格"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "我同意。不过，民主管理有时候会太简单，控制不住团队的发展。",
+        "translation": " agree. でも、民主的な管理は時々単純すぎて、チームの成長を抑えちゃうこともある。",
+        "highlights": [
+          "不过",
+          "简单",
+          "控制"
         ]
       },
       {
         "speaker": "B",
-        "text": "是的，而且好的领导还会直接面对问题，并且不断调整自己的方式。",
-        "translation": "その通り。そして良いリーダーは問題に直接向き合い、自分の方法を絶えず調整するものだ。",
+        "text": "严格管理虽然能保证效率，但是完全没有自由也不好。",
+        "translation": "厳格な管理は効率を保証できるけど、完全に自由がなければダメだよね。",
         "highlights": [
-          "而且",
-          "直接",
-          "方式"
+          "严格",
+          "完全"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "就是啊。目前看来，两种方式各有利弊，关键是找到平衡。",
+        "translation": "そうだよね。現在のところ、どっちも一長一短で、バランスを見つけるのが大事なんだ。",
+        "highlights": [
+          "目前",
+          "关键"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "你说得对。找到合适的方式需要时间和实践。",
+        "translation": "その通り。適切な方式を見つけるには時間と実践が必要だよ。",
+        "highlights": [
+          "需要"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "对，我们继续讨论，看看具体该怎么做。",
+        "translation": "うん、引き続き話して、具体的にどうすればいいか考えてみよう。",
+        "highlights": [
+          "讨论"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "好主意。这样可以更清楚地看到团队的需求。",
+        "translation": "いいアイデアだね。そうすればチームのニーズがもっと明確になるかも。",
+        "highlights": [
+          "清楚",
+          "团队"
         ]
       }
     ],
     "key_phrases": [
       {
-        "phrase": "发号施令",
-        "translation": "指図する、命令を下す"
+        "phrase": "不同的领导方式会导致不同的结果",
+        "translation": "違うリーダーシップの方式が違う結果を生む"
       },
       {
-        "phrase": "带动员工",
-        "translation": "従業員を引っ張る、牽引する"
+        "phrase": "找到平衡",
+        "translation": "バランスを見つける"
+      },
+      {
+        "phrase": "需要时间和实践",
+        "translation": "時間と実践が必要"
       }
     ]
   }

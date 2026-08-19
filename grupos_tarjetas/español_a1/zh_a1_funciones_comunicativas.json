@@ -1,0 +1,410 @@
+[
+  {
+    "id": "zh_A1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Saludos y despedidas / 问候与告别",
+    "bridge": "在中文中，问候和告别通常使用固定短语，如‘你好’、‘早上好’、‘再见’等，形式简单且直接。而在西班牙语中，问候和告别不仅形式更多样，还需要根据时间、场合和对象调整。例如，‘Buenos días’（早上好）和‘Buenas tardes’（下午好）在中文中没有严格的时间划分，但西班牙语中‘días’和‘tardes’的使用时段有明确界限。此外，西班牙语中常见的非正式问候如‘¿Qué tal?’（怎么样？）在中文中较少见，需特别注意。",
+    "rule": "1. 问候语：\n   - 正式问候：Hola（你好）、Buenos días（早上好，通常用于上午至中午12点前）、Buenas tardes（下午好，中午12点后至傍晚）、Buenas noches（晚上好/晚安，用于晚上或告别时）。\n   - 非正式问候：¿Qué tal?（怎么样？）、¿Cómo estás?（你好吗？）、¿Cómo va todo?（一切如何？）。\n   - 注意：Buenas noches用于晚上问候时，也可用于道别（如‘睡觉前’）。\n\n2. 道别语：\n   - 正式道别：Adiós（再见）、Hasta luego（再见，稍后见）、Hasta mañana（明天见）、Hasta pronto（不久见）。\n   - 非正式道别：Chao（拜拜）、Nos vemos（再见）、Hasta la vista（再见，较少用）。\n   - 注意：Hasta luego和Hasta mañana可用于当天或未来见面，而Adiós较为通用。\n\n3. 问候和道别的时态：\n   - 问候通常用现在时，如‘Hola, ¿cómo estás?’（你好，你好吗？）。\n   - 道别可用现在时或将来时，如‘Hasta luego’（再见）或‘Hasta mañana’（明天见）。\n\n4. 语调与语境：\n   - 问候和道别的语调需亲切自然，避免生硬。例如，‘Buenos días’需带有微笑语调。",
+    "concept_examples": [
+      {
+        "text": "Hola, ¿cómo estás?",
+        "translation": "你好，你怎么样？",
+        "phonetic": "/ˈo.la ˈkomo esˈtas/"
+      },
+      {
+        "text": "Buenos días, profesor.",
+        "translation": "早上好，老师。",
+        "phonetic": "/ˈbwe.nos ˈdi.as proˈfe.sor/"
+      },
+      {
+        "text": "Hasta luego, amigos.",
+        "translation": "再见，朋友们。",
+        "phonetic": "/asˈta ˈlwe.ɣo aˈmi.ɣos/"
+      },
+      {
+        "text": "Buenas noches, hasta mañana.",
+        "translation": "晚安，明天见。",
+        "phonetic": "/ˈbwe.nas ˈno.tʃes asˈta maˈɲa.na/"
+      }
+    ],
+    "common_error": {
+      "wrong": "你好，早上好。",
+      "correct": "Buenos días.",
+      "correct_alt": "Hola, buenos días.",
+      "explanation": "中文中‘你好’和‘早上好’可以连用，但西班牙语中‘Buenos días’本身已包含问候和时间信息，无需重复。直接说‘Hola, buenos días’也是可接受的，但更简洁的表达是单独使用‘Buenos días’。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos básicos",
+        "translation": "基础问候",
+        "examples": [
+          {
+            "original": "Hola.",
+            "phonetic": "/ˈo.la/",
+            "translation": "你好。",
+            "note": "最基础的问候，适用于任何场合。"
+          },
+          {
+            "original": "Buenos días.",
+            "phonetic": "/ˈbwe.nos ˈdi.as/",
+            "translation": "早上好。",
+            "note": "用于上午至中午12点前。"
+          },
+          {
+            "original": "Buenas tardes.",
+            "phonetic": "/ˈbwe.nas ˈtaɾ.des/",
+            "translation": "下午好。",
+            "note": "用于中午12点后至傍晚。"
+          },
+          {
+            "original": "Buenas noches.",
+            "phonetic": "/ˈbwe.nas ˈno.tʃes/",
+            "translation": "晚上好。",
+            "note": "用于晚上问候，也可用于道别。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Despedidas básicas",
+        "translation": "基础道别",
+        "examples": [
+          {
+            "original": "Adiós.",
+            "phonetic": "/aˈðjos/",
+            "translation": "再见。",
+            "note": "通用的道别方式，适用于任何场合。"
+          },
+          {
+            "original": "Hasta luego.",
+            "phonetic": "/asˈta ˈlwe.ɣo/",
+            "translation": "再见，稍后见。",
+            "note": "表示不久之后再见，较为随意。"
+          },
+          {
+            "original": "Hasta mañana.",
+            "phonetic": "/asˈta maˈɲa.na/",
+            "translation": "明天见。",
+            "note": "用于约定明天再见时。"
+          },
+          {
+            "original": "Chao.",
+            "phonetic": "/ˈtʃao/",
+            "translation": "拜拜。",
+            "note": "非正式道别，类似中文的‘拜拜’。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Preguntas y respuestas comunes",
+        "translation": "常见问答",
+        "examples": [
+          {
+            "original": "¿Qué tal?",
+            "phonetic": "/ke ˈtal/",
+            "translation": "怎么样？",
+            "note": "非正式问候，类似中文的‘最近怎么样？’"
+          },
+          {
+            "original": "¿Cómo estás?",
+            "phonetic": "/ˈko.mo esˈtas/",
+            "translation": "你好吗？",
+            "note": "询问对方状态，需回答‘Bien, gracias’（好，谢谢）或‘Regular’（一般）。"
+          },
+          {
+            "original": "Muy bien, gracias. ¿Y tú?",
+            "phonetic": "/mwi ˈbjen ˈɡra.sjas i tu/",
+            "translation": "很好，谢谢。你呢？",
+            "note": "回答‘¿Cómo estás?’时的常见回应。"
+          },
+          {
+            "original": "Nos vemos.",
+            "phonetic": "/nos ˈβe.mos/",
+            "translation": "再见。",
+            "note": "非正式道别，表示‘我们再见’。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👋",
+    "phonetic": "",
+    "translations": {
+      "zh": "问候与告别"
+    }
+  },
+  {
+    "id": "zh_A1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Presentarse y presentar a otros / 介绍自己和他人",
+    "bridge": "在中文中，介绍自己通常直接说‘我是XX’（wǒ shì XX），而西班牙语中需要用动词‘llamarse’（叫做）来表达‘叫做’的概念。中文可以直接用姓名作谓语，但西班牙语必须用动词变位。此外，中文介绍他人时常用‘这是XX’（zhè shì XX），而西班牙语需用‘Este/Esta es...’（这是...）并注意性别变化。初学者常忽略动词变位或性别一致性，导致句子不自然。",
+    "rule": "1. 自我介绍用动词‘llamarse’（叫做），变位形式为：yo me llamo（我叫做）、tú te llamas（你叫做）、él/ella se llama（他/她叫做）。注意：主语代词常省略。\n2. 介绍他人时用‘Este es...’（这是...，阳性）或‘Esta es...’（这是...，阴性）。\n3. 姓名前可加‘el’（阳性）或‘la’（阴性）表示尊重，如‘el señor López’（洛佩斯先生）。\n4. 常用句型：\n   - Me llamo [nombre]（我叫做...）\n   - ¿Cómo te llamas?（你叫什么名字？）\n   - Este/Esta es [nombre]（这是...）\n5. 问候语可加‘Mucho gusto’（很高兴认识你）或‘Encantado/a’（荣幸）。",
+    "concept_examples": [
+      {
+        "text": "Me llamo María.",
+        "translation": "我叫做玛丽亚。",
+        "phonetic": "me ˈʝa.mo maˈɾi.a"
+      },
+      {
+        "text": "¿Cómo te llamas?",
+        "translation": "你叫什么名字？",
+        "phonetic": "ˈko.mo te ˈʝa.mas"
+      },
+      {
+        "text": "Este es Juan, mi amigo.",
+        "translation": "这是胡安，我的朋友。",
+        "phonetic": "ˈes.te es ˈxwan mi aˈmi.ɣo"
+      },
+      {
+        "text": "Esta es Ana, mi hermana.",
+        "translation": "这是安娜，我的姐姐。",
+        "phonetic": "ˈes.ta es ˈa.na mi eɾˈma.na"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo soy María.",
+      "correct": "Me llamo María.",
+      "correct_alt": "",
+      "explanation": "中文‘我是玛丽亚’（wǒ shì mǎ lì yà）直接用‘是’作谓语，但西班牙语‘ser’（是）不用于表达‘叫做’的概念。初学者受中文影响，常用‘soy’（我是）代替‘me llamo’（我叫做），导致句子不符合西班牙语表达习惯。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos básicos y nombres",
+        "translation": "基本问候与姓名",
+        "examples": [
+          {
+            "original": "Hola, ¿cómo te llamas?",
+            "phonetic": "ˈo.la ˈko.mo te ˈʝa.mas",
+            "translation": "你好，你叫什么名字？",
+            "note": "学习最基础的问候与姓名询问句式。"
+          },
+          {
+            "original": "Me llamo Li Wei.",
+            "phonetic": "me ˈʝa.mo li ˈwei",
+            "translation": "我叫做李伟。",
+            "note": "练习用‘me llamo’介绍自己，注意动词变位。"
+          },
+          {
+            "original": "¡Hola! Soy Ana.",
+            "phonetic": "ˈo.la soi aˈna",
+            "translation": "你好！我是安娜。",
+            "note": "‘soy’在非正式场合可接受，但‘me llamo’更符合标准表达。"
+          },
+          {
+            "original": "¿Y tú?",
+            "phonetic": "i tu",
+            "translation": "你呢？",
+            "note": "学习简单的反问句式。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Presentar a otros",
+        "translation": "介绍他人",
+        "examples": [
+          {
+            "original": "Este es Pedro, mi hermano.",
+            "phonetic": "ˈes.te es ˈpe.ðɾo mi eɾˈma.no",
+            "translation": "这是佩德罗，我的弟弟。",
+            "note": "学习用‘Este/Esta es...’介绍他人，注意性别一致。"
+          },
+          {
+            "original": "Esta es Laura, mi amiga.",
+            "phonetic": "ˈes.ta es ˈlau.ɾa mi aˈmi.ɣa",
+            "translation": "这是劳拉，我的朋友。",
+            "note": "‘amiga’阴性，对应‘Esta’（阴性形式）。"
+          },
+          {
+            "original": "Él es mi profesor de español.",
+            "phonetic": "el es mi pɾo.feˈsoɾ ðe es.paˈɲol",
+            "translation": "他是我的西班牙语老师。",
+            "note": "‘él’（他）作主语时动词不变位，但需注意主语代词的使用。"
+          },
+          {
+            "original": "¿Quién es ella?",
+            "phonetic": "ˈkjen es ˈe.ʝa",
+            "translation": "她是谁？",
+            "note": "学习用‘quién’询问他人身份。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Formalidades y frases adicionales",
+        "translation": "正式表达与补充句式",
+        "examples": [
+          {
+            "original": "Mucho gusto en conocerte.",
+            "phonetic": "ˈmu.tʃo ˈɣus.to en ko.noˈseɾ.te",
+            "translation": "很高兴认识你。",
+            "note": "‘mucho gusto’用于正式或非正式场合，注意动词‘conocer’的变位。"
+          },
+          {
+            "original": "El señor López, mi jefe.",
+            "phonetic": "el seˈɲoɾ ˈlopes mi ˈxe.fe",
+            "translation": "洛佩斯先生，我的上司。",
+            "note": "用‘el señor’（先生）或‘la señora’（女士）表示尊重。"
+          },
+          {
+            "original": "Encantado de conocerte.",
+            "phonetic": "en.kanˈta.ðo ðe ko.noˈseɾ.te",
+            "translation": "很荣幸认识你。",
+            "note": "‘encantado/a’根据说话者性别变化，阳性用‘encantado’，阴性用‘encantada’。"
+          },
+          {
+            "original": "¿De dónde eres?",
+            "phonetic": "ðe ˈdon.de ˈe.ɾes",
+            "translation": "你从哪里来？",
+            "note": "学习用‘de dónde’询问籍贯，注意动词‘ser’的变位。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👋",
+    "phonetic": "",
+    "translations": {
+      "zh": "介绍自己和他人"
+    }
+  },
+  {
+    "id": "zh_A1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Origen y nacionalidad / 询问与表达籍贯",
+    "bridge": "在中文中，询问籍贯时常用‘你是哪里人？’或‘你来自哪里？’（如‘你来自哪里？’），回答则直接说‘我是[地名]人’（如‘我是北京人’）。但在西班牙语中，询问籍贯时通常用‘¿De dónde eres?’（非正式）或‘¿De dónde es usted?’（正式），回答则需用‘Soy de [lugar]’（如‘Soy de España’）。中文中‘是’字后可直接接地名，而西班牙语中必须用‘de’引出地名，且动词‘ser’的变位需与主语一致。此外，西班牙语中常用‘nacionalidad’（国籍）一词表达国籍，如‘Soy español/a’（我是西班牙人），这与中文的‘我是中国人’结构不同。",
+    "rule": "1. 询问籍贯的句型：\n   - 非正式：¿De dónde eres?（你是哪里人？）\n   - 正式：¿De dónde es usted?（您是哪里人？）\n   - 通用：¿De dónde + [主语代词]?（如‘¿De dónde son ellos?’）\n\n2. 回答籍贯的句型：\n   - Soy de + [lugar]（我来自[地名]）\n     - Soy de China.（我来自中国）\n     - Soy de Pekín.（我来自北京）\n   - 注意：地名前不加冠词（如‘de España’而非‘de la España’）。\n\n3. 表达国籍的句型：\n   - Soy + [nacionalidad]（我是[国籍]）\n     - Soy español.（我是西班牙人）\n     - Soy chino/a.（我是中国人）\n   - 注意：国籍形容词需与主语性别一致（如‘español’男性，‘española’女性）。\n\n4. 问句与回答的动词变位：\n   - 询问时用‘ser’的现在时变位（eres, es, son等）。\n   - 回答时同样用‘ser’的现在时变位（soy, es等）。\n\n5. 常见误区：\n   - 错误：Soy China.（×）正确：Soy de China.（√）\n   - 错误：¿De dónde es tu nacionalidad?（×）正确：¿De dónde eres?（√）\n   - 错误：Soy español/a de.（×）正确：Soy español/a.（√）",
+    "concept_examples": [
+      {
+        "text": "¿De dónde eres?",
+        "translation": "你是哪里人？",
+        "phonetic": "/de ˈðon.de ˈe.ɾes/"
+      },
+      {
+        "text": "Soy de México.",
+        "translation": "我来自墨西哥。",
+        "phonetic": "/soj ðe ˈme.xi.ko/"
+      },
+      {
+        "text": "¿De dónde es usted?",
+        "translation": "您是哪里人？",
+        "phonetic": "/de ˈðon.de es usˈteð/"
+      },
+      {
+        "text": "Soy española.",
+        "translation": "我是西班牙人（女性）。",
+        "phonetic": "/soj es.paˈɲo.la/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Soy China.",
+      "correct": "Soy de China.",
+      "correct_alt": "",
+      "explanation": "中文中可以说‘我是中国人’，但在西班牙语中，‘ser’后不能直接接地名或国名，必须用‘de’引出地名。‘Soy China’在西班牙语中会被理解为‘我是中国（这个国家）’，语法错误。正确表达国籍时应使用‘Soy chino/a’（我是中国人），或表达籍贯时用‘Soy de China’（我来自中国）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar origen básico",
+        "translation": "基础籍贯询问",
+        "examples": [
+          {
+            "original": "¿De dónde eres?",
+            "phonetic": "/de ˈðon.de ˈe.ɾes/",
+            "translation": "你是哪里人？",
+            "note": "非正式询问，适用于朋友或同龄人。"
+          },
+          {
+            "original": "¿De dónde es usted?",
+            "phonetic": "/de ˈðon.de es usˈteð/",
+            "translation": "您是哪里人？",
+            "note": "正式询问，适用于长辈或陌生人。"
+          },
+          {
+            "original": "¿De dónde es ella?",
+            "phonetic": "/de ˈðon.de es ˈe.ʝa/",
+            "translation": "她是哪里人？",
+            "note": "第三人称单数询问，动词变位为‘es’。”"
+          },
+          {
+            "original": "¿De dónde sois?",
+            "phonetic": "/de ˈðon.de sojs/",
+            "translation": "你们是哪里人？（西班牙）",
+            "note": "西班牙特定用法，用于非正式场合对复数‘vosotros’的询问。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Responder con lugar de origen",
+        "translation": "用地名回答籍贯",
+        "examples": [
+          {
+            "original": "Soy de Argentina.",
+            "phonetic": "/soj ðe aɾ.xenˈti.na/",
+            "translation": "我来自阿根廷。",
+            "note": "地名前用‘de’，且不加冠词。"
+          },
+          {
+            "original": "Soy de Taiwán.",
+            "phonetic": "/soj ðe tajˈwan/",
+            "translation": "我来自台湾。",
+            "note": "注意‘Taiwán’的重音在第二个音节。"
+          },
+          {
+            "original": "Soy de los Estados Unidos.",
+            "phonetic": "/soj ðe los esˈta.ðos uˈni.ðos/",
+            "translation": "我来自美国。",
+            "note": "复合地名前用‘los’（阳性复数冠词）。"
+          },
+          {
+            "original": "Soy de la Ciudad de México.",
+            "phonetic": "/soj ðe la sjuˈðað ðe ˈme.xi.ko/",
+            "translation": "我来自墨西哥城。",
+            "note": "城市名前用‘la’（阴性冠词），但‘de’后仍需保留。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Expresar nacionalidad",
+        "translation": "表达国籍",
+        "examples": [
+          {
+            "original": "Soy español.",
+            "phonetic": "/soj es.paˈɲol/",
+            "translation": "我是西班牙人（男性）。",
+            "note": "国籍形容词与主语性别一致，‘español’为阳性。"
+          },
+          {
+            "original": "Soy española.",
+            "phonetic": "/soj es.paˈɲo.la/",
+            "translation": "我是西班牙人（女性）。",
+            "note": "阴性形式为‘española’。”"
+          },
+          {
+            "original": "Soy chino.",
+            "phonetic": "/soj ˈtʃi.no/",
+            "translation": "我是中国人（男性）。",
+            "note": "中文国籍‘中国人’在西班牙语中为‘chino’（阳性）。"
+          },
+          {
+            "original": "Soy china.",
+            "phonetic": "/soj ˈtʃi.na/",
+            "translation": "我是中国人（女性）。",
+            "note": "阴性形式为‘china’。”"
+          }
+        ]
+      }
+    ],
+    "emoji": "🌍",
+    "phonetic": "",
+    "translations": {
+      "zh": "询问与表达籍贯"
+    }
+  }
+]
