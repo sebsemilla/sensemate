@@ -1,0 +1,1665 @@
+[
+  {
+    "id": "ko_B1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pretérito Pluscuamperfecto (과거의 과거)",
+    "bridge": "영어에서는 'had' + 과거분사(예: 'I had eaten')로 과거완료를 만듭니다. 스페인어에서는 'haber'의 불완료과거(había, habías, había, habíamos, habíais, habían) + 과거분사를 사용합니다. 영어와 달리, 스페인어에서 'ser'와 함께 쓸 때는 과거분사가 성수일치(性數一致)를 하지만 'haber'와 함께 쓸 때는 그렇지 않습니다. 또한 스페인어에서는 문맥상 순서가 명확할 경우 과거완료 대신 단순과거를 더 자주 사용하므로 과용하지 마세요.",
+    "rule": "과거완료(pretérito pluscuamperfecto)는 다른 과거 동작보다 먼저 완료된 동작을 표현합니다. 형태: 'haber'의 불완료과거(había, habías, había, habíamos, habíais, habían) + 과거분사(-ado/-ido). 'haber'와 함께 쓸 때는 과거분사가 불변입니다. 배경 동작 설명, 과거 시점 이전의 후회나 경험 표현, 조건문(if 절)에서 사용됩니다. 영어의 'had + 과거분사'에 해당하지만, 스페인어에서는 시간 관계가 명확할 경우 단순과거를 더 자주 사용합니다(예: 'Cuando llegué, ella salió' → 'había salido'가 항상 필요하지 않음).",
+    "concept_examples": [
+      {
+        "text": "Cuando llegué, ya habían salido.",
+        "translation": "내가 도착했을 때 그들은 이미 떠났었다.",
+        "phonetic": "ˈkwando ʝeˈɣe | ʝa aˈβjan saˈliðo"
+      },
+      {
+        "text": "Nunca había visto el mar antes de ese viaje.",
+        "translation": "그 여행을 하기 전까지 나는 바다를 본 적이 없었다.",
+        "phonetic": "ˈnuŋka aˈβia ˈβisto el mar ˈantes de ˈese ˈβjaxe"
+      },
+      {
+        "text": "Habíamos comido antes de la película.",
+        "translation": "우리는 영화를 보기 전에 이미 먹었다.",
+        "phonetic": "aˈβiamos koˈmiðo ˈantes de la peˈlikula"
+      },
+      {
+        "text": "¿Habías estado en Madrid alguna vez?",
+        "phonetic": "aˈβias esˈtaðo en maˈðɾið alˈɣuna ˈbeθ"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo había comido antes de que él llegó.",
+      "correct": "Yo había comido antes de que él llegara.",
+      "correct_alt": "Yo había comido antes de que él llegase.",
+      "explanation": "'antes de que' 뒤에는 스페인어에서 접속법이 필요하며, 직설법은 아닙니다. 영어 화자들은 'before he arrived'를 사실로 여기기 때문에 직설법을 자주 사용합니다. 기억하세요: 'antes de que'와 'después de que' 같은 시간 접속사는 주절에 대한 미래 또는 가상 동작을 가리킬 때 접속법을 유발합니다. 주절이 과거이므로 종속절의 접속법은 불완료 접속법(llegara/llegase)으로 써야 합니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formación del pluscuamperfecto",
+        "translation": "과거완료의 형성",
+        "examples": [
+          {
+            "original": "Yo había hablado.",
+            "phonetic": "ʝo aˈβia aˈβlaðo",
+            "translation": "나는 말했다.(había hablado)",
+            "note": "'haber'의 불완료과거(había) + 과거분사를 사용합니다. -ar 동사의 분사는 -ado로 끝납니다."
+          },
+          {
+            "original": "Tú habías comido.",
+            "phonetic": "tu aˈβias koˈmiðo",
+            "translation": "너는 먹었다.(habías comido)",
+            "note": "-er/-ir 동사의 분사는 -ido로 끝나며, -i에 강세가 붙습니다."
+          },
+          {
+            "original": "Ellos habían vivido.",
+            "phonetic": "ˈeʎos aˈβian biˈβiðo",
+            "translation": "그들은 살았다.(habían vivido)",
+            "note": "'haber'와 함께 쓸 때는 분사가 변하지 않으며, 'ellas'와 함께 쓰더라도 남성 단수 형태로 유지됩니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso con expresiones temporales",
+        "translation": "시간 표현과 함께 사용",
+        "examples": [
+          {
+            "original": "Ya había terminado cuando me llamaste.",
+            "phonetic": "ʝa aˈβia teɾmiˈnaðo ˈkwando me ʝaˈmaste",
+            "translation": "네가 나를 부를 때 나는 이미 끝냈다.",
+            "note": "과거완료는 순서를 설정합니다: 먼저 끝내고, 그다음 네가 불렀다."
+          },
+          {
+            "original": "Nunca había volado hasta el año pasado.",
+            "phonetic": "ˈnuŋka aˈβia boˈlaðo ˈasta el ˈaɲo paˈsaðo",
+            "translation": "작년 전까지 나는 한 번도 비행기를 타본 적이 없었다.",
+            "note": "'nunca'를 사용해 과거 시점까지 '한 번도 ~하지 않았다'를 표현합니다."
+          },
+          {
+            "original": "Después de que habían salido, empezó a llover.",
+            "phonetic": "desˈpweθ de ke aˈbian saˈliðo empeˈθo a ʎoˈβeɾ",
+            "translation": "그들이 떠난 후 비가 오기 시작했다.",
+            "note": "'después de que'는 시간적 관계에 따라 직설법이나 접속법을 사용할 수 있으며, 여기서는 과거 완료된 동작을 나타냅니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contraste con pretérito e imperfecto",
+        "translation": "단순과거 및 불완료과거와 대조",
+        "examples": [
+          {
+            "original": "Cuando llegué, ella ya había comido.",
+            "phonetic": "ˈkwando ʝeˈɣe | ˈeʎa ʝa aˈβia koˈmiðo",
+            "translation": "내가 도착했을 때 그녀는 이미 먹었다.",
+            "note": "과거완료는 동작(먹기)이 단순과거 동작(도착하기)보다 먼저 일어났음을 보여줍니다."
+          },
+          {
+            "original": "Ayer me dijo que había perdido el autobús.",
+            "phonetic": "aˈʝeɾ me ˈdixo ke aˈβia peɾˈðiðo el aut̪oˈβus",
+            "translation": "어제 그는 내게 버스를 놓쳤다고 말했다.",
+            "note": "과거의 간접 화법에서는 영어와 같이 스페인어에서도 과거완료로 시제가 이동합니다."
+          },
+          {
+            "original": "Si hubiera sabido, habría venido antes.",
+            "phonetic": "si uˈβjeɾa saˈβiðo | aˈβɾia beˈniðo ˈantes",
+            "translation": "내가 알았더라면 더 일찍 왔을 텐데.",
+            "note": "조건문 'if' 절에서는 과거완료 접속법(hubiera) + 조건법 완료(habría)이 사용되며, 과거완료 직설법은 아닙니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏪",
+    "phonetic": "",
+    "translations": {
+      "ko": "과거완료 (과거의 과거)"
+    }
+  },
+  {
+    "id": "ko_B1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "조건문 1형과 2형 / First and Second Conditionals",
+    "bridge": "영어와 스페인어 모두 조건문을 사용하여 일어날 수 있는 일에 대해 말할 수 있습니다. 영어에서는 1형 조건문(First Conditional)이 'if + 현재형, will + 동사원형'으로 실제 미래 가능성을 나타내고, 2형 조건문(Second Conditional)은 'if + 과거형, would + 동사원형'으로 비현실적이거나 가상적인 상황을 나타냅니다. 스페인어는 이 구조를 'si + 현재형, 미래형'과 'si + 불완료과거접속법, 조건법'으로 비슷하게 따르지만 주의할 점은 스페인어에서 'if' 절(if clause)이 영어의 단순과거가 아닌 불완료과거접속법(예: 'si tuviera')을 사용한다는 것입니다. 또한 스페인어에서 조건법과 미래형은 동사원형에 어미를 붙여 형성되는데, 이는 'will'이나 'would' 같은 조동사를 사용하는 영어와는 다르게 느껴질 수 있습니다.",
+    "rule": "1형 조건문(실제 조건)에서는 'si' 다음에 현재 직설법을 사용하고, 주절(main clause)에서는 단순미래형을 사용합니다(예: 'si estudio, aprobaré'). 이는 일어날 가능성이 높은 결과를 표현합니다. 2형 조건문(비현실적이거나 가상적인 조건)에서는 'si' 다음에 불완료과거접속법을 사용하며(영어의 단순과거가 아님), 주절에서는 단순조건법을 사용합니다(예: 'si tuviera tiempo, viajaría'). 불완료과거접속법은 3인칭 복수 과거형 어간에서 -ra, -ras, -ra, -ramos, -rais, -ran을 붙여 형성됩니다(예: 'tuvieron' -> 'tuviera'). 절의 순서는 자유롭지만 'si' 절이 먼저 오면 콤마를 사용해야 합니다. 또한 2형 조건문에서 조건법의 형태는 -ar, -er, -ir 동사 모두 동일합니다: 동사원형 + -ía, -ías, -ía, -íamos, -íais, -ían.",
+    "concept_examples": [
+      {
+        "text": "Si estudio, aprobaré el examen.",
+        "translation": "내가 공부를 하면, 시험에 합격할 거야.",
+        "phonetic": "/si esˈtuðjo, apɾoˈβaɾel ekˈsamen/"
+      },
+      {
+        "text": "Si tuviera dinero, compraría un coche.",
+        "translation": "내가 돈이 있으면, 차를 살 텐데.",
+        "phonetic": "/si tuˈβjeɾa diˈneɾo, kompɾaˈɾi.a un ˈkotʃe/"
+      },
+      {
+        "text": "Si llueve mañana, nos quedaremos en casa.",
+        "translation": "내일 비가 오면, 우리는 집에 있을 거야.",
+        "phonetic": "/si ˈʎweβe maˈɲana, nos keðaˈɾemos en ˈkasa/"
+      },
+      {
+        "text": "Si fuera tú, no lo haría.",
+        "translation": "내가 너라면, 그 일을 하지 않을 거야.",
+        "phonetic": "/si ˈfweɾa tu, no lo aˈɾi.a/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Si tendría tiempo, viajaría.",
+      "correct": "Si tuviera tiempo, viajaría.",
+      "correct_alt": "",
+      "explanation": "영어 화자들은 'If I would have time'과 같은 영어 구조에 영향을 받아 'si' 절에서 조건법('tendría')을 잘못 사용하는 경우가 많습니다. 그러나 스페인어에서 'si' 절은 가상적 상황에서도 조건법을 사용하지 않으며, 반드시 불완료과거접속법을 사용해야 합니다. 기억하세요: 'si' + 불완료과거접속법, 결코 'si' + 조건법이 아닙니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicional tipo 1: situaciones reales",
+        "translation": "1형 조건문: 실제 상황",
+        "examples": [
+          {
+            "original": "Si hace calor, iremos a la playa.",
+            "phonetic": "/si ˈaθe kaˈloɾ, iˈɾemos a la ˈplaʝa/",
+            "translation": "날이 덥다면, 우리는 해변에 갈 거야.",
+            "note": "이 구조는 영어와 거의 동일합니다: 'si' + 현재 직설법, 주절은 미래형. 날씨를 나타낼 때는 현재형 'hace'가 사용됩니다."
+          },
+          {
+            "original": "Si terminas tus deberes, puedes ver la tele.",
+            "phonetic": "/si teɾˈminas tus deˈβeɾes, ˈpweðes βeɾ la ˈtele/",
+            "translation": "숙제를 끝낸다면, TV를 봐도 돼.",
+            "note": "실제 조건문에서는 주절에서 미래형 대신 현재 직설형을 사용할 수도 있으며, 이는 영어의 'can'을 사용하는 것과 비슷합니다."
+          },
+          {
+            "original": "Si no llegas tarde, cogeremos el tren.",
+            "phonetic": "/si no ˈʝeɣas ˈtaɾðe, koxeˈɾemos el tɾen/",
+            "translation": "너가 늦지 않는다면, 우리는 기차를 탈 거야.",
+            "note": "'si'가 부정 현재형 다음에 오며, 주절은 미래형을 사용합니다. 'si' 절이 먼저 오면 콤마를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicional tipo 2: situaciones hipotéticas",
+        "translation": "2형 조건문: 가상적 상황",
+        "examples": [
+          {
+            "original": "Si ganara la lotería, compraría una casa grande.",
+            "phonetic": "/si ɣaˈnaɾa la loteˈɾi.a, kompɾaˈɾi.a una ˈkasa ˈɣɾande/",
+            "translation": "내가 복권에 당첨된다면, 큰 집을 살 거야.",
+            "note": "'si' 다음에 불완료과거접속법 'ganara'가 사용되고, 결과절에서는 조건법 'compraría'가 사용됩니다. 이는 전형적인 가상적 시나리오입니다."
+          },
+          {
+            "original": "Si tuviera más tiempo, estudiaría otro idioma.",
+            "phonetic": "/si tuˈβjeɾa mas ˈtjempo, estuðjaˈɾi.a ˈotɾo iðjoˈma/",
+            "translation": "내가 시간이 더 많다면, 다른 언어를 공부할 텐데.",
+            "note": "'tener'의 불규칙 형태 'tuviera'가 사용됩니다. 이러한 불규칙 형태는 암기하는 것이 중요합니다. 영어에서는 과거형 'had'를 사용하지만, 스페인어에서는 단순과거가 아닌 불완료과거접속법을 사용합니다."
+          },
+          {
+            "original": "Si pudieras, ¿me ayudarías?",
+            "phonetic": "/si puˈðjeɾas, me aʝuðaˈɾi.as/",
+            "translation": "너가 할 수 있다면, 나를 도와줄래?",
+            "note": "여기서 'pudieras'는 'poder'의 불완료과거접속법입니다. 의문문에서 조건법은 종종 시작 부분에 물음표를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Diferencias y errores comunes",
+        "translation": "차이점과 흔한 오류",
+        "examples": [
+          {
+            "original": "Si yo sería rico, viajaría por el mundo.",
+            "phonetic": "/si ʝo seˈɾi.a ˈriko, bjaʝaˈɾi.a poɾ el ˈmundo/",
+            "translation": "잘못된 예: If I would be rich, I would travel the world. (올바른 예: If I were rich...)",
+            "note": "흔한 오류: 'si' 절에서 조건법을 사용하는 것입니다. 'si' 뒤에는 항상 불완료과거접속법('fuera' 또는 'tuviera')을 사용해야 합니다."
+          },
+          {
+            "original": "Si yo era rico, viajaba por el mundo.",
+            "phonetic": "/si ʝo ˈeɾa ˈriko, bjaˈʝaβa poɾ el ˈmundo/",
+            "translation": "내가 부자였다면, 세계를 여행했을 거야. (의미: 과거의 습관적 행동, 가상이 아님)",
+            "note": "단순과거는 실제 과거 행동을 나타냅니다. 가상적 상황을 표현하려면 반드시 불완료과거접속법을 사용해야 합니다. 혼동하면 의미가 달라집니다."
+          },
+          {
+            "original": "Si hubiera estudiado más, habría aprobado.",
+            "phonetic": "/si uˈβjeɾa estuˈðjaðo mas, aˈβɾi.a apɾoˈβaðo/",
+            "translation": "내가 더 공부했더라면, 합격했을 거야. (3형 조건문 - 고급)",
+            "note": "이것은 3형 조건문으로 B1 수준을 넘지만, 같은 패턴이 적용됩니다: 'si' + 대과거접속법, 조건완료형. B1 수준에서는 직접 사용하지 않지만, 인식하는 것이 좋습니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "ko": "1형과 2형 조건문"
+    }
+  },
+  {
+    "id": "ko_B1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "수동태 (현재와 과거) / Passive Voice (Present and Past)",
+    "bridge": "영어에서 수동태는 'to be' + 과거분사(예: 'The house is built')로 형성됩니다. 스페인어도 마찬가지: 'ser' + 과거분사. 그러나 스페인어는 과거분사가 주어의 성별과 수에 일치해야 합니다(예: 'La casa es construida' – 여성 단수). 또한 스페인어는 'por'가 아닌 'by'로 행위자를 소개한다는 점에 주의하세요. 스페인어는 'se'를 이용한 비인칭 수동태('se' 수동)를 'ser'를 이용한 수동태보다 더 자연스럽게 사용합니다. 특히 행위자가 언급되지 않을 때 그렇습니다.",
+    "rule": "스페인어의 수동태는 조동사 'ser'(현재 또는 과거 시제에 활용됨)와 주동사의 과거분사로 형성됩니다. 과거분사는 형용사 역할을 하므로 주어의 성별과 수에 일치해야 합니다. 현재 시제: ser(현재) + 과거분사. 과거 시제(과거preterite): ser(과거) + 과거분사. 행위자(행동 주체)는 'por'(일부 고정 표현에서는 'de')로 소개됩니다. 행위자가 알려지지 않았거나 중요하지 않을 때는 스페인어에서 비인칭 수동 'se' + 동사(예: 'Se habla español' – '스페인이 사용된다')를 선호하며, 일상어에서 더 흔합니다. 기억하세요: 타동사만 수동태로 만들 수 있습니다. 또한 'ha sido'와 같은 복합 시제에서는 과거분사가 주어와 일치하지 않지만, 단순 수동태에서는 일치합니다.",
+    "concept_examples": [
+      {
+        "text": "La casa es construida por los trabajadores.",
+        "translation": "그 집은 노동자들에 의해 지어졌습니다.",
+        "phonetic": "/la ˈkasa es konsˈtɾwida poɾ los tɾabaˈxaðoɾes/"
+      },
+      {
+        "text": "El libro fue escrito por Gabriel García Márquez.",
+        "translation": "그 책은 가브리엘 가르시아 마르케스가 썼습니다.",
+        "phonetic": "/el ˈliβɾo ˈfwe esˈkɾito poɾ ɡaˈβɾjel ɡaɾˈsi.a ˈmaɾkes/"
+      },
+      {
+        "text": "Las cartas son enviadas cada mañana.",
+        "translation": "그 편지들은 매일 아침에 보내집니다.",
+        "phonetic": "/las ˈkaɾtas son embjaˈðas ˈkaða maˈɲana/"
+      },
+      {
+        "text": "El problema fue resuelto ayer.",
+        "translation": "그 문제는 어제 해결되었습니다.",
+        "phonetic": "/el pɾoˈβlema ˈfwe reˈswelto aˈʝeɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La casa es construido por los trabajadores.",
+      "correct": "La casa es construida por los trabajadores.",
+      "correct_alt": "La casa se construye por los trabajadores.",
+      "explanation": "영어 화자들은 스페인어에서 과거분사가 주어의 성별과 수에 일치해야 한다는 사실을 종종 잊습니다. 'casa'는 여성 단수이므로 과거분사는 'construida'(남성형 'construido'가 아님)가 되어야 합니다. 흔한 대안은 'se construye'와 같은 비인칭 수동이지만, 'se'를 사용할 때는 행위자가 보통 생략되므로 'por los trabajadores'라고 말하는 것은 자연스럽지 않습니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Voz pasiva en presente",
+        "translation": "현재 수동태",
+        "examples": [
+          {
+            "original": "El pan es hecho por el panadero.",
+            "phonetic": "/el pan es ˈetʃo poɾ el panaˈðeɾo/",
+            "translation": "빵은 제빵사에 의해 만들어집니다.",
+            "note": "'hecho'가 'pan'(남성 단수)과 일치함을 주목하세요."
+          },
+          {
+            "original": "Las puertas son abiertas a las nueve.",
+            "phonetic": "/las ˈpweɾtas son aˈβjeɾtas a las ˈnweβe/",
+            "translation": "문들은 아홉 시에 열립니다.",
+            "note": "여기서 'abiertas'는 'puertas'(여성 복수)와 일치하도록 여성 복수형입니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Voz pasiva en pasado (pretérito)",
+        "translation": "과거 수동태(과거preterite)",
+        "examples": [
+          {
+            "original": "La película fue dirigida por un famoso director.",
+            "phonetic": "/la peˈlikula ˈfwe diɾiˈxiða poɾ un faˈmoso diɾekˈtoɾ/",
+            "translation": "그 영화는 유명한 감독에 의해 연출되었습니다.",
+            "note": "과거preterite 'fue' + 과거분사 'dirigida'(여성 단수)."
+          },
+          {
+            "original": "Los platos fueron lavados por mis hermanos.",
+            "phonetic": "/los ˈplatos ˈfweɾon laˈβaðos poɾ mis eɾˈmanos/",
+            "translation": "접시들은 내 형제들에 의해 씻겼습니다.",
+            "note": "'fueron' + 'lavados'(남성 복수)가 'platos'와 일치합니다."
+          },
+          {
+            "original": "La carta fue escrita por María.",
+            "phonetic": "/la ˈkaɾta ˈfwe esˈkɾita poɾ maˈɾi.a/",
+            "translation": "그 편지는 마리아에 의해 쓰였습니다.",
+            "note": "여성 단수: 'escrita'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "La pasiva con 'se'",
+        "translation": "'se'를 이용한 수동태",
+        "examples": [
+          {
+            "original": "Se habla español en muchos países.",
+            "phonetic": "/se ˈaβla espaˈɲol en ˈmutʃos paˈises/",
+            "translation": "스페인은 많은 나라에서 사용됩니다.",
+            "note": "이 비인칭 'se'는 일상 스페인어에서 'es hablado'보다 더 흔합니다."
+          },
+          {
+            "original": "Se venden casas aquí.",
+            "phonetic": "/se ˈbenden ˈkasas aˈki/",
+            "translation": "여기서는 집들이 팔립니다.",
+            "note": "동사가 복수 명사('casas')와 일치하는 'venden'임을 주목하세요. 이 구조는 종종 비인칭으로 불립니다."
+          },
+          {
+            "original": "Se comió toda la torta.",
+            "phonetic": "/se koˈmjo ˈtoða la ˈtoɾta/",
+            "translation": "케이크 전체가 먹혔습니다.",
+            "note": "이 문장은 '그들은 케이크 전체를 먹었다'라는 뜻일 수도 있습니다. 문맥으로 의미를 구분합니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "ko": "수동태 (현재와 과거)"
+    }
+  },
+  {
+    "id": "ko_B1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "간접화법 / Basic reported speech",
+    "bridge": "영어에서는 말하는 내용을 전달할 때 동사의 시제를 과거로 바꾸는 경우가 많습니다(예: 'I am tired' → 'She said she was tired'). 스페인어도 마찬가지지만 중요한 차이점이 있습니다. 접속사 'que'를 항상 사용해야 하며, 보고하는 동사가 얼마나 과거에 해당하는지에 따라 원래 동사 시제를 유지할지 아니면 바꿀지를 결정해야 합니다. 또한 스페인어는 ask(묻다)나 suggest(제안하다) 등의 동사 뒤에 흔히 접속법(Subjunctive)을 사용하는데, 영어에서는 이처럼 명시적으로 사용하지 않는 경우가 많습니다. 대명사와 시간/장소의 변화에 주의하세요. 시제 변화는 영어보다 유연합니다.",
+    "rule": "스페인어에서 간접화법을 사용할 때는 보고 동사(decir, preguntar, pedir 등) 뒤에 'que'를 사용합니다. 명령문의 경우 'que' + 접속법(Subjunctive)을 사용합니다. 질문의 경우 예/아니오 질문에 대해서는 'si'를, 의문사 질문에 대해서는 의문사를 직접 사용합니다. 시제 변화: 보고 동사가 현재형이면 종속절의 동사는 원래 그대로 유지합니다. 과거형(dijo 등)이면 다음과 같이 변화합니다: 현재 → 불완료과거, 단순과거 → 대과거(또는 단순과거 유지), 미래 → 조건법, 조건법 → 과거 조건법. 대명사와 지시어의 변화: yo → él/ella, aquí → allí. 흔히 사용되는 보고 동사: decir(말하다), preguntar(묻다), pedir(요청하다), responder(대답하다). 명령문: 직접 명령: 'Hazlo' → 간접화법: 'Me dijo que lo hiciera'(접속법 사용). 질문: '¿Dónde está?' → 'Preguntó dónde estaba.'",
+    "concept_examples": [
+      {
+        "text": "Él dice que está cansado.",
+        "translation": "그는 자기가 피곤하다고 말한다.",
+        "phonetic": "el ˈdi.se ke esˈta kanˈsa.ðo"
+      },
+      {
+        "text": "Ella dijo que estaba enferma.",
+        "translation": "그녀는 자기가 아팠다고 말했다.",
+        "phonetic": "ˈe.ʝa ˈdi.xo ke esˈta.βa enˈfeɾ.ma"
+      },
+      {
+        "text": "Me preguntó si quería café.",
+        "translation": "그는 내게 커피를 원하느냐고 물었다.",
+        "phonetic": "me pɾe.ɣunˈto si keˈɾi.a kaˈfe"
+      },
+      {
+        "text": "Mi madre me pidió que llegara temprano.",
+        "translation": "어머니는 내게 일찍 오라고 요청했다.",
+        "phonetic": "mi ˈma.ðɾe me piˈðjo ke ʎeˈɣa.ɾa temˈpɾa.no"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ella dijo que ella está enferma.",
+      "correct": "Ella dijo que estaba enferma.",
+      "correct_alt": "Ella dijo que estuviera enferma.",
+      "explanation": "영어 화자들은 'está'를 현재형으로 유지하는 경우가 많은데, 이는 병이 아직 지속되고 있다고 생각하기 때문입니다. 스페인어에서 보고 동사가 과거형(dijo)일 때는 종속절의 동사가 일반적으로 과거형(불완료과거)으로 바뀌어 보고 시점과 동시에 일어난 동작임을 나타냅니다. 현재형을 사용하면 직접 인용으로 들리거나 현재 상태를 암시하게 되어 자연스럽지 않습니다. 보고 동사가 과거일 때는 항상 시제를 바꾸는 것이 좋으며, 보고된 사실이 아직 사실임을 강조하고자 할 때만 현재형을 유지합니다. B1 수준에서는 시제를 바꾸는 것이 안전합니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Declaraciones con 'decir'",
+        "translation": "'decir'로 말하는 문장",
+        "examples": [
+          {
+            "original": "Él dice: 'Vivo en Madrid.'",
+            "phonetic": "el ˈdi.se ˈbi.βo en maˈðɾið",
+            "translation": "그는 말한다: '나는 마드리드에 산다.'",
+            "note": "직접화법: 콜론과 따옴표 사용. 현재 보고 동사일 때는 시제 변화 없음: 'Él dice que vive en Madrid.'"
+          },
+          {
+            "original": "Dijo que estaba ocupado.",
+            "phonetic": "ˈdi.xo ke esˈta.βa o.kuˈpa.ðo",
+            "translation": "그는 자기가 바쁘다고 말했다.",
+            "note": "과거 보고 동사 'dijo'로 인해 현재 'está'가 불완료과거 'estaba'로 변화합니다."
+          },
+          {
+            "original": "Me dijo que iba a venir mañana.",
+            "phonetic": "me ˈdi.xo ke ˈi.βa a beˈniɾ maˈɲa.na",
+            "translation": "그는 내게 내일 오겠다고 말했다.",
+            "note": "미래 의도(ir a)가 간접화법에서 'iba a'로 변화합니다."
+          },
+          {
+            "original": "Pienso que tienes razón.",
+            "phonetic": "ˈpjen.so ke ˈtje.nes raˈson",
+            "translation": "나는 네가 옳다고 생각한다.",
+            "note": "'pensar', 'creer' 등의 정신 동사 뒤에는 'que'를 사용해 의견을 전달합니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntas indirectas",
+        "translation": "간접 의문문",
+        "examples": [
+          {
+            "original": "Preguntó: '¿Dónde está la estación?'",
+            "phonetic": "pɾe.ɣunˈto ˈdon.de esˈta la es.taˈsjon",
+            "translation": "그는 물었다: '역이 어디예요?'",
+            "note": "직접 의문문: 물음표 사용. 간접화법: 'Preguntó dónde estaba la estación.' 의문사 뒤에는 'que'가 필요 없습니다."
+          },
+          {
+            "original": "Me preguntó si tenía hambre.",
+            "phonetic": "me pɾe.ɣunˈto si teˈni.a ˈam.bɾe",
+            "translation": "그는 내게 배가 고픈지 물었다.",
+            "note": "예/아니오 질문에 대해서는 'si'(만약)를 사용하고 시제를 변화시킵니다(tengo → tenía)."
+          },
+          {
+            "original": "Quiero saber cuánto cuesta.",
+            "phonetic": "ˈkje.ɾo saˈbeɾ ˈkwan.to ˈkwes.ta",
+            "translation": "나는 그것이 얼마인지 알고 싶다.",
+            "note": "현재 보고 동사 'quiero' 뒤에서는 원래 시제 'cuesta'가 그대로 유지됩니다."
+          },
+          {
+            "original": "No sabía por qué había llegado tarde.",
+            "phonetic": "no saˈbi.a poɾ ke aˈβi.a ʝeˈɣa.ðo ˈtaɾ.ðe",
+            "translation": "그는 왜 늦게 도착했는지 몰랐다.",
+            "note": "보고된 동작이 보고 시점보다 먼저 일어난 경우 과거 완료(había llegado)를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Órdenes y peticiones",
+        "translation": "명령문과 요청",
+        "examples": [
+          {
+            "original": "Me dijo: 'Cierra la puerta.'",
+            "phonetic": "me ˈdi.xo ˈsje.ra la ˈpweɾ.ta",
+            "translation": "그는 내게 말했다: '문을 닫아라.'",
+            "note": "직접 명령: 명령법 사용. 간접화법: 'Me dijo que cerrara la puerta.' 접속법 사용."
+          },
+          {
+            "original": "Le pedí que no fumara en casa.",
+            "phonetic": "le peˈði ke no fuˈma.ɾa en ˈka.sa",
+            "translation": "나는 그에게 집에서 담배를 피우지 말라고 요청했다.",
+            "note": "부정 명령은 'no' + 접속법(fumara)을 사용합니다."
+          },
+          {
+            "original": "Los padres siempre les dicen a los niños que sean buenos.",
+            "phonetic": "los ˈpa.ðɾes ˈsjem.pɾe les ˈdi.sen a los ˈni.ɲos ke ˈse.an ˈbwe.nos",
+            "translation": "부모님은 항상 아이들에게 착하게 있으라고 말한다.",
+            "note": "일반적인 조언은 보고 동사 뒤 'que'와 함께 접속법 'sean'을 사용합니다."
+          },
+          {
+            "original": "Ella me recomendó que visitara el museo.",
+            "phonetic": "ˈe.ʝa me re.ko.menˈdo ke bi.siˈta.ɾa el muˈse.o",
+            "translation": "그녀는 내게 박물관을 방문하라고 권했다.",
+            "note": "'recomendar'와 같은 동사는 간접화법에서 접속법을 유발합니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "ko": "간접화법"
+    }
+  },
+  {
+    "id": "ko_B1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "동명사와 부정사 주어와 목적어로 / Gerunds and infinitives as subject and object",
+    "bridge": "영어에서는 '-ing' 형태와 'to + 동사'를 모두 주어와 목적어로 사용할 수 있지만(예: 'Swimming is fun' / 'To swim is fun'), 스페인어는 더 제한적입니다. 명사 역할을 할 때는 부정사(예: 'nadar')만 사용할 수 있습니다. 목적어 자리에서는 영어가 전치사 뒤에 동명사를 자주 사용하지만(예: 'good at swimming'), 스페인어는 전치사 뒤에 부정사를 사용해야 합니다(예: 'bueno para nadar'). 주의할 점은 스페인어에서 동명사(예: 'nadando')를 명사로 사용하지 않는다는 것입니다. 이 위치에서는 항상 부정사를 사용해야 합니다.",
+    "rule": "스페인어에서 부정사(예: hablar, comer, vivir)는 영어의 동명사('-ing')나 부정사('to + 동사')와 같은 명사 역할을 합니다. 동사가 문장의 주어 역할을 할 때는 항상 부정사를 사용하세요: 'Nadar es saludable' (수영은 건강에 좋다). 전치사(예: 'para', 'de', 'sin', 'después de') 뒤에 오는 동사는 부정사를 사용하세요: 'Estoy cansado de trabajar' (일하는 것이 지친다). 특정 주요 동사 뒤에 오는 직접 목적어 자리에서는 영어가 동명사를 사용하는 반면 스페인어는 부정사를 사용합니다: 'Me gusta bailar' (춤추는 것이 좋다) – 'gustar'는 동명사가 아닌 부정사를 요구합니다. 반면 스페인어의 동명사(예: 'nadando')는 부사 역할로만 존재하며, 'estar'와 함께 진행형을 만들거나(예: 'Estoy nadando' – 수영하고 있다) 방식(예: 'Entró corriendo' – 달려 들어오다)을 표현할 때 사용됩니다. 동명사를 명사나 전치사 뒤에 사용하지 마세요. 예외: 'al' + 부정사(예: 'Al llegar' = 도착하자마자)는 부정사를 사용합니다. 또한 'seguir' + 동명사(예: 'Sigue lloviendo' – 계속 비가 오고 있다)와 같은 관용적 표현도 있지만, 이는 명사적 용법이 아닙니다.",
+    "concept_examples": [
+      {
+        "text": "Nadar es bueno para la salud.",
+        "translation": "수영은 건강에 좋다.",
+        "phonetic": "/naˈðaɾ es ˈβweno ˈpaɾa la saˈluð/"
+      },
+      {
+        "text": "Me gusta leer libros.",
+        "translation": "나는 책 읽는 것을 좋아한다.",
+        "phonetic": "/me ˈɣusta leˈeɾ ˈliβɾos/"
+      },
+      {
+        "text": "Estoy cansado de trabajar.",
+        "translation": "나는 일하는 것이 지친다.",
+        "phonetic": "/esˈtoi kanˈsaðo ðe tɾaβaˈxaɾ/"
+      },
+      {
+        "text": "Al llegar, llamó a su madre.",
+        "translation": "도착하자마자 그는 어머니에게 전화를 했다.",
+        "phonetic": "/al ʝeˈɣaɾ ʝaˈmo a su ˈmaðɾe/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Nadando es bueno para la salud.",
+      "correct": "Nadar es bueno para la salud.",
+      "correct_alt": "El nadar es bueno para la salud.",
+      "explanation": "영어 화자들은 동명사의 '-ing' 형태를 스페인어에 그대로 적용하는 경우가 많지만, 스페인어에서는 동명사(‘-ando/-iendo’ 형태)를 명사로 사용하지 않습니다. 주어 역할을 할 때는 항상 부정사를 사용해야 합니다. 영어에서 동명사를 명사로 사용하는 경우(예: 'Swimming')에는 스페인어에서 반드시 부정사(예: 'Nadar')를 사용해야 한다는 점을 기억하세요."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Infinitivo como sujeto",
+        "translation": "주어로서의 부정사",
+        "examples": [
+          {
+            "original": "Comer verduras es importante.",
+            "phonetic": "/koˈmeɾ βeɾˈðuɾas es impoɾˈtante/",
+            "translation": "채소를 먹는 것은 중요하다.",
+            "note": "동사 'comer'가 주어 역할을 하는 부정사 형태로 사용됨. 영어에서는 동명사 'eating'을 사용함."
+          },
+          {
+            "original": "Viajar amplía la mente.",
+            "phonetic": "/bjaˈxaɾ amˈplia la ˈmente/",
+            "translation": "여행을 하면 견문이 넓어진다.",
+            "note": "단수 주어인 부정사 'viajar'에 동사 'amplía'가 일치함."
+          },
+          {
+            "original": "Fumar está prohibido aquí.",
+            "phonetic": "/fuˈmaɾ esˈta pɾoiˈβiðo aˈki/",
+            "translation": "여기서는 흡연이 금지되어 있다.",
+            "note": "동명사 'fumando'가 아닌 부정사 'fumar'를 사용해야 함."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Infinitivo después de preposiciones",
+        "translation": "전치사 뒤의 부정사",
+        "examples": [
+          {
+            "original": "Está interesado en aprender español.",
+            "phonetic": "/esˈta inteɾeˈsaðo en apɾenˈdeɾ espaˈɲol/",
+            "translation": "그는 스페인어 배우는 데 관심이 있다.",
+            "note": "전치사 'en' 뒤에는 동명사가 아닌 부정사 'aprender'를 사용함."
+          },
+          {
+            "original": "Salió sin decir adiós.",
+            "phonetic": "/saˈljo sin deˈθiɾ aˈðjos/",
+            "translation": "그는 작별 인사 없이 떠났다.",
+            "note": "전치사 'sin' 뒤에는 동명사가 아닌 부정사 'decir'를 사용함."
+          },
+          {
+            "original": "Gracias por ayudar.",
+            "phonetic": "/ˈɡɾaθjas poɾ aʝuˈðaɾ/",
+            "translation": "도움을 주셔서 감사합니다.",
+            "note": "일반 표현: 'por' + 부정사."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Infinitivo como objeto de verbos",
+        "translation": "동사의 목적어로 쓰이는 부정사",
+        "examples": [
+          {
+            "original": "Prefiero caminar que correr.",
+            "phonetic": "/pɾeˈfjeɾo kamiˈnaɾ ke koˈreɾ/",
+            "translation": "나는 걷는 것보다 뛰는 것을 더 좋아한다.",
+            "note": "'preferir' 뒤의 동사는 영어와 달리 동명사가 아닌 부정사를 사용함."
+          },
+          {
+            "original": "Necesito comprar leche.",
+            "phonetic": "/neθeˈsito komˈpɾaɾ ˈletʃe/",
+            "translation": "나는 우유를 사야 한다.",
+            "note": "'necesitar'과 같은 동사는 영어의 'to + 동사'에 해당하는 부정사를 목적어로 취함."
+          },
+          {
+            "original": "Evita hacer ruido.",
+            "phonetic": "/eˈβita aˈθeɾ ˈrwiðo/",
+            "translation": "소음을 내지 않도록 하세요.",
+            "note": "동사 'evitar'는 목적어로 동명사가 아닌 부정사를 요구함."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏊",
+    "phonetic": "",
+    "translations": {
+      "ko": "동명사와 부정사 주어와 목적어로"
+    }
+  },
+  {
+    "id": "ko_B1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "추론을 위한 양태 / Modal verbs for deduction",
+    "bridge": "영어에서는 'must', 'might', 'could'를 사용하여 추론을 하는데, 이 단어들은 동사 원형과 함께 쓰입니다(예: 'She must be tired'). 스페인어에서는 이와 같은 기능을 하는 'deber de', 'poder', 'podría'가 동사 원형과 함께 쓰입니다(예: 'Ella debe de estar cansada'). 흔한 오류는 영어의 'must'가 의무와 추론 모두를 의미할 수 있지만, 스페인어의 'deber'는 의무를, 'deber de'는 추론을 나타낸다는 점입니다. 또한 스페인어에서는 확률을 표현할 때 미래 시제(예: 'será')를 자주 사용하며, 이는 영어에서는 흔하지 않은 방식입니다.",
+    "rule": "B1 수준에서 스페인어로 추론을 표현하려면 다음과 같은 구조를 사용하세요: (1) 강한 추론을 위해 'deber de + 동사 원형' (영어 'must'에 해당), (2) 가능성을 위해 'poder + 동사 원형' 또는 'podría + 동사 원형' (영어 'might'/'could'에 해당). 주어에 따라 형태가 바뀌지만 동사 원형은 변하지 않습니다. 부정 추론을 표현할 때는 'no puede ser que' 또는 'no puede + 동사 원형'을 사용합니다(예: 'No puede estar en casa' = '그는 집에 있을 리가 없다'). 구어체에서는 미래 시제(예: 'Será tarde' = '시간이 늦었음에 틀림없다')를 사용하여 확률을 표현하기도 합니다. 참고: 'deber' 뒤에 'de'가 없으면 의무를, 'de'가 있으면 추론을 나타냅니다. 'Debo estudiar' = '공부해야 한다'(의무) vs. 'Debe de ser tarde' = '시간이 늦었음에 틀림없다'(추론).",
+    "concept_examples": [
+      {
+        "text": "Debe de estar enfermo.",
+        "translation": "그는 아픈 게 틀림없다.",
+        "phonetic": "/ˈde.βe ðe esˈtaɾ enˈfeɾ.mo/"
+      },
+      {
+        "text": "Podría llover mañana.",
+        "translation": "내일 비가 올 수도 있다.",
+        "phonetic": "/poˈðɾi.a ʎoˈβeɾ maˈɲa.na/"
+      },
+      {
+        "text": "Puede que tenga razón.",
+        "translation": "그가 옳을 수도 있다.",
+        "phonetic": "/ˈpwe.ðe ke ˈteŋ.ɡa raˈθon/"
+      },
+      {
+        "text": "No puede ser que hayas perdido las llaves.",
+        "translation": "너가 열쇠를 잃어버렸을 리가 없다.",
+        "phonetic": "/no ˈpwe.ðe seɾ ke ˈa.ʝas peɾˈði.ðo las ˈʝa.βes/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Debe ser enfermo.",
+      "correct": "Debe de estar enfermo.",
+      "correct_alt": "Estará enfermo.",
+      "explanation": "영어 화자들은 'must'의 의미와 비슷하다고 느껴 'deber'를 'debe ser'로 잘못 사용하는 경우가 많습니다. 그러나 'debe ser'는 의무를 의미할 뿐(예: 'Debe ser honesto' = '그는 정직해야 한다') 추론을 나타내지 않습니다. 추론을 표현하려면 'deber de + 동사 원형'을 사용하거나, 미래 시제('será')를 사용해야 합니다. 또한 'enfermo'는 '아픈'이라는 형용사이므로 'estar'를 사용해야 합니다('ser'는 상태가 아닌 본질을 나타냄)."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Deducción fuerte (deber de)",
+        "translation": "강한 추론(must)",
+        "examples": [
+          {
+            "original": "Debe de tener hambre.",
+            "phonetic": "/ˈde.βe ðe teˈneɾ amˈbɾe/",
+            "translation": "그는 배가 고픈 게 틀림없다.",
+            "note": "강한 논리적 추론을 위해 'deber de + 동사 원형'을 사용하세요."
+          },
+          {
+            "original": "Debes de estar cansado.",
+            "phonetic": "/ˈde.βes ðe esˈtaɾ kanˈsa.ðo/",
+            "translation": "너는 피곤한 게 틀림없다.",
+            "note": "'debes de'(너) vs 'debe de'(그/그녀/당신)의 형태 변화를 주의하세요. 동사 원형이 뒤따릅니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Posibilidad (poder, podría)",
+        "translation": "가능성(might, could)",
+        "examples": [
+          {
+            "original": "Podría ser verdad.",
+            "phonetic": "/poˈðɾi.a seɾ βeɾˈðað/",
+            "translation": "사실일 수도 있다.",
+            "note": "'podría'는 'poder'의 조건법으로, 정중한 가능성을 표현할 때 자주 사용됩니다."
+          },
+          {
+            "original": "Puede que esté en casa.",
+            "phonetic": "/ˈpwe.ðe ke esˈte en ˈka.sa/",
+            "translation": "그가 집에 있을 수도 있다.",
+            "note": "'puede que' 뒤에는 접속법이 필요합니다: 'esté'를 사용하세요."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Deducción negativa y futura",
+        "translation": "부정 추론과 미래 추론",
+        "examples": [
+          {
+            "original": "No puede ser que esté roto.",
+            "phonetic": "/no ˈpwe.ðe seɾ ke esˈte ˈro.to/",
+            "translation": "그게 부서졌을 리가 없다.",
+            "note": "강한 부정 추론을 위해 'no puede ser que + 접속법'을 사용하세요."
+          },
+          {
+            "original": "Será muy caro.",
+            "phonetic": "/seˈɾa mwi ˈka.ɾo/",
+            "translation": "아마도 매우 비쌀 거야.",
+            "note": "구어체에서 확률이나 추론을 표현할 때 미래 시제 'será'가 사용됩니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "ko": "추론을 위한 양태"
+    }
+  },
+  {
+    "id": "ko_B1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "상대절: 한정적 및 설명적 / Relative Clauses: Defining and Non-defining",
+    "bridge": "영어에서는 'who', 'which', 'that'을 사용하여 관계절을 시작하며, 종종 관계대명사를 생략할 수 있습니다(예: 'the book I read'). 반면 스페인어에서는 관계대명사를 반드시 포함해야 하며(que, quien, el cual 등), 생략할 수 없습니다. 또한 스페인어는 사람과 사물 모두에 같은 관계대명사 'que'를 사용하지만, 영어는 사람에 'who', 사물에 'which/that'을 구분합니다. 또 다른 차이점: 스페인어는 쉼표 배치를 통해 한정적(쉼표 없음)과 설명적(쉼표 있음)을 구분하며, 영어와 비슷하지만, 설명절에서는 명확성을 위해 'el cual/la cual'로 전환하는 경우가 많습니다(이는 구어 영어에서는 거의 사용되지 않음).",
+    "rule": "스페인어의 관계절은 선행사와 성수일치를 하는 관계대명사로 시작됩니다. 가장 흔한 대명사는 변하지 않는 'que'로, 사람과 사물 모두에 사용됩니다. 'Quien/quienes'는 사람에만 사용되며, 전치사 뒤나 설명절에서 주로 쓰입니다. 'El cual/la cual/los cuales/las cuales'는 더 공식적이며, 특히 설명절에서 명확성을 위해 사용됩니다. 한정적 관계절(oraciones especificativas)은 필수 정보를 제공하며 쉼표 없이 쓰입니다. 설명적 관계절(oraciones explicativas)은 추가적이지만 필수적이지 않은 정보를 제공하며, 쉼표로 구분됩니다. 영어와 달리 스페인어에서는 관계대명사를 생략할 수 없습니다. 또한 스페인어는 'that'을 관계대명사로 사용하지 않으며, 'que'가 'that'과 'who/which' 모두를 대신합니다.",
+    "concept_examples": [
+      {
+        "text": "El libro que leo es interesante.",
+        "translation": "내가 읽고 있는 책은 재미있다.",
+        "phonetic": "el ˈliβɾo ke ˈleo es inteɾeˈsante"
+      },
+      {
+        "text": "Mi hermana, que vive en Madrid, es doctora.",
+        "translation": "나의 여동생, 마드리드에 사는, 의사는 아니다.",
+        "phonetic": "mi eɾˈmana ke ˈbiβe en maˈðɾið es dokˈtoɾa"
+      },
+      {
+        "text": "La persona con quien hablé era muy amable.",
+        "translation": "내가 대화한 사람은 매우 친절했다.",
+        "phonetic": "la peɾˈsona kon ˈkjen aˈβle ˈeɾa muj aˈmable"
+      },
+      {
+        "text": "El coche, cuyo dueño es famoso, está aparcado fuera.",
+        "translation": "차는, 주인이 유명한, 밖에 주차되어 있다.",
+        "phonetic": "el ˈkotʃe ˈkujo ˈdweɲo es faˈmoso esˈta apaɾˈkaðo ˈfweɾa"
+      }
+    ],
+    "common_error": {
+      "wrong": "El libro que yo leí es interesante, pero el que tú leíste no.",
+      "correct": "El libro que yo leí es interesante, pero el que tú leíste no.",
+      "correct_alt": "",
+      "explanation": "이 오류는 관계대명사를 생략하는 것이 아닙니다. 실제 가장 흔한 오류는 'que'를 생략하는 것입니다(예: 'El libro yo leí' → 'que' 없이 '내가 읽은 책'). 영어에서는 한정적 절에서 관계대명사를 생략할 수 있지만(예: 'the book I read'), 스페인어에서는 반드시 'que' 또는 다른 관계대명사를 포함해야 합니다. 또한 학습자들은 'que'를 사람에 'who'라는 뜻으로 사용하기도 하지만, 'que'는 성수 변화가 없으므로 이를 잊는 경우가 많습니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Definitorias con 'que'",
+        "translation": "'que'를 사용한 한정적 절",
+        "examples": [
+          {
+            "original": "El chico que está allí es mi amigo.",
+            "phonetic": "el ˈtʃiko ke esˈta aˈʝi es mi aˈmiɣo",
+            "translation": "저기에 있는 소년은 내 친구다.",
+            "note": "사람과 사물 모두에 'que'를 사용합니다. 쉼표 없음, 필수 정보."
+          },
+          {
+            "original": "La casa que compramos tiene un jardín.",
+            "phonetic": "la ˈkasa ke komˈpɾamos ˈtjene un xaɾˈðin",
+            "translation": "우리가 산 집은 정원이 있다.",
+            "note": "기억하세요: 영어의 'the house we bought'처럼 'que'를 생략할 수 없습니다."
+          },
+          {
+            "original": "Las flores que me regalaste son bonitas.",
+            "phonetic": "las ˈfloɾes ke me reɣaˈlaste som boˈnitas",
+            "translation": "네가 준 꽃들은 예쁘다.",
+            "note": "'que'는 변하지 않으며, 복수에도 사용됩니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Explicativas con 'que' y comas",
+        "translation": "쉼표를 사용한 'que'의 설명적 절",
+        "examples": [
+          {
+            "original": "Mi padre, que es alto, juega al baloncesto.",
+            "phonetic": "mi paˈðɾe ke es ˈalto ˈxweɣa al balonˈθesto",
+            "translation": "나의 아버지, 키가 큰, 농구를 한다.",
+            "note": "쉼표는 추가 정보임을 나타내며, 해당 절을 제거해도 문장 이해는 가능합니다."
+          },
+          {
+            "original": "El museo, que visitamos ayer, es muy famoso.",
+            "phonetic": "el muˈseo ke bisitaˈmos aˈʝeɾ es muj faˈmoso",
+            "translation": "그 박물관, 우리가 어제 방문한, 매우 유명하다.",
+            "note": "설명적 절에서는 사물에도 'que'를 사용하지만, 명확성을 위해 'el cual'도 가능합니다."
+          },
+          {
+            "original": "Mis amigos, que son de México, llegan mañana.",
+            "phonetic": "mis aˈmiɣos ke son de ˈmexiko ˈʝeɣan maˈɲana",
+            "translation": "나의 친구들, 멕시코 출신인, 내일 도착한다.",
+            "note": "해당 절은 추가 정보이며, 쉼표가 쓰기에서 필수적입니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Con preposición: 'que' vs 'quien' vs 'el cual'",
+        "translation": "전치사와 함께: 'que' vs 'quien' vs 'el cual'",
+        "examples": [
+          {
+            "original": "La chica con que hablé es simpática.",
+            "phonetic": "la ˈtʃika kon ke aˈβle es simˈpatika",
+            "translation": "내가 대화한 소녀는 친절하다.",
+            "note": "전치사 뒤에서는 사람에 대해 단순히 'que'를 사용할 수 없으며, 'quien' 또는 'el cual'을 사용해야 합니다. 이 문장은 실제로는 잘못된 예시이며, 다음 예를 참고하세요."
+          },
+          {
+            "original": "La chica con quien hablé es simpática.",
+            "phonetic": "la ˈtʃika kon ˈkjen aˈβle es simˈpatika",
+            "translation": "내가 대화한 소녀는 친절하다.",
+            "note": "사람 뒤 전치사에는 'quien'을 사용합니다."
+          },
+          {
+            "original": "El tema sobre el cual discutimos fue complicado.",
+            "phonetic": "el ˈtema ˈsoβɾe el ˈkwal diskutiˈmos fwe kompliˈkaðo",
+            "translation": "우리가 논의한 주제는 복잡했다.",
+            "note": "사물 뒤 전치사에는 명확성과 형식성을 위해 'el cual'(또는 'la cual' 등)을 사용합니다."
+          },
+          {
+            "original": "La razón por la que no vine es obvia.",
+            "phonetic": "la raˈson poɾ la ke no ˈbine es ˈoβja",
+            "translation": "내가 오지 않은 이유는 명백하다.",
+            "note": "관용 표현: 'por la que'(~ 때문에). 사물 뒤 짧은 전치사에는 'que'도 가능하지만, 'el cual'이 더 공식적입니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "ko": "관계절(한정적 및 설명적)"
+    }
+  },
+  {
+    "id": "ko_B1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "오잘라 / quisiera + 과거 가정법 для нереалистичных желаний",
+    "bridge": "영어에서는 'wish' + 과거 단순형을 사용하여 비현실적이거나 가상의 소망을 표현합니다(예: 'I wish I had more time'). 스페인어에서 가장 흔한 equivalent는 'Ojalá'(아랍어 'law sha'a'에서 유래한 '신이 원하신다면'이라는 뜻) 뒤에 과거 가정법(-ra/-se)을 사용하거나, 'Quisiera'(querer의 과거 가정법) 뒤에 부정사를 사용하는 것입니다. 영어에서는 종종 'would'를 사용하지만(예: 'I wish you would stop'), 스페인어에서는 이러한 구조에서 조건법이 거의 사용되지 않으며, 대신 과거 가정법이 현재와 미래의 비현실적 소망 모두에 사용됩니다. 또한 영어에서는 'wish'를 동사로 사용하지만, 스페인어에서는 인칭 주어가 필요 없는 비인칭 'Ojalá'가 자주 사용됩니다.",
+    "rule": "스페인어에서 비현실적이거나 가상의 소망을 표현할 때는 'Ojalá'(또는 'Ojalá que') + 과거 가정법(-ra/-se)을 현재/미래의 가능성이 낮거나 불가능한 소망에 사용합니다. 과거 가정법은 -ra 형태(예: 'tuviera')와 -se 형태(예: 'tuviese')가 있으며, 둘 다 올바르지만 -ra가 라틴아메리카와 일상어에서 더 흔합니다. 다른 사람의 행동에 대한 소망을 표현할 때는 'would' + 부정사가 아닌 'Ojalá' + 과거 가정법을 사용합니다.Alternatively, 'Quisiera'(querer의 과거 가정법) + 부정사는 자신을 위한 공손한 소망을 표현할 때 사용됩니다(예: 'Quisiera viajar'). 과거에 대한 소망(후회)을 표현할 때는 'Ojalá' + 완료 과거 가정법(예: 'Ojalá hubiera estudiado')을 사용합니다. 'Ojalá' 뒤에는 'que'가 올 수 있으며(선택 사항), 주어가 없으면 'que'는 보통 생략됩니다. 조건법(예: 'me gustaría')은 공손한 소망에 사용되며, 비현실적 소망에는 사용되지 않습니다.",
+    "concept_examples": [
+      {
+        "text": "Ojalá tuviera más tiempo.",
+        "translation": "저는 시간이 더 많았으면 좋겠어요.",
+        "phonetic": "oˈxala tuˈβjeɾa mas ˈtjempo"
+      },
+      {
+        "text": "Ojalá que llueva mañana.",
+        "translation": "내일 비가 왔으면 좋겠어요.",
+        "phonetic": "oˈxala ke ʎuˈβeβa maˈɲana"
+      },
+      {
+        "text": "Quisiera hablar español perfectamente.",
+        "translation": "스페인어를 완벽히 구사할 수 있었으면 좋겠어요.",
+        "phonetic": "kiˈsjeɾa aˈβlaɾ espaˈɲol peɾfektaˈmente"
+      },
+      {
+        "text": "Ojalá hubiera estudiado más.",
+        "translation": "저는 더 열심히 공부했으면 좋겠어요.",
+        "phonetic": "oˈxala uˈβjeɾa estuˈðjaðo mas"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ojalá yo quiero más dinero.",
+      "correct": "Ojalá yo quisiera más dinero.",
+      "correct_alt": "Ojalá tuviera más dinero.",
+      "explanation": "영어 화자들은 'I wish I want'를 문자 그대로 번역하여 'wish' 뒤에 현재형 동사를 사용하는 실수를 자주 합니다. 그러나 'Ojalá'는 시제에 관계없이 반드시 과거 가정법(-ra/-se 또는 완료 과거 가정법)을 요구합니다. 기억하세요: 'Ojalá'는 접속법 동사 뒤에 오며, 직설법은 절대 사용하지 않습니다. 또한 'tener'를 의미할 때 'querer'와 'Ojalá'를 함께 사용하지 마세요; 대신 'tener'의 과거 가정법을 사용하세요. 연습할 때는 소망을 표현하는 동사를 식별하고 그것을 과거 가정법으로 바꾸는 연습을 하세요."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ojalá + imperfecto de subjuntivo",
+        "translation": "Ojalá + 과거 가정법",
+        "examples": [
+          {
+            "original": "Ojalá tuviera un coche nuevo.",
+            "phonetic": "oˈxala tuˈβjeɾa un ˈkotʃe ˈnweβo",
+            "translation": "저는 새 차가 있었으면 좋겠어요.",
+            "note": "현재 비현실적 소망에는 'tener'의 과거 가정법 'tuviera'를 사용하세요. -ra 형태를 주목하세요."
+          },
+          {
+            "original": "Ojalá pudiera ir contigo.",
+            "phonetic": "oˈxala puˈðjeɾa iɾ konˈtiɣo",
+            "translation": "저는 당신과 함께 갈 수 있었으면 좋겠어요.",
+            "note": "'Pudiera'는 'poder'의 과거 가정법입니다. 영어에서는 'could'를 사용하지만 스페인어에서는 단순히 접속법만 사용됩니다."
+          },
+          {
+            "original": "Ojalá que estuvieras aquí.",
+            "phonetic": "oˈxala ke estuˈβjeɾas aˈki",
+            "translation": "저는 당신이 여기 있었으면 좋겠어요.",
+            "note": "'que'는 선택 사항입니다. 여기서는 사용되었습니다. 'Estuvieras'는 'estar'의 tú 형태 과거 가정법입니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Quisiera + infinitivo",
+        "translation": "Quisiera + 부정사",
+        "examples": [
+          {
+            "original": "Quisiera aprender a tocar guitarra.",
+            "phonetic": "kiˈsjeɾa apɾenˈdeɾ a toˈkaɾ ɡiˈtara",
+            "translation": "저는 기타를 배울 수 있었으면 좋겠어요.",
+            "note": "'quisiera'(querer의 과거 가정법) 뒤에 부정사를 사용하여 자신에 대한 공손하거나 비현실적인 소망을 표현하세요."
+          },
+          {
+            "original": "Quisiera ser más paciente.",
+            "phonetic": "kiˈsjeɾa seɾ mas paˈθjente",
+            "translation": "저는 더 인내심이 있었으면 좋겠어요.",
+            "note": "이것은 영어의 'I wish I were...'와 유사한 자신을 변화시키고자 하는 소망을 표현하는 흔한 방법입니다."
+          },
+          {
+            "original": "Quisiera tener más energía.",
+            "phonetic": "kiˈsjeɾa teˈneɾ mas eneɾˈxi.a",
+            "translation": "저는 에너지가 더 많았으면 좋겠어요.",
+            "note": "여기서는 영어의 'to have' 대신 'tener'가 사용됩니다. 'quisiera'는 조건법이 아니라 과거 가정법 형태임을 기억하세요."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ojalá + pluscuamperfecto de subjuntivo",
+        "translation": "Ojalá + 완료 과거 가정법",
+        "examples": [
+          {
+            "original": "Ojalá hubiera llegado antes.",
+            "phonetic": "oˈxala uˈβjeɾa ʎeˈɣaðo ˈantes",
+            "translation": "저는 더 일찍 도착했으면 좋겠어요.",
+            "note": "과거 후회를 표현할 때는 'hubiera' + 과거 분사를 사용합니다. 이것은 영어의 'I wish I had + 과거 분사'와 일치합니다."
+          },
+          {
+            "original": "Ojalá no hubiéramos hecho eso.",
+            "phonetic": "oˈxala no uˈβjeɾamos ˈetʃo ˈeso",
+            "translation": "저희가 그 일을 하지 않았으면 좋겠어요.",
+            "note": "부정형은 'no' + 'hubiéramos' 앞에 옵니다. nosotros 형태 -ramos를 주목하세요."
+          },
+          {
+            "original": "Ojalá hubieras venido a la fiesta.",
+            "phonetic": "oˈxala uˈβjeɾas βeˈniðo a la ˈfjes ta",
+            "translation": "당신이 파티에 왔으면 좋겠어요.",
+            "note": "완료 과거 가정법은 불가능한 과거 소망을 표현합니다. 구어체에서는 'hubieras'가 흔하며, 'hubieses'도 올바른 형태입니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🌠",
+    "phonetic": "",
+    "translations": {
+      "ko": "wish + 과거 / Ojalá для нереалистичных желаний"
+    }
+  },
+  {
+    "id": "ko_B1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Solía / 과거 습관 표현하기",
+    "bridge": "영어에서 'used to'는 더 이상 일어나지 않는 과거의 습관이나 상태를 표현할 때 사용됩니다. 예를 들어 'I used to play soccer.'(축구를 했었어요.)와 같습니다. 스페인어에도 유사한 표현인 'solía + 동사원형'(동사 'soler'에서 파생됨)이 있습니다. 그러나 영어에서는 반복되는 과거 행동을 'would'로도 표현할 수 있지만, 스페인어에서는 불완료과거 시제나 'solía'를 더 유연하게 사용합니다. 주의할 점: 스페인어 'soler'는 현재 시제에서 불규칙하게 변화합니다(suelo, sueles, suele) but 불완료과거 시제에서는 규칙적으로 변화합니다(solía). 또한 'solía' 뒤에는 동사원형이 와야 하며, 활용된 동사가 오면 안 됩니다.",
+    "rule": "스페인어로 과거의 습관이나 반복되는 행동을 표현할 때는 'solía'(soler의 불완료과거) + 동사원형을 사용합니다. 예: 'Solía correr por las mañanas'(아침에 달리곤 했어요). 과거의 상태(습관이 아닌)를 표현할 때는 단순 불완료과거 시제를 사용합니다. 예: 'Vivía en Madrid'(마드리드에 살았었어요). 'Soler'는 습관만을 표현할 때 사용하며, 상태에는 사용하지 않습니다. 현재 시제에서 'soler'는 '보통 ~하다'라는 뜻으로 사용됩니다. 예: 'Suelo desayunar café'(보통 아침에 커피를 마신다). 부정문에서는 'no solía + 동사원형'을 자주 사용합니다. 예: 'No solía fumar'(담배를 피우지 않았어요). 영어의 'would'에 해당하는 스페인어 표현은 없으며, 'solía'나 불완료과거 시제를 사용해야 합니다. 예외: 'soler'는 다른 시제(과거완료, 미래)에서는 거의 사용되지 않으므로 'used to' 표현 시에는 불완료과거 시제를 사용하세요.",
+    "concept_examples": [
+      {
+        "text": "Solía jugar al fútbol los sábados.",
+        "translation": "토요일마다 축구를 했었어요.",
+        "phonetic": "/soˈli.a xuˈɣar al ˈfutβol los ˈsaβaðos/"
+      },
+      {
+        "text": "Cuando era niño, solía visitar a mis abuelos.",
+        "translation": "어렸을 때 조부모님을 자주 방문했었어요.",
+        "phonetic": "/ˈkwando ˈera ˈniɲo, ˈsolja βisiˈtar a mis aˈβwelos/"
+      },
+      {
+        "text": "Mi madre no solía cocinar los domingos.",
+        "translation": "어머니는 일요일에 요리를 하지 않으셨어요.",
+        "phonetic": "/mi ˈmaðɾe no ˈsolja kokiˈnaɾ los doˈmiŋɡos/"
+      },
+      {
+        "text": "Antes solíamos vivir en el campo.",
+        "translation": "예전에는 시골에 살았었어요.",
+        "phonetic": "/ˈantes soˈliamos βiˈβiɾ en el ˈkampo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo usaba a jugar al tenis.",
+      "correct": "Yo solía jugar al tenis.",
+      "correct_alt": "Yo jugaba al tenis.",
+      "explanation": "영어 화자들은 'used to'를 직역하여 'usar a'로 표현하려고 하지만, 'usar a'는 절대 사용되지 않습니다. 올바른 스페인어 표현은 'solía + 동사원형'입니다. 또는 불완료과거 시제만으로도 같은 의미를 표현할 수 있습니다(예: jugaba). 과거 습관 표현에 'usar'를 사용하지 마세요."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Forma básica (solía + infinitivo)",
+        "translation": "기본 형태 (solía + 동사원형)",
+        "examples": [
+          {
+            "original": "Solía leer antes de dormir.",
+            "phonetic": "/soˈli.a leˈeɾ ˈantes de ðoɾˈmiɾ/",
+            "translation": "저는 잠자리에 들기 전에 책을 읽곤 했어요.",
+            "note": "규칙 동사 'leer'의 동사원형을 사용한 간단한 습관 표현."
+          },
+          {
+            "original": "¿Dónde solías comer de niño?",
+            "phonetic": "/ˈdonde ˈsoljas koˈmeɾ de ˈniɲo/",
+            "translation": "어렸을 때 어디에서 밥을 먹었나요?",
+            "note": "2인칭 단수 의문문: solías."
+          },
+          {
+            "original": "Ellos solían hablar español en casa.",
+            "phonetic": "/ˈeʎos ˈsoljan aˈβlaɾ espaˈɲol en ˈkasa/",
+            "translation": "그들은 집에서 스페인어를 사용했어요.",
+            "note": "3인칭 복수: solían."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negación y preguntas",
+        "translation": "부정문과 의문문",
+        "examples": [
+          {
+            "original": "No solía beber café.",
+            "phonetic": "/no ˈsolja βeˈβeɾ kaˈfe/",
+            "translation": "저는 커피를 마시지 않았어요(예전에는).",
+            "note": "부정문: solía 앞에 no를 사용."
+          },
+          {
+            "original": "¿Solías viajar mucho?",
+            "phonetic": "/ˈsoljas βjaˈxaɾ ˈmutʃo/",
+            "translation": "당신은 예전によく 여행했나요?",
+            "note": "의문문: 어조와 물음표로 표현."
+          },
+          {
+            "original": "No solíamos salir por las noches.",
+            "phonetic": "/no ˈsoljamos saˈliɾ poɾ las ˈnotʃes/",
+            "translation": "우리는 밤에 외출하지 않았어요(예전에는).",
+            "note": "1인칭 복수 부정문."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Contraste con el imperfecto y 'soler' en presente",
+        "translation": "불완료과거와 현재 'soler'의 대조",
+        "examples": [
+          {
+            "original": "Antes vivía en Madrid. (estado)",
+            "phonetic": "/ˈantes biˈβi.a en maˈðɾið/",
+            "translation": "저는 마드리드에 살았었어요(상태).",
+            "note": "과거의 상태는 'solía'가 아닌 불완료과거 시제를 사용."
+          },
+          {
+            "original": "Ahora suelo levantarme temprano.",
+            "phonetic": "/aˈoɾa ˈswelo leβanˈtaɾme temˈpɾano/",
+            "translation": "지금은 보통 일찍 일어납니다.",
+            "note": "현재 'suelo'는 '보통 ~하다'라는 뜻으로 과거 습관이 아님."
+          },
+          {
+            "original": "Cuando era joven, solía correr todos los días.",
+            "phonetic": "/ˈkwando ˈeɾa ˈxoβen, ˈsolja koˈreɾ ˈtoðos los ˈðias/",
+            "translation": "저는 젊었을 때 매일 달렸어요.",
+            "note": "상태('era')와 습관('solía correr')을 조합한 표현."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔙",
+    "phonetic": "",
+    "translations": {
+      "ko": "과거 습관 표현하기 / Solía"
+    }
+  },
+  {
+    "id": "ko_B1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "목적, 원인 및 결과 / Purpose, cause and result",
+    "bridge": "영어에서는 'so that'을 목적으로, 'because'을 원인으로, 'so...that'을 결과로 자주 사용합니다. 스페인어에도 유사한 연결사가 있지만 어순과 접속법 사용이 까다로울 수 있습니다. 예를 들어, 'para que'(~하기 위해)는 항상 접속법이 뒤따르며, 'porque'(~때문에)는 직설법이 사용됩니다. 또한 'así que'(그래서)는 'so that'이 아니라 결과에 사용됩니다. 흔한 혼동 중 하나입니다.",
+    "rule": "목적: 같은 주체가면 'para' + 동사원형, 주체가 다르면 'para que' + 접속법. 원인: 'porque'(~때문에), 'debido a'(~로 인해), 'a causa de'(~ 때문에). 결과: 'así que'(그래서), 'por lo tanto'(따라서), 'tan...que'(너무 ~해서). 주의: 'para'는 'por'이 아닙니다. 'por'은 원인이나 교환을 나타내는 경우가 많습니다. 'para que'와 'tan...que' 뒤에는 결과가 가설적이거나 바람직한 경우 접속법이 필요합니다.",
+    "concept_examples": [
+      {
+        "text": "Estudio español para trabajar en Madrid.",
+        "translation": "나는 마드리드에서 일하기 위해 스페인어를 공부한다.",
+        "phonetic": "/esˈtuðjo espaˈɲol ˈpaɾa tɾaβaˈxaɾ en maˈðɾið/"
+      },
+      {
+        "text": "Te llamo para que me ayudes.",
+        "translation": "내가 널 도와주길 바라서 전화하는 거야.",
+        "phonetic": "/te ˈʝamo ˈpaɾa ke me aˈʝuðes/"
+      },
+      {
+        "text": "No fui a la fiesta porque estaba enfermo.",
+        "translation": "아팠기 때문에 파티에 가지 못했다.",
+        "phonetic": "/no ˈfwi a la ˈfjesta ˈpoɾke esˈtaβa enˈfeɾmo/"
+      },
+      {
+        "text": "Estaba tan cansado que se durmió.",
+        "translation": "너무 피곤해서 잠이 들었다.",
+        "phonetic": "/esˈtaβa tan kanˈsaðo ke se duɾˈmjo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Te llamo para que me ayudas.",
+      "correct": "Te llamo para que me ayudes.",
+      "correct_alt": "Te llamo para que me ayude (formal).",
+      "explanation": "영어 화자들은 'so that' + 현재형 구조를 떠올려 'para que' 뒤에도 직설법을 자주 사용합니다. 그러나 스페인어에서 'para que' 뒤에는 항상 접속법(예: ayudes)이 필요하며, 현재 진행 중인 행동이라도 마찬가지입니다. 목적 표현 뒤에는 접속법이 필수입니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Propósito con 'para' e infinitivo",
+        "translation": "'para' + 동사원형으로 목적 표현하기",
+        "examples": [
+          {
+            "original": "Ahorro dinero para comprar un coche.",
+            "phonetic": "/aˈoro diˈneɾo ˈpaɾa komˈpɾaɾ un ˈkoteʃ/",
+            "translation": "나는 차를 사기 위해 돈을 저축한다.",
+            "note": "두 절의 주체가 같으므로 동사원형을 사용한다."
+          },
+          {
+            "original": "Estudio mucho para aprobar el examen.",
+            "phonetic": "/esˈtuðjo ˈmutʃo ˈpaɾa apɾoˈβaɾ el ekˈsamen/",
+            "translation": "시험에 합격하기 위해 많이 공부한다.",
+            "note": "역시 주체가 같음(나) – 접속법 불필요."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Propósito con 'para que' y subjuntivo",
+        "translation": "'para que' + 접속법으로 목적 표현하기",
+        "examples": [
+          {
+            "original": "Te presto mi coche para que vayas al aeropuerto.",
+            "phonetic": "/te ˈpɾesto mi ˈkoteʃ ˈpaɾa ke ˈbaʝas al aeɾoˈpweɾto/",
+            "translation": "너가 공항에 갈 수 있도록 내 차를 빌려준다.",
+            "note": "주체가 다름: 내가 빌려주고, 네가 감 – 접속법 'vayas'."
+          },
+          {
+            "original": "Dejo una nota para que sepas la verdad.",
+            "phonetic": "/ˈdexo ˈuna ˈnota ˈpaɾa ke ˈsepaz la βeɾˈðað/",
+            "translation": "네가 진실을 알 수 있도록 메모를 남긴다.",
+            "note": "'para que' 뒤에는 접속법 'sepas'가 필요하다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Causa y resultado",
+        "translation": "원인과 결과 표현하기",
+        "examples": [
+          {
+            "original": "Llegamos tarde porque había tráfico.",
+            "phonetic": "/ʎeˈɣamos ˈtaɾðe ˈpoɾke aˈβia ˈtɾafiko/",
+            "translation": "교통 체증 때문에 늦게 도착했다.",
+            "note": "'porque' + 직설법(había)으로 원인 표현."
+          },
+          {
+            "original": "Hacía tanto frío que no salimos.",
+            "phonetic": "/aˈsia ˈtanto ˈfɾio ke no saˈlimos/",
+            "translation": "너무 추워서 우리는 외출하지 않았다.",
+            "note": "'tan...que'(형용사/부사) 또는 'tanto...que'(명사)로 결과 표현."
+          },
+          {
+            "original": "Perdí el vuelo, así que llegué tarde a la reunión.",
+            "phonetic": "/peɾˈði el ˈbwelo, aˈsi ke ʝeˈɣe ˈtaɾðe a la reuˈnjon/",
+            "translation": "비행기를 놓쳐서 회의에 늦게 도착했다.",
+            "note": "'así que'로 결과 표현 – 영어의 'so'와 유사."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎯",
+    "phonetic": "",
+    "translations": {
+      "ko": "목적, 원인 및 결과"
+    }
+  },
+  {
+    "id": "ko_B1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "일반 동사구 / Common Spanish Phrasal Verbs",
+    "bridge": "영어에는 'give up'이나 'look for' 같은 다단어 동사가 있습니다. 스페인어도 동사가 대명사(주로 대명사나 부사)와 결합하여 다른 의미를 갖는 경우가 많지만, 그 사용법이 다릅니다. 스페인어에서 대명사는 동사 앞에 오거나 동사원형/진행형에 붙으며, 대명사는 주어와 일치해야 합니다. 주의할 점: 일부 스페인어 '동사구'는 실제로 재귀동사이므로 학습자들이 'se'를 빼먹기 쉽습니다.",
+    "rule": "스페인어의 '동사구'(동사 + 대명사/전치사)는 흔히 사용됩니다. 여기에는 재귀동사('irse' – 떠나다, 'quedarse' – 머무르다)와 동사+전치사 결합('contar con' – 의지하다, 'dar con' – 찾다)이 포함됩니다. 재귀동사에서 대명사는 인칭에 따라 변하며 모든 형태에서 사용해야 합니다. 대명사는 동사 앞에 올 수(me voy) 있거나 동사원형/진행형에 붙을 수(voy a irme) 있습니다. 일부 동사는 재귀형으로 변하면 의미가 달라집니다('ir' vs 'irse'). 동사+전치사 결합에서는 전치사가 고정되어 있어 바꿀 수 없습니다. 예: 'contar con'은 '~에 의지하다'라는 뜻이지 'count with'가 아닙니다.",
+    "concept_examples": [
+      {
+        "text": "Me voy a casa.",
+        "translation": "집에 가요.",
+        "phonetic": "/me ˈβoi a ˈkasa/"
+      },
+      {
+        "text": "Cuento con tu ayuda.",
+        "translation": "당신의 도움이 필요해요.",
+        "phonetic": "/ˈkwento kon tu aˈʝuða/"
+      },
+      {
+        "text": "Se quedó dormido.",
+        "translation": "그는 잠들었어요.",
+        "phonetic": "/se keˈðo ðorˈmiðo/"
+      },
+      {
+        "text": "Dar con la solución.",
+        "translation": "해결책을 찾기 위해.",
+        "phonetic": "/ˈdar kon la soluˈθjon/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Voy a se ir.",
+      "correct": "Voy a irme.",
+      "correct_alt": "Me voy.",
+      "explanation": "영어 화자들은 재귀 대명사를 분리하여 동사원형 뒤에 두는 경우가 많지만, 스페인어에서는 대명사를 동사원형에 붙이거나(irme) 동사 앞에(me voy) 붙여야 합니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pronominales básicos (irse, quedarse)",
+        "translation": "기본 재귀동사(떠나다, 머무르다)",
+        "examples": [
+          {
+            "original": "Me levanto a las siete.",
+            "phonetic": "/me leˈβanto a las ˈsjete/",
+            "translation": "저는 7시에 일어나요.",
+            "note": "'me'는 필수입니다. 없으면 'levanto'는 '들어 올린다'는 뜻이 됩니다."
+          },
+          {
+            "original": "Nos quedamos en casa.",
+            "phonetic": "/nos keˈðamos en ˈkasa/",
+            "translation": "우리는 집에 머무릅니다.",
+            "note": "'we'의 재귀 대명사는 'nos'입니다."
+          },
+          {
+            "original": "¿Te acuerdas de mí?",
+            "phonetic": "/te aˈkweɾðas de ˈmi/",
+            "translation": "저를 기억하세요?",
+            "note": "'te'가 필요합니다. 'acordar'는 대명사가 없으면 '동의하다'라는 뜻입니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbo + preposición fija",
+        "translation": "고정 전치사와 동사",
+        "examples": [
+          {
+            "original": "Cuento con tus consejos.",
+            "phonetic": "/ˈkwento kon tus konˈsexos/",
+            "translation": "당신의 조언에 의지해요.",
+            "note": "'contar con'은 '~에 의지하다'라는 뜻입니다. 'count with'가 아닙니다."
+          },
+          {
+            "original": "No doy con la llave.",
+            "phonetic": "/no ˈdoi kon la ˈʝaβe/",
+            "translation": "열쇠를 찾을 수 없어요.",
+            "note": "'dar con'은 '우연히 찾다' 또는 '찾다'라는 뜻입니다."
+          },
+          {
+            "original": "Sueño con viajar.",
+            "phonetic": "/ˈsweɲo kon bjaˈxaɾ/",
+            "translation": "여행을 꿈꿔요.",
+            "note": "'soñar con' – 전치사 'con'은 고정되어 'de'가 아닙니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cambio de significado con pronombre",
+        "translation": "대명사로 의미 변화",
+        "examples": [
+          {
+            "original": "Mi hijo se parece a mí.",
+            "phonetic": "/mi ˈixo se paˈɾeθe a ˈmi/",
+            "translation": "아들은 저를 닮았어요.",
+            "note": "'parecerse a'는 '닮다'라는 뜻입니다. 'se'가 없으면 'parecer'은 '~처럼 보이다'라는 뜻입니다."
+          },
+          {
+            "original": "El avión va a salir.",
+            "phonetic": "/el aˈβjon ba a saˈliɾ/",
+            "translation": "비행기가 곧 출발할 거예요.",
+            "note": "'ir a + 동사원형'은 가까운 미래를 나타내지만, 'irse'는 '떠나다'라는 뜻입니다."
+          },
+          {
+            "original": "Me quedé sin dinero.",
+            "phonetic": "/me keˈðe sin diˈneɾo/",
+            "translation": "저는 돈이 다 떨어졌어요.",
+            "note": "'quedarse sin'은 '~이 바닥나다'라는 뜻입니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔁",
+    "phonetic": "",
+    "translations": {
+      "ko": "일반 동사구"
+    }
+  },
+  {
+    "id": "ko_B1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "고급 수량 표현 / Advanced quantifiers",
+    "bridge": "영어에서는 'hardly any', 'plenty of', 'most', 'several' 등을 사용하여 수량을 표현합니다. 스페인어에도 유사한 수량 표현이 있지만 중요한 차이점이 있습니다: 'hardly any'는 보통 'apenas' 또는 'casi nada de'로, 'plenty of'는 'un montón de' 또는 'muchísimo'로, 'most'는 'la mayoría de' 뒤에 단수 동사를 사용합니다. 흔한 오류는 스페인어 수량 표현이 영어와 달리 'de'를 요구한다는 점입니다. 예를 들어 영어에서는 'most people'라고 하지만( 'most of people'가 아님), 스페인어에서는 'la mayoría de la gente'라고 합니다.",
+    "rule": "고급 수량 표현은 특정 수량이나 정도를 나타냅니다. 주요 표현: 'apenas' / 'casi nada de' (거의 없는) – 단수 또는 복수 명사와 함께 사용, 예: 'apenas hay tiempo' (시간이 거의 없다). 'un montón de' / 'muchísimo' (많은) – 'un montón de'는 복수 가산 명사 또는 불가산 명사와 함께 사용, 예: 'un montón de amigos' (친구가 많다). 'la mayoría de' (대부분의) – 정관사와 함께 사용하며 단수 명사 뒤에는 단수 동사가 옵니다, 예: 'la mayoría de la gente cree' (대부분의 사람들이 믿는다). 'varios' / 'varias' (몇몇의) – 성별과 수에 일치해야 함, 예: 'varios libros' (몇몇 책). 'la mayoría de'는 복수 명사와 복수 동사와 함께 사용될 수도 있지만, 공식적인 말에서는 단수 동사가 더 일반적입니다. 또한 'apenas'는 부사로 형태가 변하지 않습니다.",
+    "concept_examples": [
+      {
+        "text": "Apenas tengo dinero.",
+        "translation": "저는 돈이 거의 없어요.",
+        "phonetic": "aˈpenas ˈteŋɡo diˈneɾo"
+      },
+      {
+        "text": "Hay un montón de gente en la fiesta.",
+        "translation": "파티에 사람들이 많이 있어요.",
+        "phonetic": "ai̯ un monˈton de ˈxente en la ˈfjesta"
+      },
+      {
+        "text": "La mayoría de los estudiantes aprobaron el examen.",
+        "translation": "학생 대부분이 시험에 합격했어요.",
+        "phonetic": "la maˈʝoɾia de los estuˈdjantes apɾoˈβaɾon el ekˈsamen"
+      },
+      {
+        "text": "Tengo varios amigos en Madrid.",
+        "translation": "저는 마드리드에 친구가 몇 명 있어요.",
+        "phonetic": "ˈteŋɡo ˈβaɾjos aˈmiɣos en maˈðɾið"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tengo apenas dinero.",
+      "correct": "Tengo poco dinero.",
+      "correct_alt": "Apenas tengo dinero.",
+      "explanation": "영어에서 'hardly any'는 직접 명사를 수식합니다('hardly any money'). 스페인어에서 'apenas'는 부사로, 동사를 수식해야 하며 명사를 직접 수식할 수 없습니다. 따라서 'apenas dinero'라고 하면 '거의 돈이 없다'가 아니라 '거의 돈'처럼 들립니다. 대신 명사 앞에는 'poco'를 사용하거나 동사 앞에 'apenas'를 배치하여 재구성해야 합니다. 이 distinction은 흔한 오류를 피하는 데 중요합니다."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Apenas y casí nada de",
+        "translation": "거의 없는 것과 거의 없는 것",
+        "examples": [
+          {
+            "original": "Apenas hay leche en la nevera.",
+            "phonetic": "aˈpenas ai̯ ˈletʃe en la neˈβeɾa",
+            "translation": "냉장고에 우유가 거의 없어요.",
+            "note": "'apenas'는 'hay'와 함께 사용하여 부족함을 표현합니다."
+          },
+          {
+            "original": "Casi no tengo tiempo libre.",
+            "phonetic": "ˈkasi no ˈteŋɡo ˈtjempo ˈliβɾe",
+            "translation": "저는 거의 시간이 없어요.",
+            "note": "'casi no'는 동사와 함께 '거의 없는'을 표현하는 'apenas'의 대안입니다."
+          },
+          {
+            "original": "Apenas conozco a nadie aquí.",
+            "phonetic": "aˈpenas koˈnoθko a ˈnaðje aˈki",
+            "translation": "저는 여기 아는 사람이 거의 없어요.",
+            "note": "'apenas'와 같은 부정 표현 뒤에는 'a nadie'를 사용해야 합니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Un montón de, muchísimo",
+        "translation": "많은 것과 아주 많은 것",
+        "examples": [
+          {
+            "original": "Tengo un montón de cosas que hacer.",
+            "phonetic": "ˈteŋɡo un monˈton de ˈkosas ke aˈseɾ",
+            "translation": "저는 할 일이 많이 있어요.",
+            "note": "'un montón de'는 'plenty of'의 구어체 표현이지만 B1 수준에서 널리 사용됩니다."
+          },
+          {
+            "original": "Hay muchísima comida para todos.",
+            "phonetic": "ai̯ muˈtʃisima koˈmiða ˈpaɾa ˈtoðos",
+            "translation": "모두를 위한 음식이 많이 있어요.",
+            "note": "'muchísimo'는 'mucho'의 강화된 형태로 성별과 수에 일치합니다."
+          },
+          {
+            "original": "Tenemos muchísimas tareas esta semana.",
+            "phonetic": "teˈnemos muˈtʃisimas taˈɾeas ˈesta seˈmana",
+            "translation": "이번 주에는 숙제가 많이 있어요.",
+            "note": "'tareas'의 여성 복수형에 맞춰 'muchísimas'를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "La mayoría de y varios/as",
+        "translation": "대부분의 것과 몇몇의 것",
+        "examples": [
+          {
+            "original": "La mayoría de la gente está contenta.",
+            "phonetic": "la maˈʝoɾia de la ˈxente esˈta konˈtenta",
+            "translation": "대부분의 사람들은 행복해요.",
+            "note": "'la mayoría de' + 단수 명사는 단수 동사('está')를 사용합니다."
+          },
+          {
+            "original": "La mayoría de los libros son interesantes.",
+            "phonetic": "la maˈʝoɾia de los ˈliβɾos son inteɾeˈsantes",
+            "translation": "책 대부분이 재미있어요.",
+            "note": "복수 명사 뒤에는 복수 동사를 사용할 수 있으며, 이는 일반적입니다."
+          },
+          {
+            "original": "He leído varios artículos sobre el tema.",
+            "phonetic": "e leˈiðo ˈβaɾjos aɾˈtikulos ˈsoβɾe el ˈtema",
+            "translation": "저는 그 주제에 대한 기사를 몇 개 읽었어요.",
+            "note": "'varios'는 성별에 맞춰 'varios'(남성형), 'varias'(여성형)로 사용됩니다."
+          },
+          {
+            "original": "Varias personas me lo dijeron.",
+            "phonetic": "ˈbaɾjas peɾˈsonas me lo diˈxeɾon",
+            "translation": "몇몇 사람들이 저에게 말했어요.",
+            "note": "여기서 'varias'는 'personas'(여성 복수형)에 일치합니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "⚖️",
+    "phonetic": "",
+    "translations": {
+      "ko": "고급 수량 표현"
+    }
+  },
+  {
+    "id": "ko_B1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "동사 패턴: 동사 + 부정사 / 동명사",
+    "bridge": "영어에서는 어떤 동사 뒤에는 동명사(예: 'enjoy doing')가 오고, 어떤 동사 뒤에는 부정사(예: 'want to do')가 오며, 일부 동사는 의미가 달라지면서 둘 다 오는 경우가 있습니다. 스페인어는 유사한 논리를 따르지만, 핵심 차이점은 스페인어에서는 동명사 대신 부정사(예: 'me gusta leer')를 사용한다는 점입니다. 또한 영어에서는 전치사 뒤에는 동명사가 오지만, 스페인어에서는 부정사가 옵니다(예: 'before leaving' = 'antes de salir'). 'empezar a'나 'acabar de'와 같은 동사 뒤에는 부정사 앞에 전치사가 필요하다는 점에 주의하세요.",
+    "rule": "스페인어에서 동사 뒤에는 보통 다음과 같이 동사가 옵니다: 1) 부정사(예: 'quiero comer'), 2) 전치사 + 부정사(예: 'empezar a + 부정사', 'acabar de + 부정사', 'insistir en + 부정사'), 또는 3) 동명사(예: 'seguir + 동명사'는 '계속 ~하다'라는 뜻). 'gustar', 'preferir', 'decidir', 'esperar', 'necesitar', 'poder', 'pensar'와 같은 많은 흔한 동사들은 직접 부정사가 옵니다. 동사 + 동명사는 'seguir', 'continuar', 'ir', 'llevar' 뒤에 사용됩니다(예: 'seguir hablando', 'ir caminando'). 영어의 전치사 뒤 동명사와 같은 것은 없습니다. 스페인어는 항상 부정사를 사용합니다(예: 'interesado en aprender'). 일부 동사는 부정사와 동명사 사용에 따라 의미가 달라집니다(예: 'dejar de + 부정사' = ~을 그만두다, 'dejar + 동명사'는 흔하지 않음; 'olvidarse de + 부정사' vs 'olvidar + 부정사'는 미묘한 차이). B1 수준에서는 가장 흔한 패턴인 동사 + 부정사, 동사 + 전치사 + 부정사, 동사 + 동명사에 집중하세요.",
+    "concept_examples": [
+      {
+        "text": "Quiero viajar a España.",
+        "translation": "스페인으로 여행 가고 싶어요.",
+        "phonetic": "/ˈkjeɾo bjaˈxaɾ a esˈpaɲa/"
+      },
+      {
+        "text": "Empezamos a trabajar a las nueve.",
+        "translation": "우리는 9시에 일하기 시작해요.",
+        "phonetic": "/empeˈθamos a tɾabaˈxaɾ a las ˈnwebe/"
+      },
+      {
+        "text": "Sigue estudiando español.",
+        "translation": "그는/그녀는 스페인어 공부를 계속하고 있어요.",
+        "phonetic": "/ˈsiɣe estuˈðjando espaˈɲol/"
+      },
+      {
+        "text": "Antes de salir, cierra la puerta.",
+        "translation": "나가기 전에 문을 닫으세요.",
+        "phonetic": "/anˈtes de saˈliɾ ˈsjera la ˈpweɾta/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Me gusta nadando.",
+      "correct": "Me gusta nadar.",
+      "correct_alt": "Disfruto nadando.",
+      "explanation": "영어 화자들은 'like' 뒤의 동명사 사용(예: I like swimming)을 스페인어로 그대로 옮기려는 경향이 있습니다. 하지만 'gustar' 뒤에는 항상 부정사가 옵니다: 'me gusta nadar'(직역: 나에게는 수영하는 것이 기쁘다). 동명사를 사용하고 싶다면 'disfrutar'(즐기다)와 같은 동사를 써야 합니다: 'disfruto nadando'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbo + infinitivo",
+        "translation": "동사 + 부정사",
+        "examples": [
+          {
+            "original": "Necesito comprar pan.",
+            "phonetic": "/neθeˈsito komˈpɾaɾ pan/",
+            "translation": "빵을 사야 해요.",
+            "note": "'necesitar'와 같은 많은 흔한 동사들은 전치사 없이 직접 부정사가 옵니다."
+          },
+          {
+            "original": "Espero verla pronto.",
+            "phonetic": "/esˈpeɾo ˈbeɾla ˈpɾonto/",
+            "translation": "그녀를 곧 만나고 싶어요.",
+            "note": "'esperar' + 부정사는 영어의 'hope to'처럼 작동하지만, 'la'와 같은 대명사가 부정사에 붙을 수 있습니다."
+          },
+          {
+            "original": "Podemos hablar más tarde.",
+            "phonetic": "/poˈðemos aˈβlaɾ mas ˈtaɾðe/",
+            "translation": "우리는 나중에 이야기할 수 있어요.",
+            "note": "'poder'과 같은 조동사는 영어와 마찬가지로 직접 부정사가 옵니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbo + preposición + infinitivo",
+        "translation": "동사 + 전치사 + 부정사",
+        "examples": [
+          {
+            "original": "Empiezo a entender el problema.",
+            "phonetic": "/emˈpjeθo a entenˈdeɾ el pɾoˈβlema/",
+            "translation": "문제를 이해하기 시작하고 있어요.",
+            "note": "'empezar' 뒤에는 전치사 'a'가 필요합니다. 영어에서는 'begin'이 직접 부정사와 함께 쓰입니다."
+          },
+          {
+            "original": "Acabo de llegar a casa.",
+            "phonetic": "/aˈkaβo de ʝeˈɣaɾ a ˈkasa/",
+            "translation": "방금 집에 도착했어요.",
+            "note": "'acabar de' + 부정사는 '방금 ~하다'라는 뜻으로, 직접적인 영어 equivalents가 없는 매우 흔한 구조입니다."
+          },
+          {
+            "original": "Insisten en pagar la cuenta.",
+            "phonetic": "/inˈsisten en paˈɣaɾ la ˈkwenta/",
+            "translation": "그들은 계산서를 내겠다고 고집해요.",
+            "note": "전치사는 동사에 따라 다릅니다. 'insistir en'은 고정된 결합입니다. 이런 구문들은Chunk로 학습하세요."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbo + gerundio",
+        "translation": "동사 + 동명사",
+        "examples": [
+          {
+            "original": "Sigo aprendiendo vocabulario.",
+            "phonetic": "/ˈsiɣo apɾenˈdjenðo βokabulaˈɾjo/",
+            "translation": "저는 어휘를 계속 공부하고 있어요.",
+            "note": "'seguir' + 동명사는 '계속 ~하다'라는 뜻으로, 영어의 'keep + -ing'와 유사합니다."
+          },
+          {
+            "original": "Estamos viendo una película.",
+            "phonetic": "/esˈtamos ˈβjendo una peˈlikula/",
+            "translation": "우리는 영화를 보고 있어요.",
+            "note": "진행형 'estar + 동명사'는 영어의 'to be + -ing'에 직접 해당합니다."
+          },
+          {
+            "original": "Llevan tres horas esperando.",
+            "phonetic": "/ˈʎeβan tɾes ˈoɾas espeˈɾando/",
+            "translation": "그들은 3시간째 기다리고 있어요.",
+            "note": "'llevar' + 시간 + 동명사는 기간을 표현하며, 영어의 어순('have been waiting for three hours')과는 다릅니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "ko": "동사 패턴"
+    }
+  },
+  {
+    "id": "ko_B1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "고급 관사: 무관사 및 일반적 사용 / Advanced articles: zero article and generic use",
+    "bridge": "영어에서는 'the'를 일반 범주(예: 'The lion is a dangerous animal')에 사용하거나 추상 명사('Life is beautiful')에서는 관사를 생략하는 경우가 많습니다. 반면 스페인어는 더 일관적입니다: 일반 진술에는 정관사(Los leones son peligrosos)를 사용하고, 추상적 개념에는 종종 관사를 생략합니다(La vida es bella). 주의할 점은 스페인어에서 영어의 무관사 사용보다 관사를 더 자주 요구한다는 것입니다. 반대로 영어에서 관사를 사용하는 경우 스페인어에서는 무관사로 처리할 때가 있습니다.",
+    "rule": "스페인어에서 정관사(el, la, los, las)는 다음과 같은 경우에 사용됩니다: 1) 범주나 전체 그룹에 대한 일반 진술(Los perros son fieles – 개는 충성스럽다). 2) 추상 명사를 일반적 의미로 사용할 때(La paciencia es una virtud – 인내는 미덕이다). 3) 주어가 되는 언어 이름(El español es fácil – 스페인어는 쉽다). 반면 무관사는 다음과 같은 경우에 사용됩니다: 1) 동사 'ser' 뒤에 오는 불가산 명사의 일반적 의미(El agua es vida – 물은 생명이다) – 단, 'agua'는 여성명사이지만 강세 'a'로 시작하므로 'el agua'가 됩니다. 2) 'ser' 뒤에 오는 직업, 국적, 종교(soy médico – 나는 의사다). 3) 'haber'(Hay libros – 책이 있다)와 'tener'(Tengo coche – 나는 차가 있다) 동사 뒤. 예외: 시간대(por la mañana – 아침에), 특정 관용 표현(ir a la escuela – 학교에 가다)에는 관사를 사용합니다.",
+    "concept_examples": [
+      {
+        "text": "Los gatos son independientes.",
+        "translation": "고양이는 독립적이다.",
+        "phonetic": "los ˈɣatos son indepenˈdjen tes"
+      },
+      {
+        "text": "La paciencia es importante.",
+        "translation": "인내는 중요하다.",
+        "phonetic": "la paˈθjen θja es imporˈtante"
+      },
+      {
+        "text": "El español es útil.",
+        "translation": "스페인어는 유용하다.",
+        "phonetic": "el espaˈɲol es ˈutil"
+      },
+      {
+        "text": "Soy profesor de inglés.",
+        "translation": "나는 영어 선생님이다.",
+        "phonetic": "soi pɾofeˈsoɾ de inˈgles"
+      }
+    ],
+    "common_error": {
+      "wrong": "Gatos son independientes.",
+      "correct": "Los gatos son independientes.",
+      "correct_alt": "Un gato es independiente.",
+      "explanation": "영어 화자들은 영어에서 복수 명사의 일반 진술에 관사를 생략하는 경향이 있어(고양이는 독립적이다) 스페인어의 정관사 사용을 놓치기 쉽습니다. 모든 구성원 집단에 대한 일반적 주장을 할 때는 los/las를 사용해야 한다는 점을 기억하세요."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Uso genérico con artículos definidos",
+        "translation": "정관사의 일반적 사용",
+        "examples": [
+          {
+            "original": "Los libros son caros.",
+            "phonetic": "los ˈliβɾos son ˈkaɾos",
+            "translation": "책은 비싸다.",
+            "note": "일반 진술에서 복수 명사에는 'los'를 사용합니다."
+          },
+          {
+            "original": "El agua es necesaria.",
+            "phonetic": "el ˈaɣwa es neseˈsaɾja",
+            "translation": "물은 필요하다.",
+            "note": "'agua'는 여성명사이지만 강세 'a'로 시작하므로 'el'을 사용합니다."
+          },
+          {
+            "original": "La salud es importante.",
+            "phonetic": "la saˈluð es impoɾˈtante",
+            "translation": "건강은 중요하다.",
+            "note": "'salud'와 같은 추상 명사는 일반적 의미로 사용할 때 정관사를 사용합니다."
+          },
+          {
+            "original": "Las flores son bonitas.",
+            "phonetic": "las ˈfloɾes som boˈnitas",
+            "translation": "꽃은 아름답다.",
+            "note": "여성 복수 명사의 일반 진술에는 'las'를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Artículo cero con profesiones y nacionalidades",
+        "translation": "직업과 국적의 무관사 사용",
+        "examples": [
+          {
+            "original": "Soy enfermera.",
+            "phonetic": "soi enfɛɾˈmeɾa",
+            "translation": "나는 간호사다.",
+            "note": "'ser' 동사 뒤에는 직업에 관사를 사용하지 않습니다."
+          },
+          {
+            "original": "Él es mexicano.",
+            "phonetic": "el es mexiˈkano",
+            "translation": "그는 멕시코인이다.",
+            "note": "국적은 'ser' 뒤에서도 무관사로 처리합니다."
+          },
+          {
+            "original": "Mi madre es abogada.",
+            "phonetic": "mi ˈmaðɾe es aβoˈɣaða",
+            "translation": "어머니는 변호사시다.",
+            "note": "직업이 구체적으로 명시되어 있어도 무관사를 사용합니다."
+          },
+          {
+            "original": "No soy turista.",
+            "phonetic": "no soi tuˈɾista",
+            "translation": "나는 관광객이 아니다.",
+            "note": "'ser'의 부정문에서도 무관사를 사용합니다."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Artículo cero con tener y haber",
+        "translation": "'tener'와 'haber'의 무관사 사용",
+        "examples": [
+          {
+            "original": "Tengo gato.",
+            "phonetic": "ˈteŋgo ˈɣato",
+            "translation": "나는 고양이가 있다.",
+            "note": "'tener' 뒤에는 특정되지 않은 가산 명사(단수 또는 복수)에 무관사를 사용합니다."
+          },
+          {
+            "original": "Hay problemas.",
+            "phonetic": "ai pɾoˈβlemas",
+            "translation": "문제가 있다.",
+            "note": "'haber'(there is/are) 뒤에는 불특정 복수 명사에 무관사를 사용합니다."
+          },
+          {
+            "original": "No tengo coche.",
+            "phonetic": "no ˈteŋgo ˈkotʃe",
+            "translation": "나는 차가 없다.",
+            "note": "'tener'의 부정문에서도 무관사를 흔히 사용합니다."
+          },
+          {
+            "original": "Hay agua en la mesa.",
+            "phonetic": "ai ˈaɣwa en la ˈmesa",
+            "translation": "테이블 위에 물이 있다.",
+            "note": "'agua'와 같은 불가산 명사 뒤 'hay'는 무관사를 사용합니다."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "ko": "고급 관사: 무관사 및 일반적 사용"
+    }
+  }
+]
