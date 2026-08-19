@@ -3576,6 +3576,49 @@ function loadLongTextMode() {
             <!-- Resultados -->
             <div class="lt-results" id="ltResults"></div>
 
+            <!-- Segmentador de transcripciones -->
+            <div class="seg-divider">
+                <span>Otras herramientas</span>
+            </div>
+
+            <div class="lt-card seg-card">
+                <div class="seg-header">
+                    <span class="seg-icon">✂️</span>
+                    <div>
+                        <div class="seg-title">Segmentador de transcripciones</div>
+                        <div class="seg-desc">Convertí un archivo .srt o .txt en texto fluido agrupado por secciones temáticas. Ideal para subtítulos de videos o clases.</div>
+                    </div>
+                </div>
+
+                <div class="seg-file-row">
+                    <label class="seg-file-btn" for="segFileInput">📂 Elegir archivo</label>
+                    <input type="file" id="segFileInput" accept=".srt,.txt" class="seg-file-hidden">
+                    <span class="seg-file-name" id="segFileName">Ningún archivo seleccionado</span>
+                </div>
+
+                <div class="seg-mode-row">
+                    <button class="seg-mode-btn seg-mode-btn--active" data-mode="completa">Completa</button>
+                    <button class="seg-mode-btn" data-mode="media">Media</button>
+                    <button class="seg-mode-btn" data-mode="minimo">Mínimo</button>
+                </div>
+                <div class="seg-mode-desc" id="segModeDesc">Detecta todos los cambios de tema (10–20 secciones).</div>
+
+                <button class="lt-process-btn" id="segStartBtn" disabled>
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    Iniciar
+                </button>
+
+                <div class="lt-progress hidden" id="segProgress" style="justify-content:center">
+                    <div class="seg-spinner"></div>
+                    <span style="font-size:.85rem;color:var(--text-muted)">Analizando secciones temáticas…</span>
+                </div>
+
+                <div class="seg-preview hidden" id="segPreview">
+                    <div class="seg-preview-label">Vista previa — primeras 500 palabras</div>
+                    <div class="seg-preview-body" id="segPreviewBody"></div>
+                </div>
+            </div>
+
         </div>
     `);
 
@@ -3754,6 +3797,75 @@ function loadLongTextMode() {
         input.addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMsg(); } });
         input.focus();
     }
+
+    // ── Segmentador ───────────────────────────────────────────────
+    let _segMode = 'completa';
+    let _segFile = null;
+
+    const _SEG_MODE_DESC = {
+        completa: 'Detecta todos los cambios de tema (10–20 secciones).',
+        media:    'Agrupa temas relacionados en secciones de tamaño medio (6–10 secciones).',
+        minimo:   'Solo cambios de tema principales (3–5 secciones).',
+    };
+
+    document.querySelectorAll('.seg-mode-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.seg-mode-btn').forEach(b => b.classList.remove('seg-mode-btn--active'));
+            btn.classList.add('seg-mode-btn--active');
+            _segMode = btn.dataset.mode;
+            document.getElementById('segModeDesc').textContent = _SEG_MODE_DESC[_segMode];
+        });
+    });
+
+    document.getElementById('segFileInput').addEventListener('change', function() {
+        _segFile = this.files[0] || null;
+        document.getElementById('segFileName').textContent = _segFile ? _segFile.name : 'Ningún archivo seleccionado';
+        document.getElementById('segStartBtn').disabled = !_segFile;
+        document.getElementById('segPreview').classList.add('hidden');
+    });
+
+    document.getElementById('segStartBtn').addEventListener('click', async () => {
+        if (!_segFile) return;
+        const startBtn  = document.getElementById('segStartBtn');
+        const progress  = document.getElementById('segProgress');
+        const preview   = document.getElementById('segPreview');
+
+        startBtn.disabled = true;
+        progress.classList.remove('hidden');
+        preview.classList.add('hidden');
+
+        try {
+            const contenido = await _segFile.text();
+            const r = await _authFetch(`${_API_HOST}/segmentar-archivo`, {
+                method: 'POST',
+                body: JSON.stringify({ contenido, nombre: _segFile.name, modo: _segMode }),
+            });
+            const data = await r.json();
+            if (!r.ok) throw new Error(data.error || 'Error al procesar');
+
+            // Auto-descarga
+            const base = _segFile.name.replace(/\.[^/.]+$/, '');
+            const blob = new Blob([data.resultado], { type: 'text/plain;charset=utf-8' });
+            const url  = URL.createObjectURL(blob);
+            const a    = document.createElement('a');
+            a.href = url; a.download = `${base}_segmentado.txt`;
+            a.click();
+            URL.revokeObjectURL(url);
+
+            // Vista previa solo para Completa y Media
+            if (_segMode !== 'minimo') {
+                const words    = data.resultado.split(/\s+/);
+                const preview500 = words.slice(0, 500).join(' ') + (words.length > 500 ? '…' : '');
+                document.getElementById('segPreviewBody').textContent = preview500;
+                preview.classList.remove('hidden');
+            }
+        } catch (e) {
+            alert('Error: ' + e.message);
+        } finally {
+            progress.classList.add('hidden');
+            startBtn.disabled = !_segFile;
+        }
+    });
 }
 
 // ─── Evaluador de Nivel MCER de Texto ──────────────────────────

@@ -224,6 +224,96 @@ Reglas:
         }
     });
 
+    // ── Segmentador de transcripciones ────────────────────────────
+    function _parseSrt(text) {
+        text = text.replace(/^\d+\r?\n/gm, '');
+        text = text.replace(/\d{2}:\d{2}:\d{2}[,.]\d{3}\s*-->\s*\d{2}:\d{2}:\d{2}[,.]\d{3}\r?\n?/g, '');
+        text = text.replace(/([^\n])\r?\n([^\n])/g, '$1 $2');
+        text = text.replace(/\n{2,}/g, '\n\n');
+        return text.trim();
+    }
+
+    app.post('/segmentar-archivo', chatLimiter, async (req, res) => {
+        const { contenido, nombre, modo } = req.body;
+        if (!contenido || typeof contenido !== 'string')
+            return res.status(400).json({ error: 'Falta el contenido del archivo.' });
+        if (!['completa', 'media', 'minimo'].includes(modo))
+            return res.status(400).json({ error: 'Modo inválido.' });
+
+        const isSrt = (nombre || '').toLowerCase().endsWith('.srt');
+        const text  = isSrt ? _parseSrt(contenido) : contenido.trim();
+        const paragraphs = text.split(/\n{2,}/).map(p => p.trim()).filter(Boolean);
+        if (!paragraphs.length)
+            return res.status(400).json({ error: 'El archivo no contiene texto procesable.' });
+
+        const preview = paragraphs
+            .map((p, i) => `[${i}] ${p.slice(0, 200).replace(/\n/g, ' ')}`)
+            .join('\n');
+
+        const modeInstructions = {
+            completa: 'Detectá todos los cambios de tema. Generá entre 10 y 20 secciones.',
+            media:    'Agrupá temas relacionados. Generá entre 6 y 10 secciones.',
+            minimo:   'Detectá solo los cambios de tema principales. Generá entre 3 y 5 secciones.',
+        };
+
+        const systemPrompt =
+            `Eres un experto en análisis de transcripciones de video.\n` +
+            `Recibirás párrafos numerados [0], [1], [2]... de una transcripción.\n` +
+            `${modeInstructions[modo]}\n\n` +
+            `Para cada sección indicá:\n` +
+            `- "inicio": número del párrafo donde comienza (el primero es [0])\n` +
+            `- "titulo": título descriptivo y conciso (máximo 8 palabras)\n\n` +
+            `Responde ÚNICAMENTE con JSON válido, sin texto adicional:\n` +
+            `[{"inicio": 0, "titulo": "Título de sección"}, ...]\n\n` +
+            `Reglas:\n` +
+            `- Siempre empezá con {"inicio": 0}\n` +
+            `- Los números deben ser enteros válidos de la lista\n` +
+            `- No modifiques ni resumas el texto original`;
+
+        try {
+            const resp = await axios.post('https://api.mistral.ai/v1/chat/completions', {
+                model: 'mistral-large-latest',
+                messages: [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user',   content: `Párrafos a analizar:\n\n${preview}` },
+                ],
+                temperature: 0.2,
+                max_tokens: 2048,
+            }, {
+                headers: {
+                    'Authorization': `Bearer ${process.env.MISTRAL_API_KEY}`,
+                    'Content-Type': 'application/json',
+                },
+                timeout: 120000,
+            });
+
+            const raw   = resp.data.choices[0].message.content;
+            const match = raw.match(/\[[\s\S]*\]/);
+            if (!match) return res.status(500).json({ error: 'Respuesta inesperada del modelo.' });
+
+            const sections = JSON.parse(match[0])
+                .filter(s => typeof s.inicio === 'number' && s.titulo)
+                .sort((a, b) => a.inicio - b.inicio);
+
+            const SEP       = '='.repeat(60);
+            const boundaries = sections.map(s => s.inicio);
+            const output = sections.map((sec, idx) => {
+                const start = sec.inicio;
+                const end   = boundaries[idx + 1] ?? paragraphs.length;
+                const body  = paragraphs.slice(start, end)
+                    .map(f => f.replace(/\s+/g, ' ').trim())
+                    .filter(Boolean)
+                    .join(' ');
+                return `\n${SEP}\n  ${idx + 1}. ${sec.titulo.toUpperCase()}\n${SEP}\n\n${body}`;
+            }).join('\n\n');
+
+            res.json({ resultado: output.trim(), secciones: sections.length });
+        } catch (e) {
+            console.error('/segmentar-archivo error:', e?.response?.data || e.message);
+            res.status(500).json({ error: 'Error al segmentar el archivo.' });
+        }
+    });
+
     // ── Chat sobre un párrafo específico ───────────────────────────
     app.post('/paragraph-chat', chatLimiter, async (req, res) => {
         const { original, translated, messages, sourceLang, targetLang } = req.body;

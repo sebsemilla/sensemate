@@ -3139,6 +3139,135 @@ body.dark-mode .smp-ampliar-translation { color: #fcd34d; }
     .lt-instruction-examples { gap: .3rem; }
 }
 
+/* ─── Segmentador de transcripciones ─────────────────────────── */
+.seg-divider {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    color: var(--text-muted);
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    margin-top: .25rem;
+}
+.seg-divider::before,
+.seg-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+}
+.seg-card { gap: .85rem; }
+.seg-header {
+    display: flex;
+    gap: .75rem;
+    align-items: flex-start;
+}
+.seg-icon { font-size: 1.5rem; line-height: 1; flex-shrink: 0; }
+.seg-title {
+    font-size: .9rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: .2rem;
+}
+.seg-desc {
+    font-size: .78rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+}
+.seg-file-row {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
+    flex-wrap: wrap;
+}
+.seg-file-btn {
+    padding: .35rem .85rem;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: var(--bg);
+    color: var(--text);
+    font-size: .8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .15s;
+    white-space: nowrap;
+}
+.seg-file-btn:hover { border-color: #8b5cf6; color: #8b5cf6; }
+.dark-mode .seg-file-btn { background: #1e293b; border-color: #334155; }
+.seg-file-hidden { display: none; }
+.seg-file-name {
+    font-size: .78rem;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 240px;
+}
+.seg-mode-row {
+    display: flex;
+    gap: .4rem;
+}
+.seg-mode-btn {
+    padding: .32rem .85rem;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: var(--bg);
+    color: var(--text-muted);
+    font-size: .78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .18s;
+}
+.seg-mode-btn:hover { border-color: #8b5cf6; color: #8b5cf6; }
+.seg-mode-btn--active {
+    background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+    color: #fff;
+    border-color: transparent;
+}
+.dark-mode .seg-mode-btn { background: #1e293b; border-color: #334155; }
+.dark-mode .seg-mode-btn--active { background: linear-gradient(135deg,#7c3aed,#8b5cf6); border-color:transparent; }
+.seg-mode-desc {
+    font-size: .75rem;
+    color: var(--text-muted);
+    margin-top: -.25rem;
+}
+.seg-spinner {
+    width: 18px;
+    height: 18px;
+    border: 2.5px solid var(--border);
+    border-top-color: #8b5cf6;
+    border-radius: 50%;
+    animation: seg-spin .7s linear infinite;
+    flex-shrink: 0;
+}
+@keyframes seg-spin { to { transform: rotate(360deg); } }
+.seg-preview {
+    background: var(--bg);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: .75rem .9rem;
+}
+.seg-preview.hidden { display: none; }
+.seg-preview-label {
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    margin-bottom: .5rem;
+}
+.seg-preview-body {
+    font-size: .82rem;
+    line-height: 1.6;
+    color: var(--text);
+    white-space: pre-wrap;
+    max-height: 260px;
+    overflow-y: auto;
+}
+.dark-mode .seg-preview { background: #1e293b; border-color: #334155; }
+
 /* ─── Classroom — Aula Virtual ───────────────────────────────── */
 
 .cl-gate { max-width:440px; margin:4rem auto; text-align:center; padding:2rem 1.5rem; }
