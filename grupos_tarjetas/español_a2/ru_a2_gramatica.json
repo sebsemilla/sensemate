@@ -1,0 +1,374 @@
+[
+  {
+    "id": "ru_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Прошедшее время / Pretérito perfecto simple",
+    "bridge": "В русском языке прошедшее время образуется добавлением суффикса -л- к основе глагола (писать → писал), а в испанском — путём изменения всей глагольной формы. Русские глаголы не делятся на правильные и неправильные в прошедшем времени, а в испанском это разделение критически важно. Например, в русском нет разницы между 'я писал' и 'я написал', а в испанском 'yo escribía' (несовершенный вид) и 'yo escribí' (совершенный вид) — это разные времена. Также в испанском у глаголов есть чёткие окончания для каждого лица, тогда как в русском окончания более универсальны.",
+    "rule": "В испанском языке простое прошедшее время (pretérito perfecto simple) образуется от основы глагола в инфинитиве с добавлением следующих окончаний:\n\n1. Для правильных глаголов на -ar (hablar, trabajar):\n   -é (yo), -aste (tú), -ó (él/ella/usted), -amos (nosotros), -asteis (vosotros), -aron (ellos/ellas/ustedes).\n   Пример: hablar → hablé, hablaste, habló, hablamos, hablasteis, hablaron.\n\n2. Для правильных глаголов на -er (comer, beber):\n   -í, -iste, -ió, -imos, -isteis, -ieron.\n   Пример: comer → comí, comiste, comió, comimos, comisteis, comieron.\n\n3. Для правильных глаголов на -ir (vivir, escribir):\n   -í, -iste, -ió, -imos, -isteis, -ieron.\n   Пример: vivir → viví, viviste, vivió, vivimos, vivisteis, vivieron.\n\n4. Неправильные глаголы имеют уникальные формы в прошедшем времени. Наиболее употребительные:\n   - ser/ir → fui, fuiste, fue, fuimos, fuisteis, fueron.\n   - tener → tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron.\n   - hacer → hice, hiciste, hizo, hicimos, hicisteis, hicieron.\n   - estar → estuve, estuviste, estuvo, estuvimos, estuvisteis, estuvieron.\n   - poder → pude, pudiste, pudo, pudimos, pudisteis, pudieron.\n\n5. Глаголы с чередованием в основе (например, dormir → dormí, durmió) изменяют корень только в 3-м лице единственного и множественного числа.\n\n6. Вопросительные и отрицательные формы образуются с помощью вспомогательных глаголов (¿Comiste? → No comí).",
+    "concept_examples": [
+      {
+        "text": "Ayer hablé con mi amigo por teléfono.",
+        "translation": "Вчера я разговаривал с другом по телефону.",
+        "phonetic": "/aˈʝeɾ aˈβle kon mi aˈmiɣo por ˈtelefono/"
+      },
+      {
+        "text": "El año pasado viajamos a España.",
+        "translation": "В прошлом году мы ездили в Испанию.",
+        "phonetic": "/el ˈaɲo paˈsado βjaˈxamos a esˈpaɲa/"
+      },
+      {
+        "text": "Ellos comieron pizza anoche.",
+        "translation": "Они ели пиццу вчера вечером.",
+        "phonetic": "/ˈeʝos koˈmjeɾon ˈpitsa aˈnotʃe/"
+      },
+      {
+        "text": "¿Dónde pusiste las llaves?",
+        "translation": "Где ты положил ключи?",
+        "phonetic": "/ˈdonde puˈsiste las ˈʎaβes/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ayer yo hablé con mi amigo ayer.",
+      "correct": "Ayer hablé con mi amigo.",
+      "correct_alt": "",
+      "explanation": "В русском языке часто дублируется обстоятельство времени (например, 'вчера' + 'вчера'), но в испанском это считается избыточным. Одно слово 'ayer' уже указывает на прошедшее время, поэтому повторять его не нужно. Это ошибка переноса из русского, где такие конструкции допустимы."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Правильные глаголы на -ar",
+        "translation": "Правильные глаголы на -ar",
+        "examples": [
+          {
+            "original": "Trabajé mucho ayer.",
+            "phonetic": "/tɾaβaˈxe ˈmutʃo aˈʝeɾ/",
+            "translation": "Я много работал вчера.",
+            "note": "Обратите внимание на окончание -é для первого лица единственного числа. В русском аналоге 'работал' окончание -л, а в испанском -é."
+          },
+          {
+            "original": "¿Estudiaste para el examen?",
+            "phonetic": "/estuˈðjaste paɾa el ekˈsamen/",
+            "translation": "Ты готовился к экзамену?",
+            "note": "Вопросительная форма в испанском требует инверсии подлежащего и сказуемого, как в русском, но окончания глаголов другие."
+          },
+          {
+            "original": "Ellos hablaron por dos horas.",
+            "phonetic": "/ˈeʝos aβlaˈɾon por ðos ˈoɾas/",
+            "translation": "Они разговаривали два часа.",
+            "note": "В третьем лице множественного числа окончание -aron. В русском аналоге 'говорили' окончание -и, что может сбить с толку."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Правильные глаголы на -er и -ir",
+        "translation": "Правильные глаголы на -er и -ir",
+        "examples": [
+          {
+            "original": "Comí paella en Valencia.",
+            "phonetic": "/koˈmi paˈeʎa en baˈlenθja/",
+            "translation": "Я ел паэлью в Валенсии.",
+            "note": "Глаголы на -er и -ir имеют одинаковые окончания в прошедшем времени (-í, -iste, -ió и т.д.). В русском языке окончания для глаголов на -ить и -еть разные."
+          },
+          {
+            "original": "¿Viviste en Moscú el año pasado?",
+            "phonetic": "/biˈbiste en mosˈku el ˈaɲo paˈsado/",
+            "translation": "Ты жил в Москве в прошлом году?",
+            "note": "Глагол 'vivir' спрягается как 'comer'. Обратите внимание на чтение 'v' как /b/ в некоторых диалектах."
+          },
+          {
+            "original": "Ellas bebieron café con leche.",
+            "phonetic": "/ˈeʎas beˈβjeɾon ˈkafe kon ˈletʃe/",
+            "translation": "Они (женщины) пили кофе с молоком.",
+            "note": "В третьем лице множественного числа окончание -ieron. В русском языке 'пили' имеет окончание -и, что может вызвать путаницу."
+          },
+          {
+            "original": "No entendí la pregunta.",
+            "phonetic": "/no entenˈdi la preˈɣunta/",
+            "translation": "Я не понял вопрос.",
+            "note": "Отрицательная форма образуется с помощью 'no' перед глаголом, как в русском."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Неправильные глаголы и чередования",
+        "translation": "Неправильные глаголы и чередования",
+        "examples": [
+          {
+            "original": "Fui al cine con mi familia.",
+            "phonetic": "/fwi al ˈθine kon mi faˈmilja/",
+            "translation": "Я ходил в кино с семьёй.",
+            "note": "Глаголы 'ser' и 'ir' имеют одинаковые формы в прошедшем времени. Это нужно запомнить."
+          },
+          {
+            "original": "Tuvimos un problema con el coche.",
+            "phonetic": "/tuˈβimos um pɾoˈβlema kon el ˈkotʃe/",
+            "translation": "У нас была проблема с машиной.",
+            "note": "Глагол 'tener' в прошедшем времени меняет основу на 'tuv-'. В русском языке аналог 'иметь' спрягается регулярно."
+          },
+          {
+            "original": "Hizo mucho calor ayer.",
+            "phonetic": "/iˈθo ˈmutʃo kaˈloɾ aˈʝeɾ/",
+            "translation": "Вчера было очень жарко.",
+            "note": "Глагол 'hacer' в третьем лице единственного числа имеет форму 'hizo'. В русском языке аналог 'делать' спрягается регулярно."
+          },
+          {
+            "original": "Dormí muy bien anoche.",
+            "phonetic": "/doɾˈmi mwi βjen aˈnotʃe/",
+            "translation": "Я хорошо спал вчера вечером.",
+            "note": "Глагол 'dormir' меняет основу на 'durm-' в третьем лице единственного и множественного числа."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "ru": "Прошедшее время / Pretérito perfecto simple"
+    }
+  },
+  {
+    "id": "ru_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Presente continuo en español / Настоящее длительное время в испанском",
+    "bridge": "В русском языке мы часто используем глаголы несовершенного вида для выражения действия в процессе (например, «Я читаю книгу»). В испанском для этого существует специальная конструкция с глаголом «estar» + герундий (-ando/-iendo). Важно помнить, что в русском языке нет эквивалента этой конструкции, и часто русские говорят «Я читаю» вместо «Estoy leyendo». Также обратите внимание, что в испанском герундий не может использоваться как самостоятельный глагол, в отличие от русского деепричастия.",
+    "rule": "В испанском языке presente continuo образуется с помощью глагола «estar» в настоящем времени + герундий основного глагола. Герундий образуется от инфинитива: 1) у глаголов на -ar добавляется -ando (hablar → hablando), 2) у глаголов на -er/-ir добавляется -iendo (comer → comiendo, vivir → viviendo). Исключения: глаголы с удвоением гласной в основе (leer → leyendo, dormir → durmiendo). Конструкция используется для действий, происходящих в момент речи или в текущий период времени. Не путать с простым настоящим временем (presente simple), которое выражает регулярные действия или факты. Отрицательная форма: «no estoy + gerundio». Вопросительная форма: «¿Estás + gerundio?».",
+    "concept_examples": [
+      {
+        "text": "Estoy leyendo un libro interesante.",
+        "translation": "Я читаю интересную книгу (сейчас).",
+        "phonetic": "/esˈtoj leˈjendo un ˈlibro inteɾeˈsante/"
+      },
+      {
+        "text": "Los niños están jugando en el parque.",
+        "translation": "Дети играют в парке (сейчас).",
+        "phonetic": "/los ˈniɲos esˈtan xuˈɣando en el ˈpaɾke/"
+      },
+      {
+        "text": "¿Estás escuchando música?",
+        "translation": "Ты слушаешь музыку (сейчас)?",
+        "phonetic": "/esˈtas eskuˈtʃando muˈsika/"
+      },
+      {
+        "text": "No estoy trabajando hoy, es domingo.",
+        "translation": "Я не работаю сегодня, воскресенье.",
+        "phonetic": "/no esˈtoj tɾaβaˈxando ˈoʝ es ˈdomiŋgo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo leo un libro ahora.",
+      "correct": "Estoy leyendo un libro ahora.",
+      "correct_alt": "",
+      "explanation": "В русском языке фраза «Я читаю книгу» может означать как регулярное действие («Я читаю книги»), так и действие в процессе. В испанском для выражения действия в процессе обязательно нужно использовать конструкцию с «estar» + герундий. Без неё фраза «Yo leo un libro ahora» звучит неестественно и может быть понята как регулярное действие."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formación del gerundio",
+        "translation": "Образование герундия",
+        "examples": [
+          {
+            "original": "Estoy hablando con mi amigo.",
+            "phonetic": "/esˈtoj aˈβlɑndo kon mi aˈmiɣo/",
+            "translation": "Я разговариваю с другом (сейчас).",
+            "note": "Обратите внимание на окончание -ando у глаголов на -ar."
+          },
+          {
+            "original": "Ella está comiendo una manzana.",
+            "phonetic": "/ˈeʝa esˈta koˈmjendo una maˈnθana/",
+            "translation": "Она ест яблоко (сейчас).",
+            "note": "Глаголы на -er образуют герундий с окончанием -iendo."
+          },
+          {
+            "original": "Nosotros estamos viviendo en Madrid.",
+            "phonetic": "/noˈsoɾtɾos esˈtamos βiˈβjendo en maˈðɾið/",
+            "translation": "Мы живём в Мадриде (сейчас).",
+            "note": "Глаголы на -ir также образуют герундий с окончанием -iendo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso con verbos de acción",
+        "translation": "Использование с глаголами действия",
+        "examples": [
+          {
+            "original": "¿Qué estás haciendo?",
+            "phonetic": "/ke esˈtas aˈθjendo/",
+            "translation": "Что ты делаешь (сейчас)?",
+            "note": "Конструкция часто используется в вопросах о текущих действиях."
+          },
+          {
+            "original": "Ellos están estudiando para el examen.",
+            "phonetic": "/ˈeʝos esˈtan esˈtuðjando ˈpaɾa el eɣˈsamen/",
+            "translation": "Они готовятся к экзамену (сейчас).",
+            "note": "Используется для действий, происходящих в текущий момент."
+          },
+          {
+            "original": "No puedo hablar, estoy conduciendo.",
+            "phonetic": "/no ˈpweðo aˈβlaɾ esˈtoj konduˈθjendo/",
+            "translation": "Я не могу говорить, я за рулём (сейчас).",
+            "note": "Часто используется в ситуациях, когда действие мешает другому."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Excepciones y contrastes con presente simple",
+        "translation": "Исключения и различия с простым настоящим",
+        "examples": [
+          {
+            "original": "Siempre estudio por las mañanas.",
+            "phonetic": "/ˈsjempɾe esˈtuðjo poɾ las maˈɲanas/",
+            "translation": "Я всегда учусь по утрам.",
+            "note": "Presente simple выражает регулярные действия, а не процесс."
+          },
+          {
+            "original": "Estoy estudiando ahora, no puedo salir.",
+            "phonetic": "/esˈtoj esˈtuðjando ˈaɾa no ˈpweðo saˈliɾ/",
+            "translation": "Я учусь сейчас, не могу выйти.",
+            "note": "Presente continuo подчёркивает действие в процессе."
+          },
+          {
+            "original": "Los pájaros vuelan en el cielo.",
+            "phonetic": "/los ˈpaɾos ˈbwelan en el ˈsjelo/",
+            "translation": "Птицы летают в небе.",
+            "note": "Presente simple выражает общие факты или регулярные действия."
+          },
+          {
+            "original": "Estoy volando en un avión por primera vez.",
+            "phonetic": "/esˈtoj βoˈlɑndo en un aˈβjon por pɾiˈmeɾa βes/",
+            "translation": "Я лечу на самолёте в первый раз.",
+            "note": "Presente continuo выражает единичное действие в процессе."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "ru": "Настоящее длительное время в испанском"
+    }
+  },
+  {
+    "id": "ru_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro con \"ir a\" / Будущее с \"ir a\"",
+    "bridge": "В русском языке будущее время выражается просто глаголом совершенного вида (например, «я сделаю»), но в испанском для выражения намерения или плана часто используется конструкция «ir a + инфинитив». Это похоже на английское «going to», но в русском аналога нет. Важно не путать с простым будущим временем (например, «haré»), которое выражает чистое будущее действие без оттенка намерения. Также в испанском «ir a» требует инфинитива, а не личной формы глагола, как в русском.",
+    "rule": "В испанском языке конструкция «ir a + инфинитив» используется для выражения запланированных действий или намерений в ближайшем будущем. Формируется следующим образом: глагол «ir» в настоящем времени (voy, vas, va, vamos, vais, van) + предлог «a» + инфинитив основного глагола. Например: «Voy a comer» (Я собираюсь есть). Обратите внимание, что «ir a» не используется для спонтанных решений или предсказаний — в этих случаях применяется простое будущее время (например, «Comeré»). Исключений в образовании нет, но важно помнить, что после «a» всегда стоит инфинитив, а не личная форма глагола.",
+    "concept_examples": [
+      {
+        "text": "Mañana voy a visitar a mi abuela.",
+        "translation": "Завтра я собираюсь навестить свою бабушку.",
+        "phonetic": "maˈɲana ˈβoj a βisiˈtaɾ a mi aˈβwela"
+      },
+      {
+        "text": "Ellos van a estudiar para el examen.",
+        "translation": "Они собираются готовиться к экзамену.",
+        "phonetic": "ˈeʝos βan a estuˈðjaɾ ˈpaɾa el eɣˈsamen"
+      },
+      {
+        "text": "¿Qué vas a hacer este fin de semana?",
+        "translation": "Что ты собираешься делать в эти выходные?",
+        "phonetic": "ke βas a aˈθeɾ este fin de ˈsemana"
+      },
+      {
+        "text": "No voy a trabajar mañana porque estoy enfermo.",
+        "translation": "Я не собираюсь работать завтра, потому что болею.",
+        "phonetic": "no ˈβoj a tɾaβaˈxaɾ maˈɲana poɾˈke esˈtoj enˈfeɾmo"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mañana iré a visitar a mi abuela.",
+      "correct": "Mañana voy a visitar a mi abuela.",
+      "correct_alt": "",
+      "explanation": "Ошибка возникает из-за путаницы между конструкцией «ir a + инфинитив» (выражает план или намерение) и простым будущим временем (выражает чистое будущее действие). В русском языке оба варианта могут переводиться одинаково («я навещу»), но в испанском «iré» подразумевает спонтанное или обязательное будущее действие, а не запланированное. Для выражения намерения всегда используйте «voy a + инфинитив»."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formación básica de \"ir a\"",
+        "translation": "Основы образования конструкции «ir a»",
+        "examples": [
+          {
+            "original": "Hoy voy a descansar.",
+            "phonetic": "ˈoʝ βoj a ðeskanˈsaɾ",
+            "translation": "Сегодня я собираюсь отдыхать.",
+            "note": "Используется для выражения личных планов в ближайшем будущем. Обратите внимание на спряжение глагола «ir»."
+          },
+          {
+            "original": "Ellos van a llegar tarde.",
+            "phonetic": "ˈeʝos βan a ʎeˈɣaɾ ˈtalde",
+            "translation": "Они собираются приехать поздно.",
+            "note": "Форма «van» используется для третьего лица множественного числа. После «a» всегда инфинитив."
+          },
+          {
+            "original": "¿Vas a llamar a tu madre?",
+            "phonetic": "βas a ʎaˈmaɾ a tu ˈmaðɾe",
+            "translation": "Ты собираешься позвонить своей маме?",
+            "note": "Вопросительная форма образуется инверсией: «¿Vas a...?» вместо «Vas a...?»."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso con verbos comunes",
+        "translation": "Использование с распространёнными глаголами",
+        "examples": [
+          {
+            "original": "Voy a comprar pan en la tienda.",
+            "phonetic": "ˈβoj a komˈpɾaɾ pan en la ˈtjeneða",
+            "translation": "Я собираюсь купить хлеб в магазине.",
+            "note": "Глаголы движения или действия (comprar, viajar, estudiar) часто используются с «ir a»."
+          },
+          {
+            "original": "Ellas van a viajar a España el próximo mes.",
+            "phonetic": "ˈeʝas βan a βjaˈxaɾ a esˈpaɲa el ˈpɾoksimo mes",
+            "translation": "Они (девушки) собираются поехать в Испанию в следующем месяце.",
+            "note": "Обратите внимание на порядок слов: сначала подлежащее, затем «van a», затем инфинитив."
+          },
+          {
+            "original": "¿Qué vas a hacer después del trabajo?",
+            "phonetic": "ke βas a aˈθeɾ deˈspwes del tɾaˈβaχo",
+            "translation": "Что ты собираешься делать после работы?",
+            "note": "Вопросительные слова (qué, cuándo, dónde) ставятся в начале вопроса."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negación y preguntas",
+        "translation": "Отрицание и вопросы",
+        "examples": [
+          {
+            "original": "No voy a comer carne hoy.",
+            "phonetic": "no ˈβoj a koˈmeɾ ˈkaɾne ˈoʝ",
+            "translation": "Я не собираюсь есть мясо сегодня.",
+            "note": "Отрицание образуется с помощью «no» перед «voy a». Инфинитив не изменяется."
+          },
+          {
+            "original": "¿Vas a ir al cine esta noche?",
+            "phonetic": "βas a iɾ al ˈθine esta ˈnotʃe",
+            "translation": "Ты собираешься пойти в кино сегодня вечером?",
+            "note": "Вопросительная форма с глаголом «ir» требует инверсии: «¿Vas a ir...?»."
+          },
+          {
+            "original": "Ellos no van a venir a la fiesta.",
+            "phonetic": "ˈeʝos no βan a βeˈniɾ a la ˈfjesta",
+            "translation": "Они не собираются приходить на вечеринку.",
+            "note": "Отрицание «no» ставится перед «van a», но после подлежащего."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "ru": "Будущее с \"ir a\""
+    }
+  }
+]

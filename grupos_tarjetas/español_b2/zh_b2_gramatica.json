@@ -1,0 +1,528 @@
+[
+  {
+    "id": "zh_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Condicionales mixtos / 混合条件句",
+    "bridge": "在中文中，条件句通常使用「如果...就...」的结构，且时态变化较为简单，主要通过时间副词（如「现在」「过去」）来区分。而在西班牙语中，混合条件句（如「Si hubiera estudiado, habría aprobado」）涉及过去与现在的时间错位，这与中文的逻辑完全不同。中文母语者常误将西班牙语的时态对应到中文的时间逻辑，导致句子结构错误。关键差异在于：西班牙语的条件句需要严格区分「假设的过去」（过去完成时）与「现在的结果」（条件式过去时），而中文则通过上下文或时间副词直接表达。",
+    "rule": "西班牙语的混合条件句（Condicionales mixtos）用于表达「过去的假设条件」对「现在或将来的结果」产生影响。结构为：\n1. Si + pretérito pluscuamperfecto de subjuntivo (hubiera/hubiese + participio) → condicional simple/compuesto (tendría/habría + participio)\n   - 例：Si hubiera estudiado más, ahora tendría un mejor trabajo.\n   - 核心逻辑：过去未实现的行为（Si hubiera estudiado）导致现在的结果（tendría un mejor trabajo）。\n2. Si + pretérito imperfecto de subjuntivo (raíz + -ra/-se) → condicional simple\n   - 例：Si supieras la verdad, no estarías tan tranquilo.\n   - 核心逻辑：过去的假设（Si supieras）影响现在的状态（no estarías tranquilo）。\n\n注意事项：\n- 主句和从句的时态必须严格对应，不能混用。\n- 条件句（Si部分）必须使用虚拟式，主句可用陈述式或条件式。\n- 部分动词（如「ser」「ir」）在虚拟式过去时有不规则变化（ej. fuera/fuese）。\n- 口语中，条件式过去时（tendría）可替换为虚拟式过去时（tuviera）在某些地区（如拉美）。",
+    "concept_examples": [
+      {
+        "text": "Si hubiera ahorrado dinero, ahora podría comprarme un coche.",
+        "translation": "如果我之前存了钱，现在就能买辆车了。",
+        "phonetic": "/si uˈβje.ɾa a.oˈɾa.ðo ˈdi.ne.ɾo aˈo.ɾa poˈðɾi.a komˈpɾaɾ.me un ˈko.tʃe/"
+      },
+      {
+        "text": "Si hubieras venido antes, habrías visto el final de la película.",
+        "translation": "如果你早点来，就能看到电影的结局了。",
+        "phonetic": "/si uˈβje.ɾas βeˈni.ðo ˈan.tes aˈβɾi.as βis.to el fiˈnal de la peˈli.ku.la/"
+      },
+      {
+        "text": "Si supieras inglés, no tendrías problemas con este trabajo.",
+        "translation": "如果你会英语，就不会在这个工作上有问题了。",
+        "phonetic": "/si suˈpje.ɾas iŋˈɡles no tenˈdɾi.as pɾoˈβle.mas kon ˈes.te traˈβa.xo/"
+      },
+      {
+        "text": "Si no hubiéramos perdido el tren, ahora estaríamos en casa.",
+        "translation": "如果我们没错过火车，现在就已经在家了。",
+        "phonetic": "/si no uˈβje.ɾa.mos peɾˈdi.ðo el tren aˈo.ɾa es.taˈɾi.a.mos en ˈka.sa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Si estudiabas más, ahora tienes un mejor trabajo.",
+      "correct": "Si hubieras estudiado más, ahora tendrías un mejor trabajo.",
+      "correct_alt": "",
+      "explanation": "中文母语者常直接将中文的「如果...就...」结构直译为西班牙语，忽略了时态错位的逻辑。错误句子中，「estudiabas」（过去未完成时）表示过去的习惯，而「tienes」（现在时）表示现在的结果，这在西班牙语中不构成混合条件句。正确句子使用「hubieras estudiado」（过去完成时虚拟式）表达过去未实现的假设，与「tendrías」（条件式）构成时间错位的逻辑关系。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Si + pluscuamperfecto de subjuntivo → condicional simple",
+        "translation": "「如果+过去完成时虚拟式 → 条件式简单」",
+        "examples": [
+          {
+            "original": "Si hubiera nacido en España, hablaría español perfectamente.",
+            "phonetic": "/si uˈβje.ɾa naˈθi.ðo en esˈpa.ɲa aˈβla.ɾi.a es.paˈɲol peɾ.fek.taˈmen.te/",
+            "translation": "如果我出生在西班牙，就能说一口流利的西班牙语。",
+            "note": "重点练习过去完成时虚拟式（hubiera + participio）与条件式简单（hablaría）的搭配。"
+          },
+          {
+            "original": "Si hubieras traído el mapa, no nos habríamos perdido.",
+            "phonetic": "/si uˈβje.ɾas tɾaˈi.ðo el ˈma.pa no nos aˈβɾi.a.mos peɾˈdi.ðo/",
+            "translation": "如果你带了地图，我们就不会迷路了。",
+            "note": "注意「habríamos perdido」是条件式复合时，表达过去的结果。"
+          },
+          {
+            "original": "Si no hubiéramos salido tarde, ahora no estaríamos cansados.",
+            "phonetic": "/si no uˈβje.ɾa.mos saˈli.ðo ˈtaɾ.ðe aˈo.ɾa no es.taˈɾi.a.mos kanˈsa.ðos/",
+            "translation": "如果我们没那么晚出发，现在就不会这么累。",
+            "note": "混合条件句的典型结构：过去假设（salido tarde）→ 现在结果（estar cansados）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Si + imperfecto de subjuntivo → condicional simple",
+        "translation": "「如果+过去未完成时虚拟式 → 条件式简单」",
+        "examples": [
+          {
+            "original": "Si supieras la respuesta, no tendrías que preguntarme.",
+            "phonetic": "/si suˈpje.ɾas la resˈpwes.ta no tenˈdɾi.as ke pɾe.ɣunˈtaɾ.me/",
+            "translation": "如果你知道答案，就不需要问我了。",
+            "note": "过去未完成时虚拟式（supieras）表达假设，条件式（tendrías）表达现在的结果。"
+          },
+          {
+            "original": "Si vinieras a tiempo, no perderíamos el vuelo.",
+            "phonetic": "/si biˈnje.ɾas a ˈtiem.po no peɾ.ðeˈɾi.a.mos el ˈbwe.lo/",
+            "translation": "如果你准时来，我们就不会错过航班了。",
+            "note": "「vinieras」是虚拟式过去时，表达假设；「perderíamos」是条件式，表达现在的结果。"
+          },
+          {
+            "original": "Si no tuvieras miedo, te atreverías a hablar en público.",
+            "phonetic": "/si no tuˈβje.ɾas ˈmje.ðo te a.tɾe.βeˈɾi.as a aˈβlaɾ en ˈpu.βli.ko/",
+            "translation": "如果你不害怕，就敢在公众面前讲话了。",
+            "note": "注意「tuvieras miedo」是虚拟式过去时，表达现在的假设。"
+          },
+          {
+            "original": "Si no lloviera tanto, podríamos salir a pasear.",
+            "phonetic": "/si no ʎoˈβje.ɾa ˈtan.to poˈðɾi.a.mos saˈliɾ a pa.seˈaɾ/",
+            "translation": "如果不下那么大的雨，我们就能出去散步了。",
+            "note": "「lloviera」是虚拟式过去时，表达现在的假设。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Casos especiales y variaciones regionales",
+        "translation": "特殊情况与地区变体",
+        "examples": [
+          {
+            "original": "Si hubiera sido rico, me habría comprado una casa en la playa.",
+            "phonetic": "/si uˈβje.ɾa siˈðo ˈri.ko me aˈβɾi.a komˈpɾa.ðo ˈu.na ˈka.sa en la ˈpla.ʝa/",
+            "translation": "如果我是有钱人，早就买一栋海边别墅了。",
+            "note": "「hubiera sido」是过去完成时虚拟式，表达过去的假设；「habría comprado」是条件式复合时。"
+          },
+          {
+            "original": "Si supieras la verdad, no estarías tan tranquilo.",
+            "phonetic": "/si suˈpje.ɾas la βeɾˈðað no es.taˈɾi.as tan tɾaŋˈki.lo/",
+            "translation": "如果你知道真相，就不会这么淡定了。",
+            "note": "「supieras」是虚拟式过去时，表达现在的假设；「estarías」是条件式。"
+          },
+          {
+            "original": "Si no hubiéramos perdido el avión, ahora estaríamos en Madrid.",
+            "phonetic": "/si no uˈβje.ɾa.mos peɾˈdi.ðo el aˈβjon aˈo.ɾa es.taˈɾi.a.mos en maˈðɾið/",
+            "translation": "如果我们没错过飞机，现在就已经在马德里了。",
+            "note": "混合条件句的典型结构：过去假设（perdido el avión）→ 现在结果（estar en Madrid）。"
+          },
+          {
+            "original": "Si no tuviéramos tanto trabajo, podríamos ir al cine esta noche.",
+            "phonetic": "/si no tuˈβje.ɾa.mos ˈtan.to traˈβa.xo poˈðɾi.a.mos iɾ al ˈθi.ne es.ta ˈno.tʃe/",
+            "translation": "如果我们工作没那么多，今晚就能去看电影了。",
+            "note": "「tuvieramos」是虚拟式过去时，表达现在的假设；「podríamos」是条件式。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🌍",
+    "phonetic": "",
+    "translations": {
+      "zh": "混合条件句"
+    }
+  },
+  {
+    "id": "zh_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Voz pasiva avanzada con gerundios, infinitivos y verbos modales / 高级被动语态（含动名词、不定式和情态动词）",
+    "bridge": "在中文中，被动语态通常通过介词‘被’或‘被动句式’表达，例如‘被打破’、‘被发现’。然而，西班牙语的被动语态结构更加多样化，特别是在使用动名词、不定式或情态动词时。西班牙语被动语态需要与动词的时态、语态和情态动词保持一致，这与中文的被动表达方式有显著差异。学习者常犯的错误是直接套用中文被动结构，导致语法错误或表达不自然。",
+    "rule": "西班牙语高级被动语态的构成遵循以下规则：1) 基本被动语态：ser + 过去分词（与主语性数一致）。2) 使用动名词（gerundio）时，被动语态需与动名词的时态和语态保持一致，例如‘está siendo construido’（正在被建造）。3) 使用不定式（infinitivo）时，被动语态需与不定式的时态和语态保持一致，例如‘puede ser visto’（可以被看到）。4) 情态动词（modales）如‘deber’, ‘poder’, ‘tener que’等与被动语态结合时，需保持情态动词的时态和被动结构的一致性，例如‘debe ser terminado’（必须被完成）。注意：被动语态在西班牙语中更常用于书面语或正式场合，口语中常用‘se + 动词’结构代替。",
+    "concept_examples": [
+      {
+        "text": "El informe está siendo revisado por el equipo.",
+        "translation": "这份报告正在被团队审查。",
+        "phonetic": "/el inˈfor.me esˈta siˈen.do re.βiˈsa.ðo por el eˈki.po/"
+      },
+      {
+        "text": "Los documentos deben ser firmados antes del viernes.",
+        "translation": "这些文件必须在周五前被签署。",
+        "phonetic": "/los do.kuˈmen.tos ˈde.men ser firˈma.ðos anˈtes del ˈviɾ.nes/"
+      },
+      {
+        "text": "La película puede ser vista en cualquier momento.",
+        "translation": "这部电影可以在任何时间被观看。",
+        "phonetic": "/la ˈpel.ku.la ˈpwe.de ser ˈvis.ta en kualˈkjer moˈmen.to/"
+      },
+      {
+        "text": "El proyecto está siendo financiado por una empresa extranjera.",
+        "translation": "这个项目正在被一家外国公司资助。",
+        "phonetic": "/el proˈjek.to esˈta siˈen.do fin.anˈθja.ðo por u.na emˈpre.sa ek.stɾanˈxe.ɾa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "El informe está revisando por el equipo.",
+      "correct": "El informe está siendo revisado por el equipo.",
+      "correct_alt": "",
+      "explanation": "中文中常说‘报告正在被审查’，直接使用动词‘审查’的进行时。但在西班牙语中，被动语态的进行时需要使用‘estar + siendo + 过去分词’结构，表示动作正在进行且被动。错误句子中使用了‘revisando’（主动进行时），忽略了被动语态的构成规则。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ser + participio pasado (pasiva básica)",
+        "translation": "ser + 过去分词（基础被动语态）",
+        "examples": [
+          {
+            "original": "El libro fue escrito por Cervantes.",
+            "phonetic": "/el ˈli.bɾo fwe eˈskri.to por karˈβan.tes/",
+            "translation": "这本书是塞万提斯写的。",
+            "note": "强调过去分词与主语性数一致，并与中文‘被’字句对应。"
+          },
+          {
+            "original": "Las ventanas son cerradas por el conserje.",
+            "phonetic": "/las βenˈta.nas son θeˈra.ðas por el konˈse.rxe/",
+            "translation": "窗户是由门卫关上的。",
+            "note": "注意‘ser’的时态与中文‘被’字句的对应关系。"
+          },
+          {
+            "original": "El problema fue resuelto por los científicos.",
+            "phonetic": "/el proˈble.ma fwe reˈsol.to por los θjenˈti.fi.kos/",
+            "translation": "这个问题被科学家们解决了。",
+            "note": "过去分词‘resuelto’是不规则变化，需特别记忆。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estar + gerundio en voz pasiva",
+        "translation": "estar + 动名词（被动进行时）",
+        "examples": [
+          {
+            "original": "El puente está siendo construido por los obreros.",
+            "phonetic": "/el ˈpwen.te esˈta siˈen.do konsˈtɾui.ðo por los oˈβɾe.ros/",
+            "translation": "这座桥正在被工人们建造。",
+            "note": "强调动作正在进行中的被动状态，与中文‘正在被...’对应。"
+          },
+          {
+            "original": "La ciudad está siendo restaurada después del terremoto.",
+            "phonetic": "/la θiˈðað esˈta siˈen.do res.tauˈɾa.ða deˈpwes del te.ɾeˈmo.to/",
+            "translation": "这座城市在地震后正在被修复。",
+            "note": "注意‘restaurada’与主语‘ciudad’（阴性单数）一致。"
+          },
+          {
+            "original": "Los documentos están siendo digitalizados por el departamento.",
+            "phonetic": "/los do.kuˈmen.tos esˈtan siˈen.do di.xi.ta.liˈθa.ðos por el de.parˈta.men.to/",
+            "translation": "这些文件正在被部门数字化。",
+            "note": "动名词‘digitalizados’与主语‘documentos’（阳性复数）一致。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Modales + voz pasiva (deber, poder, tener que)",
+        "translation": "情态动词 + 被动语态（deber, poder, tener que）",
+        "examples": [
+          {
+            "original": "El examen debe ser terminado antes de las cinco.",
+            "phonetic": "/el ekˈsa.men ˈde.be ser ter.miˈna.ðo anˈtes de las ˈθiŋ.ko/",
+            "translation": "考试必须在五点前被完成。",
+            "note": "情态动词‘deber’表达义务，与被动语态结合时，需保持一致性。"
+          },
+          {
+            "original": "La puerta puede ser abierta con esta llave.",
+            "phonetic": "/la ˈpwer.ta ˈpwe.de ser aˈβjer.ta kon ˈes.ta ˈʎa.βe/",
+            "translation": "这扇门可以用这把钥匙被打开。",
+            "note": "情态动词‘poder’表达可能性，与被动语态结合时，需注意动词的时态。"
+          },
+          {
+            "original": "Los formularios tienen que ser entregados antes del lunes.",
+            "phonetic": "/los for.muˈla.rjos ˈtje.nen ke ser en.treˈɣa.ðos anˈtes del ˈlu.nes/",
+            "translation": "这些表格必须在周一前被提交。",
+            "note": "‘tener que’表达强制义务，与被动语态结合时，需注意动词的时态和性数一致。"
+          },
+          {
+            "original": "El paquete podría ser enviado mañana si lo pides.",
+            "phonetic": "/el paˈke.te poˈðɾi.a ser emˈbja.ðo maˈɲa.na si lo ˈpi.ðes/",
+            "translation": "如果你要求的话，包裹明天可能被寄出。",
+            "note": "情态动词‘poder’的条件式表达假设，与被动语态结合时，需注意动词的时态。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "zh": "高级被动语态（含动名词、不定式和情态动词）"
+    }
+  },
+  {
+    "id": "zh_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estilo indirecto avanzado / 高级间接引语",
+    "bridge": "在中文中，间接引语通常通过改变人称和时态来实现，但句式结构相对简单，如直接引语转换为间接引语时，只需调整代词和动词时态。然而，西班牙语的间接引语不仅需要时态和人称的变化，还涉及动词的时态后移（sequence of tenses）、疑问句和命令句的转换规则，甚至需要处理疑问词的变化。中文学习者常忽略西班牙语中时态后移的强制性，或错误地保留原句的时态，导致句子逻辑不一致。此外，西班牙语中疑问句转换时需调整疑问词（如‘qué’变为‘qué’或‘cuál’），而中文仅改变语序或助词即可，这也是常见的出错点。",
+    "rule": "西班牙语的高级间接引语（estilo indirecto avanzado）遵循以下核心规则：\n\n1. **时态后移（Sequence of Tenses）**：\n   - 直接引语中的现在时（presente）转换为间接引语时变为过去时（pretérito imperfecto）。\n     - Ejemplo: \"Dice: ‘Hablo español.’\" → \"Dice que hablaba español.\"\n   - 直接引语中的过去时（pretérito indefinido/pretérito perfecto）转换为间接引语时变为过去完成时（pretérito pluscuamperfecto）。\n     - Ejemplo: \"Dijo: ‘Hablé español.’\" → \"Dijo que había hablado español.\"\n   - 直接引语中的将来时（futuro simple）转换为间接引语时变为条件式（condicional simple）。\n     - Ejemplo: \"Dice: ‘Hablaré español.’\" → \"Dice que hablaría español.\"\n   - 直接引语中的条件式（condicional）转换为间接引语时保持不变。\n     - Ejemplo: \"Dijo: ‘Hablaría español.’\" → \"Dijo que hablaría español.\"\n\n2. **人称和指示词的变化**：\n   - 第一人称（yo, nosotros）转换为第三人称（él, ella, ellos）。\n     - Ejemplo: \"Dijo: ‘Yo hablo español.’\" → \"Dijo que él hablaba español.\"\n   - 指示词‘este’/‘esta’转换为‘aquel’/‘aquella’。\n     - Ejemplo: \"Dijo: ‘Este libro es mío.’\" → \"Dijo que aquel libro era suyo.\"\n\n3. **疑问句的转换**：\n   - 一般疑问句（sí/no）转换为间接引语时，使用‘si’引导，且动词时态后移。\n     - Ejemplo: \"Preguntó: ‘¿Hablas español?’\" → \"Preguntó si hablaba español.\"\n   - 特殊疑问句（qué, cuándo等）转换时，疑问词保留，但动词时态后移，且疑问句变为陈述句语序。\n     - Ejemplo: \"Preguntó: ‘¿Qué estudias?’\" → \"Preguntó qué estudiaba.\"\n\n4. **命令句的转换**：\n   - 肯定命令句转换为间接引语时，使用‘decir que + subjuntivo’或‘pedir que + subjuntivo’。\n     - Ejemplo: \"Dijo: ‘Habla español.’\" → \"Dijo que hablara español.\" / \"Pidió que hablara español.\"\n   - 否定命令句转换时，使用‘decir que no + subjuntivo’。\n     - Ejemplo: \"Dijo: ‘No hables español.’\" → \"Dijo que no hablaras español.\"\n\n5. **时态不变的情况**：\n   - 当引述动词（如‘decir’, ‘contar’）为现在时或将来时时，间接引语中的动词时态保持不变。\n     - Ejemplo: \"Dice: ‘Hablo español.’\" → \"Dice que habla español.\"\n\n6. **特殊动词的处理**：\n   - 动词‘saber’在间接引语中可能变为‘poder’（表示能力）。\n     - Ejemplo: \"Dijo: ‘Sé hablar español.’\" → \"Dijo que podía hablar español.\"\n\n注意：间接引语中的动词时态后移仅适用于引述动词为过去时的情况。",
+    "concept_examples": [
+      {
+        "text": "El profesor dijo: «Mañana habrá un examen».",
+        "translation": "老师说：「明天有考试。」",
+        "phonetic": "[el profeˈsoɾ ˈdijo maˈɲana aˈβɾa un ekˈsamen]"
+      },
+      {
+        "text": "María me preguntó: «¿Cuándo llegaste?».",
+        "translation": "玛丽亚问我：「你什么时候到的？」",
+        "phonetic": "[maˈɾia me preɣunˈto kwan do ʎeˈɣaste]"
+      },
+      {
+        "text": "El jefe ordenó: «Termina el informe antes de las cinco».",
+        "translation": "老板命令：「五点前完成报告。」",
+        "phonetic": "[el ˈxefe oɾdeˈno terˈmina el inˈfoɾme anˈtes de las ˈθiŋko]"
+      },
+      {
+        "text": "Ana me dijo: «He estado estudiando español durante dos años».",
+        "translation": "安娜对我说：「我已经学了两年西班牙语了。」",
+        "phonetic": "[ˈana me ˈdijo e esˈtaðo esˈtuðjando espaˈɲol duˈɾante dos ˈaɲos]"
+      }
+    ],
+    "common_error": {
+      "wrong": "老师说：「我明天有考试。」 → Lao shī shuō: \"Wǒ míngtiān yǒu kǎoshì.\"",
+      "correct": "El profesor dijo que al día siguiente habría un examen.",
+      "correct_alt": "",
+      "explanation": "中文学习者常直接将直接引语的时态和人称照搬到间接引语中，忽略了西班牙语时态后移的规则。在本例中，直接引语中的将来时（‘habrá’）在间接引语中应转换为条件式（‘habría’），同时指示时间词‘mañana’变为‘al día siguiente’。此外，中文中第一人称主语在间接引语中应转换为第三人称。错误的翻译忽略了这些变化，导致句子逻辑不一致。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Cambios básicos de tiempo y persona",
+        "translation": "基本时态与人称变化",
+        "examples": [
+          {
+            "original": "Dijo: «Yo estudio español».",
+            "phonetic": "[ˈdijo ˈyo esˈtuðjo espaˈɲol]",
+            "translation": "他说：「我学西班牙语。」",
+            "note": "重点练习现在时转换为过去时（imperfecto）和人称变化（yo → él）。"
+          },
+          {
+            "original": "Preguntó: «¿Dónde vives?».",
+            "phonetic": "[preɣunˈto ˈdonde ˈβiβes]",
+            "translation": "他问：「你住在哪里？」",
+            "note": "练习特殊疑问句转换时保留疑问词并调整时态。"
+          },
+          {
+            "original": "María dice: «Voy a la escuela».",
+            "phonetic": "[maˈɾia ˈdiθe βoj a la esˈkwela]",
+            "translation": "玛丽亚说：「我去学校。」",
+            "note": "引述动词为现在时，间接引语时态不变。"
+          },
+          {
+            "original": "El niño gritó: «¡Tengo hambre!».",
+            "phonetic": "[el ˈniɲo ɡɾiˈto ˈtenɡo ˈambɾe]",
+            "translation": "小男孩喊道：「我饿了！」",
+            "note": "练习感叹句转换为陈述句，并保持时态一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Estilo indirecto con verbos modales y condicionales",
+        "translation": "带情态动词和条件式的间接引语",
+        "examples": [
+          {
+            "original": "Dijo: «Podré terminar el proyecto».",
+            "phonetic": "[ˈdijo poˈðɾe terˈminaɾ el pɾoˈxekto]",
+            "translation": "他说：「我能完成项目。」",
+            "note": "将来时转换为条件式（podré → podría）。"
+          },
+          {
+            "original": "Preguntó: «¿Quieres venir conmigo?».",
+            "phonetic": "[preɣunˈto ˈkjeres βeˈniɾ konˈmiɣo]",
+            "translation": "他问：「你想跟我一起来吗？」",
+            "note": "疑问句转换时，动词时态后移（quieres → quería）。"
+          },
+          {
+            "original": "El médico recomendó: «Debes descansar».",
+            "phonetic": "[el ˈmediko rekomenˈdo ˈdeβes deskanˈsaɾ]",
+            "translation": "医生建议：「你应该休息。」",
+            "note": "情态动词‘deber’在间接引语中保持不变，但主语人称变化。"
+          },
+          {
+            "original": "Ana me dijo: «Si tuviera tiempo, viajaría a España».",
+            "phonetic": "[ˈana me ˈdijo si tjeˈneɾa ˈtjempo ˈviaxaˈɾia a esˈpaɲa]",
+            "translation": "安娜对我说：「如果有时间，我会去西班牙。」",
+            "note": "条件式句子在间接引语中保持不变，但需注意主语变化。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Estilo indirecto en preguntas, órdenes y estilo narrativo",
+        "translation": "疑问句、命令句与叙事体间接引语",
+        "examples": [
+          {
+            "original": "El policía preguntó: «¿Tienes el carnet de conducir?».",
+            "phonetic": "[el poˈliθja preɣunˈto ˈtjenes el karˈnet de konduˈθiɾ]",
+            "translation": "警察问：「你有驾照吗？」",
+            "note": "一般疑问句转换为‘si’引导的间接引语，并调整时态。"
+          },
+          {
+            "original": "El jefe ordenó: «No llegues tarde».",
+            "phonetic": "[el ˈxefe oɾdeˈno no ˈʎeɣes ˈtaɾðe]",
+            "translation": "老板命令：「别迟到了。」",
+            "note": "否定命令句转换为‘decir que no + subjuntivo’结构。"
+          },
+          {
+            "original": "Me preguntó: «¿Qué hora es?».",
+            "phonetic": "[me preɣunˈto ˈke ˈoɾa es]",
+            "translation": "他问我：「几点了？」",
+            "note": "特殊疑问句转换时，疑问词保留，但语序变为陈述句。"
+          },
+          {
+            "original": "El niño me dijo: «Mamá, ¿puedo salir?».",
+            "phonetic": "[el ˈniɲo me ˈdijo maˈma ˈpweðo saˈliɾ]",
+            "translation": "小男孩对我说：「妈妈，我能出去吗？」",
+            "note": "练习包含称呼语的间接引语转换，需调整时态和疑问词。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "zh": "高级间接引语"
+    }
+  },
+  {
+    "id": "zh_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión para énfasis: No solo..., Rara vez... / 倒装强调：不只是..., 很少...",
+    "bridge": "在中文中，强调句通常通过副词（如‘仅仅’、‘几乎不’）或语调变化实现，句子结构保持不变。而在西班牙语中，强调特定信息时常需倒装句式，如将否定副词（no solo, rara vez）提前，主句动词随之变位。这与中文的‘把字句’或‘被字句’不同，西班牙语的倒装不仅改变语序，还需匹配动词时态与主语。常见误区是直接翻译中文结构，忽略西班牙语的语法要求。",
+    "rule": "西班牙语中，为强调某一成分（通常是否定或限制性副词），可将其置于句首，随后主句动词倒装（主语与动词位置互换）。常用于以下结构：\n1. **No solo... sino también...**：强调‘不仅...而且...’。倒装仅限第一部分（no solo），第二部分保持正常语序。动词根据主语变位。\n   - No solo estudia español, sino también francés. （不仅学西班牙语，还学法语。）\n   - No solo él lo sabe, sino también nosotros. （不仅他知道，我们也知道。）\n2. **Rara vez / Nunca / Jamás + 动词倒装**：强调频率极低或绝无仅有的情况。动词需与主语保持一致，时态根据语境变化。\n   - Rara vez llueve en el desierto. （沙漠中很少下雨。）\n   - Nunca había visto algo así. （我从未见过这样的事。）\n3. **Con + 名词 + 动词倒装**：强调伴随状态或条件。\n   - Con lo cansado que estaba, se durmió al instante. （累成那样，他立刻睡着了。）\n\n注意事项：\n- 倒装后，主句动词必须与主语保持一致（主谓一致）。\n- 否定副词（no solo, rara vez）置于句首时，后续动词通常为陈述式，但疑问句中可用虚拟式（如：¿No solo él lo sabe?）。\n- 书面语中倒装更常见；口语中可保持正常语序，但强调效果减弱。",
+    "concept_examples": [
+      {
+        "text": "No solo habla español, sino también alemán.",
+        "translation": "他不仅会说西班牙语，还会说德语。",
+        "phonetic": "/no ˈsolo ˈaβla espaˈɲol, ˈsino ˈtambjen aleˈman/"
+      },
+      {
+        "text": "Rara vez he visto un paisaje tan hermoso.",
+        "translation": "我很少见过这么美的风景。",
+        "phonetic": "/ˈrara ˈβeθ he ˈβisto um paiˈsaxe tan eɾˈmoso/"
+      },
+      {
+        "text": "Con lo inteligente que es, debería aprobar el examen.",
+        "translation": "他那么聪明，本该通过考试。",
+        "phonetic": "/kon lo inteˈliχente ke es, deˈbeɾia aˈpɾoβaɾ el eɡˈsamen/"
+      },
+      {
+        "text": "No solo no me ayudó, sino que me criticó.",
+        "translation": "他不仅没帮我，还批评我。",
+        "phonetic": "/no ˈsolo no me aˈʝudo, ˈsino ke me kɾiˈtiko/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Él no solo habla español, sino también alemán.",
+      "correct": "No solo habla español, sino también alemán.",
+      "correct_alt": "",
+      "explanation": "中文母语者常直接按正常语序造句，忽略西班牙语倒装的语法要求。倒装结构中，否定副词（no solo）置于句首时，主句动词必须紧随其后倒装（即动词提前）。正确句式应为‘No solo + 动词 + 主语...’。若保持正常语序，强调效果消失，句子听起来平淡无奇。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "No solo... sino también...",
+        "translation": "不只是...而且...",
+        "examples": [
+          {
+            "original": "No solo canta bien, sino también toca la guitarra.",
+            "phonetic": "/no ˈsolo ˈkaŋta βjen, ˈsino ˈtambjen ˈtoka la giˈtaɾa/",
+            "translation": "他不仅唱歌好，还会弹吉他。",
+            "note": "强调两种能力：歌唱与弹奏。注意倒装仅限第一部分（no solo），第二部分保持正常语序。"
+          },
+          {
+            "original": "No solo ella lo sabe, sino también sus amigos.",
+            "phonetic": "/no ˈsolo ˈeʝa lo ˈsaβe, ˈsino ˈtambjen sus aˈmiɣos/",
+            "translation": "不仅她知道，她的朋友们也知道。",
+            "note": "强调信息的广泛性。动词‘sabe’与主语‘ella’保持一致。"
+          },
+          {
+            "original": "No solo estudio español, sino también francés e italiano.",
+            "phonetic": "/no ˈsolo esˈtuðjo espaˈɲol, ˈsino ˈtambjen fɾanˈθes e itaˈljano/",
+            "translation": "我不仅学西班牙语，还学法语和意大利语。",
+            "note": "列举多项技能时，注意动词变位与主语一致（yo → estudio）。"
+          },
+          {
+            "original": "No solo es rápido, sino también preciso.",
+            "phonetic": "/no ˈsolo es ˈrapiðo, ˈsino ˈtambjen preˈθiso/",
+            "translation": "他不仅速度快，而且准确。",
+            "note": "形容词作表语时，倒装结构同样适用。注意‘es’与主语‘él/ella’保持一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Rara vez / Nunca / Jamás + 倒装",
+        "translation": "很少/从不/永不 + 倒装",
+        "examples": [
+          {
+            "original": "Rara vez viajo en avión.",
+            "phonetic": "/ˈrara ˈβeθ ˈβjaxo en aˈβjon/",
+            "translation": "我很少坐飞机旅行。",
+            "note": "强调频率极低。动词‘viajo’与主语‘yo’保持一致。书面语中可用‘Rara vez viajo...’或‘Viajo rara vez...’但倒装更强调。"
+          },
+          {
+            "original": "Nunca había probado un plato tan picante.",
+            "phonetic": "/ˈnuŋka aˈβia pɾoˈβaðo um ˈplato tan piˈkante/",
+            "translation": "我从未尝过这么辣的菜。",
+            "note": "强调绝无仅有的经历。使用过去完成时（había probado）表示过去的经历。"
+          },
+          {
+            "original": "Jamás olvidaré tu amabilidad.",
+            "phonetic": "/xaˈmas olβiˈðaɾe tu amiˈlaðað/",
+            "translation": "我永远不会忘记你的善良。",
+            "note": "‘Jamás’比‘nunca’更强烈，常用于书面语或正式场合。动词使用简单将来时（olvidaré）。"
+          },
+          {
+            "original": "Rara vez llueve en el desierto.",
+            "phonetic": "/ˈrara ˈβeθ ˈʎʝeve en el deˈsjeɾto/",
+            "translation": "沙漠里很少下雨。",
+            "note": "描述自然现象时，动词使用第三人称单数（llueve）。注意西班牙语中‘llover’为无人称动词，主语为‘lluvia’时可省略。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Con + 名词短语 + 倒装",
+        "translation": "带有...的情况下 + 倒装",
+        "examples": [
+          {
+            "original": "Con lo cansado que estaba, se durmió al instante.",
+            "phonetic": "/kon lo kanˈsaðo ke esˈtaβa, se ðurˈmjo al insˈtante/",
+            "translation": "累成那样，他立刻睡着了。",
+            "note": "‘Con lo + 形容词’结构强调程度极高。‘estaba’与主语‘él’保持一致。"
+          },
+          {
+            "original": "Con la lluvia que cae, mejor nos quedamos en casa.",
+            "phonetic": "/kon la ˈʎʝuβja ke ˈkale, meˈxoɾ nos keˈðamos en ˈkasa/",
+            "translation": "雨下得那么大，我们最好待在家里。",
+            "note": "‘Con la lluvia que cae’强调雨势之大。‘cae’为第三人称单数。"
+          },
+          {
+            "original": "Con lo caro que es, no me lo puedo permitir.",
+            "phonetic": "/kon lo ˈkaɾo ke es, no me lo ˈpweðo peɾmiˈtiɾ/",
+            "translation": "贵成那样，我买不起。",
+            "note": "强调价格过高。‘es’与主语‘ello’（隐含）保持一致。"
+          },
+          {
+            "original": "Con lo difícil que era el examen, aprobó sin problemas.",
+            "phonetic": "/kon lo diˈfisil ke ˈeɾa el eɡˈsamen, aˈpɾoβo sin pɾoˈβlemas/",
+            "translation": "考试那么难，他却毫无问题地通过了。",
+            "note": "强调困难程度。‘era’为过去未完成时，与‘el examen’保持一致。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "zh": "倒装强调：不只是..., 很少..."
+    }
+  }
+]

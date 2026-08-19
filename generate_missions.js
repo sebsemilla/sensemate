@@ -70,7 +70,7 @@ function setMistral() {
         apiKey:  process.env.MISTRAL_API_KEY,
         baseURL: 'https://api.mistral.ai/v1',
     });
-    activeModel        = 'open-mixtral-8x7b';
+    activeModel        = 'mistral-small-latest';
     activeProviderName = 'Mistral';
 }
 

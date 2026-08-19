@@ -406,5 +406,407 @@
     "translations": {
       "zh": "询问与表达籍贯"
     }
+  },
+  {
+    "id": "zh_A1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Describir personas y objetos / 描述人和物",
+    "bridge": "在中文中，描述人或物通常直接用形容词修饰名词，如‘高个子男人’或‘漂亮的花’。而在西班牙语中，形容词通常放在名词后面，且需要与名词保持性数一致（如‘hombre alto’、‘flor bonita’）。此外，西班牙语中常用‘ser’来描述永久特征（如‘Ella es alta’），而中文则直接用形容词。初学者容易忽略形容词的位置和性数变化，或误用‘estar’来描述永久特性。",
+    "rule": "1. 形容词位置：在西班牙语中，大多数形容词放在名词后面（如‘un libro interesante’）。少数常见形容词如‘bueno’、‘malo’、‘grande’、‘pequeño’在修饰名词时可放在前面（如‘un buen libro’），但需注意词形变化（如‘buen’而非‘bueno’）。\n2. 性数一致：形容词必须与所修饰名词的性（阳性/阴性）和数（单数/复数）一致。例如：‘una casa grande’（阴性单数）、‘casas grandes’（阴性复数）、‘un coche rojo’（阳性单数）、‘coches rojos’（阳性复数）。\n3. 描述永久特征用‘ser’：用于描述人或物的固有特征、国籍、职业等，如：‘Ella es alta’（她很高）、‘El libro es interesante’（这本书很有趣）。\n4. 描述临时状态用‘estar’：用于描述暂时状态，如：‘La puerta está abierta’（门是开着的）。\n5. 常见形容词：alto（高）、bajo（矮）、guapo（帅）、bonito（漂亮）、grande（大）、pequeño（小）、joven（年轻）、viejo（老）、rubio（金发）、moreno（黑发）。",
+    "concept_examples": [
+      {
+        "text": "Ella es una mujer alta.",
+        "translation": "她是一个高个子女人。",
+        "phonetic": "/ˈe.ʎa es ˈu.na muˈxeɾ a ˈal.ta/"
+      },
+      {
+        "text": "El coche es rojo y grande.",
+        "translation": "这辆车是红色的且很大。",
+        "phonetic": "/el ˈko.tʃe es ˈro.xo i ˈɡɾan.de/"
+      },
+      {
+        "text": "Tengo un perro pequeño y negro.",
+        "translation": "我有一只小且黑的狗。",
+        "phonetic": "/ˈteŋ.go un ˈpeɾ.ɾo peˈke.ɲo i ˈne.ɣɾo/"
+      },
+      {
+        "text": "Las flores son bonitas.",
+        "translation": "这些花很漂亮。",
+        "phonetic": "/las ˈflo.ɾes son boˈni.tas/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ella es una mujer alta.",
+      "correct": "Ella es una mujer alta.",
+      "correct_alt": "",
+      "explanation": "这个例子本身是正确的，但常见的错误是形容词位置错误或性数不一致。例如：‘Ella es una alta mujer’（形容词放在名词前，且不符合西班牙语常规用法）。另一个错误是：‘Ella es una mujer alto’（形容词‘alto’未与名词‘mujer’保持阴性一致）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Describir personas",
+        "translation": "描述人物",
+        "examples": [
+          {
+            "original": "Él es un hombre alto.",
+            "phonetic": "/el es un ˈo.mbɾe ˈal.to/",
+            "translation": "他是一个高个子男人。",
+            "note": "重点练习形容词‘alto’与名词‘hombre’的性数一致。"
+          },
+          {
+            "original": "Ella es una mujer joven.",
+            "phonetic": "/ˈe.ʎa es ˈu.na muˈxeɾ ˈxo.βen/",
+            "translation": "她是一个年轻女人。",
+            "note": "注意形容词‘joven’在阴性单数名词前不变化。"
+          },
+          {
+            "original": "El niño es rubio.",
+            "phonetic": "/el ˈni.ɲo es ˈru.bjo/",
+            "translation": "这个男孩是金发的。",
+            "note": "‘rubio’在阳性单数名词前不变化。"
+          },
+          {
+            "original": "La niña es morena.",
+            "phonetic": "/la ˈni.ɲa es moˈɾe.na/",
+            "translation": "这个女孩是黑发的。",
+            "note": "‘morena’在阴性单数名词前不变化。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir objetos",
+        "translation": "描述物品",
+        "examples": [
+          {
+            "original": "El libro es interesante.",
+            "phonetic": "/el ˈli.bɾo es in.te.ɾeˈsan.te/",
+            "translation": "这本书很有趣。",
+            "note": "‘interesante’在阳性单数名词前不变化。"
+          },
+          {
+            "original": "La mesa es grande.",
+            "phonetic": "/la ˈme.sa es ˈɡɾan.de/",
+            "translation": "这张桌子很大。",
+            "note": "‘grande’在阴性单数名词前不变化。"
+          },
+          {
+            "original": "Los coches son rojos.",
+            "phonetic": "/los ˈko.tʃes son ˈro.xos/",
+            "translation": "这些车是红色的。",
+            "note": "‘rojo’在阳性复数名词前变为‘rojos’。"
+          },
+          {
+            "original": "Las sillas son pequeñas.",
+            "phonetic": "/las ˈsi.ʎas son peˈke.ɲas/",
+            "translation": "这些椅子很小。",
+            "note": "‘pequeño’在阴性复数名词前变为‘pequeñas’。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Combinar descripciones",
+        "translation": "组合描述",
+        "examples": [
+          {
+            "original": "Es un hombre alto y guapo.",
+            "phonetic": "/es un ˈo.mbɾe ˈal.to i ˈɡwa.po/",
+            "translation": "他是一个高个子且帅气的男人。",
+            "note": "练习同时使用两个形容词描述同一个人或物。"
+          },
+          {
+            "original": "La casa es grande y bonita.",
+            "phonetic": "/la ˈka.sa es ˈɡɾan.de i boˈni.ta/",
+            "translation": "这栋房子又大又漂亮。",
+            "note": "注意形容词‘grande’和‘bonita’的性数一致。"
+          },
+          {
+            "original": "Tengo un perro negro y pequeño.",
+            "phonetic": "/ˈteŋ.go un ˈpeɾ.ɾo ˈne.ɣɾo i peˈke.ɲo/",
+            "translation": "我有一只黑色的小狗。",
+            "note": "练习形容词顺序（颜色在大小前）。"
+          },
+          {
+            "original": "Las flores son rojas y bonitas.",
+            "phonetic": "/las ˈflo.ɾes son ˈro.xas i boˈni.tas/",
+            "translation": "这些花又红又漂亮。",
+            "note": "‘rojo’在阴性复数名词前变为‘rojas’。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👥",
+    "phonetic": "",
+    "translations": {
+      "zh": "描述人和物"
+    }
+  },
+  {
+    "id": "zh_A1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Expresar gustos y disgustos / 表达喜欢和不喜欢",
+    "bridge": "在中文中，表达喜欢或不喜欢通常直接用「喜欢/不喜欢」加上名词或动词短语，如「我喜欢苹果」或「我不喜欢跑步」。但在西班牙语中，表达喜欢或不喜欢时，动词「gustar」的结构与中文完全不同：主语是喜欢的对象（如「el café」或「bailar」），而表达喜欢的人是间接宾语（如「me」或「te」）。这种主语与动作接受者的倒置让很多中文母语者感到困惑。此外，西班牙语中还需注意动词变位与人称代词的搭配，这与中文的直接表达方式形成鲜明对比。",
+    "rule": "在西班牙语中，表达「喜欢/不喜欢」时使用动词「gustar」的特殊结构。具体规则如下：\n1. 动词变位：根据喜欢的对象（主语）变位，而不是表达喜欢的人。常用变位有：\n   - (A mí) me gusta(n) ... （我喜欢...）\n   - (A ti) te gusta(n) ... （你喜欢...）\n   - (A él/ella/usted) le gusta(n) ... （他/她/您喜欢...）\n   - (A nosotros) nos gusta(n) ... （我们喜欢...）\n   - (A vosotros) os gusta(n) ... （你们喜欢...）\n   - (A ellos/ellas/ustedes) les gusta(n) ... （他们/她们/您们喜欢...）\n2. 主语与动词搭配：\n   - 如果喜欢的对象是单数名词或动词原形，动词用第三人称单数「gusta」。例如：Me gusta el café（我喜欢咖啡）。\n   - 如果喜欢的对象是复数名词，动词用第三人称复数「gustan」。例如：Me gustan los perros（我喜欢狗）。\n   - 如果喜欢的对象是动词原形（表示活动），动词也用第三人称单数「gusta」。例如：Me gusta bailar（我喜欢跳舞）。\n3. 否定形式：在动词前加「no」即可。例如：No me gusta el té（我不喜欢茶）。\n4. 疑问形式：将主语和动词倒置。例如：¿Te gusta el chocolate?（你喜欢巧克力吗？）\n5. 强调形式：可以在句首加上「A + 人称代词」来强调。例如：A mí me gusta el fútbol（我喜欢足球）。",
+    "concept_examples": [
+      {
+        "text": "Me gusta el chocolate.",
+        "translation": "我喜欢巧克力。",
+        "phonetic": "me ˈɡusta el tʃokoˈlate"
+      },
+      {
+        "text": "No me gustan los tomates.",
+        "translation": "我不喜欢西红柿。",
+        "phonetic": "no me ɡusˈtan los toˈmates"
+      },
+      {
+        "text": "¿Te gusta bailar?",
+        "translation": "你喜欢跳舞吗？",
+        "phonetic": "te ˈɡusta baˈi̯laɾ"
+      },
+      {
+        "text": "A ella le gusta leer libros.",
+        "translation": "她喜欢看书。",
+        "phonetic": "a ˈeʝa le ˈɡusta leˈeɾ ˈlibɾos"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo gusto el chocolate.",
+      "correct": "Me gusta el chocolate.",
+      "correct_alt": "",
+      "explanation": "中文母语者常会直接套用中文的表达方式，将「我」作为主语，导致错误句子「Yo gusto el chocolate」。但在西班牙语中，「gustar」的结构是反的：喜欢的对象是主语，而表达喜欢的人是间接宾语。正确的表达应该是「Me gusta el chocolate」，其中「me」表示「我」是喜欢的人，而「el chocolate」是喜欢的对象。这种结构上的差异是中文母语者最容易犯的错误之一。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Gustos básicos con sustantivos",
+        "translation": "用名词表达基本喜好",
+        "examples": [
+          {
+            "original": "Me gusta el café.",
+            "phonetic": "me ˈɡusta el kaˈfe",
+            "translation": "我喜欢咖啡。",
+            "note": "学习用单数名词表达喜好，注意动词「gusta」的单数形式。"
+          },
+          {
+            "original": "No me gusta la leche.",
+            "phonetic": "no me ˈɡusta la ˈletʃe",
+            "translation": "我不喜欢牛奶。",
+            "note": "学习否定形式，注意动词变位与名词性别（阳性/阴性）的对应。"
+          },
+          {
+            "original": "¿Te gusta el pan?",
+            "phonetic": "te ˈɡusta el pan",
+            "translation": "你喜欢面包吗？",
+            "note": "学习疑问句形式，注意主语与动词的倒置。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Gustos con actividades",
+        "translation": "用动词表达对活动的喜好",
+        "examples": [
+          {
+            "original": "Me gusta bailar.",
+            "phonetic": "me ˈɡusta baˈi̯laɾ",
+            "translation": "我喜欢跳舞。",
+            "note": "学习用动词原形表达对活动的喜好，注意动词用第三人称单数。"
+          },
+          {
+            "original": "No me gusta correr.",
+            "phonetic": "no me ˈɡusta koˈreɾ",
+            "translation": "我不喜欢跑步。",
+            "note": "学习否定形式，注意动词原形的使用。"
+          },
+          {
+            "original": "¿Le gusta cantar?",
+            "phonetic": "le ˈɡusta kanˈtaɾ",
+            "translation": "他/她喜欢唱歌吗？",
+            "note": "学习第三人称的表达，注意动词变位与人称代词的对应。"
+          },
+          {
+            "original": "A nosotros nos gusta viajar.",
+            "phonetic": "a nosotɾos nos ˈɡusta biaˈxaɾ",
+            "translation": "我们喜欢旅行。",
+            "note": "学习用「A + 人称代词」强调主语，注意动词变位。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Gustos con plurales y contrastes",
+        "translation": "用复数名词表达喜好并进行对比",
+        "examples": [
+          {
+            "original": "Me gustan las manzanas.",
+            "phonetic": "me ɡusˈtan las maˈsananas",
+            "translation": "我喜欢苹果。",
+            "note": "学习用复数名词表达喜好，注意动词用第三人称复数。"
+          },
+          {
+            "original": "No me gustan los brócolis.",
+            "phonetic": "no me ɡusˈtan los ˈbɾokolis",
+            "translation": "我不喜欢西兰花。",
+            "note": "学习否定复数形式，注意名词复数的变化。"
+          },
+          {
+            "original": "¿Te gustan los perros o los gatos?",
+            "phonetic": "te ɡusˈtan los ˈpeɾɾos o los ˈɡatos",
+            "translation": "你喜欢狗还是猫？",
+            "note": "学习用选择疑问句表达偏好，注意动词与复数名词的对应。"
+          },
+          {
+            "original": "A ellos les gusta el fútbol, pero a mí no me gusta.",
+            "phonetic": "a ˈeʝos les ˈɡusta el ˈfutbol, peɾo a mi no me ˈɡusta",
+            "translation": "他们喜欢足球，但我不喜欢。",
+            "note": "学习用对比句表达不同的喜好，注意人称代词与动词的搭配。"
+          }
+        ]
+      }
+    ],
+    "emoji": "😊",
+    "phonetic": "",
+    "translations": {
+      "zh": "表达喜欢和不喜欢"
+    }
+  },
+  {
+    "id": "zh_A1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Pedir comida y bebida / 点餐和饮料",
+    "bridge": "在中文中，点餐时常用‘我要...’（如‘我要一杯水’）或直接说‘来一个...’（如‘来一个汉堡’）。而在西班牙语中，点餐通常使用‘Quiero...’（我想要...）或‘Me gustaría...’（我想要...，更礼貌）开头。此外，西班牙语中动词变位（如‘quiero’ vs ‘quiere’）和物主代词（如‘mi’ vs ‘mis’）的使用与中文完全不同，容易混淆。例如，‘我想要一杯水’在中文是‘我想要一杯水’，但在西班牙语中必须说‘Quiero un vaso de agua’（注意冠词‘un’和‘agua’的性别）。",
+    "rule": "1. 基本句式：\n   - ‘Quiero + [食物/饮料]’（我想要...）用于直接表达需求。\n     例：Quiero un café. (我想要一杯咖啡。)\n   - ‘Me gustaría + [食物/饮料]’（我想要...，更礼貌）用于礼貌询问。\n     例：Me gustaría un té, por favor. (我想要一杯茶，请。)\n\n2. 冠词使用：\n   - 不可数名词（如‘agua’水，‘café’咖啡）通常加不定冠词‘un’（阳性）或‘una’（阴性）。\n     例：un café (一杯咖啡)，una cerveza (一杯啤酒)\n   - 可数名词复数加‘unos’或‘unas’。\n     例：unas tapas (几份小吃)\n\n3. 疑问句式：\n   - ‘¿Qué desea?’（您想要什么？）用于正式场合。\n   - ‘¿Qué quieres?’（你想要什么？）用于非正式场合。\n   - 回答时常用‘Quiero...’或‘Me gustaría...’开头。\n\n4. 特殊情况：\n   - 询问价格时用‘¿Cuánto cuesta?’（多少钱？）或‘¿Tiene...?’（有...吗？）。\n     例：¿Tiene agua fría? (有凉水吗？)\n   - 表达‘请’时用‘por favor’。\n     例：Quiero un zumo, por favor. (我想要一杯果汁，请。)\n\n5. 否定句：\n   - 在动词前加‘no’。\n     例：No quiero azúcar. (我不想要糖。)",
+    "concept_examples": [
+      {
+        "text": "Quiero un café, por favor.",
+        "translation": "我想要一杯咖啡，请。",
+        "phonetic": "/ˈkjeɾo um kaˈfe ˌpor faˈβoɾ/"
+      },
+      {
+        "text": "Me gustaría una cerveza, por favor.",
+        "translation": "我想要一杯啤酒，请。",
+        "phonetic": "/me ɡus.taˈɾi.a ˈuna θeɾˈβeθa ˌpor faˈβoɾ/"
+      },
+      {
+        "text": "¿Qué desea?",
+        "translation": "您想要什么？",
+        "phonetic": "/ke deˈse.a/"
+      },
+      {
+        "text": "¿Tienen agua fría?",
+        "translation": "有凉水吗？",
+        "phonetic": "/ˈtje.nen ˈaɣwa ˈfɾi.a/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero un café.",
+      "correct": "Quiero un café, por favor.",
+      "correct_alt": "",
+      "explanation": "中文中，‘我’（yo）是主语，但在西班牙语中，‘yo’在口语中常被省略，因为动词变位（quiero）已经表明主语。直接说‘Quiero...’更自然，而‘Yo quiero...’虽然语法正确，但听起来生硬或过于正式。此外，‘por favor’在点餐时必不可少，中文中常用‘请’但西班牙语中位置固定在句末。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frases básicas para pedir",
+        "translation": "点餐的基础句式",
+        "examples": [
+          {
+            "original": "Quiero un agua.",
+            "phonetic": "/ˈkjeɾo um ˈaɣwa/",
+            "translation": "我想要一杯水。",
+            "note": "注意‘agua’是阴性名词，冠词用‘una’（una agua → una agua不成立，正确为‘un agua’是口语简化，标准为‘un vaso de agua’）。"
+          },
+          {
+            "original": "Me gustaría un té.",
+            "phonetic": "/me ɡus.taˈɾi.a um te/",
+            "translation": "我想要一杯茶。",
+            "note": "‘Me gustaría’比‘Quiero’更礼貌，适合餐厅或服务场合。"
+          },
+          {
+            "original": "¿Qué quieres?",
+            "phonetic": "/ke ˈkie.ɾes/",
+            "translation": "你想要什么？",
+            "note": "非正式场合使用，动词‘querer’变位为‘quieres’。"
+          },
+          {
+            "original": "Por favor.",
+            "phonetic": "/por faˈβoɾ/",
+            "translation": "请。",
+            "note": "单独使用时表示‘请给我...’，但通常与句子连用。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pedir con detalles",
+        "translation": "带细节的点餐",
+        "examples": [
+          {
+            "original": "Quiero un café con leche, por favor.",
+            "phonetic": "/ˈkjeɾo um kaˈfe kon ˈle.tʃe ˌpor faˈβoɾ/",
+            "translation": "我想要一杯加奶的咖啡，请。",
+            "note": "‘con’表示‘带有’，‘leche’是阴性名词，冠词用‘la’（la leche），但口语中常省略。"
+          },
+          {
+            "original": "Me gustaría una ensalada sin tomate.",
+            "phonetic": "/me ɡus.taˈɾi.a ˈuna en.saˈla.ða sin toˈma.te/",
+            "translation": "我想要一份不带番茄的沙拉。",
+            "note": "‘sin’表示‘没有’，直接加名词。"
+          },
+          {
+            "original": "¿Tienen pan integral?",
+            "phonetic": "/ˈtje.nen pan in.te.ɣɾalˈ/",
+            "translation": "有全麦面包吗？",
+            "note": "‘integral’是形容词，放在名词后。"
+          },
+          {
+            "original": "Quiero un zumo de naranja, por favor.",
+            "phonetic": "/ˈkjeɾo um ˈθu.mo ðe naˈɾaŋ.xa ˌpor faˈβoɾ/",
+            "translation": "我想要一杯橙汁，请。",
+            "note": "‘de’表示‘的’，用于说明成分（如‘zumo de naranja’）。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Preguntar por precios y opciones",
+        "translation": "询问价格和选项",
+        "examples": [
+          {
+            "original": "¿Cuánto cuesta el menú del día?",
+            "phonetic": "/ˈkwan.to ˈkwes.ta el meˈnu ðel ˈdi.a/",
+            "translation": "‘每日套餐’多少钱？",
+            "note": "‘menú del día’是西班牙常见的午餐套餐，‘cuesta’是‘costar’的第三人称单数变位。"
+          },
+          {
+            "original": "¿Qué incluyen las tapas?",
+            "phonetic": "/ke inˈklu.jen las ˈta.pas/",
+            "translation": "小吃里包括什么？",
+            "note": "‘incluir’的第三人称复数变位是‘incluyen’，‘tapas’是阴性名词复数。"
+          },
+          {
+            "original": "¿Tienen opciones vegetarianas?",
+            "phonetic": "/ˈtje.nen opˈθjo.nes βe.xe.taˈɾja.nas/",
+            "translation": "有素食选项吗？",
+            "note": "‘opciones’是阴性名词复数，‘vegetariana’是形容词，阴性复数为‘vegetarianas’。"
+          },
+          {
+            "original": "Quiero pagar con tarjeta, ¿es posible?",
+            "phonetic": "/ˈkjeɾo paˈɣaɾ kon taɾˈxe.ta ˌes poˈsi.βle/",
+            "translation": "我想用卡支付，可以吗？",
+            "note": "‘pagar con tarjeta’表示‘用卡支付’，‘es posible’用于礼貌询问。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🍽️",
+    "phonetic": "",
+    "translations": {
+      "zh": "点餐和饮料"
+    }
   }
 ]

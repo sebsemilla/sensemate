@@ -376,5 +376,409 @@
     "translations": {
       "zh": "在餐厅"
     }
+  },
+  {
+    "id": "zh_A1_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En la farmacia / 在药店",
+    "bridge": "在中文中，我们通常直接说‘我要买药’（Wǒ yào mǎi yào）或‘请给我药’（Qǐng gěi wǒ yào），但西班牙语中，药店的表达更正式且有特定结构。比如，‘Quiero comprar medicina’（我想买药）虽然语法正确，但更常用‘Necesito un medicamento para...’（我需要一种药来...）来表达需求。此外，西班牙语中‘medicina’和‘medicamento’的区别类似中文的‘药品’和‘药物’，前者更通用，后者更具体。初学者常忽略‘para’（为了）的用法，直接说‘Necesito medicina’（我需要药），这在西班牙语中显得不完整。",
+    "rule": "在西班牙语中，询问或购买药品时，常用以下结构：\n1. **询问药品**：\n   - ‘¿Tiene...?’（您有...吗？）\n   - ‘¿Me puede recomendar...?’（您能推荐...吗？）\n   - ‘Necesito...’（我需要...）\n   例：¿Tiene algo para el dolor de cabeza?（您有治头痛的药吗？）\n\n2. **表达需求**：\n   - ‘Necesito un medicamento para...’（我需要一种治...的药）\n   - ‘Quiero comprar...’（我想买...）\n   注意：‘medicamento’指具体药品，‘medicina’指医学或药学领域。\n\n3. **描述症状**：\n   - ‘Tengo...’（我有...）\n   - ‘Me duele...’（我...痛）\n   例：Tengo fiebre.（我发烧了。）\n\n4. **购买数量**：\n   - ‘¿Cuánto cuesta?’（多少钱？）\n   - ‘¿Puede ser más barato?’（能便宜点吗？）\n   注意：西班牙语中数字和价格表达与中文不同，如‘10 euros’（10欧元）不说‘diez euros’（错误），而直接说‘10 euros’。",
+    "concept_examples": [
+      {
+        "text": "¿Tiene algo para el dolor de cabeza?",
+        "translation": "您有治头痛的药吗？",
+        "phonetic": "/¿ˈtje.ne ˈal.ɡo pa.ɾa el doˈloɾ de kaˈbe.θa?/"
+      },
+      {
+        "text": "Necesito un medicamento para la tos.",
+        "translation": "我需要治咳嗽的药。",
+        "phonetic": "/neˈθe.si.to um me.di.kaˈmen.to ˈpa.ɾa la tos/"
+      },
+      {
+        "text": "¿Me puede recomendar algo natural?",
+        "translation": "您能推荐天然的药吗？",
+        "phonetic": "/¿me ˈpwe.de re.ko.menˈdaɾ ˈal.ɡo na.tuˈɾal?/"
+      },
+      {
+        "text": "¿Cuánto cuesta este jarabe?",
+        "translation": "这个糖浆多少钱？",
+        "phonetic": "/¿ˈkwan.to ˈkwes.ta ˈes.te xaˈɾa.βe?/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Necesito medicina para dolor de cabeza.",
+      "correct": "Necesito un medicamento para el dolor de cabeza.",
+      "correct_alt": "¿Tiene algo para el dolor de cabeza?",
+      "explanation": "中文中可以说‘我需要药治头痛’（Wǒ xūyào yào zhì tóutòng），但西班牙语中‘medicina’是不可数名词，不能直接与‘un’连用，且句子缺少冠词‘el’。正确表达需加‘un medicamento’（一种药）或使用疑问句‘¿Tiene algo...?’（您有...吗？）。此外，‘dolor de cabeza’前需加‘el’表示特指。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludar y preguntar por medicamentos",
+        "translation": "问候并询问药品",
+        "examples": [
+          {
+            "original": "¡Hola! ¿Tiene algo para el dolor de cabeza?",
+            "phonetic": "/ˈola ¿ˈtje.ne ˈal.ɡo pa.ɾa el doˈloɾ de kaˈbe.θa?/",
+            "translation": "你好！您有治头痛的药吗？",
+            "note": "学习基本问候语和询问药品的句型，注意‘para’（为了）的用法。"
+          },
+          {
+            "original": "Buenos días. ¿Me puede ayudar?",
+            "phonetic": "/ˈbwe.nos ˈdi.as ¿me ˈpwe.de aˈðu.dar?/",
+            "translation": "早上好。您能帮忙吗？",
+            "note": "‘ayudar’（帮助）是常用动词，注意主语与动词的配合。"
+          },
+          {
+            "original": "¿Tiene pastillas para la fiebre?",
+            "phonetic": "/¿ˈtje.ne pasˈti.ʝas pa.ɾa la ˈfje.bɾe?/",
+            "translation": "您有退烧药吗？",
+            "note": "‘pastillas’（药片）是复数名词，注意冠词‘la’的使用。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir síntomas y comprar medicamentos",
+        "translation": "描述症状并购买药品",
+        "examples": [
+          {
+            "original": "Tengo fiebre y me duele la garganta.",
+            "phonetic": "/ˈteŋ.ɡo ˈfje.bɾe i me ˈdwe.le la ɡaɾˈɡan.ta/",
+            "translation": "我发烧了，嗓子也痛。",
+            "note": "‘Tengo’（我有）用于描述症状，‘doler’（痛）的变位需注意主语。"
+          },
+          {
+            "original": "Necesito un medicamento para la tos.",
+            "phonetic": "/neˈθe.si.to um me.di.kaˈmen.to ˈpa.ɾa la tos/",
+            "translation": "我需要治咳嗽的药。",
+            "note": "‘medicamento’指具体药品，‘para’后接治疗目标。"
+          },
+          {
+            "original": "¿Cuánto cuesta este jarabe?",
+            "phonetic": "/¿ˈkwan.to ˈkwes.ta ˈes.te xaˈɾa.βe?/",
+            "translation": "这个糖浆多少钱？",
+            "note": "‘cuesta’（值...钱）用于询问价格，注意数字表达。"
+          },
+          {
+            "original": "¿Puede ser más barato?",
+            "phonetic": "/¿ˈpwe.de seɾ ˈmas baˈɾa.to?/",
+            "translation": "能便宜点吗？",
+            "note": "‘barato’（便宜）是形容词，注意‘más’（更）的用法。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pedir recomendaciones y expresar preferencias",
+        "translation": "请求推荐并表达偏好",
+        "examples": [
+          {
+            "original": "¿Me puede recomendar algo natural?",
+            "phonetic": "/¿me ˈpwe.de re.ko.menˈdaɾ ˈal.ɡo na.tuˈɾal?/",
+            "translation": "您能推荐天然的药吗？",
+            "note": "‘recomendar’（推荐）是常用动词，‘algo natural’（天然的东西）表达偏好。"
+          },
+          {
+            "original": "Prefiero pastillas sin azúcar.",
+            "phonetic": "/pɾeˈfje.ɾo pasˈti.ʝas sin aˈsu.kaɾ/",
+            "translation": "我更喜欢无糖药片。",
+            "note": "‘preferir’（更喜欢）的变位需注意主语，‘sin’（没有）用于否定。"
+          },
+          {
+            "original": "¿Tiene algo para alergias?",
+            "phonetic": "/¿ˈtje.ne ˈal.ɡo pa.ɾa aˈleɾ.xjas?/",
+            "translation": "您有治过敏的药吗？",
+            "note": "‘alergias’（过敏）是名词，注意冠词‘para’的用法。"
+          },
+          {
+            "original": "Quiero comprar crema para las quemaduras.",
+            "phonetic": "/ˈkie.ɾo komˈpɾaɾ ˈkɾe.ma pa.ɾa las ke.muɾˈda.ɾas/",
+            "translation": "我想买烧伤药膏。",
+            "note": "‘crema’（药膏）是阴性名词，‘para las quemaduras’（治烧伤）表达用途。"
+          }
+        ]
+      },
+      {
+        "emoji": "💊",
+        "phonetic": "",
+        "translations": {
+          "zh": "在药店"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh_A1_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Comprar en el supermercado / 在超市购物",
+    "bridge": "在中文中，购物时常用‘我要买...’（如‘我要买苹果’），而在西班牙语中，购物时更常用‘Quiero...’（我想要...）或直接用‘¿Tiene...?’（您有...吗？）询问商品。中文的‘要’多表示强烈意愿或需求，而西班牙语的‘quiero’更礼貌且常用于日常购物。此外，西班牙语中名词有阴阳性变化（如‘el pan’ vs ‘la leche’），而中文名词无此变化，这可能导致学习者忽略冠词或性别搭配错误。",
+    "rule": "1. 基本购物句型：\n   - ‘Quiero...’（我想要...）用于直接表达需求，如‘Quiero pan’（我想要面包）。\n   - ‘¿Tiene...?’（您有...吗？）用于询问商品是否有货，如‘¿Tiene manzanas?’（您有苹果吗？）。\n   - ‘¿Cuánto cuesta...?’（...多少钱？）用于询问价格，如‘¿Cuánto cuesta el pan?’（面包多少钱？）。\n\n2. 名词性别与冠词：\n   - 西班牙语名词分阳性（el）和阴性（la），如‘el pan’（面包，阳性），‘la leche’（牛奶，阴性）。\n   - 复数形式通常加‘-s’或‘-es’，如‘los panes’（面包们），‘las manzanas’（苹果们）。\n   - 无冠词时，直接用名词，如‘Quiero pan’（我想要面包）。\n\n3. 量词与数量：\n   - ‘un/una’（一个）用于可数名词，如‘una manzana’（一个苹果）。\n   - ‘un kilo de...’（一公斤...）用于不可数或按重量销售的商品，如‘un kilo de pan’（一公斤面包）。\n   - ‘un litro de...’（一升...）用于液体，如‘un litro de leche’（一升牛奶）。\n\n4. 礼貌用语：\n   - ‘Por favor’（请）常用于句末或句首，如‘Quiero pan, por favor’（我想要面包，请）。\n   - ‘Gracias’（谢谢）用于表达感谢，如‘Gracias, adiós’（谢谢，再见）。",
+    "concept_examples": [
+      {
+        "text": "Quiero un kilo de manzanas, por favor.",
+        "translation": "我想要一公斤苹果，请。",
+        "phonetic": "['kje.ɾo um 'ki.lo ðe ma.'na.sa.sas por fa.'βoɾ]"
+      },
+      {
+        "text": "¿Tiene leche? Sí, ¿cuánto quiere?",
+        "translation": "您有牛奶吗？有，您想要多少？",
+        "phonetic": "['tje.ne 'le.tʃe si 'kwan.to 'kje.ɾe]"
+      },
+      {
+        "text": "¿Cuánto cuesta el pan?",
+        "translation": "面包多少钱？",
+        "phonetic": "['kwan.to 'kwes.ta el pan]"
+      },
+      {
+        "text": "Deme dos botellas de agua, por favor.",
+        "translation": "请给我两瓶水。",
+        "phonetic": "['de.me ðos βo.'te.ʝas ðe 'a.ɣwa por fa.'βoɾ]"
+      }
+    ],
+    "common_error": {
+      "wrong": "我想要苹果（Wǒ yào píngguǒ）。",
+      "correct": "Quiero manzanas.",
+      "correct_alt": "¿Tiene manzanas?",
+      "explanation": "中文的‘要’（yào）可以直接接名词表达需求，但西班牙语中‘querer’后通常需要加冠词或量词（如‘un/una’或‘un kilo de’）。直接说‘Quiero manzanas’虽可理解，但更自然的表达是‘Quiero una manzana’（我想要一个苹果）或‘Quiero manzanas’（我想要苹果，泛指）。此外，‘¿Tiene...?’更符合购物时的礼貌询问方式。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos y preguntas básicas",
+        "translation": "问候与基本询问",
+        "examples": [
+          {
+            "original": "Hola, buenos días.",
+            "phonetic": "['o.la 'bwe.nos 'di.as]",
+            "translation": "你好，早上好。",
+            "note": "学习基本问候语，用于进入超市时打招呼。"
+          },
+          {
+            "original": "¿Qué necesita?",
+            "phonetic": "['ke ne.se.'si.ta]",
+            "translation": "您需要什么？",
+            "note": "售货员常用的询问句，学习者需记住‘necesitar’（需要）的用法。"
+          },
+          {
+            "original": "Quiero pan.",
+            "phonetic": "['kje.ɾo pan]",
+            "translation": "我想要面包。",
+            "note": "直接表达需求，无需冠词。"
+          },
+          {
+            "original": "Gracias, adiós.",
+            "phonetic": "['ɡra.sjas a.'ðjos]",
+            "translation": "谢谢，再见。",
+            "note": "学习礼貌用语，用于结束购物。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pedir productos específicos",
+        "translation": "询问具体商品",
+        "examples": [
+          {
+            "original": "¿Tiene manzanas?",
+            "phonetic": "['tje.ne ma.'na.sas]",
+            "translation": "您有苹果吗？",
+            "note": "学习询问商品是否有货，注意名词性别（manzana为阴性，需用‘la’或‘¿Tiene...?’）。"
+          },
+          {
+            "original": "Deme un kilo de pan, por favor.",
+            "phonetic": "['de.me um 'ki.lo ðe pan por fa.'βoɾ]",
+            "translation": "请给我一公斤面包。",
+            "note": "学习使用量词‘un kilo de’表达重量需求。"
+          },
+          {
+            "original": "¿Cuánto cuesta la leche?",
+            "phonetic": "['kwan.to 'kwes.ta la 'le.tʃe]",
+            "translation": "牛奶多少钱？",
+            "note": "学习询问价格，注意名词性别（leche为阴性，需用‘la’）。"
+          },
+          {
+            "original": "Quiero dos botellas de agua.",
+            "phonetic": "['kje.ɾo ðos βo.'te.ʝas ðe 'a.ɣwa]",
+            "translation": "我想要两瓶水。",
+            "note": "学习使用‘dos’（两个）和‘botella’（瓶子）表达数量。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Compras con cantidades y precios",
+        "translation": "带数量和价格的购物",
+        "examples": [
+          {
+            "original": "¿Cuánto cuesta un kilo de manzanas?",
+            "phonetic": "['kwan.to 'kwes.ta um 'ki.lo ðe ma.'na.sas]",
+            "translation": "一公斤苹果多少钱？",
+            "note": "学习同时询问价格和数量，注意冠词和性别搭配。"
+          },
+          {
+            "original": "Deme medio kilo de queso, por favor.",
+            "phonetic": "['de.me 'me.ðjo 'ki.lo ðe 'ke.so por fa.'βoɾ]",
+            "translation": "请给我半公斤奶酪。",
+            "note": "学习使用‘medio’（半）表达非整数数量。"
+          },
+          {
+            "original": "¿Tiene huevos? Sí, ¿cuántos quiere?",
+            "phonetic": "['tje.ne 'we.βos si 'kwan.tos 'kje.ɾe]",
+            "translation": "您有鸡蛋吗？有，您想要多少？",
+            "note": "学习询问可数商品的数量，注意‘cuántos’（多少，阳性）与名词搭配。"
+          },
+          {
+            "original": "Son cinco euros con cincuenta.",
+            "phonetic": "[son 'θiŋ.ko 'e.u.ɾos kon θiŋ.'kwen.ta]",
+            "translation": "五欧元五十欧分。",
+            "note": "学习表达价格，注意欧元和分的表达方式。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🛒",
+    "phonetic": "",
+    "translations": {
+      "zh": "在超市购物"
+    }
+  },
+  {
+    "id": "zh_A1_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Usar transporte público / 使用公共交通工具",
+    "bridge": "在中文中，我们通常直接说‘坐公交车’、‘坐地铁’或‘打车’，而西班牙语中除了动词‘tomar’（搭乘）外，还常用动词‘coger’（在拉美多用‘tomar’）或‘ir en’（乘坐某种交通工具）。需要注意的是，西班牙语的‘coger’在拉丁美洲多被视为粗俗用词，而在西班牙则较为常用。此外，中文中常用‘几路车’表示路线，但西班牙语中需用‘qué línea’或‘qué número’来询问。",
+    "rule": "1. 动词搭配：\n   - 搭乘公交车：tomar el autobús / coger el autobús（西班牙）\n   - 搭乘地铁：tomar el metro / coger el metro（西班牙）\n   - 搭乘火车：tomar el tren\n   - 乘坐出租车：tomar un taxi / coger un taxi（西班牙）\n   - 骑自行车：ir en bicicleta\n   - 步行：ir a pie\n\n2. 询问路线：\n   - ¿Qué línea de autobús va a...?（哪路公交车去...？）\n   - ¿Dónde está la parada del autobús?（公交车站在哪里？）\n   - ¿Cuánto cuesta el billete?（票多少钱？）\n   - ¿Dónde compro el billete?（在哪里买票？）\n\n3. 方向表达：\n   - ¿Este autobús va a...?（这辆公交车去...吗？）\n   - ¿En qué parada me bajo?（我在哪一站下车？）\n   - ¿Me puede avisar cuando lleguemos a...?（到...时能提醒我吗？）\n\n4. 特殊情况：\n   - 在西班牙，‘coger’一词在拉丁美洲通常被‘tomar’或‘agarrar’替代，以避免误解。\n   - ‘Billete’指车票，‘tarjeta’指交通卡（如‘tarjeta de transporte’）。",
+    "concept_examples": [
+      {
+        "text": "¿Dónde está la parada del autobús número 10?",
+        "translation": "10路公交车站在哪里？",
+        "phonetic": "/do̞n̪.de̞ esˈta la paˈɾaða del au̯toˈβus ˈnumeɾo 10/"
+      },
+      {
+        "text": "¿Cuánto cuesta el billete para el metro?",
+        "translation": "地铁票多少钱？",
+        "phonetic": "/kwanto ˈkwesta el ˈbiʎete paɾa el ˈmetro/"
+      },
+      {
+        "text": "¿Este autobús va a la Plaza Mayor?",
+        "translation": "这辆公交车去主广场吗？",
+        "phonetic": "/ˈeste au̯toˈβus βa a la ˈplasa maˈʝoɾ/"
+      },
+      {
+        "text": "Me bajo en la próxima parada, por favor.",
+        "translation": "请在下一站下车。",
+        "phonetic": "/me ˈxaso en la ˈpɾoksimaparaˈða poɾ faˈβoɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Cuál ruta de autobús va a la estación?",
+      "correct": "¿Qué línea de autobús va a la estación?",
+      "correct_alt": "¿Qué número de autobús va a la estación?",
+      "explanation": "中文中常用‘哪路车’表示路线，但西班牙语中需用‘qué línea’或‘qué número’来询问。直接用‘ruta’（路线）在西班牙语中不常见，且可能引起误解。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Identificar medios de transporte",
+        "translation": "识别交通工具",
+        "examples": [
+          {
+            "original": "¿Qué es esto?",
+            "phonetic": "/kes ˈes ˈesto/",
+            "translation": "这是什么？",
+            "note": "学习常见交通工具名称：autobús, metro, tren, taxi, bicicleta."
+          },
+          {
+            "original": "¿Cómo vas al trabajo?",
+            "phonetic": "/komo βas al traˈβaxo/",
+            "translation": "你怎么去上班？",
+            "note": "练习用‘tomar’或‘ir en’回答。"
+          },
+          {
+            "original": "Voy en metro.",
+            "phonetic": "/boi en ˈmetro/",
+            "translation": "我坐地铁去。",
+            "note": "注意‘en’用于表示乘坐方式。"
+          },
+          {
+            "original": "¿Tienes bicicleta?",
+            "phonetic": "/ˈtjenes βiθiˈkleta/",
+            "translation": "你有自行车吗？",
+            "note": "区分‘bicicleta’（自行车）和‘moto’（摩托车）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntar por direcciones y precios",
+        "translation": "询问方向和价格",
+        "examples": [
+          {
+            "original": "¿Dónde está la parada del autobús?",
+            "phonetic": "/ˈdonde esˈta la paˈɾaða del au̯toˈβus/",
+            "translation": "公交车站在哪里？",
+            "note": "学习‘parada’（站点）和‘estación’（车站）的区别。"
+          },
+          {
+            "original": "¿Cuánto cuesta el billete?",
+            "phonetic": "/ˈkwanto ˈkwesta el ˈbiʎete/",
+            "translation": "票多少钱？",
+            "note": "注意‘billete’和‘ticket’的对应关系。"
+          },
+          {
+            "original": "¿Qué línea de autobús va al centro?",
+            "phonetic": "/ke ˈlinea de au̯toˈβus βa al ˈθentɾo/",
+            "translation": "哪路公交车去市中心？",
+            "note": "‘centro’指市中心，‘estación’指火车站。"
+          },
+          {
+            "original": "¿Dónde compro el billete?",
+            "phonetic": "/ˈdonde ˈkompɾo el ˈbiʎete/",
+            "translation": "在哪里买票？",
+            "note": "练习用‘comprar’（购买）和‘vender’（出售）的对话。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Dar indicaciones y confirmar paradas",
+        "translation": "给出指示和确认站点",
+        "examples": [
+          {
+            "original": "Baje en la próxima parada.",
+            "phonetic": "/ˈbaxe en la ˈpɾoksimaparaˈða/",
+            "translation": "请在下一站下车。",
+            "note": "‘Bajar’表示下车，‘subir’表示上车。"
+          },
+          {
+            "original": "¿Me puede avisar cuando lleguemos a la estación?",
+            "phonetic": "/me ˈpweðe aβiˈsaɾ kwando ʎeˈɣwemos a la estaˈθjon/",
+            "translation": "到站时能提醒我吗？",
+            "note": "练习用‘avisar’（提醒）和‘llegar’（到达）的句型。"
+          },
+          {
+            "original": "¿Este tren va a Madrid?",
+            "phonetic": "/ˈeste tɾen βa a maˈðɾið/",
+            "translation": "这列火车去马德里吗？",
+            "note": "注意‘tren’和‘metro’的区别，‘tren’指长途火车。"
+          },
+          {
+            "original": "No sé dónde bajarme.",
+            "phonetic": "/no se do̞n̪de βaˈxaɾme/",
+            "translation": "我不知道在哪里下车。",
+            "note": "练习用‘no sé’（我不知道）表达不确定。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚍",
+    "phonetic": "",
+    "translations": {
+      "zh": "使用公共交通工具"
+    }
   }
 ]

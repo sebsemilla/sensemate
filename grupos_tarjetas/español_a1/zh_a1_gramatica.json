@@ -406,5 +406,415 @@
     "translations": {
       "zh": "定冠词和不定冠词"
     }
+  },
+  {
+    "id": "zh_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Género y número de los sustantivos / 名词的性和数",
+    "bridge": "在中文中，名词没有性别（阳性/阴性）和数（单数/复数）的变化，例如“书”既可以指单数也可以指复数。但在西班牙语中，名词的性别和数量会影响形容词、冠词甚至动词的形式。例如，中文可以说‘一本书’和‘两本书’，但西班牙语中必须分别说‘un libro’（阳性单数）和‘dos libros’（阳性复数）。此外，西班牙语名词的性别有时与中文直觉相反，如‘la mesa’（桌子，阴性）和‘el problema’（问题，阳性），需要特别记忆。",
+    "rule": "西班牙语名词的性别分为阳性（el）和阴性（la）。大多数以-o结尾的名词为阳性（如el libro, el niño），以-a结尾的为阴性（如la mesa, la niña）。但有例外：以-a结尾的阳性名词（如el problema, el día）和以-o结尾的阴性名词（如la mano, la foto）。名词的数分为单数和复数。单数变复数的规则：1）以元音结尾（a, e, o）加-s（如la casa → las casas）；2）以辅音结尾加-es（如el papel → los papeles）；3）以-z结尾改为-ces（如el lápiz → los lápices）。少数名词有不规则复数形式（如el hombre → los hombres）。形容词和冠词必须与名词的性别和数量保持一致。",
+    "concept_examples": [
+      {
+        "text": "El niño juega con un perro.",
+        "translation": "这个男孩和一只狗玩耍。",
+        "phonetic": "[el ˈniɲo ˈxweɣa kon um ˈpeɾo]"
+      },
+      {
+        "text": "La niña tiene una mochila roja.",
+        "translation": "这个女孩有一个红色的书包。",
+        "phonetic": "[la ˈniɲa ˈtjene una moˈtʃila ˈroxa]"
+      },
+      {
+        "text": "Los libros son interesantes.",
+        "translation": "这些书很有趣。",
+        "phonetic": "[los ˈlibɾos son inteɾeˈsantes]"
+      },
+      {
+        "text": "Las mesas son grandes.",
+        "translation": "这些桌子很大。",
+        "phonetic": "[las ˈmesas son ˈɡɾandes]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo tengo dos libro.",
+      "correct": "Yo tengo dos libros.",
+      "correct_alt": "",
+      "explanation": "中文中‘两本书’的‘书’不需要变化，但西班牙语中名词复数需要加-s或-es。错误原因是忽略了名词复数的变化规则。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Género básico de los sustantivos",
+        "translation": "名词的基本性别",
+        "examples": [
+          {
+            "original": "el libro",
+            "phonetic": "[el ˈliβɾo]",
+            "translation": "这本书（阳性）",
+            "note": "以-o结尾的名词通常为阳性"
+          },
+          {
+            "original": "la mesa",
+            "phonetic": "[la ˈmesa]",
+            "translation": "这张桌子（阴性）",
+            "note": "以-a结尾的名词通常为阴性"
+          },
+          {
+            "original": "el problema",
+            "phonetic": "[el pɾoˈβlema]",
+            "translation": "这个问题（阳性，例外）",
+            "note": "记住以-a结尾的阳性名词"
+          },
+          {
+            "original": "la mano",
+            "phonetic": "[la ˈmano]",
+            "translation": "这只手（阴性，例外）",
+            "note": "记住以-o结尾的阴性名词"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Número singular y plural",
+        "translation": "单数与复数",
+        "examples": [
+          {
+            "original": "el niño",
+            "phonetic": "[el ˈniɲo]",
+            "translation": "这个男孩",
+            "note": "单数阳性名词"
+          },
+          {
+            "original": "los niños",
+            "phonetic": "[los ˈniɲos]",
+            "translation": "这些男孩",
+            "note": "复数阳性名词，加-s"
+          },
+          {
+            "original": "la casa",
+            "phonetic": "[la ˈkasa]",
+            "translation": "这栋房子",
+            "note": "单数阴性名词"
+          },
+          {
+            "original": "las casas",
+            "phonetic": "[las ˈkasas]",
+            "translation": "这些房子",
+            "note": "复数阴性名词，加-s"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Plural irregular y concordancia",
+        "translation": "不规则复数与一致性",
+        "examples": [
+          {
+            "original": "el lápiz",
+            "phonetic": "[el ˈlapis]",
+            "translation": "这支铅笔",
+            "note": "以-z结尾，复数变-ces"
+          },
+          {
+            "original": "los lápices",
+            "phonetic": "[los ˈlapises]",
+            "translation": "这些铅笔",
+            "note": "复数形式"
+          },
+          {
+            "original": "el hombre",
+            "phonetic": "[el ˈombɾe]",
+            "translation": "这个男人",
+            "note": "不规则复数"
+          },
+          {
+            "original": "los hombres",
+            "phonetic": "[los ˈombɾes]",
+            "translation": "这些男人",
+            "note": "复数形式"
+          },
+          {
+            "original": "la foto",
+            "phonetic": "[la ˈfoto]",
+            "translation": "这张照片",
+            "note": "以-o结尾的阴性名词"
+          },
+          {
+            "original": "las fotos",
+            "phonetic": "[las ˈfotos]",
+            "translation": "这些照片",
+            "note": "复数形式"
+          }
+        ]
+      },
+      {
+        "emoji": "📚",
+        "phonetic": "",
+        "translations": {
+          "zh": "名词的性和数"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbos regulares en presente / 规则动词现在时",
+    "bridge": "在中文中，动词在现在时态下通常不需要变位，直接使用动词原形即可（如‘我吃饭’）。但在西班牙语中，动词需要根据主语的人称（yo, tú, él/ella/usted, nosotros, vosotros, ellos/ellas/ustedes）进行变位。这意味着同一个动词在不同主语下会有不同的形式（如‘hablar’变为‘hablo’, ‘hablas’, ‘habla’等）。初学者常忽略这种变位规则，直接套用中文的动词使用方式，导致句子不正确。",
+    "rule": "西班牙语规则动词分为三类：-ar（如hablar）、-er（如comer）、-ir（如vivir）。现在时变位规则如下：\n1. -ar动词：去掉词尾-ar，加上对应人称的词尾：\n   - yo: -o（hablo）\n   - tú: -as（hablas）\n   - él/ella/usted: -a（habla）\n   - nosotros: -amos（hablamos）\n   - vosotros: -áis（habláis）\n   - ellos/ellas/ustedes: -an（hablan）\n2. -er动词：去掉词尾-er，加上对应人称的词尾：\n   - yo: -o（como）\n   - tú: -es（comes）\n   - él/ella/usted: -e（come）\n   - nosotros: -emos（comemos）\n   - vosotros: -éis（coméis）\n   - ellos/ellas/ustedes: -en（comen）\n3. -ir动词：去掉词尾-ir，加上对应人称的词尾：\n   - yo: -o（vivo）\n   - tú: -es（vives）\n   - él/ella/usted: -e（vive）\n   - nosotros: -imos（vivimos）\n   - vosotros: -ís（vivís）\n   - ellos/ellas/ustedes: -en（viven）\n\n注意：\n- 动词变位后，主语代词（yo, tú等）通常可以省略，因为动词变位已经表明主语。\n- 疑问句中，主语代词通常放在动词后（如‘¿Hablas español?’）。\n- 否定句中，在动词前加‘no’（如‘No hablo chino’）。",
+    "concept_examples": [
+      {
+        "text": "Yo hablo español.",
+        "translation": "我说西班牙语。",
+        "phonetic": "[ˈʝo ˈa.βlo es.paˈɲol]"
+      },
+      {
+        "text": "Tú comes pan todos los días.",
+        "translation": "你每天吃面包。",
+        "phonetic": "[tu ˈko.mes pan ˈto.ðos los ˈdi.as]"
+      },
+      {
+        "text": "Nosotros vivimos en Madrid.",
+        "translation": "我们住在马德里。",
+        "phonetic": "[noˈso.tɾos viˈβi.mos en maˈðɾið]"
+      },
+      {
+        "text": "Ellos estudian inglés.",
+        "translation": "他们学习英语。",
+        "phonetic": "[ˈe.ʝos es.tuˈðjan iŋˈɡles]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo hablar español.",
+      "correct": "Yo hablo español.",
+      "correct_alt": "",
+      "explanation": "中文中动词不需要变位，直接说‘我西班牙语’（隐含‘说’动词），但西班牙语中动词必须变位。错误句子中‘hablar’没有变位，正确形式应为‘hablo’。初学者常忽略动词变位，直接使用动词原形，导致句子不完整或错误。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Verbos -ar (hablar, trabajar)",
+        "translation": "-ar动词变位（如hablar, trabajar）",
+        "examples": [
+          {
+            "original": "Yo hablo chino.",
+            "phonetic": "[ˈʝo ˈa.βlo ˈtʃi.no]",
+            "translation": "我说中文。",
+            "note": "强调yo的变位形式‘-o’"
+          },
+          {
+            "original": "Tú trabajas en una escuela.",
+            "phonetic": "[tu tɾaˈβa.xas en ˈu.na esˈkwe.la]",
+            "translation": "你在一所学校工作。",
+            "note": "强调tú的变位形式‘-as’"
+          },
+          {
+            "original": "Él habla inglés.",
+            "phonetic": "[ˈel ˈa.βla iŋˈɡles]",
+            "translation": "他说英语。",
+            "note": "强调él的变位形式‘-a’"
+          },
+          {
+            "original": "Nosotros hablamos español.",
+            "phonetic": "[noˈso.tɾos aˈβla.mos es.paˈɲol]",
+            "translation": "我们说西班牙语。",
+            "note": "强调nosotros的变位形式‘-amos’"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Verbos -er (comer, beber)",
+        "translation": "-er动词变位（如comer, beber）",
+        "examples": [
+          {
+            "original": "Yo como arroz todos los días.",
+            "phonetic": "[ˈʝo ˈko.mo aˈros ˈto.ðos los ˈdi.as]",
+            "translation": "我每天吃米饭。",
+            "note": "强调yo的变位形式‘-o’"
+          },
+          {
+            "original": "Tú bebes agua.",
+            "phonetic": "[tu ˈbe.bes ˈa.ɣwa]",
+            "translation": "你喝水。",
+            "note": "强调tú的变位形式‘-es’"
+          },
+          {
+            "original": "Ella come fruta.",
+            "phonetic": "[ˈe.ʝa ˈko.me ˈfɾu.ta]",
+            "translation": "她吃水果。",
+            "note": "强调ella的变位形式‘-e’"
+          },
+          {
+            "original": "Nosotros bebemos café.",
+            "phonetic": "[noˈso.tɾos beˈbe.mos kaˈfe]",
+            "translation": "我们喝咖啡。",
+            "note": "强调nosotros的变位形式‘-emos’"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Verbos -ir (vivir, escribir)",
+        "translation": "-ir动词变位（如vivir, escribir）",
+        "examples": [
+          {
+            "original": "Yo vivo en Pekín.",
+            "phonetic": "[ˈʝo ˈbi.βo en peˈkin]",
+            "translation": "我住在北京。",
+            "note": "强调yo的变位形式‘-o’"
+          },
+          {
+            "original": "Tú vives en Shanghai.",
+            "phonetic": "[tu ˈbi.bes en ˈʃaŋ.ˈhai]",
+            "translation": "你住在上海。",
+            "note": "强调tú的变位形式‘-es’"
+          },
+          {
+            "original": "Usted escribe un correo.",
+            "phonetic": "[usˈteð esˈkɾi.βe un koˈre.o]",
+            "translation": "您写一封邮件。",
+            "note": "强调usted的变位形式‘-e’"
+          },
+          {
+            "original": "Nosotros escribimos cartas.",
+            "phonetic": "[noˈso.tɾos es.kɾiˈβi.mos ˈkaɾ.tas]",
+            "translation": "我们写信。",
+            "note": "强调nosotros的变位形式‘-imos’"
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "zh": "规则动词现在时"
+    }
+  },
+  {
+    "id": "zh_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Negación básica / 基础否定",
+    "bridge": "在中文中，否定句通常通过在动词前加‘不’（如‘我不吃’）或使用‘没有’（如‘我没有吃’）来构成。而在西班牙语中，否定句的核心是将‘no’放在动词前，且整个句子通常以‘no’结尾。这与中文的否定结构不同，中文否定词位置更灵活。初学者常会忽略西班牙语否定词的位置，或错误地将中文否定结构直接套用到西班牙语中。",
+    "rule": "西班牙语的基本否定句结构为：主语 + no + 动词 + 其他成分。具体规则如下：\n1. 否定词‘no’必须放在动词前，且通常位于句首动词之后。\n2. 如果句子有助动词（如‘tener que’、‘querer’等），‘no’放在助动词前：主语 + no + 动词（助动词） + 动词原形 + 其他成分。\n3. 疑问句的否定形式：疑问词 + no + 动词 + 其他成分（如‘¿No comes?’）。\n4. 否定句中，其他否定词（如‘nada’‘nadie’‘ninguno’）通常与‘no’连用：主语 + no + 动词 + 其他否定词（如‘No como nada’）。\n5. 否定句中，形容词或副词的否定形式通常用‘no’ + 形容词/副词（如‘no es fácil’）。",
+    "concept_examples": [
+      {
+        "text": "No como carne.",
+        "translation": "我不吃肉。",
+        "phonetic": "/no ˈko.mo ˈkaɾ.ne/"
+      },
+      {
+        "text": "No tengo tiempo.",
+        "translation": "我没有时间。",
+        "phonetic": "/no ˈteŋ.go ˈtjem.po/"
+      },
+      {
+        "text": "No quiero agua.",
+        "translation": "我不想要水。",
+        "phonetic": "/no ˈkje.ɾo ˈa.ɣwa/"
+      },
+      {
+        "text": "¿No hablas chino?",
+        "translation": "你不会说中文吗？",
+        "phonetic": "/no ˈa.βlas ˈtʃi.no/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo no como carne no.",
+      "correct": "No como carne.",
+      "correct_alt": "",
+      "explanation": "中文中否定句可以在句末加‘不’或‘没有’来强调否定（如‘我不吃肉不’），但西班牙语否定句中‘no’只能出现一次，且必须放在动词前。多余的‘no’会导致句子不自然或错误。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Negación con verbos simples",
+        "translation": "简单动词的否定",
+        "examples": [
+          {
+            "original": "No como pan.",
+            "phonetic": "/no ˈko.mo pan/",
+            "translation": "我不吃面包。",
+            "note": "强调‘no’的位置在动词前，句子结构为主语 + no + 动词。"
+          },
+          {
+            "original": "No bebo café.",
+            "phonetic": "/no ˈbe.βo kaˈfe/",
+            "translation": "我不喝咖啡。",
+            "note": "动词‘beber’的否定形式，注意动词变位。"
+          },
+          {
+            "original": "No trabajo los domingos.",
+            "phonetic": "/no traˈβa.xo los doˈmin.ɡos/",
+            "translation": "我周日不工作。",
+            "note": "时间状语放在句末，否定词仍在动词前。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negación con verbos modales",
+        "translation": "情态动词的否定",
+        "examples": [
+          {
+            "original": "No quiero ir.",
+            "phonetic": "/no ˈkje.ɾo iɾ/",
+            "translation": "我不想去。",
+            "note": "‘querer’是情态动词，‘no’放在‘quiero’前。"
+          },
+          {
+            "original": "No tengo que estudiar.",
+            "phonetic": "/no ˈteŋ.go ke es.tuˈðjaɾ/",
+            "translation": "我不用学习。",
+            "note": "‘tener que’结构中，‘no’放在‘tengo’前。"
+          },
+          {
+            "original": "No puedo hablar español.",
+            "phonetic": "/no ˈpweðo aˈβlaɾ es.paˈɲol/",
+            "translation": "我不会说西班牙语。",
+            "note": "‘poder’是情态动词，‘no’放在‘puedo’前。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negación con otros elementos",
+        "translation": "其他成分的否定",
+        "examples": [
+          {
+            "original": "No como nada.",
+            "phonetic": "/no ˈko.mo ˈna.ða/",
+            "translation": "我什么都不吃。",
+            "note": "‘nada’是否定代词，‘no’与之连用。"
+          },
+          {
+            "original": "No veo a nadie.",
+            "phonetic": "/no ˈβe.o a ˈnað.ðe/",
+            "translation": "我谁都没看到。",
+            "note": "‘nadie’是否定代词，‘no’与之连用。"
+          },
+          {
+            "original": "No es fácil.",
+            "phonetic": "/no es ˈfa.sil/",
+            "translation": "这不容易。",
+            "note": "形容词否定形式，‘no’放在动词前。"
+          },
+          {
+            "original": "No hablo chino tampoco.",
+            "phonetic": "/no ˈa.βlo ˈtʃi.no tamˈpo.ko/",
+            "translation": "我也不会说中文。",
+            "note": "‘tampoco’是副词，‘no’与之连用。"
+          }
+        ]
+      }
+    ],
+    "emoji": "❌",
+    "phonetic": "",
+    "translations": {
+      "zh": "基础否定"
+    }
   }
 ]

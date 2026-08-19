@@ -1,0 +1,404 @@
+[
+  {
+    "id": "ru_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En el médico / У врача",
+    "bridge": "В русском языке для выражения боли часто используются конструкции с 'у меня болит' (например, 'У меня болит голова'), тогда как в испанском аналогичная фраза строится с помощью глагола 'tener' ('Tengo dolor de cabeza'). Важный нюанс: в испанском при описании симптомов часто используется конструкция 'Me duele(n)' (дословно 'Мне болит/болят'), что может вызвать путаницу, так как в русском аналогичная структура отсутствует. Также обратите внимание на артикли: в испанском перед частями тела часто ставится определённый артикль ('el', 'la'), тогда как в русском его аналог ('голова', 'рука') используется без артикля.",
+    "rule": "Для выражения боли или недомогания в испанском языке используются следующие конструкции:\n1. 'Me duele(n) + часть тела' — для выражения боли в одной или нескольких частях тела. Глагол 'doler' спрягается как 'gustar':\n   - me duele (singular) / me duelen (plural)\n   - te duele / te duelen\n   - le duele / le duelen\n   - nos duele / nos duelen\n   - os duele / os duelen\n   - les duele / les duelen\n   Примеры: 'Me duele la cabeza' (У меня болит голова), 'Me duelen los pies' (У меня болят ноги).\n\n2. 'Tengo dolor de + часть тела' — для выражения боли в определённой части тела. Используется с существительным 'dolor' (боль) и предлогом 'de'.\n   Примеры: 'Tengo dolor de garganta' (У меня болит горло), 'Tengo dolor de estómago' (У меня болит живот).\n\n3. 'Estoy + прилагательное' — для описания общего состояния здоровья.\n   Примеры: 'Estoy mareado/a' (У меня кружится голова), 'Estoy resfriado/a' (Я простужен/а).\n\nИсключения и особенности:\n- При использовании 'Me duele(n)' перед частью тела ставится определённый артикль ('el', 'la', 'los', 'las').\n- В конструкции 'Tengo dolor de...' артикль не ставится.\n- Глагол 'doler' всегда согласуется с числом частей тела, а не с говорящим (например, 'Me duele la cabeza', но 'Me duelen los ojos').",
+    "concept_examples": [
+      {
+        "text": "Me duele mucho la cabeza.",
+        "translation": "У меня очень болит голова.",
+        "phonetic": "[me ˈðwe.le ˈmu.tʃo la kaˈβe.θa]"
+      },
+      {
+        "text": "Tengo dolor de estómago desde ayer.",
+        "translation": "У меня болит живот со вчерашнего дня.",
+        "phonetic": "[ˈteŋ.go doˈloɾ ðe esˈto.ma.ɣo ðeˈðe aˈʝeɾ]"
+      },
+      {
+        "text": "¿Le duelen los brazos después del entrenamiento?",
+        "translation": "У вас болят руки после тренировки?",
+        "phonetic": "[le ˈðwe.len los ˈbɾa.θos deˈpwes del en.tɾe.naˈmjen.to]"
+      },
+      {
+        "text": "Estoy un poco mareado y tengo fiebre.",
+        "translation": "У меня немного кружится голова, и у меня температура.",
+        "phonetic": "[esˈtoi um ˈpo.ko ma.ɾeˈa.ðo i ˈteŋ.go ˈfje.bɾe]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Tengo dolor en la cabeza.",
+      "correct": "Me duele la cabeza / Tengo dolor de cabeza.",
+      "correct_alt": "",
+      "explanation": "В русском языке часто говорят 'У меня болит голова' (дословно 'У меня боль в голове'), что приводит к ошибке 'Tengo dolor en la cabeza'. Однако в испанском правильно использовать либо 'Me duele la cabeza' (с глаголом 'doler'), либо 'Tengo dolor de cabeza' (с существительным 'dolor'). Конструкция 'Tengo dolor en la cabeza' не является грамматически правильной в испанском языке, так как предлог 'en' здесь не используется."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Describir síntomas básicos",
+        "translation": "Описание основных симптомов",
+        "examples": [
+          {
+            "original": "Me duele la garganta.",
+            "phonetic": "[me ˈðwe.le la ɣɾaŋˈta]",
+            "translation": "У меня болит горло.",
+            "note": "Используйте 'Me duele(n)' для описания боли в одной части тела. Обратите внимание на артикль 'la' перед 'garganta'."
+          },
+          {
+            "original": "Tengo tos y fiebre.",
+            "phonetic": "[ˈteŋ.go tos i ˈfje.bɾe]",
+            "translation": "У меня кашель и температура.",
+            "note": "Для описания симптомов используйте глагол 'tener' с существительными 'tos' (кашель), 'fiebre' (температура), 'resfriado' (простуда)."
+          },
+          {
+            "original": "¿Le duele la espalda?",
+            "phonetic": "[le ˈðwe.le la esˈpal.da]",
+            "translation": "У вас болит спина?",
+            "note": "Вопросительная форма '¿Le duele...?' используется для вежливого обращения к собеседнику."
+          },
+          {
+            "original": "Me duelen los oídos.",
+            "phonetic": "[me ˈðwe.len los oˈi.ðos]",
+            "translation": "У меня болят уши.",
+            "note": "Используйте 'Me duelen' для множественного числа частей тела. Обратите внимание на артикль 'los'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hablar sobre el dolor y la duración",
+        "translation": "Разговор о боли и её продолжительности",
+        "examples": [
+          {
+            "original": "Me duele la cabeza desde esta mañana.",
+            "phonetic": "[me ˈðwe.le la kaˈβe.θa ðeˈðe es.ta maˈɲa.na]",
+            "translation": "У меня болит голова с этого утра.",
+            "note": "Для указания продолжительности используйте 'desde' (с) + время. Обратите внимание на порядок слов."
+          },
+          {
+            "original": "Tengo dolor de muelas desde hace dos días.",
+            "phonetic": "[ˈteŋ.go doˈloɾ ðe ˈmwe.las ðeˈðe aθ ðos ˈdi.as]",
+            "translation": "У меня болят зубы уже два дня.",
+            "note": "Конструкция 'desde hace' используется для указания продолжительности времени. 'Muelas' — множественное число от 'muela' (зуб)."
+          },
+          {
+            "original": "¿Cuánto tiempo lleva con este dolor?",
+            "phonetic": "[ˈkwan.to ˈtjem.po ˈʝe.βa kon ˈes.te doˈloɾ]",
+            "translation": "Как долго у вас эта боль?",
+            "note": "Вопросительная конструкция '¿Cuánto tiempo lleva...?' используется для выяснения продолжительности симптомов."
+          },
+          {
+            "original": "Me duelen las piernas después de correr.",
+            "phonetic": "[me ˈðwe.len las ˈpjeɾ.nas deˈpwes ðe koˈreɾ]",
+            "translation": "У меня болят ноги после бега.",
+            "note": "Для указания причины используйте 'después de' (после) + глагол в инфинитиве."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Pedir cita y dar recomendaciones",
+        "translation": "Записаться на приём и давать рекомендации",
+        "examples": [
+          {
+            "original": "Necesito una cita con el médico, por favor.",
+            "phonetic": "[neˈθe.si.to ˈu.na ˈθi.ta kon el ˈme.ði.ko por faˈβoɾ]",
+            "translation": "Мне нужно записаться на приём к врачу, пожалуйста.",
+            "note": "Для записи на приём используйте 'Necesito una cita con...'. 'Por favor' добавляется для вежливости."
+          },
+          {
+            "original": "El médico le recomienda descansar y tomar mucho agua.",
+            "phonetic": "[el ˈme.ði.ko le re.koˈmjen.da ðes.kanˈsaɾ i toˈmaɾ ˈmu.tʃo ˈa.ɣwa]",
+            "translation": "Врач рекомендует вам отдыхать и пить много воды.",
+            "note": "Для выражения рекомендаций используйте 'recomendar' в форме 'le recomienda' (вежливая форма)."
+          },
+          {
+            "original": "¿Puede recetarme algo para el dolor?",
+            "phonetic": "[ˈpwe.ðe rekˈseɾ.me ˈal.ɣo pa.ɾa el doˈloɾ]",
+            "translation": "Можете выписать мне что-нибудь от боли?",
+            "note": "Для вежливого обращения используйте '¿Puede...?' с инфинитивом глагола."
+          },
+          {
+            "original": "Debe tomar estas pastillas tres veces al día.",
+            "phonetic": "[ˈde.βe toˈmaɾ ˈes.tas pasˈti.ʎas tɾes ˈβe.θes al ˈdi.a]",
+            "translation": "Вы должны принимать эти таблетки три раза в день.",
+            "note": "Для выражения обязанности используйте 'deber' + инфинитив. 'Tres veces al día' — стандартная фраза для указания частоты приёма лекарств."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏥",
+    "phonetic": "",
+    "translations": {
+      "ru": "У врача"
+    }
+  },
+  {
+    "id": "ru_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Cómo reservar alojamiento / Как забронировать жильё",
+    "bridge": "В русском языке для бронирования жилья часто используются конструкции с глаголом «забронировать» или «снять», а также предлоги «на» (для временных периодов) и «в» (для конкретных мест). В испанском же, особенно на уровне A2, ключевую роль играют глаголы «querer» (хотеть), «necesitar» (нуждаться) и «buscar» (искать), а также конструкция «Me gustaría...» (Мне бы хотелось...). Важно помнить, что в испанском часто опускаются артикли перед существительными в разговорной речи, например, «habitación doble» вместо «una habitación doble». Также, в отличие от русского, где часто используется будущее время («Я забронирую»), в испанском на A2 чаще звучат формы настоящего времени с контекстом («Quiero reservar...»).",
+    "rule": "Для бронирования жилья на уровне A2 используются следующие конструкции и формы:\n\n1. **Глаголы и конструкции:**\n   - **Querer + infinitivo** (хотеть что-то сделать): «Quiero reservar una habitación.»\n   - **Necesitar + sustantivo** (нуждаться в чём-то): «Necesito una habitación con baño privado.»\n   - **Buscar + sustantivo** (искать что-то): «Busco un hotel cerca del centro.»\n   - **Me gustaría + infinitivo** (мне бы хотелось): «Me gustaría una habitación con vistas al mar.»\n   - **Tener + sustantivo** (иметь что-то): «¿Tienen habitaciones libres?»\n\n2. **Вопросы для уточнения:**\n   - «¿Cuánto cuesta por noche?» (Сколько стоит за ночь?)\n   - «¿Incluye desayuno?» (Включён ли завтрак?)\n   - «¿Hay Wi-Fi?» (Есть ли Wi-Fi?)\n   - «¿A qué hora es el check-in/check-out?» (Во сколько заселение/выселение?)\n\n3. **Исключения и особенности:**\n   - В разговорной речи артикли часто опускаются: «habitación doble» вместо «una habitación doble».\n   - Для вежливости используются формы с «por favor»: «¿Me puede dar más información, por favor?»\n   - В ответах часто используются краткие формы: «Sí, tenemos.» (Да, у нас есть.) или «No, no tenemos.» (Нет, у нас нет.)\n\n4. **Числительные для указания количества ночей:**\n   - «Dos noches» (две ночи), «tres noches» (три ночи) и т.д. Используются без предлогов.",
+    "concept_examples": [
+      {
+        "text": "Hola, quiero reservar una habitación doble para dos noches.",
+        "translation": "Привет, я хочу забронировать двухместный номер на две ночи.",
+        "phonetic": "/ˈola ˈkjeɾo re.seɾˈβaɾ u.na aˈβi.taˈsjon ˈdo.βle paɾa ˈdos ˈno.tʃes/"
+      },
+      {
+        "text": "¿Tienen habitaciones con baño privado?",
+        "translation": "У вас есть номера с личной ванной?",
+        "phonetic": "/ˈtje.nen a.βi.taˈsjo.nes kon ˈbaɲo pɾiˈβa.ðo/"
+      },
+      {
+        "text": "Me gustaría una habitación con vistas al mar.",
+        "translation": "Мне бы хотелось номер с видом на море.",
+        "phonetic": "/me ɣus.taˈɾi.a u.na a.βi.taˈsjon kon ˈβis.tas al maɾ/"
+      },
+      {
+        "text": "¿Cuánto cuesta por noche con desayuno incluido?",
+        "translation": "Сколько стоит за ночь с включённым завтраком?",
+        "phonetic": "/ˈkwan.to ˈkwes.ta poɾ ˈno.tʃe kon de.saˈjun in.kloˈi.ðo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero reservar habitación doble para dos noches.",
+      "correct": "Quiero reservar una habitación doble para dos noches.",
+      "correct_alt": "Yo quiero reservar una habitación doble para dos noches.",
+      "explanation": "В русском языке часто опускаются артикли, но в испанском на уровне A2 они обязательны в большинстве случаев. Ошибка возникает из-за прямого переноса русской конструкции «Я хочу забронировать номер» без артикля. В испанском нужно добавить артикль «una» перед «habitación», так как это неопределённый артикль женского рода единственного числа. Форма «Yo quiero» возможна, но менее естественна в разговорной речи, где часто опускается подлежащее."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar por disponibilidad",
+        "translation": "Спросить о наличии свободных номеров",
+        "examples": [
+          {
+            "original": "¿Tienen habitaciones libres?",
+            "phonetic": "/ˈtje.nen a.βi.taˈsjo.nes ˈli.βɾes/",
+            "translation": "У вас есть свободные номера?",
+            "note": "Базовый вопрос для проверки наличия свободных номеров. Используется форма множественного числа «habitaciones»."
+          },
+          {
+            "original": "¿Hay habitaciones para dos personas?",
+            "phonetic": "/ai a.βi.taˈsjo.nes paɾa ˈdos peɾˈso.nas/",
+            "translation": "Есть номера для двух человек?",
+            "note": "Вопрос о количестве мест в номере. Обратите внимание на произношение «hay» как /ai/."
+          },
+          {
+            "original": "¿Cuántas habitaciones tienen?",
+            "phonetic": "/ˈkwan.tas a.βi.taˈsjo.nes ˈtje.nen/",
+            "translation": "Сколько номеров у вас есть?",
+            "note": "Вопрос о количестве свободных номеров. Используется вопросительное слово «cuántas»."
+          },
+          {
+            "original": "¿Hay Wi-Fi en la habitación?",
+            "phonetic": "/ai wi.fi en la a.βi.taˈsjon/",
+            "translation": "В номере есть Wi-Fi?",
+            "note": "Вопрос о наличии удобств. Обратите внимание на предлог «en»."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Solicitar detalles del alojamiento",
+        "translation": "Уточнить детали проживания",
+        "examples": [
+          {
+            "original": "¿Incluye desayuno?",
+            "phonetic": "/inˈklu.je de.saˈjun/",
+            "translation": "Завтрак включён?",
+            "note": "Краткий вопрос о включённом сервисе. Используется форма глагола «incluir» в третьем лице единственного числа."
+          },
+          {
+            "original": "¿Cuánto cuesta por noche?",
+            "phonetic": "/ˈkwan.to ˈkwes.ta poɾ ˈno.tʃe/",
+            "translation": "Сколько стоит за ночь?",
+            "note": "Вопрос о стоимости. Обратите внимание на предлог «por»."
+          },
+          {
+            "original": "¿Hay aire acondicionado?",
+            "phonetic": "/ai ˈai.ɾe a.kon.di.sjoˈna.ðo/",
+            "translation": "Есть кондиционер?",
+            "note": "Вопрос о наличии удобств. Слово «aire acondicionado» мужского рода."
+          },
+          {
+            "original": "¿A qué hora es el check-in?",
+            "phonetic": "/a ke ˈo.ɾa es el tʃek in/",
+            "translation": "Во сколько заселение?",
+            "note": "Вопрос о времени заселения. Используется конструкция «a qué hora». Заимствованное слово «check-in» произносится как /tʃek in/."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Hacer una reserva",
+        "translation": "Сделать бронирование",
+        "examples": [
+          {
+            "original": "Quiero reservar una habitación individual para tres noches.",
+            "phonetic": "/ˈkje.ɾo re.seɾˈβaɾ u.na a.βi.taˈsjon in.di.βiˈðwal paɾa ˈtɾes ˈno.tʃes/",
+            "translation": "Я хочу забронировать одноместный номер на три ночи.",
+            "note": "Используется глагол «reservar» с артиклем «una» и существительным «habitación individual»."
+          },
+          {
+            "original": "Me gustaría una habitación con vistas al mar, por favor.",
+            "phonetic": "/me ɣus.taˈɾi.a u.na a.βi.taˈsjon kon ˈβis.tas al maɾ poɾ faˈβoɾ/",
+            "translation": "Мне бы хотелось номер с видом на море, пожалуйста.",
+            "note": "Используется конструкция «Me gustaría» для вежливого запроса."
+          },
+          {
+            "original": "¿Puede confirmar la reserva, por favor?",
+            "phonetic": "/ˈpwe.ðe kon.firˈmaɾ la reˈseɾ.βa poɾ faˈβoɾ/",
+            "translation": "Вы можете подтвердить бронирование, пожалуйста?",
+            "note": "Используется форма вежливого вопроса с «puede» и «por favor»."
+          },
+          {
+            "original": "¿Necesito pagar un depósito?",
+            "phonetic": "/neˈθe.si.to paˈɣaɾ un deˈpo.si.to/",
+            "translation": "Нужно ли мне платить задаток?",
+            "note": "Вопрос о дополнительных платежах. Используется глагол «necesitar» с инфинитивом."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "ru": "Бронирование жилья"
+    }
+  },
+  {
+    "id": "ru_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En el banco o cambio de moneda / В банке или обмене валюты",
+    "bridge": "В русском языке при обращении в банке часто используются глаголы «снять» (деньги) или «обменять» (валюту) с прямым дополнением, например: «Я хочу снять деньги» или «Обменяйте мне доллары». В испанском языке структура принципиально другая: для снятия денег используется глагол «retirar» с предлогом «de» (retirar dinero de la cuenta), а для обмена — «cambiar» с предлогом «por» (cambiar dólares por euros). Русские говорящие часто забывают о предлогах и используют конструкции типа «Quiero sacar euros», что звучит неестественно для носителей испанского. Также в испанском языке при обмене валюты часто используется конструкция «¿Me puede cambiar...?», что требует особого внимания к порядку слов и предлогам.",
+    "rule": "1. Для снятия денег со счёта используется конструкция: [querer/necesitar] + retirar + dinero + de + la cuenta. Например: «Necesito retirar 200 euros de mi cuenta». Важно помнить, что глагол «retirar» требует предлога «de».\n\n2. Для обмена валюты используется конструкция: [querer/necesitar] + cambiar + [сумма] + [валюта1] + por + [валюта2]. Например: «Quiero cambiar 100 dólares por euros». Глагол «cambiar» требует предлога «por» для указания валюты, на которую обмениваете.\n\n3. При обращении к сотруднику банка часто используется вежливая форма: ¿Me puede + [глагол] + ...? Например: «¿Me puede cambiar estos euros por dólares?» или «¿Me puede decir el tipo de cambio?».\n\n4. Для уточнения деталей используйте вопросительные слова: ¿Cuánto es el tipo de cambio? ¿Hay comisión? ¿Cuál es el límite diario?\n\n5. Исключения: В разговорной речи допустимо использовать глагол «sacar» вместо «retirar» (например, «Quiero sacar dinero»), но в официальном контексте лучше использовать «retirar».",
+    "concept_examples": [
+      {
+        "text": "Buenos días, necesito retirar 300 euros de mi cuenta corriente.",
+        "translation": "Добрый день, мне нужно снять 300 евро с моего текущего счёта.",
+        "phonetic": "/ˈbwe.nos ˈdi.as ne.θeˈsi.to re.tiˈɾaɾ ˈtɾes ˈθjen.tos ˈeu.ɾos de mi ˈkwen.ta koˈrjen.te/"
+      },
+      {
+        "text": "¿Me puede cambiar 50 dólares por euros, por favor?",
+        "translation": "Вы можете обменять мне 50 долларов на евро, пожалуйста?",
+        "phonetic": "/me ˈpwe.de kam.biˈaɾ ˈθin.kwen.ta ˈdo.la.ɾes por ˈeu.ɾos por faˈβoɾ/"
+      },
+      {
+        "text": "¿Cuál es el tipo de cambio hoy?",
+        "translation": "Какой сегодня курс обмена?",
+        "phonetic": "/ˈkwal es el ˈti.po de ˈkam.bjo ˈoɾ/"
+      },
+      {
+        "text": "Necesito saber si hay comisión por cambiar dinero.",
+        "translation": "Мне нужно узнать, есть ли комиссия за обмен денег.",
+        "phonetic": "/ne.θeˈsi.to saˈβeɾ si aɪ komiˈsjon por kamˈbjaɾ diˈne.ɾo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero sacar 100 euros de mi cuenta.",
+      "correct": "Necesito retirar 100 euros de mi cuenta.",
+      "correct_alt": "Quiero retirar 100 euros de mi cuenta.",
+      "explanation": "В русском языке часто говорят «снять деньги» с использованием глагола «sacar», что приводит к ошибке «Quiero sacar euros». В испанском языке для официального контекста (банк) правильнее использовать глагол «retirar» с предлогом «de». В разговорной речи допустимо «sacar», но в банке лучше использовать «retirar». Также важно помнить, что «sacar» в испанском может означать «вытаскивать» (например, из сумки), поэтому в банковском контексте «retirar» звучит более естественно."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frases básicas para retirar dinero",
+        "translation": "Основные фразы для снятия денег",
+        "examples": [
+          {
+            "original": "Buenos días, necesito retirar dinero de mi cuenta.",
+            "phonetic": "/ˈbwe.nos ˈdi.as ne.θeˈsi.to re.tiˈɾaɾ diˈne.ɾo de mi ˈkwen.ta/",
+            "translation": "Добрый день, мне нужно снять деньги с моего счёта.",
+            "note": "Базовая фраза для начала разговора в банке. Используйте «necesito» для вежливого обращения."
+          },
+          {
+            "original": "¿Puede ayudarme a retirar dinero?",
+            "phonetic": "/ˈpwe.de aˈjuðarme a re.tiˈɾaɾ diˈne.ɾo/",
+            "translation": "Вы можете помочь мне снять деньги?",
+            "note": "Вежливая форма с использованием «puede» + инфинитив. Обратите внимание на порядок слов."
+          },
+          {
+            "original": "Quiero retirar 200 euros, por favor.",
+            "phonetic": "/ˈkie.ɾo re.tiˈɾaɾ ˈdo.sjen.tos ˈeu.ɾos por faˈβoɾ/",
+            "translation": "Я хочу снять 200 евро, пожалуйста.",
+            "note": "Используйте «quiero» для выражения личного желания. Предлог «por favor» делает просьбу вежливой."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntar por el tipo de cambio y comisiones",
+        "translation": "Спросить о курсе обмена и комиссиях",
+        "examples": [
+          {
+            "original": "¿Cuál es el tipo de cambio hoy?",
+            "phonetic": "/ˈkwal es el ˈti.po de ˈkam.bjo ˈoɾ/",
+            "translation": "Какой сегодня курс обмена?",
+            "note": "Используйте «cuál es» для вопроса о конкретной информации. «Tipo de cambio» — устойчивое выражение."
+          },
+          {
+            "original": "¿Hay comisión por cambiar dólares a euros?",
+            "phonetic": "/ai komiˈsjon por kamˈbjaɾ ˈdo.la.ɾes a ˈeu.ɾos/",
+            "translation": "Есть ли комиссия за обмен долларов на евро?",
+            "note": "Вопрос с «hay» используется для проверки наличия услуги или комиссии. Обратите внимание на порядок слов."
+          },
+          {
+            "original": "¿Me puede decir el tipo de cambio actual?",
+            "phonetic": "/me ˈpwe.de deˈθiɾ el ˈti.po de ˈkam.bjo akˈtwal/",
+            "translation": "Вы можете сказать мне текущий курс обмена?",
+            "note": "Используйте «puede decir» для вежливой просьбы предоставить информацию."
+          },
+          {
+            "original": "¿Cuánto es la comisión mínima?",
+            "phonetic": "/ˈkwan.to es la komiˈsjon miˈni.ma/",
+            "translation": "Какова минимальная комиссия?",
+            "note": "Вопрос с «cuánto es» используется для уточнения суммы. «Comisión mínima» — стандартное выражение."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Realizar operaciones de cambio de moneda",
+        "translation": "Выполнение операций по обмену валюты",
+        "examples": [
+          {
+            "original": "¿Me puede cambiar 150 dólares por euros, por favor?",
+            "phonetic": "/me ˈpwe.de kam.biˈaɾ ˈθen.to ˈdo.la.ɾes por ˈeu.ɾos por faˈβoɾ/",
+            "translation": "Вы можете обменять мне 150 долларов на евро, пожалуйста?",
+            "note": "Используйте «puede cambiar» для вежливой просьбы об обмене. Обратите внимание на порядок слов и предлоги."
+          },
+          {
+            "original": "Necesito cambiar estos 200 euros por dólares estadounidenses.",
+            "phonetic": "/ne.θeˈsi.to kamˈbjaɾ ˈes.tos ˈdo.sjen.tos ˈeu.ɾos por ˈdo.la.ɾes us.tau.niˈden.ses/",
+            "translation": "Мне нужно обменять эти 200 евро на доллары США.",
+            "note": "Используйте «necesito» для выражения необходимости. «Estos» указывает на конкретные деньги."
+          },
+          {
+            "original": "¿Me da el recibo, por favor?",
+            "phonetic": "/me ða el reˈθi.βo por faˈβoɾ/",
+            "translation": "Вы дадите мне чек, пожалуйста?",
+            "note": "Используйте «me da» для вежливой просьбы предоставить документ. «Recibo» — стандартное слово для чека."
+          },
+          {
+            "original": "¿Puedo cambiar estos billetes por monedas?",
+            "phonetic": "/ˈpwe.ðo kamˈbjaɾ ˈes.tos biˈʎe.tes por moˈne.ðas/",
+            "translation": "Могу ли я обменять эти купюры на монеты?",
+            "note": "Вопрос с «puedo» используется для проверки возможности выполнения действия. «Billetes» — купюры, «monedas» — монеты."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏦",
+    "phonetic": "",
+    "translations": {
+      "ru": "В банке или обмене валюты"
+    }
+  }
+]

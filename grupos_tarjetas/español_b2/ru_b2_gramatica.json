@@ -1,0 +1,374 @@
+[
+  {
+    "id": "ru_B2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Condicionales mixtos / Смешанные условные предложения",
+    "bridge": "В русском языке нет явного разделения на смешанные условные предложения, так как мы используем общую структуру с частицей «бы» в обеих частях. В испанском же смешанные условные предложения делятся на два типа: когда условие относится к прошлому, а результат — к настоящему (Tipo 3+2), и наоборот (Tipo 2+3). Важно не путать их с русскими аналогами, где время и модальность выражаются проще. Ошибки часто возникают из-за неправильного согласования времён в придаточном и главном предложениях.",
+    "rule": "В испанском языке смешанные условные предложения бывают двух типов:\n\n1. **Tipo 3+2 (условие в прошедшем времени, результат в настоящем):**\n   - Придаточное предложение (условие): Pretérito Pluscuamperfecto de Subjuntivo (hubiera/hubiese + participio).\n   - Главное предложение: Condicional Simple (ía/ía).\n   - Пример: *Si hubiera estudiado más, ahora tendría un mejor trabajo.*\n   - Значение: Условие относится к прошлому (не учил), а результат — к настоящему (сейчас нет хорошей работы).\n\n2. **Tipo 2+3 (условие в настоящем, результат в прошедшем):**\n   - Придаточное предложение (условие): Pretérito Imperfecto de Subjuntivo (ara/ase или iera/iese).\n   - Главное предложение: Condicional Compuesto (habría + participio).\n   - Пример: *Si tuviera dinero, habría comprado ese coche.*\n   - Значение: Условие относится к настоящему (нет денег), а результат — к прошлому (не купил машину).\n\nИсключения и особенности:\n- В обоих типах предложений порядок частей можно менять (главное и придаточное), но смысл сохраняется.\n- В разговорной речи часто используют Pretérito Imperfecto de Subjuntivo вместо Pluscuamperfecto: *Si estudiara más, ahora tendría un mejor trabajo.*\n- После «como si» всегда используется Imperfecto de Subjuntivo: *Habla como si supiera la verdad.*",
+    "concept_examples": [
+      {
+        "text": "Si hubiera sabido la respuesta, te la habría dicho inmediatamente.",
+        "translation": "Если бы я знал ответ, я бы сказал его тебе сразу.",
+        "phonetic": "/si ueˈɾa saˈβiðo la resˈpwesta | te la aˈβɾia diˈtʃo inmeðiataˈmente/"
+      },
+      {
+        "text": "Si ganara la lotería, me habría comprado una casa en la playa.",
+        "translation": "Если бы я выиграл в лотерею, я бы купил дом на пляже.",
+        "phonetic": "/si ɡaˈnaɾa la loˈteɾia | me aˈβɾia komˈpɾaðo una ˈkasa en la ˈplaʝa/"
+      },
+      {
+        "text": "Si hubieras venido antes, habrías visto el espectáculo completo.",
+        "translation": "Если бы ты пришёл раньше, ты бы увидел всё представление.",
+        "phonetic": "/si uˈβjeɾas βeˈniðo ˈantes | aˈβɾias βisˈto el espekˈtakulo komˈpleto/"
+      },
+      {
+        "text": "Si tuviera más tiempo, habría terminado el proyecto ayer.",
+        "translation": "Если бы у меня было больше времени, я бы закончил проект вчера.",
+        "phonetic": "/si tuˈβjeɾa mas ˈtjempo | aˈβɾia termiˈnaðo el pɾoˈxekto aˈʝeɾ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Si tendría dinero, compraría ese coche ayer.",
+      "correct": "Si tuviera dinero, habría comprado ese coche ayer.",
+      "correct_alt": "Si tuviera dinero, compraría ese coche ayer.",
+      "explanation": "Ошибка возникает из-за неправильного согласования времён. В русском языке мы можем сказать «Если бы у меня были деньги, я бы купил машину вчера», где время не так строго. В испанском же нужно чётко разделять: условие в настоящем (tuviera) требует результата в прошедшем (habría comprado) или настоящем (compraría). Альтернативный вариант с Condicional Simple возможен, если результат относится к будущему или настоящему, но не к прошедшему."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Condicionales mixtos Tipo 3+2 (pasado → presente)",
+        "translation": "Смешанные условные предложения Тип 3+2 (прошлое → настоящее)",
+        "examples": [
+          {
+            "original": "Si hubiera estudiado más, ahora tendría un mejor trabajo.",
+            "phonetic": "/si ueˈɾa esˈtuðjaðo mas | aˈoɾa tenˈdɾia um meˈxoɾ ˈtɾaβaxo/",
+            "translation": "Если бы я учился больше, сейчас у меня была бы лучшая работа.",
+            "note": "Условие в прошедшем (не учился), результат в настоящем (лучшая работа). Обратите внимание на согласование времён."
+          },
+          {
+            "original": "Si no hubieras perdido las llaves, no estarías tan nervioso ahora.",
+            "phonetic": "/si no uˈβjeɾas peɾˈdiðo las ˈʎaves | no estaˈɾias tan nerˈβiso aˈoɾa/",
+            "translation": "Если бы ты не потерял ключи, ты бы сейчас не нервничал.",
+            "note": "Условие в прошедшем (потерял), результат в настоящем (нервничает). Используйте Pluscuamperfecto de Subjuntivo в придаточном."
+          },
+          {
+            "original": "Si hubiéramos llegado antes, ahora no tendríamos este problema.",
+            "phonetic": "/si uˈβjeɾamos lɡaˈðo ˈantes | aˈoɾa no tenˈdɾiamos este pɾoˈβlema/",
+            "translation": "Если бы мы пришли раньше, сейчас у нас не было бы этой проблемы.",
+            "note": "Условие в прошедшем (не пришли), результат в настоящем (есть проблема). Обратите внимание на форму глагола в придаточном."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Condicionales mixtos Tipo 2+3 (presente → pasado)",
+        "translation": "Смешанные условные предложения Тип 2+3 (настоящее → прошлое)",
+        "examples": [
+          {
+            "original": "Si tuviera tiempo, habría terminado el informe ayer.",
+            "phonetic": "/si tuˈβjeɾa ˈtjempo | aˈβɾia termiˈnaðo el inˈfoɾme aˈʝeɾ/",
+            "translation": "Если бы у меня было время, я бы закончил отчёт вчера.",
+            "note": "Условие в настоящем (нет времени), результат в прошедшем (не закончил). Используйте Imperfecto de Subjuntivo в придаточном."
+          },
+          {
+            "original": "Si supieras la verdad, no habrías dicho eso.",
+            "phonetic": "/si suˈpieɾas la βeɾˈðað | no aˈβɾias diˈtʃo eso/",
+            "translation": "Если бы ты знал правду, ты бы этого не сказал.",
+            "note": "Условие в настоящем (не знаешь), результат в прошедшем (не сказал). Обратите внимание на форму глагола в главном предложении."
+          },
+          {
+            "original": "Si fuera más alto, habría jugado al baloncesto profesionalmente.",
+            "phonetic": "/si ˈfueɾa mas ˈalto | aˈβɾia xuˈɣaðo al βalonˈθesto pɾofesjoˈnalmente/",
+            "translation": "Если бы я был выше, я бы играл в баскетбол профессионально.",
+            "note": "Условие в настоящем (не высокий), результат в прошедшем (не играл). Используйте Condicional Compuesto в главном предложении."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Variantes y matices en condicionales mixtos",
+        "translation": "Варианты и нюансы смешанных условных предложений",
+        "examples": [
+          {
+            "original": "Si hubiera venido antes, ahora estaríamos en casa.",
+            "phonetic": "/si ueˈɾa βeˈniðo ˈantes | aˈoɾa estaˈɾiamos en ˈkasa/",
+            "translation": "Если бы он пришёл раньше, сейчас мы были бы дома.",
+            "note": "Условие в прошедшем (не пришёл), результат в настоящем (сейчас дома). Обратите внимание на порядок частей предложения."
+          },
+          {
+            "original": "Si tuviera más paciencia, no habría discutido contigo ayer.",
+            "phonetic": "/si tuˈβjeɾa mas paˈθjensja | no aˈβɾia diskuˈtiðo konˈtiɣo aˈʝeɾ/",
+            "translation": "Если бы у меня было больше терпения, я бы не спорил с тобой вчера.",
+            "note": "Условие в настоящем (терпения нет), результат в прошедшем (спорил). Используйте Imperfecto de Subjuntivo в придаточном и Condicional Compuesto в главном."
+          },
+          {
+            "original": "Si hubieras llamado, ahora no estaríamos buscando tu número.",
+            "phonetic": "/si uˈβjeɾas kaˈmaðo | aˈoɾa no estaˈɾiamos busˈkando tu ˈnumeɾo/",
+            "translation": "Если бы ты позвонил, сейчас мы бы не искали твой номер.",
+            "note": "Условие в прошедшем (не позвонил), результат в настоящем (ищем номер). Обратите внимание на форму глагола в придаточном."
+          },
+          {
+            "original": "Si fuera rico, me habría comprado un yate el año pasado.",
+            "phonetic": "/si ˈfueɾa ˈriko | me aˈβɾia komˈpɾaðo um ˈʝate el ˈaɲo paˈsaðo/",
+            "translation": "Если бы я был богатым, я бы купил яхту в прошлом году.",
+            "note": "Условие в настоящем (не богат), результат в прошедшем (не купил). Используйте Condicional Compuesto в главном предложении."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "ru": "Смешанные условные предложения"
+    }
+  },
+  {
+    "id": "ru_B2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Voz pasiva avanzada con gerundios, infinitivos y verbos modales / Продвинутый пассивный залог с герундиями, инфинитивами и модальными глаголами",
+    "bridge": "В русском языке пассивный залог с модальными глаголами (например, 'должно быть сделано') строится через сочетание 'должен + причастие страдательного залога' (например, 'работа должна быть выполнена'). В испанском же пассивный залог с модальными глаголами (например, 'debe ser hecho') требует использования инфинитива после модального глагола, а не причастия. Также важно помнить, что в испанском пассивный залог с герундиями (например, 'estando siendo construido') встречается реже, чем в русском, где аналогичные конструкции (например, 'строящийся') более распространены. Ошибки часто возникают из-за прямого переноса русского порядка слов или использования неправильных форм причастий.",
+    "rule": "В испанском языке пассивный залог с модальными глаголами (deber, poder, tener que и др.) строится по формуле: [модальный глагол] + 'ser' (в соответствующем времени) + причастие прошедшего времени (participio pasado) основного глагола. При этом причастие согласуется в роде и числе с подлежащим. Для выражения пассивного залога с герундиями используется конструкция 'estar + gerundio' (редко в пассивном значении, чаще в активном), а для инфинитивных конструкций — 'ser + participio' после модальных глаголов. Исключения: 1) В разговорной речи вместо 'ser' может использоваться 'estar' для выражения состояния (например, 'La puerta está cerrada'), но это не пассивный залог в чистом виде. 2) Причастие прошедшего времени в пассивных конструкциях всегда согласуется с подлежащим (например, 'Las casas fueron construidas' — 'Дома были построены'). 3) После модальных глаголов инфинитив 'ser' обязателен (например, 'Debe ser reparado' — 'Это должно быть отремонтировано').",
+    "concept_examples": [
+      {
+        "text": "El informe debe ser entregado antes del viernes.",
+        "translation": "Отчёт должен быть сдан до пятницы.",
+        "phonetic": "/el inˈfor.me ˈðweβe ˈseɾ en.tɾeˈɣa.ðo anˈtes del ˈviɾnes/"
+      },
+      {
+        "text": "Los documentos pueden ser revisados por el equipo.",
+        "translation": "Документы могут быть проверены командой.",
+        "phonetic": "/los do.kuˈmen.tos ˈpwe.ðen ˈseɾ re.βiˈsa.ðos por el eˈki.po/"
+      },
+      {
+        "text": "La película está siendo proyectada en el cine.",
+        "translation": "Фильм сейчас демонстрируется в кинотеатре.",
+        "phonetic": "/la ˈpe.likula esˈta ˈsjen.do pro.ʝekˈta.ða en el ˈsi.ne/"
+      },
+      {
+        "text": "Los resultados tienen que ser analizados con cuidado.",
+        "translation": "Результаты должны быть проанализированы с осторожностью.",
+        "phonetic": "/los re.sulˈta.ðos ˈtje.nen ke ˈseɾ a.na.liˈsa.ðos kon kaɾˈi.ðo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "El informe debe entregado antes del viernes.",
+      "correct": "El informe debe ser entregado antes del viernes.",
+      "correct_alt": "",
+      "explanation": "Ошибка возникает из-за пропуска инфинитива 'ser' после модального глагола 'deber'. В русском языке после 'должен' инфинитив основного глагола употребляется без вспомогательного (например, 'должен быть сдан' — 'должен + причастие'). В испанском же модальные глаголы требуют инфинитивной конструкции с 'ser' для выражения пассивного залога. Для избежания ошибки всегда проверяйте наличие 'ser' после модального глагола."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Passivo con verbos modales (deber, poder, tener que)",
+        "translation": "Пассив с модальными глаголами (должен, мочь, долженствование)",
+        "examples": [
+          {
+            "original": "La tarea debe ser terminada hoy.",
+            "phonetic": "/la ˈta.ea ˈðweβe ˈseɾ teɾ.miˈna.ða oi/",
+            "translation": "Задание должно быть выполнено сегодня.",
+            "note": "Обратите внимание на согласование причастия 'terminada' с женским родом подлежащего 'tarea'."
+          },
+          {
+            "original": "Los coches pueden ser reparados en este taller.",
+            "phonetic": "/los ˈko.tʃes ˈpwe.ðen ˈseɾ re.paˈɾa.ðos en ˈes.te taˈʎeɾ/",
+            "translation": "Машины могут быть отремонтированы в этой мастерской.",
+            "note": "Модальный глагол 'poder' требует инфинитива 'ser' перед причастием."
+          },
+          {
+            "original": "El proyecto tiene que ser aprobado por el comité.",
+            "phonetic": "/el proˈʝek.to ˈtje.ne ke ˈseɾ a.pɾoˈβa.ðo por el koˈmi.te/",
+            "translation": "Проект должен быть одобрен комитетом.",
+            "note": "Конструкция 'tener que' требует обязательного 'ser' в пассивном залоге."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Passivo con gerundio (estar + gerundio)",
+        "translation": "Пассив с герундием (estar + герундий)",
+        "examples": [
+          {
+            "original": "La casa está siendo construida por los obreros.",
+            "phonetic": "/la ˈka.sa esˈta ˈsjen.do konsˈtɾui.ða por los oˈβɾe.ɾos/",
+            "translation": "Дом сейчас строится рабочими.",
+            "note": "Конструкция 'estar + gerundio' выражает процесс, но не всегда пассивный залог в чистом виде (чаще активный)."
+          },
+          {
+            "original": "Los documentos están siendo revisados por el equipo.",
+            "phonetic": "/los do.kuˈmen.tos esˈtan ˈsjen.do re.βiˈsa.ðos por el eˈki.po/",
+            "translation": "Документы сейчас проверяются командой.",
+            "note": "Обратите внимание на множественное число 'documentos' и согласование 'revisados'."
+          },
+          {
+            "original": "El puente está siendo reparado después del accidente.",
+            "phonetic": "/el ˈpwen.te esˈta ˈsjen.do re.paˈɾa.ðo desˈpwes del ak.siˈðen.te/",
+            "translation": "Мост сейчас ремонтируется после аварии.",
+            "note": "Герундий 'siendo' указывает на текущий процесс, но пассивный залог здесь выражается через 'estar'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Passivo con infinitivos y excepciones",
+        "translation": "Пассив с инфинитивами и исключения",
+        "examples": [
+          {
+            "original": "Es necesario que el informe sea entregado a tiempo.",
+            "phonetic": "/es ne.θeˈsa.ɾjo ke el inˈfor.me ˈse.a en.tɾeˈɣa.ðo a ˈtiem.po/",
+            "translation": "Необходимо, чтобы отчёт был сдан вовремя.",
+            "note": "Конструкция 'es necesario que' требует сослагательного наклонения 'sea' в пассивном залоге."
+          },
+          {
+            "original": "Los resultados deben ser analizados cuidadosamente.",
+            "phonetic": "/los re.sulˈta.ðos ˈðwen ˈseɾ a.na.liˈsa.ðos kua.ðiˈða.soaˈmen.te/",
+            "translation": "Результаты должны быть проанализированы тщательно.",
+            "note": "Модальный глагол 'deben' требует инфинитива 'ser' перед причастием."
+          },
+          {
+            "original": "La puerta fue cerrada por el conserje.",
+            "phonetic": "/la ˈpweɾ.ta ˈfwe θeˈra.ða por el konˈseɾ.xe/",
+            "translation": "Дверь была закрыта консьержем.",
+            "note": "Прошедшее время 'fue' требует согласованного причастия 'cerrada'."
+          },
+          {
+            "original": "Los libros pueden ser leídos en cualquier momento.",
+            "phonetic": "/los ˈli.βɾos ˈpwe.ðen ˈseɾ leˈi.ðos en kwalˈkjer moˈmen.to/",
+            "translation": "Книги могут быть прочитаны в любое время.",
+            "note": "Инфинитив 'ser' обязателен после модального глагола 'poder'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏗️",
+    "phonetic": "",
+    "translations": {
+      "ru": "Продвинутый пассивный залог с герундиями, инфинитивами и модальными глаголами"
+    }
+  },
+  {
+    "id": "ru_B2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Estilo indirecto avanzado / Косвенная речь в прошедшем времени",
+    "bridge": "В русском языке косвенная речь часто сохраняет глагольные формы оригинала (например, «Он сказал, что читает книгу»), тогда как в испанском при переходе в прошедшее время происходит обязательное смещение времён (sequence of tenses). Это создаёт трудности, так как русские говорящие часто забывают о сдвиге времён или используют формы, не соответствующие контексту. Например, фраза «Dijo que va al cine» будет ошибочной, если действие уже завершилось. Важно помнить, что в испанском стиле косвенной речи время глагола зависит от времени главного предложения и контекста.",
+    "rule": "В испанском языке при преобразовании прямой речи в косвенную (estilo indirecto) происходит обязательное смещение времён (sequence of tenses) в зависимости от времени главного предложения. Правила следующие:\n\n1. **Если главное предложение в настоящем или будущем времени (presente/futuro):** В придаточном предложении времена не меняются:\n   - Presente → Presente: «Dice: ‘Voy al cine’» → «Dice que va al cine».\n   - Pretérito perfecto → Pretérito perfecto: «Ha dicho: ‘He terminado’» → «Ha dicho que ha terminado».\n   - Futuro → Futuro: «Dirá: ‘Llegaré tarde’» → «Dirá que llegará tarde».\n\n2. **Если главное предложение в прошедшем времени (pretérito indefinido/imperfecto/pluscuamperfecto):** В придаточном предложении происходит смещение времён:\n   - Presente → Pretérito imperfecto: «Dijo: ‘Tengo hambre’» → «Dijo que tenía hambre».\n   - Pretérito perfecto → Pretérito pluscuamperfecto: «Dijo: ‘He comido’» → «Dijo que había comido».\n   - Futuro → Condicional simple: «Dijo: ‘Iré’» → «Dijo que iría».\n   - Pretérito indefinido → Pretérito pluscuamperfecto: «Dijo: ‘Llegué tarde’» → «Dijo que había llegado tarde».\n\n3. **Модальные глаголы и временные указатели:**\n   - «puedo» → «podía», «quiero» → «quería», «debo» → «debía».\n   - Указатели времени меняются: «hoy» → «ese día», «mañana» → «al día siguiente», «ayer» → «el día anterior».\n\n4. **Исключения:**\n   - Если действие в придаточном предложении происходит одновременно с главным, можно использовать imperfecto: «Dijo que estudiaba cuando lo llamé».\n   - В разговорной речи иногда сохраняются формы presente при недавних событиях: «Dijo que viene mañana» (вместо «vendrá»).\n\n5. **Вопросы в косвенной речи:**\n   - Порядок слов меняется на утвердительный: «Preguntó: ‘¿Dónde está?’» → «Preguntó dónde estaba».\n   - Вопросительные слова сохраняются, но без вопросительного знака.",
+    "concept_examples": [
+      {
+        "text": "— «Voy a la biblioteca», dijo María. → María dijo que iba a la biblioteca.",
+        "translation": "— «Я иду в библиотеку», — сказала Мария. → Мария сказала, что идёт в библиотеку.",
+        "phonetic": "— [bo̞i̯ a la β̞iβ̞li̯oˈteka] ˈdiθo maˈɾia. → maˈɾia ˈdiθo ke ˈiβa a la β̞iβ̞li̯oˈteka."
+      },
+      {
+        "text": "— «He terminado el informe», me comunicó el jefe. → El jefe me comunicó que había terminado el informe.",
+        "translation": "— «Я закончил отчёт», — сообщил мне начальник. → Начальник сообщил мне, что закончил отчёт.",
+        "phonetic": "— [e terˈminaðo el iɱˈfoɾme] me komu̯niˈko el ˈxefe. → el ˈxefe me komu̯niˈko ke aˈβia terˈminaðo el iɱˈfoɾme."
+      },
+      {
+        "text": "— «Mañana viajaré a Madrid», anunció Pedro. → Pedro anunció que viajaría a Madrid al día siguiente.",
+        "translation": "— «Завтра я поеду в Мадрид», — объявил Педро. → Педро объявил, что поедет в Мадрид на следующий день.",
+        "phonetic": "— [maˈɲana βi.xaˈɾe a maˈðɾið] aˈnunθjo ˈpeðɾo. → peˈðɾo aˈnunθjo ke βixaˈɾia a maˈðɾið al ˈdi.a siˈɣjen.te."
+      },
+      {
+        "text": "— «¿Dónde dejaste las llaves?», preguntó Ana. → Ana preguntó dónde había dejado las llaves.",
+        "translation": "— «Где ты оставил ключи?», — спросила Анна. → Анна спросила, где она оставила ключи.",
+        "phonetic": "— [ˈdonde deˈxaste las ˈʎaβes] preˈɣun.to ana. → ana preˈɣun.to ˈdonde aˈβia deˈxaðo las ˈʎaβes."
+      }
+    ],
+    "common_error": {
+      "wrong": "Dijo que va al concierto ayer.",
+      "correct": "Dijo que iba al concierto el día anterior.",
+      "correct_alt": "Dijo que había ido al concierto el día anterior.",
+      "explanation": "Ошибка возникает из-за того, что русские говорящие часто забывают о смещении времён в косвенной речи. В русском языке фраза «Он сказал, что идёт на концерт вчера» звучит естественно, так как время глагола не меняется. В испанском же при главном предложении в прошедшем времени (dijo) придаточное должно быть в imperfecto (iba) или pluscuamperfecto (había ido), если действие завершилось. Также указатель времени «ayer» должен заменяться на «el día anterior». Важно помнить, что в испанском стиле косвенной речи время глагола зависит от времени главного предложения."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Cambios básicos de tiempos verbales",
+        "translation": "Основные изменения временных форм",
+        "examples": [
+          {
+            "original": "— «Estudio español», me dijo Luis. → Luis me dijo que estudiaba español.",
+            "phonetic": "— [esˈtuðjo espaˈɲol] me ˈdiθo ˈlwis. → ˈlwis me ˈdiθo ke esˈtuðja espaˈɲol.",
+            "translation": "— «Я изучаю испанский», — сказал мне Луис. → Луис сказал мне, что изучает испанский.",
+            "note": "Обратите внимание на переход presente de indicativo в imperfecto de indicativo при главном предложении в прошедшем времени."
+          },
+          {
+            "original": "— «He comprado un coche», me escribió Sara. → Sara me escribió que había comprado un coche.",
+            "phonetic": "— [e komˈpɾaðo un ˈkotʃe] me esˈkɾiβjo ˈsaɾa. → ˈsaɾa me esˈkɾiβjo ke aˈβia komˈpɾaðo un ˈkotʃe.",
+            "translation": "— «Я купил машину», — написала мне Сара. → Сара написала мне, что купила машину.",
+            "note": "Pretérito perfecto переходит в pluscuamperfecto при главном предложении в прошедшем времени."
+          },
+          {
+            "original": "— «Trabajo en una empresa», me contó Carlos. → Carlos me contó que trabajaba en una empresa.",
+            "phonetic": "— [tɾaˈβa.xo en ˈuna emˈpɾesa] me konˈto ˈkaɾlos. → ˈkaɾlos me konˈto ke tɾaˈβa.xa en ˈuna emˈpɾesa.",
+            "translation": "— «Я работаю в одной компании», — рассказал мне Карлос. → Карлос рассказал мне, что работает в одной компании.",
+            "note": "Presente de indicativo переходит в imperfecto de indicativo."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Cambios en preguntas y órdenes",
+        "translation": "Изменения в вопросах и приказаниях",
+        "examples": [
+          {
+            "original": "— «¿Cuándo llegas?», me preguntó mi madre. → Mi madre me preguntó cuándo llegaba.",
+            "phonetic": "— [ˈkwando ˈʎegas] me preˈɣun.to mi maˈðɾe. → mi maˈðɾe me preˈɣun.to ˈkwando ʎeˈɣaβa.",
+            "translation": "— «Когда ты приедешь?», — спросила меня мама. → Мама спросила меня, когда я приеду.",
+            "note": "Вопросительный порядок слов меняется на утвердительный, а вопросительное слово сохраняется."
+          },
+          {
+            "original": "— «No salgas tarde», me advirtió mi padre. → Mi padre me advirtió que no saliera tarde.",
+            "phonetic": "— [no salˈɣas ˈtaɾðe] me aðβiɾˈtjo mi ˈpaðɾe. → mi ˈpaðɾe me aðβiɾˈtjo ke no saˈljeɾa ˈtaɾðe.",
+            "translation": "— «Не выходи поздно», — предупредил меня отец. → Отец предупредил меня, чтобы я не выходил поздно.",
+            "note": "Приказы в косвенной речи переходят в imperfecto de subjuntivo после глаголов типа 'advertir', 'pedir', 'recomendar'."
+          },
+          {
+            "original": "— «¿Has visto mi libro?», me preguntó Juan. → Juan me preguntó si había visto su libro.",
+            "phonetic": "— [as ˈβisto mi ˈliβɾo] me preˈɣun.to ˈxwan. → ˈxwan me preˈɣun.to si aˈβia ˈβisto su ˈliβɾo.",
+            "translation": "— «Ты видел мою книгу?», — спросил меня Хуан. → Хуан спросил меня, видел ли я его книгу.",
+            "note": "Общие вопросы в косвенной речи вводятся частицей 'si'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cambios en expresiones temporales y modales",
+        "translation": "Изменения во временных и модальных выражениях",
+        "examples": [
+          {
+            "original": "— «Hoy es mi cumpleaños», me dijo Laura. → Laura me dijo que ese día era su cumpleaños.",
+            "phonetic": "— [oi es mi kumpleˈaɲos] me ˈdiθo ˈlawɾa. → ˈlawɾa me ˈdiθo ke ese ˈdi.a ˈeɾa su kumpleˈaɲos.",
+            "translation": "— «Сегодня мой день рождения», — сказала мне Лаура. → Лаура сказала мне, что в тот день был её день рождения.",
+            "note": "Указатели времени 'hoy' → 'ese día', 'mañana' → 'al día siguiente', 'ayer' → 'el día anterior'."
+          },
+          {
+            "original": "— «Puedo ayudarte», me prometió Pedro. → Pedro me prometió que podía ayudarme.",
+            "phonetic": "— [ˈpweðo aˈʝuðaɾte] me pɾomeˈtjo ˈpeðɾo. → ˈpeðɾo me pɾomeˈtjo ke ˈpoðia aʝuðarme.",
+            "translation": "— «Я могу помочь тебе», — пообещал мне Педро. → Педро пообещал мне, что может помочь мне.",
+            "note": "Модальные глаголы 'puedo', 'quiero', 'debo' переходят в 'podía', 'quería', 'debía'."
+          },
+          {
+            "original": "— «Debes estudiar más», me recomendó mi profesor. → Mi profesor me recomendó que estudiara más.",
+            "phonetic": "— [ˈdeβes estuˈðjaɾ mas] me rekomenˈdo mi pɾofeˈsoɾ. → mi pɾofeˈsoɾ me rekomenˈdo ke esˈtuðjaɾa mas.",
+            "translation": "— «Ты должен больше учиться», — порекомендовал мне мой профессор. → Мой профессор порекомендовал мне, чтобы я больше учился.",
+            "note": "Рекомендации в косвенной речи переходят в imperfecto de subjuntivo после глаголов типа 'recomendar', 'aconsejar', 'sugerir'."
+          },
+          {
+            "original": "— «Mañana iré al médico», me anunció Ana. → Ana anunció que iría al médico al día siguiente.",
+            "phonetic": "— [maˈɲana iˈɾe al ˈmeðiko] me aˈnunθjo ˈana. → ˈana aˈnunθjo ke iˈɾia al ˈmeðiko al ˈdi.a siˈɣjen.te.",
+            "translation": "— «Завтра я пойду к врачу», — объявила Анна. → Анна объявила, что пойдёт к врачу на следующий день.",
+            "note": "Futuro simple переходит в condicional simple при главном предложении в прошедшем времени."
+          }
+        ]
+      }
+    ],
+    "emoji": "🗣️",
+    "phonetic": "",
+    "translations": {
+      "ru": "Косвенная речь в прошедшем времени"
+    }
+  }
+]

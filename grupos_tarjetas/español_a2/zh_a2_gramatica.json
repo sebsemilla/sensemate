@@ -419,5 +419,1807 @@
     "translations": {
       "zh": "用\"ir a\"表达将来时"
     }
+  },
+  {
+    "id": "zh_A2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro simple: 'iré', 'comeré', 'viviré' / 简单将来时：动词变位",
+    "bridge": "在中文中，我们通常用‘会’、‘要’或‘将要’来表示将来时，例如‘我会去’、‘他要吃饭’。但在西班牙语中，除了使用‘ir a + infinitivo’（如‘voy a ir’）外，还有一种专门的将来时变位形式，如‘iré’（我将去）。这种变位看起来与现在时不同，需要记住。中文母语者容易混淆‘iré’和‘voy a ir’的用法，或直接用现在时表示将来（如‘mañana voy’而非‘iré’）。",
+    "rule": "西班牙语简单将来时（Futuro simple）用于表示将来的动作或状态，其变位规则如下：\n1. 基本变位：动词原形去掉词尾（-ar, -er, -ir），加上以下后缀：\n   -é（yo）, -ás（tú）, -á（él/ella/usted）, -emos（nosotros/as）, -éis（vosotros/as）, -án（ellos/ellas/ustedes）。\n   例如：hablar → hablaré, comer → comeré, vivir → viviré。\n2. 不规则动词：部分动词词根变化，但后缀不变。常见不规则动词有：\n   - tener → tendré, salir → saldré, venir → vendré, hacer → haré, decir → diré, poder → podré, querer → querré, saber → sabré。\n3. 用法：\n   - 表示将来的动作：Mañana iré al cine.（明天我将去电影院。）\n   - 表示猜测或可能性：¿Dónde estará Juan?（胡安会在哪里呢？）\n   - 表示承诺或威胁：Te ayudaré.（我会帮你。）\n4. 与‘ir a + infinitivo’的区别：\n   - ‘iré’表示单纯的将来动作，而‘voy a ir’表示计划或即将发生的动作。例如：Mañana iré al médico.（明天我将去看医生。）vs. Mañana voy a ir al médico.（明天我打算去看医生。）",
+    "concept_examples": [
+      {
+        "text": "Mañana viajaré a Madrid.",
+        "translation": "明天我将去马德里。",
+        "phonetic": "[maˈɲana βi.aˈxaɾe a maˈðɾið]"
+      },
+      {
+        "text": "El próximo año aprenderé español.",
+        "translation": "明年我将学习西班牙语。",
+        "phonetic": "[el ˈpɾok.si.mo ˈa.ɲo a.pɾen.deˈɾe es.paˈɲol]"
+      },
+      {
+        "text": "Ellos llegarán tarde porque hay mucho tráfico.",
+        "translation": "他们会迟到，因为交通很堵。",
+        "phonetic": "[ˈe.ʝos ʎe.ɣaˈɾan ˈtaɾ.ðe ˈpoɾ.ke ai ˈmu.tʃo ˈtɾa.fi.ko]"
+      },
+      {
+        "text": "¿Qué harás este fin de semana?",
+        "translation": "这个周末你会做什么？",
+        "phonetic": "[ke aˈɾas ˈes.te fin de seˈma.na]"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mañana iré a Madrid.",
+      "correct": "Mañana voy a ir a Madrid.",
+      "correct_alt": "",
+      "explanation": "中文母语者容易将‘iré’误用为‘voy a ir’的替代。实际上，‘iré’是简单将来时的变位，表示单纯的将来动作，而‘voy a ir’强调计划或即将发生的动作。在表示‘打算’或‘即将’时，必须用‘ir a + infinitivo’。例如，‘明天我将去马德里’应为‘Mañana iré a Madrid.’（单纯将来），而‘明天我打算去马德里’应为‘Mañana voy a ir a Madrid.’（计划将来）."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "规则动词变位",
+        "translation": "规则动词的将来时变位",
+        "examples": [
+          {
+            "original": "Yo hablaré con ella mañana.",
+            "phonetic": "[ʝo aˈβla.ɾe kon ˈe.ʝa maˈɲa.na]",
+            "translation": "明天我将和她谈话。",
+            "note": "强调规则动词-ar的变位，注意重音在最后一个音节。"
+          },
+          {
+            "original": "Tú comerás en casa.",
+            "phonetic": "[tu ko.meˈɾas en ˈka.sa]",
+            "translation": "你将在家吃饭。",
+            "note": "规则动词-er的变位，注意重音在第二人称单数。"
+          },
+          {
+            "original": "Ellos vivirán en Barcelona el próximo año.",
+            "phonetic": "[ˈe.ʝos βi.βiˈɾan en βar.θeˈlo.na el ˈpɾok.si.mo ˈa.ɲo]",
+            "translation": "他们明年将住在巴塞罗那。",
+            "note": "规则动词-ir的变位，注意主语与动词一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "不规则动词变位",
+        "translation": "常见不规则动词的将来时变位",
+        "examples": [
+          {
+            "original": "Yo tendré un examen la próxima semana.",
+            "phonetic": "[ʝo tenˈdɾe un ek.saˈmen la ˈpɾok.si.ma seˈma.na]",
+            "translation": "下周我将有一场考试。",
+            "note": "‘tener’的将来时变位为‘tendré’，词根变化。"
+          },
+          {
+            "original": "Ellos vendrán a la fiesta.",
+            "phonetic": "[ˈe.ʝos benˈdɾan a la ˈfjes.ta]",
+            "translation": "他们将来参加派对。",
+            "note": "‘venir’的将来时变位为‘vendrán’，注意词根变化。"
+          },
+          {
+            "original": "¿Qué harás mañana por la tarde?",
+            "phonetic": "[ke aˈɾas maˈɲa.na poɾ la ˈtaɾ.ðe]",
+            "translation": "明天下午你会做什么？",
+            "note": "‘hacer’的将来时变位为‘harás’，词根变化。"
+          },
+          {
+            "original": "Nosotros podremos terminar el proyecto.",
+            "phonetic": "[no.soˈtɾos poˈðɾe.mos ter.miˈnaɾ el pɾoˈxek.to]",
+            "translation": "我们将能完成这个项目。",
+            "note": "‘poder’的将来时变位为‘podremos’，词根变化。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "将来时的用法区分",
+        "translation": "将来时与‘ir a + infinitivo’的用法对比",
+        "examples": [
+          {
+            "original": "Mañana iré al médico.",
+            "phonetic": "[maˈɲa.na iˈɾe al ˈme.ði.ko]",
+            "translation": "明天我将去看医生。（单纯将来）",
+            "note": "表示单纯的将来动作，不强调计划性。"
+          },
+          {
+            "original": "Mañana voy a ir al médico.",
+            "phonetic": "[maˈɲa.na ˈboi a iɾ al ˈme.ði.ko]",
+            "translation": "明天我打算去看医生。（计划将来）",
+            "note": "强调计划或即将发生的动作。"
+          },
+          {
+            "original": "¿Dónde estará Juan?",
+            "phonetic": "[ˈdon.de esˈta.ɾa ˈxwan]",
+            "translation": "胡安会在哪里呢？（猜测）",
+            "note": "将来时可表示对现在情况的猜测。"
+          },
+          {
+            "original": "Te ayudaré con tu tarea.",
+            "phonetic": "[te a.ʝu.ðaˈɾe kon tu taˈɾe.a]",
+            "translation": "我会帮你做作业。（承诺）",
+            "note": "将来时可表示承诺或威胁。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "zh": "简单将来时：动词变位"
+    }
+  },
+  {
+    "id": "zh_A2_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Comparativos y superlativos / 比较级和最高级",
+    "bridge": "在中文中，比较级通常通过在形容词前加'更'（如'更大'）或使用'比'结构（如'比我大'）来表达。而在西班牙语中，比较级需要通过特定的词汇结构（如'más...que'）或不规则形式（如'mejor'）来表达。中文没有形容词的性数变化，而西班牙语形容词在比较级中需要与名词保持一致。此外，西班牙语的最高级形式（如'el más...'）与中文的'最...'结构有相似之处，但西班牙语需要冠词和形容词变化。",
+    "rule": "西班牙语比较级和最高级的构成规则如下：\n1. 比较级（比较级）：\n   - 规则形式：más + 形容词 + que（用于比较两个事物）\n     例如：Este libro es más interesante que aquél.（这本书比那本有趣）\n   - 不规则形式：\n     bueno → mejor（更好）\n     malo → peor（更差）\n     grande → mayor（更大/年长）\n     pequeño → menor（更小/年幼）\n     例如：Este café es mejor que aquél.（这杯咖啡比那杯好）\n   - 形容词短尾形式：\n     部分形容词有短尾比较级形式，如：\n     grande → mayor（用于年龄或重要性）\n     pequeño → menor（用于年龄或重要性）\n     例如：Mi hermano es mayor que yo.（我弟弟比我大）\n\n2. 最高级（最高级）：\n   - 规则形式：el/la/los/las + más + 形容词\n     例如：Este es el libro más interesante de la biblioteca.（这是图书馆里最有趣的书）\n   - 不规则形式：\n     使用不规则比较级的最高级形式：\n     bueno → el mejor（最好的）\n     malo → el peor（最差的）\n     grande → el mayor（最大的/年纪最大的）\n     pequeño → el menor（最小的/年纪最小的）\n     例如：Este es el mejor restaurante de la ciudad.（这是城里最好的餐厅）\n   - 绝对最高级（无比较对象）：\n     使用形容词本身的绝对最高级形式，如：\n     muy grande → grandísimo（非常大）\n     例如：Este pastel está grandísimo.（这个蛋糕非常大）\n\n注意事项：\n- 形容词在比较级和最高级中需要与被修饰的名词保持性数一致。\n- 'que'用于比较两个不同事物，'de'用于比较同一范围内的事物（如'el más alto de la clase'）。",
+    "concept_examples": [
+      {
+        "text": "Mi casa es más grande que la tuya.",
+        "translation": "我的房子比你的大。",
+        "phonetic": "mi ˈkasa ez mas ˈɡɾande ke la ˈtuʝa"
+      },
+      {
+        "text": "Este examen es peor que el anterior.",
+        "translation": "这次考试比上次差。",
+        "phonetic": "ˈeste eɡˈsamen ez peˈoɾ ke el anˈteɾjoɾ"
+      },
+      {
+        "text": "Ella es la mejor estudiante de la clase.",
+        "translation": "她是班上最好的学生。",
+        "phonetic": "ˈeʝa ez la meˈxoɾ esˈtudjante de la ˈklase"
+      },
+      {
+        "text": "Este café es más caliente que el té.",
+        "translation": "这杯咖啡比茶热。",
+        "phonetic": "ˈeste kaˈfe ez mas kalˈjente ke el te"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi casa es más grande de tu casa.",
+      "correct": "Mi casa es más grande que tu casa.",
+      "correct_alt": "",
+      "explanation": "在西班牙语中，比较级结构必须使用'que'来连接比较的两个事物，而不是中文的'的'字结构。中文可以用'的'字表示所属关系，但西班牙语的比较级需要用'que'来引导比较对象。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Comparativos regulares",
+        "translation": "常规比较级",
+        "examples": [
+          {
+            "original": "Este coche es más rápido que aquél.",
+            "phonetic": "ˈeste ˈkotʃe ez mas raˈpido ke aˈkeʎ",
+            "translation": "这辆车比那辆快。",
+            "note": "强调规则比较级的构成：más + 形容词 + que"
+          },
+          {
+            "original": "Ella es más alta que su hermana.",
+            "phonetic": "ˈeʝa ez mas ˈalta ke su erˈmaɲa",
+            "translation": "她比她妹妹高。",
+            "note": "形容词与名词性数一致"
+          },
+          {
+            "original": "Este libro es menos interesante que el otro.",
+            "phonetic": "ˈeste ˈliβɾo ez menos inteɾeˈsante ke el ˈotɾo",
+            "translation": "这本书没有另一本有趣。",
+            "note": "使用'menos...que'表示较低程度的比较"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comparativos irregulares",
+        "translation": "不规则比较级",
+        "examples": [
+          {
+            "original": "Este vino es mejor que aquél.",
+            "phonetic": "ˈeste ˈbino ez meˈxoɾ ke aˈkeʎ",
+            "translation": "这瓶酒比那瓶好。",
+            "note": "不规则比较级'mejor'代替'más bueno'"
+          },
+          {
+            "original": "Su salud es peor ahora que antes.",
+            "phonetic": "su saˈluð ez peˈoɾ aˈoɾa ke anˈtes",
+            "translation": "他的健康现在比以前差。",
+            "note": "不规则比较级'peor'代替'más malo'"
+          },
+          {
+            "original": "Mi abuelo es mayor que mi padre.",
+            "phonetic": "mi aˈβwelo ez maˈʝoɾ ke mi ˈpaðɾe",
+            "translation": "我爷爷比我爸爸年纪大。",
+            "note": "不规则比较级'mayor'用于年龄比较"
+          },
+          {
+            "original": "Este problema es menor que el anterior.",
+            "phonetic": "ˈeste pɾoˈβlema ez meˈnoɾ ke el anˈteɾjoɾ",
+            "translation": "这个问题比上一个小。",
+            "note": "不规则比较级'menor'用于年龄或重要性比较"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Superlativos",
+        "translation": "最高级",
+        "examples": [
+          {
+            "original": "Este es el restaurante más famoso de la ciudad.",
+            "phonetic": "ˈeste ez el restawˈɾante mas faˈmoso de la θiˈðað",
+            "translation": "这是城里最有名的餐厅。",
+            "note": "规则最高级：el/la + más + 形容词 + de"
+          },
+          {
+            "original": "Ella es la mejor cantante del grupo.",
+            "phonetic": "ˈeʝa ez la meˈxoɾ kanˈtante del ˈɡɾupo",
+            "translation": "她是团队里最好的歌手。",
+            "note": "不规则最高级：使用不规则比较级形式"
+          },
+          {
+            "original": "Este es el peor día de mi vida.",
+            "phonetic": "ˈeste ez el peˈoɾ ˈdia ðe mi ˈβiða",
+            "translation": "这是我人生中最糟糕的一天。",
+            "note": "不规则最高级'peor'用于强调"
+          },
+          {
+            "original": "Es el libro más interesante que he leído.",
+            "phonetic": "ez el ˈliβɾo mas inteɾeˈsante ke e leˈiðo",
+            "translation": "这是我读过的最有趣的书。",
+            "note": "比较级结构用于最高级表达，强调范围"
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "zh": "比较级和最高级"
+    }
+  },
+  {
+    "id": "zh_A2_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbos modales: deber, tener que, poder / 情态动词：应该、必须、能",
+    "bridge": "在中文中，情态动词（如‘应该’、‘必须’、‘能’) 通常直接接动词原形，且不需要时态变化。但在西班牙语中，这些动词不仅需要变位（如‘debo’、‘tienes que’、‘puedo’），还要与后接动词的原形（不定式）搭配使用。此外，西班牙语中的‘tener que’强调主观义务，‘deber’则更多表达建议或道义上的义务，这与中文的‘应该’和‘必须’在语气上有细微差别。初学者常忽略动词变位，或将‘tener que’误用为‘deber’的同义词。",
+    "rule": "西班牙语情态动词的用法规则如下：\n1. **deber + infinitivo**：表达道义、建议或合理的义务（相当于‘应该’）。变位形式为：debo, debes, debe, debemos, debéis, deben。\n   - 例：Debes estudiar más. (你应该更努力学习。)\n2. **tener que + infinitivo**：表达客观或强制性的义务（相当于‘必须’）。变位形式为：tengo que, tienes que, tiene que, tenemos que, tenéis que, tienen que。\n   - 例：Tengo que trabajar hoy. (我今天必须工作。)\n3. **poder + infinitivo**：表达能力、许可或可能性（相当于‘能’、‘可以’）。变位形式为：puedo, puedes, puede, podemos, podéis, pueden。\n   - 例：¿Puedo abrir la ventana? (我可以打开窗户吗？)\n\n注意事项：\n- 所有情态动词后接动词原形（不定式），无需变位。\n- ‘deber’和‘tener que’在语气上有区别：前者更委婉，后者更强硬。\n- ‘poder’在疑问句中常用于请求许可。\n- 否定形式直接在情态动词前加‘no’（如：No debo fumar.）。",
+    "concept_examples": [
+      {
+        "text": "Debes llegar temprano a la reunión.",
+        "translation": "你应该早点到会议室。",
+        "phonetic": "/deβes ʎeɣaɾ temˈpɾano a la reuˈnjon/"
+      },
+      {
+        "text": "Tengo que terminar este informe antes de las cinco.",
+        "translation": "我必须在五点前完成这份报告。",
+        "phonetic": "/ˈteŋgo ke teɾmiˈnaɾ ˈeste inˈfoɾme anˈtes de las ˈθiŋko/"
+      },
+      {
+        "text": "¿Puedes ayudarme con esta tarea?",
+        "translation": "你能帮我做这份作业吗？",
+        "phonetic": "/pweðes aˈʝuðaɾme kon ˈesta taˈɾea/"
+      },
+      {
+        "text": "No debemos hablar alto en la biblioteca.",
+        "translation": "我们不应该在图书馆大声说话。",
+        "phonetic": "/no ˈdeβemos aˈβlaɾ ˈalto en la biβlioˈteka/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo debo estudiar mucho ayer.",
+      "correct": "Yo tuve que estudiar mucho ayer.",
+      "correct_alt": "Yo debí estudiar mucho ayer.",
+      "explanation": "中文中‘应该’可以直接接过去时动词（如‘我昨天应该学习很努力’），但西班牙语的‘deber’只能表达现在或将来的义务，过去的义务需用‘tener que’的过去式（tuve que）或‘deber’的简单过去式（debí）。初学者常忽略时态对情态动词的限制，直接在‘deber’后加过去时动词。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Deber + infinitivo (deber 的基本用法)",
+        "translation": "‘deber + 动词原形’的基本用法",
+        "examples": [
+          {
+            "original": "Debes descansar después del trabajo.",
+            "phonetic": "/deβes deskanˈsaɾ deˈspwes del traˈβaxo/",
+            "translation": "工作后你应该休息。",
+            "note": "强调道义或建议，语气较委婉。"
+          },
+          {
+            "original": "No debes comer comida rápida todos los días.",
+            "phonetic": "/no ˈdeβes koˈmeɾ koˈmiða raˈpiða ˈtoðos los ˈdias/",
+            "translation": "你不应该每天吃快餐。",
+            "note": "否定形式直接在‘deber’前加‘no’。"
+          },
+          {
+            "original": "¿Debo llamar a mi madre esta noche?",
+            "phonetic": "/deβo ʎaˈmaɾ a mi ˈmaðɾe ˈesta ˈnotʃe/",
+            "translation": "我今晚应该给妈妈打电话吗？",
+            "note": "疑问句中动词变位与主语一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Tener que + infinitivo (强制义务)",
+        "translation": "‘tener que + 动词原形’的强制义务用法",
+        "examples": [
+          {
+            "original": "Tienes que llegar a tiempo a la clase.",
+            "phonetic": "/tjeˈnes ke ʎeɣaɾ a ˈtjempo a la ˈklase/",
+            "translation": "你必须准时到教室。",
+            "note": "强调客观或外部强制的义务。"
+          },
+          {
+            "original": "Tenemos que comprar pan antes de que cierre la tienda.",
+            "phonetic": "/teˈnemos ke komˈpɾaɾ pan anˈtes de ke ˈθjere la ˈtjeneða/",
+            "translation": "我们必须在商店关门前买面包。",
+            "note": "‘antes de que’引导的从句需用虚拟式，但主句仍用陈述式。"
+          },
+          {
+            "original": "¿Tienes que trabajar el sábado?",
+            "phonetic": "/tjeˈnes ke tɾaβaˈxaɾ el ˈsaβaðo/",
+            "translation": "你周六必须工作吗？",
+            "note": "疑问句中‘tener’变位与主语一致。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Poder + infinitivo (能力与许可)",
+        "translation": "‘poder + 动词原形’的能力与许可用法",
+        "examples": [
+          {
+            "original": "Puedo hablar tres idiomas.",
+            "phonetic": "/pweðo aˈβlaɾ tɾes iðioˈmas/",
+            "translation": "我会说三种语言。",
+            "note": "表达能力时，‘poder’相当于‘能够’。"
+          },
+          {
+            "original": "¿Puedo usar tu teléfono, por favor?",
+            "phonetic": "/pweðo uˈsaɾ tu teleˈfono por faˈβoɾ/",
+            "translation": "我可以用一下你的电话吗，拜托？",
+            "note": "在请求许可时，‘por favor’常用于礼貌表达。"
+          },
+          {
+            "original": "No podemos fumar aquí.",
+            "phonetic": "/no pweˈðemos fuˈmaɾ aˈki/",
+            "translation": "我们不能在这里吸烟。",
+            "note": "否定形式直接在‘poder’前加‘no’。"
+          },
+          {
+            "original": "¿Podemos ir al cine esta noche?",
+            "phonetic": "/pweˈðemos iɾ al ˈθine ˈesta ˈnotʃe/",
+            "translation": "我们今晚能去看电影吗？",
+            "note": "疑问句中动词变位与主语一致。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🔥",
+    "phonetic": "",
+    "translations": {
+      "zh": "情态动词：应该、必须、能"
+    }
+  },
+  {
+    "id": "zh_A2_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verbos reflexivos / 自反动词",
+    "bridge": "在中文中，我们经常用‘自己’（zìjǐ）或‘把自己’（bǎ zìjǐ）来表示动作反身于主语，例如‘我洗自己’（Wǒ xǐ zìjǐ）。但在西班牙语中，反身动词通过动词词尾的‘-se’（如‘lavarse’）和主语的人称变位来表达，不需要额外的代词。中文母语者常会忽略西班牙语中反身代词的位置和变位规则，导致句子结构错误。",
+    "rule": "西班牙语反身动词由动词原形加‘-se’构成（如‘lavarse’洗自己），使用时需根据主语人称变位，并在动词前加对应的反身代词（me, te, se, nos, os, se）。变位规则与普通动词相同，但需注意：\n1. 第一、二人称复数（nosotros/as, vosotros/as）的反身代词与主语一致。\n2. 第三人称单复数（él/ella/usted, ellos/ellas/ustedes）使用‘se’。\n3. 反身代词位置：肯定句中放在动词前（如‘Me levanto’），否定句中放在‘no’后（如‘No me levanto’），疑问句中放在主语前（如‘¿Te levantas?’）。\n4. 部分动词（如‘llamarse’）仅用于反身形式，无非反身用法。\n5. 与助动词连用时，反身代词放在助动词前（如‘Voy a levantarme’）。",
+    "concept_examples": [
+      {
+        "text": "Me levanto a las siete de la mañana.",
+        "translation": "我早上七点起床。",
+        "phonetic": "/me leˈβanto a las ˈsjete de la maˈɲana/"
+      },
+      {
+        "text": "¿Te lavas las manos antes de comer?",
+        "translation": "你吃饭前洗手吗？",
+        "phonetic": "/te ˈlaβas las ˈmanos anˈtes de koˈmeɾ/"
+      },
+      {
+        "text": "Se acuesta muy tarde los fines de semana.",
+        "translation": "他周末睡得很晚。",
+        "phonetic": "/se aˈkwesta ˈmui ˈtarde los ˈfines de semaˈna/"
+      },
+      {
+        "text": "Nos vestimos rápidamente porque tenemos prisa.",
+        "translation": "我们穿得很快因为赶时间。",
+        "phonetic": "/nos βesˈtimoz raˈpidamente ˈporke teˈnemos ˈpɾisa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo lavo en la mañana.",
+      "correct": "Me lavo en la mañana.",
+      "correct_alt": "",
+      "explanation": "中文母语者常直接用动词原形加主语，忽略西班牙语中反身动词需要加反身代词的规则。正确句子应为‘Me lavo’（我洗自己），其中‘me’是反身代词，表示动作反身于主语。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Identificar verbos reflexivos",
+        "translation": "识别反身动词",
+        "examples": [
+          {
+            "original": "Llamarse",
+            "phonetic": "/ʝaˈmaɾse/",
+            "translation": "叫做（用于姓名）",
+            "note": "强调动词原形以‘-se’结尾，仅用于反身形式。"
+          },
+          {
+            "original": "Lavarse",
+            "phonetic": "/laˈβaɾse/",
+            "translation": "洗自己",
+            "note": "常用于日常卫生动作，如洗手、洗脸。"
+          },
+          {
+            "original": "Despertarse",
+            "phonetic": "/despeɾˈtaɾse/",
+            "translation": "醒来",
+            "note": "注意重音在第二音节，与‘despertar’（唤醒他人）区分。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Conjugar verbos reflexivos en presente",
+        "translation": "现在时变位",
+        "examples": [
+          {
+            "original": "Yo me ducho por la mañana.",
+            "phonetic": "/ʝo me ˈduʃto poɾ la maˈɲana/",
+            "translation": "我早上洗澡。",
+            "note": "‘ducharse’变位为‘me ducho’，反身代词‘me’与主语‘yo’对应。"
+          },
+          {
+            "original": "Tú te peinas el pelo antes de salir.",
+            "phonetic": "/tu te ˈpeinas el ˈpeɾo anˈtes de saˈliɾ/",
+            "translation": "你出门前梳头发。",
+            "note": "‘peinarse’变位为‘te peinas’，反身代词‘te’与主语‘tú’对应。"
+          },
+          {
+            "original": "Ellos se afeitan la barba todos los días.",
+            "phonetic": "/ˈeʝos se afeiˈtan la ˈβaɾβa ˈtodos los ˈdias/",
+            "translation": "他们每天刮胡子。",
+            "note": "‘afeitarse’第三人称复数变位为‘se afeitan’，反身代词‘se’与主语‘ellos’对应。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Usar verbos reflexivos en contextos negativos e interrogativos",
+        "translation": "否定句和疑问句用法",
+        "examples": [
+          {
+            "original": "No me maquillo los domingos.",
+            "phonetic": "/no me maˈkilo los doˈmingos/",
+            "translation": "我周日不化妆。",
+            "note": "否定句中，‘no’放在反身代词前，‘me maquillo’变为‘no me maquillo’。"
+          },
+          {
+            "original": "¿Te pones los zapatos rápidamente?",
+            "phonetic": "/te ˈpones los saˈpatos raˈpidamente/",
+            "translation": "你穿鞋快吗？",
+            "note": "疑问句中，反身代词‘te’放在主语前，动词变位保持不变。"
+          },
+          {
+            "original": "No nos acostamos tarde los días de semana.",
+            "phonetic": "/no nos akosˈtamos ˈtarde los ˈdias de semaˈna/",
+            "translation": "我们工作日不睡得晚。",
+            "note": "‘acostarse’否定句变位为‘no nos acostamos’，反身代词‘nos’与主语‘nosotros’对应。"
+          },
+          {
+            "original": "¿Se levanta ella a las seis?",
+            "phonetic": "/se leˈβanta ˈeʝa a las ˈseis/",
+            "translation": "她六点起床吗？",
+            "note": "疑问句中，反身代词‘se’放在主语前，动词变位为第三人称单数。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🪞",
+    "phonetic": "",
+    "translations": {
+      "zh": "自反动词"
+    }
+  },
+  {
+    "id": "zh_A2_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronombres de objeto directo e indirecto / 直接宾语和间接宾语代词",
+    "bridge": "在中文中，宾语通常直接放在动词后面，不需要使用代词来替代（如「我看书」），而西班牙语中宾语代词（直接或间接）必须放在动词前面（如「Lo veo」）。中文没有宾语位置的限制，但西班牙语的宾语代词位置固定，且需要根据宾语的性数变化。此外，西班牙语中直接宾语和间接宾语的代词形式不同，需要区分清楚。",
+    "rule": "1. 直接宾语代词（OD）用于替代句子中直接受动词影响的名词，形式为：me, te, lo/la, nos, os, los/las。\n2. 间接宾语代词（OI）用于替代句子中动作的接受者，形式为：me, te, le, nos, os, les。\n3. 当句子中同时有直接宾语和间接宾语代词时，顺序为：OI + OD。例如：「Me lo das」（你把它给我）。\n4. 代词通常放在动词前面，但在肯定命令式、不定式或副动词后面时，代词需要附着在动词后面（如：「Dámelo」）。\n5. 第三人称代词le/les在与lo/la/los/las同时出现时，le/les会变为se（如：「Se lo doy」）。\n6. 代词与动词连用时，需要注意重音位置（如：「dárselo」）。",
+    "concept_examples": [
+      {
+        "text": "Yo te veo.",
+        "translation": "我看见你。",
+        "phonetic": "/jo te ˈβe.o/"
+      },
+      {
+        "text": "Ella nos compra un regalo.",
+        "translation": "她给我们买一份礼物。",
+        "phonetic": "/ˈeʎa nos ˈkompra un reˈɣalo/"
+      },
+      {
+        "text": "Ellos leen el libro.",
+        "translation": "他们读这本书。",
+        "phonetic": "/ˈeʎos ˈle.en el ˈliβɾo/"
+      },
+      {
+        "text": "Nosotros le damos las llaves.",
+        "translation": "我们把钥匙给他。",
+        "phonetic": "/noˈso.tɾos le ˈða.mos las ˈʎa.βes/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo veo a ti.",
+      "correct": "Yo te veo.",
+      "correct_alt": "",
+      "explanation": "中文中可以说「我看你」，但在西班牙语中，宾语代词必须放在动词前面，不能直接跟在动词后面。直接宾语代词te替代了「a ti」，所以句子变为「Yo te veo」。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Pronombres de objeto directo",
+        "translation": "直接宾语代词",
+        "examples": [
+          {
+            "original": "Yo como la manzana.",
+            "phonetic": "/jo ˈko.mo la maˈnsa.na/",
+            "translation": "我吃苹果。",
+            "note": "直接宾语代词la替代「la manzana」，句子变为「Yo la como.」"
+          },
+          {
+            "original": "Ellos compran los libros.",
+            "phonetic": "/ˈeʎos ˈkom.pɾan los ˈli.βɾos/",
+            "translation": "他们买书。",
+            "note": "直接宾语代词los替代「los libros」，句子变为「Ellos los compran.」"
+          },
+          {
+            "original": "Tú tienes el lápiz.",
+            "phonetic": "/tu ˈtje.nes el ˈla.pis/",
+            "translation": "你有铅笔。",
+            "note": "直接宾语代词lo替代「el lápiz」，句子变为「Tú lo tienes.」"
+          },
+          {
+            "original": "Nosotros vemos a María.",
+            "phonetic": "/noˈso.tɾos ˈβe.mos a maˈɾi.a/",
+            "translation": "我们看玛丽亚。",
+            "note": "直接宾语代词la替代「a María」，句子变为「Nosotros la vemos.」"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Pronombres de objeto indirecto",
+        "translation": "间接宾语代词",
+        "examples": [
+          {
+            "original": "Yo doy un regalo a ti.",
+            "phonetic": "/jo ˈðo un reˈɣa.lo a ti/",
+            "translation": "我给你一份礼物。",
+            "note": "间接宾语代词te替代「a ti」，句子变为「Yo te doy un regalo.」"
+          },
+          {
+            "original": "Ellos envían una carta a nosotros.",
+            "phonetic": "/ˈeʎos emˈbjan ˈu.na ˈkaɾ.ta a noˈso.tɾos/",
+            "translation": "他们给我们寄一封信。",
+            "note": "间接宾语代词nos替代「a nosotros」，句子变为「Ellos nos envían una carta.」"
+          },
+          {
+            "original": "Tú compras flores para ella.",
+            "phonetic": "/tu ˈkom.pɾas ˈflo.ɾes ˈpa.ɾa ˈeʎa/",
+            "translation": "你给她买花。",
+            "note": "间接宾语代词le替代「para ella」，句子变为「Tú le compras flores.」"
+          },
+          {
+            "original": "Nosotros decimos la verdad a ellos.",
+            "phonetic": "/noˈso.tɾos deˈθi.mos la βeɾˈðað a ˈeʎos/",
+            "translation": "我们跟他们说实话。",
+            "note": "间接宾语代词les替代「a ellos」，句子变为「Nosotros les decimos la verdad.」"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Combinación de pronombres de objeto directo e indirecto",
+        "translation": "直接和间接宾语代词的组合",
+        "examples": [
+          {
+            "original": "Yo doy el libro a ti.",
+            "phonetic": "/jo ˈðo el ˈli.βɾo a ti/",
+            "translation": "我把书给你。",
+            "note": "直接宾语代词lo替代「el libro」，间接宾语代词te替代「a ti」。顺序为te + lo，句子变为「Yo te lo doy.」"
+          },
+          {
+            "original": "Ellos compran flores para nosotros.",
+            "phonetic": "/ˈeʎos ˈkom.pɾan ˈflo.ɾes ˈpa.ɾa noˈso.tɾos/",
+            "translation": "他们给我们买花。",
+            "note": "直接宾语代词las替代「flores」，间接宾语代词nos替代「para nosotros」。顺序为nos + las，句子变为「Ellos nos las compran.」"
+          },
+          {
+            "original": "Tú das el dinero a ella.",
+            "phonetic": "/tu ˈðas el diˈne.ɾo a ˈeʎa/",
+            "translation": "你把钱给她。",
+            "note": "直接宾语代词lo替代「el dinero」，间接宾语代词le替代「a ella」。顺序为le + lo，但le变为se，句子变为「Tú se lo das.」"
+          },
+          {
+            "original": "Nosotros enviamos las cartas a ellos.",
+            "phonetic": "/noˈso.tɾos emˈbja.mos las ˈkaɾ.tas a ˈeʎos/",
+            "translation": "我们把信寄给他们。",
+            "note": "直接宾语代词las替代「las cartas」，间接宾语代词les替代「a ellos」。顺序为les + las，les变为se，句子变为「Nosotros se las enviamos.」"
+          }
+        ]
+      },
+      {
+        "emoji": "👥",
+        "phonetic": "",
+        "translations": {
+          "zh": "直接宾语和间接宾语代词"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh_A2_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Adverbios de frecuencia / 频率副词",
+    "bridge": "在中文中，我们通常用‘经常’、‘有时候’、‘很少’等副词直接修饰动词，位置灵活（如‘我经常去公园’或‘我去公园经常’）。但在西班牙语中，频率副词必须放在动词前（如‘Yo siempre voy al parque’），或在‘ser’/‘estar’后（如‘Siempre estoy cansado’）。此外，西班牙语的频率副词有明确的位置规则，而中文较为自由。初学者常会将中文的灵活位置直接套用到西班牙语中，导致语序错误。",
+    "rule": "西班牙语频率副词的用法规则如下：\n1. 位置：\n   - 通常放在动词前（如‘Siempre como en casa’）。\n   - 如果句子有助动词（如‘haber’的变位形式），则放在助动词和主要动词之间（如‘Siempre he comido aquí’）。\n   - 如果句子有‘ser’或‘estar’，则放在这些动词后（如‘Estoy siempre cansado’）。\n2. 常见频率副词及其位置：\n   - siempre（总是）：‘Siemptre estudio español’（动词前）或‘Estoy siempre ocupado’（ser/estar后）。\n   - nunca（从不）：‘Nunca como carne’（动词前）。\n   - a veces（有时）：‘A veces voy al cine’（动词前）。\n   - casi nunca（几乎不）：‘Casi nunca salgo los fines de semana’（动词前）。\n   - de vez en cuando（偶尔）：‘De vez en cuando como sushi’（动词前）。\n3. 否定句中：频率副词通常放在动词前（如‘No como nunca carne’），但‘nunca’也可置于句首（如‘Nunca como carne’）。\n4. 疑问句中：频率副词通常放在动词前（如‘¿Siempre estudias español?’）。",
+    "concept_examples": [
+      {
+        "text": "Yo siempre desayuno café con tostadas.",
+        "translation": "我总是早餐喝咖啡配吐司。",
+        "phonetic": "/jo ˈsjem.pɾe ðes.aj.ˈu.no ˈka.fe kon tosˈta.ðas/"
+      },
+      {
+        "text": "Ellos casi nunca van al gimnasio.",
+        "translation": "他们几乎从不去健身房。",
+        "phonetic": "/ˈe.ʝos ˈkas.i ˈnuŋ.ka βan al xiˈma.nsjo/"
+      },
+      {
+        "text": "¿A veces comes pescado?",
+        "translation": "你有时候吃鱼吗？",
+        "phonetic": "/a ˈβe.θes ˈko.mes pesˈka.ðo/"
+      },
+      {
+        "text": "María está siempre ocupada.",
+        "translation": "玛丽亚总是很忙。",
+        "phonetic": "/maˈɾi.a esˈta ˈsjem.pɾe o.kuˈpa.ða/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo voy siempre al gimnasio.",
+      "correct": "Yo siempre voy al gimnasio.",
+      "correct_alt": "",
+      "explanation": "中文中‘我总是去健身房’的语序可以接受，但在西班牙语中，‘siempre’必须放在动词‘voy’前。这是因为西班牙语的频率副词在陈述句中通常位于动词前，除非动词是‘ser’或‘estar’。初学者常会将中文的语序直接翻译，导致错误。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Frecuencia alta",
+        "translation": "高频率",
+        "examples": [
+          {
+            "original": "Siempre estudio español por la mañana.",
+            "phonetic": "/ˈsjem.pɾe esˈtu.djo es.paˈɲol poɾ la maˈɲa.na/",
+            "translation": "我总是早上学习西班牙语。",
+            "note": "‘siempre’放在动词前，表示‘总是’的高频率。"
+          },
+          {
+            "original": "Ellas siempre cantan en la ducha.",
+            "phonetic": "/ˈe.ʝas ˈsjem.pɾe ˈkan.tan en la ˈdu.tʃa/",
+            "translation": "她们总是在淋浴时唱歌。",
+            "note": "动词前的‘siempre’强调动作的高频率。"
+          },
+          {
+            "original": "Estoy siempre feliz los viernes.",
+            "phonetic": "/esˈtoj ˈsjem.pɾe feˈlis los ˈbje.ɾnes/",
+            "translation": "我每个周五总是很开心。",
+            "note": "‘ser’/‘estar’后的‘siempre’强调状态的持续性。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frecuencia media y baja",
+        "translation": "中低频率",
+        "examples": [
+          {
+            "original": "A veces como paella los domingos.",
+            "phonetic": "/a ˈβe.θes ˈko.mo paˈe.ʝa los ðoˈmiŋ.gos/",
+            "translation": "我有时候周日吃海鲜饭。",
+            "note": "‘a veces’表示‘有时候’，放在动词前。"
+          },
+          {
+            "original": "Casi nunca veo películas de terror.",
+            "phonetic": "/ˈkas.i ˈnuŋ.ka ˈβe.o peˈli.ku.las ðe teˈror/",
+            "translation": "我几乎从不看恐怖片。",
+            "note": "‘casi nunca’表示‘几乎不’，放在动词前。"
+          },
+          {
+            "original": "De vez en cuando viajo a la playa.",
+            "phonetic": "/de βes en ˈkwan.do ˈbja.xo a la ˈpla.ʝa/",
+            "translation": "我偶尔去海滩。",
+            "note": "‘de vez en cuando’表示‘偶尔’，放在动词前。"
+          },
+          {
+            "original": "Nunca bebo alcohol.",
+            "phonetic": "/ˈnuŋ.ka ˈβe.βo al.koˈol/",
+            "translation": "我从不喝酒。",
+            "note": "‘nunca’表示‘从不’，放在动词前。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frecuencia en preguntas y negaciones",
+        "translation": "疑问句与否定句中的频率",
+        "examples": [
+          {
+            "original": "¿Siempre llegas tarde al trabajo?",
+            "phonetic": "/ˈsjem.pɾe ˈʝe.ɣas ˈtaɾ.ðe al traˈβa.xo/",
+            "translation": "你总是上班迟到吗？",
+            "note": "疑问句中，‘siempre’放在动词前。"
+          },
+          {
+            "original": "No como nunca carne.",
+            "phonetic": "/no ˈko.mo ˈnuŋ.ka ˈkaɾ.ne/",
+            "translation": "我从不吃肉。",
+            "note": "否定句中，‘nunca’放在动词前，‘no’在句首。"
+          },
+          {
+            "original": "Nunca comes verduras, ¿verdad?",
+            "phonetic": "/ˈnuŋ.ka ˈko.mes βeɾˈðu.ɾas ˈbeɾ.ðað/",
+            "translation": "你从不吃蔬菜，是吧？",
+            "note": "‘nunca’也可置于句首，表示强调。"
+          },
+          {
+            "original": "¿A veces estudias con amigos?",
+            "phonetic": "/a ˈβe.θes esˈtu.ðjas kon aˈmi.ɣos/",
+            "translation": "你有时候和朋友一起学习吗？",
+            "note": "疑问句中，‘a veces’放在动词前。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "zh": "频率副词"
+    }
+  },
+  {
+    "id": "zh_A2_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Preposiciones de tiempo / 时间介词",
+    "bridge": "在中文中，表示时间的介词非常简单，通常直接用\"在\"（如\"在早上\"）或直接加时间词（如\"明天\"）。但在西班牙语中，时间介词的使用更加细致，需要根据具体时间点（如\"a las\"用于具体时刻）或时间段（如\"en\"用于月份、年份）来选择。中文母语者常常忽略西班牙语中介词与时间表达的强制搭配，导致直接翻译或遗漏介词。例如，中文说\"我下午三点见他\"，西班牙语必须说\"Lo veo a las tres de la tarde\"，不能省略\"a las\"。",
+    "rule": "西班牙语时间介词的核心规则如下：\n1. **a las / a la**：用于具体时刻（小时+分钟）。例如：\"a las tres\"（三点钟）、\"a las ocho y media\"（八点半）。注意：\"a\"不能省略，且\"las\"用于复数小时（3点以上），\"la\"用于1点（\"a la una\"）。\n2. **en**：用于月份、年份、季节或较长的时间段。例如：\"en enero\"（一月）、\"en 2025\"（2025年）、\"en verano\"（夏天）。\n3. **de**：用于表示时间段的起点或终点。例如：\"de lunes a viernes\"（从周一到周五）、\"de la mañana a la noche\"（从早上到晚上）。\n4. **por**：用于泛指的时间段（如\"por la mañana\"表示\"在早上\"，但不特指具体几点）。\n5. **durante**：强调整个时间段内持续的动作，如\"durante el verano\"（整个夏天）。\n\n异常情况：\n- \"hoy\"（今天）、\"mañana\"（明天）、\"ayer\"（昨天）等副词无需介词。\n- \"este/esta + 时间名词\"（如\"esta semana\"）无需介词。\n- \"el + 时间名词\"（如\"el lunes\"）表示特定日期时，无需介词。",
+    "concept_examples": [
+      {
+        "text": "La clase empieza a las nueve de la mañana.",
+        "translation": "课程上午九点开始。",
+        "phonetic": "/la ˈklase emˈpjeθa a las ˈnweβe ðe la maˈɲana/"
+      },
+      {
+        "text": "Vamos al cine en enero.",
+        "translation": "我们一月份去看电影。",
+        "phonetic": "/ˈbamos al ˈθine en eˈneɾo/"
+      },
+      {
+        "text": "Trabajo de lunes a viernes.",
+        "translation": "我从周一工作到周五。",
+        "phonetic": "/traˈβaxo ðe ˈlunes a ˈbjeɾnes/"
+      },
+      {
+        "text": "Por la tarde estudio español.",
+        "translation": "下午我学习西班牙语。",
+        "phonetic": "/por la ˈtaɾðe esˈtuðjo espaˈɲol/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La clase empieza nueve de la mañana.",
+      "correct": "La clase empieza a las nueve de la mañana.",
+      "correct_alt": "",
+      "explanation": "中文母语者常常忽略西班牙语中表示具体时刻时必须使用\"a las\"。\"nueve de la mañana\"在中文中是\"上午九点\"，但在西班牙语中，\"nueve\"是具体时刻，必须加介词\"a\"。类似错误还有\"Vamos al cine enero\"（应为\"en enero\"）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Horas específicas (a las)",
+        "translation": "具体时刻（用a las）",
+        "examples": [
+          {
+            "original": "El tren sale a las cinco.",
+            "phonetic": "/el tɾen ˈsale a las ˈθiŋko/",
+            "translation": "火车五点发车。",
+            "note": "强调\"a las\"用于具体小时，且小时为复数时用\"las\"。"
+          },
+          {
+            "original": "La reunión es a la una.",
+            "phonetic": "/la reuˈnjon es a la ˈuna/",
+            "translation": "会议一点钟开始。",
+            "note": "1点钟用\"a la una\"，注意\"la\"的用法。"
+          },
+          {
+            "original": "Termino a las dos y cuarto.",
+            "phonetic": "/ˈteɾmino a las ðos i ˈkwaɾto/",
+            "translation": "我两点一刻结束。",
+            "note": "包含分钟时，用\"y + 数字\"表示。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Meses, años y estaciones (en)",
+        "translation": "月份、年份和季节（用en）",
+        "examples": [
+          {
+            "original": "Nací en marzo.",
+            "phonetic": "/naˈθi en ˈmaɾθo/",
+            "translation": "我三月出生。",
+            "note": "月份前必须用\"en\"，注意月份首字母大写。"
+          },
+          {
+            "original": "Viajamos en 2024.",
+            "phonetic": "/ˈbjaxamos en doðe mil ˈbentekwaˈtɾo/",
+            "translation": "我们2024年旅行。",
+            "note": "年份前用\"en\"，注意年份的读法。"
+          },
+          {
+            "original": "Me gusta esquiar en invierno.",
+            "phonetic": "/me ˈɡusta esˈkjaɾ en imˈbjeɾno/",
+            "translation": "我冬天喜欢滑雪。",
+            "note": "季节前用\"en\"，注意\"invierno\"的发音。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Períodos y rangos de tiempo (de, por, durante)",
+        "translation": "时间段和范围（用de, por, durante）",
+        "examples": [
+          {
+            "original": "Trabajo de ocho a cinco.",
+            "phonetic": "/traˈβaxo ðe ˈotʃo a ˈθiŋko/",
+            "translation": "我从八点工作到五点。",
+            "note": "\"de...a...\"表示时间范围，用于起点和终点。"
+          },
+          {
+            "original": "Estudio por la tarde.",
+            "phonetic": "/esˈtuðjo por la ˈtaɾðe/",
+            "translation": "我下午学习。",
+            "note": "\"por\"表示泛指的时间段，不强调具体时刻。"
+          },
+          {
+            "original": "Durmió durante el viaje.",
+            "phonetic": "/duɾˈmjo duˈɾante el ˈbjaxe/",
+            "translation": "他在旅途中睡觉。",
+            "note": "\"durante\"强调整个时间段内的动作。"
+          },
+          {
+            "original": "De lunes a viernes tengo clases.",
+            "phonetic": "/ðe ˈlunes a ˈbjeɾnes ˈteŋɡo ˈklases/",
+            "translation": "从周一到周五我有课。",
+            "note": "\"de...a...\"也可用于一周的范围。"
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "zh": "时间介词"
+    }
+  },
+  {
+    "id": "zh_A2_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Conjunciones para conectar ideas / 连接词",
+    "bridge": "在中文中，连词通常直接连接两个短语或句子，如‘和’、‘但是’、‘因为’等，位置相对灵活。而在西班牙语中，连词的使用更加规范，需要注意主句和从句的时态配合、连词的位置固定性（如‘porque’只能放在句首或句中，不能放句尾），以及某些连词（如‘pero’）与中文对应词的细微差别。此外，西班牙语中连词引导的从句动词需要使用虚拟式的情况也与中文不同，需特别注意。",
+    "rule": "西班牙语中的常用连词及其用法规则：\n1. **y (和)**：连接两个并列成分，无性数变化。注意在元音前变为‘e’（ej: pan y mantequilla / pan e higos）。\n2. **pero (但是)**：表转折，强调对比。与中文‘但是’用法相似，但西班牙语中‘pero’后可直接接句子，无需逗号。\n3. **o (或)**：表选择，在元音前变为‘u’（ej: ¿café o té? / ¿pan u higos?）。\n4. **porque (因为)**：引导原因状语从句，只能放在句首或句中，不能放句尾。动词用陈述式。\n5. **cuando (当...时)**：引导时间状语从句，主句和从句动词时态需配合（主句将来时，从句用现在时）。\n6. **si (如果)**：引导条件状语从句，主句用将来时或命令式，从句用现在时。\n\n注意事项：\n- 连词引导的从句动词时态需与主句保持一致（如条件句中‘si’从句用现在时，主句用将来时）。\n- ‘porque’不能放句尾，‘por eso’（因此）可放句首或句中。\n- ‘y’在元音前变为‘e’，‘o’在元音前变为‘u’是书写规则，发音不变。",
+    "concept_examples": [
+      {
+        "text": "Quiero café y té.",
+        "translation": "我想要咖啡和茶。",
+        "phonetic": "[ˈkjeɾo ˈkafe i ˈte]"
+      },
+      {
+        "text": "Estudio español pero no hablo bien.",
+        "translation": "我学西班牙语，但说得不好。",
+        "phonetic": "[esˈtuðjo espaˈɲol ˈpeɾo no ˈaβlo βjen]"
+      },
+      {
+        "text": "¿Vas al cine o al teatro?",
+        "translation": "你去电影院还是剧院？",
+        "phonetic": "[bas al ˈθine o al teˈa.tɾo]"
+      },
+      {
+        "text": "No salgo porque llueve.",
+        "translation": "我不出去，因为下雨。",
+        "phonetic": "[no ˈsalɣo porˈke ˈʎweβe]"
+      }
+    ],
+    "common_error": {
+      "wrong": "No salgo, llueve porque.",
+      "correct": "No salgo porque llueve.",
+      "correct_alt": "Porque llueve, no salgo.",
+      "explanation": "中文中‘因为下雨’可以放在句尾，但西班牙语中‘porque’引导的原因状语从句必须放在句首或句中，不能放句尾。错误句子将‘porque’放在句尾，违反了西班牙语的语序规则。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Conectores básicos (y, pero, o)",
+        "translation": "基础连词（和、但是、或）",
+        "examples": [
+          {
+            "original": "Me gusta el pan y la mantequilla.",
+            "phonetic": "[me ˈɣusta el pan i la manteˈβiʎa]",
+            "translation": "我喜欢面包和黄油。",
+            "note": "‘y’连接两个名词，注意元音前的变体规则。"
+          },
+          {
+            "original": "Quiero ir al cine, pero no tengo tiempo.",
+            "phonetic": "[ˈkjeɾo iɾ al ˈθine ˈpeɾo no ˈteŋɡo ˈtjempo]",
+            "translation": "我想去电影院，但没有时间。",
+            "note": "‘pero’表转折，直接连接两个句子，无需逗号。"
+          },
+          {
+            "original": "¿Prefieres té o café?",
+            "phonetic": "[pɾeˈfjeɾes te o kaˈfe]",
+            "translation": "你更喜欢茶还是咖啡？",
+            "note": "‘o’表选择，元音前不变。"
+          },
+          {
+            "original": "Tengo hambre e iré a comer algo.",
+            "phonetic": "[ˈteŋɡo ˈambɾe e iˈɾe a koˈmeɾ ˈalɣo]",
+            "translation": "我饿了，所以会去吃点东西。",
+            "note": "‘e’是‘y’在元音前的变体，用于‘hambre’（以元音开头）后。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Conectores de causa y tiempo (porque, cuando)",
+        "translation": "因果和时间连词（因为、当...时）",
+        "examples": [
+          {
+            "original": "No salgo porque hace frío.",
+            "phonetic": "[no ˈsalɣo porˈke ˈaθe ˈfɾio]",
+            "translation": "我不出去，因为天冷。",
+            "note": "‘porque’引导原因从句，动词用陈述式。"
+          },
+          {
+            "original": "Cuando llegues, llámame.",
+            "phonetic": "[ˈkwaŋdo ˈʎeɣwes ˈʎamame]",
+            "translation": "当你到达时，给我打电话。",
+            "note": "‘cuando’引导时间从句，主句动词用命令式，从句用现在时。"
+          },
+          {
+            "original": "Estudio español porque quiero viajar.",
+            "phonetic": "[esˈtuðjo espaˈɲol porˈke ˈkjeɾo βjaˈxaɾ]",
+            "translation": "我学西班牙语，因为我想旅行。",
+            "note": "主句和从句动词时态一致（现在时）。"
+          },
+          {
+            "original": "Cuando era niño, vivía en China.",
+            "phonetic": "[ˈkwaŋdo ˈeɾa ˈniɲo βiˈβia en ˈtʃina]",
+            "translation": "当我还是孩子时，住在中国。",
+            "note": "‘cuando’引导过去时间从句，主句和从句动词均用过去时。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Conectores de condición (si)",
+        "translation": "条件连词（如果）",
+        "examples": [
+          {
+            "original": "Si estudias mucho, aprobarás el examen.",
+            "phonetic": "[si esˈtuðjas ˈmutʃo aprobaˈɾas el ekˈsamen]",
+            "translation": "如果你努力学习，就会通过考试。",
+            "note": "主句用将来时，从句用现在时。"
+          },
+          {
+            "original": "Si tienes hambre, come algo.",
+            "phonetic": "[si ˈtjenes ˈambɾe ˈkome ˈalɣo]",
+            "translation": "如果你饿了，就吃点东西。",
+            "note": "主句用命令式，从句用现在时。"
+          },
+          {
+            "original": "No iré si llueve.",
+            "phonetic": "[no iˈɾe si ˈʎweβe]",
+            "translation": "如果下雨，我就不去。",
+            "note": "否定句中，‘si’从句仍用现在时。"
+          },
+          {
+            "original": "Si quieres, podemos ir al parque.",
+            "phonetic": "[si ˈkjeɾes poˈðemos iɾ al ˈpaɾke]",
+            "translation": "如果你愿意，我们可以去公园。",
+            "note": "主句用陈述式将来时，‘si’从句用现在时。"
+          }
+        ]
+      },
+      {
+        "emoji": "🔗",
+        "phonetic": "",
+        "translations": {
+          "zh": "连接词"
+        }
+      }
+    ]
+  },
+  {
+    "id": "zh_A2_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Presente perfecto simple / 现在完成时的基础用法",
+    "bridge": "在中文中，我们常用‘已经’（yǐjīng）或‘了’（le）来表示已经完成的动作，如‘我已经吃饭了’（Wǒ yǐjīng chī fàn le）。但在西班牙语中，现在完成时（pretérito perfecto）用于表达最近完成的动作或与现在有关联的经历，结构为‘haber’（助动词）+过去分词。注意：西班牙语的现在完成时不能用于已完成的过去事件（如‘昨天’‘去年’），这与中文的‘了’用法不同。",
+    "rule": "西班牙语现在完成时（pretérito perfecto）的构成：助动词‘haber’的现在时变位 + 动词过去分词。\n1. 动词变位：\n   - haber: he, has, ha, hemos, habéis, han\n   - 过去分词：规则动词以-ar结尾变为‘-ado’，以-er/-ir结尾变为‘-ido’。例如：hablar → hablado, comer → comido, vivir → vivido。\n2. 用法：\n   - 表达最近完成的动作（与现在相关）：He comido hoy（我今天吃了饭）。\n   - 表达未指定时间的经历：He visitado Madrid（我去过马德里）。\n   - 与‘ya’（已经）、‘todavía no’（还没有）等副词连用：Ya he terminado（我已经完成了）。\n3. 不规则过去分词：常见的有：abrir → abierto, escribir → escrito, hacer → hecho, decir → dicho, ver → visto。\n4. 否定句：在‘haber’前加‘no’：No he visto esa película（我没看过那部电影）。\n5. 疑问句：¿Has terminado?（你完成了吗？）。",
+    "concept_examples": [
+      {
+        "text": "He estudiado español este año.",
+        "translation": "我今年学了西班牙语。",
+        "phonetic": "/e ˈes.tuˈðjað oˈpaɲol eˈste aɲo/"
+      },
+      {
+        "text": "¿Has visto esa película?",
+        "translation": "你看过那部电影吗？",
+        "phonetic": "/as ˈbis.to ˈesa peˈlikula/"
+      },
+      {
+        "text": "No hemos comido todavía.",
+        "translation": "我们还没有吃饭。",
+        "phonetic": "/no ˈe.mos koˈmiðo to.ðaˈβi.a/"
+      },
+      {
+        "text": "Ellos han abierto la puerta.",
+        "translation": "他们已经打开了门。",
+        "phonetic": "/ˈe.ʝos an aˈβjeɾ.to la ˈpweɾ.ta/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo he comido ayer.",
+      "correct": "Yo comí ayer.",
+      "correct_alt": "",
+      "explanation": "中文中‘我昨天吃了饭’可以用‘了’表示完成，但在西班牙语中，现在完成时不能与明确的过去时间（如‘ayer’‘el año pasado’）连用。此时应使用简单过去时（pretérito indefinido）。错误原因：混淆了现在完成时（与现在相关）和简单过去时（明确过去时间）的用法。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Formación básica",
+        "translation": "基本构成",
+        "examples": [
+          {
+            "original": "He hablado con mi amigo.",
+            "phonetic": "/e aˈβla.ðo kon mi aˈmi.ɣo/",
+            "translation": "我和我的朋友说过话。",
+            "note": "强调‘haber’的变位和过去分词的构成规则。"
+          },
+          {
+            "original": "Has terminado tu tarea.",
+            "phonetic": "/as teɾ.miˈna.ðo tu taˈɾe.a/",
+            "translation": "你完成作业了吗？",
+            "note": "练习第二人称单数的变位。"
+          },
+          {
+            "original": "Ella ha abierto la ventana.",
+            "translation": "她已经打开了窗户。",
+            "phonetic": "/ˈe.ʝa a aˈβjeɾ.to la βenˈta.na/",
+            "note": "引入不规则过去分词‘abrir → abierto’。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso con marcadores temporales",
+        "translation": "与时间标记词的用法",
+        "examples": [
+          {
+            "original": "Hoy he trabajado mucho.",
+            "phonetic": "/oi e tra.baˈxa.ðo ˈmu.tʃo/",
+            "translation": "我今天工作了很多。",
+            "note": "‘hoy’（今天）表示最近完成的动作。"
+          },
+          {
+            "original": "Esta semana he viajado a Barcelona.",
+            "phonetic": "/ˈes.ta seˈma.na e βjaˈxa.ðo a βar.θeˈlo.na/",
+            "translation": "这周我去了巴塞罗那。",
+            "note": "‘esta semana’（这周）与现在完成时搭配。"
+          },
+          {
+            "original": "¿Has estado alguna vez en México?",
+            "phonetic": "/as esˈta.ðo alˈɣu.na βes en meˈxi.ko/",
+            "translation": "你去过墨西哥吗？",
+            "note": "‘alguna vez’（曾经）用于询问经历。"
+          },
+          {
+            "original": "No he visto esa película todavía.",
+            "phonetic": "/no e ˈbis.to ˈe.sa peˈli.ku.la to.ðaˈβi.a/",
+            "translation": "我还没有看过那部电影。",
+            "note": "‘todavía no’（还没有）与现在完成时否定句搭配。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Comparación con el pretérito indefinido",
+        "translation": "与简单过去时的比较",
+        "examples": [
+          {
+            "original": "He vivido en Madrid dos años. (现在完成时)",
+            "phonetic": "/e βiˈβi.ðo en maˈðɾið ðos aˈɲos/",
+            "translation": "我在马德里住过两年。",
+            "note": "强调经历，不强调具体时间。"
+          },
+          {
+            "original": "Viví en Madrid dos años. (简单过去时)",
+            "phonetic": "/biˈβi en maˈðɾið ðos aˈɲos/",
+            "translation": "我在马德里住了两年（过去的具体时间）。",
+            "note": "强调过去的具体时间。"
+          },
+          {
+            "original": "¿Has leído ese libro? (现在完成时)",
+            "phonetic": "/as leˈi.ðo ˈe.se ˈli.βɾo/",
+            "translation": "你读过那本书吗？",
+            "note": "询问经历。"
+          },
+          {
+            "original": "Leí ese libro ayer. (简单过去时)",
+            "phonetic": "/leˈi ˈe.se ˈli.βɾo aˈʝeɾ/",
+            "translation": "我昨天读了那本书。",
+            "note": "明确过去时间，用简单过去时。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🕒",
+    "phonetic": "",
+    "translations": {
+      "zh": "西班牙语现在完成时的基础用法"
+    }
+  },
+  {
+    "id": "zh_A2_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Imperativo afirmativo y negativo / 肯定和否定命令式",
+    "bridge": "在中文中，命令句通常通过语气词（如‘吧’）或语调来表达，而动词形式不变。例如，‘吃饭！’和‘不要吃饭！’都是用相同的动词形式。但在西班牙语中，肯定和否定命令式的动词变位完全不同，且需要根据人称（tú, usted, ustedes等）进行变化。这会让中文母语者感到困惑，因为他们习惯用相同的动词形式表达命令，而忽略了西班牙语的变位规则。",
+    "rule": "西班牙语的命令式分为肯定和否定两种形式，且变位依人称而异。以下是A2水平需掌握的核心规则：\n\n1. **肯定命令式（Imperativo afirmativo）**：\n   - **tú**：使用第三人称单数现在时（él/ella）的形式，但部分动词有不规则变化。例如：hablar → habla, comer → come, vivir → vive。\n     - 不规则动词：decir → di, hacer → haz, ir → ve, poner → pon, salir → sal, ser → sé, tener → ten, venir → ven。\n   - **usted**：使用第一人称单数现在时的相反形式（-ar → -e, -er/-ir → -a）。例如：hablar → hable, comer → coma, vivir → viva。\n   - **ustedes**：在usted形式基础上加‘-n’。例如：hablen, coman, vivan。\n   - **vosotros**：使用-ar → -ad, -er → -ed, -ir → -id。例如：hablad, comed, vivid。\n\n2. **否定命令式（Imperativo negativo）**：\n   - 使用虚拟式现在时的相反形式（-ar → -es, -er/-ir → -as）。\n     - tú: no hables, no comas, no vivas。\n     - usted: no hable, no coma, no viva。\n     - ustedes: no hablen, no coman, no vivan。\n     - vosotros: no habléis, no comáis, no viváis。\n\n3. **特殊用法**：\n   - 否定命令式中，代词（如‘lo’, ‘la’）需放在动词前。例如：‘No lo comas’（不要吃它）。\n   - 肯定命令式中，代词需附着在动词后，并需根据音节调整重音。例如：‘Cómelo’（吃它）。\n   - 部分动词在肯定命令式中有重音变化，如‘decir’ → ‘di’（无重音），但‘decirselo’ → ‘díselo’。",
+    "concept_examples": [
+      {
+        "text": "¡Habla más despacio, por favor!",
+        "translation": "请说慢一点！",
+        "phonetic": "/ˈaβla mas desˈpasjo por faˈβoɾ/"
+      },
+      {
+        "text": "No comas eso, está podrido.",
+        "translation": "不要吃那个，它坏了。",
+        "phonetic": "/no ˈkomas ˈeso esta poˈðɾiðo/"
+      },
+      {
+        "text": "Escriban sus nombres en el papel.",
+        "translation": "请在纸上写下你们的名字。",
+        "phonetic": "/esˈkɾiban sus ˈnombɾes en el paˈpel/"
+      },
+      {
+        "text": "No salgáis tarde de la escuela.",
+        "translation": "不要太晚离开学校。",
+        "phonetic": "/no salˈɣais ˈtaɾðe ðe la esˈkwela/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¡No come eso, está malo!",
+      "correct": "No comas eso, está podrido.",
+      "correct_alt": "",
+      "explanation": "中文母语者常用‘come’的原形表达否定命令，忽略了西班牙语否定命令式需使用虚拟式现在时（-as/-es结尾）。‘come’是肯定命令式（tú）的形式，而否定命令式应为‘comas’。此外，‘malo’在西班牙语中表达‘坏的’时通常用于描述品质，而‘podrido’更适合形容食物‘腐烂’。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Imperativo afirmativo con 'tú'",
+        "translation": "使用‘tú’的肯定命令式",
+        "examples": [
+          {
+            "original": "¡Habla más alto!",
+            "phonetic": "/ˈaβla mas ˈalto/",
+            "translation": "大声说话！",
+            "note": "强调‘tú’的肯定命令式变位规则：使用第三人称单数现在时形式。"
+          },
+          {
+            "original": "Come la sopa antes de que se enfríe.",
+            "phonetic": "/ˈkome la ˈsopa ˈantes ðe ke se enˈfɾie/",
+            "translation": "趁汤还热，把它喝了。",
+            "note": "提醒不规则动词‘comer’的肯定命令式为‘come’（规则变化）。"
+          },
+          {
+            "original": "Pon el libro en la mesa.",
+            "phonetic": "/pon el ˈliβɾo en la ˈmesa/",
+            "translation": "把书放在桌子上。",
+            "note": "不规则动词‘poner’的肯定命令式为‘pon’（无重音变化）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Imperativo afirmativo con 'usted' y 'ustedes'",
+        "translation": "使用‘usted’和‘ustedes’的肯定命令式",
+        "examples": [
+          {
+            "original": "Señor, hable más despacio, por favor.",
+            "phonetic": "/seˈɲoɾ ˈaβle mas desˈpasjo por faˈβoɾ/",
+            "translation": "先生，请说慢一点。",
+            "note": "‘usted’的肯定命令式使用虚拟式现在时（-e/-a结尾）。"
+          },
+          {
+            "original": "Coman toda la comida.",
+            "phonetic": "/ˈkoman ˈtoda la koˈmiða/",
+            "translation": "请把所有的食物吃完。",
+            "note": "‘ustedes’的肯定命令式在‘usted’形式基础上加‘-n’。"
+          },
+          {
+            "original": "Viva la reina!",
+            "phonetic": "/ˈbiβa la ˈreina/",
+            "translation": "女王万岁！",
+            "note": "不规则动词‘vivir’的‘usted’形式为‘viva’。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Imperativo negativo y con pronombres",
+        "translation": "否定命令式及代词用法",
+        "examples": [
+          {
+            "original": "No hables tan rápido.",
+            "phonetic": "/no ˈaβles tan ˈrapido/",
+            "translation": "不要说那么快。",
+            "note": "否定命令式使用虚拟式现在时（-es/-as结尾）。"
+          },
+          {
+            "original": "No lo coman, está muy caliente.",
+            "phonetic": "/no lo ˈkoman esta ˈmui kaˈljente/",
+            "translation": "不要吃那个，太烫了。",
+            "note": "否定命令式中代词‘lo’需放在动词前。"
+          },
+          {
+            "original": "No salgáis sin abrigo.",
+            "phonetic": "/no salˈɣais sin aˈβɾiɣo/",
+            "translation": "不要不穿外套就出去。",
+            "note": "‘vosotros’的否定命令式使用虚拟式现在时（-éis/-áis结尾）。"
+          },
+          {
+            "original": "Dímelo ahora mismo.",
+            "phonetic": "/ˈdimeˈlo aˈoɾa ˈmismo/",
+            "translation": "现在就告诉我。",
+            "note": "肯定命令式中代词附着在动词后，需根据音节调整重音。"
+          }
+        ]
+      }
+    ],
+    "emoji": "👋",
+    "phonetic": "",
+    "translations": {
+      "zh": "肯定和否定命令式"
+    }
+  },
+  {
+    "id": "zh_A2_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Sustantivos contables e incontables / 可数名词与不可数名词",
+    "bridge": "在中文中，名词通常没有可数与不可数的区别，量词（如‘个’、‘杯’、‘张’）用于表示数量。而西班牙语中，名词分为可数与不可数，不可数名词不能直接与数词连用，需用特定量词表达数量。例如，‘agua’（水）不可数，不能说‘dos aguas’，而要说‘dos vasos de agua’。此外，部分在中文中可数的名词（如‘información’）在西班牙语中为不可数。",
+    "rule": "西班牙语名词分为可数（contables）与不可数（incontables）。\n\n1. 可数名词：\n   - 可以直接与数词连用：un libro（一本书）、tres manzanas（三个苹果）。\n   - 可用复数形式：libros（书）、manzanas（苹果）。\n   - 可用不定冠词（un, una）或定冠词（el, la）修饰：un perro（一只狗）、la mesa（桌子）。\n\n2. 不可数名词：\n   - 通常表示物质、抽象概念或集合体：agua（水）、azúcar（糖）、información（信息）。\n   - 不能直接与数词连用，需用量词表达数量：una botella de agua（一瓶水）、dos kilos de azúcar（两公斤糖）。\n   - 常与‘un poco de’（一点）、‘mucho’（很多）、‘poco’（很少）等词连用：quiero un poco de pan（我想要一点面包）。\n   - 部分不可数名词可通过特定结构变为可数：un vaso de agua（一杯水）、una taza de café（一杯咖啡）。\n\n3. 特殊情况：\n   - 部分名词在中文中可数，但在西班牙语中为不可数：información（信息）、equipaje（行李）。\n   - 部分名词在两种语境下均可使用：pan（面包）可说‘dos panes’（两块面包）表示不同种类，但通常用‘dos rebanadas de pan’（两片面包）更自然。",
+    "concept_examples": [
+      {
+        "text": "Quiero comprar tres libros.",
+        "translation": "我想买三本书。",
+        "phonetic": "/kjeɾo komˈpɾaɾ ˈtɾes ˈliβɾos/"
+      },
+      {
+        "text": "Necesito un poco de azúcar para el café.",
+        "translation": "我需要一点糖放在咖啡里。",
+        "phonetic": "/neθeˈsito un ˈpoko ðe aˈθukaɾ paɾa el kaˈfe/"
+      },
+      {
+        "text": "Hay mucha información en este libro.",
+        "translation": "这本书里有很多信息。",
+        "phonetic": "/ai ˈmutʃa iɱfoɾmaˈθjon en ˈeste ˈliβɾo/"
+      },
+      {
+        "text": "Voy a tomar dos vasos de agua.",
+        "translation": "我要喝两杯水。",
+        "phonetic": "/boi a toˈmaɾ ˈdos ˈβasos ðe ˈaɣwa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Quiero dos aguas.",
+      "correct": "Quiero dos vasos de agua.",
+      "correct_alt": "Quiero dos botellas de agua.",
+      "explanation": "中文中可以说‘两杯水’，但在西班牙语中，‘agua’是不可数名词，不能直接与数词连用。正确表达需使用量词‘vaso’（杯）或‘botella’（瓶）等，构成‘dos vasos de agua’。直接说‘dos aguas’在西班牙语中是错误的，因为‘agua’本身不能计数。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Identificar sustantivos contables e incontables",
+        "translation": "识别可数与不可数名词",
+        "examples": [
+          {
+            "original": "El libro es interesante.",
+            "phonetic": "/el ˈliβɾo es inteɾeˈsante/",
+            "translation": "这本书很有趣。",
+            "note": "‘Libro’是可数名词，可直接与定冠词‘el’连用。"
+          },
+          {
+            "original": "Hay mucha leche en la nevera.",
+            "phonetic": "/ai ˈmutʃa ˈletʃe en la neˈβeɾa/",
+            "translation": "冰箱里有很多牛奶。",
+            "note": "‘Leche’是不可数名词，用‘mucha’修饰。"
+          },
+          {
+            "original": "Compré tres manzanas.",
+            "phonetic": "/komˈpɾe ˈtɾes manˈθanas/",
+            "translation": "我买了三个苹果。",
+            "note": "‘Manzana’是可数名词，可直接与数词‘tres’连用。"
+          },
+          {
+            "original": "Necesito un poco de pan.",
+            "phonetic": "/neθeˈsito un ˈpoko ðe pan/",
+            "translation": "我需要一点面包。",
+            "note": "‘Pan’是不可数名词，用‘un poco de’表达数量。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Usar cantidades con sustantivos incontables",
+        "translation": "用量词表达不可数名词的数量",
+        "examples": [
+          {
+            "original": "Dame una taza de café, por favor.",
+            "phonetic": "/ˈdame una ˈtaθa ðe kaˈfe por faˈvoɾ/",
+            "translation": "请给我一杯咖啡。",
+            "note": "‘Café’不可数，用‘taza’（杯）作为量词。"
+          },
+          {
+            "original": "Compré dos kilos de arroz.",
+            "phonetic": "/komˈpɾe ˈdos ˈkilos ðe aˈroθ/",
+            "translation": "我买了两公斤米。",
+            "note": "‘Arroz’不可数，用‘kilo’（公斤）作为量词。"
+          },
+          {
+            "original": "Quiero un vaso de agua fría.",
+            "phonetic": "/ˈkjeɾo un ˈbaso ðe ˈaɣwa ˈfɾia/",
+            "translation": "我想要一杯凉水。",
+            "note": "‘Agua’不可数，用‘vaso’（杯）作为量词。"
+          },
+          {
+            "original": "Necesito tres cucharadas de azúcar.",
+            "phonetic": "/neθeˈsito ˈtɾes kuʧaˈɾaðas ðe aˈθukaɾ/",
+            "translation": "我需要三勺糖。",
+            "note": "‘Azúcar’不可数，用‘cucharada’（勺）作为量词。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Diferencias clave entre español y chino",
+        "translation": "西班牙语与中文的关键差异",
+        "examples": [
+          {
+            "original": "Tengo mucha información sobre este tema.",
+            "phonetic": "/ˈteŋgo ˈmutʃa iɱfoɾmaˈθjon ˈsobɾe este ˈtema/",
+            "translation": "关于这个话题，我有很多信息。",
+            "note": "中文中‘信息’可数，但在西班牙语中为不可数名词。"
+          },
+          {
+            "original": "¿Puedes traer dos botellas de vino?",
+            "phonetic": "/pweðes ˈtɾa.eɾ ˈdos boˈteʎas ðe ˈbino/",
+            "translation": "你能带两瓶酒来吗？",
+            "note": "‘Vino’不可数，用‘botella’（瓶）作为量词。"
+          },
+          {
+            "original": "Compré dos panes diferentes.",
+            "phonetic": "/komˈpɾe ˈdos ˈpanes difeˈɾentes/",
+            "translation": "我买了两种不同的面包。",
+            "note": "‘Pan’通常不可数，但可用复数形式表示不同种类。"
+          },
+          {
+            "original": "Hay mucho equipaje en el aeropuerto.",
+            "phonetic": "/ai ˈmutʃo ekiˈpaχe en el aeɾoˈpweɾto/",
+            "translation": "机场有很多行李。",
+            "note": "‘Equipaje’在西班牙语中为不可数名词，与中文‘行李’（可数）不同。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📦",
+    "phonetic": "",
+    "translations": {
+      "zh": "可数名词与不可数名词"
+    }
+  },
+  {
+    "id": "zh_A2_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Some y any (y sus compuestos) / 一些和任何（及其复合词）",
+    "bridge": "在中文中，我们通常用\"一些\"来表示不确定数量的肯定陈述（如\"我有一些苹果\"），而疑问句或否定句中常用\"一些\"或\"任何\"（如\"你有任何苹果吗？\"或\"我没有任何苹果\"）。但在西班牙语中，肯定句用\"algo de\"或无冠词复数名词（如\"tengo manzanas\"），疑问句/否定句必须用\"algún/alguna/algunos/algunas\"或\"ningún/ninguna\"。注意：中文\"任何\"在西班牙语中不能直接对应\"any\"，而是需要根据语境选择\"algún\"或\"ningún\"。",
+    "rule": "西班牙语中\"some\"和\"any\"的用法如下：\n1. 肯定句：\n   - 可数名词单数：用\"algún/alguna\"（如\"¿Tienes algún libro?\" → \"你有一些书吗？\"）。\n   - 可数名词复数或不可数名词：通常省略（如\"Tengo manzanas\" → \"我有一些苹果\"；\"Quiero agua\" → \"我想要一些水\"）。\n   - 复合词：\"algo de\" + 不可数名词（如\"Quiero algo de pan\" → \"我想要一些面包\"）。\n\n2. 疑问句：\n   - 用\"algún/alguna/algunos/algunas\"（如\"¿Tienes algún problema?\" → \"你有什么问题吗？\"）。\n   - 不可数名词疑问句：用\"algo de\"（如\"¿Quieres algo de café?\" → \"你想要一些咖啡吗？\"）。\n\n3. 否定句：\n   - 用\"ningún/ninguna\"（如\"No tengo ningún libro\" → \"我没有任何书\"）。\n   - 不可数名词否定句：用\"nada de\"（如\"No quiero nada de pan\" → \"我不想要任何面包\"）。\n\n4. 复合词：\n   - \"algo\"（某物）、\"alguien\"（某人）、\"algún lugar\"（某个地方）用于肯定句或疑问句。\n   - \"nada\"（任何东西）、\"nadie\"（任何人）、\"ningún lugar\"（任何地方）用于否定句。\n\n注意：西班牙语中\"any\"在否定句中通常译为\"ningún/ninguna\"，而在疑问句中译为\"algún/alguna\"。",
+    "concept_examples": [
+      {
+        "text": "Tengo algunos libros en mi mochila.",
+        "translation": "我的背包里有一些书。",
+        "phonetic": "/ˈteŋ.ɡo alˈɣu.nos ˈli.βɾos en mi moˈt͡ʃi.la/"
+      },
+      {
+        "text": "¿Quieres algo de comer?",
+        "translation": "你想要吃点什么吗？",
+        "phonetic": "/kes ˈkje.ɾes ˈal.ɣo ðe koˈmeɾ/"
+      },
+      {
+        "text": "No tengo ningún problema con eso.",
+        "translation": "我对此没有任何问题。",
+        "phonetic": "/no ˈteŋ.ɡo ninˈɣun pɾoˈβle.ma kon ˈe.so/"
+      },
+      {
+        "text": "¿Hay alguien en la casa?",
+        "translation": "屋子里有人吗？",
+        "phonetic": "/ai alˈɣjen en la ˈka.sa/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Tienes algún problema? → 直接说\"¿Tienes problema?\"",
+      "correct": "¿Tienes algún problema?",
+      "correct_alt": "¿Tienes algún problema con esto?",
+      "explanation": "中文疑问句中\"有问题吗？\"可以直接省略\"任何\"，但西班牙语中疑问句必须用\"algún\"来表示不确定性。若省略\"algún\"，句子会变成\"你有问题？\"（Tienes problema?），在西班牙语中可能被理解为\"你有固定的问题吗？\"（如长期困扰的问题），而非\"你有什么问题吗？\"的疑问语气。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Uso en afirmaciones (肯定句用法)",
+        "translation": "肯定陈述中的用法",
+        "examples": [
+          {
+            "original": "Tengo algunos amigos en Madrid.",
+            "phonetic": "/ˈteŋ.ɡo alˈɣu.nos aˈmi.ɣos en maˈðɾið/",
+            "translation": "我在马德里有一些朋友。",
+            "note": "不可数名词前用\"algo de\"：\"Tengo algo de dinero\"（我有一些钱）。"
+          },
+          {
+            "original": "Quiero comprar algunas manzanas.",
+            "phonetic": "/ˈkje.ɾo komˈpɾaɾ alˈɣu.nas maˈna.sanas/",
+            "translation": "我想买一些苹果。",
+            "note": "复数可数名词前可直接省略限定词，但\"algunas\"强调\"一些\"。"
+          },
+          {
+            "original": "Hay algo de pan en la cocina.",
+            "phonetic": "/ai ˈal.ɣo ðe pan en la koˈsi.na/",
+            "translation": "厨房里有一些面包。",
+            "note": "不可数名词前必须用\"algo de\"，不能直接说\"Hay pan\"（可能被理解为\"有面包\"而非\"有一些面包\"）。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso en preguntas (疑问句用法)",
+        "translation": "疑问句中的用法",
+        "examples": [
+          {
+            "original": "¿Tienes algún hermano?",
+            "phonetic": "/ˈtje.nes alˈɣun eɾˈma.no/",
+            "translation": "你有兄弟姐妹吗？",
+            "note": "疑问句中必须用\"algún\"，不能省略。中文\"有兄弟吗？\"在西班牙语中会被误解为\"你有固定的兄弟吗？\"。"
+          },
+          {
+            "original": "¿Quieres algo de café?",
+            "phonetic": "/ˈkje.ɾes ˈal.ɣo ðe kaˈfe/",
+            "translation": "你想要一些咖啡吗？",
+            "note": "不可数名词疑问句用\"algo de\"，类似中文\"要咖啡吗？\"但更强调\"一些\"。"
+          },
+          {
+            "original": "¿Hay alguien en la oficina?",
+            "phonetic": "/ai alˈɣjen en la oˈfi.θi.na/",
+            "translation": "办公室里有人吗？",
+            "note": "\"alguien\"（某人）用于疑问句，类似中文\"有人吗？\"。不能说\"¿Hay persona en la oficina?\"。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Uso en negaciones (否定句用法)",
+        "translation": "否定句中的用法",
+        "examples": [
+          {
+            "original": "No tengo ningún dinero.",
+            "phonetic": "/no ˈteŋ.ɡo ninˈɣun diˈne.ɾo/",
+            "translation": "我没有任何钱。",
+            "note": "否定句中用\"ningún\"，不能用\"algo\"。中文\"没有钱\"在西班牙语中可能被理解为\"不拥有钱\"（如理财概念），而非\"没有任何钱\"。"
+          },
+          {
+            "original": "No quiero nada de pan.",
+            "phonetic": "/no ˈkje.ɾo ˈna.ða ðe pan/",
+            "translation": "我不想要任何面包。",
+            "note": "不可数名词否定句用\"nada de\"，类似中文\"什么都不要\"。不能说\"No quiero pan\"（可能被理解为\"我不想吃面包\"而非强调\"任何\"）。"
+          },
+          {
+            "original": "No hay nadie en casa.",
+            "phonetic": "/no ai ˈna.ðje en ˈka.sa/",
+            "translation": "家里没有人。",
+            "note": "\"nadie\"（任何人）用于否定句，类似中文\"没人\"。不能说\"No hay persona en casa\"。"
+          },
+          {
+            "original": "No tengo ninguna idea.",
+            "phonetic": "/no ˈteŋ.ɡo ninˈɣu.na iˈðe.a/",
+            "translation": "我没有任何主意。",
+            "note": "阴性名词前用\"ninguna\"，类似中文\"没有任何主意\"。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🍞",
+    "phonetic": "",
+    "translations": {
+      "zh": "一些和任何（及其复合词）"
+    }
+  },
+  {
+    "id": "zh_A2_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mucho, muchos, mucha, muchas / 许多、很多、大量",
+    "bridge": "在中文中，我们常用\"很多\"、\"许多\"或\"大量\"来表示数量，这些词可以直接修饰名词，不需要区分可数或不可数（如\"很多水\"、\"很多书\"）。但在西班牙语中，表示\"很多\"的词需要根据名词的性（阳性/阴性）和数（单数/复数）进行变化，并且\"mucho\"不能直接修饰名词，除非在特定结构中。中文母语者常会忽略性数变化或误用\"mucho\"的位置，导致语法错误。",
+    "rule": "西班牙语中表示\"很多\"的词有四种形式：\n1. **mucho**（阳性单数）：修饰阳性单数名词或动词，如\"Tengo mucho trabajo\"（我有很多工作）。\n2. **mucha**（阴性单数）：修饰阴性单数名词，如\"Hay mucha agua en el vaso\"（杯子里有很多水）。\n3. **muchos**（阳性复数）：修饰阳性复数名词，如\"Compré muchos libros\"（我买了很多书）。\n4. **muchas**（阴性复数）：修饰阴性复数名词，如\"Tengo muchas amigas\"（我有很多朋友）。\n\n**特殊用法**：\n- \"Mucho\"可作副词，修饰动词或形容词，此时无性数变化，如\"Estudio mucho\"（我学习很多）。\n- 在否定句中，\"mucho\"常用于\"no... mucho\"结构，如\"No como mucho\"（我不吃很多）。\n- \"Mucho\"不能直接放在名词前（除非在\"de\"结构中），如\"Mucha gente\"（很多人）正确，但\"Mucho gente\"错误。",
+    "concept_examples": [
+      {
+        "text": "Hay mucho tráfico en la ciudad.",
+        "translation": "城市里有很多交通堵塞。",
+        "phonetic": "/ai̯ ˈmu.t͡ʃo ˈtɾa.fi.ko en la θiˈðað/"
+      },
+      {
+        "text": "Tengo muchas preguntas sobre el examen.",
+        "translation": "关于考试，我有很多问题。",
+        "phonetic": "/ˈteŋ.go ˈmu.t͡ʃas preˈɣun.tas ˈso.βɾe el eɣˈsa.men/"
+      },
+      {
+        "text": "Compré muchos dulces para la fiesta.",
+        "translation": "我为派对买了很多糖果。",
+        "phonetic": "/komˈpɾe ˈmu.t͡ʃos ˈdul.θes ˈpa.ɾa la ˈfjes.ta/"
+      },
+      {
+        "text": "No hay mucha gente en el parque hoy.",
+        "translation": "今天公园里没有很多人。",
+        "phonetic": "/no ai̯ ˈmu.t͡ʃa ˈxen.te en el ˈpaɾ.ke oi̯/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Hay mucho personas en la fiesta.",
+      "correct": "Hay muchas personas en la fiesta.",
+      "correct_alt": "Hay mucha gente en la fiesta.",
+      "explanation": "中文中\"很多\"可以直接修饰名词\"人\"，但西班牙语中\"personas\"是阴性复数名词，必须用\"muchas\"修饰。\"Gente\"是集合名词（阴性单数），只能用\"mucha\"。错误的\"mucho personas\"忽略了名词的性数变化，且\"mucho\"不能直接修饰复数名词。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mucho/mucha con sustantivos singulares",
+        "translation": "单数名词的mucho/mucha用法",
+        "examples": [
+          {
+            "original": "Hay mucha leche en la nevera.",
+            "phonetic": "/ai̯ ˈmu.t͡ʃa ˈlek.e en la neˈβe.ɾa/",
+            "translation": "冰箱里有很多牛奶。",
+            "note": "强调\"leche\"（牛奶）是阴性单数名词，用\"mucha\"。"
+          },
+          {
+            "original": "Tengo mucho tiempo libre este fin de semana.",
+            "phonetic": "/ˈteŋ.go ˈmu.t͡ʃo ˈtjem.po ˈli.βɾe ˈes.te fin de seˈma.na/",
+            "translation": "这个周末我有很多空闲时间。",
+            "note": "强调\"tiempo\"（时间）是阳性单数名词，用\"mucho\"。"
+          },
+          {
+            "original": "No hay mucha paciencia para esperar.",
+            "phonetic": "/no ai̯ ˈmu.t͡ʃa paˈθjen.sja pa.ɾa es.peˈɾaɾ/",
+            "translation": "没有很多耐心等待。",
+            "note": "\"paciencia\"（耐心）是阴性单数名词，用\"mucha\"。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Muchos/muchas con sustantivos plurales",
+        "translation": "复数名词的muchos/muchas用法",
+        "examples": [
+          {
+            "original": "Compré muchos libros interesantes.",
+            "phonetic": "/komˈpɾe ˈmu.t͡ʃos ˈli.βɾos in.te.ɾeˈsan.tes/",
+            "translation": "我买了很多有趣的书。",
+            "note": "\"libros\"（书）是阳性复数名词，用\"muchos\"。"
+          },
+          {
+            "original": "Tengo muchas amigas en la universidad.",
+            "phonetic": "/ˈteŋ.go ˈmu.t͡ʃas aˈmi.ɣas en la u.ni.βeɾ.siˈðað/",
+            "translation": "我在大学有很多女性朋友。",
+            "note": "\"amigas\"（朋友，阴性）是复数，用\"muchas\"。"
+          },
+          {
+            "original": "Hay muchos turistas en la playa.",
+            "phonetic": "/ai̯ ˈmu.t͡ʃos tuˈɾis.tas en la ˈpla.ʝa/",
+            "translation": "海滩上有很多游客。",
+            "note": "\"turistas\"（游客）是阳性复数名词，用\"muchos\"。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mucho como adverbio y en estructuras negativas",
+        "translation": "mucho作副词及否定结构用法",
+        "examples": [
+          {
+            "original": "Estudio mucho para el examen.",
+            "phonetic": "/esˈtu.djo ˈmu.t͡ʃo ˈpa.ɾa el eɣˈsa.men/",
+            "translation": "我为了考试学习很多。",
+            "note": "\"mucho\"修饰动词\"estudio\"，无性数变化。"
+          },
+          {
+            "original": "No como mucho pan en el desayuno.",
+            "phonetic": "/no ˈko.mo ˈmu.t͡ʃo pan en el de.saˈju.no/",
+            "translation": "早餐我不吃很多面包。",
+            "note": "否定结构\"no... mucho\"中\"mucho\"作副词。"
+          },
+          {
+            "original": "Ella habla mucho en clase.",
+            "phonetic": "/ˈe.ʝa ˈa.βla ˈmu.t͡ʃo en ˈkla.se/",
+            "translation": "她在课堂上说话很多。",
+            "note": "\"mucho\"修饰动词\"habla\"，无性数变化。"
+          },
+          {
+            "original": "No hay mucho que hacer aquí.",
+            "phonetic": "/no ai̯ ˈmu.t͡ʃo ke aˈθeɾ aˈki/",
+            "translation": "这里没有很多可做的事。",
+            "note": "\"mucho\"在\"no hay mucho que...\"结构中作代词。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📊",
+    "phonetic": "",
+    "translations": {
+      "zh": "许多、很多、大量"
+    }
+  },
+  {
+    "id": "zh_A2_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Oraciones de relativo básicas (que, quien, el que)",
+    "translations": {
+      "zh": "基础关系从句（que、quien、el que）"
+    },
+    "bridge": "在中文中，关系从句通常通过‘的’字结构表达，如‘我买的书’（书是‘我买’的对象）。而西班牙语则使用关系代词‘que’（相当于‘的’）、‘quien’（指人）或‘el que’（带冠词的关系代词）来引导从句。中文母语者常会忽略西班牙语关系代词的性数变化，或错误地将中文‘的’直接译为‘de’。例如，‘这是我买的书’在西班牙语中应为‘Este es el libro que compré’（而非‘Este es el libro que compré de’）。此外，西班牙语关系代词在从句中可作主语或宾语，需根据句子结构调整形式。",
+    "rule": "西班牙语关系从句用于连接两个句子，避免重复名词。核心关系代词有：\n1. ‘que’：最常用，可指人或物，无性数变化。\n   - 例：La chica que habla es mi hermana.（说话的女孩是我妹妹。）\n   - 用法：作主语或宾语。\n2. ‘quien’：仅指人，用于非限定性从句（前后有逗号）或介词后。\n   - 例：Mi hermano, quien vive en Madrid, es médico.（我哥哥，住在马德里的，是医生。）\n   - 例：La persona a quien conocí ayer es muy amable.（昨天认识的那个人很友善。）\n3. ‘el que / la que / los que / las que’：带定冠词的关系代词，用于明确指代或介词后。\n   - 例：El libro el que leíste es interesante.（你读的那本书很有趣。）\n   - 例：Los estudiantes con los que estudio son muy inteligentes.（和我一起学习的学生们很聪明。）\n\n注意事项：\n- 关系代词前的介词（如‘a’, ‘con’, ‘de’）不可省略。\n- 在限定性从句中，‘que’可替代‘el que’（如‘El libro que leí’ = ‘El libro el que leí’），但后者更正式。\n- ‘quien’不能用于指物，仅用于指人。",
+    "concept_examples": [
+      {
+        "text": "El hombre que está hablando es mi profesor.",
+        "translation": "正在说话的那个男人是我的老师。",
+        "phonetic": "/el ˈom.bɾe ke esˈta aβˈlan.do es mi proˈfe.soɾ/"
+      },
+      {
+        "text": "La película que vimos ayer fue muy emocionante.",
+        "translation": "我们昨天看的那部电影很感人。",
+        "phonetic": "/la peˈli.ku.la ke ˈβi.mos aˈʝeɾ fue ˈmui emoθjoˈnante/"
+      },
+      {
+        "text": "Mi amigo, quien vive en Barcelona, viene mañana.",
+        "translation": "我的朋友，住在巴塞罗那的，明天会来。",
+        "phonetic": "/mi aˈmi.ɣo ˈkjen ˈβi.βe en baɾθeˈlona ˈβje.ne maˈɲa.na/"
+      },
+      {
+        "text": "Los libros con los que estudio son muy útiles.",
+        "translation": "我用来学习的那些书很有用。",
+        "phonetic": "/los ˈli.βɾos kon los ke esˈtu.ðjo son ˈmui ˈutil.es/"
+      }
+    ],
+    "common_error": {
+      "wrong": "La chica que yo conozco ella es muy simpática.",
+      "correct": "La chica que yo conozco es muy simpática.",
+      "correct_alt": "",
+      "explanation": "中文母语者常会重复主语‘ella’，因为中文中关系从句结构不影响主语位置。在西班牙语中，‘que’已包含主语功能，重复‘ella’会导致句子冗余。正确的句子应直接使用‘que’引导从句，无需再加主语代词。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Introducción a 'que'",
+        "translation": "‘que’的基础用法",
+        "examples": [
+          {
+            "original": "El coche que compré es rojo.",
+            "phonetic": "/el ˈko.tʃe ke komˈpɾe es ˈro.xo/",
+            "translation": "我买的那辆车是红色的。",
+            "note": "‘que’用于指物，作宾语。注意西班牙语中关系代词前无需‘的’字，直接用‘que’连接。"
+          },
+          {
+            "original": "La persona que llamó es mi jefe.",
+            "phonetic": "/la peɾˈso.na ke kaˈʝo es mi ˈxe.fe/",
+            "translation": "打电话的那个人是我的老板。",
+            "note": "‘que’可指人，作主语。中文中‘的’字结构在西班牙语中用‘que’替代。"
+          },
+          {
+            "original": "Los niños que juegan son mis sobrinos.",
+            "phonetic": "/los ˈni.ɲos ke ˈxwe.ɣan son mis soˈbri.nos/",
+            "translation": "正在玩耍的那些孩子是我的侄子们。",
+            "note": "‘que’用于复数名词，无性数变化。注意西班牙语中动词‘juegan’与主语‘niños’保持一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Uso de 'quien' y 'el que'",
+        "translation": "‘quien’和‘el que’的用法",
+        "examples": [
+          {
+            "original": "Mi hermano, quien vive en Madrid, es médico.",
+            "phonetic": "/mi aˈma.no ˈkjen ˈβi.βe en maˈðɾið es ˈme.ði.ko/",
+            "translation": "我哥哥，住在马德里的，是医生。",
+            "note": "‘quien’用于非限定性从句（前后有逗号），仅指人。中文中无此区分，需注意逗号的使用。"
+          },
+          {
+            "original": "La mujer a quien conocí ayer es muy amable.",
+            "phonetic": "/la muˈxeɾ a ˈkjen koˈnoθi aˈʝeɾ es ˈmui aˈma.βle/",
+            "translation": "昨天认识的那位女士很友善。",
+            "note": "‘quien’用于介词‘a’后，指人。中文中介词后直接接名词，西班牙语需用‘quien’。"
+          },
+          {
+            "original": "El libro el que leíste es interesante.",
+            "phonetic": "/el ˈli.βɾo el ke leˈis.te es in.te.ɾeˈsan.te/",
+            "translation": "你读的那本书很有趣。",
+            "note": "‘el que’用于明确指代，可替代‘que’。中文中无冠词变化，需注意‘el que’的性数变化（la que, los que, las que）。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Relativas con preposiciones",
+        "translation": "带介词的关系从句",
+        "examples": [
+          {
+            "original": "El hombre con quien trabajo es muy amable.",
+            "phonetic": "/el ˈom.bɾe kon ˈkjen traˈβa.xo es ˈmui aˈma.βle/",
+            "translation": "和我一起工作的那个男人很友善。",
+            "note": "介词‘con’后必须用‘quien’（指人）。中文中介词后直接接名词，西班牙语需用关系代词。"
+          },
+          {
+            "original": "La casa de la que hablamos es muy bonita.",
+            "phonetic": "/la ˈka.sa ðe la ke aˈβla.mos es ˈmui boˈni.ta/",
+            "translation": "我们谈论的那栋房子很漂亮。",
+            "note": "介词‘de’后用‘la que’（指物）。注意冠词与名词性数一致。"
+          },
+          {
+            "original": "Los estudiantes para quienes preparé la clase son muy aplicados.",
+            "phonetic": "/los es.tuˈðjan.tes paɾa ˈkje.nes pre.paˈɾe la ˈkla.se son ˈmui a.pliˈka.ðos/",
+            "translation": "我为他们准备课程的那些学生很用功。",
+            "note": "介词‘para’后用‘quienes’（复数指人）。注意冠词与名词性数一致。"
+          },
+          {
+            "original": "El coche en el que viajamos es muy cómodo.",
+            "phonetic": "/el ˈko.tʃe en el ke βjaˈxa.mos es ˈmui ˈko.mo.ðo/",
+            "translation": "我们乘坐的那辆车很舒适。",
+            "note": "介词‘en’后用‘el que’（指物）。注意冠词与名词性数一致。"
+          }
+        ]
+      },
+      {
+        "emoji": "🔗",
+        "phonetic": ""
+      }
+    ]
   }
 ]

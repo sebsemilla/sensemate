@@ -1,0 +1,1030 @@
+[
+  {
+    "id": "zh_A2_conv_01",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En el médico / 在医生那里",
+    "bridge": "在中文中，我们通常用‘我哪里不舒服？’来询问病情，而在西班牙语中，常用‘¿Qué me pasa?’或‘¿Qué tengo?’来表达。需要注意的是，西班牙语中表达‘疼痛’时，动词‘doler’的用法与中文完全不同：中文说‘我头疼’（主语+部位+疼痛动词），而西班牙语必须用‘Me duele la cabeza’（间接宾语+动词+主语），主语是疼痛的部位。此外，西班牙语在描述症状时常用‘tengo + 名词’结构，如‘Tengo fiebre’，这与中文‘我发烧’的表达方式相似，但需要注意名词的性数变化。",
+    "rule": "在西班牙语中，描述身体不适时常用以下结构：\n1. ‘Me duele(n) + 身体部位’：用于表达某部位疼痛。注意动词‘doler’的变位与主语（疼痛部位）一致，且必须使用间接宾语代词（me, te, le等）。例如：\n   - Me duele la cabeza. (我头疼。)\n   - Le duelen los pies. (他脚疼。)\n   变位规则：duele（单数部位），duelen（复数部位）。\n\n2. ‘Tengo + 症状名词’：用于表达症状。名词通常为阳性，但部分症状如‘tos’（咳嗽）为阴性。例如：\n   - Tengo fiebre. (我发烧。)\n   - Tengo tos. (我咳嗽。)\n\n3. ‘Estoy + 形容词’：用于描述整体状态。例如：\n   - Estoy mareado/a. (我头晕。)\n   注意形容词与主语的性数一致。\n\n4. 疑问句常用‘¿Qué me pasa?’（怎么了？）或‘¿Qué tengo?’（我怎么了？）。回答时可用‘Tienes...’（你有...）或‘Le duele...’（他/她疼痛...）。",
+    "concept_examples": [
+      {
+        "text": "¿Qué me pasa, doctor?",
+        "translation": "医生，我怎么了？",
+        "phonetic": "/ke me ˈpa.sa ˈðok.toɾ/"
+      },
+      {
+        "text": "Me duele mucho la garganta.",
+        "translation": "我喉咙很疼。",
+        "phonetic": "/me ˈdwe.le ˈmu.tʃo la ɣaɾˈɣan.ta/"
+      },
+      {
+        "text": "Tengo fiebre y tos desde ayer.",
+        "translation": "我从昨天开始发烧和咳嗽。",
+        "phonetic": "/ˈteŋ.go ˈfje.bɾe i tos ˈðes.de aˈʝeɾ/"
+      },
+      {
+        "text": "¿Puedo tomar este medicamento tres veces al día?",
+        "translation": "我可以一天服用这个药三次吗？",
+        "phonetic": "/pweˈðo toˈmaɾ ˈes.te me.θi.kaˈmen.to tɾes ˈβe.θes al ˈdi.a/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo tengo dolor de cabeza.",
+      "correct": "Me duele la cabeza.",
+      "correct_alt": "",
+      "explanation": "中文母语者常直接使用‘tengo + dolor de + 身体部位’结构，但西班牙语中表达疼痛时必须使用‘me duele(n) + 身体部位’结构。错误原因在于忽略了西班牙语中‘doler’动词的特殊用法：疼痛的部位作为主语，而说话者作为间接宾语。此外，‘dolor’一词在西班牙语中较少用于口语，通常用‘duele’代替。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Presentar síntomas",
+        "translation": "描述症状",
+        "examples": [
+          {
+            "original": "Me duele la cabeza.",
+            "phonetic": "/me ˈdwe.le la kaˈβe.θa/",
+            "translation": "我头疼。",
+            "note": "学习‘doler’的基本用法，注意单数部位的动词变位。"
+          },
+          {
+            "original": "Tengo fiebre.",
+            "phonetic": "/ˈteŋ.go ˈfje.bɾe/",
+            "translation": "我发烧。",
+            "note": "记住常见症状名词的性数，如‘fiebre’为阴性。"
+          },
+          {
+            "original": "Estoy cansado.",
+            "phonetic": "/esˈtoj kanˈsa.ðo/",
+            "translation": "我累了。",
+            "note": "‘Estar’用于描述临时状态，‘cansado’与主语性数一致。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Preguntar por el diagnóstico",
+        "translation": "询问诊断",
+        "examples": [
+          {
+            "original": "¿Qué me pasa, doctor?",
+            "phonetic": "/ke me ˈpa.sa ˈðok.toɾ/",
+            "translation": "医生，我怎么了？",
+            "note": "‘pasar’在此处意为‘发生’，用于询问病情。"
+          },
+          {
+            "original": "¿Tengo que guardar cama?",
+            "phonetic": "/ˈteŋ.go ke ɣwaɾˈðaɾ ˈka.ma/",
+            "translation": "我需要卧床休息吗？",
+            "note": "‘guardar cama’是固定短语，意为‘卧床休息’。"
+          },
+          {
+            "original": "¿Cuánto tiempo tengo que tomar este medicamento?",
+            "phonetic": "/ˈkwan.to ˈtjem.po ˈteŋ.go ke toˈmaɾ ˈes.te me.θi.kaˈmen.to/",
+            "translation": "这个药我需要服用多长时间？",
+            "note": "注意疑问词‘cuánto’的用法和动词‘tomar’的时态。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Seguir instrucciones médicas",
+        "translation": "遵循医嘱",
+        "examples": [
+          {
+            "original": "Tome este antibiótico cada ocho horas.",
+            "phonetic": "/ˈto.me ˈes.te an.tiˈβjo.ti.ko ˈke.ða ˈo.tʃo ˈo.ɾas/",
+            "translation": "请每八小时服用这个抗生素。",
+            "note": "‘tomar’的命令式第三人称单数形式。"
+          },
+          {
+            "original": "Vuelva en una semana si no mejora.",
+            "phonetic": "/ˈbwel.ba en ˈu.na seˈma.na si no meˈxo.ɾa/",
+            "translation": "如果没有好转，请一周后再来。",
+            "note": "‘volver’的命令式变位，‘mejorar’为不及物动词。"
+          },
+          {
+            "original": "No tome alcohol con este medicamento.",
+            "phonetic": "/no ˈto.me al.koˈol kon ˈes.te me.θi.kaˈmen.to/",
+            "translation": "服用这个药时请勿饮酒。",
+            "note": "否定命令式的构成：‘no + 动词原形’。"
+          },
+          {
+            "original": "¿Puedo ir a trabajar mañana?",
+            "phonetic": "/pweˈðo iɾ a tɾa.baˈxaɾ maˈɲa.na/",
+            "translation": "我明天可以去上班吗？",
+            "note": "‘poder’的现在时变位，‘trabajar’为规则动词。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏥",
+    "phonetic": "",
+    "translations": {
+      "zh": "看医生"
+    }
+  },
+  {
+    "id": "zh_A2_conv_02",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Reservar alojamiento / 预订住宿",
+    "bridge": "在中文中，预订住宿时常用‘我想订房间’或‘我要住一晚’这样的直接表达，但西班牙语中常用‘Quisiera reservar...’（我想预订...）或‘Me gustaría...’（我想要...）来表达礼貌和委婉。此外，西班牙语中动词‘reservar’后常接‘una habitación’（一个房间）而非‘un cuarto’（在某些地区也可用，但更口语化）。注意：西班牙语中‘reservar’的宾语通常是‘habitación’而非‘hotel’（酒店），后者多指具体的建筑。",
+    "rule": "1. **动词使用**：预订住宿时常用动词‘reservar’（预订）或短语‘hacer una reserva’（进行预订）。例如：‘Quiero reservar una habitación’（我想预订一个房间）或‘Voy a hacer una reserva’（我要预订）。\n2. **时态**：通常使用现在时或将来近义表达。例如：‘Tengo una reserva’（我有预订）或‘Voy a reservar’（我要预订）。\n3. **宾语搭配**：‘reservar’后接‘una habitación’（单数）或‘habitaciones’（复数），如：‘reservar una habitación doble’（预订一个双人间）。\n4. **介词搭配**：‘para’（为了）常用于表达目的：‘una habitación para dos noches’（一个房间住两晚）。\n5. **礼貌表达**：用‘quisiera’（我想要）或‘me gustaría’（我会想要）比‘quiero’（我想要）更礼貌。例如：‘Quisiera reservar una habitación’（我想预订一个房间）。\n6. **疑问句**：用‘¿Tienen habitaciones libres?’（你们有空房间吗？）询问可用性。",
+    "concept_examples": [
+      {
+        "text": "Hola, quisiera reservar una habitación para dos personas del 15 al 20 de julio.",
+        "translation": "您好，我想预订一间两人房，从7月15日到20日。",
+        "phonetic": "/ˈola kiˈsjeɾa reserˈβaɾ una aβiˈtaθjon paɾa dos peɾˈsonas del 15 al 20 de ˈxuljo/"
+      },
+      {
+        "text": "¿Tienen habitaciones disponibles para esta noche?",
+        "translation": "今晚有空房间吗？",
+        "phonetic": "/ˈtjenen aβiˈtaθjones dispoˈniβles paɾa ˈesta ˈnoʃe/"
+      },
+      {
+        "text": "¿Cuánto cuesta una habitación individual por noche?",
+        "translation": "单人间每晚多少钱？",
+        "phonetic": "/ˈkwanto ˈkwesta una aβiˈtaθjon indiβiˈðwal poɾ ˈnoʃe/"
+      },
+      {
+        "text": "Me gustaría cancelar mi reserva para mañana.",
+        "translation": "我想取消明天的预订。",
+        "phonetic": "/me ɣusˈtaɾia kanθeˈlaɾ mi reˈseɾβa paɾa maˈɲana/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo quiero reservar un hotel para dos noches.",
+      "correct": "Quisiera reservar una habitación para dos noches.",
+      "correct_alt": "Voy a hacer una reserva de una habitación para dos noches.",
+      "explanation": "中文中说‘预订酒店’很常见，但在西班牙语中，‘reservar’通常直接接‘habitación’（房间）而非‘hotel’（酒店）。‘hotel’指的是建筑本身，而‘habitación’指的是具体的房间。此外，‘quiero’（我想要）语气较直接，不如‘quisiera’（我想要）礼貌，在预订场景中更常用。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar disponibilidad",
+        "translation": "询问可用性",
+        "examples": [
+          {
+            "original": "¿Tienen habitaciones libres?",
+            "phonetic": "/ˈtjenen aβiˈtaθjones ˈliβɾes/",
+            "translation": "你们有空房间吗？",
+            "note": "学习基本的询问句式，注意‘libres’（空闲的）的用法。"
+          },
+          {
+            "original": "¿Hay habitaciones disponibles para esta noche?",
+            "phonetic": "/ai aβiˈtaθjones dispoˈniβles paɾa ˈesta ˈnoʃe/",
+            "translation": "今晚有空房间吗？",
+            "note": "‘Hay’（有）用于询问存在性，注意与‘tienen’（你们有）的区别。"
+          },
+          {
+            "original": "¿Cuántas habitaciones tienen para dos personas?",
+            "phonetic": "/ˈkwantas aβiˈtaθjones ˈtjenen paɾa dos peɾˈsonas/",
+            "translation": "两人间有几间？",
+            "note": "学习用‘cuántas’（多少）询问数量，注意名词性数配合。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hacer una reserva",
+        "translation": "进行预订",
+        "examples": [
+          {
+            "original": "Quisiera reservar una habitación doble del 10 al 15 de agosto.",
+            "phonetic": "/kiˈsjeɾa reserˈβaɾ una aβiˈtaθjon ˈdoβle del 10 al 15 de aˈɣosto/",
+            "translation": "我想预订一间双人房，从8月10日到15日。",
+            "note": "学习用‘del...al...’（从...到...）表达日期范围，注意动词变位。"
+          },
+          {
+            "original": "¿Me puede decir el precio por noche?",
+            "phonetic": "/me ˈpweðe deˈθiɾ el ˈpɾeθjo poɾ ˈnoʃe/",
+            "translation": "您能告诉我每晚的价格吗？",
+            "note": "学习礼貌询问价格的表达，注意‘poder’（能）的变位。"
+          },
+          {
+            "original": "Voy a hacer una reserva para tres noches.",
+            "phonetic": "/ˈboi a aˈθeɾ una reˈseɾβa paɾa tɾes ˈnoʃes/",
+            "translation": "我要预订三晚。",
+            "note": "学习用‘hacer una reserva’（进行预订）的固定搭配。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Confirmar o cancelar",
+        "translation": "确认或取消",
+        "examples": [
+          {
+            "original": "¿Puede confirmar mi reserva, por favor?",
+            "phonetic": "/ˈpweðe konfiɾˈmaɾ mi reˈseɾβa poɾ faˈβoɾ/",
+            "translation": "您能确认我的预订吗，拜托？",
+            "note": "学习用‘por favor’（拜托）表达礼貌请求。"
+          },
+          {
+            "original": "Necesito cancelar mi reserva para mañana.",
+            "phonetic": "/neˈθesito kanθeˈlaɾ mi reˈseɾβa paɾa maˈɲana/",
+            "translation": "我需要取消明天的预订。",
+            "note": "学习用‘necesitar’（需要）表达必要性。"
+          },
+          {
+            "original": "¿Hay posibilidad de cambiar la fecha de la reserva?",
+            "phonetic": "/ai posiβiliˈdad de kamˈbjaɾ la ˈfeʃa de la reˈseɾβa/",
+            "translation": "能改预订的日期吗？",
+            "note": "学习用‘cambiar’（改变）表达修改请求。"
+          },
+          {
+            "original": "¿Cuál es el procedimiento para cancelar?",
+            "phonetic": "/ˈkwal es el pɾoθeðiˈmjento paɾa kanθeˈlaɾ/",
+            "translation": "取消的流程是什么？",
+            "note": "学习询问流程的表达，注意‘procedimiento’（流程）的用法。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏨",
+    "phonetic": "",
+    "translations": {
+      "zh": "预订住宿"
+    }
+  },
+  {
+    "id": "zh_A2_conv_03",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En el banco o cambio de moneda / 在银行或兑换外币",
+    "bridge": "在中文中，银行或兑换处的对话通常直接使用动词「存款」、「取款」或「兑换」，结构简单直接。但在西班牙语中，常用动词「querer」+ 动词原形（如「querer cambiar」）来表达意图，且银行业务术语（如「cuenta corriente」、「tarjeta de débito」）与中文有明显差异。此外，西班牙语在询问金额时常用「¿Cuánto quiere cambiar?」而非中文的「多少钱？」直接修饰名词。初学者容易忽略动词变位或误用「de」代替「por」在兑换汇率中。",
+    "rule": "1. 表达意图：使用「querer + 动词原形」结构，如「Quiero cambiar dinero」（我想兑换钱）。动词变位需根据主语调整（yo quiero, tú quieres, él/ella quiere）。\n2. 银行业务术语：\n   - cuenta corriente（活期账户）、cuenta de ahorros（储蓄账户）、tarjeta de débito（借记卡）、tarjeta de crédito（信用卡）\n   - tipo de cambio（汇率）、comisión（手续费）、saldo（余额）\n3. 询问金额：用「¿Cuánto quiere cambiar?」或「¿Cuánto dinero desea retirar?」\n4. 兑换汇率：用「¿A cuánto está el euro hoy?」询问汇率，回答如「El euro está a 1.10 contra el dólar」（欧元对美元汇率为1.10）。\n5. 异常情况：若银行无法办理，用「Lo siento, no podemos hacer eso」（抱歉，我们无法办理）或「Necesito hablar con el gerente」（我需要和经理谈）。\n6. 否定句：用「No quiero retirar dinero」（我不想取钱）或「No tengo mi DNI」（我没有身份证）。",
+    "concept_examples": [
+      {
+        "text": "Quiero cambiar 200 dólares a euros, por favor.",
+        "translation": "我想把200美元兑换成欧元，请问。",
+        "phonetic": "/ˈkjeɾo kamˈbjaɾ ˈdoθentos ˈðolaɾes a ˈeuɾos por faˈβoɾ/"
+      },
+      {
+        "text": "¿Cuál es el tipo de cambio del dólar hoy?",
+        "translation": "今天美元的汇率是多少？",
+        "phonetic": "/ˈkwal es el ˈtipo ðe ˈkambjo ðel ˈðolaɾ oi/"
+      },
+      {
+        "text": "Necesito retirar 300 euros de mi cuenta corriente.",
+        "translation": "我需要从我的活期账户取300欧元。",
+        "phonetic": "/neθeˈsito retiˈɾaɾ ˈtɾezjentos ˈeuɾos ðe mi ˈkweŋta koˈrjente/"
+      },
+      {
+        "text": "¿Me cobran comisión por este cambio?",
+        "translation": "这个兑换需要收手续费吗？",
+        "phonetic": "/me koˈβɾan komisˈjon por ˈeste ˈkambjo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "我想换钱 → Yo cambio dinero.",
+      "correct": "Quiero cambiar dinero.",
+      "correct_alt": "Necesito cambiar dinero.",
+      "explanation": "中文直接用动词「换」表达意图，但西班牙语需要用「querer + 动词原形」结构明确表达「想要做某事」。直接用「Yo cambio dinero」在西班牙语中意为「我换钱」（即正在进行兑换动作），而非「我想要兑换」。初学者常忽略动词不定式的使用，导致句子不符合西班牙语的语法习惯。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos y preguntas básicas",
+        "translation": "问候与基本询问",
+        "examples": [
+          {
+            "original": "Buenos días, ¿en qué puedo ayudarle?",
+            "phonetic": "/ˈbwenos ˈdias en ke ˈpweðo aˈʝuðarle/",
+            "translation": "早上好，我能帮您什么吗？",
+            "note": "银行工作人员的标准开场白，需记住固定表达。"
+          },
+          {
+            "original": "Hola, quiero abrir una cuenta.",
+            "phonetic": "/ˈola ˈkjeɾo aˈβɾiɾ ˈuna ˈkweŋta/",
+            "translation": "你好，我想开一个账户。",
+            "note": "强调「querer + 动词原形」的用法，避免直接用动词变位。"
+          },
+          {
+            "original": "¿Qué necesito para abrir una cuenta?",
+            "phonetic": "/ke neθeˈsito paɾa aˈβɾiɾ ˈuna ˈkweŋta/",
+            "translation": "开户需要什么？",
+            "note": "询问手续时，用「para + 动词原形」表达目的。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Operaciones comunes en el banco",
+        "translation": "银行常见业务",
+        "examples": [
+          {
+            "original": "Quiero depositar 500 euros en mi cuenta de ahorros.",
+            "phonetic": "/ˈkjeɾo ðepoˈsiˈtaɾ ˈsiŋkos ˈeuɾos en mi ˈkweŋta ðe aˈoɾos/",
+            "translation": "我想在我的储蓄账户存500欧元。",
+            "note": "区分「depositar」（存款）和「retirar」（取款）。"
+          },
+          {
+            "original": "¿Puedo pagar con tarjeta de crédito aquí?",
+            "phonetic": "/ˈpweðo paˈɣaɾ kon taɾˈxeta ðe ˈkɾeðito aˈki/",
+            "translation": "我可以在这里用信用卡支付吗？",
+            "note": "记住「pagar con + 方式」的固定搭配。"
+          },
+          {
+            "original": "Necesito un extracto de mi cuenta, por favor.",
+            "phonetic": "/neθeˈsito un eksˈtɾakto ðe mi ˈkweŋta por faˈβoɾ/",
+            "translation": "我需要一份我的账户对账单，请。",
+            "note": "「extracto」指对账单，与中文的「流水」对应。"
+          },
+          {
+            "original": "¿Cuál es el saldo de mi cuenta?",
+            "phonetic": "/ˈkwal es el ˈsaldo ðe mi ˈkweŋta/",
+            "translation": "我的账户余额是多少？",
+            "note": "「saldo」指余额，常用于询问账户状态。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Cambio de moneda y emergencias",
+        "translation": "货币兑换与紧急情况",
+        "examples": [
+          {
+            "original": "¿A cuánto está el euro hoy contra el dólar?",
+            "phonetic": "/a ˈkwanto es el ˈeuɾo oi ˈkontɾa el ˈðolaɾ/",
+            "translation": "今天欧元对美元的汇率是多少？",
+            "note": "询问汇率时用「contra」表示对比，如「euro contra dólar」。"
+          },
+          {
+            "original": "Quiero cambiar 300 dólares a yuanes, por favor.",
+            "phonetic": "/ˈkjeɾo kamˈbjaɾ ˈtɾezjentos ˈðolaɾes a ˈʝwanes por faˈβoɾ/",
+            "translation": "我想把300美元兑换成人民币，请。",
+            "note": "记住货币名称的西班牙语发音，如「yuanes」指人民币。"
+          },
+          {
+            "original": "¿Me cobran comisión por este cambio?",
+            "phonetic": "/me koˈβɾan komisˈjon por ˈeste ˈkambjo/",
+            "translation": "这个兑换需要收手续费吗？",
+            "note": "「cobrar comisión」指收取手续费，常用于银行业务。"
+          },
+          {
+            "original": "Lo siento, no tenemos yuanes hoy. ¿Quiere dólares?",
+            "phonetic": "/lo ˈsjento no teˈnemos ˈʝwanes oi. ˈkjeɾe ˈðolaɾes/",
+            "translation": "抱歉，我们今天没有人民币。您想要美元吗？",
+            "note": "处理缺货情况时的标准应对，需灵活替代方案。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏦",
+    "phonetic": "",
+    "translations": {
+      "zh": "在银行或兑换外币"
+    }
+  },
+  {
+    "id": "zh_A2_conv_04",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Entrevista de trabajo básica / 基础求职面试",
+    "bridge": "在中文面试中，求职者通常会直接陈述自己的优势（如‘我工作努力’），但西班牙语面试更强调客观事实与具体表达。例如，‘Soy responsable’（我负责任）在中文中听起来自然，但在西班牙语面试中更常用‘Tengo experiencia en...’（我在...方面有经验）来展示能力。此外，西班牙语面试常用‘Me gustaría destacar que...’（我想强调的是...）来引导话题，这与中文的‘我想说的是...’结构不同，后者更直接。",
+    "rule": "1. **动词时态**：面试时通常使用现在时或现在完成时描述经历。例如：‘Tengo tres años de experiencia en ventas’（我有三年销售经验）。现在完成时用于近期经历：‘He trabajado como profesor’（我曾担任过老师）。\n2. **表达能力**：用‘Saber + infinitivo’（会做某事）或‘Tener experiencia en’（在...有经验）表达技能。例如：‘Sé usar programas de diseño’（我会使用设计软件）或‘Tengo experiencia en atención al cliente’（我在客户服务方面有经验）。\n3. **谦虚表达**：西班牙语面试中常用‘Me considero una persona...’（我认为自己是一个...的人）或‘Destaco por...’（我的优势是...）来展示个人特质，避免直接说‘Soy...’（我是...）。例如：‘Me considero una persona responsable’（我认为自己是一个负责任的人）。\n4. **疑问句**：面试官常用‘¿Qué experiencia tiene en...?’（您在...方面有什么经验？）或‘¿Por qué quiere trabajar aquí?’（您为什么想在这里工作？）。回答时用‘Porque...’（因为...）或‘Me interesa...’（我对...感兴趣）开头。",
+    "concept_examples": [
+      {
+        "text": "Tengo cinco años de experiencia en administración.",
+        "translation": "我在行政管理方面有五年的经验。",
+        "phonetic": "/ˈtjeŋo ˈθiŋko ˈaɲos de ekspeˈɾjenθja en administɾaˈθjon/"
+      },
+      {
+        "text": "Sé trabajar en equipo y tengo buena comunicación.",
+        "translation": "我会团队合作，并且沟通能力强。",
+        "phonetic": "/ˈse traβaˈxaɾ en eˈkipjo i ˈtjeŋo ˈbweŋa komunikɑˈθjon/"
+      },
+      {
+        "text": "Me considero una persona responsable y organizada.",
+        "translation": "我认为自己是一个负责任且有条理的人。",
+        "phonetic": "/me konsiˈðeɾo ˈuna peɾˈsona responˈsable i oɾɡaniˈθaða/"
+      },
+      {
+        "text": "¿Podría decirme algo sobre su experiencia en ventas?",
+        "translation": "您能告诉我一些关于您销售经验的情况吗？",
+        "phonetic": "/poˈðɾi.a deˈθiɾme ˈalɡo ˈsobɾe su ekspeˈɾjenθja en ˈbantas/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yo trabajo muy duro y soy responsable.",
+      "correct": "Tengo experiencia en gestión de proyectos y me considero una persona responsable.",
+      "correct_alt": "Destaco por mi capacidad de organización y trabajo en equipo.",
+      "explanation": "中文母语者常用‘我工作努力’（Yo trabajo muy duro）来描述个人品质，但在西班牙语面试中，更强调具体经验和能力。直接说‘Soy responsable’（我负责任）虽然正确，但面试官更期待听到‘有经验’或‘能力强’的具体表达。此外，‘Yo trabajo muy duro’在西班牙语中显得过于主观，面试官更倾向于听到‘Tengo experiencia en...’（我在...有经验）或‘Destaco por...’（我的优势是...）的客观表达。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Presentación personal",
+        "translation": "个人介绍",
+        "examples": [
+          {
+            "original": "Me llamo Li Wei y soy de China.",
+            "phonetic": "/me ˈʝamo li ˈwei i ˈsoi de ˈtʃina/",
+            "translation": "我叫李伟，来自中国。",
+            "note": "介绍自己的姓名和国籍，注意西班牙语姓名发音与中文不同。"
+          },
+          {
+            "original": "Estudio administración de empresas en la universidad.",
+            "phonetic": "/esˈtuðjo administɾaˈθjon de eɱˈpɾesas en la unibiɾsiˈðað/",
+            "translation": "我在大学学习企业管理。",
+            "note": "用现在时描述学习或工作状态，注意动词变位。"
+          },
+          {
+            "original": "Quiero trabajar en una empresa internacional.",
+            "phonetic": "/ˈkjeɾo tɾaβaˈxaɾ en ˈuna eɱˈpɾesa internasjoˈnal/",
+            "translation": "我想在一家国际公司工作。",
+            "note": "用‘querer + infinitivo’表达愿望，注意动词变位。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Experiencia laboral",
+        "translation": "工作经验",
+        "examples": [
+          {
+            "original": "Tengo dos años de experiencia en atención al cliente.",
+            "phonetic": "/ˈtjeŋo ˈdos ˈaɲos de ekspeˈɾjenθja en atenˈθjon al kluˈen̪te/",
+            "translation": "我在客户服务方面有两年的经验。",
+            "note": "用‘Tener + años de experiencia en’表达工作经验年限。"
+          },
+          {
+            "original": "Trabajé como asistente en una empresa de tecnología.",
+            "phonetic": "/tɾaβaˈxe ˈkomo asisˈtente en ˈuna eɱˈpɾesa de teknoˈloxi.a/",
+            "translation": "我曾在一家科技公司担任助理。",
+            "note": "用‘pretérito indefinido’（简单过去时）描述过去的工作经历。"
+          },
+          {
+            "original": "Sé usar programas de diseño como Photoshop.",
+            "phonetic": "/ˈse uˈsaɾ pɾoˈɣɾamas de diˈseɲo ˈkomo fotoˈʃop/",
+            "translation": "我会使用设计软件，比如Photoshop。",
+            "note": "用‘Saber + infinitivo’表达技能，注意动词变位。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Habilidades y motivación",
+        "translation": "技能与动机",
+        "examples": [
+          {
+            "original": "Destaco por mi capacidad de resolver problemas.",
+            "phonetic": "/desˈtako por mi kapaθiˈðað de reˈsolβeɾ pɾoˈβlemas/",
+            "translation": "我的优势在于解决问题的能力。",
+            "note": "用‘Destacar por’表达个人优势，注意动词变位。"
+          },
+          {
+            "original": "Me interesa este puesto porque puedo aplicar mis conocimientos.",
+            "phonetic": "/me ˈinteɾesa ˈeste ˈpwesto poɾˈke ˈpweðo aplikɑɾ mis konoˈθimientos/",
+            "translation": "我对这个职位感兴趣，因为我可以应用我的知识。",
+            "note": "用‘Me interesa + sustantivo’表达兴趣，注意动词变位。"
+          },
+          {
+            "original": "¿Por qué quiere trabajar en nuestra empresa?",
+            "phonetic": "/poɾ ˈke ˈkjeɾe tɾaβaˈxaɾ en ˈnwestɾa eɱˈpɾesa/",
+            "translation": "您为什么想在我们公司工作？",
+            "note": "面试官常用‘¿Por qué + verbo?’提问，回答时用‘Porque...’开头。"
+          },
+          {
+            "original": "Me considero una persona responsable y con buena actitud.",
+            "phonetic": "/me konsiˈðeɾo ˈuna peɾˈsona responˈsable i kon ˈbweŋa atiˈtuð/",
+            "translation": "我认为自己是一个负责任且态度良好的人。",
+            "note": "用‘Me considero + adjetivo’表达个人特质，注意动词变位。"
+          }
+        ]
+      }
+    ],
+    "emoji": "💼",
+    "phonetic": "",
+    "translations": {
+      "zh": "基础求职面试"
+    }
+  },
+  {
+    "id": "zh_A2_conv_05",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "En correos o servicio postal / 在邮局或邮政服务处",
+    "bridge": "在中文中，邮局的常用词汇和表达方式与西班牙语有显著差异。例如，中文常用\"寄信\"（jì xìn）表示‘寄信件’，而西班牙语则使用动词‘enviar’或‘mandar’加上‘una carta’。此外，中文中‘邮票’（yóupiào）直接对应‘sello’，但西班牙语中‘sobre’指的是‘信封’而非‘信件’。学习者需注意这些词汇的对应关系，避免混淆。",
+    "rule": "在西班牙语中，与邮局相关的常用动词包括：\n1. **enviar/mandar**：表示‘寄送’（如信件、包裹）。两者用法相同，但‘mandar’在拉丁美洲更常用。\n   - 变位：yo envío/mando, tú envías/mandas, él/ella envía/manda等。\n   - 例句：Voy a enviar/mandar este paquete a China.\n\n2. **pesar**：表示‘称重量’。\n   - 变位：yo peso, tú pesas, él/ella pesa等。\n   - 例句：¿Cuánto pesa este paquete?\n\n3. **comprar**：表示‘购买’（如邮票、信封）。\n   - 变位：yo compro, tú compras, él/ella compra等。\n\n4. **rellenar**：表示‘填写’（如表格）。\n   - 变位：yo relleno, tú rellenas, él/ella rellena等。\n\n此外，常用名词包括：\n- **carta**（信件）\n- **paquete**（包裹）\n- **sobre**（信封）\n- **sello**（邮票）\n- **formulario**（表格）\n- **dirección**（地址）\n\n注意：西班牙语中，‘correo’既可指‘邮局’（el correo），也可指‘邮件’（el correo），需根据上下文判断。",
+    "concept_examples": [
+      {
+        "text": "¿Cuánto cuesta enviar esta carta a Pekín?",
+        "translation": "寄这封信到北京要多少钱？",
+        "phonetic": "/kwán.to kwés.ta en.bí.ar es.ta kar.ta a pe.kin/"
+      },
+      {
+        "text": "Necesito comprar sellos y sobres.",
+        "translation": "我需要买邮票和信封。",
+        "phonetic": "/ne.se.si.to kom.prar se.ʎos i so.βres/"
+      },
+      {
+        "text": "¿Dónde puedo pesar este paquete?",
+        "translation": "在哪里可以称这个包裹的重量？",
+        "phonetic": "/don.de pwe.do pe.sar es.te pa.ke.te/"
+      },
+      {
+        "text": "Rellene este formulario, por favor.",
+        "translation": "请填写这张表格。",
+        "phonetic": "/re.ʎe.ne es.te for.ma.la.ɾjo por fa.βor/"
+      }
+    ],
+    "common_error": {
+      "wrong": "我想寄这个信到中国。",
+      "correct": "Quiero enviar esta carta a China.",
+      "correct_alt": "Voy a mandar esta carta a China.",
+      "explanation": "中文中，‘寄’（jì）可以直接用于‘寄信’（jì xìn），但西班牙语中需使用动词‘enviar’或‘mandar’加上‘una carta’。此外，‘信’在西班牙语中是‘carta’而非‘信’（xìn）。直接翻译会导致语法和词汇错误。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos y preguntas básicas",
+        "translation": "问候与基本提问",
+        "examples": [
+          {
+            "original": "Buenos días, ¿en qué puedo ayudarle?",
+            "phonetic": "/bwe.nos ˈdi.as en ke pwe.do aˈʝuɾ.le/",
+            "translation": "早上好，我能帮您什么吗？",
+            "note": "学习者需记住常用的邮局问候语，如‘Buenos días’（早上好）或‘Buenas tardes’（下午好）。"
+          },
+          {
+            "original": "¿Qué necesita?",
+            "phonetic": "/ke ne.se.si.ta/",
+            "translation": "您需要什么？",
+            "note": "‘necesitar’是A2级别的核心动词，需掌握其变位和用法。"
+          },
+          {
+            "original": "Quiero enviar una carta.",
+            "phonetic": "/kje.ɾo en.bi̯ar ˈu.na ˈkar.ta/",
+            "translation": "我想寄一封信。",
+            "note": "‘querer’（想要）的变位‘quiero’需重点练习，因为与中文的‘想’在用法上有所不同。"
+          },
+          {
+            "original": "¿Cuánto cuesta?",
+            "phonetic": "/ˈkwan.to ˈkwes.ta/",
+            "translation": "多少钱？",
+            "note": "‘cuánto’（多少）与‘cuesta’（花费）的搭配需熟记，避免直接使用中文的‘多少钱？’结构。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Comprar sellos y rellenar formularios",
+        "translation": "购买邮票与填写表格",
+        "examples": [
+          {
+            "original": "Necesito cinco sellos de 1 euro.",
+            "phonetic": "/ne.se.si.to ˈθiŋ.ko ˈse.ʎos de ˈu.no ˈe.ɾo/",
+            "translation": "我需要五枚一欧元的邮票。",
+            "note": "‘sello’（邮票）为阳性名词，需与数词搭配使用。西班牙语中，‘euro’为阳性名词。"
+          },
+          {
+            "original": "¿Me puede dar un sobre, por favor?",
+            "phonetic": "/me pwe.de ðaɾ um ˈso.bɾe por fa.βor/",
+            "translation": "请给我一个信封好吗？",
+            "note": "‘poder’（能够）的变位‘puede’需掌握，同时注意‘dar’（给）的用法。"
+          },
+          {
+            "original": "Rellene este formulario con su nombre y dirección.",
+            "phonetic": "/re.ʎe.ne es.te for.ma.la.ɾjo kon su ˈno.mbɾe i di.ɾek.θjon/",
+            "translation": "请用您的姓名和地址填写这张表格。",
+            "note": "‘con’（用）在西班牙语中用于表示工具或方式，需与中文的‘用’区分。"
+          },
+          {
+            "original": "¿Dónde está la máquina de sellos?",
+            "phonetic": "/don.de es.ta la maˈki.na ðe ˈse.ʎos/",
+            "translation": "售邮票的机器在哪里？",
+            "note": "‘máquina de sellos’是固定搭配，需记住。西班牙语中，‘de’表示所属关系。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Enviar paquetes y preguntar por plazos",
+        "translation": "寄送包裹与询问时限",
+        "examples": [
+          {
+            "original": "¿Cuánto pesa este paquete?",
+            "phonetic": "/ˈkwan.to ˈpe.sa es.te pa.ˈke.te/",
+            "translation": "这个包裹多重？",
+            "note": "‘pesar’（称重）为规则动词，变位需掌握。西班牙语中，‘cuánto’用于疑问句时需与动词配合。"
+          },
+          {
+            "original": "Necesito enviar este paquete a Madrid.",
+            "phonetic": "/ne.se.si.to en.bi̯ar es.te pa.ˈke.te a ma.ˈðɾið/",
+            "translation": "我需要寄这个包裹到马德里。",
+            "note": "‘enviar’的变位‘envío’在陈述句中需注意重音位置。"
+          },
+          {
+            "original": "¿Cuánto tarda en llegar a Pekín?",
+            "phonetic": "/ˈkwan.to ˈtaɾ.ða en ʎe.ˈɣaɾ a pe.ˈkin/",
+            "translation": "寄到北京需要多长时间？",
+            "note": "‘tardar’（花费时间）的用法需与中文的‘需要’区分。西班牙语中，‘en llegar’表示‘到达所需时间’。"
+          },
+          {
+            "original": "¿Me puede decir el precio exacto?",
+            "phonetic": "/me pwe.de ðe.ˈθiɾ el ˈpɾe.θjo eɣˈsak.to/",
+            "translation": "您能告诉我准确的价格吗？",
+            "note": "‘decir’（告诉）的变位‘dice’需注意，同时‘exacto’（准确的）为形容词，需与名词配合。"
+          }
+        ]
+      }
+    ],
+    "emoji": "📮",
+    "phonetic": "",
+    "translations": {
+      "zh": "邮局或邮政服务处"
+    }
+  },
+  {
+    "id": "zh_A2_conv_06",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Alquilar un piso / 租房子",
+    "bridge": "在中文中，租房子时常用「租」+ 房子/公寓（如「租房子」或「租公寓」），动词直接作用于名词。而在西班牙语中，租房子通常用动词「alquilar」+ 房子/公寓，但更常用「alquilar un piso」或「alquilar un apartamento」。注意：西班牙语中动词「alquilar」的使用频率高于中文的「租」，且不像中文那样可以省略动词直接说「房子」或「公寓」。此外，西班牙语中「piso」指公寓楼层，而「apartamento」指独立公寓，这与中文的「公寓」概念略有不同。",
+    "rule": "1. 动词「alquilar」的变位（A2水平常用现在时）：\n   - Yo alquilo\n   - Tú alquilas\n   - Él/Ella/Usted alquila\n   - Nosotros/as alquilamos\n   - Vosotros/as alquiláis\n   - Ellos/Ellas/Ustedes alquilan\n\n2. 常用句式：\n   - «¿Cuánto cuesta alquilar este piso?»（这个公寓租金多少？）\n   - «Busco un piso para alquilar.»（我在找一个要出租的公寓。）\n   - «¿Dónde está el piso que alquilas?»（你租的公寓在哪里？）\n\n3. 与中文的对比：\n   - 中文常说「我租了一个房子」，西班牙语则为「Alquilé un piso」。注意过去时的变位（A2水平需掌握简单过去时）。\n   - 疑问句中，西班牙语常用倒装句式：「¿Cuánto cuesta?」而非中文的「多少钱？」\n\n4. 例外与注意事项：\n   - 在西班牙，「piso」通常指公寓楼层，但在拉美，「apartamento」更常用。\n   - 动词「alquilar」可用于房子、车、设备等，但中文中「租」的使用范围更广（如「租车」）。",
+    "concept_examples": [
+      {
+        "text": "¿Cuánto cuesta alquilar este piso?",
+        "translation": "这个公寓租金多少钱？",
+        "phonetic": "/ˈkwan.to ˈkwes.ta al.kiˈlaɾ es.te ˈpi.so/"
+      },
+      {
+        "text": "Busco un piso para alquilar cerca del centro.",
+        "translation": "我在找一个位于市中心附近要出租的公寓。",
+        "phonetic": "/ˈbus.ko um ˈpi.so ˈpa.ɾa al.kiˈlaɾ ˈseɾ.ka ðel ˈθen.tɾo/"
+      },
+      {
+        "text": "¿Dónde está el piso que alquilas?",
+        "translation": "你租的公寓在哪里？",
+        "phonetic": "/ˈdon.de esˈta el ˈpi.so ke alˈki.las/"
+      },
+      {
+        "text": "Alquilé este apartamento el mes pasado.",
+        "translation": "我上个月租了这个公寓。",
+        "phonetic": "/al.kiˈle es.te a.paɾ.taˈmen.to el mes paˈsa.ðo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "¿Cuánto cuesta este piso para alquilar?",
+      "correct": "¿Cuánto cuesta alquilar este piso?",
+      "correct_alt": "",
+      "explanation": "中文常说「这个房子多少钱租？」但西班牙语中动词「alquilar」必须放在疑问句的正确位置。错误句子中，「para alquilar」放在句末，听起来生硬且不符合西班牙语的自然表达习惯。正确的表达是将动词「alquilar」直接放在疑问词后，形成「¿Cuánto cuesta alquilar...?」的结构。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Preguntar por el precio",
+        "translation": "询问租金价格",
+        "examples": [
+          {
+            "original": "¿Cuánto cuesta alquilar este piso?",
+            "phonetic": "/ˈkwan.to ˈkwes.ta al.kiˈlaɾ es.te ˈpi.so/",
+            "translation": "这个公寓租金多少钱？",
+            "note": "学习询问租金的基本句式，注意动词「alquilar」的位置。"
+          },
+          {
+            "original": "¿El precio incluye los gastos?",
+            "phonetic": "/el ˈpɾe.θjo inˈklu.je los ˈɡas.tos/",
+            "translation": "租金包含费用吗？",
+            "note": "学习询问是否包含水电费等额外费用。"
+          },
+          {
+            "original": "¿Hay que pagar una fianza?",
+            "phonetic": "/ai ke paˈɣaɾ ˈu.na ˈfjan.sa/",
+            "translation": "需要支付押金吗？",
+            "note": "学习询问押金相关信息。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Describir el piso",
+        "translation": "描述公寓特征",
+        "examples": [
+          {
+            "original": "El piso tiene dos dormitorios y una cocina grande.",
+            "phonetic": "/el ˈpi.so ˈtje.ne ðos doɾˈmi.to.ɾjos i ˈu.na koˈθi.na ˈɡɾan.de/",
+            "translation": "这个公寓有两间卧室和一个大厨房。",
+            "note": "学习描述公寓的基本结构和设施。"
+          },
+          {
+            "original": "¿El piso está amueblado?",
+            "phonetic": "/el ˈpi.so esˈta a.mweˈbla.ðo/",
+            "translation": "公寓有家具吗？",
+            "note": "学习询问公寓是否配备家具。"
+          },
+          {
+            "original": "Busco un piso con balcón y cerca de la parada de metro.",
+            "phonetic": "/ˈbus.ko um ˈpi.so kon balˈkon i ˈθer.ka ðe la paˈɾa.ða ðe ˈme.tɾo/",
+            "translation": "我在找一个有阳台且地铁站附近的公寓。",
+            "note": "学习描述公寓的具体需求。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Hablar de contratos y condiciones",
+        "translation": "讨论合同和条件",
+        "examples": [
+          {
+            "original": "¿Cuánto tiempo es el contrato de alquiler?",
+            "phonetic": "/ˈkwan.to ˈtjem.po es el konˈtɾa.to ðe al.kiˈleɾ/",
+            "translation": "租赁合同的期限是多长？",
+            "note": "学习询问合同期限。"
+          },
+          {
+            "original": "¿Puedo pagar el alquiler en efectivo?",
+            "phonetic": "/ˈpwe.ðo paˈɣaɾ el al.kiˈleɾ en eˈfek.ti.βo/",
+            "translation": "我可以用现金支付租金吗？",
+            "note": "学习询问支付方式。"
+          },
+          {
+            "original": "El contrato incluye el mantenimiento del ascensor.",
+            "phonetic": "/el konˈtɾa.to inˈklu.je el man.te.niˈmjen.to ðel asenˈsoɾ/",
+            "translation": "合同包含电梯的维护。",
+            "note": "学习描述合同中的服务内容。"
+          },
+          {
+            "original": "¿Hay que avisar con un mes de antelación si quiero irme?",
+            "phonetic": "/ai ke aˈβi.saɾ kon um mes ðe an.te.laˈθjon si ˈkje.ɾo ˈiɾ.me/",
+            "translation": "如果我想搬走，需要提前一个月通知吗？",
+            "note": "学习询问解约条件。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "zh": "租房子"
+    }
+  },
+  {
+    "id": "zh_A2_conv_07",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Presentarse en una fiesta / 在派对上介绍自己",
+    "bridge": "在中文中，介绍自己时常用「我是...」的句式，如「我是小明」。而在西班牙语中，介绍自己时通常使用动词「llamarse」的现在时变位，如「Me llamo...」。中文的「是」是静态系动词，而西班牙语的「llamarse」是自反动词，需要加上自反代词「me」。此外，中文介绍时常省略主语，但西班牙语必须明确使用主语或自反代词。初学者容易直接套用中文句式，忽略自反代词的使用，导致句子不完整或错误。",
+    "rule": "在西班牙语中，介绍自己时使用动词「llamarse」（叫做）的现在时变位。变位形式如下：\n- Yo me llamo...\n- Tú te llamas...\n- Él/Ella/Usted se llama...\n- Nosotros/as nos llamamos...\n- Vosotros/as os llamáis...\n- Ellos/Ellas/Ustedes se llaman...\n\n注意事项：\n1. 自反代词（me, te, se, nos, os, se）必须与动词变位一致。\n2. 在非正式场合（如派对），可以省略主语「Yo」或「Tú」，但自反代词不能省略。\n3. 如果要询问他人名字，使用「¿Cómo te llamas?」或「¿Cómo se llamas?」\n4. 回答时，可以加上「Mucho gusto」（很高兴认识你）或「Encantado/a」（很荣幸）。\n\n常见用法：\n- Me llamo María. ¿Y tú?（我叫玛丽亚。你呢？）\n- ¿Cómo te llamas?（你叫什么名字？）\n- Me llamo Li Wei. ¿Y usted?（我叫李伟。您呢？）",
+    "concept_examples": [
+      {
+        "text": "¡Hola! Me llamo Ana. ¿Y tú?",
+        "translation": "你好！我叫安娜。你呢？",
+        "phonetic": "ˈola me ˈʝamo ˈana e ˈtu"
+      },
+      {
+        "text": "Hola, me llamo Juan. Encantado.",
+        "translation": "你好，我叫胡安。很荣幸认识你。",
+        "phonetic": "ˈola me ˈʝamo ˈxwan enˈkantado"
+      },
+      {
+        "text": "¿Cómo te llamas? Me llamo Li Wei.",
+        "translation": "你叫什么名字？我叫李伟。",
+        "phonetic": "ˈkomo te ˈʝamas me ˈʝamo li ˈwei"
+      },
+      {
+        "text": "Hola, me llamo María. ¿Y usted?",
+        "translation": "你好，我叫玛丽亚。您呢？",
+        "phonetic": "ˈola me ˈʝamo maˈɾia e ˈusted"
+      }
+    ],
+    "common_error": {
+      "wrong": "Hola, soy Ana. ¿Y tú?",
+      "correct": "¡Hola! Me llamo Ana. ¿Y tú?",
+      "correct_alt": "",
+      "explanation": "中文中「我是」可以直接说「我是安娜」，但在西班牙语中，介绍自己时必须使用「llamarse」的自反形式「me llamo」。直接使用「soy」虽然语法上正确，但不符合派对介绍的常用表达方式。此外，「soy」后面通常接形容词或名词（如「soy estudiante」我是学生），而「llamarse」专门用于介绍名字。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saludos básicos y presentación",
+        "translation": "基本问候与介绍",
+        "examples": [
+          {
+            "original": "¡Hola! Me llamo Pedro.",
+            "phonetic": "ˈola me ˈʝamo ˈpeðɾo",
+            "translation": "你好！我叫佩德罗。",
+            "note": "学习基本的自反动词变位和问候语。"
+          },
+          {
+            "original": "¿Cómo te llamas?",
+            "phonetic": "ˈkomo te ˈʝamas",
+            "translation": "你叫什么名字？",
+            "note": "记住询问他人名字的常用句式。"
+          },
+          {
+            "original": "Me llamo Xiao Li.",
+            "phonetic": "me ˈʝamo ɕiao li",
+            "translation": "我叫小丽。",
+            "note": "练习使用中文名字的西班牙语发音。"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Intercambiar nombres y reacciones",
+        "translation": "交换名字与回应",
+        "examples": [
+          {
+            "original": "¡Hola! Me llamo María. ¿Y tú?",
+            "phonetic": "ˈola me ˈʝamo maˈɾia e ˈtu",
+            "translation": "你好！我叫玛丽亚。你呢？",
+            "note": "学习在介绍后询问对方名字。"
+          },
+          {
+            "original": "Me llamo Carlos. Mucho gusto.",
+            "phonetic": "me ˈʝamo ˈkaɾlos ˈmutʃo ˈɡusto",
+            "translation": "我叫卡洛斯。很高兴认识你。",
+            "note": "记住常用的礼貌用语「Mucho gusto」。"
+          },
+          {
+            "original": "¿Cómo se llamas? Me llamo Wang Min.",
+            "phonetic": "ˈkomo se ˈʝamas me ˈʝamo waŋ min",
+            "translation": "您叫什么名字？我叫王敏。",
+            "note": "练习使用正式场合的问句「¿Cómo se llamas?」"
+          },
+          {
+            "original": "¡Encantada! ¿De dónde eres?",
+            "phonetic": "enˈkantada de ˈðonde ˈeɾes",
+            "translation": "很荣幸！你是哪里人？",
+            "note": "学习在介绍后进一步询问对方信息。"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Presentaciones con más detalles",
+        "translation": "更详细的介绍",
+        "examples": [
+          {
+            "original": "Hola, me llamo Ana. Soy de España. ¿Y tú?",
+            "phonetic": "ˈola me ˈʝamo ˈana soi de esˈpaɲa e ˈtu",
+            "translation": "你好，我叫安娜。我来自西班牙。你呢？",
+            "note": "学习在介绍中加入来源地信息。"
+          },
+          {
+            "original": "Me llamo Li Wei. Soy de China. Encantado.",
+            "phonetic": "me ˈʝamo li ˈwei soi de ˈtʃina enˈkantado",
+            "translation": "我叫李伟。我来自中国。很荣幸。",
+            "note": "练习使用「Soy de...」介绍来源地。"
+          },
+          {
+            "original": "¿Cómo te llamas? ¿De dónde eres? Me llamo Xiao Mei.",
+            "phonetic": "ˈkomo te ˈʝamas de ˈðonde ˈeɾes me ˈʝamo ɕiao ˈmei",
+            "translation": "你叫什么名字？你是哪里人？我叫小美。",
+            "note": "学习在对话中连续询问多个信息。"
+          },
+          {
+            "original": "¡Hola! Me llamo Pedro. Soy de México. ¿Y usted?",
+            "phonetic": "ˈola me ˈʝamo ˈpeðɾo soi de ˈmexiko e ˈusted",
+            "translation": "你好！我叫佩德罗。我来自墨西哥。您呢？",
+            "note": "练习使用正式场合的问句和回答。"
+          }
+        ]
+      }
+    ],
+    "emoji": "🎉",
+    "phonetic": "",
+    "translations": {
+      "zh": "在派对上介绍自己"
+    }
+  },
+  {
+    "id": "zh_A2_conv_08",
+    "type": "concept",
+    "category": "Conversación",
+    "title": "Quejarse y disculparse / 抱怨与道歉",
+    "bridge": "在中文中，抱怨和道歉通常使用固定句式，如‘太...了’或‘对不起，我...’。而在西班牙语中，表达不满或歉意时，常用‘Me molesta que...’、‘Lo siento mucho’或‘Perdón por...’等结构。中文的‘抱怨’更直接，而西班牙语的抱怨常带有‘que’引导的从句或使用‘es que’解释原因。此外，西班牙语的道歉常需说明原因（如‘Perdón por llegar tarde’），而中文有时仅说‘对不起’即可。关键差异在于西班牙语的句式更灵活，需注意动词变位和时态的准确性。",
+    "rule": "1. **表达不满（Quejarse）**：\n   - 使用‘Me molesta que...’（让我烦恼的是...）+ subjuntivo：\n     *Me molesta que hagas tanto ruido.*（让我烦恼的是你那么吵。）\n   - 使用‘Es que...’（因为...）+ 陈述句：\n     *Es que el servicio es muy lento.*（因为服务太慢了。）\n   - 使用‘No aguanto...’（我受不了...）：\n     *No aguanto este calor.*（我受不了这热天。）\n   - 注意：subjuntivo用于表达主观感受或愿望，而中文直接用陈述句即可。\n\n2. **道歉（Disculparse）**：\n   - 基础道歉：\n     *Lo siento.*（对不起。）\n     *Perdón.*（抱歉。）\n   - 说明原因：\n     *Perdón por llegar tarde.*（抱歉我迟到了。）\n     *Lo siento mucho por el malentendido.*（非常抱歉这个误会。）\n   - 使用‘Disculpe’（正式）或‘Disculpa’（非正式）：\n     *Disculpe, ¿me puede ayudar?*（抱歉，能帮我一下吗？）\n   - 注意：西班牙语道歉常需说明原因，而中文有时仅说‘对不起’即可。",
+    "concept_examples": [
+      {
+        "text": "Me molesta que no me avises cuando llegas tarde.",
+        "translation": "让我烦恼的是你迟到也不通知我。",
+        "phonetic": "me moˈlesta ke no me aˈβises kwando ˈllegas ˈtarde"
+      },
+      {
+        "text": "Es que la comida está fría y no me gusta.",
+        "translation": "因为食物凉了，我不喜欢。",
+        "phonetic": "es ke la ˈkomida esˈta ˈfɾia i no me ˈgusta"
+      },
+      {
+        "text": "Perdón por no llamar antes, es que no tenía batería.",
+        "translation": "抱歉没早点打电话，因为手机没电了。",
+        "phonetic": "peɾˈðon poɾ no ʝaˈmaɾ aˈθes, es ke no teˈnia baˈteɾia"
+      },
+      {
+        "text": "Lo siento mucho por el ruido, ya lo soluciono.",
+        "translation": "非常抱歉吵到了，我马上解决。",
+        "phonetic": "lo ˈsjento ˈmuʧo poɾ el ˈruido, xa lo soluθjoˈno"
+      }
+    ],
+    "common_error": {
+      "wrong": "我生气你迟到。",
+      "correct": "Me molesta que llegues tarde.",
+      "correct_alt": "Es que llegas tarde y me enfado.",
+      "explanation": "中文直接说‘我生气你迟到’是典型的主谓宾结构，而西班牙语表达不满需用‘Me molesta que...’或‘Es que...’引导原因。直接翻译‘我生气’为‘Estoy enojado’并不符合西班牙语的表达习惯，因为西班牙语更强调‘让某人烦恼’的结构。此外，‘llegar tarde’是固定搭配，不能分开说‘llegas tarde’（错误）或‘tarde llegar’（错误）。"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Expresar molestia básica",
+        "translation": "表达基本不满",
+        "examples": [
+          {
+            "original": "Me molesta el ruido.",
+            "phonetic": "me moˈlesta el ˈruido",
+            "translation": "吵闹让我烦恼。",
+            "note": "使用‘Me molesta...’结构，主语为第三人称（el ruido）。"
+          },
+          {
+            "original": "No aguanto este calor.",
+            "phonetic": "no aˈɣwanto ˈeste kaˈloɾ",
+            "translation": "我受不了这热天。",
+            "note": "‘No aguanto’表示强烈不满，相当于‘我受不了’"
+          },
+          {
+            "original": "Es que el café está frío.",
+            "phonetic": "es ke el kaˈfe esˈta ˈfɾio",
+            "translation": "因为咖啡凉了。",
+            "note": "‘Es que...’用于解释原因，类似中文‘因为...’"
+          },
+          {
+            "original": "Odio que me interrumpan.",
+            "phonetic": "oˈðio ke me iˈntɾumpan",
+            "translation": "我讨厌别人打断我。",
+            "note": "‘Odio que...’+ subjuntivo，表达强烈厌恶"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Quejarse con explicaciones",
+        "translation": "带解释的抱怨",
+        "examples": [
+          {
+            "original": "Es que el servicio es muy lento y no aguanto esperar tanto.",
+            "phonetic": "es ke el serˈβiθjo es ˈmui ˈlento i no aˈɣwanto espeˈɾaɾ ˈtanto",
+            "translation": "因为服务太慢了，我受不了等这么久。",
+            "note": "‘Es que...’+ 解释+ ‘y’+ 结果，结构类似中文‘因为...所以...’"
+          },
+          {
+            "original": "Me molesta que no me digas la verdad.",
+            "phonetic": "me moˈlesta ke no me diˈgas la βeɾˈðað",
+            "translation": "让我烦恼的是你不跟我说实话。",
+            "note": "‘Me molesta que...’+ subjuntivo，强调主观感受"
+          },
+          {
+            "original": "No aguanto que hablen así de mí.",
+            "phonetic": "no aˈɣwanto ke ˈablen aˈsi ðe mi",
+            "translation": "我受不了别人这样说我。",
+            "note": "‘No aguanto que...’+ subjuntivo，表达不能容忍"
+          },
+          {
+            "original": "Es que el ascensor no funciona y tengo que subir a pie.",
+            "phonetic": "es ke el asenˈsoɾ no funθjoˈna i ˈteŋgo ke suˈβiɾ a pje",
+            "translation": "因为电梯坏了，我得走上去。",
+            "note": "‘Es que...’+ 问题+ ‘y’+ 结果，解释不满的具体原因"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Disculparse y responder",
+        "translation": "道歉与回应",
+        "examples": [
+          {
+            "original": "Perdón por llegar tarde, es que el tráfico estaba horrible.",
+            "phonetic": "peɾˈðon poɾ ʝeˈɣaɾ ˈtarde, es ke el ˈtɾafiko esˈtaβa oˈɾible",
+            "translation": "抱歉迟到了，因为交通太糟糕了。",
+            "note": "‘Perdón por...’+ 动名词，说明迟到原因"
+          },
+          {
+            "original": "Lo siento mucho por el malentendido, no fue mi intención.",
+            "phonetic": "lo ˈsjento ˈmuʧo poɾ el malentiˈdiðo, no fue mi intenθˈθjon",
+            "translation": "非常抱歉这个误会，那不是我的本意。",
+            "note": "‘Lo siento mucho’+ 说明+ ‘no fue mi intención’强调无意"
+          },
+          {
+            "original": "Disculpe, ¿me puede traer otro tenedor?",
+            "phonetic": "disˈkulpe, me ˈpweðe tɾaˈeɾ ˈotɾo tenˈfoɾ?",
+            "translation": "抱歉，能给我拿另一把叉子吗？",
+            "note": "‘Disculpe’用于正式场合，后接请求"
+          },
+          {
+            "original": "Perdón, no te escuché bien, ¿puedes repetir?",
+            "phonetic": "peɾˈðon, no te eskuˈtʃe βjen, ˈpweðes repeˈtiɾ?",
+            "translation": "抱歉，我没听清，能再说一遍吗？",
+            "note": "‘Perdón’+ 说明+ ‘¿puedes...?’用于礼貌请求"
+          }
+        ]
+      }
+    ],
+    "emoji": "😠🙏",
+    "phonetic": "",
+    "translations": {
+      "zh": "抱怨与道歉"
+    }
+  }
+]
