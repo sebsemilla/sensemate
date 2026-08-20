@@ -4951,9 +4951,9 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
   );
   border-radius: inherit;
   pointer-events: none;
-  z-index: 0;
+  z-index: 1;
 }
-.imm-card--cinematic .imm-card-body     { position: relative; z-index: 1; max-width: 68%; }
+.imm-card--cinematic .imm-card-body     { position: relative; z-index: 2; max-width: 68%; }
 .imm-card--cinematic .imm-card-title    { color: #fff; }
 .imm-card--cinematic .imm-card-sub      { color: rgba(255,255,255,0.65); }
 .imm-card--cinematic .imm-tag           { background: rgba(255,255,255,0.15); color: #fff; border-color: rgba(255,255,255,0.2); }
