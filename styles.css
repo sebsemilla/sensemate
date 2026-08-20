@@ -5080,7 +5080,7 @@ body.dark-mode .imm-pinned-badge { color: #fbbf24; }
 .imm-sub-orig { font-weight: 600; line-height: 1.5; color: var(--text, #111827); white-space: pre-line; }
 .imm-sub-orig.imm-sub-idle { color: var(--text-muted); font-weight: 400; font-style: italic; white-space: normal; }
 .imm-sub-orig.imm-sub-idle--error { color: #ef4444; font-style: normal; }
-.imm-sub-trans { font-size: 0.85rem; color: var(--text-muted); margin-top: 3px; font-style: italic; white-space: pre-line; }
+.imm-sub-trans { font-size: 1.05rem; color: #22d3ee; margin-top: 3px; font-style: italic; white-space: pre-line; }
 
 /* Fundido al aparecer un nuevo par de subtítulos */
 @keyframes immSubFadeIn { from { opacity: 0; } to { opacity: 1; } }
