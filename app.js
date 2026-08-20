@@ -1532,8 +1532,14 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
         safeJson(base + `${src}_a1_gramatica.json`),
         safeJson(base + `${src}_a1_funciones_comunicativas.json`),
         safeJson(base + `${src}_a1_conversacion.json`),
-    ]).then(([gram, func, conv]) => {
-        const mods = _interleaveInglesA1(gram, func, conv);
+        safeJson(base + 'video_modules.json'),
+    ]).then(([gram, func, conv, videoMods]) => {
+        let mods = _interleaveInglesA1(gram, func, conv);
+        // Inyectar video_modules en sus posiciones indicadas (orden inverso para preservar índices)
+        if (Array.isArray(videoMods) && videoMods.length) {
+            [...videoMods].sort((a, b) => b.position - a.position)
+                          .forEach(v => mods.splice(v.position, 0, v));
+        }
         _renderModuleAccordion(grid, mods);
         _renderA0Section(grid, targetCode, src);
         if (!mods.length) {
@@ -1598,7 +1604,9 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
             case 'milestone':
                 return `<div class="msnake-node msnake-node--milestone"><span class="msnake-label">${n.label}</span></div>`;
             case 'mod': {
-                const isConv = n.mod.type === 'conversation';
+                if (n.mod.type === 'video_module') {
+                    return `<div class="msnake-node msnake-node--play ${done ? 'msnake-node--done' : ''}" data-key="${n.key}" data-ntype="video_module" data-videoid="${n.mod.videoId}"><span class="msnake-label">▶ ${trunc(n.mod.title, 18)}</span></div>`;
+                }
                 const cls = done ? 'msnake-node--done' : 'msnake-node--pending';
                 return `<div class="msnake-node ${cls}" data-key="${n.key}" data-ntype="mod" data-category="${n.mod.category || ''}" data-modtype="${n.mod.type || 'concept'}"><span class="msnake-label">${modEmoji(n.mod)} ${trunc(n.mod.title, 18)}</span></div>`;
             }
@@ -1657,8 +1665,43 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
     html += '</div>';
     grid.innerHTML = html;
 
+    // Área de chat — guardamos el HTML original para restaurarlo
+    const _areaOriginals = new Map();
+    grid.querySelectorAll('.msnake-area').forEach(area => {
+        _areaOriginals.set(area.id || area, area.innerHTML);
+    });
+    function _restoreAllAreas() {
+        grid.querySelectorAll('.msnake-area').forEach(area => {
+            const orig = _areaOriginals.get(area.id || area);
+            if (orig !== undefined) area.innerHTML = orig;
+        });
+        _misionWireChatTriggers(grid);
+    }
+
+    grid.querySelectorAll('[data-ntype="video_module"]').forEach(el => {
+        el.addEventListener('click', () => {
+            const videoId = el.dataset.videoid;
+            if (!videoId) return;
+            // Marcar como completado
+            const key = el.dataset.key;
+            const steps = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
+            if (!steps.includes(key)) { steps.push(key); localStorage.setItem('ls_mision_steps', JSON.stringify(steps)); }
+            el.classList.add('msnake-node--done');
+            // Mostrar en el área más cercana (primera disponible)
+            _restoreAllAreas();
+            const area = grid.querySelector('.msnake-area');
+            if (area) {
+                area.innerHTML = `
+                    <div class="msnake-video-embed">
+                        <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>`;
+            }
+        });
+    });
+
     grid.querySelectorAll('[data-ntype="mod"]').forEach(el => {
         el.addEventListener('click', () => {
+            _restoreAllAreas();
             const node = allNodes.find(n => n.key === el.dataset.key);
             if (!node?.mod) return;
             if (node.mod.type === 'conversation') {

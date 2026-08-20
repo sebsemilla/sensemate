@@ -6301,6 +6301,20 @@ body.dark-mode .msnake-node--pending[data-category="Funktionskommunikation"] {
 .msnake-node--play:hover { box-shadow: 0 0 0 3px rgba(239,68,68,0.22); }
 .msnake-node--play.msnake-node--playing { background: rgba(239,68,68,0.18); }
 
+.msnake-video-embed {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #000;
+}
+.msnake-video-embed iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
+
 .msnake-node--start-level {
     background: linear-gradient(135deg, rgba(16,185,129,0.14), rgba(5,150,105,0.08));
     border-color: #10b981;
