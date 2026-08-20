@@ -694,8 +694,9 @@ function _initMisionHub() {
     const grid = document.getElementById('misionPathGrid');
     if (!grid) return;
 
-    // Limpiar sección A0 y tabs anteriores al cambiar de idioma
+    // Limpiar sección A0, acordeón y tabs anteriores al cambiar de idioma
     document.getElementById('msnake-a0-section')?.remove();
+    document.getElementById('msnake-contents-accordion')?.remove();
     document.getElementById('inglesHubTabs')?.remove();
 
     // Actualizar título superior con el idioma destino actual
@@ -1412,14 +1413,14 @@ function _renderModuleAccordion(grid, mods) {
             <span class="msacc-header-label">📋 Contenidos del Módulo</span>
             <span class="msacc-chevron">▾</span>
         </button>
-        <div class="msacc-body" hidden>
+        <div class="msacc-body" style="display:none">
             ${itemsHtml}
         </div>`;
 
     el.querySelector('.msacc-header').addEventListener('click', function () {
-        const body    = el.querySelector('.msacc-body');
-        const open    = !body.hidden;
-        body.hidden   = open;
+        const body = el.querySelector('.msacc-body');
+        const open = body.style.display !== 'none';
+        body.style.display = open ? 'none' : '';
         this.setAttribute('aria-expanded', String(!open));
         el.querySelector('.msacc-chevron').style.transform = open ? '' : 'rotate(180deg)';
     });
