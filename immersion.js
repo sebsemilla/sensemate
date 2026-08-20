@@ -346,7 +346,7 @@ function _renderBrowser(container) {
     _matchesLangFilter(c.targetLanguage, activeTargetLang) &&
     (activeSubLang === 'all' || c.subtitleLang === activeSubLang)
   );
-  const list   = filtered;
+  const list   = [...filtered].reverse();
   const groups = {};
   list.forEach(c => {
     if (!groups[c.language])
