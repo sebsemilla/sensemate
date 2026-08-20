@@ -449,11 +449,10 @@ function _renderBrowser(container) {
                     </div>
                     ${pct > 0 ? `<span class="imm-card-proglabel">${pct}% visto</span>` : ''}
                   </div>
-                  ${item._user ? `
-                    <div class="imm-card-actions">
-                      <button class="imm-edit-btn" data-id="${item.id}" title="Editar">✏️</button>
-                      <button class="imm-del-btn"  data-del="${item.id}" title="Eliminar">🗑️</button>
-                    </div>` : ''}
+                  <div class="imm-card-actions">
+                    <button class="imm-edit-btn" data-id="${item.id}" title="Editar">✏️</button>
+                    ${item._user ? `<button class="imm-del-btn" data-del="${item.id}" title="Eliminar">🗑️</button>` : ''}
+                  </div>
                 </div>
               `;
             }).join('')}
@@ -551,7 +550,7 @@ function _loadStudyArea(container, content) {
           ${content.subtitle ? `<span class="imm-banner-sub">${_esc(content.subtitle)}</span>` : ''}
         </div>
         <span class="imm-flag-badge">${content.country}</span>
-        ${content._user ? `<button class="imm-edit-banner-btn" id="saEditBtn" title="Editar contenido">✏️</button>` : ''}
+        <button class="imm-edit-banner-btn" id="saEditBtn" title="Editar contenido">✏️</button>
       </div>
 
       <!-- Progreso global -->
@@ -743,10 +742,8 @@ function _loadStudyArea(container, content) {
         </div>
       </div>` : ''}
 
-      ${content._user || content._pinned ? `
       <!-- ── Editar contenido ── -->
       <button class="imm-edit-content-btn" id="saEditContentBtn">✏️ Editar este contenido</button>
-      ` : ''}
 
       ${(content._user && typeof currentUser !== 'undefined' && currentUser?.isDev) ? `
       <!-- ── Admin: fijar como curated ── -->
@@ -2238,7 +2235,9 @@ function _showAddModal(container, editItem = null) {
 
     let list = _getUserImmContent();
     if (editItem) {
-      list = list.map(c => c.id === editItem.id ? savedItem : c);
+      const idx = list.findIndex(c => c.id === editItem.id);
+      if (idx >= 0) list[idx] = savedItem;
+      else list.push(savedItem); // curado editado por primera vez → guardar en user
     } else {
       list.push(savedItem);
     }
@@ -2286,8 +2285,10 @@ function _getAllImmContent() {
   const curated = typeof CURATED_CONTENT !== 'undefined' ? CURATED_CONTENT : [];
   const pinned  = _getPinnedImmContent().map(c => ({ ...c, _pinned: true }));
   const user    = _getUserImmContent().map(c => ({ ...c, _user: true }));
-  // Pinned aparece antes que user, después de curated oficial
-  return [...curated, ...pinned, ...user];
+  // Si un curado fue editado y guardado en user, no mostrar el original
+  const overrideIds = new Set([...pinned.map(c => c.id), ...user.map(c => c.id)]);
+  const filteredCurated = curated.filter(c => !overrideIds.has(c.id));
+  return [...filteredCurated, ...pinned, ...user];
 }
 
 // ─────────────────────────────────────────────
