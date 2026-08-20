@@ -748,6 +748,7 @@ function _initMisionHub() {
 }
 
 function _renderMisionSnake(grid, modsA1, modsA2) {
+    _renderModuleAccordion(grid, [...modsA1, ...modsA2]);
     function trunc(str, max) {
         return str.length > max ? str.slice(0, max) + '…' : str;
     }
@@ -1362,7 +1363,7 @@ function _initInglesHub(tab = 'curriculum') {
             const mods = _interleaveInglesA1(gram, func, conv);
             _renderModuleAccordion(grid, mods);
             _renderA0Section(grid, 'en', sourceLang);
-            _renderInglesA1Snake(grid, mods);
+            _renderInglesA1Snake(grid, mods, { targetCode: 'en', langLabel: 'Inglés', levelKey: `en_a1_${sourceLang}` });
         })
         .catch(() => {
             grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
@@ -1544,8 +1545,9 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
             return;
         }
         _renderInglesA1Snake(grid, mods, {
-            levelKey:  `${targetCode}_a1_${src}`,
-            langLabel: label,
+            levelKey:   `${targetCode}_a1_${src}`,
+            langLabel:  label,
+            targetCode: targetCode,
         });
     });
 }
@@ -1578,6 +1580,7 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
     const examKey   = `examen_final_${levelKey}`;
     const midIdx    = Math.floor(mods.length / 2);
 
+    const hasB1 = !!_MISION_LANG_DIRS[opts.targetCode || targetLang];
     const allNodes = [
         { type: 'milestone',    key: `milestone_${levelKey}`, label: `★ ${langLabel} A1` },
         ...mods.slice(0, midIdx).map(m => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
@@ -1585,6 +1588,7 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
         ...mods.slice(midIdx).map(m  => ({ type: 'mod', key: `mod_${levelKey}_${m.id}`, mod: m })),
         { type: 'quiz_final',   key: quizKey,  emoji: '🎯', label: 'Quiz Final A1' },
         { type: 'examen_final', key: examKey,  emoji: '🏆', label: 'Examen Final' },
+        ...(hasB1 ? [{ type: 'start_level', key: `start_b1_${levelKey}`, emoji: '🚀', label: `Start Level B1` }] : []),
     ];
 
     function nodeHtml(n) {
@@ -1675,12 +1679,30 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
         _runGenericQuiz(exercises, { total: 20, threshold: 14, key: quizKey, onPass: showMainMenu, onBack: showMainMenu });
     });
 
+    const tc = opts.targetCode || targetLang;
+    const goB1 = () => _initGenericLangLevelHub(tc, 'b1', {
+        prevLabel: `← ${langLabel} A1`,
+        prevFn: showMainMenu,
+        nextLevel: 'b2',
+        nextFn: () => _initGenericLangLevelHub(tc, 'b2', {
+            prevLabel: `← ${langLabel} B1`,
+            prevFn: () => _initGenericLangLevelHub(tc, 'b1', { prevLabel: `← ${langLabel} A1`, prevFn: showMainMenu }),
+            nextLevel: 'c1',
+            nextFn: () => _initGenericLangLevelHub(tc, 'c1', {
+                prevLabel: `← ${langLabel} B2`,
+                prevFn: () => _initGenericLangLevelHub(tc, 'b2', { prevLabel: `← ${langLabel} B1`, prevFn: showMainMenu }),
+            }),
+        }),
+    });
+
     grid.querySelector('[data-ntype="examen_final"]')?.addEventListener('click', () => {
         const steps = JSON.parse(localStorage.getItem('ls_mision_steps') || '[]');
         if (!steps.includes(quizKey)) { _showMisionToast('Completá el Quiz Final A1 primero 🎯'); return; }
         const exercises = _genExamenFinalExercises([], mods.filter(m => m.type !== 'conversation'));
-        _runGenericQuiz(exercises, { total: 40, threshold: 28, key: examKey, onPass: showMainMenu, onBack: showMainMenu });
+        _runGenericQuiz(exercises, { total: 40, threshold: 28, key: examKey, onPass: hasB1 ? goB1 : showMainMenu, onBack: showMainMenu });
     });
+
+    grid.querySelector('[data-ntype="start_level"]')?.addEventListener('click', goB1);
 
     _misionWireChatTriggers(grid);
 
@@ -2254,6 +2276,71 @@ function _renderSimpleSnake(grid, mods, { levelKey, milestoneLabel, onExamPass, 
         if (target) requestAnimationFrame(() => target.scrollIntoView({ behavior: 'smooth', block: 'center' }));
         _misionLastKey = null;
     }
+}
+
+// ── Hub genérico B1/B2/C1 para idiomas distintos del español ──────────────────────────────
+function _initGenericLangLevelHub(targetCode, level, opts = {}) {
+    // opts: { prevLabel, prevFn, nextLevel, nextFn }
+    mainContainer.innerHTML = '';
+    renderLanguageBar();
+
+    const dir      = _MISION_LANG_DIRS[targetCode];
+    const label    = _MISION_LANG_LABELS[targetCode] || targetCode;
+    const src      = sourceLang;
+    const levelUp  = level.toUpperCase();
+    const prevLabel = opts.prevLabel || `← ${label} ${level === 'b1' ? 'A1' : level === 'b2' ? 'B1' : 'B2'}`;
+
+    mainContainer.insertAdjacentHTML('beforeend', `
+        <div class="mision-hub">
+            <div class="mision-intro-row">
+                <button class="school-back-btn" id="genericLevelBackBtn" style="margin:0">${prevLabel}</button>
+                <p class="mision-intro-text" style="margin:0">Nivel ${levelUp} — ${label}</p>
+            </div>
+            <h3 class="mision-path-title">Dominá el <em>Nivel ${levelUp}</em> de ${label}</h3>
+            <div class="mision-path-grid" id="misionPathGridGenLevel"></div>
+        </div>
+    `);
+
+    document.getElementById('genericLevelBackBtn').addEventListener('click', () => {
+        if (opts.prevFn) opts.prevFn(); else showMainMenu();
+    });
+
+    const grid = document.getElementById('misionPathGridGenLevel');
+    if (!dir) {
+        grid.innerHTML = `<div style="text-align:center;padding:2rem;color:var(--text-muted)"><p>Nivel ${levelUp} no disponible para ${label}.</p></div>`;
+        return;
+    }
+
+    grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:.85rem;padding:1.5rem 0">Cargando módulos…</p>';
+
+    const base    = `${_API_HOST}/grupos_tarjetas/${encodeURIComponent(dir)}_${level}/`;
+    const safeJson = url => fetch(url).then(r => r.ok ? r.json() : []).catch(() => []);
+
+    Promise.all([
+        safeJson(base + `${src}_${level}_gramatica.json`),
+        safeJson(base + `${src}_${level}_funciones_comunicativas.json`),
+        safeJson(base + `${src}_${level}_conversacion.json`),
+    ]).then(([gram, func, conv]) => {
+        const mods = _interleaveInglesA1(gram, func, conv);
+        if (!mods.length) {
+            grid.innerHTML = `
+                <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
+                    <div style="font-size:2rem;margin-bottom:.75rem">🚧</div>
+                    <p style="font-size:.95rem;margin-bottom:.5rem">${label} ${levelUp} próximamente.</p>
+                    <p style="font-size:.85rem">Generá los módulos con:<br><code>node generate_missions.js --target=${targetCode} --source=${src} --level=${levelUp}</code></p>
+                </div>`;
+            return;
+        }
+        _renderModuleAccordion(grid, mods);
+        const nextFn = opts.nextFn;
+        _renderSimpleSnake(grid, mods, {
+            levelKey:       `${targetCode}_${level}_${src}`,
+            milestoneLabel: `★ ${label} ${levelUp}`,
+            onExamPass:     nextFn ? () => _showCongratsModal(levelUp, nextFn) : null,
+            nextLevelLabel: opts.nextLevel ? `Start Level ${opts.nextLevel.toUpperCase()}` : null,
+            nextLevelFn:    nextFn || null,
+        });
+    });
 }
 
 // ── Hub nivel B1 ───────────────────────────────────────────────
