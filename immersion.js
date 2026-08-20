@@ -690,8 +690,9 @@ function _loadStudyArea(container, content) {
         </div>
         <div class="imm-sub-line imm-sub-next" id="immSubNext"></div>
       </div>
-      <div class="imm-word-hint">
-        💡 Tocá cualquier palabra del subtítulo central para guardarla como flashcard
+      <div class="imm-cajon-area">
+        <button class="imm-cajon-btn" id="immCajonBtn">📥 Guardar en Cajón</button>
+        <p class="imm-cajon-hint">Las palabras guardadas en el cajón te quedan disponibles en tu historial y desde el área de Flashcards podrás seleccionar y usar junto con tus tarjetas y los grupos que estés creando.</p>
       </div>
 
       <!-- ── Editor inline de tiempos de subtítulo ── -->
@@ -877,6 +878,36 @@ function _loadStudyArea(container, content) {
   };
   document.getElementById('saEditBtn')?.addEventListener('click', _openEdit);
   document.getElementById('saEditContentBtn')?.addEventListener('click', _openEdit);
+
+  // Cajón — guarda la frase actual como flashcard
+  document.getElementById('immCajonBtn')?.addEventListener('click', () => {
+    if (typeof requireAuthForAction === 'function' && !requireAuthForAction('guardar en cajón')) return;
+    const line = _immContent?.dialogue?.[_immLineIdx];
+    if (!line?.original) {
+      if (typeof showToast === 'function') showToast('Iniciá el video y esperá un subtítulo ▶');
+      return;
+    }
+    const CAJON_GROUP_ID = 'grp_cajon';
+    let grps  = JSON.parse(localStorage.getItem('flashcardGroups') || '[]');
+    let cards = JSON.parse(localStorage.getItem('flashcards')      || '[]');
+    if (!grps.find(g => g.id === CAJON_GROUP_ID)) {
+      grps.push({ id: CAJON_GROUP_ID, name: '📥 Cajón', createdAt: new Date().toISOString(), lastUsed: new Date().toISOString() });
+      localStorage.setItem('flashcardGroups', JSON.stringify(grps));
+    }
+    cards.push({
+      id:          Date.now() + '-' + Math.random(),
+      word:        line.original,
+      translation: line.translation || '—',
+      groupId:     CAJON_GROUP_ID,
+      dateAdded:   new Date().toISOString(),
+      source:      'immersion-cajon'
+    });
+    localStorage.setItem('flashcards', JSON.stringify(cards));
+    if (typeof flashcards !== 'undefined') { flashcards.length = 0; cards.forEach(c => flashcards.push(c)); }
+    if (typeof flashcardGroups !== 'undefined') { flashcardGroups.length = 0; grps.forEach(g => flashcardGroups.push(g)); }
+    if (typeof misionTrack === 'function') misionTrack('flashcard');
+    if (typeof showToast === 'function') showToast('📥 Guardado en el Cajón ✓');
+  });
 
   // Editor inline de subtítulos
   document.getElementById('immSubEditInlineBtn')?.addEventListener('click', () => {
