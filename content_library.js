@@ -159,6 +159,91 @@ const CURATED_CONTENT = [
     audioSrc: null,
     dialogue: []
   },
+  // ── Portugués — Eduardo Mundstock (Anatomía) ──────────────────
+  {
+    id: 'q1AxiVZ4glw',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Biomáquina do Joelho',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'q1AxiVZ4glw',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'sj6KgE-MS3Q',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Mecânica do Antebraço',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'sj6KgE-MS3Q',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'l0dgVnapMOY',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Anatomia do Membro Superior',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'l0dgVnapMOY',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'MU1lS1IM5cQ',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Sinfonia da Respiração',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'MU1lS1IM5cQ',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'gy8temtsJIQ',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Anatomia Clínica do Dorso',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'gy8temtsJIQ',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'ULluyXWrRbM',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Anatomia da Coluna  Revisão',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'ULluyXWrRbM',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'EDbo_vjyIwY',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Pelve Humana  Um Dilema',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'EDbo_vjyIwY',
+    audioSrc: null,
+    dialogue: []
+  },
 ];
 
 // Permite que server.cjs use el mismo archivo como fuente única de verdad
