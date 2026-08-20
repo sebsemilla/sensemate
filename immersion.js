@@ -687,7 +687,7 @@ function _loadStudyArea(container, content) {
       <div class="imm-subtitle-stage">
         <div class="imm-sub-line imm-sub-prev" id="immSubPrev"></div>
         <div class="imm-sub-line imm-sub-curr" id="immSubCurr">
-          <div class="imm-sub-orig imm-sub-idle">▶ Presioná play para comenzar</div>
+          <div class="imm-sub-orig imm-sub-idle">▶ Iniciá el video para ver los subtítulos</div>
         </div>
         <div class="imm-sub-line imm-sub-next" id="immSubNext"></div>
       </div>
@@ -1023,7 +1023,7 @@ function _initYouTubePlayer(content, bookmarks, progress) {
     if (_immMedia) {
       _wireMediaControls(content, bookmarks, progress);
     } else {
-      _setSubIdleMessage('▶ Presioná play para comenzar', false);
+      _setSubIdleMessage('▶ Iniciá el video para ver los subtítulos', false);
     }
   };
 
@@ -1086,7 +1086,7 @@ function _setupImmPlayer(content, bookmarks) {
   // en silencio y el stage de subtítulos queda congelado para siempre.
   media.addEventListener('loadstart', () => _setSubIdleMessage('⏳ Cargando…', false));
   media.addEventListener('waiting',   () => _setSubIdleMessage('⏳ Cargando…', false));
-  media.addEventListener('canplay',   () => _setSubIdleMessage('▶ Presioná play para comenzar', false));
+  media.addEventListener('canplay',   () => _setSubIdleMessage('▶ Iniciá el video para ver los subtítulos', false));
   media.addEventListener('error',     () => _setSubIdleMessage(
     '⚠️ No se pudo cargar el archivo. Si es un video/audio local, recordá que solo dura la sesión en la que lo subiste — subilo de nuevo o usá una URL externa/YouTube.',
     true
