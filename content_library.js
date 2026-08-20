@@ -49,6 +49,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'qHkz2Qauwn0',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/qHkz2Qauwn0/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -61,6 +62,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'EYuxconjw6A',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/EYuxconjw6A/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -73,6 +75,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'b_DNHgOGjdA',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/b_DNHgOGjdA/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -85,6 +88,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'Yh7JmnTQ-lo',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/Yh7JmnTQ-lo/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -97,6 +101,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: '7028n1eYGew',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/7028n1eYGew/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -109,6 +114,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'QaN6cKU7XTk',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/QaN6cKU7XTk/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -121,6 +127,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'iuFaDwnE85c',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/iuFaDwnE85c/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -133,6 +140,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: '46FAn8P4wxs',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/46FAn8P4wxs/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -145,6 +153,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'cQXcBJL7dyw',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/cQXcBJL7dyw/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -157,6 +166,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'F2ZOaFD_5DA',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/F2ZOaFD_5DA/hqdefault.jpg',
     dialogue: []
   },
   // ── Portugués — Eduardo Mundstock (Anatomía) ──────────────────
@@ -170,6 +180,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'q1AxiVZ4glw',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/q1AxiVZ4glw/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -182,6 +193,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'sj6KgE-MS3Q',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/sj6KgE-MS3Q/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -194,6 +206,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'l0dgVnapMOY',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/l0dgVnapMOY/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -206,6 +219,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'MU1lS1IM5cQ',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/MU1lS1IM5cQ/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -218,6 +232,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'gy8temtsJIQ',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/gy8temtsJIQ/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -230,6 +245,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'ULluyXWrRbM',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/ULluyXWrRbM/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -242,6 +258,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'EDbo_vjyIwY',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/EDbo_vjyIwY/hqdefault.jpg',
     dialogue: []
   },
   // ── Portugués — Eduardo Mundstock (Ejercicio y Salud) ─────────
@@ -255,6 +272,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'omtQ-XDDisw',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/omtQ-XDDisw/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -267,6 +285,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'MsPoWr0UlCY',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/MsPoWr0UlCY/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -279,6 +298,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'btFJRYaZQ9Y',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/btFJRYaZQ9Y/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -291,6 +311,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'pEgTaJTn0WI',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/pEgTaJTn0WI/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -303,6 +324,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'Mg4r_Tr_KVc',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/Mg4r_Tr_KVc/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -315,6 +337,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'BEh7sw_T-lg',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/BEh7sw_T-lg/hqdefault.jpg',
     dialogue: []
   },
   {
@@ -327,6 +350,7 @@ const CURATED_CONTENT = [
     thumbnail: '🎬',
     youtubeId: 'xx80w2r8Igw',
     audioSrc: null,
+    imageSrc: 'https://img.youtube.com/vi/xx80w2r8Igw/hqdefault.jpg',
     dialogue: []
   },
 ];
