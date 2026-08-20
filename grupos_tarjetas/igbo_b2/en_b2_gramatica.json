@@ -376,5 +376,141 @@
     "translations": {
       "en": "Advanced reported speech"
     }
+  },
+  {
+    "id": "en_B2_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nke a na-emepụta / Inversión para énfasis",
+    "bridge": "In English, inversion for emphasis is often used with negative adverbials (e.g., 'Not only... but also', 'Rarely do we...'). Igbo achieves similar emphasis through word order changes, particularly by fronting certain adverbials or negators to the beginning of the sentence. Unlike English, Igbo inversion does not require auxiliary verbs (e.g., 'do') and instead relies on particle placement (like 'nke a' or 'n'kwa') or verb morphology. A common trap is over-relying on English-style inversion, which can sound unnatural in Igbo. Pay attention to how Igbo uses particles like 'nke a' or 'n'kwa' to mark emphasis, as these are distinct from English's auxiliary-based inversion.",
+    "rule": "In Igbo, inversion for emphasis is achieved in several ways:\n\n1. **Fronting negative adverbials with 'nke a' or 'n'kwa'**:\n   - Place 'nke a' (not only) or 'n'kwa' (rarely) at the beginning of the sentence to emphasize negation.\n   - The verb or auxiliary follows immediately, and the sentence structure inverts compared to declarative order.\n   - Example: 'Nke a m ga-emepụta' (Not only will I do it) vs. 'M ga-emepụta nke a' (I will do it, not only).\n\n2. **Fronting temporal or locative adverbials**:\n   - Adverbial phrases like 'n'ụzọ' (in the way) or 'n'ụbọchị' (in the day) can be fronted for emphasis.\n   - The verb or subject-verb agreement follows the fronted phrase.\n   - Example: 'N'ụzọ a ga-emepụta' (In this way, I will do it) vs. 'Ga-emepụta n'ụzọ a' (I will do it in this way).\n\n3. **Using 'n'kwa' for rare actions**:\n   - 'N'kwa' (rarely) is placed at the beginning, followed by the verb in its emphatic form (often with 'ga-' or '-rị').\n   - Example: 'N'kwa m ga-achị' (Rarely do I see it) vs. 'M ga-achị n'kwa' (I rarely see it).\n\nKey exceptions:\n- Inversion is not used for all negations; only specific adverbials trigger it.\n- The particle 'nke a' or 'n'kwa' must be used to mark the inversion clearly.\n- In spoken Igbo, inversion is more flexible, but written Igbo often follows stricter rules.\n\nTypical use cases:\n- Emphasizing rarity ('N'kwa a ga-enye' — Rarely will he give).\n- Highlighting unexpected actions ('Nke a m ga-eme' — Not only will I do it).\n- Contrasting information ('N'ụzọ a, a ga-enye' — In this way, he will give).",
+    "concept_examples": [
+      {
+        "text": "Nke a m ga-emepụta ya.",
+        "translation": "Not only will I do it for him.",
+        "phonetic": "/nke‿a‿m‿ɡa‿e.me.pʊ.ta‿ja/"
+      },
+      {
+        "text": "N'kwa a ga-achị ndụ m.",
+        "translation": "Rarely will he see my life.",
+        "phonetic": "/n‿kʷa‿a‿ɡa‿a.t͡ʃi‿ndʊ‿m/"
+      },
+      {
+        "text": "N'ụzọ a, a ga-enye ọtụtụ azụ.",
+        "translation": "In this way, he will give many gifts.",
+        "phonetic": "/n‿u.zɔ‿a,‿a‿ɡa‿e.ɲe‿o.tʊ.tʊ‿a.zu/"
+      },
+      {
+        "text": "Nke a ọ ga-eme ka m ga-enweta.",
+        "translation": "Not only will he do it so that I will receive.",
+        "phonetic": "/nke‿a‿ɔ‿ɡa‿e.me‿ka‿m‿ɡa‿e.ɲe.te/"
+      }
+    ],
+    "common_error": {
+      "wrong": "M ga-emepụta nke a ya.",
+      "correct": "Nke a m ga-emepụta ya.",
+      "correct_alt": "",
+      "explanation": "English speakers often place 'nke a' at the end of the sentence, mimicking English inversion structure (e.g., 'I will do it not only'). However, Igbo requires 'nke a' to be fronted for emphasis. The correct structure places the particle at the beginning, followed by the subject and verb. This mirrors English's 'Not only will I do it' but without auxiliary verbs."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nke a na-emepụta",
+        "translation": "Not only...",
+        "examples": [
+          {
+            "original": "Nke a m ga-emepụta.",
+            "phonetic": "/nke‿a‿m‿ɡa‿e.me.pʊ.ta/",
+            "translation": "Not only will I do it.",
+            "note": "Introduces the basic structure of fronting 'nke a' with the verb in the future tense."
+          },
+          {
+            "original": "Nke a ọ ga-eme ka m ga-enweta.",
+            "phonetic": "/nke‿a‿ɔ‿ɡa‿e.me‿ka‿m‿ɡa‿e.ɲe.te/",
+            "translation": "Not only will he do it so that I will receive.",
+            "note": "Expands to include purpose clauses with 'ka'."
+          },
+          {
+            "original": "Nke a anyị ga-enye ụlọ.",
+            "phonetic": "/nke‿a‿a.ɲi‿ɡa‿e.ɲe‿u.lɔ/",
+            "translation": "Not only will we give a house.",
+            "note": "Demonstrates plural subject agreement."
+          },
+          {
+            "original": "Nke a ị ga-achị ya.",
+            "phonetic": "/nke‿a‿i‿ɡa‿a.t͡ʃi‿ja/",
+            "translation": "Not only will you see him.",
+            "note": "Highlights second-person singular subject."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "N'kwa na-achị",
+        "translation": "Rarely...",
+        "examples": [
+          {
+            "original": "N'kwa a ga-achị ndụ m.",
+            "phonetic": "/n‿kʷa‿a‿ɡa‿a.t͡ʃi‿ndʊ‿m/",
+            "translation": "Rarely will he see my life.",
+            "note": "Introduces 'n'kwa' for rare actions with future tense."
+          },
+          {
+            "original": "N'kwa anyị ga-eme ka ọ ga-enweta.",
+            "phonetic": "/n‿kʷa‿a.ɲi‿ɡa‿e.me‿ka‿ɔ‿ɡa‿e.ɲe.te/",
+            "translation": "Rarely will we do it so that he will receive.",
+            "note": "Combines 'n'kwa' with purpose clauses."
+          },
+          {
+            "original": "N'kwa ị ga-achị m.",
+            "phonetic": "/n‿kʷa‿i‿ɡa‿a.t͡ʃi‿m/",
+            "translation": "Rarely will you see me.",
+            "note": "Focuses on second-person subject with 'n'kwa'."
+          },
+          {
+            "original": "N'kwa a ga-enye azụ.",
+            "phonetic": "/n‿kʷa‿a‿ɡa‿e.ɲe‿a.zu/",
+            "translation": "Rarely will he give gifts.",
+            "note": "Demonstrates plural object with 'azụ'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "N'ụzọ na-enye",
+        "translation": "In this way...",
+        "examples": [
+          {
+            "original": "N'ụzọ a, a ga-enye ọtụtụ azụ.",
+            "phonetic": "/n‿u.zɔ‿a,‿a‿ɡa‿e.ɲe‿o.tʊ.tʊ‿a.zu/",
+            "translation": "In this way, he will give many gifts.",
+            "note": "Introduces locative inversion with 'n'ụzọ'."
+          },
+          {
+            "original": "N'ụbọchị a, anyị ga-eme ka ọ ga-enweta.",
+            "phonetic": "/n‿u.bɔ.t͡ʃi‿a,‿a.ɲi‿ɡa‿e.me‿ka‿ɔ‿ɡa‿e.ɲe.te/",
+            "translation": "On this day, we will do it so that he will receive.",
+            "note": "Uses temporal adverbial 'n'ụbọchị' with purpose clause."
+          },
+          {
+            "original": "N'ụzọ a, ị ga-achị m.",
+            "phonetic": "/n‿u.zɔ‿a,‿i‿ɡa‿a.t͡ʃi‿m/",
+            "translation": "In this way, you will see me.",
+            "note": "Combines locative inversion with second-person subject."
+          },
+          {
+            "original": "N'ụzọ ndị a, a ga-enye ụlọ.",
+            "phonetic": "/n‿u.zɔ‿ndi‿a,‿a‿ɡa‿e.ɲe‿u.lɔ/",
+            "translation": "In these ways, he will give houses.",
+            "note": "Demonstrates plural locative with 'ndị a'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Inversion for emphasis (Not only..., Rarely...)"
+    }
   }
 ]

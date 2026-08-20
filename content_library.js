@@ -38,6 +38,127 @@ const CURATED_CONTENT = [
       { start: 16.0, end: 20.5, original: "Ok, he asked me to coffee.",             translation: 'Ok, me invitó a tomar un café.' },
     ]
   },
+  // ── Portugués — Eduardo Mundstock (Biología) ──────────────────
+  {
+    id: 'qHkz2Qauwn0',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Gordura Visceral  A Dose Ideal',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'qHkz2Qauwn0',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'EYuxconjw6A',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Transformação Genética',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'EYuxconjw6A',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'b_DNHgOGjdA',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'O Poder do DNA Recombinante',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'b_DNHgOGjdA',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'Yh7JmnTQ-lo',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Testemunha Invisível',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'Yh7JmnTQ-lo',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: '7028n1eYGew',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Dogma Central da Biologia',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: '7028n1eYGew',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'QaN6cKU7XTk',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Desvendando o Código da Vida',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'QaN6cKU7XTk',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'iuFaDwnE85c',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Núcleo  O Manual da Vida',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'iuFaDwnE85c',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: '46FAn8P4wxs',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Energia da Vida',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: '46FAn8P4wxs',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'cQXcBJL7dyw',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Citoplasma  Um Mundo Celular',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'cQXcBJL7dyw',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'F2ZOaFD_5DA',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A Membrana Plasmática',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'F2ZOaFD_5DA',
+    audioSrc: null,
+    dialogue: []
+  },
 ];
 
 // Permite que server.cjs use el mismo archivo como fuente única de verdad

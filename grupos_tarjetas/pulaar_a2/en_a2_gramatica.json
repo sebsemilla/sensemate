@@ -1,0 +1,398 @@
+[
+  {
+    "id": "en_A2_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Haalu / Pasado simple (verbos regulares e irregulares)",
+    "bridge": "In English, the simple past tense is formed by adding '-ed' to regular verbs (e.g., 'walk' → 'walked'), while irregular verbs change form (e.g., 'go' → 'went'). Pulaar, however, marks the past tense differently: regular verbs often add a suffix like '-i' or '-ay', and irregular verbs have unique past forms. Unlike English, Pulaar does not use auxiliary verbs like 'did' for questions or negatives in the simple past. For example, 'I walked' is 'Mi yahdi' in Pulaar, not 'Mi did yahdi'.",
+    "rule": "In Pulaar, the simple past tense is formed as follows:\n\n1. **Regular verbs**: Add the suffix '-i' to the verb stem for most verbs. For verbs ending in a vowel, add '-ay' instead. The verb does not change for subject pronouns (unlike English).\n   - Example: 'yahde' (to walk) → 'Mi yahdi' (I walked), 'A yahdi' (You walked).\n   - Verbs ending in vowels: 'fode' (to speak) → 'Mi foday' (I spoke).\n\n2. **Irregular verbs**: These verbs have unique past forms that must be memorized. Common irregular verbs include:\n   - 'waalde' (to be) → 'Mi ne' (I was), 'A ne' (You were).\n   - 'yaha' (to go) → 'Mi yahii' (I went), 'A yahii' (You went).\n\n3. **Negation**: Add 'ma' before the verb and 'i' after it for negation. The past tense marker remains.\n   - Example: 'Mi ma yahdi i' (I did not walk).\n\n4. **Questions**: Invert the subject pronoun and the verb. No auxiliary verb is used.\n   - Example: 'A yahdi?' (Did you walk?).\n\n5. **Time markers**: Use time adverbs like 'hita' (yesterday), 'hita jemma' (last night), or 'hita suba' (this morning) to specify when the action occurred.",
+    "concept_examples": [
+      {
+        "text": "Mi yahdi hita.",
+        "translation": "I walked yesterday.",
+        "phonetic": "mi jaːdi hita"
+      },
+      {
+        "text": "A foday neema?",
+        "translation": "Did you speak yesterday?",
+        "phonetic": "a foday neːma"
+      },
+      {
+        "text": "Demba ne hita jemma.",
+        "translation": "Demba was here last night.",
+        "phonetic": "demba ne hita dʒemma"
+      },
+      {
+        "text": "Mi ma yahdi i hita suba.",
+        "translation": "I did not walk this morning.",
+        "phonetic": "mi ma jaːdi i hita suba"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi did yahdi hita.",
+      "correct": "Mi yahdi hita.",
+      "correct_alt": "Mi ma yahdi i hita.",
+      "explanation": "English speakers often incorrectly use 'did' to form the past tense in Pulaar, as in 'Mi did yahdi hita'. This is incorrect because Pulaar does not use auxiliary verbs like 'did' for simple past tense. Instead, the verb itself changes form or takes a suffix to indicate the past. The correct negation also requires 'ma' before the verb and 'i' after it, as in 'Mi ma yahdi i hita'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Haalu faaɗe",
+        "translation": "Regular verbs in past tense",
+        "examples": [
+          {
+            "original": "Mi yahdi hita.",
+            "phonetic": "mi jaːdi hita",
+            "translation": "I walked yesterday.",
+            "note": "Regular verb 'yahde' (to walk) takes the suffix '-i' in the past tense."
+          },
+          {
+            "original": "A foday neema?",
+            "phonetic": "a foday neːma",
+            "translation": "Did you speak yesterday?",
+            "note": "Verb 'fode' (to speak) ends in a vowel, so it takes '-ay' in the past tense."
+          },
+          {
+            "original": "Demba yahdi hita jemma.",
+            "phonetic": "demba jaːdi hita dʒemma",
+            "translation": "Demba walked yesterday night.",
+            "note": "Subject pronoun 'Demba' does not change the verb form."
+          },
+          {
+            "original": "Mi ma foday i hita suba.",
+            "phonetic": "mi ma foday i hita suba",
+            "translation": "I did not speak this morning.",
+            "note": "Negation uses 'ma' before the verb and 'i' after it."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Haalu walaaɗe",
+        "translation": "Irregular verbs in past tense",
+        "examples": [
+          {
+            "original": "Mi ne hita jemma.",
+            "phonetic": "mi ne hita dʒemma",
+            "translation": "I was here last night.",
+            "note": "Irregular verb 'waalde' (to be) becomes 'ne' in the past tense."
+          },
+          {
+            "original": "A yahii hita?",
+            "phonetic": "a jaːhi hita",
+            "translation": "Did you go yesterday?",
+            "note": "Irregular verb 'yaha' (to go) becomes 'yahii' in the past tense."
+          },
+          {
+            "original": "Nene ne hita suba.",
+            "phonetic": "nene ne hita suba",
+            "translation": "We were here this morning.",
+            "note": "Plural subject 'Nene' (we) uses the same irregular form 'ne'."
+          },
+          {
+            "original": "Mi ma ne i hita.",
+            "phonetic": "mi ma ne i hita",
+            "translation": "I was not here yesterday.",
+            "note": "Negation follows the same pattern as regular verbs."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Haalu jom haaɗe",
+        "translation": "Questions and time markers",
+        "examples": [
+          {
+            "original": "A yahdi hita?",
+            "phonetic": "a jaːdi hita",
+            "translation": "Did you walk yesterday?",
+            "note": "Questions invert the subject pronoun and verb without an auxiliary."
+          },
+          {
+            "original": "Demba ne hita jemma?",
+            "phonetic": "demba ne hita dʒemma",
+            "translation": "Was Demba here last night?",
+            "note": "Irregular verb 'ne' is used in questions the same way as regular verbs."
+          },
+          {
+            "original": "Mi yahdi hita suba?",
+            "phonetic": "mi jaːdi hita suba",
+            "translation": "Did I walk this morning?",
+            "note": "Time markers like 'hita suba' (this morning) are placed at the end of the sentence."
+          },
+          {
+            "original": "Mi ma yahii i hita?",
+            "phonetic": "mi ma jaːhi i hita",
+            "translation": "Didn’t I go yesterday?",
+            "note": "Negative questions use 'ma' before the verb and 'i' after it, with no auxiliary."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "en": "Simple past tense (regular and irregular verbs)"
+    }
+  },
+  {
+    "id": "en_A2_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Haalugol / Presente continuo",
+    "bridge": "In English, the present progressive is formed with 'am/is/are + verb-ing' to describe actions happening now or around the current time. In Pulaar, the present progressive is expressed using the auxiliary 'daa-' (to be doing) combined with the main verb in its infinitive form. Unlike English, Pulaar does not use a separate '-ing' ending; instead, the auxiliary 'daa-' changes based on the subject, and the main verb remains unchanged. A common trap is overapplying English structures, leading to incorrect sentences like 'Mi yaham' (I am eating) instead of the correct 'Mi daa yaham.'",
+    "rule": "The present progressive in Pulaar is formed by conjugating the auxiliary verb 'daa-' (to be doing) according to the subject pronoun, followed by the main verb in its infinitive form. The auxiliary 'daa-' is conjugated as follows:\n\n- Mi daa- (I am)\n- A daa- (you are, singular)\n- O daa- (he/she/it is)\n- En daa- (we are)\n- On daa- (you are, plural)\n- Be daa- (they are)\n\nThe main verb remains in its infinitive form (e.g., 'yaham' for 'to eat', 'fotii' for 'to write'). This structure is used for actions happening now or around the current time. Note that Pulaar does not use a separate '-ing' ending; the auxiliary 'daa-' carries the progressive meaning. For habitual actions, the simple present is used instead.\n\nExceptions:\n- The auxiliary 'daa-' is often contracted in speech, e.g., 'Mi daa yaham' becomes 'Midaa yaham.'\n- Negative forms are created by adding 'wona' after the auxiliary: 'Mi daa wona yaham' (I am not eating).\n- Questions are formed by placing the subject after the auxiliary: 'Daa-mi yaham?' (Am I eating?).",
+    "concept_examples": [
+      {
+        "text": "Mi daa yaham.",
+        "translation": "I am eating.",
+        "phonetic": "mi daː ja.ɦam"
+      },
+      {
+        "text": "O daa fotii.",
+        "translation": "He is writing.",
+        "phonetic": "o daː fo.tiː"
+      },
+      {
+        "text": "En daa wona jippan.",
+        "translation": "We are not sleeping.",
+        "phonetic": "en daː wo.na dʒi.pːan"
+      },
+      {
+        "text": "Be daa naange.",
+        "translation": "They are walking.",
+        "phonetic": "be daː naːŋ.ge"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi yaham.",
+      "correct": "Mi daa yaham.",
+      "correct_alt": "",
+      "explanation": "English speakers often omit the auxiliary 'daa-' because they are used to the '-ing' form in English. In Pulaar, the auxiliary is essential to convey the progressive meaning. Without 'daa-', the sentence 'Mi yaham' would simply mean 'I eat' (simple present), not 'I am eating.'"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Haalugol fof poti",
+        "translation": "Basic present progressive",
+        "examples": [
+          {
+            "original": "Mi daa yaham.",
+            "phonetic": "mi daː ja.ɦam",
+            "translation": "I am eating.",
+            "note": "Introduces the basic structure with 'daa-' + infinitive verb."
+          },
+          {
+            "original": "A daa fotii.",
+            "phonetic": "a daː fo.tiː",
+            "translation": "You are writing.",
+            "note": "Practices the second-person singular form of 'daa-'."
+          },
+          {
+            "original": "O daa naange.",
+            "phonetic": "o daː naːŋ.ge",
+            "translation": "He is walking.",
+            "note": "Introduces third-person singular conjugation."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Haalugol fof wona",
+        "translation": "Negative present progressive",
+        "examples": [
+          {
+            "original": "Mi daa wona yaham.",
+            "phonetic": "mi daː wo.na ja.ɦam",
+            "translation": "I am not eating.",
+            "note": "Teaches the negative form by adding 'wona' after 'daa-'."
+          },
+          {
+            "original": "En daa wona jippan.",
+            "phonetic": "en daː wo.na dʒi.pːan",
+            "translation": "We are not sleeping.",
+            "note": "Practices the first-person plural negative form."
+          },
+          {
+            "original": "On daa wona fotii.",
+            "phonetic": "on daː wo.na fo.tiː",
+            "translation": "You (plural) are not writing.",
+            "note": "Introduces the second-person plural negative form."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Haalugol fof jom",
+        "translation": "Questions and contractions",
+        "examples": [
+          {
+            "original": "Daa-mi yaham?",
+            "phonetic": "daː mi ja.ɦam",
+            "translation": "Am I eating?",
+            "note": "Teaches question formation by inverting the subject and auxiliary."
+          },
+          {
+            "original": "Midaa yaham.",
+            "phonetic": "mi.daː ja.ɦam",
+            "translation": "I am eating (contracted).",
+            "note": "Introduces common contractions in speech."
+          },
+          {
+            "original": "Be daa naange?",
+            "phonetic": "be daː naːŋ.ge",
+            "translation": "Are they walking?",
+            "note": "Practices third-person plural questions."
+          },
+          {
+            "original": "O daa wona jippan?",
+            "phonetic": "o daː wo.na dʒi.pːan",
+            "translation": "Is he not sleeping?",
+            "note": "Combines negative questions with third-person singular."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃‍♂️",
+    "phonetic": "",
+    "translations": {
+      "en": "Present progressive / Presente continuo"
+    }
+  },
+  {
+    "id": "en_A2_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Futuro con \"yana\" / Future with \"going to\"",
+    "bridge": "In English, the future with 'going to' is formed using the verb 'to be' + 'going to' + base verb (e.g., 'I am going to eat'). In Pulaar, the equivalent structure uses the verb 'yana' (to go) in the present tense followed by the infinitive form of the main verb. Unlike English, Pulaar does not use a separate auxiliary verb for future constructions; instead, the verb 'yana' itself indicates future intention or plan. A common trap for English speakers is to overcomplicate the structure by adding extra words or trying to force a direct translation of 'going to'.",
+    "rule": "The future with 'yana' in Pulaar is constructed as follows:\n1. Conjugate 'yana' (to go) in the present tense according to the subject pronoun:\n   - Mi yana (I am going to)\n   - A yana (you are going to)\n   - O yana (he/she/it is going to)\n   - En yana (we are going to)\n   - On yana (they are going to)\n2. Follow 'yana' with the infinitive form of the main verb (e.g., 'hokki' to eat, 'sawti' to write).\n3. The infinitive is formed by adding '-i' to the verb stem (e.g., 'hokk' + 'i' = 'hokki').\n\nUse cases:\n- To express future intentions or plans: 'Mi yana hokki laabi' (I am going to eat rice).\n- To make predictions based on present evidence: 'O yana yiide' (He is going to rain).\n\nExceptions:\n- Some verbs may have irregular infinitives, but these are rare at A2 level.\n- Negative sentences use 'yana' + 'wona' (not) + infinitive: 'Mi yana wona hokki' (I am not going to eat).\n- Questions invert the subject and 'yana': 'A yana hokki?' (Are you going to eat?).",
+    "concept_examples": [
+      {
+        "text": "Mi yana hokki laabi.",
+        "translation": "I am going to eat rice.",
+        "phonetic": "mi ja.na ho.kːi laː.bi"
+      },
+      {
+        "text": "A yana sawti bindu.",
+        "translation": "You are going to write a letter.",
+        "phonetic": "a ja.na saw.ti bi.ⁿdu"
+      },
+      {
+        "text": "O yana yiide.",
+        "translation": "It is going to rain.",
+        "phonetic": "o ja.na jiː.de"
+      },
+      {
+        "text": "En yana yahde maayo.",
+        "translation": "We are going to cross the river.",
+        "phonetic": "e.ⁿ ja.na jah.de maː.jo"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi go hokki laabi.",
+      "correct": "Mi yana hokki laabi.",
+      "correct_alt": "",
+      "explanation": "English speakers often try to directly translate 'going to' by adding 'go' as a separate verb in Pulaar. However, 'yana' already serves as the future marker, so 'go' is unnecessary and incorrect. The correct structure uses 'yana' + infinitive directly."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Yana + infinitive (afirmaativa)",
+        "translation": "Yana + infinitive (affirmative)",
+        "examples": [
+          {
+            "original": "Mi yana yahde.",
+            "phonetic": "mi ja.na jah.de",
+            "translation": "I am going to leave.",
+            "note": "Introduces the basic structure with a simple verb."
+          },
+          {
+            "original": "A yana jippi.",
+            "phonetic": "a ja.na dʒipːi",
+            "translation": "You are going to arrive.",
+            "note": "Focuses on second-person singular conjugation."
+          },
+          {
+            "original": "O yana yiide.",
+            "phonetic": "o ja.na jiː.de",
+            "translation": "It is going to rain.",
+            "note": "Uses a common weather-related verb to reinforce the pattern."
+          },
+          {
+            "original": "En yana yahde maayo.",
+            "phonetic": "e.ⁿ ja.na jah.de maː.jo",
+            "translation": "We are going to cross the river.",
+            "note": "Introduces a two-word verb phrase to expand complexity."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Negativa yana + wona",
+        "translation": "Negative yana + wona",
+        "examples": [
+          {
+            "original": "Mi yana wona hokki.",
+            "phonetic": "mi ja.na wo.na ho.kːi",
+            "translation": "I am not going to eat.",
+            "note": "Introduces negation with 'wona' after 'yana'."
+          },
+          {
+            "original": "A yana wona jippi.",
+            "phonetic": "a ja.na wo.na dʒipːi",
+            "translation": "You are not going to arrive.",
+            "note": "Reinforces negation with second-person singular."
+          },
+          {
+            "original": "O yana wona yiide.",
+            "phonetic": "o ja.na wo.na jiː.de",
+            "translation": "It is not going to rain.",
+            "note": "Uses negation with a weather verb for contrast."
+          },
+          {
+            "original": "En yana wona yahde.",
+            "phonetic": "e.ⁿ ja.na wo.na jah.de",
+            "translation": "We are not going to leave.",
+            "note": "Expands negation to first-person plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Interrogativa y preguntas",
+        "translation": "Interrogative yana + questions",
+        "examples": [
+          {
+            "original": "A yana hokki laabi?",
+            "phonetic": "a ja.na ho.kːi laː.bi",
+            "translation": "Are you going to eat rice?",
+            "note": "Introduces question formation by inverting subject and 'yana'."
+          },
+          {
+            "original": "Mi yana jippi bindu?",
+            "phonetic": "mi ja.na dʒipːi bi.ⁿdu",
+            "translation": "Am I going to receive a letter?",
+            "note": "Uses a verb that can be ambiguous in translation to practice context."
+          },
+          {
+            "original": "O yana yahde maayo?",
+            "phonetic": "o ja.na jah.de maː.jo",
+            "translation": "Is he going to cross the river?",
+            "note": "Expands to third-person singular with a two-word verb phrase."
+          },
+          {
+            "original": "En yana yiide?",
+            "phonetic": "e.ⁿ ja.na jiː.de",
+            "translation": "Is it going to rain on us?",
+            "note": "Uses a weather verb in a question to reinforce natural phrasing."
+          }
+        ]
+      }
+    ],
+    "emoji": "🚀",
+    "phonetic": "",
+    "translations": {
+      "en": "Future with \"going to\""
+    }
+  }
+]

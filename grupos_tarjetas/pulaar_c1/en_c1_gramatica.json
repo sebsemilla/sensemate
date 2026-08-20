@@ -1,0 +1,350 @@
+[
+  {
+    "id": "en_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Sintaksis avanzada: Estructuras complejas en Pulaar / Advanced syntax: Complex structures in Pulaar",
+    "bridge": "In English, complex sentences often rely on subordination (e.g., 'Although she left, I stayed'), but Pulaar frequently uses coordination or embedded clauses with verb serialization, which can feel unfamiliar to English speakers. Unlike English, Pulaar often omits conjunctions in embedded clauses, relying instead on verb morphology and context. Additionally, Pulaar’s use of aspectual markers (e.g., -ay, -no) in complex structures differs from English’s reliance on tenses, creating traps in translation. For example, the English 'I had been working' would require a different construction in Pulaar, not a direct tense-for-tone substitution.",
+    "rule": "Advanced syntax in Pulaar involves: 1) **Embedded clauses without explicit conjunctions**: Use verb serialization or aspectual markers to link clauses. The main clause’s verb often carries tense/aspect, while embedded clauses use dependent forms (e.g., -ay for habitual, -no for perfective). 2) **Coordination via serialization**: Multiple verbs can form a single clause to express complex actions (e.g., 'He went and bought' = 'O yahii e jaabii'). 3) **Aspectual stacking**: Combine markers like -ay (habitual), -no (perfective), or -a (progressive) to refine meaning in complex sentences. 4) **Relative clauses**: Use the particle 'ma' or verb serialization to introduce relative clauses, often without a separate relative pronoun. Exceptions: Some conjunctions (e.g., 'ko', 'sama') exist but are optional in embedded contexts. Typical use cases include narratives, explanations, and hypotheticals where English would use subordination.",
+    "concept_examples": [
+      {
+        "text": "Mi anndii ma nder leydi, mi yahii e jaabii.",
+        "translation": "I knew that in the country, I went and bought (it).",
+        "phonetic": "mi anndiː ma nder leːdiː, mi jaːhiː e dʒaːbiː"
+      },
+      {
+        "text": "O warii no fof, o yahii e yettii.",
+        "translation": "He had already eaten, and he went to sleep.",
+        "phonetic": "o waːriː no fof, o jaːhiː e jetːiː"
+      },
+      {
+        "text": "Daaɗo anndii ma nder mawɗo, mi yahii e jaabii.",
+        "translation": "I realized that among the people, I went and bought (it).",
+        "phonetic": "daːɗo anndiː ma nder mawɗo, mi jaːhiː e dʒaːbiː"
+      },
+      {
+        "text": "Mi anndii ma o yahii e jaabii, mi warii no fof.",
+        "translation": "I knew that he went and bought (it), and I had already eaten.",
+        "phonetic": "mi anndiː ma o jaːhiː e dʒaːbiː, mi waːriː no fof"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mi anndii ko o yahii e jaabii, mi warii no fof.",
+      "correct": "Mi anndii ma o yahii e jaabii, mi warii no fof.",
+      "correct_alt": "Mi anndii o yahii e jaabii, mi warii no fof.",
+      "explanation": "English speakers often insert 'ko' (meaning 'that') as a conjunction in embedded clauses, but in Pulaar, 'ma' is optional and often omitted in speech. The particle 'ko' is more common in formal writing or when emphasizing the clause. Omitting 'ma' entirely (as in the correct_alt) is also acceptable in casual speech, but the error here stems from over-relying on English-style subordination with explicit conjunctions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Fulɓe mawɗo",
+        "translation": "Embedded clauses with aspect",
+        "examples": [
+          {
+            "original": "Mi anndii ma o warii no fof.",
+            "phonetic": "mi anndiː ma o waːriː no fof",
+            "translation": "I knew that he had already eaten.",
+            "note": "Focus on the perfective marker '-no' in the embedded clause. Contrast with English 'had eaten'."
+          },
+          {
+            "original": "O yahii e jaabii ma nder leydi.",
+            "phonetic": "o jaːhiː e dʒaːbiː ma nder leːdiː",
+            "translation": "He went and bought that in the country.",
+            "note": "The particle 'ma' introduces the embedded clause. Note the serialization 'yahii e jaabii' (went and bought)."
+          },
+          {
+            "original": "Daaɗo anndii ma o yahii e jaabii.",
+            "phonetic": "daːɗo anndiː ma o jaːhiː e dʒaːbiː",
+            "translation": "I realized that he went and bought (it).",
+            "note": "Daaɗo (realized) sets up the embedded clause without a conjunction."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Koode mawɗo",
+        "translation": "Complex coordination",
+        "examples": [
+          {
+            "original": "Mi warii no fof, mi yahii e jaabii.",
+            "phonetic": "mi waːriː no fof, mi jaːhiː e dʒaːbiː",
+            "translation": "I had already eaten, and I went and bought (it).",
+            "note": "Coordination via comma and serialization. Contrast with English 'and'."
+          },
+          {
+            "original": "O yahii e jaabii, o warii no fof.",
+            "phonetic": "o jaːhiː e dʒaːbiː, o waːriː no fof",
+            "translation": "He went and bought (it), and he had already eaten.",
+            "note": "Note the order of actions: serialization first, then perfective."
+          },
+          {
+            "original": "Mi anndii ma o yahii e jaabii, mi warii no fof.",
+            "phonetic": "mi anndiː ma o jaːhiː e dʒaːbiː, mi waːriː no fof",
+            "translation": "I knew that he went and bought (it), and I had already eaten.",
+            "note": "Combines embedded clause and coordination."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Hippooji mawɗo",
+        "translation": "Aspectual stacking",
+        "examples": [
+          {
+            "original": "Mi anndii ma o yahii e jaabii-ay.",
+            "phonetic": "mi anndiː ma o jaːhiː e dʒaːbiː-aj",
+            "translation": "I knew that he used to go and buy (it).",
+            "note": "The habitual marker '-ay' modifies the embedded clause. Contrast with English 'used to'."
+          },
+          {
+            "original": "O warii no fof, o yahii e jaabii-no.",
+            "phonetic": "o waːriː no fof, o jaːhiː e dʒaːbiː-no",
+            "translation": "He had already eaten, and he went to sleep.",
+            "note": "The perfective '-no' on the second verb clarifies the sequence."
+          },
+          {
+            "original": "Mi anndii ma o yahii e jaabii-a, mi warii no fof.",
+            "phonetic": "mi anndiː ma o jaːhiː e dʒaːbiː-a, mi waːriː no fof",
+            "translation": "I knew that he was going to buy (it), and I had already eaten.",
+            "note": "The progressive '-a' in the embedded clause indicates ongoing action."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced syntax and complex structures"
+    }
+  },
+  {
+    "id": "en_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Registeri, estilo: fomale, jomle, ndima / Register and style: formal, colloquial, neutral",
+    "bridge": "In English, register shifts are often marked by vocabulary choice (e.g., 'purchase' vs. 'buy') or syntactic structures (e.g., passive voice in formal contexts). Pulaar, however, relies heavily on morphological markers and fixed expressions to signal formality, especially through the use of the perfective aspect suffixes like '-ii' or the optative mood particles like 'en'. Unlike English, where formality is often a matter of word choice, Pulaar formal speech frequently employs entire verb forms or auxiliary constructions to convey respect or distance. A common trap is over-relying on direct translations of English formal structures, which can sound unnatural or overly stiff in Pulaar.",
+    "rule": "In Pulaar, register and style are primarily conveyed through:\n1. **Verb morphology**: The perfective suffix '-ii' (e.g., 'yettii' = 'he/she has eaten') is often used in formal contexts to imply completion and respect, whereas the simple past '-a' (e.g., 'yetta' = 'he/she ate') is neutral or colloquial.\n2. **Optative mood**: The particle 'en' (e.g., 'en yettii' = 'may he/she eat') is used in formal or polite requests, while colloquial speech omits it or uses 'na' (e.g., 'na yettii' = 'let him/her eat').\n3. **Fixed expressions**: Formal greetings (e.g., 'A salaam alekum' vs. 'Alaikum salaam') and closing phrases (e.g., 'In shaa Allaah' vs. 'Baawu') are rigidly tied to register.\n4. **Pronouns and titles**: Using 'aade' (you, formal) instead of 'a' (you, neutral) or 'mo' (you, colloquial) is essential in formal speech.\n\nExceptions:\n- In some dialects, the perfective '-ii' is optional in neutral contexts but mandatory in formal ones.\n- Colloquial speech may drop pronouns entirely (e.g., 'yettii' = 'he/she ate' instead of 'o yettii'), but this is informal.\n\nUse cases:\n- Formal: Academic writing, official speeches, religious contexts.\n- Neutral: Everyday conversation, news broadcasts.\n- Colloquial: Informal chats, social media, family settings.",
+    "concept_examples": [
+      {
+        "text": "Ade yettii laabi laamu laa.",
+        "translation": "You have completed your work excellently.",
+        "phonetic": "/a.de jet.tiː laː.bi laː.mu laː/"
+      },
+      {
+        "text": "En yettii laabi laamu laa, aade.",
+        "translation": "May you complete your work excellently, sir/madam.",
+        "phonetic": "/en jet.tiː laː.bi laː.mu laː, a.de/"
+      },
+      {
+        "text": "O yetta laabi laamu laa.",
+        "translation": "He/she completed their work.",
+        "phonetic": "/o jet.ta laː.bi laː.mu laː/"
+      },
+      {
+        "text": "Na yettii laabi laamu laa, mo.",
+        "translation": "Let you complete your work, friend.",
+        "phonetic": "/na jet.tiː laː.bi laː.mu laː, mo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ade yetta laabi laamu laa (using simple past in formal context).",
+      "correct": "Ade yettii laabi laamu laa (using perfective '-ii').",
+      "correct_alt": "En yettii laabi laamu laa, aade (using optative 'en').",
+      "explanation": "English speakers may default to simple past ('completed') in formal contexts, but Pulaar requires the perfective '-ii' to convey completion and respect. Omitting 'en' in formal optative constructions can sound abrupt or impolite. The error arises from over-relying on English verb forms without adjusting for Pulaar's morphological register markers."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Fomale: fayyi, jomle, ndima",
+        "translation": "Formal: verbs, sentences, neutral",
+        "examples": [
+          {
+            "original": "A salaam alekum.",
+            "phonetic": "/a sa.laːm a.le.kum/",
+            "translation": "Peace be upon you (formal greeting).",
+            "note": "This greeting is mandatory in formal settings and cannot be shortened or altered."
+          },
+          {
+            "original": "In shaa Allaah, aade yettii laabi laamu laa.",
+            "phonetic": "/in ʃaː al.laːh, a.de jet.tiː laː.bi laː.mu laː/",
+            "translation": "God willing, you will have completed your work.",
+            "note": "The phrase 'In shaa Allaah' is a fixed formal expression used in commitments or promises."
+          },
+          {
+            "original": "Ade, a yiide mawnde laa?",
+            "phonetic": "/a.de, a jiː.de mawː.de laː/",
+            "translation": "Sir/Madam, do you have a moment?",
+            "note": "Using 'aade' (you, formal) and the polite interrogative structure is key in formal requests."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Jomle: ndima, fomale",
+        "translation": "Sentences: neutral, formal",
+        "examples": [
+          {
+            "original": "O yetta laabi laamu laa.",
+            "phonetic": "/o jet.ta laː.bi laː.mu laː/",
+            "translation": "He/she completed their work.",
+            "note": "Neutral past tense using '-a' is appropriate in most everyday contexts."
+          },
+          {
+            "original": "Ade yettii laabi laamu laa.",
+            "phonetic": "/a.de jet.tiː laː.bi laː.mu laː/",
+            "translation": "You have completed your work (polite/formal).",
+            "note": "Perfective '-ii' adds a layer of respect or completion in neutral-to-formal contexts."
+          },
+          {
+            "original": "En yettii laabi laamu laa, aade.",
+            "phonetic": "/en jet.tiː laː.bi laː.mu laː, a.de/",
+            "translation": "May you complete your work, sir/madam.",
+            "note": "Optative 'en' is used for polite wishes or blessings in formal speech."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ndima: jomle, fomale",
+        "translation": "Neutral: sentences, formal",
+        "examples": [
+          {
+            "original": "Mo, yettii laabi laamu laa?",
+            "phonetic": "/mo, jet.tiː laː.bi laː.mu laː/",
+            "translation": "Friend, have you completed your work?",
+            "note": "Colloquial 'mo' (you) and dropping formal particles creates an informal tone."
+          },
+          {
+            "original": "Na yettii laabi laamu laa, mo.",
+            "phonetic": "/na jet.tiː laː.bi laː.mu laː, mo/",
+            "translation": "Let you complete your work, friend.",
+            "note": "Using 'na' (optative colloquial) and 'mo' (informal 'you') signals casual speech."
+          },
+          {
+            "original": "Ade, a yiide mawnde laa?",
+            "phonetic": "/a.de, a jiː.de mawː.de laː/",
+            "translation": "Sir/Madam, do you have a moment? (neutral but polite)",
+            "note": "This structure is neutral but can be adjusted for formality by adding 'aade' or using '-ii'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎩",
+    "phonetic": "",
+    "translations": {
+      "en": "Register and style: formal, colloquial, neutral"
+    }
+  },
+  {
+    "id": "en_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Inversión y frontalización avanzadas / Advanced inversion and fronting",
+    "bridge": "In Pulaar, inversion and fronting are not just stylistic choices but often grammatical necessities to mark emphasis, contrast, or topicalization, unlike in English where they are primarily rhetorical. English speakers may struggle because Pulaar inversion frequently involves verb-subject agreement shifts that don’t exist in English, and fronting can alter the default word order (SOV) in ways that feel unnatural to English learners. For example, fronting a locative or temporal phrase in Pulaar often triggers a specific verb form that English would handle with a simple auxiliary shift.",
+    "rule": "In Pulaar, advanced inversion and fronting are used to: 1) Emphasize a constituent (often the subject, object, or adverbial), 2) Mark contrast or topicalization, or 3) Fulfill grammatical requirements in certain constructions (e.g., conditional clauses, exclamations). \n\n**Inversion rules:**\n- When fronting a non-subject constituent (e.g., object, adverbial), the verb often inverts to agree with the fronted element’s grammatical role. This is common in questions, exclamations, and conditional clauses.\n- In conditional clauses, fronting 'na' (if) or 'hakkunde' (even if) triggers verb-subject inversion, similar to English but with stricter agreement rules.\n- In exclamatory constructions, fronting an adjective or noun phrase may require a specific verb form (e.g., 'ko' particle) to maintain grammaticality.\n\n**Fronting rules:**\n- Fronting a temporal or locative phrase (e.g., 'to wuro' = 'in the village') often requires the verb to agree with the fronted phrase’s role, especially in topicalization.\n- Fronting a subject for emphasis does not trigger inversion but may require a specific particle (e.g., 'de') to mark contrast.\n- In negative constructions, fronting the negated element (e.g., 'wona' = 'not') may require a change in verb form or auxiliary.\n\n**Exceptions:**\n- In simple declarative sentences, fronting does not require inversion unless the fronted element is a question word or conditional marker.\n- In relative clauses, fronting is rare and usually avoided unless for stylistic emphasis.",
+    "concept_examples": [
+      {
+        "text": "To wuro mi yahii.",
+        "translation": "In the village, I went.",
+        "phonetic": "/to ˈwuro mi ˈja.ħiː/"
+      },
+      {
+        "text": "Hakkunde a fulɓe wonaa, mi yahii.",
+        "translation": "Even if they were not Fulani, I went.",
+        "phonetic": "/haːk.kuːn.de a ˈful.ɓe wo.naː mi ˈja.ħiː/"
+      },
+      {
+        "text": "Ko mi maayii!",
+        "translation": "How I died!",
+        "phonetic": "/ko mi maːˈjiː/"
+      },
+      {
+        "text": "Naaɗo mi yahii to leydi.",
+        "translation": "It was yesterday that I went to the countryside.",
+        "phonetic": "/naː.ɗo mi ˈja.ħiː to ˈlej.di/"
+      }
+    ],
+    "common_error": {
+      "wrong": "To wuro mi yahii naaɗo.",
+      "correct": "To wuro mi yahii.",
+      "correct_alt": "Naaɗo mi yahii to wuro.",
+      "explanation": "English speakers often add 'naaɗo' (yesterday) at the end of the sentence, mimicking English adverbial placement. In Pulaar, fronting 'to wuro' (in the village) already emphasizes the location, so adding 'naaɗo' at the end is redundant and ungrammatical. The correct structure either keeps the fronted phrase at the beginning with the verb agreeing (as in the example) or front 'naaɗo' separately for contrast."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Inversión en cláusulas condicionales",
+        "translation": "Inversion in conditional clauses",
+        "examples": [
+          {
+            "original": "Hakkunde a fulɓe wonaa, mi yahii.",
+            "phonetic": "/haːk.kuːn.de a ˈful.ɓe wo.naː mi ˈja.ħiː/",
+            "translation": "Even if they were not Fulani, I went.",
+            "note": "Fronting 'hakkunde' (even if) triggers verb-subject inversion. The verb 'wonaa' (were not) agrees with the fronted subject 'a fulɓe' (they)."
+          },
+          {
+            "original": "Na mi yahii, mi maayii.",
+            "phonetic": "/na mi ˈja.ħiː mi maːˈjiː/",
+            "translation": "If I had gone, I would have died.",
+            "note": "Fronting 'na' (if) requires the verb 'yahii' (went) to invert to 'mi yahii' (I went) for grammaticality."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Frontalización para énfasis",
+        "translation": "Fronting for emphasis",
+        "examples": [
+          {
+            "original": "To wuro mi yahii.",
+            "phonetic": "/to ˈwuro mi ˈja.ħiː/",
+            "translation": "In the village, I went.",
+            "note": "Fronting 'to wuro' (in the village) emphasizes the location. The verb 'yahii' (went) remains in its default position but agrees with the subject 'mi' (I)."
+          },
+          {
+            "original": "Ko mi maayii!",
+            "phonetic": "/ko mi maːˈjiː/",
+            "translation": "How I died!",
+            "note": "Fronting 'ko' (how) with the subject 'mi' (I) creates an exclamatory structure. The verb 'maayii' (died) is in the emphatic form."
+          },
+          {
+            "original": "Naaɗo mi yahii to leydi.",
+            "phonetic": "/naː.ɗo mi ˈja.ħiː to ˈlej.di/",
+            "translation": "It was yesterday that I went to the countryside.",
+            "note": "Fronting 'naaɗo' (yesterday) and 'to leydi' (to the countryside) creates a cleft-like structure for emphasis."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Inversión en exclamaciones y topicalización",
+        "translation": "Inversion in exclamations and topicalization",
+        "examples": [
+          {
+            "original": "Ko a maayii!",
+            "phonetic": "/ko a maːˈjiː/",
+            "translation": "How they died!",
+            "note": "Fronting 'ko' (how) with the subject 'a' (they) creates an exclamatory inversion. The verb 'maayii' (died) is in the emphatic form."
+          },
+          {
+            "original": "To leydi mi yahii naaɗo.",
+            "phonetic": "/to ˈlej.di mi ˈja.ħiː naː.ɗo/",
+            "translation": "To the countryside, I went yesterday.",
+            "note": "Fronting 'to leydi' (to the countryside) and 'naaɗo' (yesterday) topicalizes both elements. The verb 'yahii' (went) agrees with the subject 'mi' (I)."
+          },
+          {
+            "original": "De mi yahii to wuro.",
+            "phonetic": "/de mi ˈja.ħiː to ˈwuro/",
+            "translation": "I went to the village.",
+            "note": "Fronting 'de' (particle for contrast) with the subject 'mi' (I) emphasizes the subject. The verb 'yahii' (went) remains in its default position."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced inversion and fronting"
+    }
+  }
+]

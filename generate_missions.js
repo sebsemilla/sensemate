@@ -6,14 +6,15 @@
 //   node generate_missions.js --target=fr --source=pt --level=A1 --from=es
 //   node generate_missions.js --list
 //   node generate_missions.js --status --target=fr --source=es
+//   node generate_missions.js --provider=openrouter --model=meta-llama/llama-3.3-70b-instruct:free
 //   node generate_missions.js --provider=gemini   (fuerza Gemini como proveedor)
 //   node generate_missions.js --provider=groq     (fuerza Groq/Llama como proveedor)
 //   node generate_missions.js --provider=mistral  (fuerza Mistral como proveedor)
 //   node generate_missions.js --provider=deepseek (fuerza DeepSeek)
 //
-// Proveedores soportados: deepseek (default), gemini, groq, mistral
+// Proveedores soportados: openrouter, deepseek, gemini, groq, mistral
 // Auto-fallback: si DeepSeek devuelve 402 (sin saldo), cambia a Mistral automáticamente.
-// Requiere DEEPSEEK_API_KEY y/o MISTRAL_API_KEY y/o GEMINI_API_KEY y/o GROQ_API_KEY en .env
+// Requiere DEEPSEEK_API_KEY y/o MISTRAL_API_KEY y/o GEMINI_API_KEY y/o GROQ_API_KEY y/o OPENROUTER_API_KEY en .env
 //
 // Genera JSON de conceptos pedagógicos para duplas idioma-destino / idioma-nativo.
 // Guarda progreso tras cada concepto y puede retomarse desde donde se interrumpió.
@@ -74,42 +75,77 @@ function setMistral() {
     activeProviderName = 'Mistral';
 }
 
+function setOpenRouter(model) {
+    activeClient = new OpenAI({
+        apiKey:       process.env.OPENROUTER_API_KEY,
+        baseURL:      'https://openrouter.ai/api/v1',
+        defaultHeaders: {
+            'HTTP-Referer': 'https://sensemate.app',
+            'X-Title':      'SenseMate',
+        },
+    });
+    activeModel        = model || 'meta-llama/llama-3.3-70b-instruct';
+    activeProviderName = 'OpenRouter';
+}
+
+// Parsea "try again in Xh Xm Xs" / "Xm Xs" / "Xs" del mensaje de error 429
+function parseRetryAfterMs(errMsg) {
+    let ms = 0;
+    const h = errMsg.match(/(\d+)h/);  if (h)  ms += parseInt(h[1])  * 3600000;
+    const m = errMsg.match(/(\d+)m/);  if (m)  ms += parseInt(m[1])  * 60000;
+    const s = errMsg.match(/([\d.]+)s/); if (s) ms += parseFloat(s[1]) * 1000;
+    return ms > 0 ? ms + 5000 : 65000; // +5s buffer; fallback 65s
+}
+
 // max_tokens y delay entre requests según proveedor
-function providerMaxTokens() { return activeProviderName === 'DeepSeek' ? 4000 : 8192; }
-function providerDelay()     { return activeProviderName === 'Gemini'   ? 4500 : 2000; }
+function providerMaxTokens() {
+    if (activeProviderName === 'DeepSeek')   return 4000;
+    if (activeProviderName === 'Groq')       return 3500;
+    if (activeProviderName === 'OpenRouter') return 8192;
+    return 8192;
+}
+function providerDelay() { return activeProviderName === 'Gemini' ? 4500 : 2000; }
 
-function initProvider(providerArg) {
-    const hasDeepSeek = !!process.env.DEEPSEEK_API_KEY;
-    const hasGemini   = !!process.env.GEMINI_API_KEY;
+function initProvider(providerArg, modelArg) {
+    const has = {
+        ds: !!process.env.DEEPSEEK_API_KEY,
+        ge: !!process.env.GEMINI_API_KEY,
+        gr: !!process.env.GROQ_API_KEY,
+        mi: !!process.env.MISTRAL_API_KEY,
+        or: !!process.env.OPENROUTER_API_KEY,
+    };
 
-    const hasGroq    = !!process.env.GROQ_API_KEY;
-    const hasMistral = !!process.env.MISTRAL_API_KEY;
-
-    if (providerArg === 'gemini') {
-        if (!hasGemini) { console.error('❌ Falta GEMINI_API_KEY en .env'); process.exit(1); }
+    if (providerArg === 'openrouter') {
+        if (!has.or) { console.error('❌ Falta OPENROUTER_API_KEY en .env'); process.exit(1); }
+        setOpenRouter(modelArg);
+    } else if (providerArg === 'gemini') {
+        if (!has.ge) { console.error('❌ Falta GEMINI_API_KEY en .env'); process.exit(1); }
         setGemini();
-        fallbackAvailable = hasMistral || hasGroq;
+        fallbackAvailable = has.mi || has.gr || has.or;
     } else if (providerArg === 'groq') {
-        if (!hasGroq) { console.error('❌ Falta GROQ_API_KEY en .env'); process.exit(1); }
+        if (!has.gr) { console.error('❌ Falta GROQ_API_KEY en .env'); process.exit(1); }
         setGroq();
     } else if (providerArg === 'mistral') {
-        if (!hasMistral) { console.error('❌ Falta MISTRAL_API_KEY en .env'); process.exit(1); }
+        if (!has.mi) { console.error('❌ Falta MISTRAL_API_KEY en .env'); process.exit(1); }
         setMistral();
     } else if (providerArg === 'deepseek') {
-        if (!hasDeepSeek) { console.error('❌ Falta DEEPSEEK_API_KEY en .env'); process.exit(1); }
+        if (!has.ds) { console.error('❌ Falta DEEPSEEK_API_KEY en .env'); process.exit(1); }
         setDeepSeek();
     } else {
-        // auto: DeepSeek primero, Mistral como fallback si hay saldo insuficiente
-        if (!hasDeepSeek && !hasMistral && !hasGroq && !hasGemini) {
-            console.error('❌ Falta DEEPSEEK_API_KEY, MISTRAL_API_KEY, GROQ_API_KEY o GEMINI_API_KEY en .env');
+        // auto: OpenRouter → DeepSeek → Mistral → Groq → Gemini
+        if (!has.or && !has.ds && !has.mi && !has.gr && !has.ge) {
+            console.error('❌ Falta al menos un API key (OPENROUTER_API_KEY, DEEPSEEK_API_KEY, MISTRAL_API_KEY, GROQ_API_KEY o GEMINI_API_KEY) en .env');
             process.exit(1);
         }
-        if (hasDeepSeek) {
+        if (has.or) {
+            setOpenRouter(modelArg);
+            fallbackAvailable = has.ds || has.mi || has.gr || has.ge;
+        } else if (has.ds) {
             setDeepSeek();
-            fallbackAvailable = hasMistral || hasGroq || hasGemini;
-        } else if (hasMistral) {
+            fallbackAvailable = has.mi || has.gr || has.ge;
+        } else if (has.mi) {
             setMistral();
-        } else if (hasGroq) {
+        } else if (has.gr) {
             setGroq();
         } else {
             setGemini();
@@ -120,32 +156,16 @@ function initProvider(providerArg) {
 function tryFallbackToGemini() {
     if (!fallbackAvailable) return false;
     const from = activeProviderName;
-    if (activeProviderName === 'Gemini') {
-        // Gemini quota agotada → intentar Mistral o Groq
-        if (process.env.MISTRAL_API_KEY) {
-            console.warn(`\n⚠️  ${from} sin cuota — cambiando a Mistral automáticamente…\n`);
-            setMistral();
-        } else if (process.env.GROQ_API_KEY) {
-            console.warn(`\n⚠️  ${from} sin cuota — cambiando a Groq automáticamente…\n`);
-            setGroq();
-        } else {
-            return false;
-        }
-    } else {
-        // DeepSeek/Groq sin saldo → siguiente en cadena
-        if (process.env.MISTRAL_API_KEY) {
-            console.warn(`\n⚠️  ${from} sin saldo — cambiando a Mistral automáticamente…\n`);
-            setMistral();
-        } else if (process.env.GROQ_API_KEY) {
-            console.warn(`\n⚠️  ${from} sin saldo — cambiando a Groq automáticamente…\n`);
-            setGroq();
-        } else if (process.env.GEMINI_API_KEY) {
-            console.warn(`\n⚠️  ${from} sin saldo — cambiando a Gemini automáticamente…\n`);
-            setGemini();
-        } else {
-            return false;
-        }
-    }
+    const next = [
+        ['DeepSeek',    process.env.DEEPSEEK_API_KEY,    setDeepSeek],
+        ['Mistral',     process.env.MISTRAL_API_KEY,     setMistral],
+        ['Groq',        process.env.GROQ_API_KEY,        setGroq],
+        ['Gemini',      process.env.GEMINI_API_KEY,      setGemini],
+        ['OpenRouter',  process.env.OPENROUTER_API_KEY,  () => setOpenRouter()],
+    ].find(([name, key]) => key && name !== from);
+    if (!next) return false;
+    console.warn(`\n⚠️  ${from} sin saldo — cambiando a ${next[0]} automáticamente…\n`);
+    next[2]();
     fallbackAvailable = false;
     return true;
 }
@@ -170,6 +190,16 @@ const LANGS = {
     ha: { name: 'Hausa',      nameEn: 'Hausa',      dir: 'hausa'     },
     yo: { name: 'Yoruba',     nameEn: 'Yoruba',     dir: 'yoruba'    },
     ig: { name: 'Igbo',       nameEn: 'Igbo',       dir: 'igbo'      },
+    ff: { name: 'Pulaar',     nameEn: 'Pulaar',     dir: 'pulaar'    },
+    sw: { name: 'Swahili',    nameEn: 'Swahili',    dir: 'swahili'   },
+    am: { name: 'Amhárico',   nameEn: 'Amharic',    dir: 'amharico'  },
+    om: { name: 'Oromo',      nameEn: 'Oromo',      dir: 'oromo'     },
+    ln: { name: 'Lingala',    nameEn: 'Lingala',    dir: 'lingala'   },
+    so: { name: 'Somalí',     nameEn: 'Somali',     dir: 'somali'    },
+    zu: { name: 'Zulú',       nameEn: 'Zulu',       dir: 'zulu'      },
+    rw: { name: 'Kinyarwanda',nameEn: 'Kinyarwanda',dir: 'kinyarwanda'},
+    tw: { name: 'Twi',        nameEn: 'Twi',        dir: 'twi'       },
+    bm: { name: 'Bambara',    nameEn: 'Bambara',    dir: 'bambara'   },
     ary:{ name: 'Darija',     nameEn: 'Moroccan Arabic', dir: 'darija' },
 };
 
@@ -593,8 +623,9 @@ async function translateConcept(concept, fromSource, newSource, retries = 3) {
                 continue;
             }
             if (err.message.includes('429')) {
-                const wait = 65000;
-                process.stdout.write(`  Rate limit — esperando ${wait/1000}s…\n`);
+                const wait = parseRetryAfterMs(err.message);
+                const mins = Math.ceil(wait / 60000);
+                process.stdout.write(`  Rate limit — esperando ${mins >= 60 ? (mins/60).toFixed(1)+'h' : mins+'m'}…\n`);
                 await new Promise(r => setTimeout(r, wait));
                 attempt--;
                 continue;
@@ -678,14 +709,142 @@ async function translateFromFile(target, source, level, category, fromSource, co
     }
 }
 
+// ─── Prompts particionados para Groq (contexto limitado) ───────
+
+function buildPromptStage1(target, source, level, category, topicIndex, topic) {
+    const tLang = LANGS[target] || { name: target, nameEn: target };
+    const sLang = LANGS[source] || { name: source, nameEn: source };
+    const conceptId = `${source}_${level}_${category.slice(0,4)}_${String(topicIndex + 1).padStart(2, '0')}`;
+    const categoryLabel = { gramatica: 'Gramática', funciones_comunicativas: 'Funciones comunicativas', conversacion: 'Conversación' }[category] || category;
+    return `You are a language learning content creator. Generate a JSON object (no markdown) for:
+- Target language: ${tLang.nameEn}
+- Source language: ${sLang.nameEn}
+- Level: ${level} | Category: ${categoryLabel} | Topic: ${topic}
+
+Output ONLY this JSON structure:
+{
+  "id": "${conceptId}",
+  "type": "concept",
+  "category": "${categoryLabel}",
+  "title": "<title in ${tLang.nameEn} / translation in ${sLang.nameEn}>",
+  "bridge": "<2-3 sentence contrastive explanation IN ${sLang.nameEn}>",
+  "rule": "<grammar/usage rule IN ${sLang.nameEn}, include key forms and exceptions>",
+  "concept_examples": [
+    { "text": "<example IN ${tLang.nameEn}>", "translation": "<IN ${sLang.nameEn}>", "phonetic": "<IPA or empty>" },
+    { "text": "<example IN ${tLang.nameEn}>", "translation": "<IN ${sLang.nameEn}>", "phonetic": "<IPA or empty>" }
+  ],
+  "common_error": {
+    "wrong": "<incorrect sentence>",
+    "correct": "<corrected>",
+    "correct_alt": "",
+    "explanation": "<IN ${sLang.nameEn}>"
+  },
+  "emoji": "<single emoji>",
+  "phonetic": "",
+  "translations": { "${source}": "<topic name IN ${sLang.nameEn}>" }
+}
+No markdown. No extra text. Only JSON.`;
+}
+
+function buildPromptStage2(target, source, level, category, topicIndex, topic) {
+    const tLang = LANGS[target] || { name: target, nameEn: target };
+    const sLang = LANGS[source] || { name: source, nameEn: source };
+    const categoryLabel = { gramatica: 'Gramática', funciones_comunicativas: 'Funciones comunicativas', conversacion: 'Conversación' }[category] || category;
+    return `You are a language learning content creator. Generate ONLY the "levels" array for a ${level} ${categoryLabel} concept about "${topic}" in ${tLang.nameEn} for ${sLang.nameEn} speakers.
+
+Output ONLY this JSON (no markdown):
+{
+  "levels": [
+    {
+      "level": 1,
+      "label": "<sub-topic 1 IN ${tLang.nameEn}>",
+      "translation": "<IN ${sLang.nameEn}>",
+      "examples": [
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "<IPA or empty>", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" },
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "<IPA or empty>", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" }
+      ]
+    },
+    {
+      "level": 2,
+      "label": "<sub-topic 2 IN ${tLang.nameEn}>",
+      "translation": "<IN ${sLang.nameEn}>",
+      "examples": [
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" },
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" }
+      ]
+    },
+    {
+      "level": 3,
+      "label": "<sub-topic 3 IN ${tLang.nameEn}>",
+      "translation": "<IN ${sLang.nameEn}>",
+      "examples": [
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" },
+        { "original": "<phrase IN ${tLang.nameEn}>", "phonetic": "", "translation": "<IN ${sLang.nameEn}>", "note": "<short tip IN ${sLang.nameEn}>" }
+      ]
+    }
+  ]
+}
+No markdown. No extra text. Only JSON.`;
+}
+
+async function callAPI(prompt) {
+    let lastErr;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            process.stdout.write(`  → Llamando a ${activeProviderName} (intento ${attempt})…`);
+            const msg = await activeClient.chat.completions.create({
+                model:      activeModel,
+                max_tokens: providerMaxTokens(),
+                messages:   [{ role: 'user', content: prompt }],
+            });
+            let raw = msg.choices[0]?.message?.content?.trim() || '';
+            raw = raw.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+            // Strip <think>...</think> blocks (Qwen/reasoning models)
+            raw = raw.replace(/<think>[\s\S]*?<\/think>/gi, '').trim();
+            const start = raw.indexOf('{');
+            const end   = raw.lastIndexOf('}');
+            if (start !== -1 && end !== -1) raw = raw.slice(start, end + 1);
+            const json = JSON.parse(raw);
+            process.stdout.write(' ✓\n');
+            return json;
+        } catch (err) {
+            lastErr = err;
+            process.stdout.write(` ✗ (${err.message})\n`);
+            if (err.message.includes('429')) {
+                const wait = parseRetryAfterMs(err.message);
+                const mins = Math.ceil(wait / 60000);
+                process.stdout.write(`  Rate limit — esperando ${mins >= 60 ? (mins/60).toFixed(1)+'h' : mins+'m'}…\n`);
+                await new Promise(r => setTimeout(r, wait));
+                attempt--;
+                continue;
+            }
+            if (attempt < 3) {
+                process.stdout.write(`  Reintentando en 5 s…\n`);
+                await new Promise(r => setTimeout(r, 5000));
+            }
+        }
+    }
+    throw new Error(`No se pudo completar tras 3 intentos: ${lastErr?.message}`);
+}
+
 // ─── Generación con reintentos ─────────────────────────────────
 
 async function generateConcept(target, source, level, category, topicIndex, topic) {
-    const prompt = buildPrompt(target, source, level, category, topicIndex, topic, 0);
+    const isGroq = activeProviderName === 'Groq';
     let lastErr;
 
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
+            if (isGroq) {
+                // Dos etapas para respetar el límite de contexto de Groq
+                process.stdout.write(`  → ${activeProviderName} etapa 1…`);
+                const stage1 = await callAPI(buildPromptStage1(target, source, level, category, topicIndex, topic));
+                process.stdout.write(`  → ${activeProviderName} etapa 2…`);
+                const stage2 = await callAPI(buildPromptStage2(target, source, level, category, topicIndex, topic));
+                return { ...stage1, levels: stage2.levels };
+            }
+
+            const prompt = buildPrompt(target, source, level, category, topicIndex, topic, 0);
             process.stdout.write(`  → Llamando a ${activeProviderName} (intento ${attempt})…`);
             const msg = await activeClient.chat.completions.create({
                 model:      activeModel,
@@ -704,18 +863,17 @@ async function generateConcept(target, source, level, category, topicIndex, topi
             return json;
         } catch (err) {
             lastErr = err;
-            process.stdout.write(` ✗ (${err.message})\n`);
-            const isQuota = err.message.includes('402') || err.message.includes('RESOURCE_EXHAUSTED') || err.message.toLowerCase().includes('quota');
-            if (isQuota && tryFallbackToGemini()) {
-                attempt--;
-                continue;
-            }
-            if (err.message.includes('429')) {
-                const wait = 65000;
-                process.stdout.write(`  Rate limit — esperando ${wait/1000}s…\n`);
-                await new Promise(r => setTimeout(r, wait));
-                attempt--;
-                continue;
+            if (!isGroq) {
+                process.stdout.write(` ✗ (${err.message})\n`);
+                const isQuota = err.message.includes('402') || err.message.includes('RESOURCE_EXHAUSTED') || err.message.toLowerCase().includes('quota');
+                if (isQuota && tryFallbackToGemini()) { attempt--; continue; }
+                if (err.message.includes('429')) {
+                    const wait = 65000;
+                    process.stdout.write(`  Rate limit — esperando ${wait/1000}s…\n`);
+                    await new Promise(r => setTimeout(r, wait));
+                    attempt--;
+                    continue;
+                }
             }
             if (attempt < 3) {
                 process.stdout.write(`  Reintentando en 5 s…\n`);
@@ -888,8 +1046,9 @@ async function main() {
     const category = args.category;
     const from     = args.from;
     const provider = args.provider || 'auto';
+    const model    = args.model;
 
-    initProvider(provider);
+    initProvider(provider, model);
 
     if (args.status) {
         if (!target || !source) { console.error('--status requiere --target y --source'); process.exit(1); }

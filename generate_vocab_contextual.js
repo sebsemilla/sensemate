@@ -49,24 +49,46 @@ function setGroq() {
     activeModel = 'llama-3.3-70b-versatile';
     activeProviderName = 'Groq';
 }
+function setOpenRouter(model) {
+    activeClient = new OpenAI({
+        apiKey:   process.env.OPENROUTER_API_KEY,
+        baseURL:  'https://openrouter.ai/api/v1',
+        defaultHeaders: {
+            'HTTP-Referer': 'https://sensemate.app',
+            'X-Title':      'SenseMate',
+        },
+    });
+    activeModel = model || 'meta-llama/llama-3.3-70b-instruct';
+    activeProviderName = 'OpenRouter';
+}
 
-function initProvider(providerArg) {
-    const has = { ds: !!process.env.DEEPSEEK_API_KEY, mi: !!process.env.MISTRAL_API_KEY, ge: !!process.env.GEMINI_API_KEY, gr: !!process.env.GROQ_API_KEY };
-    if (providerArg === 'mistral') {
+function initProvider(providerArg, modelArg) {
+    const has = {
+        ds: !!process.env.DEEPSEEK_API_KEY,
+        mi: !!process.env.MISTRAL_API_KEY,
+        ge: !!process.env.GEMINI_API_KEY,
+        gr: !!process.env.GROQ_API_KEY,
+        or: !!process.env.OPENROUTER_API_KEY,
+    };
+    if (providerArg === 'openrouter') {
+        if (!has.or) { console.error('❌ Falta OPENROUTER_API_KEY en .env'); process.exit(1); }
+        setOpenRouter(modelArg);
+    } else if (providerArg === 'mistral') {
         if (!has.mi) { console.error('❌ Falta MISTRAL_API_KEY en .env'); process.exit(1); }
         setMistral();
     } else if (providerArg === 'gemini') {
         if (!has.ge) { console.error('❌ Falta GEMINI_API_KEY en .env'); process.exit(1); }
-        setGemini(); fallbackAvailable = has.mi || has.gr;
+        setGemini(); fallbackAvailable = has.mi || has.gr || has.or;
     } else if (providerArg === 'groq') {
         if (!has.gr) { console.error('❌ Falta GROQ_API_KEY en .env'); process.exit(1); }
         setGroq();
     } else if (providerArg === 'deepseek') {
         if (!has.ds) { console.error('❌ Falta DEEPSEEK_API_KEY en .env'); process.exit(1); }
-        setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge;
+        setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge || has.or;
     } else {
-        if (!has.ds && !has.mi && !has.ge && !has.gr) { console.error('❌ Falta al menos un API key en .env'); process.exit(1); }
-        if (has.ds) { setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge; }
+        if (!has.ds && !has.mi && !has.ge && !has.gr && !has.or) { console.error('❌ Falta al menos un API key en .env'); process.exit(1); }
+        if (has.or) { setOpenRouter(modelArg); fallbackAvailable = has.ds || has.mi || has.gr || has.ge; }
+        else if (has.ds) { setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge; }
         else if (has.mi) { setMistral(); }
         else if (has.gr) { setGroq(); }
         else { setGemini(); }
@@ -77,18 +99,26 @@ function initProvider(providerArg) {
 function tryFallback(errMsg) {
     if (!fallbackAvailable) return false;
     const from = activeProviderName;
-    if (process.env.MISTRAL_API_KEY && activeProviderName !== 'Mistral') {
-        console.warn(`\n⚠️  ${from} sin saldo — cambiando a Mistral…\n`);
-        setMistral(); fallbackAvailable = false; return true;
-    }
-    if (process.env.GROQ_API_KEY && activeProviderName !== 'Groq') {
-        console.warn(`\n⚠️  ${from} sin saldo — cambiando a Groq…\n`);
-        setGroq(); fallbackAvailable = false; return true;
-    }
-    return false;
+    const next = [
+        ['Mistral',    process.env.MISTRAL_API_KEY,    setMistral],
+        ['Groq',       process.env.GROQ_API_KEY,       setGroq],
+        ['Gemini',     process.env.GEMINI_API_KEY,     setGemini],
+        ['OpenRouter', process.env.OPENROUTER_API_KEY, () => setOpenRouter()],
+    ].find(([name, key]) => key && name !== from);
+    if (!next) return false;
+    console.warn(`\n⚠️  ${from} sin saldo — cambiando a ${next[0]}…\n`);
+    next[2](); fallbackAvailable = false; return true;
 }
 
 function providerMaxTokens() { return activeProviderName === 'DeepSeek' ? 4000 : 8192; }
+
+function parseRetryAfterMs(errMsg) {
+    let ms = 0;
+    const h = errMsg.match(/(\d+)h/);    if (h)  ms += parseInt(h[1])  * 3600000;
+    const m = errMsg.match(/(\d+)m/);    if (m)  ms += parseInt(m[1])  * 60000;
+    const s = errMsg.match(/([\d.]+)s/); if (s)  ms += parseFloat(s[1]) * 1000;
+    return ms > 0 ? ms + 5000 : 65000;
+}
 
 // ─── Metadatos de idiomas ──────────────────────────────────────
 
@@ -109,6 +139,17 @@ const LANGS = {
     wo: { name: 'Wolof',      nameEn: 'Wolof',      dir: 'wolof'     },
     ha: { name: 'Hausa',      nameEn: 'Hausa',      dir: 'hausa'     },
     yo: { name: 'Yoruba',     nameEn: 'Yoruba',     dir: 'yoruba'    },
+    ig: { name: 'Igbo',       nameEn: 'Igbo',       dir: 'igbo'      },
+    ff: { name: 'Pulaar',     nameEn: 'Pulaar',     dir: 'pulaar'    },
+    sw: { name: 'Swahili',    nameEn: 'Swahili',    dir: 'swahili'   },
+    am: { name: 'Amhárico',   nameEn: 'Amharic',    dir: 'amharico'  },
+    om: { name: 'Oromo',      nameEn: 'Oromo',      dir: 'oromo'     },
+    ln: { name: 'Lingala',    nameEn: 'Lingala',    dir: 'lingala'   },
+    so: { name: 'Somalí',     nameEn: 'Somali',     dir: 'somali'    },
+    zu: { name: 'Zulú',       nameEn: 'Zulu',       dir: 'zulu'      },
+    rw: { name: 'Kinyarwanda',nameEn: 'Kinyarwanda',dir: 'kinyarwanda'},
+    tw: { name: 'Twi',        nameEn: 'Twi',        dir: 'twi'       },
+    bm: { name: 'Bambara',    nameEn: 'Bambara',    dir: 'bambara'   },
 };
 
 // ─── Bandas de frecuencia por nivel ───────────────────────────
@@ -392,6 +433,14 @@ async function generateGroup(target, source, level, scenario, groupIndex, existi
         } catch (err) {
             const is402 = err.message?.includes('402') || err.status === 402;
             if (is402 && tryFallback(err.message)) { attempt--; continue; }
+            if (err.message?.includes('429')) {
+                const wait = parseRetryAfterMs(err.message);
+                const mins = Math.ceil(wait / 60000);
+                console.warn(`  ⏳ Rate limit — esperando ${mins >= 60 ? (mins/60).toFixed(1)+'h' : mins+'m'}…`);
+                await new Promise(r => setTimeout(r, wait));
+                attempt--;
+                continue;
+            }
             console.warn(`  ⚠️  Intento ${attempt}/${retries} fallido: ${err.message}`);
             if (attempt === retries) throw err;
             await new Promise(r => setTimeout(r, 2000 * attempt));
@@ -445,6 +494,14 @@ async function translateGroup(group, fromSource, newSource, retries = 3) {
         } catch (err) {
             const is402 = err.message?.includes('402') || err.status === 402;
             if (is402 && tryFallback(err.message)) { attempt--; continue; }
+            if (err.message?.includes('429')) {
+                const wait = parseRetryAfterMs(err.message);
+                const mins = Math.ceil(wait / 60000);
+                console.warn(`  ⏳ Rate limit — esperando ${mins >= 60 ? (mins/60).toFixed(1)+'h' : mins+'m'}…`);
+                await new Promise(r => setTimeout(r, wait));
+                attempt--;
+                continue;
+            }
             console.warn(`  ⚠️  Intento ${attempt}/${retries} fallido: ${err.message}`);
             if (attempt === retries) throw err;
             await new Promise(r => setTimeout(r, 2000 * attempt));
@@ -612,7 +669,7 @@ if (!args.target || !args.source || !args.level) {
     process.exit(1);
 }
 
-initProvider(args.provider);
+initProvider(args.provider, args.model);
 
 if (!LANGS[args.target]) { console.error(`Idioma destino no soportado: ${args.target}`); process.exit(1); }
 if (!LANGS[args.source]) { console.error(`Idioma fuente no soportado: ${args.source}`); process.exit(1); }

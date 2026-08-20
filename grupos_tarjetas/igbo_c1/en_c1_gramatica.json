@@ -364,5 +364,359 @@
     "translations": {
       "en": "Advanced inversion and fronting"
     }
+  },
+  {
+    "id": "en_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nominalización compleja (igbo: nkà n'ime okwu)",
+    "bridge": "In English, nominalization often involves converting verbs into nouns using suffixes like -tion, -ing, or -ment (e.g., 'process' → 'processing'). Igbo achieves this through a different mechanism: by embedding the verb within a noun phrase using the particle 'nà-' or by using specific nominalizing suffixes like '-ri' or '-ghi'. Unlike English, Igbo nominalization can also involve tonal shifts or reduplication to mark the process. A key trap for English speakers is over-relying on English-style suffixes, which do not exist in Igbo, leading to unnatural or incorrect constructions.",
+    "rule": "In Igbo, complex nominalization typically involves one of three strategies:\n\n1. **Nominalization with 'nà-'**: The particle 'nà-' (meaning 'that which') is prefixed to a verb to form a noun representing the process or action. This is common with stative verbs. Example: 'zù' (to take) → 'nàzù' (the act of taking).\n\n2. **Suffix-based nominalization**: Some verbs form nouns by adding suffixes like '-ri' (for actions) or '-ghi' (for results). Example: 'gàrà' (to break) → 'gàrà-ghi' (the breaking).\n\n3. **Reduplication or tonal changes**: For some verbs, reduplication or tonal shifts indicate the nominalized form. Example: 'zù' (to take) → 'zùzù' (the act of taking repeatedly).\n\nExceptions: Not all verbs can be nominalized in all three ways. Some require specific suffixes or particles. Context and idiomatic usage often determine the correct form. Nominalized forms are often used in proverbs, idioms, or formal speech.",
+    "concept_examples": [
+      {
+        "text": "Ànụ̀ nà-egwù m̀ nà-emè n'ụ̀lọ̀.",
+        "translation": "The act of singing is what I do in the house.",
+        "phonetic": "/à.nṵ nà.eg.wù m̀ nà.e.mè ǹ.ụ̀.lò/"
+      },
+      {
+        "text": "Ọ̀gụ̀ nà-egwè n'ezì n'ezì.",
+        "translation": "The process of teaching is continuous.",
+        "phonetic": "/ò.gṵ nà.eg.wè n'e.zì n'e.zì/"
+      },
+      {
+        "text": "Àkwà nà-egbè n'ime ụlọ.",
+        "translation": "The act of reading is inside the house.",
+        "phonetic": "/à.k.wà nà.eg.bè n'i.me ụ.lọ/"
+      },
+      {
+        "text": "Ụ̀gwọ̀ nà-egbè n'ime ụlọ.",
+        "translation": "The process of cooking is inside the house.",
+        "phonetic": "/ṵ.g.wò nà.eg.bè n'i.me ụ.lọ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "M̀ na-egwù n'ụ̀lọ̀.",
+      "correct": "Ànụ̀ nà-egwù m̀ nà-emè n'ụ̀lọ̀.",
+      "correct_alt": "M̀ na-egwù n'ụ̀lọ̀ nà-egwù.",
+      "explanation": "The incorrect sentence translates to 'I am singing in the house,' which is a verb phrase, not a nominalized form. English speakers often forget that Igbo requires explicit nominalization with 'nà-' or suffixes to express the process as a noun. The correct forms use 'nà-' to turn the action into a noun phrase or add a nominalizing suffix."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nkà nà- n'ime okwu",
+        "translation": "Nominalization with 'nà-'",
+        "examples": [
+          {
+            "original": "Ànụ̀ nà-egwù m̀ nà-emè n'ụ̀lọ̀.",
+            "phonetic": "/à.nṵ nà.eg.wù m̀ nà.e.mè ǹ.ụ̀.lò/",
+            "translation": "The act of singing is what I do in the house.",
+            "note": "Introduces the basic structure of nominalization with 'nà-' for common verbs like 'egwù' (to sing). Focus on the particle 'nà-' as a marker of the nominalized process."
+          },
+          {
+            "original": "Ọ̀gụ̀ nà-egwè n'ezì n'ezì.",
+            "phonetic": "/ò.gṵ nà.eg.wè n'e.zì n'e.zì/",
+            "translation": "The process of teaching is continuous.",
+            "note": "Demonstrates nominalization with 'nà-' for verbs like 'egwè' (to teach). Highlight the use of 'nà-' to turn the verb into a noun phrase representing the process."
+          },
+          {
+            "original": "Àkwà nà-egbè n'ime ụlọ.",
+            "phonetic": "/à.k.wà nà.eg.bè n'i.me ụ.lọ/",
+            "translation": "The act of reading is inside the house.",
+            "note": "Shows nominalization with 'nà-' for verbs like 'egbè' (to read). Emphasize the structure 'Àkwà nà-[verb]' as a common pattern."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nkà n'ime okwu n'ụzọ ọzọ",
+        "translation": "Alternative nominalization methods",
+        "examples": [
+          {
+            "original": "Ụ̀gwọ̀ nà-egbè n'ime ụlọ.",
+            "phonetic": "/ṵ.g.wò nà.eg.bè n'i.me ụ.lọ/",
+            "translation": "The process of cooking is inside the house.",
+            "note": "Introduces nominalization with suffixes like '-ri' or '-ghi'. Here, 'egbè' (to cook) is nominalized implicitly, but 'Ụ̀gwọ̀' (cooking) is used as a noun."
+          },
+          {
+            "original": "Àkwà-ghi n'ime ụlọ.",
+            "phonetic": "/à.k.wà.gi n'i.me ụ.lọ/",
+            "translation": "The reading is inside the house.",
+            "note": "Demonstrates the suffix '-ghi' for nominalization. Compare this to Level 1 to show the alternative method."
+          },
+          {
+            "original": "Zùzù n'ime ụlọ.",
+            "phonetic": "/zù.zù n'i.me ụ.lọ/",
+            "translation": "The taking is inside the house.",
+            "note": "Shows reduplication as a nominalization method. Highlight how 'zù' (to take) becomes 'zùzù' (the act of taking) through reduplication."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nkà n'ime okwu n'ụzọ dị mma",
+        "translation": "Advanced nominalization patterns",
+        "examples": [
+          {
+            "original": "Ànụ̀ nà-egwù n'ime ụlọ̀ nà-egwù m̀.",
+            "phonetic": "/à.nṵ nà.eg.wù n'i.me ụ.lọ̀ nà.eg.wù m̀/",
+            "translation": "The singing that I do in the house is singing.",
+            "note": "Combines nominalization with 'nà-' and a relative clause. Shows how nominalized forms can be used in more complex sentences."
+          },
+          {
+            "original": "Ọ̀gụ̀ nà-egwè n'ezì n'ezì nà-emè m̀.",
+            "phonetic": "/ò.gṵ nà.eg.wè n'e.zì n'e.zì nà.e.mè m̀/",
+            "translation": "The teaching that is continuous is what I do.",
+            "note": "Demonstrates the use of nominalized forms in relative clauses. Focus on the structure 'Ọ̀gụ̀ nà-[verb] n'ezì n'ezì nà-[clause]'."
+          },
+          {
+            "original": "Àkwà nà-egbè n'ime ụlọ nà-emè m̀ n'ụ̀bọ̀chị.",
+            "phonetic": "/à.k.wà nà.eg.bè n'i.me ụ.lọ nà.e.mè m̀ ǹ.ụ̀.bò.chị/",
+            "translation": "The reading that is done in the house is what I do in the morning.",
+            "note": "Shows nominalization in a temporal context. Highlight the use of 'nà-emè m̀' to specify the action performed."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Complex nominalization (process → processing)"
+    }
+  },
+  {
+    "id": "en_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ntụgharị na Ntụgharị ọnụ / Ellipsis and substitution",
+    "bridge": "In English, ellipsis and substitution (e.g., 'so do I', 'neither have we') rely heavily on auxiliary verbs like 'do', 'have', or 'be' to avoid repetition. Igbo, however, achieves this through tonal shifts, particle omission, and context-driven verb reduplication. English speakers often struggle with Igbo’s reliance on tone and context rather than explicit auxiliary verbs, leading to overuse of English-style constructions. For example, Igbo can omit the verb entirely in responses ('M ga-emeri' → 'I will too'), while English requires 'I will too' or 'So will I'.",
+    "rule": "Igbo uses ellipsis and substitution primarily through: 1) **Tonal reduplication** (e.g., 'M ga-emeri' → 'I will too' implies 'I will do it too'), 2) **Particle omission** (e.g., 'A na-akwụ ụtọ' → 'They are happy too' implies 'They are also happy'), and 3) **Contextual verb reduplication** (e.g., 'O mere' → 'He did too' implies 'He did it too'). Key particles like 'na' (and), 'ma' (but), or 'nke' (that) may be omitted in elliptical constructions. For substitution, Igbo often uses 'nke' (that/those) or 'ọ bụ' (it is) to replace nouns or verbs. Exceptions include formal contexts where full sentences are preferred. Typical use cases: agreeing with statements, negating previous statements, or substituting repeated nouns/verbs.",
+    "concept_examples": [
+      {
+        "text": "M ga-emeri.",
+        "translation": "I will too.",
+        "phonetic": "m̀ ɡá-é-mé-rì"
+      },
+      {
+        "text": "Ọ dị mma, nke ukwuu.",
+        "translation": "It’s good, and so is yours.",
+        "phonetic": "ʌ̀ dì̀ m̀má, ǹkè ùkwù"
+      },
+      {
+        "text": "A na-akwụ ụtọ, ma ọ bụ a na-achị anya.",
+        "translation": "They are happy, and so is he.",
+        "phonetic": "á nà-ákwù̀ ùtọ̀, mà ọ̀ bù̀ á nà-áchì̀ ànyà"
+      },
+      {
+        "text": "O mere nke a.",
+        "translation": "He did that too.",
+        "phonetic": "ó mè-rè ǹkè à"
+      }
+    ],
+    "common_error": {
+      "wrong": "M ga-emeri nke ụlọ.",
+      "correct": "M ga-emeri.",
+      "correct_alt": "M ga-emeri nke a.",
+      "explanation": "English speakers often translate 'I will do it too' as 'M ga-emeri nke ụlọ' (literally 'I will do the house too'), overusing the noun 'ụlọ' (house) where Igbo relies on context or reduplication. Igbo omits the noun entirely in elliptical constructions, as the verb 'ga-emeri' (will do) implies the action without repetition."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ntụgharị nke verbụ",
+        "translation": "Verb ellipsis",
+        "examples": [
+          {
+            "original": "M ga-emeri.",
+            "phonetic": "m̀ ɡá-é-mé-rì",
+            "translation": "I will too.",
+            "note": "Ellipsis of the verb phrase after agreement. Contrasts with English 'I will do it too' which requires the verb phrase."
+          },
+          {
+            "original": "Ọ dị mma.",
+            "phonetic": "ʌ̀ dì̀ m̀má",
+            "translation": "It’s good too.",
+            "note": "Ellipsis of the verb phrase after 'dị mma' (is good). Igbo uses tone to imply 'too' without additional words."
+          },
+          {
+            "original": "A na-akwụ ụtọ.",
+            "phonetic": "á nà-ákwù̀ ùtọ̀",
+            "translation": "They are happy too.",
+            "note": "Ellipsis of the verb phrase after 'na-akwụ ụtọ' (are happy). The verb phrase is implied by context."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ntụgharị nke nounụ",
+        "translation": "Noun ellipsis",
+        "examples": [
+          {
+            "original": "Nke a dị mma, nke ụlọ dị mma.",
+            "phonetic": "ǹkè à dì̀ m̀má, ǹkè ùlọ̀ dì̀ m̀má",
+            "translation": "This one is good, that one is good too.",
+            "note": "Ellipsis of the noun phrase 'nke ụlọ' (that one) after agreement. Igbo uses 'nke' to substitute nouns."
+          },
+          {
+            "original": "O mere nke a.",
+            "phonetic": "ó mè-rè ǹkè à",
+            "translation": "He did that too.",
+            "note": "Ellipsis of the verb phrase after 'mere' (did). The verb phrase is implied by context."
+          },
+          {
+            "original": "A na-achị anya nke ụlọ.",
+            "phonetic": "á nà-áchì̀ ànyà ǹkè ùlọ̀",
+            "translation": "They are looking at that one too.",
+            "note": "Ellipsis of the noun phrase 'nke ụlọ' (that one) after agreement. The noun phrase is implied by context."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ntụgharị nke particle",
+        "translation": "Particle ellipsis",
+        "examples": [
+          {
+            "original": "M ga-emeri ma ọ.",
+            "phonetic": "m̀ ɡá-é-mé-rì mà ọ̀",
+            "translation": "I will too, but he won’t.",
+            "note": "Ellipsis of the verb phrase after 'ma' (but). The verb phrase is implied by contrast."
+          },
+          {
+            "original": "Ọ dị mma, nke ukwuu.",
+            "phonetic": "ʌ̀ dì̀ m̀má, ǹkè ùkwù",
+            "translation": "It’s good, and so is yours.",
+            "note": "Ellipsis of the verb phrase after 'nke' (and so is). The verb phrase is implied by context."
+          },
+          {
+            "original": "A na-akwụ ụtọ, ma ọ bụ a na-achị anya.",
+            "phonetic": "á nà-ákwù̀ ùtọ̀, mà ọ̀ bù̀ á nà-áchì̀ ànyà",
+            "translation": "They are happy, and so is he.",
+            "note": "Ellipsis of the verb phrase after 'ma ọ bụ' (and so is). The verb phrase is implied by contrast."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "en": "Ellipsis and substitution (so do I, neither have we)"
+    }
+  },
+  {
+    "id": "en_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ntụle ndoro ndoro nke ọtụtụ asụsụ / Advanced discourse markers for cohesion",
+    "bridge": "In English, discourse markers like 'however,' 'moreover,' or 'on the other hand' are used to signal logical relationships between ideas. Igbo, however, relies heavily on particles and adverbial phrases (like 'ma,' 'nke a,' 'n'ụzọ ndoro') that often require tonal shifts or specific word order to convey nuance. Unlike English, Igbo discourse markers can change meaning based on tone and position in the sentence, which can confuse learners accustomed to fixed-position markers. Additionally, Igbo often omits explicit markers where English would require them, leading to ambiguity if not handled carefully.",
+    "rule": "Advanced discourse markers in Igbo serve to connect ideas, signal transitions, or emphasize contrasts. They typically appear at the beginning or middle of a sentence and often require tonal adjustments for clarity. Key markers include:\n\n1. **Ma** (but/however): Used to introduce contrast. Often follows the subject or verb phrase. Tone is crucial; low-high (mà) signals contrast, while high-low (má) can imply emphasis or surprise.\n   - Example: Ọ dị mma, ma ị na-achị anya. (It's good, but be careful.)\n\n2. **Nke a** (therefore/so): Indicates a logical consequence. Often placed at the beginning of a clause.\n   - Example: Nke a, ị ga-eme ka ọ dị mma. (Therefore, you must ensure it's good.)\n\n3. **N'ụzọ ndoro** (in addition/furthermore): Adds information. Usually appears at the beginning of a sentence.\n   - Example: N'ụzọ ndoro, ọ bụrụ na ị na-eme ihe ọma, ị ga-eme ka ọ dị mma. (Furthermore, if you do it well, you must ensure it's good.)\n\n4. **Ụfọdụ** (some): Used to generalize or introduce examples. Often placed before a noun phrase.\n   - Example: Ụfọdụ mmadụ, ị na-eme ka ọ dị mma. (Some people, you must ensure it's good.)\n\n5. **N'ihi na** (because): Introduces a reason. Typically placed at the beginning of a clause.\n   - Example: N'ihi na ọ dị mma, ị ga-eme ka ọ dị mma. (Because it's good, you must ensure it's good.)\n\nExceptions:\n- Some markers (like 'ma') can be used in questions to express surprise or disbelief.\n- Tone and context often determine the exact meaning of a marker, especially in spoken Igbo.\n- In formal writing, markers may be omitted or replaced with more explicit phrases.",
+    "concept_examples": [
+      {
+        "text": "Ọ dị mma, ma ị na-achị anya.",
+        "translation": "It's good, but be careful.",
+        "phonetic": "o̙ di̙ mma̙, mà i̙ na-a-chị̀ a-nyà."
+      },
+      {
+        "text": "Nke a, ị ga-eme ka ọ dị mma.",
+        "translation": "Therefore, you must ensure it's good.",
+        "phonetic": "nke a, i̙ ga-e-me ka o̙ di̙ mma̙."
+      },
+      {
+        "text": "N'ụzọ ndoro, ọ bụrụ na ị na-eme ihe ọma, ị ga-eme ka ọ dị mma.",
+        "translation": "Furthermore, if you do it well, you must ensure it's good.",
+        "phonetic": "n̩-ụzọ ndoro, o̙ bu̙-ru na i̙ na-e-me i-he o̙-ma, i̙ ga-e-me ka o̙ di̙ mma̙."
+      },
+      {
+        "text": "N'ihi na ọ dị mma, ị ga-eme ka ọ dị mma.",
+        "translation": "Because it's good, you must ensure it's good.",
+        "phonetic": "n̩-ihi na o̙ di̙ mma̙, i̙ ga-e-me ka o̙ di̙ mma̙."
+      }
+    ],
+    "common_error": {
+      "wrong": "Ọ dị mma. However, be careful.",
+      "correct": "Ọ dị mma, ma ị na-achị anya.",
+      "correct_alt": "Ọ dị mma, n'ihi na ị na-achị anya.",
+      "explanation": "English speakers often translate 'however' directly as 'ma,' but 'ma' in Igbo requires tonal adjustment (low-high) and typically follows the subject or verb phrase. Placing 'however' at the end of the sentence as in English is unnatural in Igbo. Additionally, 'n'ihi na' (because) can sometimes be used to imply contrast, but it's less direct than 'ma'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ntụle ndoro ndoro nke ọtụtụ asụsụ n'ụzọ ndoro",
+        "translation": "Basic discourse markers for addition and transition",
+        "examples": [
+          {
+            "original": "N'ụzọ ndoro, ị ga-eme ka ọ dị mma.",
+            "phonetic": "n̩-ụzọ ndoro, i̙ ga-e-me ka o̙ di̙ mma̙.",
+            "translation": "Furthermore, you must ensure it's good.",
+            "note": "Introduces additional information. Often used at the beginning of a sentence."
+          },
+          {
+            "original": "Ụfọdụ mmadụ, ị na-eme ka ọ dị mma.",
+            "phonetic": "u̙-fo̙-du mmadụ, i̙ na-e-me ka o̙ di̙ mma̙.",
+            "translation": "Some people, you must ensure it's good.",
+            "note": "Generalizes or introduces examples. 'Ụfọdụ' means 'some' and is often used before nouns."
+          },
+          {
+            "original": "Nke a, ị ga-eme ka ọ dị mma.",
+            "phonetic": "nke a, i̙ ga-e-me ka o̙ di̙ mma̙.",
+            "translation": "Therefore, you must ensure it's good.",
+            "note": "Signals a logical consequence. Often used at the beginning of a clause."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ntụle ndoro ndoro nke ọtụtụ asụsụ n'ihi na ma",
+        "translation": "Discourse markers for cause, contrast, and emphasis",
+        "examples": [
+          {
+            "original": "N'ihi na ọ dị mma, ị ga-eme ka ọ dị mma.",
+            "phonetic": "n̩-ihi na o̙ di̙ mma̙, i̙ ga-e-me ka o̙ di̙ mma̙.",
+            "translation": "Because it's good, you must ensure it's good.",
+            "note": "Introduces a reason. 'N'ihi na' is the most common marker for cause."
+          },
+          {
+            "original": "Ọ dị mma, ma ị na-achị anya.",
+            "phonetic": "o̙ di̙ mma̙, mà i̙ na-a-chị̀ a-nyà.",
+            "translation": "It's good, but be careful.",
+            "note": "Introduces contrast. Tone is crucial; 'mà' (low-high) signals contrast."
+          },
+          {
+            "original": "Ọ dị mma, ma ị na-achị anya?",
+            "phonetic": "o̙ di̙ mma̙, mà i̙ na-a-chị̀ a-nyà?",
+            "translation": "It's good, but are you sure?",
+            "note": "Used in questions to express surprise or disbelief. Tone remains low-high."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ntụle ndoro ndoro nke ọtụtụ asụsụ n'ụzọ ndoro nke a n'ihi na ma",
+        "translation": "Complex discourse markers for nuanced cohesion",
+        "examples": [
+          {
+            "original": "N'ụzọ ndoro, nke a, ị ga-eme ka ọ dị mma, ma ị na-achị anya.",
+            "phonetic": "n̩-ụzọ ndoro, nke a, i̙ ga-e-me ka o̙ di̙ mma̙, mà i̙ na-a-chị̀ a-nyà.",
+            "translation": "Furthermore, therefore, you must ensure it's good, but be careful.",
+            "note": "Combines multiple markers for complex sentences. Order matters; 'n'ụzọ ndoro' introduces addition, 'nke a' signals consequence."
+          },
+          {
+            "original": "Ọ bụrụ na ị na-eme ihe ọma, n'ihi na ọ dị mma, nke a, ị ga-eme ka ọ dị mma.",
+            "phonetic": "o̙ bu̙-ru na i̙ na-e-me i-he o̙-ma, n̩-ihi na o̙ di̙ mma̙, nke a, i̙ ga-e-me ka o̙ di̙ mma̙.",
+            "translation": "If you do it well, because it's good, therefore, you must ensure it's good.",
+            "note": "Uses conditional 'ọ bụrụ na' followed by cause and consequence markers. Demonstrates layered logical structure."
+          },
+          {
+            "original": "Ụfọdụ mmadụ, n'ihi na ha na-eme ihe ọma, nke a, ọ dị mma, ma ị na-achị anya.",
+            "phonetic": "u̙-fo̙-du mmadụ, n̩-ihi na ha na-e-me i-he o̙-ma, nke a, o̙ di̙ mma̙, mà i̙ na-a-chị̀ a-nyà.",
+            "translation": "Some people, because they do it well, therefore, it's good, but be careful.",
+            "note": "Combines generalization, cause, consequence, and contrast. Shows how markers can be layered for complex ideas."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced discourse markers for cohesion"
+    }
   }
 ]
