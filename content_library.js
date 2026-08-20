@@ -244,6 +244,91 @@ const CURATED_CONTENT = [
     audioSrc: null,
     dialogue: []
   },
+  // ── Portugués — Eduardo Mundstock (Ejercicio y Salud) ─────────
+  {
+    id: 'omtQ-XDDisw',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Atividade Física e Obesidade em Crianças e Adolescentes',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'omtQ-XDDisw',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'MsPoWr0UlCY',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Exercício e Alzheimer',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'MsPoWr0UlCY',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'btFJRYaZQ9Y',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Exercício e Endotélio',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'btFJRYaZQ9Y',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'pEgTaJTn0WI',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'A perigosa síndrome CKM e a importância de um estilo de vida ativo',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'pEgTaJTn0WI',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'Mg4r_Tr_KVc',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'O exercício melhora as funções executivas em crianças',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'Mg4r_Tr_KVc',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'BEh7sw_T-lg',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'Exercício na Pré diabetes',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'BEh7sw_T-lg',
+    audioSrc: null,
+    dialogue: []
+  },
+  {
+    id: 'xx80w2r8Igw',
+    country: '🇧🇷', countryName: 'Portugués',
+    language: 'pt', languageName: 'Portugués',
+    title: 'As cidades deveriam ser das pessoas, mas são dos carros',
+    subtitle: 'Eduardo Mundstock',
+    category: 'video',
+    thumbnail: '🎬',
+    youtubeId: 'xx80w2r8Igw',
+    audioSrc: null,
+    dialogue: []
+  },
 ];
 
 // Permite que server.cjs use el mismo archivo como fuente única de verdad
