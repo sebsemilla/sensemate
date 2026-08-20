@@ -1359,12 +1359,71 @@ function _initInglesHub(tab = 'curriculum') {
         fetch(base + files.conv).then(r => r.json()),
     ])
         .then(([gram, func, conv]) => {
+            const mods = _interleaveInglesA1(gram, func, conv);
+            _renderModuleAccordion(grid, mods);
             _renderA0Section(grid, 'en', sourceLang);
-            _renderInglesA1Snake(grid, _interleaveInglesA1(gram, func, conv));
+            _renderInglesA1Snake(grid, mods);
         })
         .catch(() => {
             grid.innerHTML = '<p style="text-align:center;color:var(--text-muted);font-size:0.85rem;padding:1rem 0">No se pudieron cargar los módulos.</p>';
         });
+}
+
+// ── Acordeón "Contenidos del Módulo" — se inserta antes de A0 y la serpentina ────────────
+function _renderModuleAccordion(grid, mods) {
+    document.getElementById('msnake-contents-accordion')?.remove();
+    if (!mods || !mods.length) return;
+
+    const CAT_COLORS = {
+        'gramática': '#6366f1', 'grammar': '#6366f1',
+        'funciones comunicativas': '#10b981', 'communicative functions': '#10b981',
+        'conversación': '#f97316', 'conversation': '#f97316',
+        'vocabulario': '#0ea5e9', 'vocabulary': '#0ea5e9',
+        'vocabulario contextual': '#0ea5e9', 'contextual vocabulary': '#0ea5e9',
+    };
+    function catColor(cat) {
+        return CAT_COLORS[(cat || '').toLowerCase()] || '#94a3b8';
+    }
+    function catShort(cat) {
+        const c = (cat || '').toLowerCase();
+        if (c.includes('gram')) return 'Gram.';
+        if (c.includes('func') || c.includes('comunicat')) return 'Func.';
+        if (c.includes('conv')) return 'Conv.';
+        if (c.includes('vocab') || c.includes('contex')) return 'Vocab.';
+        return cat || '';
+    }
+
+    const itemsHtml = mods.map((m, i) => {
+        const color = catColor(m.category);
+        const label = catShort(m.category);
+        return `<div class="msacc-item">
+            <span class="msacc-num">${i + 1}</span>
+            <span class="msacc-cat" style="background:${color}20;color:${color}">${label}</span>
+            <span class="msacc-title">${m.title || ''}</span>
+        </div>`;
+    }).join('');
+
+    const el = document.createElement('div');
+    el.id = 'msnake-contents-accordion';
+    el.className = 'msacc-wrap';
+    el.innerHTML = `
+        <button class="msacc-header" aria-expanded="false">
+            <span class="msacc-header-label">📋 Contenidos del Módulo</span>
+            <span class="msacc-chevron">▾</span>
+        </button>
+        <div class="msacc-body" hidden>
+            ${itemsHtml}
+        </div>`;
+
+    el.querySelector('.msacc-header').addEventListener('click', function () {
+        const body    = el.querySelector('.msacc-body');
+        const open    = !body.hidden;
+        body.hidden   = open;
+        this.setAttribute('aria-expanded', String(!open));
+        el.querySelector('.msacc-chevron').style.transform = open ? '' : 'rotate(180deg)';
+    });
+
+    grid.insertAdjacentElement('beforebegin', el);
 }
 
 // ── A0 block — se inserta antes de la serpentina A1 en cada hub ───────────────────────────
@@ -1472,8 +1531,9 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
         safeJson(base + `${src}_a1_funciones_comunicativas.json`),
         safeJson(base + `${src}_a1_conversacion.json`),
     ]).then(([gram, func, conv]) => {
-        _renderA0Section(grid, targetCode, src);
         const mods = _interleaveInglesA1(gram, func, conv);
+        _renderModuleAccordion(grid, mods);
+        _renderA0Section(grid, targetCode, src);
         if (!mods.length) {
             grid.innerHTML = `
                 <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
@@ -2224,6 +2284,7 @@ function _showB1Hub() {
         .then(r => r.json())
         .then(d => {
             const mods = Array.isArray(d) ? d : [d];
+            _renderModuleAccordion(grid, mods);
             _renderSimpleSnake(grid, mods, {
                 levelKey: 'b1', milestoneLabel: '★ Nivel B1',
                 onExamPass: () => _showCongratsModal('B1', () => _showB2Hub()),
@@ -2261,6 +2322,7 @@ function _showB2Hub() {
         .then(r => r.json())
         .then(d => {
             const mods = Array.isArray(d) ? d : [d];
+            _renderModuleAccordion(grid, mods);
             _renderSimpleSnake(grid, mods, {
                 levelKey: 'b2', milestoneLabel: '★ Nivel B2',
                 onExamPass: () => _showCongratsModal('B2', () => _showC1Hub()),
@@ -2298,6 +2360,7 @@ function _showC1Hub() {
         .then(r => r.json())
         .then(d => {
             const mods = Array.isArray(d) ? d : [d];
+            _renderModuleAccordion(grid, mods);
             _renderSimpleSnake(grid, mods, {
                 levelKey: 'c1', milestoneLabel: '★ Nivel C1',
                 onExamPass: () => _showCongratsModal('C1', showMainMenu),
