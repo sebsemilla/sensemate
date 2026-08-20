@@ -436,7 +436,7 @@ function _renderBrowser(container) {
                   </div>`}
                   <div class="imm-card-body">
                     <div class="imm-card-title">${_esc(item.title)}</div>
-                    <div class="imm-card-sub">${_esc(item.subtitle || '')}</div>
+                    <div class="imm-card-sub">${_esc(item.subtitle || item.category || '')}</div>
                     <div class="imm-card-foot">
                       <span class="imm-tag">${item.category}</span>
                       <span class="imm-tag imm-tag--level" data-level="${item.level || 'sn'}">${item.level || 'S/N'}</span>
