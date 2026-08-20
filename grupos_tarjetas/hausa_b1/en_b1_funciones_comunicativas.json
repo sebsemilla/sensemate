@@ -1,0 +1,411 @@
+[
+  {
+    "id": "en_B1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ƙarancen sabon fasaha / Describing changes over time",
+    "bridge": "In English, changes over time are often expressed using the present perfect tense (e.g., 'The city has grown') or past simple with time markers (e.g., 'The city grew rapidly in the 2000s'). Hausa, however, uses the particle 'da' with the perfective aspect to indicate completed changes, or 'yaushe' with the imperfective for ongoing changes. A common trap is overusing the English present perfect structure in Hausa, which can sound unnatural. For example, 'Yaro ya yi matuƙa' (The boy has grown) is correct, but 'Yaro ya yi matuƙa daga yaushe' (The boy has grown since then) is more natural than forcing a present perfect equivalent.",
+    "rule": "To describe changes over time in Hausa, use the following structures based on the type of change:\n\n1. **Completed changes (perfective aspect):**\n   - Structure: Subject + (ya/ta) + verb (perfective) + object + 'da' + time reference (optional).\n   - The particle 'da' often introduces the time frame or starting point of the change.\n   - Example: 'Yaro ya yi matuƙa da shekaru biyu' (The boy has grown in two years).\n\n2. **Ongoing changes (imperfective aspect):**\n   - Structure: Subject + (ya/ta) + 'yaushe' + verb (imperfective) + object.\n   - 'Yaushe' means 'since then' or 'now' and emphasizes the continuation of the change.\n   - Example: 'Yaro yaushe ya yi matuƙa' (The boy has been growing since then).\n\n3. **Changes with 'yawo' (become):**\n   - For adjectival changes, use 'yawo' + adjective.\n   - Example: 'Gari ya yawo mai girma' (The city has become big).\n\n4. **Negative forms:**\n   - Add 'ba' before the verb and 'ba' after the object for completed changes.\n   - Example: 'Yaro ba ya yi matuƙa ba' (The boy has not grown).\n   - For ongoing changes, use 'ba ya yaushe + verb' (e.g., 'Yaro ba ya yaushe yi matuƙa ba').\n\nKey exceptions:\n- Some verbs like 'yi' (do/make) or 'sauce' (increase) may drop the 'da' particle in casual speech.\n- Time references like 'yaushe' or 'daga yaushe' are interchangeable but 'yaushe' is more common for ongoing changes.",
+    "concept_examples": [
+      {
+        "text": "Gari ya yi mai girma da shekaru goma.",
+        "translation": "The city has become big in ten years.",
+        "phonetic": "ɡa.riː ja jiː maːi ɡír.maː daː ʃe.kaː.rù ɡó.maː"
+      },
+      {
+        "text": "Yaro yaushe ya yi mai girma.",
+        "translation": "The boy has been growing since then.",
+        "phonetic": "ja.roː jáu.ʃeː ja jiː maːi ɡír.maː"
+      },
+      {
+        "text": "Kayan da ake cin abinci ya sauce da shekaru biyu.",
+        "translation": "The price of food has increased in two years.",
+        "phonetic": "ka.jaːn daː a.keː t͡ʃíːn a.bín.t͡ʃiː ja saːu.t͡ʃeː daː ʃe.kaː.rù bíː.jù"
+      },
+      {
+        "text": "Gida ba ya yi mai girma ba daga shekaru biyar.",
+        "translation": "The house has not become big since five years ago.",
+        "phonetic": "ɡíː.daː ba ja jiː maːi ɡír.maː ba daː ʃe.kaː.rù bíː.jaːr"
+      }
+    ],
+    "common_error": {
+      "wrong": "Gari ya yi mai girma daga shekaru goma.",
+      "correct": "Gari ya yi mai girma da shekaru goma.",
+      "correct_alt": "Gari ya yawo mai girma daga shekaru goma.",
+      "explanation": "The error occurs because English speakers often translate 'in ten years' directly as 'daga shekaru goma' (from ten years), which implies a starting point rather than a duration. In Hausa, 'da' is used to indicate the time frame or duration of the change, not 'daga'. The alternative 'yawo' structure is also correct but emphasizes the result of the change rather than the process."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Yin fasaha da 'da' (Completed changes)",
+        "translation": "Making changes with 'da'",
+        "examples": [
+          {
+            "original": "Yaro ya yi matuƙa da shekaru biyu.",
+            "phonetic": "ja.roː ja jiː ma.tú.ƙa daː ʃe.kaː.rù bíː.jù",
+            "translation": "The boy has grown in two years.",
+            "note": "Introduces the basic structure for completed changes using 'da' to indicate time frame."
+          },
+          {
+            "original": "Kayan da ake cin abinci ya sauce da wata.",
+            "phonetic": "ka.jaːn daː a.keː t͡ʃíːn a.bín.t͡ʃiː ja saːu.t͡ʃeː daː waː.taː",
+            "translation": "The price of food has increased in a month.",
+            "note": "Demonstrates the use of 'da' with time references for changes in prices or quantities."
+          },
+          {
+            "original": "Gida ba ya yi mai girma ba da shekaru uku.",
+            "phonetic": "ɡíː.daː ba ja jiː maːi ɡír.maː ba daː ʃe.kaː.rù úː.kuː",
+            "translation": "The house has not become big in three years.",
+            "note": "Shows the negative form with 'ba' before and after the verb."
+          },
+          {
+            "original": "Kayan ruwa ya rage da shekaru daya.",
+            "phonetic": "ka.jaːn rúː.wa ja raː.ɡeː daː ʃe.kaː.rù daː.jaː",
+            "translation": "The water level has decreased in one year.",
+            "note": "Introduces verbs like 'rage' (decrease) that also use 'da' for time references."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Yin fasaha da 'yaushe' (Ongoing changes)",
+        "translation": "Making changes with 'yaushe'",
+        "examples": [
+          {
+            "original": "Yaro yaushe ya yi matuƙa.",
+            "phonetic": "ja.roː jáu.ʃeː ja jiː ma.tú.ƙa",
+            "translation": "The boy has been growing since then.",
+            "note": "Introduces the 'yaushe' structure for ongoing changes, emphasizing continuation."
+          },
+          {
+            "original": "Gari yaushe ya yi mai girma.",
+            "phonetic": "ɡa.riː jáu.ʃeː ja jiː maːi ɡír.maː",
+            "translation": "The city has been becoming big since then.",
+            "note": "Shows how 'yaushe' can be used with adjectival changes."
+          },
+          {
+            "original": "Bayanin yaushe ya sauce.",
+            "phonetic": "ba.jaː.nin jáu.ʃeː ja saːu.t͡ʃeː",
+            "translation": "The news has been increasing since then.",
+            "note": "Demonstrates the use of 'yaushe' with abstract nouns like 'bayanin' (news)."
+          },
+          {
+            "original": "Ba zan yaushe yi wata ba.",
+            "phonetic": "ba zan jáu.ʃeː jiː waː.taː ba",
+            "translation": "I have not been doing anything since then.",
+            "note": "Shows the negative form with 'ba zan yaushe' for ongoing changes."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Yin fasaha da 'yawo' (Adjectival changes)",
+        "translation": "Making changes with 'yawo'",
+        "examples": [
+          {
+            "original": "Gida ya yawo mai girma.",
+            "phonetic": "ɡíː.daː ja ja.wó maːi ɡír.maː",
+            "translation": "The house has become big.",
+            "note": "Introduces the 'yawo' structure for adjectival changes, focusing on the result."
+          },
+          {
+            "original": "Yaro ya yawo mai girma sosai.",
+            "phonetic": "ja.roː ja ja.wó maːi ɡír.maː so.saːi",
+            "translation": "The boy has become very big.",
+            "note": "Shows how adjectives like 'sosai' (very) can modify the result of the change."
+          },
+          {
+            "original": "Gari ba ya yawo mai girma ba.",
+            "phonetic": "ɡa.riː ba ja ja.wó maːi ɡír.maː ba",
+            "translation": "The city has not become big.",
+            "note": "Demonstrates the negative form with 'yawo'."
+          },
+          {
+            "original": "Kayan da ake cin abinci ya yawo mai sauke.",
+            "phonetic": "ka.jaːn daː a.keː t͡ʃíːn a.bín.t͡ʃiː ja ja.wó maːi saːu.keː",
+            "translation": "The price of food has become high.",
+            "note": "Shows how 'yawo' can be used with abstract changes like price increases."
+          }
+        ]
+      }
+    ],
+    "emoji": "📈",
+    "phonetic": "",
+    "translations": {
+      "en": "Describing changes over time"
+    }
+  },
+  {
+    "id": "en_B1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Yadda ake yin nishadi da kuma bayyana abin da ya yi / Speculating and making deductions",
+    "bridge": "In English, speakers often use modal verbs like 'must', 'might', or 'could' to speculate about present or past situations (e.g., 'She must be tired'). Hausa, however, relies heavily on the particle 'wai' (often shortened to 'wa') combined with the perfective verb form to express deductions, especially about past events. Unlike English, Hausa does not use modal verbs for this purpose in the same way, which can confuse learners. Additionally, Hausa often uses the verb 'ya/yi' (to do/make) in constructions like 'ya wai...' to soften deductions, a structure absent in English.",
+    "rule": "To speculate or make deductions in Hausa, use the following structures based on tense and certainty:\n\n1. **Present/Future Deductions**: Combine 'wai' (or 'wa') with the imperfective verb form (e.g., 'ya/yi + verb'). This is used for present or future deductions.\n   - Structure: [Subject] + wai + [imperfective verb].\n   - Example: 'Yaro ya wai yana cin abinci' (The boy must be eating).\n\n2. **Past Deductions**: Combine 'wai' with the perfective verb form (e.g., 'ya/yi + verb + -a/-e'). This is used for past deductions.\n   - Structure: [Subject] + wai + [perfective verb].\n   - Example: 'Yaro ya wai ya ci abinci' (The boy must have eaten).\n\n3. **Softening Deductions**: Use 'ya wai' (lit. 'he does') before the verb to make the deduction less certain.\n   - Structure: [Subject] + ya wai + [verb].\n   - Example: 'Yaro ya wai ya ci abinci' (The boy might have eaten).\n\n4. **Negative Deductions**: Use 'ba wai' (not + wai) with the perfective verb for negative deductions.\n   - Structure: [Subject] + ba wai + [perfective verb].\n   - Example: 'Yaro ba wai ya ci abinci ba' (The boy cannot have eaten).\n\nNote: The particle 'wai' is often contracted to 'wa' in speech, especially after vowels (e.g., 'ya wa' becomes 'yawa').",
+    "concept_examples": [
+      {
+        "text": "Yaro ya wai yana cin abinci.",
+        "translation": "The boy must be eating.",
+        "phonetic": "jáː.ɾo ja wái jàː.na t͡ʃín à.bín.t͡ʃḭ"
+      },
+      {
+        "text": "Mata ta wai ta zo da yaro.",
+        "translation": "The woman must have brought the child.",
+        "phonetic": "máː.ta ta wái ta zó da jáː.ɾo"
+      },
+      {
+        "text": "Ba wai muka ci kifi ba, saboda ba muka yi kuskure.",
+        "translation": "We cannot have eaten fish, because we didn’t make a mistake.",
+        "phonetic": "ba wái múː.ka t͡ʃí kí.fí ba, sà.bo.da ba múː.ka jí kús.kú.ɾe"
+      },
+      {
+        "text": "Yaro ya wai ya ci abinci, amma ba zan tabbata ba.",
+        "translation": "The boy might have eaten, but I’m not sure.",
+        "phonetic": "jáː.ɾo ja wái ja t͡ʃí à.bín.t͡ʃḭ, ám.ma ba zán tàb.bà.tà ba"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yaro ya iya cin abinci (using 'iya' instead of 'wai').",
+      "correct": "Yaro ya wai yana cin abinci.",
+      "correct_alt": "Yaro ya wa yana cin abinci.",
+      "explanation": "English speakers often mistakenly use 'iya' (can/able to) or modal verbs like 'must' directly in Hausa, which is incorrect. Hausa requires the particle 'wai' (or 'wa') to express deductions. 'Iya' is used for ability, not speculation. The correct structure uses 'wai' with the imperfective verb for present deductions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Yin nishadi da yawa",
+        "translation": "Making strong deductions",
+        "examples": [
+          {
+            "original": "Yaro ya wai yana cin abinci.",
+            "phonetic": "jáː.ɾo ja wái jàː.na t͡ʃín à.bín.t͡ʃḭ",
+            "translation": "The boy must be eating.",
+            "note": "Introduces the basic structure 'wai + imperfective verb' for present deductions. Emphasize the contraction 'ya wai' to 'yawa' in speech."
+          },
+          {
+            "original": "Mata ta wai ta zo da yaro.",
+            "phonetic": "máː.ta ta wái ta zó da jáː.ɾo",
+            "translation": "The woman must have brought the child.",
+            "note": "Focus on past deductions using 'wai + perfective verb'. Highlight the difference between present ('yana') and past ('ta zo')."
+          },
+          {
+            "original": "Kwai ya wai suka ci kifi.",
+            "phonetic": "kwái ja wái súː.ka t͡ʃí kí.fí",
+            "translation": "They must have eaten fish.",
+            "note": "Practice with plural subjects and the contraction 'ya wai' to 'yawa'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Yin nishadi mai yawa",
+        "translation": "Making less certain deductions",
+        "examples": [
+          {
+            "original": "Yaro ya wai ya ci abinci.",
+            "phonetic": "jáː.ɾo ja wái ja t͡ʃí à.bín.t͡ʃḭ",
+            "translation": "The boy might have eaten.",
+            "note": "Introduces 'ya wai' before the verb to soften the deduction. Contrast with Level 1's stronger deductions."
+          },
+          {
+            "original": "Mata ta wai ta zo da yaro, amma ba zan tabbata ba.",
+            "phonetic": "máː.ta ta wái ta zó da jáː.ɾo, ám.ma ba zán tàb.bà.tà ba",
+            "translation": "The woman might have brought the child, but I’m not sure.",
+            "note": "Practice adding uncertainty with 'amma ba zan tabbata ba' (but I’m not sure)."
+          },
+          {
+            "original": "Kwai ya wai suka ci kifi, saboda ba muka yi kuskure.",
+            "phonetic": "kwái ja wái súː.ka t͡ʃí kí.fí, sà.bo.da ba múː.ka jí kús.kú.ɾe",
+            "translation": "They might have eaten fish, because we didn’t make a mistake.",
+            "note": "Combine deductions with reasons using 'saboda' (because). Focus on the structure 'ba muka yi kuskure' (we didn’t make a mistake)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Yin nishadi da rashin tabbata",
+        "translation": "Making negative deductions",
+        "examples": [
+          {
+            "original": "Ba wai muka ci kifi ba.",
+            "phonetic": "ba wái múː.ka t͡ʃí kí.fí ba",
+            "translation": "We cannot have eaten fish.",
+            "note": "Introduces negative deductions using 'ba wai + perfective verb + ba'. Emphasize the double negation."
+          },
+          {
+            "original": "Ba wai yaro ya ci abinci ba, saboda ya yi yunwa.",
+            "phonetic": "ba wái jáː.ɾo ja t͡ʃí à.bín.t͡ʃḭ ba, sà.bo.da ja jí jún.wa",
+            "translation": "The boy cannot have eaten, because he is hungry.",
+            "note": "Practice negative deductions with reasons. Highlight the use of 'saboda' to connect the deduction to a logical reason."
+          },
+          {
+            "original": "Ba wai mata ta zo da yaro ba, saboda ba ta zo da kudi.",
+            "phonetic": "ba wái máː.ta ta zó da jáː.ɾo ba, sà.bo.da ba ta zó da kú.di",
+            "translation": "The woman cannot have brought the child, because she didn’t bring money.",
+            "note": "Combine negative deductions with logical reasons. Focus on the structure 'ba ta zo da kudi' (she didn’t bring money)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Yin nishadi da sabuwar halin",
+        "translation": "Making deductions about new situations",
+        "examples": [
+          {
+            "original": "Yaro ya wai yana cin abinci saboda ya yi yunwa.",
+            "phonetic": "jáː.ɾo ja wái jàː.na t͡ʃín à.bín.t͡ʃḭ sà.bo.da ja jí jún.wa",
+            "translation": "The boy must be eating because he is hungry.",
+            "note": "Practice combining deductions with reasons using 'saboda'. Focus on the structure 'ya yi yunwa' (he is hungry)."
+          },
+          {
+            "original": "Mata ta wai ta zo da yaro saboda ta yi nisha.",
+            "phonetic": "máː.ta ta wái ta zó da jáː.ɓo sà.bo.da ta jí ní.ʃa",
+            "translation": "The woman must have brought the child because she is tired.",
+            "note": "Introduce new adjectives like 'nisha' (tired) to describe the reason for the deduction."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Speculating and making deductions"
+    }
+  },
+  {
+    "id": "en_B1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Bayanin damuwa da yanci masu yawa / Expressing regret and hypothetical situations",
+    "bridge": "In English, regret is often expressed with 'I wish' or 'If only' for hypotheticals, while Hausa uses the particle 'da' with the past tense to imply regret or unfulfilled wishes. English speakers might incorrectly transfer the structure 'I wish I had...' directly into Hausa, leading to unnatural phrasing. Hausa also uses the conditional 'in' for hypotheticals, which differs from English 'if' in usage and placement.",
+    "rule": "1. **Expressing regret with 'da'**: Combine the past tense verb with 'da' to indicate unfulfilled wishes or regret. The structure is: [Subject] + [Past Tense Verb] + 'da' + [Object/Complement]. Example: 'Na yi da zan ci abinci' (I ate, but I wish I had eaten the food).\n2. **Hypothetical situations with 'in'**: Use 'in' (if) followed by a verb in the past tense to create hypotheticals. The structure is: 'In' + [Past Tense Verb] + [Subject] + [Result]. Example: 'In na ci, zan ci abinci' (If I had eaten, I would have eaten the food).\n3. **Negative hypotheticals**: Add 'ba' before the verb in the 'in' clause for negation. Example: 'In ba zan ci, zan ci abinci ba' (If I hadn’t eaten, I wouldn’t have eaten the food).\n4. **Alternative structures**: Use 'da yaushe' (if only) for stronger regret. Example: 'Da yaushe zan ci abinci' (If only I had eaten the food).",
+    "concept_examples": [
+      {
+        "text": "Na tafi da zan ci abinci",
+        "translation": "I went, but I wish I had eaten the food.",
+        "phonetic": "nàː tàːfí dà zàːn tʃíː àbíːntʃíː"
+      },
+      {
+        "text": "In na ci, zan ci abinci",
+        "translation": "If I had eaten, I would have eaten the food.",
+        "phonetic": "ín nàː tʃíː zàːn tʃíː àbíːntʃíː"
+      },
+      {
+        "text": "In ba zan ci, zan ci abinci ba",
+        "translation": "If I hadn’t eaten, I wouldn’t have eaten the food.",
+        "phonetic": "ín bàː zàːn tʃíː zàːn tʃíː àbíːntʃíː bàː"
+      },
+      {
+        "text": "Da yaushe zan ci abinci",
+        "translation": "If only I had eaten the food.",
+        "phonetic": "dàː jáúsʃè zàːn tʃíː àbíːntʃíː"
+      }
+    ],
+    "common_error": {
+      "wrong": "Na yi da zan ci abinci (incorrect word order)",
+      "correct": "Na ci da zan ci abinci",
+      "correct_alt": "",
+      "explanation": "English speakers often place the verb 'zan ci' (I would eat) before the main verb 'na ci' (I ate), mimicking 'I wish I had eaten.' In Hausa, the main verb must come first, followed by 'da' and the hypothetical verb. The correct structure mirrors the past tense + 'da' + hypothetical past."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Bayanin damuwa da 'da'",
+        "translation": "Expressing regret with 'da'",
+        "examples": [
+          {
+            "original": "Na tafi da zan ci abinci",
+            "phonetic": "nàː tàːfí dà zàːn tʃíː àbíːntʃíː",
+            "translation": "I went, but I wish I had eaten the food.",
+            "note": "Introduces the basic structure of regret with 'da' and past tense."
+          },
+          {
+            "original": "Na yi da zan ci shinkafa",
+            "phonetic": "nàː jíː dà zàːn tʃíː ʃíŋkáːfàː",
+            "translation": "I cooked, but I wish I had cooked rice.",
+            "note": "Focuses on common verbs like 'yi' (do) and 'ci' (eat)."
+          },
+          {
+            "original": "Na zo da zan ci shanu",
+            "phonetic": "nàː zóː dà zàːn tʃíː ʃáːnúː",
+            "translation": "I came, but I wish I had eaten meat.",
+            "note": "Uses 'zo' (come) to show movement-related regret."
+          },
+          {
+            "original": "Na gama da zan ci wata aiki",
+            "phonetic": "nàː gàːmà dà zàːn tʃíː wátàː àːkíː",
+            "translation": "I finished, but I wish I had done the work.",
+            "note": "Introduces 'gama' (finish) for completed actions."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Yanci masu yawa da 'in'",
+        "translation": "Hypothetical situations with 'in'",
+        "examples": [
+          {
+            "original": "In na ci, zan ci abinci",
+            "phonetic": "ín nàː tʃíː zàːn tʃíː àbíːntʃíː",
+            "translation": "If I had eaten, I would have eaten the food.",
+            "note": "Introduces the conditional 'in' for hypotheticals."
+          },
+          {
+            "original": "In na tafi, zan zo gida",
+            "phonetic": "ín nàː tàːfí zàːn zóː gídàː",
+            "translation": "If I had gone, I would have come home.",
+            "note": "Uses 'tafi' (go) and 'zo' (come) for movement."
+          },
+          {
+            "original": "In na yi wata aiki, zan gama da ita",
+            "phonetic": "ín nàː jíː wátàː àːkíː zàːn gàːmà dà íːtàː",
+            "translation": "If I had done the work, I would have finished it.",
+            "note": "Combines 'yi' (do) and 'gama' (finish) for action-based hypotheticals."
+          },
+          {
+            "original": "In na ci shinkafa, zan ci da yaushe",
+            "phonetic": "ín nàː tʃíː ʃíŋkáːfàː zàːn tʃíː dà jàúsʃè",
+            "translation": "If I had eaten rice, I would have eaten it already.",
+            "note": "Introduces 'da yaushe' for emphasis on completion."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Yanci masu yawa da 'in' da 'ba'",
+        "translation": "Negative hypotheticals with 'in' and 'ba'",
+        "examples": [
+          {
+            "original": "In ba zan ci, zan ci abinci ba",
+            "phonetic": "ín bàː zàːn tʃíː zàːn tʃíː àbíːntʃíː bàː",
+            "translation": "If I hadn’t eaten, I wouldn’t have eaten the food.",
+            "note": "Introduces negation in hypotheticals with 'ba'."
+          },
+          {
+            "original": "In ba zan tafi, ba zan zo gida ba",
+            "phonetic": "ín bàː zàːn tàːfí bàː zàːn zóː gídàː bàː",
+            "translation": "If I hadn’t gone, I wouldn’t have come home.",
+            "note": "Uses 'ba' to negate both clauses in the hypothetical."
+          },
+          {
+            "original": "In ba zan yi wata aiki, ba zan gama da ita ba",
+            "phonetic": "ín bàː zàːn jíː wátàː àːkíː bàː zàːn gàːmà dà íːtàː bàː",
+            "translation": "If I hadn’t done the work, I wouldn’t have finished it.",
+            "note": "Combines negation with action verbs."
+          },
+          {
+            "original": "In ba zan ci shinkafa, ba zan ci da yaushe ba",
+            "phonetic": "ín bàː zàːn tʃíː ʃíŋkáːfàː bàː zàːn tʃíː dà jàúsʃè bàː",
+            "translation": "If I hadn’t eaten rice, I wouldn’t have eaten it already.",
+            "note": "Uses 'da yaushe' for emphasis in negative hypotheticals."
+          }
+        ]
+      }
+    ],
+    "emoji": "😔",
+    "phonetic": "",
+    "translations": {
+      "en": "Expressing regret and hypothetical situations"
+    }
+  }
+]

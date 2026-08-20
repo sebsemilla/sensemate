@@ -1,0 +1,126 @@
+[
+  {
+    "id": "en_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ìtọ́jú àwọn àkọ́kọ́ ọ̀rọ̀ ní ẹ̀kọ́ ìtọ́jú ìtẹ̀lẹ̀ / Advanced sentence embedding and subordination",
+    "bridge": "In English, complex sentences often rely on relative clauses (e.g., 'The book that I bought is on the table') or conjunctions (e.g., 'Although it rained, we went out'). Yoruba, however, frequently uses serial verb constructions, nominalization, or adverbial clauses with specific particles like 'tí' or 'gbà' to embed ideas. English speakers may struggle with Yoruba’s tendency to stack verbs or omit explicit conjunctions, leading to unnatural phrasing. For example, Yoruba might say 'Mo fẹ́ kí o wá' ('I want that you come') where English would use 'I want you to come.' The trap lies in over-relying on English-style subordination, which can sound unidiomatic in Yoruba.",
+    "rule": "Yoruba employs several advanced syntactic structures for embedding and subordination, distinct from English:\n\n1. **Serial Verb Constructions (SVCs)**: Multiple verbs are strung together without conjunctions to express sequential or purposeful actions. The second verb often functions as an infinitive or gerund in English. Example: 'Mo lọ sí ilé' ('I went to the house') vs. 'Mo lọ sí ilé kí n mọ́' ('I went to the house to rest').\n\n2. **Nominalization with 'kí' + Subject + Verb**: To embed a clause as a noun phrase, Yoruba uses 'kí' followed by a subject and verb, often translated as 'that' or 'to' in English. Example: 'Mo fẹ́ kí o wá' ('I want that you come') vs. English 'I want you to come.'\n\n3. **Adverbial Clauses with 'tí' or 'gbà'**: 'Tí' introduces conditional or temporal clauses ('tí o ba dé, máa sọ̀rọ̀' = 'if you arrive, speak'), while 'gbà' introduces concessive clauses ('gbà mo fé, mo kú' = 'although I wanted, I died'). These particles replace English conjunctions like 'if' or 'although.'\n\n4. **Relative Clauses with 'tí'**: Unlike English, Yoruba relative clauses often omit the relative pronoun and use 'tí' directly. Example: 'Òkúta tí mo rí' ('the stone that I saw') vs. English 'the stone that I saw.'\n\nExceptions: Some structures may overlap with simpler sentence types, and context determines interpretation. Nominalized clauses with 'kí' can sometimes be ambiguous without intonation.",
+    "concept_examples": [
+      {
+        "text": "Mo fẹ́ kí o wá lọ́wọ́ mi lọ́wọ́ àwọn ọkùnrin tí a n pè ní 'Bùkọ́lá'.",
+        "translation": "I want you to come help me with the men who are called 'Bùkọ́lá'.",
+        "phonetic": "mō fɛ́ kí ó wá lɔ́wɔ́ mí lɔ́wɔ́ àwɔ̀n ɔ̀kùnrin tí à n pè ní 'Bùkọ́lá'."
+      },
+      {
+        "text": "Tí o ba dé ilé mi, máa sọ̀rọ̀ fún mi ní ọ̀rọ̀ tuntun.",
+        "translation": "If you arrive at my house, speak to me about new things.",
+        "phonetic": "tí ó bá dé ilé mí, máa sɔ̀rɔ̀ fú mí ní ɔ̀rɔ̀ tuntun."
+      },
+      {
+        "text": "Mo lọ sí ilé ẹ̀kọ́ kí n mọ́ ẹ̀kọ́ tí a n fún mi ní ọ̀nà tuntun.",
+        "translation": "I went to school to learn the lessons that they are teaching me in a new way.",
+        "phonetic": "mō lɔ́ sí ilé ɛ̀kɔ́ kí n mɔ́ ɛ̀kɔ́ tí à n fú mí ní ɔ̀nà tuntun."
+      },
+      {
+        "text": "Gbà mo fé ọ̀rọ̀ tuntun, mo kú sí i ní ọ̀nà tuntun.",
+        "translation": "Although I wanted new things, I ended up on a new path.",
+        "phonetic": "gbà mō fé ɔ̀rɔ̀ tuntun, mō kú sí í ní ɔ̀nà tuntun."
+      }
+    ],
+    "common_error": {
+      "wrong": "Mo fẹ́ ọ̀rọ̀ tuntun, ṣùgbọ́n mo kú sí i ní ọ̀nà tuntun.",
+      "correct": "Gbà mo fé ọ̀rọ̀ tuntun, mo kú sí i ní ọ̀nà tuntun.",
+      "correct_alt": "",
+      "explanation": "English speakers often use 'but' (ṣùgbọ́n) to introduce a concessive clause, but Yoruba prefers 'gbà' for this purpose. 'Gbà' explicitly marks the contrast, while 'ṣùgbọ́n' is more general and can sound unnatural in concessive contexts. The correct structure requires 'gbà' + clause to convey 'although'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ìtọ́jú àkọ́kọ́ ọ̀rọ̀ ní ẹ̀kọ́ ìtẹ̀lẹ̀ pẹ̀lú 'kí'",
+        "translation": "Embedding clauses with 'kí' for nominalization",
+        "examples": [
+          {
+            "original": "Mo fẹ́ kí o wá.",
+            "phonetic": "mō fɛ́ kí ó wá.",
+            "translation": "I want you to come.",
+            "note": "Introduces the basic 'kí' + subject + verb structure for embedded clauses. Compare to English 'I want you to come'."
+          },
+          {
+            "original": "Mo rọ́ kí ọkùnrin náà lọ sí ilé ẹ̀kọ́.",
+            "phonetic": "mō rɔ́ kí ɔ̀kùnrin náà lɔ́ sí ilé ɛ̀kọ́.",
+            "translation": "I asked the man to go to school.",
+            "note": "Shows 'kí' used after verbs of asking/commanding (rọ́ = ask). Highlights the infinitive-like function of the embedded clause."
+          },
+          {
+            "original": "Mo fẹ́ kí àwọn ọkùnrin wá lọ́wọ́ mi.",
+            "phonetic": "mō fɛ́ kí àwɔ̀n ɔ̀kùnrin wá lɔ́wɔ́ mí.",
+            "translation": "I want the men to come help me.",
+            "note": "Demonstrates plural subjects in the embedded clause. Note the lack of 'to' in Yoruba."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Àkọ́kọ́ ọ̀rọ̀ ní ẹ̀kọ́ pẹ̀lú 'tí' fún àwọn àkọ́kọ́ ọ̀rọ̀",
+        "translation": "Embedding clauses with 'tí' for relative and conditional clauses",
+        "examples": [
+          {
+            "original": "Òkúta tí mo rí ní ọ̀nà tuntun.",
+            "phonetic": "ɔ̀kúta tí mō rí ní ɔ̀nà tuntun.",
+            "translation": "The stone that I saw is on a new path.",
+            "note": "Introduces 'tí' as a relative pronoun. Unlike English, Yoruba omits the relative pronoun 'that' in some contexts."
+          },
+          {
+            "original": "Tí o ba dé ilé mi, máa sọ̀rọ̀ fún mi.",
+            "phonetic": "tí ó bá dé ilé mí, máa sɔ̀rɔ̀ fú mí.",
+            "translation": "If you arrive at my house, speak to me.",
+            "note": "Shows 'tí' introducing a conditional clause. Compare to English 'if' clauses."
+          },
+          {
+            "original": "Mo rí àwọn ọkùnrin tí a n pè ní 'Túndé'.",
+            "phonetic": "mō rí àwɔ̀n ɔ̀kùnrin tí à n pè ní 'Túndé'.",
+            "translation": "I saw the men who are called 'Túndé'.",
+            "note": "Demonstrates 'tí' in a relative clause with a passive-like construction (a n pè = are called)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Àwọn àkọ́kọ́ ọ̀rọ̀ ní ẹ̀kọ́ pẹ̀lú àwọn àkọ́kọ́ ọ̀rọ̀ tuntun (gbà, bí, àti àwọn ọ̀rọ̀ àkọ́kọ́ ọ̀rọ̀ àti àwọn àkọ́kọ́ ọ̀rọ̀ àti àwọn àkọ́kọ́ ọ̀rọ̀)",
+        "translation": "Advanced embedding with concessive, temporal, and causal clauses",
+        "examples": [
+          {
+            "original": "Gbà mo fé ọ̀rọ̀ tuntun, mo kú sí i ní ọ̀nà tuntun.",
+            "phonetic": "gbà mō fé ɔ̀rɔ̀ tuntun, mō kú sí í ní ɔ̀nà tuntun.",
+            "translation": "Although I wanted new things, I ended up on a new path.",
+            "note": "Introduces 'gbà' for concessive clauses. Contrast with English 'although' or 'even though'."
+          },
+          {
+            "original": "Bí mo bá dé ilé ẹ̀kọ́, mo máa sọ̀rọ̀ fún ọ̀rẹ́ mi.",
+            "phonetic": "bí mō bá dé ilé ɛ̀kọ́, mō máa sɔ̀rɔ̀ fú ɔ̀rɛ́ mí.",
+            "translation": "When I arrive at school, I will speak to my friend.",
+            "note": "Shows 'bí' introducing a temporal clause. Compare to English 'when' or 'as soon as'."
+          },
+          {
+            "original": "Nígbà tí mo rí ẹ̀kọ́ tuntun, mo fẹ́ kí o wá lọ́wọ́ mi.",
+            "phonetic": "nígbà tí mō rí ɛ̀kọ́ tuntun, mō fɛ́ kí ó wá lɔ́wɔ́ mí.",
+            "translation": "When I saw the new lesson, I wanted you to come help me.",
+            "note": "Combines 'nígbà tí' (when) with a nominalized clause ('kí o wá'). Demonstrates layered embedding."
+          },
+          {
+            "original": "Mo sọ̀rọ̀ nípa ọkàn mi tó dára tó bá mo rí ẹ̀kọ́ tuntun.",
+            "phonetic": "mō sɔ̀rɔ̀ nípa ɔ̀kàn mí tó dára tó bá mō rí ɛ̀kọ́ tuntun.",
+            "translation": "I spoke about my feelings that improved when I saw the new lesson.",
+            "note": "Uses 'tó' (that) for causal or resultative clauses. Highlights the use of 'tó' in complex sentences."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced syntax and sentence structures"
+    }
+  }
+]

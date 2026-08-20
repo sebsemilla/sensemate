@@ -1,0 +1,368 @@
+[
+  {
+    "id": "en_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Nkà àzị̀za nke àkwàkwàdọ̀ / Advanced sentence embedding and subordination",
+    "bridge": "In English, complex sentences often rely on subordination through relative clauses (e.g., 'The man who arrived late...') or conjunctions (e.g., 'Although it rained, we went out'). Igbo, however, frequently embeds subordinate clauses *within* the main clause using a different structural logic, often with particles like *nà* or *ma* to mark dependency. English speakers may struggle to recognize where the subordinate clause begins or ends in Igbo, leading to ambiguity or unnatural phrasing. Additionally, Igbo often uses serial verb constructions where English would use a subordinate clause, requiring learners to shift from a 'hierarchical' to a 'flat' syntactic approach.",
+    "rule": "Advanced Igbo syntax for C1 learners involves mastering three key structures for embedding and subordination:\n\n1. **Relative Clauses with *nà*:** The particle *nà* introduces a relative clause modifying a noun, often equivalent to English 'who/which/that.' The clause typically follows the noun it modifies. The verb in the relative clause may take the suffix *-rị̀* or *-rị̀la* to indicate continuity or emphasis. Example: *Àmà nà àkwàkwàdọ̀* ('The book that is interesting').\n\n2. **Conditional and Concessive Clauses with *ma*:** The particle *ma* introduces clauses expressing conditions ('if') or concessions ('although/even though'). Unlike English, Igbo does not require inversion or auxiliary verbs in these clauses. The main clause follows directly. Example: *Ma ọ dị̀ mma, ị ga-achọ̀* ('Even if it is good, you will want').\n\n3. **Serial Verb Constructions for Subordination:** Igbo often strings verbs together to express what English would convey with a subordinate clause. The first verb sets the context, and the second verb provides the main action. Example: *Ọ bụrụ na ị na-egwú, ị ga-achọ̀* ('If you are walking, you will want'). Here, *bụrụ na* ('if') + *egwú* ('walk') replaces 'if you walk.'\n\nKey exceptions:\n- Omission of *nà* in some dialects or fast speech (e.g., *Àmà àkwàkwàdọ̀* instead of *Àmà nà àkwàkwàdọ̀*).\n- Use of *kà* for temporal clauses ('when'), often with the suffix *-la* on the verb (e.g., *Kà ọ bụrụla, ị ga-achọ̀*).\n- Negative subordination uses *nà* + negative particle *ghị̀* (e.g., *Àmà nà ọ ghị̀ mma* 'The book that is not good').",
+    "concept_examples": [
+      {
+        "text": "Àmà nà àkwàkwàdọ̀ m rị̀la nke ọma.",
+        "translation": "The book that I am reading is very good.",
+        "phonetic": "Àmà nà à-kwà-kwà-dọ̀ m rị̀-la nke ọ-ma."
+      },
+      {
+        "text": "Ma ọ dị̀ mma, ị ga-achọ̀ ọnwụ̀.",
+        "translation": "Even if it is good, you will want to eat.",
+        "phonetic": "Ma ọ dị̀ m-ma, ị ga-a-chọ̀ ọn-wụ̀."
+      },
+      {
+        "text": "Ọ bụrụ na ị na-egwú, ị ga-achọ̀ ọnwụ̀.",
+        "translation": "If you are walking, you will want to eat.",
+        "phonetic": "Ọ bụ-rụ na ị na-e-gwú, ị ga-a-chọ̀ ọn-wụ̀."
+      },
+      {
+        "text": "Kà ọ bụrụla, ị ga-achọ̀ ọnwụ̀.",
+        "translation": "When it is ready, you will want to eat.",
+        "phonetic": "Kà ọ bụ-rụ-la, ị ga-a-chọ̀ ọn-wụ̀."
+      }
+    ],
+    "common_error": {
+      "wrong": "Àmà m rị̀la nke ọma nà àkwàkwàdọ̀.",
+      "correct": "Àmà nà àkwàkwàdọ̀ m rị̀la nke ọma.",
+      "correct_alt": "Àmà àkwàkwàdọ̀ nà m rị̀la nke ọma.",
+      "explanation": "English speakers often place the relative clause *after* the verb, mimicking English syntax (e.g., 'The book I am reading that is very good'). In Igbo, the relative clause *nà àkwàkwàdọ̀* must directly follow the noun it modifies (*Àmà*), not the verb. The correct structure mirrors English noun-modifier order but requires the *nà* particle to mark the clause. The alternative correct version omits *nà* in some dialects, but the noun-modifier relationship must still be clear."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nkà nà àkwàkwàdọ̀",
+        "translation": "Relative clauses with *nà*",
+        "examples": [
+          {
+            "original": "Ụlọ nà ọ dị̀ n'ụlọ ọcha.",
+            "phonetic": "Ụ-lọ nà ọ dị̀ n'ụ-lọ ọ-cha.",
+            "translation": "The house that is in the village is white.",
+            "note": "Introduces the basic *nà* relative clause structure, modifying a noun with a descriptive clause."
+          },
+          {
+            "original": "Àkwà nà ọ bụrụla nke ọma.",
+            "phonetic": "À-kwà nà ọ bụ-rụ-la nke ọ-ma.",
+            "translation": "The word that has been said is good.",
+            "note": "Demonstrates the *-rụla* suffix for completed action in the relative clause."
+          },
+          {
+            "original": "Nwoke nà ọ na-egwú n'ụzọ.",
+            "phonetic": "Nwo-ke nà ọ na-e-gwú n'ụ-zọ.",
+            "translation": "The man who is walking on the road.",
+            "note": "Uses the continuous *-na-* marker in the relative clause to indicate ongoing action."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nkà ma na kà",
+        "translation": "Conditional and temporal clauses",
+        "examples": [
+          {
+            "original": "Ma ọ dị̀ mma, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Ma ọ dị̀ m-ma, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "Even if it is good, you will want to eat.",
+            "note": "Introduces *ma* for concessive clauses, contrasting with English's 'although' which often requires inversion."
+          },
+          {
+            "original": "Kà ọ bụrụla, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Kà ọ bụ-rụ-la, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "When it is ready, you will want to eat.",
+            "note": "Demonstrates *kà* for temporal clauses, with *-la* suffix indicating completion."
+          },
+          {
+            "original": "Ma ị ghị̀ achọ̀, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Ma ị ghị̀ a-chọ̀, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "Even if you don't want, you will eat.",
+            "note": "Combines *ma* with negative subordination (*ghị̀ achọ̀*), showing how negation works in embedded clauses."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Nkà nke àkwà ọzọ",
+        "translation": "Serial verb constructions for subordination",
+        "examples": [
+          {
+            "original": "Ọ bụrụ na ị na-egwú, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Ọ bụ-rụ na ị na-e-gwú, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "If you are walking, you will want to eat.",
+            "note": "Shows how Igbo uses serial verbs (*bụrụ na* + *egwú*) to replace a conditional clause, unlike English's 'if you walk.'"
+          },
+          {
+            "original": "Ọ bụrụ na ị ghị̀ achọ̀, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Ọ bụ-rụ na ị ghị̀ a-chọ̀, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "If you don't want, you will eat.",
+            "note": "Combines serial verb construction with negation in the subordinate clause."
+          },
+          {
+            "original": "Ọ dị̀ mma na ị na-egwú, ị ga-achọ̀ ọnwụ̀.",
+            "phonetic": "Ọ dị̀ m-ma na ị na-e-gwú, ị ga-a-chọ̀ ọn-wụ̀.",
+            "translation": "It is good if you are walking, you will want to eat.",
+            "note": "Demonstrates how Igbo can embed a 'good' condition directly into the main clause using serial verbs."
+          }
+        ]
+      }
+    ],
+    "emoji": "🧩",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced syntax and sentence structures"
+    }
+  },
+  {
+    "id": "en_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mmeghe na usoro / Register and style in Igbo",
+    "bridge": "In English, register shifts are often marked by vocabulary choice (e.g., 'get' vs. 'obtain') or syntactic structures (e.g., contractions vs. full forms). Igbo, however, relies heavily on tonal and morphological markers to signal formality. Unlike English, where formality is primarily lexical, Igbo uses a combination of affixes, particles, and syntactic positioning to distinguish between formal, informal, and neutral registers. A common trap for English speakers is overgeneralizing English-style contractions or assuming that direct translations of formal English structures will sound natural in Igbo.",
+    "rule": "Igbo register is determined by three key factors: (1) **Lexical choice** (e.g., 'biko' for formal requests vs. 'biko na' for informal), (2) **Morphological markers** (e.g., the use of '-la' or '-zu' suffixes in formal contexts), and (3) **Syntactic structures** (e.g., full noun phrases vs. pronominal subjects). Formal Igbo often employs: \n- **Full noun phrases** instead of pronouns (e.g., 'M' → 'A mụ' in formal contexts).\n- **Auxiliary verbs** like 'ga-' or 'na-' to mark tense/formality (e.g., 'A ga-emesi' vs. 'E mesịrị').\n- **Particle omission** in informal contexts (e.g., 'Biko, biko na' vs. 'Biko na').\n- **Loanwords from English or Latin** in formal settings (e.g., 'akwụkwọ' for 'book' in formal Igbo vs. 'akwụ' in informal).\n\nExceptions: Some formal structures (e.g., proverbs, religious texts) may use archaic forms that are not productive in everyday speech. Neutral register often blends formal and informal elements, depending on context.",
+    "concept_examples": [
+      {
+        "text": "Biko, biko na ị ga-eme ihe ndị a n'ụzọ dị mma.",
+        "translation": "Please, please do this thing in a good way.",
+        "phonetic": "/bì.kō bì.kō nà ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/"
+      },
+      {
+        "text": "A mụ ga-eme ihe ndị a n'ụzọ dị mma.",
+        "translation": "I will do this thing in a good way (formal).",
+        "phonetic": "/á mù ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/"
+      },
+      {
+        "text": "E mesịrị ị ga-eme ihe ndị a n'ụzọ dị mma.",
+        "translation": "It is necessary that you do this thing in a good way (neutral/formal).",
+        "phonetic": "/é mè.sì.rì ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/"
+      },
+      {
+        "text": "Biko na ị ga-eme ihe ndị a n'ụzọ dị mma.",
+        "translation": "Please do this thing in a good way (informal).",
+        "phonetic": "/bì.kō nà ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Biko, I go do this thing well.",
+      "correct": "Biko, biko na ị ga-eme ihe ndị a n'ụzọ dị mma.",
+      "correct_alt": "A mụ ga-eme ihe ndị a n'ụzọ dị mma.",
+      "explanation": "English speakers often translate formal structures directly, leading to unnatural Igbo. The English 'I go do' lacks the tonal and morphological markers Igbo requires for formality. The correct Igbo versions use particles ('biko na'), auxiliary verbs ('ga-'), or full noun phrases ('A mụ') to signal register. Avoid direct translations of English contractions or auxiliary verbs."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Nkwuwa dị mma",
+        "translation": "Good vocabulary choice",
+        "examples": [
+          {
+            "original": "Biko, biko na ị ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/bì.kō bì.kō nà ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "Please, please do this thing in a good way (informal).",
+            "note": "Informal register uses repeated particles ('biko na') and pronominal subjects ('ị')."
+          },
+          {
+            "original": "A mụ ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/á mù ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "I will do this thing in a good way (formal).",
+            "note": "Formal register uses full noun phrases ('A mụ') and auxiliary verbs ('ga-')."
+          },
+          {
+            "original": "E mesịrị ị ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/é mè.sì.rì ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "It is necessary that you do this thing in a good way (neutral/formal).",
+            "note": "Neutral/formal register uses auxiliary verbs ('mesịrị') and full noun phrases ('ị')."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ntughari nke usoro",
+        "translation": "Morphological markers of register",
+        "examples": [
+          {
+            "original": "A ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/á ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "It will be done this thing in a good way (formal).",
+            "note": "Formal register uses the '-ga-' auxiliary to mark future tense, often with full noun phrases."
+          },
+          {
+            "original": "I ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "You will do this thing in a good way (neutral).",
+            "note": "Neutral register uses pronominal subjects ('I') with auxiliary verbs ('ga-')."
+          },
+          {
+            "original": "Biko na ị ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/bì.kō nà ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "Please do this thing in a good way (informal).",
+            "note": "Informal register omits auxiliary verbs and uses particles ('biko na') with pronominal subjects ('ị')."
+          },
+          {
+            "original": "A mụ ga-eme ihe ndị a n'ụzọ dị mma.",
+            "phonetic": "/á mù ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà/",
+            "translation": "I will do this thing in a good way (formal).",
+            "note": "Formal register uses full noun phrases ('A mụ') and auxiliary verbs ('ga-')."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ntughari nke nkwuwa na usoro",
+        "translation": "Lexical and syntactic register blending",
+        "examples": [
+          {
+            "original": "Biko, biko na ị ga-eme ihe ndị a n'ụzọ dị mma, ma ọ bụrụ na ị nwere ike.",
+            "phonetic": "/bì.kō nà ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà mā‿ó bù.rù nà‿ì n.wé.ré‿ì.ké/",
+            "translation": "Please, please do this thing in a good way, if you are able (informal).",
+            "note": "Informal register blends particles ('biko na') with conditional clauses ('ma ọ bụrụ na')."
+          },
+          {
+            "original": "A mụ ga-eme ihe ndị a n'ụzọ dị mma, ma ọ bụrụ na m nwere ike.",
+            "phonetic": "/á mù ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà mā‿ó bù.rù nà m n.wé.ré‿ì.ké/",
+            "translation": "I will do this thing in a good way, if I am able (formal).",
+            "note": "Formal register uses full noun phrases ('A mụ') and conditional clauses with auxiliary verbs ('ga-')."
+          },
+          {
+            "original": "E mesịrị ị ga-eme ihe ndị a n'ụzọ dị mma, ma ọ bụrụ na ị nwere ike.",
+            "phonetic": "/é mè.sì.rì ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà mā‿ó bù.rù nà‿ì n.wé.ré‿ì.ké/",
+            "translation": "It is necessary that you do this thing in a good way, if you are able (neutral/formal).",
+            "note": "Neutral/formal register uses auxiliary verbs ('mesịrị') and conditional clauses with pronominal subjects ('ị')."
+          },
+          {
+            "original": "Biko, ị ga-eme ihe ndị a n'ụzọ dị mma, ma ọ bụrụ na ị nwere ike.",
+            "phonetic": "/bì.kō ì ɣá.è.mé‿ì.hé n̩.dì‿á n̩.ʊ̀.zò dì‿m.mà mā‿ó bù.rù nà‿ì n.wé.ré‿ì.ké/",
+            "translation": "Please, you will do this thing in a good way, if you are able (semi-formal).",
+            "note": "Semi-formal register blends particles ('Biko') with auxiliary verbs ('ga-') and conditional clauses."
+          }
+        ]
+      }
+    ],
+    "emoji": "🎭",
+    "phonetic": "",
+    "translations": {
+      "en": "Register and style in Igbo"
+    }
+  },
+  {
+    "id": "en_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Ntú ọzọ na ntú mbú / Advanced inversion and fronting",
+    "bridge": "In English, inversion (e.g., 'Never have I seen such a thing') is rare and mostly restricted to formal or literary contexts, often triggered by negative adverbials. Igbo, however, uses inversion and fronting far more frequently and flexibly for emphasis, contrast, or stylistic effect, even in everyday speech. Unlike English, Igbo can front or invert entire clauses, not just auxiliary verbs, and often omits the subject entirely in such constructions. A key trap for learners is over-relying on English word order, which can lead to unnatural or ungrammatical Igbo sentences.",
+    "rule": "In Igbo, inversion and fronting are used to emphasize specific elements (subjects, objects, adverbials, or entire clauses) by placing them at the beginning of the sentence. This often involves: 1) Omitting the subject if it is recoverable from context, 2) Using the particle 'nà' (or 'nà' + pronoun) to link the fronted element to the rest of the clause, 3) Adjusting verb forms or particles to maintain grammatical coherence. Common patterns include: a) Fronting the subject with 'nà' (e.g., 'Nà ákwúkwọ à, m̀ méré ya' = 'As for that book, I read it'), b) Inversion for emphasis (e.g., 'Méré m̀ ya nà ákwúkwọ à' = 'I read it, that book'), c) Fronting adverbials or objects (e.g., 'Nke à ga-èzì, m̀ ga-èzì ya' = 'That one will be difficult, I will be the one to do it'). Exceptions include cases where the fronted element is a pronoun, which may require a resumptive pronoun in the main clause (e.g., 'Òhà nà ọ̀ nwèrè ụ́lọ̀, ọ̀ nwèrè ụ́lọ̀' = 'It is the village that has a house, it has a house').",
+    "concept_examples": [
+      {
+        "text": "Nà ákwúkwọ à, m̀ méré ya.",
+        "translation": "As for that book, I read it.",
+        "phonetic": "/nà á.kʷú.kʷó‖ à | m̀ mé.ré‖ jà/"
+      },
+      {
+        "text": "Méré m̀ ya nà ákwúkwọ à.",
+        "translation": "I read it, that book.",
+        "phonetic": "/mé.ré‖ m̀‖ jà | nà á.kʷú.kʷó‖ à/"
+      },
+      {
+        "text": "Nke à ga-èzì, m̀ ga-èzì ya.",
+        "translation": "That one will be difficult, I will be the one to do it.",
+        "phonetic": "/ŋ̀.kè‖ à‖ ɡà.è.zì | m̀‖ ɡà.è.zì‖ jà/"
+      },
+      {
+        "text": "Nà ụ́lọ̀ à, ọ̀ nwèrè ụ́lọ̀.",
+        "translation": "As for that house, it has a house.",
+        "phonetic": "/nà‖ ú.lò‖ à | ó‖ nʷè.rè‖ ú.lò/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ákwúkwọ à, m̀ méré ya.",
+      "correct": "Nà ákwúkwọ à, m̀ méré ya.",
+      "correct_alt": "",
+      "explanation": "English speakers often omit the particle 'nà' when fronting elements in Igbo, leading to sentences that sound incomplete or ungrammatical. The particle 'nà' is crucial for marking the fronted element as the topic or focus of the sentence. Without it, the sentence lacks the necessary emphasis structure that Igbo requires for such constructions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ntú mbú nke ndoro",
+        "translation": "Fronting for emphasis",
+        "examples": [
+          {
+            "original": "Nà ụ́lọ̀ à, ọ̀ nwèrè ụ́lọ̀.",
+            "phonetic": "/nà‖ ú.lò‖ à | ó‖ nʷè.rè‖ ú.lò/",
+            "translation": "As for that house, it has a house.",
+            "note": "Introduces fronting with 'nà' to emphasize the subject. Highlight the use of 'nà' as a topic marker."
+          },
+          {
+            "original": "Nà ákwúkwọ à, m̀ méré ya.",
+            "phonetic": "/nà á.kʷú.kʷó‖ à | m̀ mé.ré‖ jà/",
+            "translation": "As for that book, I read it.",
+            "note": "Demonstrates fronting the object with 'nà' and the resumptive pronoun 'ya'."
+          },
+          {
+            "original": "Nà ọ̀ nwèrè ụ́lọ̀, ụ́lọ̀ à.",
+            "phonetic": "/nà‖ ó‖ nʷè.rè‖ ú.lò | ú.lò‖ à/",
+            "translation": "As for the one who has a house, that house.",
+            "note": "Fronting a relative clause with 'nà' to emphasize the subject of the clause."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ntú ọzọ na ntú mbú",
+        "translation": "Inversion for contrast",
+        "examples": [
+          {
+            "original": "Méré m̀ ya nà ákwúkwọ à.",
+            "phonetic": "/mé.ré‖ m̀‖ jà | nà á.kʷú.kʷó‖ à/",
+            "translation": "I read it, that book.",
+            "note": "Inversion where the object is fronted without 'nà', creating a contrastive focus."
+          },
+          {
+            "original": "Gà-èzì m̀ nke à, m̀ ga-èzì ya.",
+            "phonetic": "/ɡà.è.zì‖ m̀‖ ŋ̀.kè‖ à | m̀‖ ɡà.è.zì‖ jà/",
+            "translation": "That one will be difficult for me, I will be the one to do it.",
+            "note": "Inversion with a negative adverbial ('nke à') to emphasize contrast."
+          },
+          {
+            "original": "Nà ọ̀ nwèrè ụ́lọ̀, ọ̀ nwèrè ụ́lọ̀.",
+            "phonetic": "/nà‖ ó‖ nʷè.rè‖ ú.lò | ó‖ nʷè.rè‖ ú.lò/",
+            "translation": "It is the village that has a house, it has a house.",
+            "note": "Inversion with a resumptive pronoun to emphasize the subject."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ntú ọzọ na ntú mbú nke ọnụ",
+        "translation": "Complex inversion and fronting",
+        "examples": [
+          {
+            "original": "Nà ọ̀ nwèrè ụ́lọ̀ nà ọ̀ nwèrè ụ́lọ̀, ọ̀ nwèrè ụ́lọ̀.",
+            "phonetic": "/nà‖ ó‖ nʷè.rè‖ ú.lò‖ nà‖ ó‖ nʷè.rè‖ ú.lò | ó‖ nʷè.rè‖ ú.lò/",
+            "translation": "It is the village that has a house, that it has a house.",
+            "note": "Complex fronting with a resumptive clause to emphasize the subject."
+          },
+          {
+            "original": "Nà ákwúkwọ à, m̀ méré ya nà m̀ chọrọ ya.",
+            "phonetic": "/nà á.kʷú.kʷó‖ à | m̀ mé.ré‖ jà | nà‖ m̀‖ tʃó.ró‖ jà/",
+            "translation": "As for that book, I read it because I needed it.",
+            "note": "Fronting the object with a subordinate clause to emphasize the reason."
+          },
+          {
+            "original": "Gà-èzì m̀ nke à, m̀ ga-èzì ya nà m̀ chọrọ ịzù.",
+            "phonetic": "/ɡà.è.zì‖ m̀‖ ŋ̀.kè‖ à | m̀‖ ɡà.è.zì‖ jà | nà‖ m̀‖ tʃó.ró‖ ĩ.zù/",
+            "translation": "That one will be difficult for me, I will be the one to do it because I need to go.",
+            "note": "Inversion with a subordinate clause to emphasize the contrast and reason."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔀",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced inversion and fronting"
+    }
+  }
+]
