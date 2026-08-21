@@ -29,6 +29,15 @@ function loadPracticeMenu() {
     showVocabCtxPanel();
 }
 
+// ── Palabra en idioma target (frente de la carta) ─────────────
+
+function getCardDisplayWord(card) {
+    if (!card) return '';
+    // Si la carta tiene traducción para el idioma destino actual, usarla
+    if (card.translations?.[targetLang]) return card.translations[targetLang];
+    return card.word || '';
+}
+
 // ── Traducción de carta al idioma nativo del usuario ─────────
 
 function getCardTranslation(card) {
@@ -424,7 +433,7 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
                                     onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
                             : ''}
                         <div class="prac-card-emoji" ${card.image ? 'style="display:none"' : ''}>${card.emoji}</div>
-                        <div class="prac-card-word">${card.word}</div>
+                        <div class="prac-card-word">${getCardDisplayWord(card)}</div>
                         <button class="prac-audio-btn" id="pracAudioFront" title="Escuchar">
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
                         </button>
@@ -438,7 +447,7 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
                                     onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
                             : ''}
                         <div class="prac-card-emoji prac-card-emoji--sm" ${card.image ? 'style="display:none"' : ''}>${card.emoji}</div>
-                        <div class="prac-card-word prac-card-word--sm">${card.word}</div>
+                        <div class="prac-card-word prac-card-word--sm">${getCardDisplayWord(card)}</div>
                         <div class="prac-card-phonetic">${card.phonetic||''}</div>
                         <div class="prac-card-translation">${getCardTranslation(card)}</div>
                         <div class="prac-card-examples">
@@ -517,8 +526,8 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
                 window.speechSynthesis.speak(u);
             }
         }
-        document.getElementById('pracAudioFront')?.addEventListener('click', e => { e.stopPropagation(); speak(card.word); });
-        document.getElementById('pracAudioBack')?.addEventListener('click',  e => { e.stopPropagation(); speak(card.word); });
+        document.getElementById('pracAudioFront')?.addEventListener('click', e => { e.stopPropagation(); speak(getCardDisplayWord(card)); });
+        document.getElementById('pracAudioBack')?.addEventListener('click',  e => { e.stopPropagation(); speak(getCardDisplayWord(card)); });
         document.querySelectorAll('.prac-ex-audio-btn').forEach(btn => {
             btn.addEventListener('click', e => {
                 e.stopPropagation();
@@ -613,7 +622,7 @@ function showStudyCard(curriculum, groupIdx, deck, cardIdx, session, selectedLev
     });
 
     // Auto-pronunciar la palabra al mostrar la carta
-    setTimeout(() => speak(card.word), 300);
+    setTimeout(() => speak(getCardDisplayWord(card)), 300);
 }
 
 // ── Pantalla de sesión completada ─────────────────────────────
