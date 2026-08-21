@@ -9238,6 +9238,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Bär",
                           "es": "oso",
                           "en": "bear"
+                      ,
+                          "ru": "медведь"
+                      ,
+                          "ar": "دب"
+                      ,
+                          "zh": "熊"
+                      ,
+                          "ja": "クマ"
+                      ,
+                          "ko": "곰"
                       },
                       "examples": [
                           {
@@ -9262,6 +9272,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Käse",
                           "es": "queso",
                           "en": "cheese"
+                      ,
+                          "ru": "сыр"
+                      ,
+                          "ar": "جبن"
+                      ,
+                          "zh": "奶酪"
+                      ,
+                          "ja": "チーズ"
+                      ,
+                          "ko": "치즈"
                       },
                       "examples": [
                           {
@@ -9286,6 +9306,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Öl",
                           "es": "aceite",
                           "en": "oil"
+                      ,
+                          "ru": "масло"
+                      ,
+                          "ar": "زيت"
+                      ,
+                          "zh": "油"
+                      ,
+                          "ja": "オイル"
+                      ,
+                          "ko": "기름"
                       },
                       "examples": [
                           {
@@ -9310,6 +9340,16 @@ const FLASHCARD_ALPHA = {
                           "de": "hören",
                           "es": "escuchar",
                           "en": "to hear/listen"
+                      ,
+                          "ru": "слышать"
+                      ,
+                          "ar": "يسمع"
+                      ,
+                          "zh": "听"
+                      ,
+                          "ja": "聞く"
+                      ,
+                          "ko": "듣다"
                       },
                       "examples": [
                           {
@@ -9334,6 +9374,16 @@ const FLASHCARD_ALPHA = {
                           "de": "über",
                           "es": "sobre, por encima de, acerca de",
                           "en": "over, about"
+                      ,
+                          "ru": "над"
+                      ,
+                          "ar": "فوق"
+                      ,
+                          "zh": "关于"
+                      ,
+                          "ja": "について"
+                      ,
+                          "ko": "위"
                       },
                       "examples": [
                           {
@@ -9358,6 +9408,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Tür",
                           "es": "puerta",
                           "en": "door"
+                      ,
+                          "ru": "дверь"
+                      ,
+                          "ar": "باب"
+                      ,
+                          "zh": "门"
+                      ,
+                          "ja": "ドア"
+                      ,
+                          "ko": "문"
                       },
                       "examples": [
                           {
@@ -9382,6 +9442,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Straße",
                           "es": "calle, carretera",
                           "en": "street, road"
+                      ,
+                          "ru": "улица"
+                      ,
+                          "ar": "شارع"
+                      ,
+                          "zh": "街道"
+                      ,
+                          "ja": "通り"
+                      ,
+                          "ko": "거리"
                       },
                       "examples": [
                           {
@@ -9406,6 +9476,16 @@ const FLASHCARD_ALPHA = {
                           "de": "groß",
                           "es": "grande, alto",
                           "en": "big, tall"
+                      ,
+                          "ru": "большой"
+                      ,
+                          "ar": "كبير"
+                      ,
+                          "zh": "大"
+                      ,
+                          "ja": "大きい"
+                      ,
+                          "ko": "크다"
                       },
                       "examples": [
                           {
@@ -9430,6 +9510,16 @@ const FLASHCARD_ALPHA = {
                           "de": "heißen",
                           "es": "llamarse",
                           "en": "to be called"
+                      ,
+                          "ru": "зваться"
+                      ,
+                          "ar": "يسمى"
+                      ,
+                          "zh": "叫"
+                      ,
+                          "ja": "呼ばれる"
+                      ,
+                          "ko": "부르다"
                       },
                       "examples": [
                           {
@@ -9585,6 +9675,14 @@ const FLASHCARD_ALPHA = {
                           "de": "ja",
                           "es": "sí",
                           "en": "yes"
+                      ,
+                          "ru": "да"
+                      ,
+                          "ar": "نعم"
+                      ,
+                          "zh": "是"
+                      ,
+                          "ko": "네"
                       },
                       "examples": [
                           {
@@ -9604,6 +9702,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Wasser",
                           "es": "agua",
                           "en": "water"
+                      ,
+                          "ru": "вода"
+                      ,
+                          "ar": "ماء"
+                      ,
+                          "zh": "水"
+                      ,
+                          "ja": "水"
+                      ,
+                          "ko": "물"
                       },
                       "examples": [
                           {
@@ -9623,6 +9731,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Vater",
                           "es": "padre",
                           "en": "father"
+                      ,
+                          "ru": "отец"
+                      ,
+                          "ar": "أب"
+                      ,
+                          "zh": "父亲"
+                      ,
+                          "ja": "父"
+                      ,
+                          "ko": "아버지"
                       },
                       "examples": [
                           {
@@ -9642,6 +9760,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Zeit",
                           "es": "tiempo",
                           "en": "time"
+                      ,
+                          "ru": "время"
+                      ,
+                          "ar": "وقت"
+                      ,
+                          "zh": "时间"
+                      ,
+                          "ja": "時間"
+                      ,
+                          "ko": "시간"
                       },
                       "examples": [
                           {
@@ -9661,6 +9789,16 @@ const FLASHCARD_ALPHA = {
                           "de": "ich",
                           "es": "yo",
                           "en": "I"
+                      ,
+                          "ru": "я"
+                      ,
+                          "ar": "أنا"
+                      ,
+                          "zh": "我"
+                      ,
+                          "ja": "私"
+                      ,
+                          "ko": "나"
                       },
                       "examples": [
                           {
@@ -9680,6 +9818,16 @@ const FLASHCARD_ALPHA = {
                           "de": "sprechen",
                           "es": "hablar",
                           "en": "to speak"
+                      ,
+                          "ru": "говорить"
+                      ,
+                          "ar": "يتكلم"
+                      ,
+                          "zh": "说"
+                      ,
+                          "ja": "話す"
+                      ,
+                          "ko": "말��다"
                       },
                       "examples": [
                           {
@@ -9812,6 +9960,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Bahn",
                           "es": "tren (vía)",
                           "en": "train (track)"
+                      ,
+                          "ru": "поезд"
+                      ,
+                          "ar": "قطار"
+                      ,
+                          "zh": "火车"
+                      ,
+                          "ja": "電車"
+                      ,
+                          "ko": "기차"
                       },
                       "examples": [
                           {
@@ -9835,6 +9993,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Mann",
                           "es": "hombre",
                           "en": "man"
+                      ,
+                          "ru": "мужчина"
+                      ,
+                          "ar": "رجل"
+                      ,
+                          "zh": "男人"
+                      ,
+                          "ja": "男性"
+                      ,
+                          "ko": "남자"
                       },
                       "examples": [
                           {
@@ -9858,6 +10026,16 @@ const FLASHCARD_ALPHA = {
                           "de": "See",
                           "es": "lago",
                           "en": "lake"
+                      ,
+                          "ru": "озеро"
+                      ,
+                          "ar": "بحيرة"
+                      ,
+                          "zh": "湖"
+                      ,
+                          "ja": "湖"
+                      ,
+                          "ko": "호수"
                       },
                       "examples": [
                           {
@@ -9881,6 +10059,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Bett",
                           "es": "cama",
                           "en": "bed"
+                      ,
+                          "ru": "кровать"
+                      ,
+                          "ar": "سرير"
+                      ,
+                          "zh": "床"
+                      ,
+                          "ja": "ベッド"
+                      ,
+                          "ko": "침대"
                       },
                       "examples": [
                           {
@@ -9904,6 +10092,16 @@ const FLASHCARD_ALPHA = {
                           "de": "viel",
                           "es": "mucho",
                           "en": "much"
+                      ,
+                          "ru": "много"
+                      ,
+                          "ar": "كثير"
+                      ,
+                          "zh": "多"
+                      ,
+                          "ja": "多い"
+                      ,
+                          "ko": "많이"
                       },
                       "examples": [
                           {
@@ -9927,6 +10125,16 @@ const FLASHCARD_ALPHA = {
                           "de": "mit",
                           "es": "con",
                           "en": "with"
+                      ,
+                          "ru": "с"
+                      ,
+                          "ar": "مع"
+                      ,
+                          "zh": "与"
+                      ,
+                          "ja": "一緒に"
+                      ,
+                          "ko": "와"
                       },
                       "examples": [
                           {
@@ -9950,6 +10158,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Sohn",
                           "es": "hijo",
                           "en": "son"
+                      ,
+                          "ru": "сын"
+                      ,
+                          "ar": "ابن"
+                      ,
+                          "zh": "儿子"
+                      ,
+                          "ja": "息子"
+                      ,
+                          "ko": "아들"
                       },
                       "examples": [
                           {
@@ -9973,6 +10191,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Gott",
                           "es": "dios",
                           "en": "God"
+                      ,
+                          "ru": "Бог"
+                      ,
+                          "ar": "الله"
+                      ,
+                          "zh": "上帝"
+                      ,
+                          "ja": "神"
+                      ,
+                          "ko": "신"
                       },
                       "examples": [
                           {
@@ -9996,6 +10224,16 @@ const FLASHCARD_ALPHA = {
                           "de": "gut",
                           "es": "bueno/bien",
                           "en": "good"
+                      ,
+                          "ru": "хорошо"
+                      ,
+                          "ar": "جيد"
+                      ,
+                          "zh": "好"
+                      ,
+                          "ja": "良い"
+                      ,
+                          "ko": "좋다"
                       },
                       "examples": [
                           {
@@ -10019,6 +10257,16 @@ const FLASHCARD_ALPHA = {
                           "de": "Mutter",
                           "es": "madre",
                           "en": "mother"
+                      ,
+                          "ru": "мать"
+                      ,
+                          "ar": "أم"
+                      ,
+                          "zh": "母亲"
+                      ,
+                          "ja": "母"
+                      ,
+                          "ko": "어머니"
                       },
                       "examples": [
                           {
@@ -13765,6 +14013,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "cat",
                           "es": "gato"
+                      ,
+                          "ru": "кот"
+                      ,
+                          "ar": "قطة"
+                      ,
+                          "zh": "猫"
+                      ,
+                          "ja": "猫"
+                      ,
+                          "ko": "고양이"
                       },
                       "examples": [
                           {
@@ -13788,6 +14046,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "name",
                           "es": "nombre"
+                      ,
+                          "ru": "имя"
+                      ,
+                          "ar": "اسم"
+                      ,
+                          "zh": "名字"
+                      ,
+                          "ja": "名前"
+                      ,
+                          "ko": "이름"
                       },
                       "examples": [
                           {
@@ -13831,6 +14099,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "bed",
                           "es": "cama"
+                      ,
+                          "ru": "кровать"
+                      ,
+                          "ar": "سرير"
+                      ,
+                          "zh": "床"
+                      ,
+                          "ja": "ベッド"
+                      ,
+                          "ko": "침대"
                       },
                       "examples": [
                           {
@@ -13854,6 +14132,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "he",
                           "es": "él"
+                      ,
+                          "ru": "он"
+                      ,
+                          "ar": "هو"
+                      ,
+                          "zh": "他"
+                      ,
+                          "ja": "彼"
+                      ,
+                          "ko": "그"
                       },
                       "examples": [
                           {
@@ -13897,6 +14185,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "sit",
                           "es": "sentarse"
+                      ,
+                          "ru": "сидеть"
+                      ,
+                          "ar": "يجلس"
+                      ,
+                          "zh": "坐"
+                      ,
+                          "ja": "座る"
+                      ,
+                          "ko": "앉다"
                       },
                       "examples": [
                           {
@@ -13920,6 +14218,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "like",
                           "es": "gustar"
+                      ,
+                          "ru": "нравиться"
+                      ,
+                          "ar": "يحب"
+                      ,
+                          "zh": "喜欢"
+                      ,
+                          "ja": "好き"
+                      ,
+                          "ko": "좋아하다"
                       },
                       "examples": [
                           {
@@ -13963,6 +14271,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "go",
                           "es": "ir"
+                      ,
+                          "ru": "идти"
+                      ,
+                          "ar": "يذهب"
+                      ,
+                          "zh": "去"
+                      ,
+                          "ja": "行く"
+                      ,
+                          "ko": "가다"
                       },
                       "examples": [
                           {
@@ -13986,6 +14304,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "hot",
                           "es": "caliente"
+                      ,
+                          "ru": "горячий"
+                      ,
+                          "ar": "حار"
+                      ,
+                          "zh": "热"
+                      ,
+                          "ja": "暑い"
+                      ,
+                          "ko": "더운"
                       },
                       "examples": [
                           {
@@ -14029,6 +14357,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "cup",
                           "es": "taza"
+                      ,
+                          "ru": "чашка"
+                      ,
+                          "ar": "كوب"
+                      ,
+                          "zh": "杯子"
+                      ,
+                          "ja": "カップ"
+                      ,
+                          "ko": "컵"
                       },
                       "examples": [
                           {
@@ -14052,6 +14390,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "use",
                           "es": "usar"
+                      ,
+                          "ru": "использовать"
+                      ,
+                          "ar": "يستخدم"
+                      ,
+                          "zh": "使用"
+                      ,
+                          "ja": "使う"
+                      ,
+                          "ko": "사용하다"
                       },
                       "examples": [
                           {
@@ -14227,6 +14575,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "house",
                           "es": "casa"
+                      ,
+                          "ru": "дом"
+                      ,
+                          "ar": "منزل"
+                      ,
+                          "zh": "房子"
+                      ,
+                          "ja": "家"
+                      ,
+                          "ko": "집"
                       },
                       "examples": [
                           {
@@ -14250,6 +14608,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "job",
                           "es": "trabajo (empleo)"
+                      ,
+                          "ru": "раб��та"
+                      ,
+                          "ar": "وظيفة"
+                      ,
+                          "zh": "工作"
+                      ,
+                          "ja": "仕事"
+                      ,
+                          "ko": "일"
                       },
                       "examples": [
                           {
@@ -14273,6 +14641,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "water",
                           "es": "agua"
+                      ,
+                          "ru": "вода"
+                      ,
+                          "ar": "ماء"
+                      ,
+                          "zh": "水"
+                      ,
+                          "ja": "水"
+                      ,
+                          "ko": "물"
                       },
                       "examples": [
                           {
@@ -14296,6 +14674,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "yes",
                           "es": "sí"
+                      ,
+                          "ru": "да"
+                      ,
+                          "ar": "نعم"
+                      ,
+                          "zh": "是"
+                      ,
+                          "ja": "はい"
+                      ,
+                          "ko": "네"
                       },
                       "examples": [
                           {
@@ -14319,6 +14707,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "think",
                           "es": "pensar"
+                      ,
+                          "ru": "думать"
+                      ,
+                          "ar": "يفكر"
+                      ,
+                          "zh": "想"
+                      ,
+                          "ja": "思う"
+                      ,
+                          "ko": "생각하다"
                       },
                       "examples": [
                           {
@@ -14342,6 +14740,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "she",
                           "es": "ella"
+                      ,
+                          "ru": "она"
+                      ,
+                          "ar": "هي"
+                      ,
+                          "zh": "她"
+                      ,
+                          "ja": "彼女"
+                      ,
+                          "ko": "그��"
                       },
                       "examples": [
                           {
@@ -14365,6 +14773,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "chair",
                           "es": "silla"
+                      ,
+                          "ru": "стул"
+                      ,
+                          "ar": "كرسي"
+                      ,
+                          "zh": "椅子"
+                      ,
+                          "ja": "椅���"
+                      ,
+                          "ko": "의자"
                       },
                       "examples": [
                           {
@@ -14521,6 +14939,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "phone",
                           "es": "teléfono"
+                      ,
+                          "ru": "телефон"
+                      ,
+                          "ar": "هاتف"
+                      ,
+                          "zh": "电话"
+                      ,
+                          "ja": "電話"
+                      ,
+                          "ko": "전화기"
                       },
                       "examples": [
                           {
@@ -14544,6 +14972,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "night",
                           "es": "noche"
+                      ,
+                          "ru": "ночь"
+                      ,
+                          "ar": "ليل"
+                      ,
+                          "zh": "夜��"
+                      ,
+                          "ja": "夜"
+                      ,
+                          "ko": "밤"
                       },
                       "examples": [
                           {
@@ -14567,6 +15005,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "write",
                           "es": "escribir"
+                      ,
+                          "ru": "писать"
+                      ,
+                          "ar": "يكتب"
+                      ,
+                          "zh": "写"
+                      ,
+                          "ja": "書く"
+                      ,
+                          "ko": "쓰다"
                       },
                       "examples": [
                           {
@@ -14590,6 +15038,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "know",
                           "es": "saber / conocer"
+                      ,
+                          "ru": "знать"
+                      ,
+                          "ar": "يعرف"
+                      ,
+                          "zh": "知道"
+                      ,
+                          "ja": "知る"
+                      ,
+                          "ko": "알다"
                       },
                       "examples": [
                           {
@@ -14613,6 +15071,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "queen",
                           "es": "reina"
+                      ,
+                          "ru": "королева"
+                      ,
+                          "ar": "ملكة"
+                      ,
+                          "zh": "女王"
+                      ,
+                          "ja": "女王"
+                      ,
+                          "ko": "여왕"
                       },
                       "examples": [
                           {
@@ -14636,6 +15104,16 @@ const FLASHCARD_ALPHA = {
                       "translations": {
                           "en": "back",
                           "es": "espalda / de vuelta"
+                      ,
+                          "ru": "назад"
+                      ,
+                          "ar": "خلف"
+                      ,
+                          "zh": "回来"
+                      ,
+                          "ja": "背中"
+                      ,
+                          "ko": "뒤"
                       },
                       "examples": [
                           {
@@ -19630,6 +20108,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "café",
                           "es": "café",
                           "en": "coffee"
+                      ,
+                          "ru": "кофе"
+                      ,
+                          "ar": "مقهى"
+                      ,
+                          "zh": "咖啡馆"
+                      ,
+                          "ja": "カフェ"
+                      ,
+                          "ko": "카페"
                       },
                       "examples": [
                           {
@@ -19654,6 +20142,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "père",
                           "es": "padre",
                           "en": "father"
+                      ,
+                          "ru": "отец"
+                      ,
+                          "ar": "أب"
+                      ,
+                          "zh": "父亲"
+                      ,
+                          "ja": "父"
+                      ,
+                          "ko": "아버지"
                       },
                       "examples": [
                           {
@@ -19678,6 +20176,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "fête",
                           "es": "fiesta",
                           "en": "party"
+                      ,
+                          "ru": "вечеринка"
+                      ,
+                          "ar": "حفلة"
+                      ,
+                          "zh": "派对"
+                      ,
+                          "ja": "パーティー"
+                      ,
+                          "ko": "파티"
                       },
                       "examples": [
                           {
@@ -19702,6 +20210,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "Noël",
                           "es": "Navidad",
                           "en": "Christmas"
+                      ,
+                          "ru": "Рождество"
+                      ,
+                          "ar": "عيد الميلاد"
+                      ,
+                          "zh": "圣诞节"
+                      ,
+                          "ja": "クリスマス"
+                      ,
+                          "ko": "크리스마스"
                       },
                       "examples": [
                           {
@@ -19726,6 +20244,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "château",
                           "es": "castillo",
                           "en": "castle"
+                      ,
+                          "ru": "замок"
+                      ,
+                          "ar": "قلعة"
+                      ,
+                          "zh": "城堡"
+                      ,
+                          "ja": "城"
+                      ,
+                          "ko": "성"
                       },
                       "examples": [
                           {
@@ -19750,6 +20278,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "île",
                           "es": "isla",
                           "en": "island"
+                      ,
+                          "ru": "остров"
+                      ,
+                          "ar": "جزيرة"
+                      ,
+                          "zh": "岛屿"
+                      ,
+                          "ja": "島"
+                      ,
+                          "ko": "섬"
                       },
                       "examples": [
                           {
@@ -19774,6 +20312,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "hôtel",
                           "es": "hotel",
                           "en": "hotel"
+                      ,
+                          "ru": "отель"
+                      ,
+                          "ar": "فندق"
+                      ,
+                          "zh": "酒店"
+                      ,
+                          "ja": "ホテル"
+                      ,
+                          "ko": "호텔"
                       },
                       "examples": [
                           {
@@ -19798,6 +20346,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "sûr",
                           "es": "seguro",
                           "en": "sure"
+                      ,
+                          "ru": "уверенный"
+                      ,
+                          "ar": "متأكد"
+                      ,
+                          "zh": "确定"
+                      ,
+                          "ja": "確実"
+                      ,
+                          "ko": "확실한"
                       },
                       "examples": [
                           {
@@ -19822,6 +20380,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "garçon",
                           "es": "chico, muchacho",
                           "en": "boy"
+                      ,
+                          "ru": "мальчик"
+                      ,
+                          "ar": "فتى"
+                      ,
+                          "zh": "男孩"
+                      ,
+                          "ja": "少年"
+                      ,
+                          "ko": "소년"
                       },
                       "examples": [
                           {
@@ -19938,6 +20506,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "enfant",
                           "es": "niño/niña",
                           "en": "child"
+                      ,
+                          "ru": "ребенок"
+                      ,
+                          "ar": "طفل"
+                      ,
+                          "zh": "儿童"
+                      ,
+                          "ja": "子供"
+                      ,
+                          "ko": "아이"
                       },
                       "examples": [
                           {
@@ -19962,6 +20540,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "temps",
                           "es": "tiempo",
                           "en": "time/weather"
+                      ,
+                          "ru": "время"
+                      ,
+                          "ar": "وقت"
+                      ,
+                          "zh": "时间"
+                      ,
+                          "ja": "時間"
+                      ,
+                          "ko": "시간"
                       },
                       "examples": [
                           {
@@ -19986,6 +20574,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "vin",
                           "es": "vino",
                           "en": "wine"
+                      ,
+                          "ru": "вино"
+                      ,
+                          "ar": "نبيذ"
+                      ,
+                          "zh": "葡萄酒"
+                      ,
+                          "ja": "ワイン"
+                      ,
+                          "ko": "와인"
                       },
                       "examples": [
                           {
@@ -20010,6 +20608,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "pain",
                           "es": "pan",
                           "en": "bread"
+                      ,
+                          "ru": "хлеб"
+                      ,
+                          "ar": "خبز"
+                      ,
+                          "zh": "面包"
+                      ,
+                          "ja": "パン"
+                      ,
+                          "ko": "빵"
                       },
                       "examples": [
                           {
@@ -20034,6 +20642,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "bon",
                           "es": "bueno",
                           "en": "good"
+                      ,
+                          "ru": "хороший"
+                      ,
+                          "ar": "جيد"
+                      ,
+                          "zh": "好"
+                      ,
+                          "ja": "良い"
+                      ,
+                          "ko": "좋은"
                       },
                       "examples": [
                           {
@@ -20058,6 +20676,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "monde",
                           "es": "mundo",
                           "en": "world"
+                      ,
+                          "ru": "мир"
+                      ,
+                          "ar": "عالم"
+                      ,
+                          "zh": "世界"
+                      ,
+                          "ja": "世��"
+                      ,
+                          "ko": "세계"
                       },
                       "examples": [
                           {
@@ -20082,6 +20710,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "un",
                           "es": "un/uno",
                           "en": "a/one"
+                      ,
+                          "ru": "один"
+                      ,
+                          "ar": "واحد"
+                      ,
+                          "zh": "一"
+                      ,
+                          "ja": "一"
+                      ,
+                          "ko": "하나"
                       },
                       "examples": [
                           {
@@ -20106,6 +20744,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "lundi",
                           "es": "lunes",
                           "en": "Monday"
+                      ,
+                          "ru": "понедельник"
+                      ,
+                          "ar": "الاثنين"
+                      ,
+                          "zh": "星期一"
+                      ,
+                          "ja": "月曜日"
+                      ,
+                          "ko": "월요일"
                       },
                       "examples": [
                           {
@@ -20223,6 +20871,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "heure",
                           "es": "hora",
                           "en": "hour/time"
+                      ,
+                          "ru": "час"
+                      ,
+                          "ar": "ساعة"
+                      ,
+                          "zh": "小时"
+                      ,
+                          "ja": "時間"
+                      ,
+                          "ko": "시간"
                       },
                       "examples": [
                           {
@@ -20247,6 +20905,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "homme",
                           "es": "hombre",
                           "en": "man"
+                      ,
+                          "ru": "мужчина"
+                      ,
+                          "ar": "رجل"
+                      ,
+                          "zh": "男人"
+                      ,
+                          "ja": "男性"
+                      ,
+                          "ko": "남자"
                       },
                       "examples": [
                           {
@@ -20271,6 +20939,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "haricot",
                           "es": "frijol",
                           "en": "bean"
+                      ,
+                          "ru": "фасоль"
+                      ,
+                          "ar": "فاصوليا"
+                      ,
+                          "zh": "豆子"
+                      ,
+                          "ja": "豆"
+                      ,
+                          "ko": "콩"
                       },
                       "examples": [
                           {
@@ -20295,6 +20973,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "honte",
                           "es": "vergüenza",
                           "en": "shame"
+                      ,
+                          "ru": "стыд"
+                      ,
+                          "ar": "خجل"
+                      ,
+                          "zh": "害羞"
+                      ,
+                          "ja": "恥"
+                      ,
+                          "ko": "부끄러움"
                       },
                       "examples": [
                           {
@@ -20319,6 +21007,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "grand",
                           "es": "grande",
                           "en": "big/tall"
+                      ,
+                          "ru": "большой"
+                      ,
+                          "ar": "كبير"
+                      ,
+                          "zh": "大"
+                      ,
+                          "ja": "大きい"
+                      ,
+                          "ko": "위대한"
                       },
                       "examples": [
                           {
@@ -20343,6 +21041,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "parlez",
                           "es": "hablan / hablad",
                           "en": "speak (you/they)"
+                      ,
+                          "ru": "говорите"
+                      ,
+                          "ar": "تحدث"
+                      ,
+                          "zh": "说"
+                      ,
+                          "ja": "話す"
+                      ,
+                          "ko": "말하다"
                       },
                       "examples": [
                           {
@@ -20367,6 +21075,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "amis",
                           "es": "amigos",
                           "en": "friends"
+                      ,
+                          "ru": "друзья"
+                      ,
+                          "ar": "أصدقاء"
+                      ,
+                          "zh": "朋友"
+                      ,
+                          "ja": "友達"
+                      ,
+                          "ko": "친구들"
                       },
                       "examples": [
                           {
@@ -20391,6 +21109,16 @@ const FLASHCARD_ALPHA = {
                           "fr": "avez",
                           "es": "tenéis / tienen",
                           "en": "have (you/they)"
+                      ,
+                          "ru": "имеете"
+                      ,
+                          "ar": "لديك"
+                      ,
+                          "zh": "有"
+                      ,
+                          "ja": "持っている"
+                      ,
+                          "ko": "가지다"
                       },
                       "examples": [
                           {
@@ -25279,6 +26007,16 @@ const FLASHCARD_ALPHA = {
                           "it": "è",
                           "es": "es",
                           "en": "is"
+                      ,
+                          "ru": "есть"
+                      ,
+                          "ar": "هو"
+                      ,
+                          "zh": "是"
+                      ,
+                          "ja": "である"
+                      ,
+                          "ko": "이다"
                       },
                       "examples": [
                           {
@@ -25302,6 +26040,16 @@ const FLASHCARD_ALPHA = {
                           "it": "perché",
                           "es": "por qué / porque",
                           "en": "why / because"
+                      ,
+                          "ru": "почему"
+                      ,
+                          "ar": "لماذا"
+                      ,
+                          "zh": "为什么"
+                      ,
+                          "ja": "なぜ"
+                      ,
+                          "ko": "왜"
                       },
                       "examples": [
                           {
@@ -25325,6 +26073,16 @@ const FLASHCARD_ALPHA = {
                           "it": "là",
                           "es": "allí",
                           "en": "there"
+                      ,
+                          "ru": "там"
+                      ,
+                          "ar": "هناك"
+                      ,
+                          "zh": "那里"
+                      ,
+                          "ja": "あそこ"
+                      ,
+                          "ko": "거기"
                       },
                       "examples": [
                           {
@@ -25348,6 +26106,16 @@ const FLASHCARD_ALPHA = {
                           "it": "così",
                           "es": "así",
                           "en": "so / like this"
+                      ,
+                          "ru": "так"
+                      ,
+                          "ar": "هكذا"
+                      ,
+                          "zh": "这样"
+                      ,
+                          "ja": "こう"
+                      ,
+                          "ko": "이렇게"
                       },
                       "examples": [
                           {
@@ -25371,6 +26139,16 @@ const FLASHCARD_ALPHA = {
                           "it": "però",
                           "es": "pero",
                           "en": "but"
+                      ,
+                          "ru": "но"
+                      ,
+                          "ar": "لكن"
+                      ,
+                          "zh": "但是"
+                      ,
+                          "ja": "しかし"
+                      ,
+                          "ko": "하지만"
                       },
                       "examples": [
                           {
@@ -25394,6 +26172,16 @@ const FLASHCARD_ALPHA = {
                           "it": "più",
                           "es": "más",
                           "en": "more"
+                      ,
+                          "ru": "больше"
+                      ,
+                          "ar": "أكثر"
+                      ,
+                          "zh": "更多"
+                      ,
+                          "ja": "もっと"
+                      ,
+                          "ko": "더"
                       },
                       "examples": [
                           {
@@ -25590,6 +26378,16 @@ const FLASHCARD_ALPHA = {
                           "it": "gnocchi",
                           "es": "ñoquis",
                           "en": "gnocchi"
+                      ,
+                          "ru": "гnocchi"
+                      ,
+                          "ar": "غنوكي"
+                      ,
+                          "zh": "意大利面疙瘩"
+                      ,
+                          "ja": "ニョッキ"
+                      ,
+                          "ko": "뇨키"
                       },
                       "examples": [
                           {
@@ -25614,6 +26412,16 @@ const FLASHCARD_ALPHA = {
                           "it": "signore",
                           "es": "señor",
                           "en": "sir/mister"
+                      ,
+                          "ru": "господин"
+                      ,
+                          "ar": "سيدي"
+                      ,
+                          "zh": "先生"
+                      ,
+                          "ja": "紳士"
+                      ,
+                          "ko": "씨"
                       },
                       "examples": [
                           {
@@ -25638,6 +26446,16 @@ const FLASHCARD_ALPHA = {
                           "it": "figlio",
                           "es": "hijo",
                           "en": "son"
+                      ,
+                          "ru": "сын"
+                      ,
+                          "ar": "ابن"
+                      ,
+                          "zh": "儿子"
+                      ,
+                          "ja": "息子"
+                      ,
+                          "ko": "아들"
                       },
                       "examples": [
                           {
@@ -25662,6 +26480,16 @@ const FLASHCARD_ALPHA = {
                           "it": "voglio",
                           "es": "quiero",
                           "en": "I want"
+                      ,
+                          "ru": "я хочу"
+                      ,
+                          "ar": "أريد"
+                      ,
+                          "zh": "我想要"
+                      ,
+                          "ja": "欲しい"
+                      ,
+                          "ko": "원하다"
                       },
                       "examples": [
                           {
@@ -25686,6 +26514,16 @@ const FLASHCARD_ALPHA = {
                           "it": "pesce",
                           "es": "pescado",
                           "en": "fish"
+                      ,
+                          "ru": "рыба"
+                      ,
+                          "ar": "سمك"
+                      ,
+                          "zh": "鱼"
+                      ,
+                          "ja": "魚"
+                      ,
+                          "ko": "생선"
                       },
                       "examples": [
                           {
@@ -25710,6 +26548,16 @@ const FLASHCARD_ALPHA = {
                           "it": "sciare",
                           "es": "esquiar",
                           "en": "to ski"
+                      ,
+                          "ru": "кататься на лыжах"
+                      ,
+                          "ar": "التزلج"
+                      ,
+                          "zh": "滑雪"
+                      ,
+                          "ja": "スキーをする"
+                      ,
+                          "ko": "스키를 타다"
                       },
                       "examples": [
                           {
@@ -25734,6 +26582,16 @@ const FLASHCARD_ALPHA = {
                           "it": "ciao",
                           "es": "hola/adiós",
                           "en": "hello/goodbye"
+                      ,
+                          "ru": "привет"
+                      ,
+                          "ar": "مرحبا"
+                      ,
+                          "zh": "你好"
+                      ,
+                          "ja": "こんにちは"
+                      ,
+                          "ko": "안녕"
                       },
                       "examples": [
                           {
@@ -25758,6 +26616,16 @@ const FLASHCARD_ALPHA = {
                           "it": "cena",
                           "es": "cena",
                           "en": "dinner"
+                      ,
+                          "ru": "ужин"
+                      ,
+                          "ar": "عشاء"
+                      ,
+                          "zh": "晚餐"
+                      ,
+                          "ja": "夕食"
+                      ,
+                          "ko": "��녁 식사"
                       },
                       "examples": [
                           {
@@ -25782,6 +26650,16 @@ const FLASHCARD_ALPHA = {
                           "it": "perché",
                           "es": "porque / por qué",
                           "en": "because / why"
+                      ,
+                          "ru": "потому что"
+                      ,
+                          "ar": "لأن"
+                      ,
+                          "zh": "因为"
+                      ,
+                          "ja": "なぜなら"
+                      ,
+                          "ko": "왜"
                       },
                       "examples": [
                           {
@@ -25806,6 +26684,16 @@ const FLASHCARD_ALPHA = {
                           "it": "ghiaccio",
                           "es": "hielo",
                           "en": "ice"
+                      ,
+                          "ru": "лёд"
+                      ,
+                          "ar": "جليد"
+                      ,
+                          "zh": "冰"
+                      ,
+                          "ja": "氷"
+                      ,
+                          "ko": "얼음"
                       },
                       "examples": [
                           {
@@ -25830,6 +26718,16 @@ const FLASHCARD_ALPHA = {
                           "it": "gelato",
                           "es": "helado",
                           "en": "ice cream"
+                      ,
+                          "ru": "мороженое"
+                      ,
+                          "ar": "آيس كريم"
+                      ,
+                          "zh": "冰淇淋"
+                      ,
+                          "ja": "ジェラート"
+                      ,
+                          "ko": "제과"
                       },
                       "examples": [
                           {
@@ -25854,6 +26752,16 @@ const FLASHCARD_ALPHA = {
                           "it": "nonna",
                           "es": "abuela",
                           "en": "grandmother"
+                      ,
+                          "ru": "бабушка"
+                      ,
+                          "ar": "جدة"
+                      ,
+                          "zh": "奶奶"
+                      ,
+                          "ja": "おばあちゃん"
+                      ,
+                          "ko": "할머니"
                       },
                       "examples": [
                           {
@@ -61576,6 +62484,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "irmã",
                           "es": "hermana",
                           "en": "sister"
+                      ,
+                          "ru": "сестра"
+                      ,
+                          "ar": "A"
+                      ,
+                          "zh": "妹妹"
+                      ,
+                          "ja": "姉"
+                      ,
+                          "ko": "자매"
                       },
                       "examples": [
                           {
@@ -61600,6 +62518,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "maçã",
                           "es": "manzana",
                           "en": "apple"
+                      ,
+                          "ru": "яблоко"
+                      ,
+                          "ar": "maçã"
+                      ,
+                          "zh": "苹果"
+                      ,
+                          "ja": "りんご"
+                      ,
+                          "ko": "사과"
                       },
                       "examples": [
                           {
@@ -61624,6 +62552,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "leões",
                           "es": "leones",
                           "en": "lions"
+                      ,
+                          "ru": "львы"
+                      ,
+                          "ar": "leões"
+                      ,
+                          "zh": "狮子"
+                      ,
+                          "ja": "ライオン"
+                      ,
+                          "ko": "사자"
                       },
                       "examples": [
                           {
@@ -61648,6 +62586,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "põe",
                           "es": "pone",
                           "en": "puts"
+                      ,
+                          "ru": "кладёт"
+                      ,
+                          "ar": "põe"
+                      ,
+                          "zh": "放"
+                      ,
+                          "ja": "置く"
+                      ,
+                          "ko": "놓다"
                       },
                       "examples": [
                           {
@@ -61672,6 +62620,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "câmara",
                           "es": "cámara",
                           "en": "camera"
+                      ,
+                          "ru": "камера"
+                      ,
+                          "ar": "câmara"
+                      ,
+                          "zh": "相机"
+                      ,
+                          "ja": "カメラ"
+                      ,
+                          "ko": "카메라"
                       },
                       "examples": [
                           {
@@ -61696,6 +62654,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "lâmpada",
                           "es": "lámpara",
                           "en": "lamp"
+                      ,
+                          "ru": "лампа"
+                      ,
+                          "ar": "lâmpada"
+                      ,
+                          "zh": "灯泡"
+                      ,
+                          "ja": "電球"
+                      ,
+                          "ko": "램프"
                       },
                       "examples": [
                           {
@@ -61720,6 +62688,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "você",
                           "es": "tú/usted",
                           "en": "you"
+                      ,
+                          "ru": "вы"
+                      ,
+                          "ar": "você"
+                      ,
+                          "zh": "你"
+                      ,
+                          "ja": "あなた"
+                      ,
+                          "ko": "당신"
                       },
                       "examples": [
                           {
@@ -61744,6 +62722,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "mês",
                           "es": "mes",
                           "en": "month"
+                      ,
+                          "ru": "месяц"
+                      ,
+                          "ar": "mês"
+                      ,
+                          "zh": "月"
+                      ,
+                          "ja": "月"
+                      ,
+                          "ko": "달"
                       },
                       "examples": [
                           {
@@ -61768,6 +62756,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "à",
                           "es": "a la",
                           "en": "to the (fem.)"
+                      ,
+                          "ru": "к"
+                      ,
+                          "ar": "à"
+                      ,
+                          "zh": "到"
+                      ,
+                          "ja": "に"
+                      ,
+                          "ko": "에게"
                       },
                       "examples": [
                           {
@@ -61792,6 +62790,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "às",
                           "es": "a las",
                           "en": "at (time)"
+                      ,
+                          "ru": "в"
+                      ,
+                          "ar": "às"
+                      ,
+                          "zh": "在"
+                      ,
+                          "ja": "に"
+                      ,
+                          "ko": "에"
                       },
                       "examples": [
                           {
@@ -61816,6 +62824,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "açúcar",
                           "es": "azúcar",
                           "en": "sugar"
+                      ,
+                          "ru": "сахар"
+                      ,
+                          "ar": "açúcar"
+                      ,
+                          "zh": "糖"
+                      ,
+                          "ja": "砂糖"
+                      ,
+                          "ko": "설탕"
                       },
                       "examples": [
                           {
@@ -61840,6 +62858,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "caça",
                           "es": "caza",
                           "en": "hunt"
+                      ,
+                          "ru": "охот��"
+                      ,
+                          "ar": "caça"
+                      ,
+                          "zh": "狩猎"
+                      ,
+                          "ja": "狩り"
+                      ,
+                          "ko": "사냥"
                       },
                       "examples": [
                           {
@@ -62016,6 +63044,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "filho",
                           "es": "hijo",
                           "en": "son"
+                      ,
+                          "ru": "сын"
+                      ,
+                          "ar": "filho"
+                      ,
+                          "zh": "儿子"
+                      ,
+                          "ja": "息子"
+                      ,
+                          "ko": "아들"
                       },
                       "examples": [
                           {
@@ -62040,6 +63078,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "vinho",
                           "es": "vino",
                           "en": "wine"
+                      ,
+                          "ru": "вино"
+                      ,
+                          "ar": "vinho"
+                      ,
+                          "zh": "葡萄酒"
+                      ,
+                          "ja": "ワイン"
+                      ,
+                          "ko": "포도주"
                       },
                       "examples": [
                           {
@@ -62064,6 +63112,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "carro",
                           "es": "coche",
                           "en": "car"
+                      ,
+                          "ru": "машина"
+                      ,
+                          "ar": "carro"
+                      ,
+                          "zh": "汽车"
+                      ,
+                          "ja": "車"
+                      ,
+                          "ko": "자동차"
                       },
                       "examples": [
                           {
@@ -62088,6 +63146,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "caixa",
                           "es": "caja",
                           "en": "box"
+                      ,
+                          "ru": "коробка"
+                      ,
+                          "ar": "caixa"
+                      ,
+                          "zh": "盒子"
+                      ,
+                          "ja": "箱"
+                      ,
+                          "ko": "상자"
                       },
                       "examples": [
                           {
@@ -62112,6 +63180,16 @@ const FLASHCARD_ALPHA = {
                           "pt": "casa",
                           "es": "casa",
                           "en": "house"
+                      ,
+                          "ru": "дом"
+                      ,
+                          "ar": "casa"
+                      ,
+                          "zh": "房子"
+                      ,
+                          "ja": "家"
+                      ,
+                          "ko": "집"
                       },
                       "examples": [
                           {
@@ -96368,6 +97446,16 @@ const FLASHCARD_ALPHA = {
                           "en": "cat",
                           "gn": "mbarakaja",
                           "es": "gato"
+                      ,
+                          "ru": "кот"
+                      ,
+                          "ar": "قطة"
+                      ,
+                          "zh": "猫"
+                      ,
+                          "ja": "猫"
+                      ,
+                          "ko": "고양이"
                       },
                       "examples": [
                           {
@@ -96391,6 +97479,16 @@ const FLASHCARD_ALPHA = {
                           "en": "name",
                           "gn": "téra",
                           "es": "nombre"
+                      ,
+                          "ru": "имя"
+                      ,
+                          "ar": "اسم"
+                      ,
+                          "zh": "名字"
+                      ,
+                          "ja": "名前"
+                      ,
+                          "ko": "이름"
                       },
                       "examples": [
                           {
@@ -96434,6 +97532,16 @@ const FLASHCARD_ALPHA = {
                           "en": "bed",
                           "gn": "tupa",
                           "es": "cama"
+                      ,
+                          "ru": "кровать"
+                      ,
+                          "ar": "سرير"
+                      ,
+                          "zh": "床"
+                      ,
+                          "ja": "ベッド"
+                      ,
+                          "ko": "침대"
                       },
                       "examples": [
                           {
@@ -96457,6 +97565,16 @@ const FLASHCARD_ALPHA = {
                           "en": "he",
                           "gn": "ha’e",
                           "es": "él"
+                      ,
+                          "ru": "он"
+                      ,
+                          "ar": "هو"
+                      ,
+                          "zh": "他"
+                      ,
+                          "ja": "彼"
+                      ,
+                          "ko": "그"
                       },
                       "examples": [
                           {
@@ -96500,6 +97618,16 @@ const FLASHCARD_ALPHA = {
                           "en": "sit",
                           "gn": "guapy",
                           "es": "sentarse"
+                      ,
+                          "ru": "сидеть"
+                      ,
+                          "ar": "يجلس"
+                      ,
+                          "zh": "坐"
+                      ,
+                          "ja": "座る"
+                      ,
+                          "ko": "앉다"
                       },
                       "examples": [
                           {
@@ -96523,6 +97651,16 @@ const FLASHCARD_ALPHA = {
                           "en": "like",
                           "gn": "hory",
                           "es": "gustar"
+                      ,
+                          "ru": "нравиться"
+                      ,
+                          "ar": "يحب"
+                      ,
+                          "zh": "喜欢"
+                      ,
+                          "ja": "好き"
+                      ,
+                          "ko": "좋아하다"
                       },
                       "examples": [
                           {
@@ -96566,6 +97704,16 @@ const FLASHCARD_ALPHA = {
                           "en": "hot",
                           "gn": "hakú",
                           "es": "caliente"
+                      ,
+                          "ru": "идти"
+                      ,
+                          "ar": "يذهب"
+                      ,
+                          "zh": "去"
+                      ,
+                          "ja": "行く"
+                      ,
+                          "ko": "가다"
                       },
                       "examples": [
                           {
@@ -96589,6 +97737,16 @@ const FLASHCARD_ALPHA = {
                           "en": "go",
                           "gn": "ha",
                           "es": "ir"
+                      ,
+                          "ru": "горячий"
+                      ,
+                          "ar": "حار"
+                      ,
+                          "zh": "热"
+                      ,
+                          "ja": "暑い"
+                      ,
+                          "ko": "더운"
                       },
                       "examples": [
                           {
@@ -96632,6 +97790,16 @@ const FLASHCARD_ALPHA = {
                           "en": "cup",
                           "gn": "y’uha",
                           "es": "taza"
+                      ,
+                          "ru": "чашка"
+                      ,
+                          "ar": "كوب"
+                      ,
+                          "zh": "杯子"
+                      ,
+                          "ja": "カップ"
+                      ,
+                          "ko": "컵"
                       },
                       "examples": [
                           {
@@ -96655,6 +97823,16 @@ const FLASHCARD_ALPHA = {
                           "en": "use",
                           "gn": "porúvo",
                           "es": "usar"
+                      ,
+                          "ru": "использовать"
+                      ,
+                          "ar": "يستخدم"
+                      ,
+                          "zh": "使用"
+                      ,
+                          "ja": "使う"
+                      ,
+                          "ko": "사용하다"
                       },
                       "examples": [
                           {
@@ -97120,6 +98298,16 @@ const FLASHCARD_ALPHA = {
                           "en": "phone",
                           "gn": "pumbyry",
                           "es": "teléfono"
+                      ,
+                          "ru": "телефон"
+                      ,
+                          "ar": "هاتف"
+                      ,
+                          "zh": "电话"
+                      ,
+                          "ja": "電話"
+                      ,
+                          "ko": "전화기"
                       },
                       "examples": [
                           {
@@ -97144,6 +98332,16 @@ const FLASHCARD_ALPHA = {
                           "en": "night",
                           "gn": "pyhare",
                           "es": "noche"
+                      ,
+                          "ru": "ночь"
+                      ,
+                          "ar": "ليل"
+                      ,
+                          "zh": "夜��"
+                      ,
+                          "ja": "夜"
+                      ,
+                          "ko": "밤"
                       },
                       "examples": [
                           {
@@ -97168,6 +98366,16 @@ const FLASHCARD_ALPHA = {
                           "en": "write",
                           "gn": "hai",
                           "es": "escribir"
+                      ,
+                          "ru": "писать"
+                      ,
+                          "ar": "يكتب"
+                      ,
+                          "zh": "写"
+                      ,
+                          "ja": "書く"
+                      ,
+                          "ko": "쓰다"
                       },
                       "examples": [
                           {
@@ -97192,6 +98400,16 @@ const FLASHCARD_ALPHA = {
                           "en": "know",
                           "gn": "kuaa",
                           "es": "saber"
+                      ,
+                          "ru": "знать"
+                      ,
+                          "ar": "يعرف"
+                      ,
+                          "zh": "知道"
+                      ,
+                          "ja": "知る"
+                      ,
+                          "ko": "알다"
                       },
                       "examples": [
                           {
@@ -97216,6 +98434,16 @@ const FLASHCARD_ALPHA = {
                           "en": "queen",
                           "gn": "mburuvicha kuña",
                           "es": "reina"
+                      ,
+                          "ru": "королева"
+                      ,
+                          "ar": "ملكة"
+                      ,
+                          "zh": "女王"
+                      ,
+                          "ja": "女王"
+                      ,
+                          "ko": "여왕"
                       },
                       "examples": [
                           {
@@ -97240,6 +98468,16 @@ const FLASHCARD_ALPHA = {
                           "en": "back",
                           "gn": "apyka",
                           "es": "espalda"
+                      ,
+                          "ru": "назад"
+                      ,
+                          "ar": "خلف"
+                      ,
+                          "zh": "回来"
+                      ,
+                          "ja": "背中"
+                      ,
+                          "ko": "뒤"
                       },
                       "examples": [
                           {
