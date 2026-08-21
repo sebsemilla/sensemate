@@ -1,1557 +1,1555 @@
 // flashcard_data_a1.js — Nivel A1 para SenseMate (ES, EN, FR, IT, PT + DE, KO, JA, RU, AR, ZH, GN, QU, WO, HA, YO)
-// Requiere flashcard_data.js cargado antes.
-
 const FLASHCARD_A1 = {
   es: {
-    level: 'A1',
-    levelName: 'Me puedo presentar',
+    level: "A1",
+    levelName: "Me puedo presentar",
     groups: [
       {
-        id: 'es_a1_g1',
-        name: 'Saludos y presentaciones',
-        icon: '👋',
-        color: '#6366f1',
-        description: 'Cómo saludar, presentarte y despedirte',
+        id: "es_a1_g1",
+        name: "Saludos y presentaciones",
+        icon: "👋",
+        color: "#6366f1",
+        description: "Cómo saludar, presentarte y despedirte",
         cards: [
           {
-            id: 'es_a1_g1_01',
-            word: 'hola',
-            emoji: '👋',
+            id: "es_a1_g1_01",
+            word: "hola",
+            emoji: "👋",
             translations: {
-              es: 'hola',
-              en: 'hello',
-              fr: 'bonjour',
-              it: 'ciao',
-              pt: 'olá',
-              de: 'Hallo',
-              ko: '안녕하세요',
-              ja: 'こんにちは',
-              ru: 'привет',
-              ar: 'مرحبا',
-              zh: '你好',
+              es: "hola",
+              en: "hello",
+              fr: "bonjour",
+              it: "ciao",
+              pt: "olá",
+              de: "Hallo",
+              ko: "안녕하세요",
+              ja: "こんにちは",
+              ru: "привет",
+              ar: "مرحبا",
+              zh: "你好",
               gn: "Mba'éichapa",
-              qu: 'Rimaykullayki',
-              wo: 'Salamalekum',
-              ha: 'Sannu',
-              yo: 'Ẹ n lẹ'
+              qu: "Rimaykullayki",
+              wo: "Salamalekum",
+              ha: "Sannu",
+              yo: "Ẹ n lẹ"
             },
             examples: [
               {
-                t: '¡Hola! ¿Cómo estás?'
+                t: "¡Hola! ¿Cómo estás?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_02',
-            word: 'adiós',
-            emoji: '🙋',
+            id: "es_a1_g1_02",
+            word: "adiós",
+            emoji: "🙋",
             translations: {
-              es: 'adiós',
-              en: 'goodbye',
-              fr: 'au revoir',
-              it: 'arrivederci',
-              pt: 'adeus',
-              de: 'Tschüss',
-              ko: '안녕히 가세요',
-              ja: 'さようなら',
-              ru: 'пока',
-              ar: 'وداعا',
-              zh: '再见',
-              gn: 'Aguyjevete',
+              es: "adiós",
+              en: "goodbye",
+              fr: "au revoir",
+              it: "arrivederci",
+              pt: "adeus",
+              de: "Tschüss",
+              ko: "안녕히 가세요",
+              ja: "さようなら",
+              ru: "пока",
+              ar: "وداعا",
+              zh: "再见",
+              gn: "Aguyjevete",
               qu: "K'uychi",
-              wo: 'Ba beneen',
-              ha: 'Da ku gode',
-              yo: 'O dàbọ̀'
+              wo: "Ba beneen",
+              ha: "Da ku gode",
+              yo: "O dàbọ̀"
             },
             examples: [
               {
-                t: 'Adiós, hasta mañana.'
+                t: "Adiós, hasta mañana."
               }
             ]
           },
           {
-            id: 'es_a1_g1_03',
-            word: 'buenos días',
-            emoji: '🌅',
+            id: "es_a1_g1_03",
+            word: "buenos días",
+            emoji: "🌅",
             translations: {
-              es: 'buenos días',
-              en: 'good morning',
-              fr: 'bonjour',
-              it: 'buongiorno',
-              pt: 'bom dia',
-              de: 'Guten Tag',
-              ko: '좋은 아침',
-              ja: 'おはようございます',
-              ru: 'доброе утро',
-              ar: 'صباح الخير',
-              zh: '早上好',
+              es: "buenos días",
+              en: "good morning",
+              fr: "bonjour",
+              it: "buongiorno",
+              pt: "bom dia",
+              de: "Guten Tag",
+              ko: "좋은 아침",
+              ja: "おはようございます",
+              ru: "доброе утро",
+              ar: "صباح الخير",
+              zh: "早上好",
               gn: "Mba'éichapa ha'evéma",
-              qu: 'Rimaykullayki punchaw',
-              wo: 'Jàmm rekk',
-              ha: 'Barka da yamma',
-              yo: 'E kaaro'
+              qu: "Rimaykullayki punchaw",
+              wo: "Jàmm rekk",
+              ha: "Barka da yamma",
+              yo: "E kaaro"
             },
             examples: [
               {
-                t: 'Buenos días, ¿cómo te llamas?'
+                t: "Buenos días, ¿cómo te llamas?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_04',
-            word: 'buenas noches',
-            emoji: '🌙',
+            id: "es_a1_g1_04",
+            word: "buenas noches",
+            emoji: "🌙",
             translations: {
-              es: 'buenas noches',
-              en: 'good night',
-              fr: 'bonne nuit',
-              it: 'buonanotte',
-              pt: 'boa noite',
-              de: 'Guten Abend',
-              ko: '좋은 저녁',
-              ja: 'こんばんは',
-              ru: 'добрый вечер',
-              ar: 'مساء الخير',
-              zh: '晚上好',
+              es: "buenas noches",
+              en: "good night",
+              fr: "bonne nuit",
+              it: "buonanotte",
+              pt: "boa noite",
+              de: "Guten Abend",
+              ko: "좋은 저녁",
+              ja: "こんばんは",
+              ru: "добрый вечер",
+              ar: "مساء الخير",
+              zh: "晚上好",
               gn: "Mba'éichapa pyhare",
-              qu: 'Rimaykullayki qhepa simi',
-              wo: 'Jàmm alal',
-              ha: 'Barka da dare',
-              yo: 'E kaaro ale'
+              qu: "Rimaykullayki qhepa simi",
+              wo: "Jàmm alal",
+              ha: "Barka da dare",
+              yo: "E kaaro ale"
             },
             examples: [
               {
-                t: 'Buenas noches, hasta mañana.'
+                t: "Buenas noches, hasta mañana."
               }
             ]
           },
           {
-            id: 'es_a1_g1_05',
-            word: '¿cómo te llamas?',
-            emoji: '🏷️',
+            id: "es_a1_g1_05",
+            word: "¿cómo te llamas?",
+            emoji: "🏷️",
             translations: {
-              es: '¿cómo te llamas?',
+              es: "¿cómo te llamas?",
               en: "what's your name?",
               fr: "comment tu t'appelles?",
-              it: 'come ti chiami?',
-              pt: 'como você se chama?',
-              de: 'Wie heißt du?',
-              ko: '네 이름이 뭐야?',
-              ja: 'あなたの名前は何ですか？',
-              ru: 'Как тебя зовут?',
-              ar: 'ما اسمك؟',
-              zh: '你叫什么名字？',
+              it: "come ti chiami?",
+              pt: "como você se chama?",
+              de: "Wie heißt du?",
+              ko: "네 이름이 뭐야?",
+              ja: "あなたの名前は何ですか？",
+              ru: "Как тебя зовут?",
+              ar: "ما اسمك؟",
+              zh: "你叫什么名字？",
               gn: "Mba'éichapa reime?",
-              qu: 'Imaynam kallankichu?',
-              wo: 'Noo nga jëm?',
-              ha: 'Menene sunanka?',
-              yo: 'Kí ni orúkọ rẹ?'
+              qu: "Imaynam kallankichu?",
+              wo: "Noo nga jëm?",
+              ha: "Menene sunanka?",
+              yo: "Kí ni orúkọ rẹ?"
             },
             examples: [
               {
-                t: '¿Cómo te llamas? — Me llamo Ana.'
+                t: "¿Cómo te llamas? — Me llamo Ana."
               }
             ]
           },
           {
-            id: 'es_a1_g1_06',
-            word: 'me llamo',
-            emoji: '😊',
+            id: "es_a1_g1_06",
+            word: "me llamo",
+            emoji: "😊",
             translations: {
-              es: 'me llamo',
-              en: 'my name is',
+              es: "me llamo",
+              en: "my name is",
               fr: "je m'appelle",
-              it: 'mi chiamo',
-              pt: 'me chamo',
-              de: 'Ich heiße',
-              ko: '제 이름은',
-              ja: '私の名前は',
-              ru: 'Меня зовут',
-              ar: 'اسمي',
-              zh: '我的名字是',
-              gn: 'Che reime',
-              qu: 'Niyqa kani',
-              wo: 'Jëm laa',
-              ha: 'Sunayni',
-              yo: 'Orúkọ mi ni'
+              it: "mi chiamo",
+              pt: "me chamo",
+              de: "Ich heiße",
+              ko: "제 이름은",
+              ja: "私の名前は",
+              ru: "Меня зовут",
+              ar: "اسمي",
+              zh: "我的名字是",
+              gn: "Che reime",
+              qu: "Niyqa kani",
+              wo: "Jëm laa",
+              ha: "Sunayni",
+              yo: "Orúkọ mi ni"
             },
             examples: [
               {
-                t: 'Me llamo Carlos. Mucho gusto.'
+                t: "Me llamo Carlos. Mucho gusto."
               }
             ]
           },
           {
-            id: 'es_a1_g1_07',
-            word: '¿cómo estás?',
-            emoji: '🤔',
+            id: "es_a1_g1_07",
+            word: "¿cómo estás?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo estás?',
-              en: 'how are you?',
-              fr: 'comment ça va?',
-              it: 'come stai?',
-              pt: 'como vai?',
-              de: 'Wie geht es dir?',
-              ko: '어떻게 지내세요?',
-              ja: 'お元気ですか？',
-              ru: 'Как дела?',
-              ar: 'كيف حالك؟',
-              zh: '你好吗？',
+              es: "¿cómo estás?",
+              en: "how are you?",
+              fr: "comment ça va?",
+              it: "come stai?",
+              pt: "como vai?",
+              de: "Wie geht es dir?",
+              ko: "어떻게 지내세요?",
+              ja: "お元気ですか？",
+              ru: "Как дела?",
+              ar: "كيف حالك؟",
+              zh: "你好吗？",
               gn: "Mba'éichapa reiko?",
-              qu: 'Imaynallaq kashankichu?',
-              wo: 'Naka nga jaay?',
-              ha: 'Yaya kake?',
-              yo: 'Báwo ni o se wa?'
+              qu: "Imaynallaq kashankichu?",
+              wo: "Naka nga jaay?",
+              ha: "Yaya kake?",
+              yo: "Báwo ni o se wa?"
             },
             examples: [
               {
-                t: '¿Cómo estás? — Muy bien, gracias.'
+                t: "¿Cómo estás? — Muy bien, gracias."
               }
             ]
           },
           {
-            id: 'es_a1_g1_08',
-            word: 'muy bien',
-            emoji: '😄',
+            id: "es_a1_g1_08",
+            word: "muy bien",
+            emoji: "😄",
             translations: {
-              es: 'muy bien',
-              en: 'very well',
-              fr: 'très bien',
-              it: 'molto bene',
-              pt: 'muito bem',
-              de: 'Sehr gut',
-              ko: '매우 좋습니다',
-              ja: 'とても良いです',
-              ru: 'очень хорошо',
-              ar: 'جيد جدا',
-              zh: '很好',
+              es: "muy bien",
+              en: "very well",
+              fr: "très bien",
+              it: "molto bene",
+              pt: "muito bem",
+              de: "Sehr gut",
+              ko: "매우 좋습니다",
+              ja: "とても良いです",
+              ru: "очень хорошо",
+              ar: "جيد جدا",
+              zh: "很好",
               gn: "Mba'éichapa iporã",
-              qu: 'Allinlla',
-              wo: 'Buur guèpp',
-              ha: 'Daya kamfani',
-              yo: 'Dáradára'
+              qu: "Allinlla",
+              wo: "Buur guèpp",
+              ha: "Daya kamfani",
+              yo: "Dáradára"
             },
             examples: [
               {
-                t: '¿Cómo estás? — Muy bien, ¿y tú?'
+                t: "¿Cómo estás? — Muy bien, ¿y tú?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_09',
-            word: 'más o menos',
-            emoji: '🤷',
+            id: "es_a1_g1_09",
+            word: "más o menos",
+            emoji: "🤷",
             translations: {
-              es: 'más o menos',
-              en: 'so-so',
-              fr: 'comme ci comme ça',
-              it: 'così così',
-              pt: 'mais ou menos',
-              de: 'So lala',
-              ko: '그럭저럭',
-              ja: 'まあまあ',
-              ru: 'так себе',
-              ar: 'على ما يرام',
-              zh: '还不错',
+              es: "más o menos",
+              en: "so-so",
+              fr: "comme ci comme ça",
+              it: "così così",
+              pt: "mais ou menos",
+              de: "So lala",
+              ko: "그럭저럭",
+              ja: "まあまあ",
+              ru: "так себе",
+              ar: "على ما يرام",
+              zh: "还不错",
               gn: "Mba'éichapa jepe",
-              qu: 'Mana allinchu',
-              wo: 'Mëdd mëdd',
-              ha: 'Kwai kwai',
-              yo: 'Kí í ṣe'
+              qu: "Mana allinchu",
+              wo: "Mëdd mëdd",
+              ha: "Kwai kwai",
+              yo: "Kí í ṣe"
             },
             examples: [
               {
-                t: '¿Cómo estás? — Más o menos.'
+                t: "¿Cómo estás? — Más o menos."
               }
             ]
           },
           {
-            id: 'es_a1_g1_10',
-            word: 'mucho gusto',
-            emoji: '🤝',
+            id: "es_a1_g1_10",
+            word: "mucho gusto",
+            emoji: "🤝",
             translations: {
-              es: 'mucho gusto',
-              en: 'nice to meet you',
-              fr: 'enchanté',
-              it: 'piacere',
-              pt: 'prazer',
-              de: 'Freut mich',
-              ko: '만나서 반갑습니다',
-              ja: 'お会いできて嬉しいです',
-              ru: 'рад встрече',
-              ar: 'سعيد بلقائك',
-              zh: '很高兴见到你',
-              gn: 'Aguyjevete',
-              qu: 'Kuychi',
-              wo: 'Mëngi lay baax',
-              ha: 'Ina son ki',
-              yo: 'Ẹ yìn mọ̀'
+              es: "mucho gusto",
+              en: "nice to meet you",
+              fr: "enchanté",
+              it: "piacere",
+              pt: "prazer",
+              de: "Freut mich",
+              ko: "만나서 반갑습니다",
+              ja: "お会いできて嬉しいです",
+              ru: "рад встрече",
+              ar: "سعيد بلقائك",
+              zh: "很高兴见到你",
+              gn: "Aguyjevete",
+              qu: "Kuychi",
+              wo: "Mëngi lay baax",
+              ha: "Ina son ki",
+              yo: "Ẹ yìn mọ̀"
             },
             examples: [
               {
-                t: 'Me llamo Sofía. — Mucho gusto.'
+                t: "Me llamo Sofía. — Mucho gusto."
               }
             ]
           },
           {
-            id: 'es_a1_g1_11',
-            word: 'bienvenido/a',
-            emoji: '🎉',
+            id: "es_a1_g1_11",
+            word: "bienvenido/a",
+            emoji: "🎉",
             translations: {
-              es: 'bienvenido',
-              en: 'welcome',
-              fr: 'bienvenue',
-              it: 'benvenuto',
-              pt: 'bem-vindo',
-              de: 'Willkommen',
-              ko: '환영합니다',
-              ja: 'ようこそ',
-              ru: 'добро пожаловать',
-              ar: 'أهلا وسهلا',
-              zh: '欢迎',
-              gn: 'Bienvenido',
+              es: "bienvenido",
+              en: "welcome",
+              fr: "bienvenue",
+              it: "benvenuto",
+              pt: "bem-vindo",
+              de: "Willkommen",
+              ko: "환영합니다",
+              ja: "ようこそ",
+              ru: "добро пожаловать",
+              ar: "أهلا وسهلا",
+              zh: "欢迎",
+              gn: "Bienvenido",
               qu: "Allin hamut'ana",
-              wo: 'Jàmm jigeen',
-              ha: 'Barka da zuwa',
-              yo: 'Ẹ wà pèlẹ̀'
+              wo: "Jàmm jigeen",
+              ha: "Barka da zuwa",
+              yo: "Ẹ wà pèlẹ̀"
             },
             examples: [
               {
-                t: '¡Bienvenido a nuestra ciudad!'
+                t: "¡Bienvenido a nuestra ciudad!"
               }
             ]
           },
           {
-            id: 'es_a1_g1_12',
-            word: '¿de dónde eres?',
-            emoji: '🌍',
+            id: "es_a1_g1_12",
+            word: "¿de dónde eres?",
+            emoji: "🌍",
             translations: {
-              es: '¿de dónde eres?',
-              en: 'where are you from?',
+              es: "¿de dónde eres?",
+              en: "where are you from?",
               fr: "tu viens d'où?",
-              it: 'di dove sei?',
-              pt: 'de onde você é?',
-              de: 'Woher kommst du?',
-              ko: '어디에서 오셨어요?',
-              ja: 'どこから来ましたか？',
-              ru: 'Откуда ты?',
-              ar: 'من أين أنت؟',
-              zh: '你从哪里来？',
+              it: "di dove sei?",
+              pt: "de onde você é?",
+              de: "Woher kommst du?",
+              ko: "어디에서 오셨어요?",
+              ja: "どこから来ましたか？",
+              ru: "Откуда ты?",
+              ar: "من أين أنت؟",
+              zh: "你从哪里来？",
               gn: "Mba'épa ichupe?",
-              qu: 'Qhamanpi kashanchu?',
-              wo: 'Dóo nga dégg?',
-              ha: 'Ina ka zo?',
-              yo: 'Níbo ni o wá?'
+              qu: "Qhamanpi kashanchu?",
+              wo: "Dóo nga dégg?",
+              ha: "Ina ka zo?",
+              yo: "Níbo ni o wá?"
             },
             examples: [
               {
-                t: '¿De dónde eres? — Soy de México.'
+                t: "¿De dónde eres? — Soy de México."
               }
             ]
           },
           {
-            id: 'es_a1_g1_13',
-            word: 'soy de',
-            emoji: '📍',
+            id: "es_a1_g1_13",
+            word: "soy de",
+            emoji: "📍",
             translations: {
-              es: 'soy de',
+              es: "soy de",
               en: "I'm from",
-              fr: 'je viens de',
-              it: 'sono di',
-              pt: 'sou de',
-              de: 'Ich komme aus',
-              ko: '저는 ...에서 왔습니다',
-              ja: '私は...から来ました',
-              ru: 'Я из',
-              ar: 'أنا من',
-              zh: '我来自',
+              fr: "je viens de",
+              it: "sono di",
+              pt: "sou de",
+              de: "Ich komme aus",
+              ko: "저는 ...에서 왔습니다",
+              ja: "私は...から来ました",
+              ru: "Я из",
+              ar: "أنا من",
+              zh: "我来自",
               gn: "Che ha'e ...-pe",
-              qu: 'Niyqa ...-manta',
-              wo: 'Maa nga jóge ...',
-              ha: 'Ina na zo ...',
-              yo: 'Mo wa ni ...'
+              qu: "Niyqa ...-manta",
+              wo: "Maa nga jóge ...",
+              ha: "Ina na zo ...",
+              yo: "Mo wa ni ..."
             },
             examples: [
               {
-                t: 'Soy de Argentina, ¿y tú?'
+                t: "Soy de Argentina, ¿y tú?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_14',
-            word: 'perdón / disculpa',
-            emoji: '🙏',
+            id: "es_a1_g1_14",
+            word: "perdón / disculpa",
+            emoji: "🙏",
             translations: {
-              es: 'perdón',
-              en: 'sorry / excuse me',
-              fr: 'pardon',
-              it: 'scusa',
-              pt: 'desculpe',
-              de: 'Entschuldigung',
-              ko: '미안합니다',
-              ja: 'すみません',
-              ru: 'извините',
-              ar: 'عذرًا',
-              zh: '对不起',
-              gn: 'Perdón',
-              qu: 'Pakarikuy',
-              wo: 'Maaf',
-              ha: 'Goma',
-              yo: 'E ma binu'
+              es: "perdón",
+              en: "sorry / excuse me",
+              fr: "pardon",
+              it: "scusa",
+              pt: "desculpe",
+              de: "Entschuldigung",
+              ko: "미안합니다",
+              ja: "すみません",
+              ru: "извините",
+              ar: "عذرًا",
+              zh: "对不起",
+              gn: "Perdón",
+              qu: "Pakarikuy",
+              wo: "Maaf",
+              ha: "Goma",
+              yo: "E ma binu"
             },
             examples: [
               {
-                t: 'Perdón, ¿puedes repetir más despacio?'
+                t: "Perdón, ¿puedes repetir más despacio?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_15',
-            word: 'no entiendo',
-            emoji: '❓',
+            id: "es_a1_g1_15",
+            word: "no entiendo",
+            emoji: "❓",
             translations: {
-              es: 'no entiendo',
+              es: "no entiendo",
               en: "I don't understand",
-              fr: 'je ne comprends pas',
-              it: 'non capisco',
-              pt: 'não entendo',
-              de: 'Ich verstehe nicht',
-              ko: '이해하지 못하겠어요',
-              ja: 'わかりません',
-              ru: 'Я не понимаю',
-              ar: 'لا أفهم',
-              zh: '我不懂',
+              fr: "je ne comprends pas",
+              it: "non capisco",
+              pt: "não entendo",
+              de: "Ich verstehe nicht",
+              ko: "이해하지 못하겠어요",
+              ja: "わかりません",
+              ru: "Я не понимаю",
+              ar: "لا أفهم",
+              zh: "我不懂",
               gn: "Ndaikuaa'ỹrei",
-              qu: 'Manam entiendinchu',
-              wo: 'Ma nga xamoon naa',
-              ha: 'Babu kaina',
-              yo: 'Mo ti mo gbọ́'
+              qu: "Manam entiendinchu",
+              wo: "Ma nga xamoon naa",
+              ha: "Babu kaina",
+              yo: "Mo ti mo gbọ́"
             },
             examples: [
               {
-                t: 'No entiendo. ¿Puedes hablar más lento?'
+                t: "No entiendo. ¿Puedes hablar más lento?"
               }
             ]
           },
           {
-            id: 'es_a1_g1_D01',
-            type: 'dialogue',
-            context: 'Dos personas se conocen en una reunión',
+            id: "es_a1_g1_D01",
+            type: "dialogue",
+            context: "Dos personas se conocen en una reunión",
             dialogue: [
               {
-                speaker: 'Mónica',
-                line: '¡Hola! Eres Julián, ¿verdad?'
+                speaker: "Mónica",
+                line: "¡Hola! Eres Julián, ¿verdad?"
               },
               {
-                speaker: 'Julián',
-                line: 'Sí. ¿Y tú, cómo te llamas?'
+                speaker: "Julián",
+                line: "Sí. ¿Y tú, cómo te llamas?"
               },
               {
-                speaker: 'Mónica',
-                line: 'Me llamo Mónica. ¡Mucho gusto!'
+                speaker: "Mónica",
+                line: "Me llamo Mónica. ¡Mucho gusto!"
               },
               {
-                speaker: 'Julián',
-                line: 'Mucho gusto. ¿De dónde eres?'
+                speaker: "Julián",
+                line: "Mucho gusto. ¿De dónde eres?"
               },
               {
-                speaker: 'Mónica',
-                line: 'Soy de Buenos Aires. ¿Y tú?'
+                speaker: "Mónica",
+                line: "Soy de Buenos Aires. ¿Y tú?"
               },
               {
-                speaker: 'Julián',
-                line: 'Yo soy de Madrid. ¡Bienvenida!'
+                speaker: "Julián",
+                line: "Yo soy de Madrid. ¡Bienvenida!"
               }
             ],
-            note: 'Presentarse y preguntar el origen.',
+            note: "Presentarse y preguntar el origen.",
             translations: {
-              es: 'Presentarse',
-              en: 'Introducing yourself',
-              fr: 'Se présenter',
-              it: 'Presentarsi',
-              pt: 'Apresentar-se',
-              de: 'Sich vorstellen',
-              ko: '자기소개',
-              ja: '自己紹介',
-              ru: 'представиться',
-              ar: 'التعريف بالنفس',
-              zh: '自我介绍',
-              gn: 'Ojepresenta',
-              qu: 'Willana',
-              wo: 'Wóor na taxaw',
-              ha: 'Bayanin kanka',
-              yo: 'Kí í ṣe àtẹ̀jáde'
+              es: "Presentarse",
+              en: "Introducing yourself",
+              fr: "Se présenter",
+              it: "Presentarsi",
+              pt: "Apresentar-se",
+              de: "Sich vorstellen",
+              ko: "자기소개",
+              ja: "自己紹介",
+              ru: "представиться",
+              ar: "التعريف بالنفس",
+              zh: "自我介绍",
+              gn: "Ojepresenta",
+              qu: "Willana",
+              wo: "Wóor na taxaw",
+              ha: "Bayanin kanka",
+              yo: "Kí í ṣe àtẹ̀jáde"
             }
           },
           {
-            id: 'es_a1_g1_D02',
-            type: 'dialogue',
-            context: 'Al final de una conversación',
+            id: "es_a1_g1_D02",
+            type: "dialogue",
+            context: "Al final de una conversación",
             dialogue: [
               {
-                speaker: 'Ana',
-                line: 'Bueno, me tengo que ir. ¡Fue un placer!'
+                speaker: "Ana",
+                line: "Bueno, me tengo que ir. ¡Fue un placer!"
               },
               {
-                speaker: 'Pedro',
-                line: 'Igualmente. ¡Hasta pronto!'
+                speaker: "Pedro",
+                line: "Igualmente. ¡Hasta pronto!"
               },
               {
-                speaker: 'Ana',
-                line: '¡Adiós! ¡Que tengas un buen día!'
+                speaker: "Ana",
+                line: "¡Adiós! ¡Que tengas un buen día!"
               },
               {
-                speaker: 'Pedro',
-                line: '¡Tú también!'
+                speaker: "Pedro",
+                line: "¡Tú también!"
               }
             ],
-            note: 'Despedirse de forma amistosa.',
+            note: "Despedirse de forma amistosa.",
             translations: {
-              es: 'Despedirse',
-              en: 'Saying goodbye',
-              fr: 'Dire au revoir',
-              it: 'Salutarsi',
-              pt: 'Despedir-se',
-              de: 'Sich verabschieden',
-              ko: '작별 인사',
-              ja: 'お別れ',
-              ru: 'прощаться',
-              ar: 'الوداع',
-              zh: '告别',
+              es: "Despedirse",
+              en: "Saying goodbye",
+              fr: "Dire au revoir",
+              it: "Salutarsi",
+              pt: "Despedir-se",
+              de: "Sich verabschieden",
+              ko: "작별 인사",
+              ja: "お別れ",
+              ru: "прощаться",
+              ar: "الوداع",
+              zh: "告别",
               gn: "Oje'o",
               qu: "K'uychi",
-              wo: 'Bax na',
-              ha: 'Ku tsallaka',
-              yo: 'Kí í ṣe ìbẹ̀rẹ̀ ìrìn'
+              wo: "Bax na",
+              ha: "Ku tsallaka",
+              yo: "Kí í ṣe ìbẹ̀rẹ̀ ìrìn"
             }
           }
         ]
       },
       {
-        id: 'es_a1_g2',
-        name: 'Cantidades y estados',
-        icon: '😋',
-        color: '#f59e0b',
-        description: 'Expresar necesidades, sensaciones y el clima',
+        id: "es_a1_g2",
+        name: "Cantidades y estados",
+        icon: "😋",
+        color: "#f59e0b",
+        description: "Expresar necesidades, sensaciones y el clima",
         reviewFrom: [
           "es_a1_g1"
         ],
         cards: [
           {
-            id: 'es_a1_g2_01',
-            word: 'hambre',
-            emoji: '🍽️',
+            id: "es_a1_g2_01",
+            word: "hambre",
+            emoji: "🍽️",
             translations: {
-              es: 'hambre',
-              en: 'hunger / hungry',
-              fr: 'faim',
-              it: 'fame',
-              pt: 'fome',
-              de: 'Hunger',
-              ko: '배고픔',
-              ja: '空腹',
-              ru: 'голод',
-              ar: 'جوع',
-              zh: '饥饿',
+              es: "hambre",
+              en: "hunger / hungry",
+              fr: "faim",
+              it: "fame",
+              pt: "fome",
+              de: "Hunger",
+              ko: "배고픔",
+              ja: "空腹",
+              ru: "голод",
+              ar: "جوع",
+              zh: "饥饿",
               gn: "Añembo'",
-              qu: 'Musuy',
-              wo: 'Bëcc',
-              ha: 'Yankin ciki',
-              yo: 'Ìgbèsẹ̀'
+              qu: "Musuy",
+              wo: "Bëcc",
+              ha: "Yankin ciki",
+              yo: "Ìgbèsẹ̀"
             },
             examples: [
               {
-                t: 'Tengo mucha hambre. ¿Comemos?'
+                t: "Tengo mucha hambre. ¿Comemos?"
               }
             ]
           },
           {
-            id: 'es_a1_g2_02',
-            word: 'sed',
-            emoji: '💧',
+            id: "es_a1_g2_02",
+            word: "sed",
+            emoji: "💧",
             translations: {
-              es: 'sed',
-              en: 'thirst / thirsty',
-              fr: 'soif',
-              it: 'sete',
-              pt: 'sede',
-              de: 'Durst',
-              ko: '목마름',
-              ja: '渇き',
-              ru: 'жажда',
-              ar: 'عطش',
-              zh: '口渴',
-              gn: 'Añembyasy',
+              es: "sed",
+              en: "thirst / thirsty",
+              fr: "soif",
+              it: "sete",
+              pt: "sede",
+              de: "Durst",
+              ko: "목마름",
+              ja: "渇き",
+              ru: "жажда",
+              ar: "عطش",
+              zh: "口渴",
+              gn: "Añembyasy",
               qu: "P'isyay",
-              wo: 'Dëgg',
-              ha: 'Yankin ruwa',
-              yo: 'Ìfẹ́ ìmọ́lẹ̀'
+              wo: "Dëgg",
+              ha: "Yankin ruwa",
+              yo: "Ìfẹ́ ìmọ́lẹ̀"
             },
             examples: [
               {
-                t: 'Tengo sed. ¿Hay agua?'
+                t: "Tengo sed. ¿Hay agua?"
               }
             ]
           },
           {
-            id: 'es_a1_g2_03',
-            word: 'frío',
-            emoji: '🥶',
+            id: "es_a1_g2_03",
+            word: "frío",
+            emoji: "🥶",
             translations: {
-              es: 'frío',
-              en: 'cold',
-              fr: 'froid',
-              it: 'freddo',
-              pt: 'frio',
-              de: 'Kälte',
-              ko: '추위',
-              ja: '寒さ',
-              ru: 'холод',
-              ar: 'برد',
-              zh: '寒冷',
-              gn: 'Añemby',
-              qu: 'Chiri',
-              wo: 'Bañ',
-              ha: 'Yankin sanyi',
-              yo: 'Ọkẹ́'
+              es: "frío",
+              en: "cold",
+              fr: "froid",
+              it: "freddo",
+              pt: "frio",
+              de: "Kälte",
+              ko: "추위",
+              ja: "寒さ",
+              ru: "холод",
+              ar: "برد",
+              zh: "寒冷",
+              gn: "Añemby",
+              qu: "Chiri",
+              wo: "Bañ",
+              ha: "Yankin sanyi",
+              yo: "Ọkẹ́"
             },
             examples: [
               {
-                t: 'Tengo frío. ¿Puedo cerrar la ventana?'
+                t: "Tengo frío. ¿Puedo cerrar la ventana?"
               }
             ]
           },
           {
-            id: 'es_a1_g2_04',
-            word: 'calor',
-            emoji: '🌡️',
+            id: "es_a1_g2_04",
+            word: "calor",
+            emoji: "🌡️",
             translations: {
-              es: 'calor',
-              en: 'heat / hot',
-              fr: 'chaleur',
-              it: 'caldo',
-              pt: 'calor',
-              de: 'Hitze',
-              ko: '열',
-              ja: '暑さ',
-              ru: 'жара',
-              ar: 'حرارة',
-              zh: '热',
+              es: "calor",
+              en: "heat / hot",
+              fr: "chaleur",
+              it: "caldo",
+              pt: "calor",
+              de: "Hitze",
+              ko: "열",
+              ja: "暑さ",
+              ru: "жара",
+              ar: "حرارة",
+              zh: "热",
               gn: "tembi'u",
               qu: "q'asa",
-              wo: 'ñakk',
-              ha: 'yankin jini',
-              yo: 'ìtàn'
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Hace calor. Voy a abrir la ventana.'
+                t: "Hace calor. Voy a abrir la ventana."
               }
             ]
           },
           {
-            id: 'es_a1_g2_05',
-            word: 'cansado/a',
-            emoji: '😴',
+            id: "es_a1_g2_05",
+            word: "cansado/a",
+            emoji: "😴",
             translations: {
-              es: 'cansado',
-              en: 'tired',
-              fr: 'fatigué',
-              it: 'stanco',
-              pt: 'cansado',
-              de: 'müde',
-              ko: '피곤한',
-              ja: '疲れた',
-              ru: 'усталый',
-              ar: 'متعب',
-              zh: '累',
-              gn: 'pyahu',
+              es: "cansado",
+              en: "tired",
+              fr: "fatigué",
+              it: "stanco",
+              pt: "cansado",
+              de: "müde",
+              ko: "피곤한",
+              ja: "疲れた",
+              ru: "усталый",
+              ar: "متعب",
+              zh: "累",
+              gn: "pyahu",
               qu: "lluk'iy",
-              wo: 'neex',
-              ha: 'talle',
-              yo: 'kúkúrú'
+              wo: "neex",
+              ha: "talle",
+              yo: "kúkúrú"
             },
             examples: [
               {
-                t: 'Estoy muy cansado. Quiero dormir.'
+                t: "Estoy muy cansado. Quiero dormir."
               }
             ]
           },
           {
-            id: 'es_a1_g2_06',
-            word: 'mucho/a',
-            emoji: '📊',
+            id: "es_a1_g2_06",
+            word: "mucho/a",
+            emoji: "📊",
             translations: {
-              es: 'mucho',
-              en: 'a lot / very',
-              fr: 'beaucoup',
-              it: 'molto',
-              pt: 'muito',
-              de: 'viel',
-              ko: '많이',
-              ja: 'たくさん',
-              ru: 'много',
-              ar: 'كثير',
-              zh: '很多',
-              gn: 'pyahu',
-              qu: 'pacha',
-              wo: 'buñ',
-              ha: 'yawa',
-              yo: 'púpọ̀'
+              es: "mucho",
+              en: "a lot / very",
+              fr: "beaucoup",
+              it: "molto",
+              pt: "muito",
+              de: "viel",
+              ko: "많이",
+              ja: "たくさん",
+              ru: "много",
+              ar: "كثير",
+              zh: "很多",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Tengo mucho trabajo hoy.'
+                t: "Tengo mucho trabajo hoy."
               }
             ]
           },
           {
-            id: 'es_a1_g2_07',
-            word: 'poco/a',
-            emoji: '🤏',
+            id: "es_a1_g2_07",
+            word: "poco/a",
+            emoji: "🤏",
             translations: {
-              es: 'poco',
-              en: 'a little / few',
-              fr: 'peu',
-              it: 'poco',
-              pt: 'pouco',
-              de: 'wenig',
-              ko: '조금',
-              ja: '少し',
-              ru: 'немного',
-              ar: 'قليل',
-              zh: '少',
+              es: "poco",
+              en: "a little / few",
+              fr: "peu",
+              it: "poco",
+              pt: "pouco",
+              de: "wenig",
+              ko: "조금",
+              ja: "少し",
+              ru: "немного",
+              ar: "قليل",
+              zh: "少",
               gn: "po'a",
-              qu: 'phisi',
-              wo: 'benn',
-              ha: 'sau',
-              yo: 'díẹ̀'
+              qu: "phisi",
+              wo: "benn",
+              ha: "sau",
+              yo: "díẹ̀"
             },
             examples: [
               {
-                t: 'Tengo poco tiempo.'
+                t: "Tengo poco tiempo."
               }
             ]
           },
           {
-            id: 'es_a1_g2_08',
-            word: 'bastante',
-            emoji: '👌',
+            id: "es_a1_g2_08",
+            word: "bastante",
+            emoji: "👌",
             translations: {
-              es: 'bastante',
-              en: 'quite / enough',
-              fr: 'assez',
-              it: 'abbastanza',
-              pt: 'bastante',
-              de: 'ziemlich',
-              ko: '제법',
-              ja: 'かなり',
-              ru: 'довольно',
-              ar: 'كثيرا',
-              zh: '相当',
-              gn: 'pyahu',
-              qu: 'pacha',
-              wo: 'buñ',
-              ha: 'yawa',
-              yo: 'púpọ̀'
+              es: "bastante",
+              en: "quite / enough",
+              fr: "assez",
+              it: "abbastanza",
+              pt: "bastante",
+              de: "ziemlich",
+              ko: "제법",
+              ja: "かなり",
+              ru: "довольно",
+              ar: "كثيرا",
+              zh: "相当",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Estoy bastante bien, gracias.'
+                t: "Estoy bastante bien, gracias."
               }
             ]
           },
           {
-            id: 'es_a1_g2_09',
-            word: 'demasiado',
-            emoji: '🙈',
+            id: "es_a1_g2_09",
+            word: "demasiado",
+            emoji: "🙈",
             translations: {
-              es: 'demasiado',
-              en: 'too much',
-              fr: 'trop',
-              it: 'troppo',
-              pt: 'demais',
-              de: 'zu viel',
-              ko: '너무 많이',
-              ja: '多すぎる',
-              ru: 'слишком много',
-              ar: 'كثير جدا',
-              zh: '太多',
-              gn: 'pyahuite',
-              qu: 'pachapacha',
-              wo: 'buñ buñ',
-              ha: 'yawa guda',
-              yo: 'púpọ̀ jùlọ'
+              es: "demasiado",
+              en: "too much",
+              fr: "trop",
+              it: "troppo",
+              pt: "demais",
+              de: "zu viel",
+              ko: "너무 많이",
+              ja: "多すぎる",
+              ru: "слишком много",
+              ar: "كثير جدا",
+              zh: "太多",
+              gn: "pyahuite",
+              qu: "pachapacha",
+              wo: "buñ buñ",
+              ha: "yawa guda",
+              yo: "púpọ̀ jùlọ"
             },
             examples: [
               {
-                t: 'Hace demasiado calor para salir.'
+                t: "Hace demasiado calor para salir."
               }
             ]
           },
           {
-            id: 'es_a1_g2_10',
-            word: 'necesitar',
-            emoji: '🙋',
+            id: "es_a1_g2_10",
+            word: "necesitar",
+            emoji: "🙋",
             translations: {
-              es: 'necesitar',
-              en: 'to need',
-              fr: 'avoir besoin de',
-              it: 'avere bisogno di',
-              pt: 'precisar',
-              de: 'brauchen',
-              ko: '필요로하다',
-              ja: '必要とする',
-              ru: 'нуждаться',
-              ar: 'يحتاج',
-              zh: '需要',
-              gn: 'reikuaa',
-              qu: 'munay',
-              wo: 'waaj',
-              ha: 'bukatar',
-              yo: 'wà ní ìwọ́lé'
+              es: "necesitar",
+              en: "to need",
+              fr: "avoir besoin de",
+              it: "avere bisogno di",
+              pt: "precisar",
+              de: "brauchen",
+              ko: "필요로하다",
+              ja: "必要とする",
+              ru: "нуждаться",
+              ar: "يحتاج",
+              zh: "需要",
+              gn: "reikuaa",
+              qu: "munay",
+              wo: "waaj",
+              ha: "bukatar",
+              yo: "wà ní ìwọ́lé"
             },
             examples: [
               {
-                t: 'Necesito agua, por favor.'
+                t: "Necesito agua, por favor."
               }
             ]
           },
           {
-            id: 'es_a1_g2_11',
-            word: 'soleado',
-            emoji: '☀️',
+            id: "es_a1_g2_11",
+            word: "soleado",
+            emoji: "☀️",
             translations: {
-              es: 'soleado',
-              en: 'sunny',
-              fr: 'ensoleillé',
-              it: 'soleggiato',
-              pt: 'ensolarado',
-              de: 'sonnig',
-              ko: '맑은',
-              ja: '晴れた',
-              ru: 'солнечный',
-              ar: 'مشمس',
-              zh: '晴朗',
-              gn: 'aravẽ',
-              qu: 'inti',
-              wo: 'ñakku',
-              ha: 'ranar',
-              yo: 'ọjọ́ òjò'
+              es: "soleado",
+              en: "sunny",
+              fr: "ensoleillé",
+              it: "soleggiato",
+              pt: "ensolarado",
+              de: "sonnig",
+              ko: "맑은",
+              ja: "晴れた",
+              ru: "солнечный",
+              ar: "مشمس",
+              zh: "晴朗",
+              gn: "aravẽ",
+              qu: "inti",
+              wo: "ñakku",
+              ha: "ranar",
+              yo: "ọjọ́ òjò"
             },
             examples: [
               {
-                t: 'Hoy está soleado. ¡Perfecto!'
+                t: "Hoy está soleado. ¡Perfecto!"
               }
             ]
           },
           {
-            id: 'es_a1_g2_12',
-            word: 'nublado',
-            emoji: '☁️',
+            id: "es_a1_g2_12",
+            word: "nublado",
+            emoji: "☁️",
             translations: {
-              es: 'nublado',
-              en: 'cloudy',
-              fr: 'nuageux',
-              it: 'nuvoloso',
-              pt: 'nublado',
-              de: 'bewölkt',
-              ko: '구름 낀',
-              ja: '曇った',
-              ru: 'облачно',
-              ar: 'غائم',
-              zh: '多云',
+              es: "nublado",
+              en: "cloudy",
+              fr: "nuageux",
+              it: "nuvoloso",
+              pt: "nublado",
+              de: "bewölkt",
+              ko: "구름 낀",
+              ja: "曇った",
+              ru: "облачно",
+              ar: "غائم",
+              zh: "多云",
               gn: "tembi'u",
               qu: "q'asa",
-              wo: 'ñakk',
-              ha: 'yankin jini',
-              yo: 'ìtàn'
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Está muy nublado. Creo que va a llover.'
+                t: "Está muy nublado. Creo que va a llover."
               }
             ]
           },
           {
-            id: 'es_a1_g2_13',
-            word: 'lluvioso',
-            emoji: '🌧️',
+            id: "es_a1_g2_13",
+            word: "lluvioso",
+            emoji: "🌧️",
             translations: {
-              es: 'lluvioso',
-              en: 'rainy',
-              fr: 'pluvieux',
-              it: 'piovoso',
-              pt: 'chuvoso',
-              de: 'regnerisch',
-              ko: '비 오는',
-              ja: '雨の',
-              ru: 'дождливый',
-              ar: 'ممطر',
-              zh: '多雨',
+              es: "lluvioso",
+              en: "rainy",
+              fr: "pluvieux",
+              it: "piovoso",
+              pt: "chuvoso",
+              de: "regnerisch",
+              ko: "비 오는",
+              ja: "雨の",
+              ru: "дождливый",
+              ar: "ممطر",
+              zh: "多雨",
               gn: "tembi'u",
               qu: "q'asa",
-              wo: 'ñakk',
-              ha: 'yankin jini',
-              yo: 'ìtàn'
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Está lluvioso. Lleva el paraguas.'
+                t: "Está lluvioso. Lleva el paraguas."
               }
             ]
           },
           {
-            id: 'es_a1_g2_14',
-            word: 'hace frío / calor',
-            emoji: '🌡️',
+            id: "es_a1_g2_14",
+            word: "hace frío / calor",
+            emoji: "🌡️",
             translations: {
-              es: 'hace frío/calor',
+              es: "hace frío/calor",
               en: "it's cold/hot",
-              fr: 'il fait froid/chaud',
-              it: 'fa freddo/caldo',
-              pt: 'está frio/calor',
-              de: 'es ist kalt/warm',
-              ko: '추워요/더워요',
-              ja: '寒い/暑い',
-              ru: 'холодно/тепло',
-              ar: 'بارد/حار',
-              zh: '冷/热',
+              fr: "il fait froid/chaud",
+              it: "fa freddo/caldo",
+              pt: "está frio/calor",
+              de: "es ist kalt/warm",
+              ko: "추워요/더워요",
+              ja: "寒い/暑い",
+              ru: "холодно/тепло",
+              ar: "بارد/حار",
+              zh: "冷/热",
               gn: "tembi'u/tembi'u",
               qu: "q'asa/q'asa",
-              wo: 'ñakk/ñakk',
-              ha: 'yankin jini/yankin jini',
-              yo: 'ìtàn/ìtàn'
+              wo: "ñakk/ñakk",
+              ha: "yankin jini/yankin jini",
+              yo: "ìtàn/ìtàn"
             },
             examples: [
               {
-                t: '¡Qué frío hace! ¿Tienes un abrigo?'
+                t: "¡Qué frío hace! ¿Tienes un abrigo?"
               }
             ]
           },
           {
-            id: 'es_a1_g2_D01',
-            type: 'dialogue',
-            context: 'Hablando del tiempo al encontrarse',
+            id: "es_a1_g2_D01",
+            type: "dialogue",
+            context: "Hablando del tiempo al encontrarse",
             dialogue: [
               {
-                speaker: 'Luis',
-                line: '¡Hola! ¿Qué tiempo hace hoy?'
+                speaker: "Luis",
+                line: "¡Hola! ¿Qué tiempo hace hoy?"
               },
               {
-                speaker: 'Clara',
-                line: 'Hace mucho frío y está nublado.'
+                speaker: "Clara",
+                line: "Hace mucho frío y está nublado."
               },
               {
-                speaker: 'Luis',
-                line: 'Sí, yo tengo mucho frío. ¿Y tú?'
+                speaker: "Luis",
+                line: "Sí, yo tengo mucho frío. ¿Y tú?"
               },
               {
-                speaker: 'Clara',
-                line: 'Yo también. Necesito un café caliente.'
+                speaker: "Clara",
+                line: "Yo también. Necesito un café caliente."
               },
               {
-                speaker: 'Luis',
-                line: '¡Buena idea! ¿Vamos a la cafetería?'
+                speaker: "Luis",
+                line: "¡Buena idea! ¿Vamos a la cafetería?"
               }
             ],
-            note: 'Hablar del tiempo y expresar sensaciones.',
+            note: "Hablar del tiempo y expresar sensaciones.",
             translations: {
-              es: 'Hablar del tiempo',
-              en: 'Talking about the weather',
-              fr: 'Parler de la météo',
-              it: 'Parlare del tempo',
-              pt: 'Falar do tempo',
-              de: 'Über das Wetter sprechen',
-              ko: '날씨에 대해 이야기하다',
-              ja: '天気について話す',
-              ru: 'говорить о погоде',
-              ar: 'التحدث عن الطقس',
-              zh: '谈论天气',
+              es: "Hablar del tiempo",
+              en: "Talking about the weather",
+              fr: "Parler de la météo",
+              it: "Parlare del tempo",
+              pt: "Falar do tempo",
+              de: "Über das Wetter sprechen",
+              ko: "날씨에 대해 이야기하다",
+              ja: "天気について話す",
+              ru: "говорить о погоде",
+              ar: "التحدث عن الطقس",
+              zh: "谈论天气",
               gn: "mba'e ha'eha tembi'u",
               qu: "rimay q'asa",
-              wo: 'waxtu ñakk',
-              ha: 'magana game da yankin jini',
-              yo: 'sọ̀rọ̀ nípa ìtàn'
+              wo: "waxtu ñakk",
+              ha: "magana game da yankin jini",
+              yo: "sọ̀rọ̀ nípa ìtàn"
             }
           },
           {
-            id: 'es_a1_g2_D02',
-            type: 'dialogue',
-            context: 'Antes de comer juntos',
+            id: "es_a1_g2_D02",
+            type: "dialogue",
+            context: "Antes de comer juntos",
             dialogue: [
               {
-                speaker: 'Marta',
-                line: '¿Tienes hambre? Son las dos.'
+                speaker: "Marta",
+                line: "¿Tienes hambre? Son las dos."
               },
               {
-                speaker: 'Pablo',
-                line: 'Sí, tengo mucha hambre. ¿Qué hay para comer?'
+                speaker: "Pablo",
+                line: "Sí, tengo mucha hambre. ¿Qué hay para comer?"
               },
               {
-                speaker: 'Marta',
-                line: 'Hay pasta y ensalada. ¿Quieres?'
+                speaker: "Marta",
+                line: "Hay pasta y ensalada. ¿Quieres?"
               },
               {
-                speaker: 'Pablo',
-                line: '¡Perfecto! Y también tengo mucha sed.'
+                speaker: "Pablo",
+                line: "¡Perfecto! Y también tengo mucha sed."
               },
               {
-                speaker: 'Marta',
-                line: 'Hay agua y jugo de naranja.'
+                speaker: "Marta",
+                line: "Hay agua y jugo de naranja."
               },
               {
-                speaker: 'Pablo',
-                line: 'Genial, gracias.'
+                speaker: "Pablo",
+                line: "Genial, gracias."
               }
             ],
-            note: 'Expresar hambre, sed y necesidades básicas.',
+            note: "Expresar hambre, sed y necesidades básicas.",
             translations: {
-              es: 'Hablar de comida',
-              en: 'Talking about food',
-              fr: 'Parler de nourriture',
-              it: 'Parlare di cibo',
-              pt: 'Falar de comida',
-              de: 'Über Essen sprechen',
-              ko: '음식에 대해 이야기하다',
-              ja: '食べ物について話す',
-              ru: 'говорить о еде',
-              ar: 'التحدث عن الطعام',
-              zh: '谈论食物',
+              es: "Hablar de comida",
+              en: "Talking about food",
+              fr: "Parler de nourriture",
+              it: "Parlare di cibo",
+              pt: "Falar de comida",
+              de: "Über Essen sprechen",
+              ko: "음식에 대해 이야기하다",
+              ja: "食べ物について話す",
+              ru: "говорить о еде",
+              ar: "التحدث عن الطعام",
+              zh: "谈论食物",
               gn: "mba'e ha'eha tembi'u",
               qu: "rimay mik'i",
-              wo: 'waxtu yëngu',
-              ha: 'magana game da abinci',
-              yo: 'sọ̀rọ̀ nípa ẹ̀wọ̀n'
+              wo: "waxtu yëngu",
+              ha: "magana game da abinci",
+              yo: "sọ̀rọ̀ nípa ẹ̀wọ̀n"
             }
           }
         ]
       },
       {
-        id: 'es_a1_g3',
-        name: 'Preguntas y números',
-        icon: '❓',
-        color: '#10b981',
-        description: 'Palabras para preguntar + números del 1 al 8',
+        id: "es_a1_g3",
+        name: "Preguntas y números",
+        icon: "❓",
+        color: "#10b981",
+        description: "Palabras para preguntar + números del 1 al 8",
         reviewFrom: [
           "es_a1_g1",
           "es_a1_g2"
         ],
         cards: [
           {
-            id: 'es_a1_g3_01',
-            word: '¿qué?',
-            emoji: '🔍',
+            id: "es_a1_g3_01",
+            word: "¿qué?",
+            emoji: "🔍",
             translations: {
-              es: '¿qué?',
-              en: 'what?',
-              fr: 'quoi?',
-              it: 'cosa?',
-              pt: 'o quê?',
-              de: 'Was?',
-              ko: '뭐?',
-              ja: '何？',
-              ru: 'что?',
-              ar: 'ماذا؟',
-              zh: '什么？',
+              es: "¿qué?",
+              en: "what?",
+              fr: "quoi?",
+              it: "cosa?",
+              pt: "o quê?",
+              de: "Was?",
+              ko: "뭐?",
+              ja: "何？",
+              ru: "что?",
+              ar: "ماذا؟",
+              zh: "什么？",
               gn: "mba'épa?",
-              qu: 'imaynataq?',
-              wo: 'luwata?',
-              ha: 'me?',
-              yo: 'kí ni?'
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kí ni?"
             },
             examples: [
               {
-                t: '¿Qué quieres tomar?'
+                t: "¿Qué quieres tomar?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_02',
-            word: '¿quién?',
-            emoji: '🧑',
+            id: "es_a1_g3_02",
+            word: "¿quién?",
+            emoji: "🧑",
             translations: {
-              es: '¿quién?',
-              en: 'who?',
-              fr: 'qui?',
-              it: 'chi?',
-              pt: 'quem?',
-              de: 'Wer?',
-              ko: '누구?',
-              ja: '誰？',
-              ru: 'кто?',
-              ar: 'من؟',
-              zh: '谁？',
-              gn: 'nde?',
-              qu: 'pipataq?',
-              wo: 'këmbu?',
-              ha: 'wane?',
-              yo: 'ta ni?'
+              es: "¿quién?",
+              en: "who?",
+              fr: "qui?",
+              it: "chi?",
+              pt: "quem?",
+              de: "Wer?",
+              ko: "누구?",
+              ja: "誰？",
+              ru: "кто?",
+              ar: "من؟",
+              zh: "谁？",
+              gn: "nde?",
+              qu: "pipataq?",
+              wo: "këmbu?",
+              ha: "wane?",
+              yo: "ta ni?"
             },
             examples: [
               {
-                t: '¿Quién es esa persona?'
+                t: "¿Quién es esa persona?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_03',
-            word: '¿dónde?',
-            emoji: '📍',
+            id: "es_a1_g3_03",
+            word: "¿dónde?",
+            emoji: "📍",
             translations: {
-              es: '¿dónde?',
-              en: 'where?',
-              fr: 'où?',
-              it: 'dove?',
-              pt: 'onde?',
-              de: 'Wo?',
-              ko: '어디?',
-              ja: 'どこ？',
-              ru: 'где?',
-              ar: 'أين؟',
-              zh: '哪里？',
-              gn: 'moõpa?',
-              qu: 'maymanta?',
-              wo: 'ne fa?',
-              ha: 'in?',
-              yo: 'níbí ni?'
+              es: "¿dónde?",
+              en: "where?",
+              fr: "où?",
+              it: "dove?",
+              pt: "onde?",
+              de: "Wo?",
+              ko: "어디?",
+              ja: "どこ？",
+              ru: "где?",
+              ar: "أين؟",
+              zh: "哪里？",
+              gn: "moõpa?",
+              qu: "maymanta?",
+              wo: "ne fa?",
+              ha: "in?",
+              yo: "níbí ni?"
             },
             examples: [
               {
-                t: '¿Dónde está el baño?'
+                t: "¿Dónde está el baño?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_04',
-            word: '¿cuándo?',
-            emoji: '📅',
+            id: "es_a1_g3_04",
+            word: "¿cuándo?",
+            emoji: "📅",
             translations: {
-              es: '¿cuándo?',
-              en: 'when?',
-              fr: 'quand?',
-              it: 'quando?',
-              pt: 'quando?',
-              de: 'Wann?',
-              ko: '언제?',
-              ja: 'いつ？',
-              ru: 'когда?',
-              ar: 'متى؟',
-              zh: '什么时候？',
+              es: "¿cuándo?",
+              en: "when?",
+              fr: "quand?",
+              it: "quando?",
+              pt: "quando?",
+              de: "Wann?",
+              ko: "언제?",
+              ja: "いつ？",
+              ru: "когда?",
+              ar: "متى؟",
+              zh: "什么时候？",
               gn: "upeicha'ã?",
-              qu: 'mayqapataq?',
-              wo: 'neegi?',
-              ha: 'in?',
-              yo: 'nìwájú ni?'
+              qu: "mayqapataq?",
+              wo: "neegi?",
+              ha: "in?",
+              yo: "nìwájú ni?"
             },
             examples: [
               {
-                t: '¿Cuándo llegás?'
+                t: "¿Cuándo llegás?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_05',
-            word: '¿por qué?',
-            emoji: '💭',
+            id: "es_a1_g3_05",
+            word: "¿por qué?",
+            emoji: "💭",
             translations: {
-              es: '¿por qué?',
-              en: 'why?',
-              fr: 'pourquoi?',
-              it: 'perché?',
-              pt: 'por quê?',
-              de: 'Warum?',
-              ko: '왜?',
-              ja: 'なぜ？',
-              ru: 'почему?',
-              ar: 'لماذا؟',
-              zh: '为什么？',
+              es: "¿por qué?",
+              en: "why?",
+              fr: "pourquoi?",
+              it: "perché?",
+              pt: "por quê?",
+              de: "Warum?",
+              ko: "왜?",
+              ja: "なぜ？",
+              ru: "почему?",
+              ar: "لماذا؟",
+              zh: "为什么？",
               gn: "mba'érepa?",
-              qu: 'imaynam?',
-              wo: 'luwata?',
-              ha: 'me?',
-              yo: 'kíní?'
+              qu: "imaynam?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kíní?"
             },
             examples: [
               {
-                t: '¿Por qué estás cansado?'
+                t: "¿Por qué estás cansado?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_06',
-            word: '¿cómo?',
-            emoji: '🤔',
+            id: "es_a1_g3_06",
+            word: "¿cómo?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo?',
-              en: 'how?',
-              fr: 'comment?',
-              it: 'come?',
-              pt: 'como?',
-              de: 'Wie?',
-              ko: '어떻게?',
-              ja: 'どう？',
-              ru: 'как?',
-              ar: 'كيف؟',
-              zh: '怎么？',
+              es: "¿cómo?",
+              en: "how?",
+              fr: "comment?",
+              it: "come?",
+              pt: "como?",
+              de: "Wie?",
+              ko: "어떻게?",
+              ja: "どう？",
+              ru: "как?",
+              ar: "كيف؟",
+              zh: "怎么？",
               gn: "mba'éichapa?",
-              qu: 'imaynataq?',
-              wo: 'luwata?',
-              ha: 'me?',
-              yo: 'báwo ni?'
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "báwo ni?"
             },
             examples: [
               {
-                t: '¿Cómo se dice \"hello\" en español?'
+                t: "¿Cómo se dice \"hello\" en español?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_07',
-            word: '¿cuánto/a?',
-            emoji: '💰',
+            id: "es_a1_g3_07",
+            word: "¿cuánto/a?",
+            emoji: "💰",
             translations: {
-              es: '¿cuánto?',
-              en: 'how much?',
-              fr: 'combien?',
-              it: 'quanto?',
-              pt: 'quanto?',
-              de: 'Wie viel?',
-              ko: '얼마나?',
-              ja: 'どのくらい？',
-              ru: 'сколько?',
-              ar: 'كم؟',
-              zh: '多少？',
+              es: "¿cuánto?",
+              en: "how much?",
+              fr: "combien?",
+              it: "quanto?",
+              pt: "quanto?",
+              de: "Wie viel?",
+              ko: "얼마나?",
+              ja: "どのくらい？",
+              ru: "сколько?",
+              ar: "كم؟",
+              zh: "多少？",
               gn: "mba'éichapa?",
-              qu: 'imaynataq?',
-              wo: 'luwata?',
-              ha: 'me?',
-              yo: 'ẹ̀sán ni?'
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "ẹ̀sán ni?"
             },
             examples: [
               {
-                t: '¿Cuánto cuesta este café?'
+                t: "¿Cuánto cuesta este café?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_08',
-            word: '¿cuántos/as?',
-            emoji: '🔢',
+            id: "es_a1_g3_08",
+            word: "¿cuántos/as?",
+            emoji: "🔢",
             translations: {
-              es: '¿cuántos?',
-              en: 'how many?',
-              fr: 'combien de?',
-              it: 'quanti?',
-              pt: 'quantos?',
-              de: 'Wie viele?',
-              ko: '몇 개?',
-              ja: 'いくつ？',
-              ru: 'Сколько?',
-              ar: 'كم عدد؟',
-              zh: '多少？',
+              es: "¿cuántos?",
+              en: "how many?",
+              fr: "combien de?",
+              it: "quanti?",
+              pt: "quantos?",
+              de: "Wie viele?",
+              ko: "몇 개?",
+              ja: "いくつ？",
+              ru: "Сколько?",
+              ar: "كم عدد؟",
+              zh: "多少？",
               gn: "Mba'éichapa?",
-              qu: 'Mayqan?',
-              wo: 'Ñu benn?',
-              ha: 'Wanda yaya?',
-              yo: 'Eṣe ni?'
+              qu: "Mayqan?",
+              wo: "Ñu benn?",
+              ha: "Wanda yaya?",
+              yo: "Eṣe ni?"
             },
             examples: [
               {
-                t: '¿Cuántos son en la mesa?'
+                t: "¿Cuántos son en la mesa?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_09',
-            word: 'uno / una',
-            emoji: '1️⃣',
+            id: "es_a1_g3_09",
+            word: "uno / una",
+            emoji: "1️⃣",
             translations: {
-              es: 'uno',
-              en: 'one',
-              fr: 'un/une',
-              it: 'uno/una',
-              pt: 'um/uma',
-              de: 'eins',
-              ko: '하나',
-              ja: '一つ',
-              ru: 'один',
-              ar: 'واحد',
-              zh: '一',
-              gn: 'Peteĩ',
-              qu: 'Huk',
-              wo: 'Benn',
-              ha: 'ɗaya',
-              yo: 'okan'
+              es: "uno",
+              en: "one",
+              fr: "un/une",
+              it: "uno/una",
+              pt: "um/uma",
+              de: "eins",
+              ko: "하나",
+              ja: "一つ",
+              ru: "один",
+              ar: "واحد",
+              zh: "一",
+              gn: "Peteĩ",
+              qu: "Huk",
+              wo: "Benn",
+              ha: "ɗaya",
+              yo: "okan"
             },
             examples: [
               {
-                t: 'Una mesa para dos, por favor.'
+                t: "Una mesa para dos, por favor."
               }
             ]
           },
           {
-            id: 'es_a1_g3_10',
-            word: 'dos',
-            emoji: '2️⃣',
+            id: "es_a1_g3_10",
+            word: "dos",
+            emoji: "2️⃣",
             translations: {
-              es: 'dos',
-              en: 'two',
-              fr: 'deux',
-              it: 'due',
-              pt: 'dois',
-              de: 'zwei',
-              ko: '둘',
-              ja: '二つ',
-              ru: 'два',
-              ar: 'اثنان',
-              zh: '二',
-              gn: 'Mokõi',
-              qu: 'Isqun',
-              wo: 'Ñaar',
-              ha: 'bii',
-              yo: 'méjì'
+              es: "dos",
+              en: "two",
+              fr: "deux",
+              it: "due",
+              pt: "dois",
+              de: "zwei",
+              ko: "둘",
+              ja: "二つ",
+              ru: "два",
+              ar: "اثنان",
+              zh: "二",
+              gn: "Mokõi",
+              qu: "Isqun",
+              wo: "Ñaar",
+              ha: "bii",
+              yo: "méjì"
             },
             examples: [
               {
-                t: 'Somos dos. ¿Hay mesa?'
+                t: "Somos dos. ¿Hay mesa?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_11',
-            word: 'tres',
-            emoji: '3️⃣',
+            id: "es_a1_g3_11",
+            word: "tres",
+            emoji: "3️⃣",
             translations: {
-              es: 'tres',
-              en: 'three',
-              fr: 'trois',
-              it: 'tre',
-              pt: 'três',
-              de: 'drei',
-              ko: '셋',
-              ja: '三つ',
-              ru: 'три',
-              ar: 'ثلاثة',
-              zh: '三',
-              gn: 'Mombarete',
-              qu: 'Kimsa',
-              wo: 'Ñatt',
-              ha: 'ukku',
-              yo: 'mẹ́tà'
+              es: "tres",
+              en: "three",
+              fr: "trois",
+              it: "tre",
+              pt: "três",
+              de: "drei",
+              ko: "셋",
+              ja: "三つ",
+              ru: "три",
+              ar: "ثلاثة",
+              zh: "三",
+              gn: "Mombarete",
+              qu: "Kimsa",
+              wo: "Ñatt",
+              ha: "ukku",
+              yo: "mẹ́tà"
             },
             examples: [
               {
-                t: 'Una mesa para tres, por favor.'
+                t: "Una mesa para tres, por favor."
               }
             ]
           },
           {
-            id: 'es_a1_g3_12',
-            word: 'cuatro',
-            emoji: '4️⃣',
+            id: "es_a1_g3_12",
+            word: "cuatro",
+            emoji: "4️⃣",
             translations: {
-              es: 'cuatro',
-              en: 'four',
-              fr: 'quatre',
-              it: 'quattro',
-              pt: 'quatro',
-              de: 'vier',
-              ko: '넷',
-              ja: '四つ',
-              ru: 'четыре',
-              ar: 'أربعة',
-              zh: '四',
-              gn: 'Irundú',
-              qu: 'Tawqa',
-              wo: 'Ñent',
-              ha: 'huɗu',
-              yo: 'ẹ̀rìn'
+              es: "cuatro",
+              en: "four",
+              fr: "quatre",
+              it: "quattro",
+              pt: "quatro",
+              de: "vier",
+              ko: "넷",
+              ja: "四つ",
+              ru: "четыре",
+              ar: "أربعة",
+              zh: "四",
+              gn: "Irundú",
+              qu: "Tawqa",
+              wo: "Ñent",
+              ha: "huɗu",
+              yo: "ẹ̀rìn"
             },
             examples: [
               {
-                t: 'Somos cuatro. ¿Tienen mesa?'
+                t: "Somos cuatro. ¿Tienen mesa?"
               }
             ]
           },
           {
-            id: 'es_a1_g3_13',
-            word: 'cinco',
-            emoji: '5️⃣',
+            id: "es_a1_g3_13",
+            word: "cinco",
+            emoji: "5️⃣",
             translations: {
-              es: 'cinco',
-              en: 'five',
-              fr: 'cinq',
-              it: 'cinque',
-              pt: 'cinco',
-              de: 'fünf',
-              ko: '다섯',
-              ja: '五つ',
-              ru: 'пять',
-              ar: 'خمسة',
-              zh: '五',
+              es: "cinco",
+              en: "five",
+              fr: "cinq",
+              it: "cinque",
+              pt: "cinco",
+              de: "fünf",
+              ko: "다섯",
+              ja: "五つ",
+              ru: "пять",
+              ar: "خمسة",
+              zh: "五",
               gn: "Po'i",
-              qu: 'Pichqa',
-              wo: 'Juróom',
-              ha: 'biyyar',
-              yo: 'áàrún'
+              qu: "Pichqa",
+              wo: "Juróom",
+              ha: "biyyar",
+              yo: "áàrún"
             },
             examples: [
               {
-                t: 'Cinco cafés, por favor.'
+                t: "Cinco cafés, por favor."
               }
             ]
           },
           {
-            id: 'es_a1_g3_14',
-            word: 'seis',
-            emoji: '6️⃣',
+            id: "es_a1_g3_14",
+            word: "seis",
+            emoji: "6️⃣",
             translations: {
-              es: 'seis',
-              en: 'six',
-              fr: 'six',
-              it: 'sei',
-              pt: 'seis',
-              de: 'sechs',
-              ko: '여섯',
-              ja: '六つ',
-              ru: 'шесть',
-              ar: 'ستة',
-              zh: '六',
+              es: "seis",
+              en: "six",
+              fr: "six",
+              it: "sei",
+              pt: "seis",
+              de: "sechs",
+              ko: "여섯",
+              ja: "六つ",
+              ru: "шесть",
+              ar: "ستة",
+              zh: "六",
               gn: "Po'ñandú",
-              qu: 'Suqta',
-              wo: 'Juróom-benn',
-              ha: 'shida',
-              yo: 'ẹ̀ẹ́dọ́gbọ̀n'
+              qu: "Suqta",
+              wo: "Juróom-benn",
+              ha: "shida",
+              yo: "ẹ̀ẹ́dọ́gbọ̀n"
             },
             examples: [
               {
-                t: 'La reunión es a las seis.'
+                t: "La reunión es a las seis."
               }
             ]
           },
           {
-            id: 'es_a1_g3_15',
-            word: 'siete',
-            emoji: '7️⃣',
+            id: "es_a1_g3_15",
+            word: "siete",
+            emoji: "7️⃣",
             translations: {
-              es: 'siete',
-              en: 'seven',
-              fr: 'sept',
-              it: 'sette',
-              pt: 'sete',
-              de: 'sieben',
-              ko: '일곱',
-              ja: '七つ',
-              ru: 'семь',
-              ar: 'سبعة',
-              zh: '七',
+              es: "siete",
+              en: "seven",
+              fr: "sept",
+              it: "sette",
+              pt: "sete",
+              de: "sieben",
+              ko: "일곱",
+              ja: "七つ",
+              ru: "семь",
+              ar: "سبعة",
+              zh: "七",
               gn: "Po'ñavúi",
-              qu: 'Qanchis',
-              wo: 'Juróom-ñaar',
-              ha: 'sagwarka',
-              yo: 'ẹ̀ẹ́dọ́gbáa'
+              qu: "Qanchis",
+              wo: "Juróom-ñaar",
+              ha: "sagwarka",
+              yo: "ẹ̀ẹ́dọ́gbáa"
             },
             examples: [
               {
-                t: 'Hay siete personas en la clase.'
+                t: "Hay siete personas en la clase."
               }
             ]
           },
           {
-            id: 'es_a1_g3_16',
-            word: 'ocho',
-            emoji: '8️⃣',
+            id: "es_a1_g3_16",
+            word: "ocho",
+            emoji: "8️⃣",
             translations: {
-              es: 'ocho',
-              en: 'eight',
-              fr: 'huit',
-              it: 'otto',
-              pt: 'oito',
-              de: 'acht',
-              ko: '여덟',
-              ja: '八つ',
-              ru: 'восемь',
-              ar: 'ثمانية',
-              zh: '八',
+              es: "ocho",
+              en: "eight",
+              fr: "huit",
+              it: "otto",
+              pt: "oito",
+              de: "acht",
+              ko: "여덟",
+              ja: "八つ",
+              ru: "восемь",
+              ar: "ثمانية",
+              zh: "八",
               gn: "Po'ñavui-peteĩ",
-              qu: 'Pusaq',
-              wo: 'Juróom-ñent',
-              ha: 'takwas',
-              yo: 'ẹ̀ẹ́dọ́gbáa-álẹ̀'
+              qu: "Pusaq",
+              wo: "Juróom-ñent",
+              ha: "takwas",
+              yo: "ẹ̀ẹ́dọ́gbáa-álẹ̀"
             },
             examples: [
               {
-                t: 'Son las ocho de la mañana.'
+                t: "Son las ocho de la mañana."
               }
             ]
           },
           {
-            id: 'es_a1_g3_D01',
-            type: 'dialogue',
-            context: 'En un restaurante',
+            id: "es_a1_g3_D01",
+            type: "dialogue",
+            context: "En un restaurante",
             dialogue: [
               {
-                speaker: 'Camarero',
-                line: '¡Buenas noches! ¿Cuántos son?'
+                speaker: "Camarero",
+                line: "¡Buenas noches! ¿Cuántos son?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Somos tres. ¿Tienen mesa disponible?'
+                speaker: "Cliente",
+                line: "Somos tres. ¿Tienen mesa disponible?"
               },
               {
-                speaker: 'Camarero',
-                line: 'Sí, claro. ¿Tienen reserva?'
+                speaker: "Camarero",
+                line: "Sí, claro. ¿Tienen reserva?"
               },
               {
-                speaker: 'Cliente',
-                line: 'No, no tenemos reserva.'
+                speaker: "Cliente",
+                line: "No, no tenemos reserva."
               },
               {
-                speaker: 'Camarero',
-                line: 'No hay problema. Por aquí, por favor.'
+                speaker: "Camarero",
+                line: "No hay problema. Por aquí, por favor."
               },
               {
-                speaker: 'Cliente',
-                line: 'Gracias. ¿Cuánto tiempo esperamos?'
+                speaker: "Cliente",
+                line: "Gracias. ¿Cuánto tiempo esperamos?"
               },
               {
-                speaker: 'Camarero',
-                line: 'Solo cinco minutos. ¿Quieren algo de beber?'
+                speaker: "Camarero",
+                line: "Solo cinco minutos. ¿Quieren algo de beber?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Sí, dos aguas y un jugo de naranja.'
+                speaker: "Cliente",
+                line: "Sí, dos aguas y un jugo de naranja."
               }
             ],
-            note: 'Preguntar por cantidad, pedir en un restaurante.',
+            note: "Preguntar por cantidad, pedir en un restaurante.",
             translations: {
-              es: 'En el restaurante',
-              en: 'At the restaurant',
-              fr: 'Au restaurant',
-              it: 'Al ristorante',
-              pt: 'No restaurante',
-              de: 'Im Restaurant',
-              ko: '레스토랑에서',
-              ja: 'レストランで',
-              ru: 'В ресторане',
-              ar: 'في المطعم',
-              zh: '在餐厅',
+              es: "En el restaurante",
+              en: "At the restaurant",
+              fr: "Au restaurant",
+              it: "Al ristorante",
+              pt: "No restaurante",
+              de: "Im Restaurant",
+              ko: "레스토랑에서",
+              ja: "レストランで",
+              ru: "В ресторане",
+              ar: "في المطعم",
+              zh: "在餐厅",
               gn: "Ha'e ha'e'õme'ẽre",
-              qu: 'Hatun wasi pi',
-              wo: 'Ci reestorañ',
-              ha: 'A cikin makarantar',
-              yo: 'Ní ilé iṣẹ́ ẹ̀dẹ́'
+              qu: "Hatun wasi pi",
+              wo: "Ci reestorañ",
+              ha: "A cikin makarantar",
+              yo: "Ní ilé iṣẹ́ ẹ̀dẹ́"
             }
           }
         ]
       },
       {
-        id: 'es_a1_g4',
-        name: 'Verbos esenciales',
-        icon: '⚡',
-        color: '#ef4444',
-        description: 'Los verbos más usados con yo / tú / él',
+        id: "es_a1_g4",
+        name: "Verbos esenciales",
+        icon: "⚡",
+        color: "#ef4444",
+        description: "Los verbos más usados con yo / tú / él",
         reviewFrom: [
           "es_a1_g1",
           "es_a1_g2",
@@ -1559,421 +1557,421 @@ const FLASHCARD_A1 = {
         ],
         cards: [
           {
-            id: 'es_a1_g4_01',
-            word: 'soy / eres / es',
-            emoji: '🌟',
+            id: "es_a1_g4_01",
+            word: "soy / eres / es",
+            emoji: "🌟",
             translations: {
-              es: 'ser',
-              en: 'to be: I am/you are/he is',
-              fr: 'être: je suis/tu es/il est',
-              it: 'essere: sono/sei/è',
-              pt: 'ser: sou/és/é',
-              de: 'sein',
-              ko: '이다',
-              ja: 'である',
-              ru: 'быть',
-              ar: 'يكون',
-              zh: '是',
-              gn: 'Ko',
-              qu: 'Kana',
-              wo: 'Mooy',
-              ha: 'yake',
-              yo: 'jẹ'
+              es: "ser",
+              en: "to be: I am/you are/he is",
+              fr: "être: je suis/tu es/il est",
+              it: "essere: sono/sei/è",
+              pt: "ser: sou/és/é",
+              de: "sein",
+              ko: "이다",
+              ja: "である",
+              ru: "быть",
+              ar: "يكون",
+              zh: "是",
+              gn: "Ko",
+              qu: "Kana",
+              wo: "Mooy",
+              ha: "yake",
+              yo: "jẹ"
             },
             examples: [
               {
-                t: 'Yo soy estudiante. Tú eres mi amigo.'
+                t: "Yo soy estudiante. Tú eres mi amigo."
               }
             ]
           },
           {
-            id: 'es_a1_g4_02',
-            word: 'estoy / estás / está',
-            emoji: '📍',
+            id: "es_a1_g4_02",
+            word: "estoy / estás / está",
+            emoji: "📍",
             translations: {
-              es: 'estar',
-              en: 'to be (state): I am/you are/he is',
-              fr: 'être (état)',
-              it: 'stare: sto/stai/sta',
-              pt: 'estar: estou/estás/está',
-              de: 'sein',
-              ko: '있다',
-              ja: 'ある',
-              ru: 'находиться',
-              ar: 'يكون',
-              zh: '在',
-              gn: 'Iko',
-              qu: 'Kachkan',
-              wo: 'Jëm',
-              ha: 'yana',
-              yo: 'wà'
+              es: "estar",
+              en: "to be (state): I am/you are/he is",
+              fr: "être (état)",
+              it: "stare: sto/stai/sta",
+              pt: "estar: estou/estás/está",
+              de: "sein",
+              ko: "있다",
+              ja: "ある",
+              ru: "находиться",
+              ar: "يكون",
+              zh: "在",
+              gn: "Iko",
+              qu: "Kachkan",
+              wo: "Jëm",
+              ha: "yana",
+              yo: "wà"
             },
             examples: [
               {
-                t: 'Estoy bien. ¿Dónde estás?'
+                t: "Estoy bien. ¿Dónde estás?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_03',
-            word: 'tengo / tienes / tiene',
-            emoji: '✋',
+            id: "es_a1_g4_03",
+            word: "tengo / tienes / tiene",
+            emoji: "✋",
             translations: {
-              es: 'tener',
-              en: 'to have: I have/you have/he has',
+              es: "tener",
+              en: "to have: I have/you have/he has",
               fr: "avoir: j'ai/tu as/il a",
-              it: 'avere: ho/hai/ha',
-              pt: 'ter: tenho/tens/tem',
-              de: 'haben',
-              ko: '가지다',
-              ja: '持つ',
-              ru: 'иметь',
-              ar: 'يملك',
-              zh: '有',
-              gn: 'Ñande',
-              qu: 'Kan',
-              wo: 'Ñaan',
-              ha: 'yana',
-              yo: 'ní'
+              it: "avere: ho/hai/ha",
+              pt: "ter: tenho/tens/tem",
+              de: "haben",
+              ko: "가지다",
+              ja: "持つ",
+              ru: "иметь",
+              ar: "يملك",
+              zh: "有",
+              gn: "Ñande",
+              qu: "Kan",
+              wo: "Ñaan",
+              ha: "yana",
+              yo: "ní"
             },
             examples: [
               {
-                t: 'Tengo hambre. ¿Tienes tiempo?'
+                t: "Tengo hambre. ¿Tienes tiempo?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_04',
-            word: 'quiero / quieres / quiere',
-            emoji: '❤️',
+            id: "es_a1_g4_04",
+            word: "quiero / quieres / quiere",
+            emoji: "❤️",
             translations: {
-              es: 'querer',
-              en: 'to want: I want/you want/he wants',
-              fr: 'vouloir: je veux/tu veux/il veut',
-              it: 'volere: voglio/vuoi/vuole',
-              pt: 'querer: quero/queres/quer',
-              de: 'wollen',
-              ko: '원하다',
-              ja: '欲する',
-              ru: 'хотеть',
-              ar: 'يريد',
-              zh: '想要',
-              gn: 'Jahecha',
-              qu: 'Munay',
-              wo: 'Baat',
-              ha: 'so',
-              yo: 'fẹ'
+              es: "querer",
+              en: "to want: I want/you want/he wants",
+              fr: "vouloir: je veux/tu veux/il veut",
+              it: "volere: voglio/vuoi/vuole",
+              pt: "querer: quero/queres/quer",
+              de: "wollen",
+              ko: "원하다",
+              ja: "欲する",
+              ru: "хотеть",
+              ar: "يريد",
+              zh: "想要",
+              gn: "Jahecha",
+              qu: "Munay",
+              wo: "Baat",
+              ha: "so",
+              yo: "fẹ"
             },
             examples: [
               {
-                t: 'Quiero un café. ¿Qué quieres tú?'
+                t: "Quiero un café. ¿Qué quieres tú?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_05',
-            word: 'voy / vas / va',
-            emoji: '🚶',
+            id: "es_a1_g4_05",
+            word: "voy / vas / va",
+            emoji: "🚶",
             translations: {
-              es: 'ir',
-              en: 'to go: I go/you go/he goes',
-              fr: 'aller: je vais/tu vas/il va',
-              it: 'andare: vado/vai/va',
-              pt: 'ir: vou/vais/vai',
-              de: 'gehen',
-              ko: '가다',
-              ja: '行く',
-              ru: 'идти',
-              ar: 'يذهب',
-              zh: '去',
-              gn: 'Jajái',
-              qu: 'Riy',
-              wo: 'Dem',
-              ha: 'ya',
-              yo: 'lọ'
+              es: "ir",
+              en: "to go: I go/you go/he goes",
+              fr: "aller: je vais/tu vas/il va",
+              it: "andare: vado/vai/va",
+              pt: "ir: vou/vais/vai",
+              de: "gehen",
+              ko: "가다",
+              ja: "行く",
+              ru: "идти",
+              ar: "يذهب",
+              zh: "去",
+              gn: "Jajái",
+              qu: "Riy",
+              wo: "Dem",
+              ha: "ya",
+              yo: "lọ"
             },
             examples: [
               {
-                t: 'Voy al trabajo. ¿Tú vas al gimnasio?'
+                t: "Voy al trabajo. ¿Tú vas al gimnasio?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_06',
-            word: 'hablo / hablas / habla',
-            emoji: '🗣️',
+            id: "es_a1_g4_06",
+            word: "hablo / hablas / habla",
+            emoji: "🗣️",
             translations: {
-              es: 'hablar',
-              en: 'to speak',
-              fr: 'parler: je parle/tu parles/il parle',
-              it: 'parlare: parlo/parli/parla',
-              pt: 'falar: falo/falas/fala',
-              de: 'sprechen',
-              ko: '말하다',
-              ja: '話す',
-              ru: 'говорить',
-              ar: 'يتحدث',
-              zh: '说话',
+              es: "hablar",
+              en: "to speak",
+              fr: "parler: je parle/tu parles/il parle",
+              it: "parlare: parlo/parli/parla",
+              pt: "falar: falo/falas/fala",
+              de: "sprechen",
+              ko: "말하다",
+              ja: "話す",
+              ru: "говорить",
+              ar: "يتحدث",
+              zh: "说话",
               gn: "Ñe'ẽ",
-              qu: 'Rimay',
-              wo: 'Waxtaan',
-              ha: 'yaya',
-              yo: 'sọ'
+              qu: "Rimay",
+              wo: "Waxtaan",
+              ha: "yaya",
+              yo: "sọ"
             },
             examples: [
               {
-                t: 'Hablo español. ¿Hablas inglés?'
+                t: "Hablo español. ¿Hablas inglés?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_07',
-            word: 'como / comes / come',
-            emoji: '🍽️',
+            id: "es_a1_g4_07",
+            word: "como / comes / come",
+            emoji: "🍽️",
             translations: {
-              es: 'comer',
-              en: 'to eat',
-              fr: 'manger: je mange/tu manges/il mange',
-              it: 'mangiare: mangio/mangi/mangia',
-              pt: 'comer: como/comes/come',
-              de: 'essen',
-              ko: '먹다',
-              ja: '食べる',
-              ru: 'есть',
-              ar: 'يأكل',
-              zh: '吃',
+              es: "comer",
+              en: "to eat",
+              fr: "manger: je mange/tu manges/il mange",
+              it: "mangiare: mangio/mangi/mangia",
+              pt: "comer: como/comes/come",
+              de: "essen",
+              ko: "먹다",
+              ja: "食べる",
+              ru: "есть",
+              ar: "يأكل",
+              zh: "吃",
               gn: "Mba'e",
-              qu: 'Mikuy',
-              wo: 'Ñaan',
-              ha: 'ciya',
-              yo: 'jẹun'
+              qu: "Mikuy",
+              wo: "Ñaan",
+              ha: "ciya",
+              yo: "jẹun"
             },
             examples: [
               {
-                t: 'Como pasta todos los días.'
+                t: "Como pasta todos los días."
               }
             ]
           },
           {
-            id: 'es_a1_g4_08',
-            word: 'bebo / bebes / bebe',
-            emoji: '🥤',
+            id: "es_a1_g4_08",
+            word: "bebo / bebes / bebe",
+            emoji: "🥤",
             translations: {
-              es: 'beber',
-              en: 'to drink',
-              fr: 'boire: je bois/tu bois/il boit',
-              it: 'bere: bevo/bevi/beve',
-              pt: 'beber: bebo/bebes/bebe',
-              de: 'trinken',
-              ko: '마시다',
-              ja: '飲む',
-              ru: 'пить',
-              ar: 'يشرب',
-              zh: '喝',
-              gn: 'Tereré',
-              qu: 'Uqhay',
-              wo: 'Jëm',
-              ha: 'nuna',
-              yo: 'mu'
+              es: "beber",
+              en: "to drink",
+              fr: "boire: je bois/tu bois/il boit",
+              it: "bere: bevo/bevi/beve",
+              pt: "beber: bebo/bebes/bebe",
+              de: "trinken",
+              ko: "마시다",
+              ja: "飲む",
+              ru: "пить",
+              ar: "يشرب",
+              zh: "喝",
+              gn: "Tereré",
+              qu: "Uqhay",
+              wo: "Jëm",
+              ha: "nuna",
+              yo: "mu"
             },
             examples: [
               {
-                t: 'Bebo café por la mañana.'
+                t: "Bebo café por la mañana."
               }
             ]
           },
           {
-            id: 'es_a1_g4_09',
-            word: 'vivo / vives / vive',
-            emoji: '🏠',
+            id: "es_a1_g4_09",
+            word: "vivo / vives / vive",
+            emoji: "🏠",
             translations: {
-              es: 'vivir',
-              en: 'to live',
+              es: "vivir",
+              en: "to live",
               fr: "habiter: j'habite/tu habites/il habite",
-              it: 'vivere: vivo/vivi/vive',
-              pt: 'viver: vivo/vives/vive',
-              de: 'leben',
-              ko: '살다',
-              ja: '生きる',
-              ru: 'жить',
-              ar: 'يعيش',
-              zh: '生活',
-              gn: 'Jopara',
-              qu: 'Kawsay',
-              wo: 'Am',
-              ha: 'rai',
-              yo: 'gba'
+              it: "vivere: vivo/vivi/vive",
+              pt: "viver: vivo/vives/vive",
+              de: "leben",
+              ko: "살다",
+              ja: "生きる",
+              ru: "жить",
+              ar: "يعيش",
+              zh: "生活",
+              gn: "Jopara",
+              qu: "Kawsay",
+              wo: "Am",
+              ha: "rai",
+              yo: "gba"
             },
             examples: [
               {
-                t: 'Vivo en Madrid. ¿Dónde vives tú?'
+                t: "Vivo en Madrid. ¿Dónde vives tú?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_10',
-            word: 'puedo / puedes / puede',
-            emoji: '💪',
+            id: "es_a1_g4_10",
+            word: "puedo / puedes / puede",
+            emoji: "💪",
             translations: {
-              es: 'poder',
-              en: 'can: I can/you can/he can',
-              fr: 'pouvoir: je peux/tu peux/il peut',
-              it: 'potere: posso/puoi/può',
-              pt: 'poder: posso/podes/pode',
-              de: 'können',
-              ko: '할 수 있다',
-              ja: 'できる',
-              ru: 'мочь',
-              ar: 'يستطيع',
-              zh: '能够',
-              gn: 'Poro',
-              qu: 'Atisqa',
-              wo: 'Dinaa',
-              ha: 'zaka iyi',
-              yo: 'le'
+              es: "poder",
+              en: "can: I can/you can/he can",
+              fr: "pouvoir: je peux/tu peux/il peut",
+              it: "potere: posso/puoi/può",
+              pt: "poder: posso/podes/pode",
+              de: "können",
+              ko: "할 수 있다",
+              ja: "できる",
+              ru: "мочь",
+              ar: "يستطيع",
+              zh: "能够",
+              gn: "Poro",
+              qu: "Atisqa",
+              wo: "Dinaa",
+              ha: "zaka iyi",
+              yo: "le"
             },
             examples: [
               {
-                t: '¿Puedes hablar más lento, por favor?'
+                t: "¿Puedes hablar más lento, por favor?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_11',
-            word: 'me gusta / te gusta',
-            emoji: '👍',
+            id: "es_a1_g4_11",
+            word: "me gusta / te gusta",
+            emoji: "👍",
             translations: {
-              es: 'gustar',
-              en: 'to like: I like/you like',
+              es: "gustar",
+              en: "to like: I like/you like",
               fr: "aimer: j'aime/tu aimes",
-              it: 'piacere: mi piace/ti piace',
-              pt: 'gostar: gosto/gostas',
-              de: 'mögen',
-              ko: '좋아하다',
-              ja: '好き',
-              ru: 'нравиться',
-              ar: 'يعجب',
-              zh: '喜欢',
-              gn: 'py’a',
-              qu: 'kuyua',
-              wo: 'bàgg',
-              ha: 'so',
-              yo: 'fẹ́'
+              it: "piacere: mi piace/ti piace",
+              pt: "gostar: gosto/gostas",
+              de: "mögen",
+              ko: "좋아하다",
+              ja: "好き",
+              ru: "нравиться",
+              ar: "يعجب",
+              zh: "喜欢",
+              gn: "py’a",
+              qu: "kuyua",
+              wo: "bàgg",
+              ha: "so",
+              yo: "fẹ́"
             },
             examples: [
               {
-                t: 'Me gusta el café. ¿Te gusta el té?'
+                t: "Me gusta el café. ¿Te gusta el té?"
               }
             ]
           },
           {
-            id: 'es_a1_g4_12',
-            word: 'fui / fuiste / fue',
-            emoji: '⏪',
+            id: "es_a1_g4_12",
+            word: "fui / fuiste / fue",
+            emoji: "⏪",
             translations: {
-              es: 'ir - pasado',
-              en: 'went: I went/you went/he went',
-              fr: 'je suis allé/tu es allé/il est allé',
-              it: 'sono andato/sei andato/è andato',
-              pt: 'fui/foste/foi',
-              de: 'gehen - Vergangenheit',
-              ko: '가다 - 과거',
-              ja: '行く - 過去',
-              ru: 'идти - прошедшее время',
-              ar: 'يذهب - الماضي',
-              zh: '去 - 过去式',
-              gn: 'joapy - árape oîhate',
-              qu: 'rikuy - kuna',
-              wo: 'dem - bëj guées',
-              ha: 'ya - lokaci na baya',
-              yo: 'lọ - asiko ti kọja'
+              es: "ir - pasado",
+              en: "went: I went/you went/he went",
+              fr: "je suis allé/tu es allé/il est allé",
+              it: "sono andato/sei andato/è andato",
+              pt: "fui/foste/foi",
+              de: "gehen - Vergangenheit",
+              ko: "가다 - 과거",
+              ja: "行く - 過去",
+              ru: "идти - прошедшее время",
+              ar: "يذهب - الماضي",
+              zh: "去 - 过去式",
+              gn: "joapy - árape oîhate",
+              qu: "rikuy - kuna",
+              wo: "dem - bëj guées",
+              ha: "ya - lokaci na baya",
+              yo: "lọ - asiko ti kọja"
             },
             examples: [
               {
-                t: 'Fui al médico ayer.'
+                t: "Fui al médico ayer."
               }
             ]
           },
           {
-            id: 'es_a1_g4_13',
-            word: 'trabajé / hablé (-ado)',
-            emoji: '🔵',
+            id: "es_a1_g4_13",
+            word: "trabajé / hablé (-ado)",
+            emoji: "🔵",
             translations: {
-              es: 'pasado regular -ar',
-              en: 'regular past: worked/talked',
+              es: "pasado regular -ar",
+              en: "regular past: worked/talked",
               fr: "passé régulier: j'ai travaillé/parlé",
-              it: 'passato regolare: ho lavorato/parlato',
-              pt: 'passado regular: trabalhei/falei',
-              de: 'regelmäßige Vergangenheit -ar',
-              ko: '규칙적인 과거 -ar',
-              ja: '規則的な過去形 -ar',
-              ru: 'регулярное прошедшее время -ar',
-              ar: 'الماضي المنتظم -ar',
-              zh: '规则过去式 -ar',
-              gn: 'árape oîhate pyahu -ar',
-              qu: 'kuna llaki -ar',
-              wo: 'bëj guées bu baax -ar',
-              ha: 'lokaci na baya mai tsarki -ar',
-              yo: 'asiko ti kọja patapata -ar'
+              it: "passato regolare: ho lavorato/parlato",
+              pt: "passado regular: trabalhei/falei",
+              de: "regelmäßige Vergangenheit -ar",
+              ko: "규칙적인 과거 -ar",
+              ja: "規則的な過去形 -ar",
+              ru: "регулярное прошедшее время -ar",
+              ar: "الماضي المنتظم -ar",
+              zh: "规则过去式 -ar",
+              gn: "árape oîhate pyahu -ar",
+              qu: "kuna llaki -ar",
+              wo: "bëj guées bu baax -ar",
+              ha: "lokaci na baya mai tsarki -ar",
+              yo: "asiko ti kọja patapata -ar"
             },
             examples: [
               {
-                t: 'Trabajé todo el día. Ella habló con él.'
+                t: "Trabajé todo el día. Ella habló con él."
               }
             ]
           },
           {
-            id: 'es_a1_g4_D01',
-            type: 'dialogue',
-            context: 'Contando qué hiciste ayer',
+            id: "es_a1_g4_D01",
+            type: "dialogue",
+            context: "Contando qué hiciste ayer",
             dialogue: [
               {
-                speaker: 'Valeria',
-                line: '¿Qué hiciste ayer?'
+                speaker: "Valeria",
+                line: "¿Qué hiciste ayer?"
               },
               {
-                speaker: 'Tomás',
-                line: 'Fui al gimnasio por la mañana y después comí con mi familia.'
+                speaker: "Tomás",
+                line: "Fui al gimnasio por la mañana y después comí con mi familia."
               },
               {
-                speaker: 'Valeria',
-                line: '¡Qué bien! ¿Dónde comieron?'
+                speaker: "Valeria",
+                line: "¡Qué bien! ¿Dónde comieron?"
               },
               {
-                speaker: 'Tomás',
-                line: 'Fuimos a un restaurante italiano. ¿Y tú?'
+                speaker: "Tomás",
+                line: "Fuimos a un restaurante italiano. ¿Y tú?"
               },
               {
-                speaker: 'Valeria',
-                line: 'Yo estuve en casa. Tuve mucho trabajo.'
+                speaker: "Valeria",
+                line: "Yo estuve en casa. Tuve mucho trabajo."
               },
               {
-                speaker: 'Tomás',
-                line: '¿Pudiste descansar un poco?'
+                speaker: "Tomás",
+                line: "¿Pudiste descansar un poco?"
               },
               {
-                speaker: 'Valeria',
-                line: 'Sí, un poco. Me gusta trabajar desde casa.'
+                speaker: "Valeria",
+                line: "Sí, un poco. Me gusta trabajar desde casa."
               }
             ],
-            note: 'Verbos en presente y pasado: fui, comí, estuve, tuve.',
+            note: "Verbos en presente y pasado: fui, comí, estuve, tuve.",
             translations: {
-              es: 'Hablar del pasado',
-              en: 'Talking about the past',
-              fr: 'Parler du passé',
-              it: 'Parlare del passato',
-              pt: 'Falar do passado',
-              de: 'Über die Vergangenheit sprechen',
-              ko: '과거에 대해 이야기하다',
-              ja: '過去について話す',
-              ru: 'говорить о прошлом',
-              ar: 'التحدث عن الماضي',
-              zh: '谈论过去',
-              gn: 'Oñe’ẽ ha’eha’ẽmbyryete',
-              qu: 'Kunanmanta rimay',
-              wo: 'Waxtu bu am bëj guées',
-              ha: 'Koya ba lokacin baya',
-              yo: 'Gba èdè nípa bíi ajóṣe'
+              es: "Hablar del pasado",
+              en: "Talking about the past",
+              fr: "Parler du passé",
+              it: "Parlare del passato",
+              pt: "Falar do passado",
+              de: "Über die Vergangenheit sprechen",
+              ko: "과거에 대해 이야기하다",
+              ja: "過去について話す",
+              ru: "говорить о прошлом",
+              ar: "التحدث عن الماضي",
+              zh: "谈论过去",
+              gn: "Oñe’ẽ ha’eha’ẽmbyryete",
+              qu: "Kunanmanta rimay",
+              wo: "Waxtu bu am bëj guées",
+              ha: "Koya ba lokacin baya",
+              yo: "Gba èdè nípa bíi ajóṣe"
             }
           }
         ]
@@ -1981,26 +1979,37 @@ const FLASHCARD_A1 = {
     ]
   },
   en: {
-    level: 'A1',
-    levelName: 'I can introduce myself',
+    level: "A1",
+    levelName: "I can introduce myself",
     groups: [
       {
-        id: 'en_a1_g1',
-        name: 'Greetings & introductions',
-        icon: '👋',
-        color: '#6366f1',
-        description: 'How to greet, introduce yourself and say goodbye',
+        id: "en_a1_g1",
+        name: "Greetings & introductions",
+        icon: "👋",
+        color: "#6366f1",
+        description: "How to greet, introduce yourself and say goodbye",
         cards: [
           {
-            id: 'en_a1_g1_01',
-            word: 'Hi / Hello',
-            emoji: '👋',
+            id: "en_a1_g1_01",
+            word: "Hi / Hello",
+            emoji: "👋",
             translations: {
-              es: 'hola',
-              en: 'hi / hello',
-              fr: 'salut / bonjour',
-              it: 'ciao',
-              pt: 'olá / oi'
+              es: "hola",
+              en: "hi / hello",
+              fr: "salut / bonjour",
+              it: "ciao",
+              pt: "olá / oi",
+              de: "Hallo",
+              ko: "안녕하세요",
+              ja: "こんにちは",
+              ru: "привет",
+              ar: "مرحبا",
+              zh: "你好",
+              gn: "Mba'éichapa",
+              qu: "Rimaykullayki",
+              wo: "Salamalekum",
+              ha: "Sannu",
+              yo: "Ẹ n lẹ"
             },
             examples: [
               {
@@ -2009,66 +2018,110 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_02',
-            word: 'Goodbye / Bye',
-            emoji: '🙋',
+            id: "en_a1_g1_02",
+            word: "Goodbye / Bye",
+            emoji: "🙋",
             translations: {
-              es: 'adiós',
-              en: 'goodbye',
-              fr: 'au revoir',
-              it: 'arrivederci',
-              pt: 'tchau'
+              es: "adiós",
+              en: "goodbye",
+              fr: "au revoir",
+              it: "arrivederci",
+              pt: "tchau",
+              de: "Tschüss",
+              ko: "안녕히 가세요",
+              ja: "さようなら",
+              ru: "пока",
+              ar: "وداعا",
+              zh: "再见",
+              gn: "Aguyjevete",
+              qu: "K'uychi",
+              wo: "Ba beneen",
+              ha: "Da ku gode",
+              yo: "O dàbọ̀"
             },
             examples: [
               {
-                t: 'Goodbye! See you tomorrow.'
+                t: "Goodbye! See you tomorrow."
               }
             ]
           },
           {
-            id: 'en_a1_g1_03',
-            word: 'Good morning',
-            emoji: '🌅',
+            id: "en_a1_g1_03",
+            word: "Good morning",
+            emoji: "🌅",
             translations: {
-              es: 'buenos días',
-              en: 'good morning',
-              fr: 'bonjour',
-              it: 'buongiorno',
-              pt: 'bom dia'
+              es: "buenos días",
+              en: "good morning",
+              fr: "bonjour",
+              it: "buongiorno",
+              pt: "bom dia",
+              de: "Guten Tag",
+              ko: "좋은 아침",
+              ja: "おはようございます",
+              ru: "доброе утро",
+              ar: "صباح الخير",
+              zh: "早上好",
+              gn: "Mba'éichapa ha'evéma",
+              qu: "Rimaykullayki punchaw",
+              wo: "Jàmm rekk",
+              ha: "Barka da yamma",
+              yo: "E kaaro"
             },
             examples: [
               {
-                t: 'Good morning! How are you today?'
+                t: "Good morning! How are you today?"
               }
             ]
           },
           {
-            id: 'en_a1_g1_04',
-            word: 'Good night',
-            emoji: '🌙',
+            id: "en_a1_g1_04",
+            word: "Good night",
+            emoji: "🌙",
             translations: {
-              es: 'buenas noches',
-              en: 'good night',
-              fr: 'bonne nuit',
-              it: 'buonanotte',
-              pt: 'boa noite'
+              es: "buenas noches",
+              en: "good night",
+              fr: "bonne nuit",
+              it: "buonanotte",
+              pt: "boa noite",
+              de: "Guten Abend",
+              ko: "좋은 저녁",
+              ja: "こんばんは",
+              ru: "добрый вечер",
+              ar: "مساء الخير",
+              zh: "晚上好",
+              gn: "Mba'éichapa pyhare",
+              qu: "Rimaykullayki qhepa simi",
+              wo: "Jàmm alal",
+              ha: "Barka da dare",
+              yo: "E kaaro ale"
             },
             examples: [
               {
-                t: 'Good night! See you tomorrow.'
+                t: "Good night! See you tomorrow."
               }
             ]
           },
           {
-            id: 'en_a1_g1_05',
+            id: "en_a1_g1_05",
             word: "What's your name?",
-            emoji: '🏷️',
+            emoji: "🏷️",
             translations: {
-              es: '¿cómo te llamas?',
+              es: "¿cómo te llamas?",
               en: "what's your name?",
               fr: "comment tu t'appelles?",
-              it: 'come ti chiami?',
-              pt: 'como você se chama?'
+              it: "come ti chiami?",
+              pt: "como você se chama?",
+              de: "Wie heißt du?",
+              ko: "네 이름이 뭐야?",
+              ja: "あなたの名前は何ですか？",
+              ru: "Как тебя зовут?",
+              ar: "ما اسمك؟",
+              zh: "你叫什么名字？",
+              gn: "Mba'éichapa reime?",
+              qu: "Imaynam kallankichu?",
+              wo: "Noo nga jëm?",
+              ha: "Menene sunanka?",
+              yo: "Kí ni orúkọ rẹ?"
             },
             examples: [
               {
@@ -2077,49 +2130,82 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_06',
-            word: 'My name is',
-            emoji: '😊',
+            id: "en_a1_g1_06",
+            word: "My name is",
+            emoji: "😊",
             translations: {
-              es: 'me llamo',
-              en: 'my name is',
+              es: "me llamo",
+              en: "my name is",
               fr: "je m'appelle",
-              it: 'mi chiamo',
-              pt: 'me chamo'
+              it: "mi chiamo",
+              pt: "me chamo",
+              de: "Ich heiße",
+              ko: "제 이름은",
+              ja: "私の名前は",
+              ru: "Меня зовут",
+              ar: "اسمي",
+              zh: "我的名字是",
+              gn: "Che reime",
+              qu: "Niyqa kani",
+              wo: "Jëm laa",
+              ha: "Sunayni",
+              yo: "Orúkọ mi ni"
             },
             examples: [
               {
-                t: 'My name is James. Nice to meet you.'
+                t: "My name is James. Nice to meet you."
               }
             ]
           },
           {
-            id: 'en_a1_g1_07',
-            word: 'How are you?',
-            emoji: '🤔',
+            id: "en_a1_g1_07",
+            word: "How are you?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo estás?',
-              en: 'how are you?',
-              fr: 'comment ça va?',
-              it: 'come stai?',
-              pt: 'como vai?'
+              es: "¿cómo estás?",
+              en: "how are you?",
+              fr: "comment ça va?",
+              it: "come stai?",
+              pt: "como vai?",
+              de: "Wie geht es dir?",
+              ko: "어떻게 지내세요?",
+              ja: "お元気ですか？",
+              ru: "Как дела?",
+              ar: "كيف حالك؟",
+              zh: "你好吗？",
+              gn: "Mba'éichapa reiko?",
+              qu: "Imaynallaq kashankichu?",
+              wo: "Naka nga jaay?",
+              ha: "Yaya kake?",
+              yo: "Báwo ni o se wa?"
             },
             examples: [
               {
-                t: 'How are you? — Very well, thanks!'
+                t: "How are you? — Very well, thanks!"
               }
             ]
           },
           {
-            id: 'en_a1_g1_08',
+            id: "en_a1_g1_08",
             word: "I'm fine / very well",
-            emoji: '😄',
+            emoji: "😄",
             translations: {
-              es: 'estoy bien / muy bien',
+              es: "estoy bien / muy bien",
               en: "I'm fine / very well",
-              fr: 'je vais bien / très bien',
-              it: 'sto bene / molto bene',
-              pt: 'estou bem / muito bem'
+              fr: "je vais bien / très bien",
+              it: "sto bene / molto bene",
+              pt: "estou bem / muito bem",
+              de: "Sehr gut",
+              ko: "매우 좋습니다",
+              ja: "とても良いです",
+              ru: "очень хорошо",
+              ar: "جيد جدا",
+              zh: "很好",
+              gn: "Mba'éichapa iporã",
+              qu: "Allinlla",
+              wo: "Buur guèpp",
+              ha: "Daya kamfani",
+              yo: "Dáradára"
             },
             examples: [
               {
@@ -2128,66 +2214,110 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_09',
-            word: 'Not bad / so-so',
-            emoji: '🤷',
+            id: "en_a1_g1_09",
+            word: "Not bad / so-so",
+            emoji: "🤷",
             translations: {
-              es: 'más o menos',
-              en: 'not bad / so-so',
-              fr: 'pas mal / comme ci comme ça',
-              it: 'non male / così così',
-              pt: 'mais ou menos'
+              es: "más o menos",
+              en: "not bad / so-so",
+              fr: "pas mal / comme ci comme ça",
+              it: "non male / così così",
+              pt: "mais ou menos",
+              de: "So lala",
+              ko: "그럭저럭",
+              ja: "まあまあ",
+              ru: "так себе",
+              ar: "على ما يرام",
+              zh: "还不错",
+              gn: "Mba'éichapa jepe",
+              qu: "Mana allinchu",
+              wo: "Mëdd mëdd",
+              ha: "Kwai kwai",
+              yo: "Kí í ṣe"
             },
             examples: [
               {
-                t: 'How are you? — Not bad, thanks.'
+                t: "How are you? — Not bad, thanks."
               }
             ]
           },
           {
-            id: 'en_a1_g1_10',
-            word: 'Nice to meet you',
-            emoji: '🤝',
+            id: "en_a1_g1_10",
+            word: "Nice to meet you",
+            emoji: "🤝",
             translations: {
-              es: 'mucho gusto',
-              en: 'nice to meet you',
-              fr: 'enchanté',
-              it: 'piacere',
-              pt: 'prazer'
+              es: "mucho gusto",
+              en: "nice to meet you",
+              fr: "enchanté",
+              it: "piacere",
+              pt: "prazer",
+              de: "Freut mich",
+              ko: "만나서 반갑습니다",
+              ja: "お会いできて嬉しいです",
+              ru: "рад встрече",
+              ar: "سعيد بلقائك",
+              zh: "很高兴见到你",
+              gn: "Aguyjevete",
+              qu: "Kuychi",
+              wo: "Mëngi lay baax",
+              ha: "Ina son ki",
+              yo: "Ẹ yìn mọ̀"
             },
             examples: [
               {
-                t: 'This is Emily. — Nice to meet you!'
+                t: "This is Emily. — Nice to meet you!"
               }
             ]
           },
           {
-            id: 'en_a1_g1_11',
-            word: 'Welcome',
-            emoji: '🎉',
+            id: "en_a1_g1_11",
+            word: "Welcome",
+            emoji: "🎉",
             translations: {
-              es: 'bienvenido',
-              en: 'welcome',
-              fr: 'bienvenue',
-              it: 'benvenuto',
-              pt: 'bem-vindo'
+              es: "bienvenido",
+              en: "welcome",
+              fr: "bienvenue",
+              it: "benvenuto",
+              pt: "bem-vindo",
+              de: "Willkommen",
+              ko: "환영합니다",
+              ja: "ようこそ",
+              ru: "добро пожаловать",
+              ar: "أهلا وسهلا",
+              zh: "欢迎",
+              gn: "Bienvenido",
+              qu: "Allin hamut'ana",
+              wo: "Jàmm jigeen",
+              ha: "Barka da zuwa",
+              yo: "Ẹ wà pèlẹ̀"
             },
             examples: [
               {
-                t: 'Welcome to our city!'
+                t: "Welcome to our city!"
               }
             ]
           },
           {
-            id: 'en_a1_g1_12',
-            word: 'Where are you from?',
-            emoji: '🌍',
+            id: "en_a1_g1_12",
+            word: "Where are you from?",
+            emoji: "🌍",
             translations: {
-              es: '¿de dónde eres?',
-              en: 'where are you from?',
+              es: "¿de dónde eres?",
+              en: "where are you from?",
               fr: "tu viens d'où?",
-              it: 'di dove sei?',
-              pt: 'de onde você é?'
+              it: "di dove sei?",
+              pt: "de onde você é?",
+              de: "Woher kommst du?",
+              ko: "어디에서 오셨어요?",
+              ja: "どこから来ましたか？",
+              ru: "Откуда ты?",
+              ar: "من أين أنت؟",
+              zh: "你从哪里来？",
+              gn: "Mba'épa ichupe?",
+              qu: "Qhamanpi kashanchu?",
+              wo: "Dóo nga dégg?",
+              ha: "Ina ka zo?",
+              yo: "Níbo ni o wá?"
             },
             examples: [
               {
@@ -2196,15 +2326,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_13',
+            id: "en_a1_g1_13",
             word: "I'm from",
-            emoji: '📍',
+            emoji: "📍",
             translations: {
-              es: 'soy de',
+              es: "soy de",
               en: "I'm from",
-              fr: 'je viens de',
-              it: 'sono di',
-              pt: 'sou de'
+              fr: "je viens de",
+              it: "sono di",
+              pt: "sou de",
+              de: "Ich komme aus",
+              ko: "저는 ...에서 왔습니다",
+              ja: "私は...から来ました",
+              ru: "Я из",
+              ar: "أنا من",
+              zh: "我来自",
+              gn: "Che ha'e ...-pe",
+              qu: "Niyqa ...-manta",
+              wo: "Maa nga jóge ...",
+              ha: "Ina na zo ...",
+              yo: "Mo wa ni ..."
             },
             examples: [
               {
@@ -2213,32 +2354,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_14',
-            word: 'Sorry / Excuse me',
-            emoji: '🙏',
+            id: "en_a1_g1_14",
+            word: "Sorry / Excuse me",
+            emoji: "🙏",
             translations: {
-              es: 'perdón / disculpa',
-              en: 'sorry / excuse me',
-              fr: 'pardon / excusez-moi',
-              it: 'scusa / mi scusi',
-              pt: 'desculpe'
+              es: "perdón / disculpa",
+              en: "sorry / excuse me",
+              fr: "pardon / excusez-moi",
+              it: "scusa / mi scusi",
+              pt: "desculpe",
+              de: "Entschuldigung",
+              ko: "미안합니다",
+              ja: "すみません",
+              ru: "извините",
+              ar: "عذرًا",
+              zh: "对不起",
+              gn: "Perdón",
+              qu: "Pakarikuy",
+              wo: "Maaf",
+              ha: "Goma",
+              yo: "E ma binu"
             },
             examples: [
               {
-                t: 'Excuse me, can you repeat that more slowly?'
+                t: "Excuse me, can you repeat that more slowly?"
               }
             ]
           },
           {
-            id: 'en_a1_g1_15',
+            id: "en_a1_g1_15",
             word: "I don't understand",
-            emoji: '❓',
+            emoji: "❓",
             translations: {
-              es: 'no entiendo',
+              es: "no entiendo",
               en: "I don't understand",
-              fr: 'je ne comprends pas',
-              it: 'non capisco',
-              pt: 'não entendo'
+              fr: "je ne comprends pas",
+              it: "non capisco",
+              pt: "não entendo",
+              de: "Ich verstehe nicht",
+              ko: "이해하지 못하겠어요",
+              ja: "わかりません",
+              ru: "Я не понимаю",
+              ar: "لا أفهم",
+              zh: "我不懂",
+              gn: "Ndaikuaa'ỹrei",
+              qu: "Manam entiendinchu",
+              wo: "Ma nga xamoon naa",
+              ha: "Babu kaina",
+              yo: "Mo ti mo gbọ́"
             },
             examples: [
               {
@@ -2247,97 +2410,130 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g1_D01',
-            type: 'dialogue',
-            context: 'Two people meet at a conference',
+            id: "en_a1_g1_D01",
+            type: "dialogue",
+            context: "Two people meet at a conference",
             dialogue: [
               {
-                speaker: 'Monica',
+                speaker: "Monica",
                 line: "Hi! You're Julian, right?"
               },
               {
-                speaker: 'Julian',
+                speaker: "Julian",
                 line: "Yes! And you, what's your name?"
               },
               {
-                speaker: 'Monica',
+                speaker: "Monica",
                 line: "I'm Monica. Nice to meet you!"
               },
               {
-                speaker: 'Julian',
-                line: 'Nice to meet you too. Where are you from?'
+                speaker: "Julian",
+                line: "Nice to meet you too. Where are you from?"
               },
               {
-                speaker: 'Monica',
+                speaker: "Monica",
                 line: "I'm from Buenos Aires. And you?"
               },
               {
-                speaker: 'Julian',
+                speaker: "Julian",
                 line: "I'm from London. Welcome!"
               }
             ],
-            note: 'Greetings, introductions and asking where someone is from.',
+            note: "Greetings, introductions and asking where someone is from.",
             translations: {
-              es: 'Presentarse',
-              en: 'Introducing yourself',
-              fr: 'Se présenter',
-              it: 'Presentarsi',
-              pt: 'Apresentar-se'
+              es: "Presentarse",
+              en: "Introducing yourself",
+              fr: "Se présenter",
+              it: "Presentarsi",
+              pt: "Apresentar-se",
+              de: "Sich vorstellen",
+              ko: "자기소개",
+              ja: "自己紹介",
+              ru: "представиться",
+              ar: "التعريف بالنفس",
+              zh: "自我介绍",
+              gn: "Ojepresenta",
+              qu: "Willana",
+              wo: "Wóor na taxaw",
+              ha: "Bayanin kanka",
+              yo: "Kí í ṣe àtẹ̀jáde"
             }
           },
           {
-            id: 'en_a1_g1_D02',
-            type: 'dialogue',
-            context: 'Saying goodbye after a meeting',
+            id: "en_a1_g1_D02",
+            type: "dialogue",
+            context: "Saying goodbye after a meeting",
             dialogue: [
               {
-                speaker: 'Anna',
-                line: 'Well, I have to go. It was a pleasure!'
+                speaker: "Anna",
+                line: "Well, I have to go. It was a pleasure!"
               },
               {
-                speaker: 'Peter',
-                line: 'Likewise, Anna. See you soon!'
+                speaker: "Peter",
+                line: "Likewise, Anna. See you soon!"
               },
               {
-                speaker: 'Anna',
-                line: 'Goodbye! Have a great day!'
+                speaker: "Anna",
+                line: "Goodbye! Have a great day!"
               },
               {
-                speaker: 'Peter',
-                line: 'You too!'
+                speaker: "Peter",
+                line: "You too!"
               }
             ],
-            note: 'Common expressions for saying goodbye.',
+            note: "Common expressions for saying goodbye.",
             translations: {
-              es: 'Despedirse',
-              en: 'Saying goodbye',
-              fr: 'Dire au revoir',
-              it: 'Salutarsi',
-              pt: 'Despedir-se'
+              es: "Despedirse",
+              en: "Saying goodbye",
+              fr: "Dire au revoir",
+              it: "Salutarsi",
+              pt: "Despedir-se",
+              de: "Sich verabschieden",
+              ko: "작별 인사",
+              ja: "お別れ",
+              ru: "прощаться",
+              ar: "الوداع",
+              zh: "告别",
+              gn: "Oje'o",
+              qu: "K'uychi",
+              wo: "Bax na",
+              ha: "Ku tsallaka",
+              yo: "Kí í ṣe ìbẹ̀rẹ̀ ìrìn"
             }
           }
         ]
       },
       {
-        id: 'en_a1_g2',
-        name: 'Quantities & states',
-        icon: '😋',
-        color: '#f59e0b',
-        description: 'Expressing needs, feelings and weather',
+        id: "en_a1_g2",
+        name: "Quantities & states",
+        icon: "😋",
+        color: "#f59e0b",
+        description: "Expressing needs, feelings and weather",
         reviewFrom: [
           "en_a1_g1"
         ],
         cards: [
           {
-            id: 'en_a1_g2_01',
-            word: 'hungry',
-            emoji: '🍽️',
+            id: "en_a1_g2_01",
+            word: "hungry",
+            emoji: "🍽️",
             translations: {
-              es: 'hambre',
-              en: 'hungry',
-              fr: 'faim',
-              it: 'fame',
-              pt: 'fome'
+              es: "hambre",
+              en: "hungry",
+              fr: "faim",
+              it: "fame",
+              pt: "fome",
+              de: "Hunger",
+              ko: "배고픔",
+              ja: "空腹",
+              ru: "голод",
+              ar: "جوع",
+              zh: "饥饿",
+              gn: "Añembo'",
+              qu: "Musuy",
+              wo: "Bëcc",
+              ha: "Yankin ciki",
+              yo: "Ìgbèsẹ̀"
             },
             examples: [
               {
@@ -2346,15 +2542,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_02',
-            word: 'thirsty',
-            emoji: '💧',
+            id: "en_a1_g2_02",
+            word: "thirsty",
+            emoji: "💧",
             translations: {
-              es: 'sed',
-              en: 'thirsty',
-              fr: 'soif',
-              it: 'sete',
-              pt: 'sede'
+              es: "sed",
+              en: "thirsty",
+              fr: "soif",
+              it: "sete",
+              pt: "sede",
+              de: "Durst",
+              ko: "목마름",
+              ja: "渇き",
+              ru: "жажда",
+              ar: "عطش",
+              zh: "口渴",
+              gn: "Añembyasy",
+              qu: "P'isyay",
+              wo: "Dëgg",
+              ha: "Yankin ruwa",
+              yo: "Ìfẹ́ ìmọ́lẹ̀"
             },
             examples: [
               {
@@ -2363,15 +2570,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_03',
-            word: 'cold',
-            emoji: '🥶',
+            id: "en_a1_g2_03",
+            word: "cold",
+            emoji: "🥶",
             translations: {
-              es: 'frío',
-              en: 'cold',
-              fr: 'froid',
-              it: 'freddo',
-              pt: 'frio'
+              es: "frío",
+              en: "cold",
+              fr: "froid",
+              it: "freddo",
+              pt: "frio",
+              de: "Kälte",
+              ko: "추위",
+              ja: "寒さ",
+              ru: "холод",
+              ar: "برد",
+              zh: "寒冷",
+              gn: "Añemby",
+              qu: "Chiri",
+              wo: "Bañ",
+              ha: "Yankin sanyi",
+              yo: "Ọkẹ́"
             },
             examples: [
               {
@@ -2380,15 +2598,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_04',
-            word: 'hot',
-            emoji: '🌡️',
+            id: "en_a1_g2_04",
+            word: "hot",
+            emoji: "🌡️",
             translations: {
-              es: 'calor',
-              en: 'hot',
-              fr: 'chaud',
-              it: 'caldo',
-              pt: 'calor'
+              es: "calor",
+              en: "hot",
+              fr: "chaud",
+              it: "caldo",
+              pt: "calor",
+              de: "Hitze",
+              ko: "열",
+              ja: "暑さ",
+              ru: "жара",
+              ar: "حرارة",
+              zh: "热",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
@@ -2397,15 +2626,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_05',
-            word: 'tired',
-            emoji: '😴',
+            id: "en_a1_g2_05",
+            word: "tired",
+            emoji: "😴",
             translations: {
-              es: 'cansado',
-              en: 'tired',
-              fr: 'fatigué',
-              it: 'stanco',
-              pt: 'cansado'
+              es: "cansado",
+              en: "tired",
+              fr: "fatigué",
+              it: "stanco",
+              pt: "cansado",
+              de: "müde",
+              ko: "피곤한",
+              ja: "疲れた",
+              ru: "усталый",
+              ar: "متعب",
+              zh: "累",
+              gn: "pyahu",
+              qu: "lluk'iy",
+              wo: "neex",
+              ha: "talle",
+              yo: "kúkúrú"
             },
             examples: [
               {
@@ -2414,32 +2654,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_06',
-            word: 'a lot / very',
-            emoji: '📊',
+            id: "en_a1_g2_06",
+            word: "a lot / very",
+            emoji: "📊",
             translations: {
-              es: 'mucho / muy',
-              en: 'a lot / very',
-              fr: 'beaucoup / très',
-              it: 'molto',
-              pt: 'muito'
+              es: "mucho / muy",
+              en: "a lot / very",
+              fr: "beaucoup / très",
+              it: "molto",
+              pt: "muito",
+              de: "viel",
+              ko: "많이",
+              ja: "たくさん",
+              ru: "много",
+              ar: "كثير",
+              zh: "很多",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'I have a lot of work today.'
+                t: "I have a lot of work today."
               }
             ]
           },
           {
-            id: 'en_a1_g2_07',
-            word: 'a little',
-            emoji: '🤏',
+            id: "en_a1_g2_07",
+            word: "a little",
+            emoji: "🤏",
             translations: {
-              es: 'un poco',
-              en: 'a little',
-              fr: 'un peu',
+              es: "un poco",
+              en: "a little",
+              fr: "un peu",
               it: "un po'",
-              pt: 'um pouco'
+              pt: "um pouco",
+              de: "wenig",
+              ko: "조금",
+              ja: "少し",
+              ru: "немного",
+              ar: "قليل",
+              zh: "少",
+              gn: "po'a",
+              qu: "phisi",
+              wo: "benn",
+              ha: "sau",
+              yo: "díẹ̀"
             },
             examples: [
               {
@@ -2448,15 +2710,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_08',
-            word: 'quite / enough',
-            emoji: '👌',
+            id: "en_a1_g2_08",
+            word: "quite / enough",
+            emoji: "👌",
             translations: {
-              es: 'bastante',
-              en: 'quite / enough',
-              fr: 'assez',
-              it: 'abbastanza',
-              pt: 'bastante'
+              es: "bastante",
+              en: "quite / enough",
+              fr: "assez",
+              it: "abbastanza",
+              pt: "bastante",
+              de: "ziemlich",
+              ko: "제법",
+              ja: "かなり",
+              ru: "довольно",
+              ar: "كثيرا",
+              zh: "相当",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
@@ -2465,15 +2738,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_09',
-            word: 'too much',
-            emoji: '🙈',
+            id: "en_a1_g2_09",
+            word: "too much",
+            emoji: "🙈",
             translations: {
-              es: 'demasiado',
-              en: 'too much',
-              fr: 'trop',
-              it: 'troppo',
-              pt: 'demais'
+              es: "demasiado",
+              en: "too much",
+              fr: "trop",
+              it: "troppo",
+              pt: "demais",
+              de: "zu viel",
+              ko: "너무 많이",
+              ja: "多すぎる",
+              ru: "слишком много",
+              ar: "كثير جدا",
+              zh: "太多",
+              gn: "pyahuite",
+              qu: "pachapacha",
+              wo: "buñ buñ",
+              ha: "yawa guda",
+              yo: "púpọ̀ jùlọ"
             },
             examples: [
               {
@@ -2482,32 +2766,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_10',
-            word: 'I need',
-            emoji: '🙋',
+            id: "en_a1_g2_10",
+            word: "I need",
+            emoji: "🙋",
             translations: {
-              es: 'necesito',
-              en: 'I need',
+              es: "necesito",
+              en: "I need",
               fr: "j'ai besoin de",
-              it: 'ho bisogno di',
-              pt: 'preciso de'
+              it: "ho bisogno di",
+              pt: "preciso de",
+              de: "brauchen",
+              ko: "필요로하다",
+              ja: "必要とする",
+              ru: "нуждаться",
+              ar: "يحتاج",
+              zh: "需要",
+              gn: "reikuaa",
+              qu: "munay",
+              wo: "waaj",
+              ha: "bukatar",
+              yo: "wà ní ìwọ́lé"
             },
             examples: [
               {
-                t: 'I need some water, please.'
+                t: "I need some water, please."
               }
             ]
           },
           {
-            id: 'en_a1_g2_11',
-            word: 'sunny',
-            emoji: '☀️',
+            id: "en_a1_g2_11",
+            word: "sunny",
+            emoji: "☀️",
             translations: {
-              es: 'soleado',
-              en: 'sunny',
-              fr: 'ensoleillé',
-              it: 'soleggiato',
-              pt: 'ensolarado'
+              es: "soleado",
+              en: "sunny",
+              fr: "ensoleillé",
+              it: "soleggiato",
+              pt: "ensolarado",
+              de: "sonnig",
+              ko: "맑은",
+              ja: "晴れた",
+              ru: "солнечный",
+              ar: "مشمس",
+              zh: "晴朗",
+              gn: "aravẽ",
+              qu: "inti",
+              wo: "ñakku",
+              ha: "ranar",
+              yo: "ọjọ́ òjò"
             },
             examples: [
               {
@@ -2516,15 +2822,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_12',
-            word: 'cloudy',
-            emoji: '☁️',
+            id: "en_a1_g2_12",
+            word: "cloudy",
+            emoji: "☁️",
             translations: {
-              es: 'nublado',
-              en: 'cloudy',
-              fr: 'nuageux',
-              it: 'nuvoloso',
-              pt: 'nublado'
+              es: "nublado",
+              en: "cloudy",
+              fr: "nuageux",
+              it: "nuvoloso",
+              pt: "nublado",
+              de: "bewölkt",
+              ko: "구름 낀",
+              ja: "曇った",
+              ru: "облачно",
+              ar: "غائم",
+              zh: "多云",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
@@ -2533,15 +2850,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_13',
-            word: 'rainy',
-            emoji: '🌧️',
+            id: "en_a1_g2_13",
+            word: "rainy",
+            emoji: "🌧️",
             translations: {
-              es: 'lluvioso',
-              en: 'rainy',
-              fr: 'pluvieux',
-              it: 'piovoso',
-              pt: 'chuvoso'
+              es: "lluvioso",
+              en: "rainy",
+              fr: "pluvieux",
+              it: "piovoso",
+              pt: "chuvoso",
+              de: "regnerisch",
+              ko: "비 오는",
+              ja: "雨の",
+              ru: "дождливый",
+              ar: "ممطر",
+              zh: "多雨",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
@@ -2550,15 +2878,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_14',
+            id: "en_a1_g2_14",
             word: "What's the weather like?",
-            emoji: '🌡️',
+            emoji: "🌡️",
             translations: {
-              es: '¿qué tiempo hace?',
+              es: "¿qué tiempo hace?",
               en: "what's the weather like?",
-              fr: 'quel temps fait-il?',
-              it: 'che tempo fa?',
-              pt: 'como está o tempo?'
+              fr: "quel temps fait-il?",
+              it: "che tempo fa?",
+              pt: "como está o tempo?",
+              de: "es ist kalt/warm",
+              ko: "추워요/더워요",
+              ja: "寒い/暑い",
+              ru: "холодно/тепло",
+              ar: "بارد/حار",
+              zh: "冷/热",
+              gn: "tembi'u/tembi'u",
+              qu: "q'asa/q'asa",
+              wo: "ñakk/ñakk",
+              ha: "yankin jini/yankin jini",
+              yo: "ìtàn/ìtàn"
             },
             examples: [
               {
@@ -2567,357 +2906,555 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g2_D01',
-            type: 'dialogue',
-            context: 'Talking about the weather when you meet',
+            id: "en_a1_g2_D01",
+            type: "dialogue",
+            context: "Talking about the weather when you meet",
             dialogue: [
               {
-                speaker: 'Luis',
+                speaker: "Luis",
                 line: "Hi! What's the weather like today?"
               },
               {
-                speaker: 'Clara',
+                speaker: "Clara",
                 line: "It's very cold and cloudy."
               },
               {
-                speaker: 'Luis',
+                speaker: "Luis",
                 line: "Yes, I'm so cold. Are you cold too?"
               },
               {
-                speaker: 'Clara',
-                line: 'Me too! I need a hot coffee.'
+                speaker: "Clara",
+                line: "Me too! I need a hot coffee."
               },
               {
-                speaker: 'Luis',
-                line: 'Great idea! Shall we go to the café?'
+                speaker: "Luis",
+                line: "Great idea! Shall we go to the café?"
               }
             ],
-            note: 'Talking about weather and expressing feelings.',
+            note: "Talking about weather and expressing feelings.",
             translations: {
-              es: 'Hablar del tiempo',
-              en: 'Talking about the weather',
-              fr: 'Parler de la météo',
-              it: 'Parlare del tempo',
-              pt: 'Falar do tempo'
+              es: "Hablar del tiempo",
+              en: "Talking about the weather",
+              fr: "Parler de la météo",
+              it: "Parlare del tempo",
+              pt: "Falar do tempo",
+              de: "Über das Wetter sprechen",
+              ko: "날씨에 대해 이야기하다",
+              ja: "天気について話す",
+              ru: "говорить о погоде",
+              ar: "التحدث عن الطقس",
+              zh: "谈论天气",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay q'asa",
+              wo: "waxtu ñakk",
+              ha: "magana game da yankin jini",
+              yo: "sọ̀rọ̀ nípa ìtàn"
             }
           },
           {
-            id: 'en_a1_g2_D02',
-            type: 'dialogue',
-            context: 'Before eating together',
+            id: "en_a1_g2_D02",
+            type: "dialogue",
+            context: "Before eating together",
             dialogue: [
               {
-                speaker: 'Marta',
+                speaker: "Marta",
                 line: "Are you hungry? It's two o'clock."
               },
               {
-                speaker: 'Pablo',
+                speaker: "Pablo",
                 line: "Yes, I'm very hungry. What's there to eat?"
               },
               {
-                speaker: 'Marta',
+                speaker: "Marta",
                 line: "There's pasta and salad. Do you want some?"
               },
               {
-                speaker: 'Pablo',
+                speaker: "Pablo",
                 line: "Perfect! And I'm also very thirsty."
               },
               {
-                speaker: 'Marta',
+                speaker: "Marta",
                 line: "There's water and orange juice."
               },
               {
-                speaker: 'Pablo',
-                line: 'Great, thank you.'
+                speaker: "Pablo",
+                line: "Great, thank you."
               }
             ],
-            note: 'Expressing hunger, thirst and basic needs.',
+            note: "Expressing hunger, thirst and basic needs.",
             translations: {
-              es: 'Hablar de comida',
-              en: 'Talking about food',
-              fr: 'Parler de nourriture',
-              it: 'Parlare di cibo',
-              pt: 'Falar de comida'
+              es: "Hablar de comida",
+              en: "Talking about food",
+              fr: "Parler de nourriture",
+              it: "Parlare di cibo",
+              pt: "Falar de comida",
+              de: "Über Essen sprechen",
+              ko: "음식에 대해 이야기하다",
+              ja: "食べ物について話す",
+              ru: "говорить о еде",
+              ar: "التحدث عن الطعام",
+              zh: "谈论食物",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay mik'i",
+              wo: "waxtu yëngu",
+              ha: "magana game da abinci",
+              yo: "sọ̀rọ̀ nípa ẹ̀wọ̀n"
             }
           }
         ]
       },
       {
-        id: 'en_a1_g3',
-        name: 'Questions & numbers',
-        icon: '❓',
-        color: '#10b981',
-        description: 'Question words + numbers 1 to 8',
+        id: "en_a1_g3",
+        name: "Questions & numbers",
+        icon: "❓",
+        color: "#10b981",
+        description: "Question words + numbers 1 to 8",
         reviewFrom: [
           "en_a1_g1",
           "en_a1_g2"
         ],
         cards: [
           {
-            id: 'en_a1_g3_01',
-            word: 'What?',
-            emoji: '🔍',
+            id: "en_a1_g3_01",
+            word: "What?",
+            emoji: "🔍",
             translations: {
-              es: '¿qué?',
-              en: 'what?',
-              fr: 'quoi?',
-              it: 'cosa?',
-              pt: 'o quê?'
+              es: "¿qué?",
+              en: "what?",
+              fr: "quoi?",
+              it: "cosa?",
+              pt: "o quê?",
+              de: "Was?",
+              ko: "뭐?",
+              ja: "何？",
+              ru: "что?",
+              ar: "ماذا؟",
+              zh: "什么？",
+              gn: "mba'épa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kí ni?"
             },
             examples: [
               {
-                t: 'What do you want to drink?'
+                t: "What do you want to drink?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_02',
-            word: 'Who?',
-            emoji: '🧑',
+            id: "en_a1_g3_02",
+            word: "Who?",
+            emoji: "🧑",
             translations: {
-              es: '¿quién?',
-              en: 'who?',
-              fr: 'qui?',
-              it: 'chi?',
-              pt: 'quem?'
+              es: "¿quién?",
+              en: "who?",
+              fr: "qui?",
+              it: "chi?",
+              pt: "quem?",
+              de: "Wer?",
+              ko: "누구?",
+              ja: "誰？",
+              ru: "кто?",
+              ar: "من؟",
+              zh: "谁？",
+              gn: "nde?",
+              qu: "pipataq?",
+              wo: "këmbu?",
+              ha: "wane?",
+              yo: "ta ni?"
             },
             examples: [
               {
-                t: 'Who is that person?'
+                t: "Who is that person?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_03',
-            word: 'Where?',
-            emoji: '📍',
+            id: "en_a1_g3_03",
+            word: "Where?",
+            emoji: "📍",
             translations: {
-              es: '¿dónde?',
-              en: 'where?',
-              fr: 'où?',
-              it: 'dove?',
-              pt: 'onde?'
+              es: "¿dónde?",
+              en: "where?",
+              fr: "où?",
+              it: "dove?",
+              pt: "onde?",
+              de: "Wo?",
+              ko: "어디?",
+              ja: "どこ？",
+              ru: "где?",
+              ar: "أين؟",
+              zh: "哪里？",
+              gn: "moõpa?",
+              qu: "maymanta?",
+              wo: "ne fa?",
+              ha: "in?",
+              yo: "níbí ni?"
             },
             examples: [
               {
-                t: 'Where is the bathroom?'
+                t: "Where is the bathroom?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_04',
-            word: 'When?',
-            emoji: '📅',
+            id: "en_a1_g3_04",
+            word: "When?",
+            emoji: "📅",
             translations: {
-              es: '¿cuándo?',
-              en: 'when?',
-              fr: 'quand?',
-              it: 'quando?',
-              pt: 'quando?'
+              es: "¿cuándo?",
+              en: "when?",
+              fr: "quand?",
+              it: "quando?",
+              pt: "quando?",
+              de: "Wann?",
+              ko: "언제?",
+              ja: "いつ？",
+              ru: "когда?",
+              ar: "متى؟",
+              zh: "什么时候？",
+              gn: "upeicha'ã?",
+              qu: "mayqapataq?",
+              wo: "neegi?",
+              ha: "in?",
+              yo: "nìwájú ni?"
             },
             examples: [
               {
-                t: 'When do you arrive?'
+                t: "When do you arrive?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_05',
-            word: 'Why?',
-            emoji: '💭',
+            id: "en_a1_g3_05",
+            word: "Why?",
+            emoji: "💭",
             translations: {
-              es: '¿por qué?',
-              en: 'why?',
-              fr: 'pourquoi?',
-              it: 'perché?',
-              pt: 'por quê?'
+              es: "¿por qué?",
+              en: "why?",
+              fr: "pourquoi?",
+              it: "perché?",
+              pt: "por quê?",
+              de: "Warum?",
+              ko: "왜?",
+              ja: "なぜ？",
+              ru: "почему?",
+              ar: "لماذا؟",
+              zh: "为什么？",
+              gn: "mba'érepa?",
+              qu: "imaynam?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kíní?"
             },
             examples: [
               {
-                t: 'Why are you tired?'
+                t: "Why are you tired?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_06',
-            word: 'How?',
-            emoji: '🤔',
+            id: "en_a1_g3_06",
+            word: "How?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo?',
-              en: 'how?',
-              fr: 'comment?',
-              it: 'come?',
-              pt: 'como?'
+              es: "¿cómo?",
+              en: "how?",
+              fr: "comment?",
+              it: "come?",
+              pt: "como?",
+              de: "Wie?",
+              ko: "어떻게?",
+              ja: "どう？",
+              ru: "как?",
+              ar: "كيف؟",
+              zh: "怎么？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "báwo ni?"
             },
             examples: [
               {
-                t: 'How do you say \"hola\" in English?'
+                t: "How do you say \"hola\" in English?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_07',
-            word: 'How much?',
-            emoji: '💰',
+            id: "en_a1_g3_07",
+            word: "How much?",
+            emoji: "💰",
             translations: {
-              es: '¿cuánto?',
-              en: 'how much?',
-              fr: 'combien?',
-              it: 'quanto?',
-              pt: 'quanto?'
+              es: "¿cuánto?",
+              en: "how much?",
+              fr: "combien?",
+              it: "quanto?",
+              pt: "quanto?",
+              de: "Wie viel?",
+              ko: "얼마나?",
+              ja: "どのくらい？",
+              ru: "сколько?",
+              ar: "كم؟",
+              zh: "多少？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "ẹ̀sán ni?"
             },
             examples: [
               {
-                t: 'How much is this coffee?'
+                t: "How much is this coffee?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_08',
-            word: 'How many?',
-            emoji: '🔢',
+            id: "en_a1_g3_08",
+            word: "How many?",
+            emoji: "🔢",
             translations: {
-              es: '¿cuántos?',
-              en: 'how many?',
-              fr: 'combien de?',
-              it: 'quanti?',
-              pt: 'quantos?'
+              es: "¿cuántos?",
+              en: "how many?",
+              fr: "combien de?",
+              it: "quanti?",
+              pt: "quantos?",
+              de: "Wie viele?",
+              ko: "몇 개?",
+              ja: "いくつ？",
+              ru: "Сколько?",
+              ar: "كم عدد؟",
+              zh: "多少？",
+              gn: "Mba'éichapa?",
+              qu: "Mayqan?",
+              wo: "Ñu benn?",
+              ha: "Wanda yaya?",
+              yo: "Eṣe ni?"
             },
             examples: [
               {
-                t: 'How many people are at the table?'
+                t: "How many people are at the table?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_09',
-            word: 'one',
-            emoji: '1️⃣',
+            id: "en_a1_g3_09",
+            word: "one",
+            emoji: "1️⃣",
             translations: {
-              es: 'uno',
-              en: 'one',
-              fr: 'un',
-              it: 'uno',
-              pt: 'um'
+              es: "uno",
+              en: "one",
+              fr: "un",
+              it: "uno",
+              pt: "um",
+              de: "eins",
+              ko: "하나",
+              ja: "一つ",
+              ru: "один",
+              ar: "واحد",
+              zh: "一",
+              gn: "Peteĩ",
+              qu: "Huk",
+              wo: "Benn",
+              ha: "ɗaya",
+              yo: "okan"
             },
             examples: [
               {
-                t: 'A table for one, please.'
+                t: "A table for one, please."
               }
             ]
           },
           {
-            id: 'en_a1_g3_10',
-            word: 'two',
-            emoji: '2️⃣',
+            id: "en_a1_g3_10",
+            word: "two",
+            emoji: "2️⃣",
             translations: {
-              es: 'dos',
-              en: 'two',
-              fr: 'deux',
-              it: 'due',
-              pt: 'dois'
+              es: "dos",
+              en: "two",
+              fr: "deux",
+              it: "due",
+              pt: "dois",
+              de: "zwei",
+              ko: "둘",
+              ja: "二つ",
+              ru: "два",
+              ar: "اثنان",
+              zh: "二",
+              gn: "Mokõi",
+              qu: "Isqun",
+              wo: "Ñaar",
+              ha: "bii",
+              yo: "méjì"
             },
             examples: [
               {
-                t: 'There are two of us. Is there a table?'
+                t: "There are two of us. Is there a table?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_11',
-            word: 'three',
-            emoji: '3️⃣',
+            id: "en_a1_g3_11",
+            word: "three",
+            emoji: "3️⃣",
             translations: {
-              es: 'tres',
-              en: 'three',
-              fr: 'trois',
-              it: 'tre',
-              pt: 'três'
+              es: "tres",
+              en: "three",
+              fr: "trois",
+              it: "tre",
+              pt: "três",
+              de: "drei",
+              ko: "셋",
+              ja: "三つ",
+              ru: "три",
+              ar: "ثلاثة",
+              zh: "三",
+              gn: "Mombarete",
+              qu: "Kimsa",
+              wo: "Ñatt",
+              ha: "ukku",
+              yo: "mẹ́tà"
             },
             examples: [
               {
-                t: 'A table for three, please.'
+                t: "A table for three, please."
               }
             ]
           },
           {
-            id: 'en_a1_g3_12',
-            word: 'four',
-            emoji: '4️⃣',
+            id: "en_a1_g3_12",
+            word: "four",
+            emoji: "4️⃣",
             translations: {
-              es: 'cuatro',
-              en: 'four',
-              fr: 'quatre',
-              it: 'quattro',
-              pt: 'quatro'
+              es: "cuatro",
+              en: "four",
+              fr: "quatre",
+              it: "quattro",
+              pt: "quatro",
+              de: "vier",
+              ko: "넷",
+              ja: "四つ",
+              ru: "четыре",
+              ar: "أربعة",
+              zh: "四",
+              gn: "Irundú",
+              qu: "Tawqa",
+              wo: "Ñent",
+              ha: "huɗu",
+              yo: "ẹ̀rìn"
             },
             examples: [
               {
-                t: 'We are four. Do you have a table?'
+                t: "We are four. Do you have a table?"
               }
             ]
           },
           {
-            id: 'en_a1_g3_13',
-            word: 'five',
-            emoji: '5️⃣',
+            id: "en_a1_g3_13",
+            word: "five",
+            emoji: "5️⃣",
             translations: {
-              es: 'cinco',
-              en: 'five',
-              fr: 'cinq',
-              it: 'cinque',
-              pt: 'cinco'
+              es: "cinco",
+              en: "five",
+              fr: "cinq",
+              it: "cinque",
+              pt: "cinco",
+              de: "fünf",
+              ko: "다섯",
+              ja: "五つ",
+              ru: "пять",
+              ar: "خمسة",
+              zh: "五",
+              gn: "Po'i",
+              qu: "Pichqa",
+              wo: "Juróom",
+              ha: "biyyar",
+              yo: "áàrún"
             },
             examples: [
               {
-                t: 'Five coffees, please.'
+                t: "Five coffees, please."
               }
             ]
           },
           {
-            id: 'en_a1_g3_14',
-            word: 'six',
-            emoji: '6️⃣',
+            id: "en_a1_g3_14",
+            word: "six",
+            emoji: "6️⃣",
             translations: {
-              es: 'seis',
-              en: 'six',
-              fr: 'six',
-              it: 'sei',
-              pt: 'seis'
+              es: "seis",
+              en: "six",
+              fr: "six",
+              it: "sei",
+              pt: "seis",
+              de: "sechs",
+              ko: "여섯",
+              ja: "六つ",
+              ru: "шесть",
+              ar: "ستة",
+              zh: "六",
+              gn: "Po'ñandú",
+              qu: "Suqta",
+              wo: "Juróom-benn",
+              ha: "shida",
+              yo: "ẹ̀ẹ́dọ́gbọ̀n"
             },
             examples: [
               {
-                t: 'The meeting is at six.'
+                t: "The meeting is at six."
               }
             ]
           },
           {
-            id: 'en_a1_g3_15',
-            word: 'seven',
-            emoji: '7️⃣',
+            id: "en_a1_g3_15",
+            word: "seven",
+            emoji: "7️⃣",
             translations: {
-              es: 'siete',
-              en: 'seven',
-              fr: 'sept',
-              it: 'sette',
-              pt: 'sete'
+              es: "siete",
+              en: "seven",
+              fr: "sept",
+              it: "sette",
+              pt: "sete",
+              de: "sieben",
+              ko: "일곱",
+              ja: "七つ",
+              ru: "семь",
+              ar: "سبعة",
+              zh: "七",
+              gn: "Po'ñavúi",
+              qu: "Qanchis",
+              wo: "Juróom-ñaar",
+              ha: "sagwarka",
+              yo: "ẹ̀ẹ́dọ́gbáa"
             },
             examples: [
               {
-                t: 'There are seven people in the class.'
+                t: "There are seven people in the class."
               }
             ]
           },
           {
-            id: 'en_a1_g3_16',
-            word: 'eight',
-            emoji: '8️⃣',
+            id: "en_a1_g3_16",
+            word: "eight",
+            emoji: "8️⃣",
             translations: {
-              es: 'ocho',
-              en: 'eight',
-              fr: 'huit',
-              it: 'otto',
-              pt: 'oito'
+              es: "ocho",
+              en: "eight",
+              fr: "huit",
+              it: "otto",
+              pt: "oito",
+              de: "acht",
+              ko: "여덟",
+              ja: "八つ",
+              ru: "восемь",
+              ar: "ثمانية",
+              zh: "八",
+              gn: "Po'ñavui-peteĩ",
+              qu: "Pusaq",
+              wo: "Juróom-ñent",
+              ha: "takwas",
+              yo: "ẹ̀ẹ́dọ́gbáa-álẹ̀"
             },
             examples: [
               {
@@ -2926,60 +3463,71 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g3_D01',
-            type: 'dialogue',
-            context: 'At a restaurant',
+            id: "en_a1_g3_D01",
+            type: "dialogue",
+            context: "At a restaurant",
             dialogue: [
               {
-                speaker: 'Waiter',
-                line: 'Good evening! How many people?'
+                speaker: "Waiter",
+                line: "Good evening! How many people?"
               },
               {
-                speaker: 'Customer',
-                line: 'There are three of us. Do you have a table?'
+                speaker: "Customer",
+                line: "There are three of us. Do you have a table?"
               },
               {
-                speaker: 'Waiter',
-                line: 'Yes, of course. Do you have a reservation?'
+                speaker: "Waiter",
+                line: "Yes, of course. Do you have a reservation?"
               },
               {
-                speaker: 'Customer',
+                speaker: "Customer",
                 line: "No, we don't have a reservation."
               },
               {
-                speaker: 'Waiter',
-                line: 'No problem. This way, please.'
+                speaker: "Waiter",
+                line: "No problem. This way, please."
               },
               {
-                speaker: 'Customer',
-                line: 'Thank you. How long do we wait?'
+                speaker: "Customer",
+                line: "Thank you. How long do we wait?"
               },
               {
-                speaker: 'Waiter',
-                line: 'Just five minutes. Would you like something to drink?'
+                speaker: "Waiter",
+                line: "Just five minutes. Would you like something to drink?"
               },
               {
-                speaker: 'Customer',
-                line: 'Yes, two waters and one orange juice.'
+                speaker: "Customer",
+                line: "Yes, two waters and one orange juice."
               }
             ],
-            note: 'Asking about quantity, ordering at a restaurant.',
+            note: "Asking about quantity, ordering at a restaurant.",
             translations: {
-              es: 'En el restaurante',
-              en: 'At the restaurant',
-              fr: 'Au restaurant',
-              it: 'Al ristorante',
-              pt: 'No restaurante'
+              es: "En el restaurante",
+              en: "At the restaurant",
+              fr: "Au restaurant",
+              it: "Al ristorante",
+              pt: "No restaurante",
+              de: "Im Restaurant",
+              ko: "레스토랑에서",
+              ja: "レストランで",
+              ru: "В ресторане",
+              ar: "في المطعم",
+              zh: "在餐厅",
+              gn: "Ha'e ha'e'õme'ẽre",
+              qu: "Hatun wasi pi",
+              wo: "Ci reestorañ",
+              ha: "A cikin makarantar",
+              yo: "Ní ilé iṣẹ́ ẹ̀dẹ́"
             }
           }
         ]
       },
       {
-        id: 'en_a1_g4',
-        name: 'Essential verbs',
-        icon: '⚡',
-        color: '#ef4444',
-        description: 'Most used verbs — present + simple past',
+        id: "en_a1_g4",
+        name: "Essential verbs",
+        icon: "⚡",
+        color: "#ef4444",
+        description: "Most used verbs — present + simple past",
         reviewFrom: [
           "en_a1_g1",
           "en_a1_g2",
@@ -2987,134 +3535,222 @@ const FLASHCARD_A1 = {
         ],
         cards: [
           {
-            id: 'en_a1_g4_01',
-            word: 'I am / you are / he is',
-            emoji: '🌟',
+            id: "en_a1_g4_01",
+            word: "I am / you are / he is",
+            emoji: "🌟",
             translations: {
-              es: 'ser/estar: soy/eres/es',
-              en: 'to be: I am/you are/he is',
-              fr: 'être: je suis/tu es/il est',
-              it: 'essere: sono/sei/è',
-              pt: 'ser: sou/és/é'
+              es: "ser/estar: soy/eres/es",
+              en: "to be: I am/you are/he is",
+              fr: "être: je suis/tu es/il est",
+              it: "essere: sono/sei/è",
+              pt: "ser: sou/és/é",
+              de: "sein",
+              ko: "이다",
+              ja: "である",
+              ru: "быть",
+              ar: "يكون",
+              zh: "是",
+              gn: "Ko",
+              qu: "Kana",
+              wo: "Mooy",
+              ha: "yake",
+              yo: "jẹ"
             },
             examples: [
               {
-                t: 'I am a student. You are my friend.'
+                t: "I am a student. You are my friend."
               }
             ]
           },
           {
-            id: 'en_a1_g4_02',
-            word: 'I have / you have',
-            emoji: '✋',
+            id: "en_a1_g4_02",
+            word: "I have / you have",
+            emoji: "✋",
             translations: {
-              es: 'tener: tengo/tienes',
-              en: 'to have: I have/you have',
+              es: "tener: tengo/tienes",
+              en: "to have: I have/you have",
               fr: "avoir: j'ai/tu as",
-              it: 'avere: ho/hai',
-              pt: 'ter: tenho/tens'
+              it: "avere: ho/hai",
+              pt: "ter: tenho/tens",
+              de: "sein",
+              ko: "있다",
+              ja: "ある",
+              ru: "находиться",
+              ar: "يكون",
+              zh: "在",
+              gn: "Iko",
+              qu: "Kachkan",
+              wo: "Jëm",
+              ha: "yana",
+              yo: "wà"
             },
             examples: [
               {
-                t: 'I have a question. Do you have time?'
+                t: "I have a question. Do you have time?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_03',
-            word: 'I want / you want',
-            emoji: '❤️',
+            id: "en_a1_g4_03",
+            word: "I want / you want",
+            emoji: "❤️",
             translations: {
-              es: 'querer: quiero/quieres',
-              en: 'to want: I want/you want',
-              fr: 'vouloir: je veux/tu veux',
-              it: 'volere: voglio/vuoi',
-              pt: 'querer: quero/queres'
+              es: "querer: quiero/quieres",
+              en: "to want: I want/you want",
+              fr: "vouloir: je veux/tu veux",
+              it: "volere: voglio/vuoi",
+              pt: "querer: quero/queres",
+              de: "haben",
+              ko: "가지다",
+              ja: "持つ",
+              ru: "иметь",
+              ar: "يملك",
+              zh: "有",
+              gn: "Ñande",
+              qu: "Kan",
+              wo: "Ñaan",
+              ha: "yana",
+              yo: "ní"
             },
             examples: [
               {
-                t: 'I want a coffee. What do you want?'
+                t: "I want a coffee. What do you want?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_04',
-            word: 'I go / you go / he goes',
-            emoji: '🚶',
+            id: "en_a1_g4_04",
+            word: "I go / you go / he goes",
+            emoji: "🚶",
             translations: {
-              es: 'ir: voy/vas/va',
-              en: 'to go: I go/you go/he goes',
-              fr: 'aller: je vais/tu vas/il va',
-              it: 'andare: vado/vai/va',
-              pt: 'ir: vou/vais/vai'
+              es: "ir: voy/vas/va",
+              en: "to go: I go/you go/he goes",
+              fr: "aller: je vais/tu vas/il va",
+              it: "andare: vado/vai/va",
+              pt: "ir: vou/vais/vai",
+              de: "wollen",
+              ko: "원하다",
+              ja: "欲する",
+              ru: "хотеть",
+              ar: "يريد",
+              zh: "想要",
+              gn: "Jahecha",
+              qu: "Munay",
+              wo: "Baat",
+              ha: "so",
+              yo: "fẹ"
             },
             examples: [
               {
-                t: 'I go to work. Do you go to the gym?'
+                t: "I go to work. Do you go to the gym?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_05',
-            word: 'I speak / you speak',
-            emoji: '🗣️',
+            id: "en_a1_g4_05",
+            word: "I speak / you speak",
+            emoji: "🗣️",
             translations: {
-              es: 'hablar: hablo/hablas',
-              en: 'to speak: I speak/you speak',
-              fr: 'parler: je parle/tu parles',
-              it: 'parlare: parlo/parli',
-              pt: 'falar: falo/falas'
+              es: "hablar: hablo/hablas",
+              en: "to speak: I speak/you speak",
+              fr: "parler: je parle/tu parles",
+              it: "parlare: parlo/parli",
+              pt: "falar: falo/falas",
+              de: "gehen",
+              ko: "가다",
+              ja: "行く",
+              ru: "идти",
+              ar: "يذهب",
+              zh: "去",
+              gn: "Jajái",
+              qu: "Riy",
+              wo: "Dem",
+              ha: "ya",
+              yo: "lọ"
             },
             examples: [
               {
-                t: 'I speak Spanish. Do you speak English?'
+                t: "I speak Spanish. Do you speak English?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_06',
-            word: 'I eat / you eat',
-            emoji: '🍽️',
+            id: "en_a1_g4_06",
+            word: "I eat / you eat",
+            emoji: "🍽️",
             translations: {
-              es: 'comer: como/comes',
-              en: 'to eat: I eat/you eat',
-              fr: 'manger: je mange/tu manges',
-              it: 'mangiare: mangio/mangi',
-              pt: 'comer: como/comes'
+              es: "comer: como/comes",
+              en: "to eat: I eat/you eat",
+              fr: "manger: je mange/tu manges",
+              it: "mangiare: mangio/mangi",
+              pt: "comer: como/comes",
+              de: "sprechen",
+              ko: "말하다",
+              ja: "話す",
+              ru: "говорить",
+              ar: "يتحدث",
+              zh: "说话",
+              gn: "Ñe'ẽ",
+              qu: "Rimay",
+              wo: "Waxtaan",
+              ha: "yaya",
+              yo: "sọ"
             },
             examples: [
               {
-                t: 'I eat pasta every day.'
+                t: "I eat pasta every day."
               }
             ]
           },
           {
-            id: 'en_a1_g4_07',
-            word: 'I drink / you drink',
-            emoji: '🥤',
+            id: "en_a1_g4_07",
+            word: "I drink / you drink",
+            emoji: "🥤",
             translations: {
-              es: 'beber: bebo/bebes',
-              en: 'to drink: I drink/you drink',
-              fr: 'boire: je bois/tu bois',
-              it: 'bere: bevo/bevi',
-              pt: 'beber: bebo/bebes'
+              es: "beber: bebo/bebes",
+              en: "to drink: I drink/you drink",
+              fr: "boire: je bois/tu bois",
+              it: "bere: bevo/bevi",
+              pt: "beber: bebo/bebes",
+              de: "essen",
+              ko: "먹다",
+              ja: "食べる",
+              ru: "есть",
+              ar: "يأكل",
+              zh: "吃",
+              gn: "Mba'e",
+              qu: "Mikuy",
+              wo: "Ñaan",
+              ha: "ciya",
+              yo: "jẹun"
             },
             examples: [
               {
-                t: 'I drink coffee in the morning.'
+                t: "I drink coffee in the morning."
               }
             ]
           },
           {
-            id: 'en_a1_g4_08',
+            id: "en_a1_g4_08",
             word: "I like / I don't like",
-            emoji: '👍',
+            emoji: "👍",
             translations: {
-              es: 'me gusta/no me gusta',
+              es: "me gusta/no me gusta",
               en: "I like/I don't like",
               fr: "j'aime/je n'aime pas",
-              it: 'mi piace/non mi piace',
-              pt: 'gosto/não gosto'
+              it: "mi piace/non mi piace",
+              pt: "gosto/não gosto",
+              de: "trinken",
+              ko: "마시다",
+              ja: "飲む",
+              ru: "пить",
+              ar: "يشرب",
+              zh: "喝",
+              gn: "Tereré",
+              qu: "Uqhay",
+              wo: "Jëm",
+              ha: "nuna",
+              yo: "mu"
             },
             examples: [
               {
@@ -3123,131 +3759,197 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'en_a1_g4_09',
+            id: "en_a1_g4_09",
             word: "I can / I can't",
-            emoji: '💪',
+            emoji: "💪",
             translations: {
-              es: 'puedo/no puedo',
+              es: "puedo/no puedo",
               en: "I can/I can't",
-              fr: 'je peux/je ne peux pas',
-              it: 'posso/non posso',
-              pt: 'posso/não posso'
+              fr: "je peux/je ne peux pas",
+              it: "posso/non posso",
+              pt: "posso/não posso",
+              de: "leben",
+              ko: "살다",
+              ja: "生きる",
+              ru: "жить",
+              ar: "يعيش",
+              zh: "生活",
+              gn: "Jopara",
+              qu: "Kawsay",
+              wo: "Am",
+              ha: "rai",
+              yo: "gba"
             },
             examples: [
               {
-                t: 'Can you speak more slowly, please?'
+                t: "Can you speak more slowly, please?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_10',
-            word: 'I live / you live',
-            emoji: '🏠',
+            id: "en_a1_g4_10",
+            word: "I live / you live",
+            emoji: "🏠",
             translations: {
-              es: 'vivir: vivo/vives',
-              en: 'to live: I live/you live',
+              es: "vivir: vivo/vives",
+              en: "to live: I live/you live",
               fr: "habiter: j'habite/tu habites",
-              it: 'vivere: vivo/vivi',
-              pt: 'viver: vivo/vives'
+              it: "vivere: vivo/vivi",
+              pt: "viver: vivo/vives",
+              de: "können",
+              ko: "할 수 있다",
+              ja: "できる",
+              ru: "мочь",
+              ar: "يستطيع",
+              zh: "能够",
+              gn: "Poro",
+              qu: "Atisqa",
+              wo: "Dinaa",
+              ha: "zaka iyi",
+              yo: "le"
             },
             examples: [
               {
-                t: 'I live in London. Where do you live?'
+                t: "I live in London. Where do you live?"
               }
             ]
           },
           {
-            id: 'en_a1_g4_11',
-            word: 'I went / you went',
-            emoji: '⏪',
+            id: "en_a1_g4_11",
+            word: "I went / you went",
+            emoji: "⏪",
             translations: {
-              es: 'fui/fuiste',
-              en: 'went (past of go)',
-              fr: 'je suis allé/tu es allé',
-              it: 'sono andato/sei andato',
-              pt: 'fui/foste'
+              es: "fui/fuiste",
+              en: "went (past of go)",
+              fr: "je suis allé/tu es allé",
+              it: "sono andato/sei andato",
+              pt: "fui/foste",
+              de: "mögen",
+              ko: "좋아하다",
+              ja: "好き",
+              ru: "нравиться",
+              ar: "يعجب",
+              zh: "喜欢",
+              gn: "py’a",
+              qu: "kuyua",
+              wo: "bàgg",
+              ha: "so",
+              yo: "fẹ́"
             },
             examples: [
               {
-                t: 'I went to the doctor yesterday.'
+                t: "I went to the doctor yesterday."
               }
             ]
           },
           {
-            id: 'en_a1_g4_12',
-            word: 'I worked / talked / walked',
-            emoji: '🔵',
+            id: "en_a1_g4_12",
+            word: "I worked / talked / walked",
+            emoji: "🔵",
             translations: {
-              es: 'trabajé/hablé/caminé (-ed)',
-              en: 'regular past: worked/talked/walked',
+              es: "trabajé/hablé/caminé (-ed)",
+              en: "regular past: worked/talked/walked",
               fr: "passé régulier: j'ai travaillé/parlé",
-              it: 'passato regolare: ho lavorato/parlato',
-              pt: 'passado regular: trabalhei/falei'
+              it: "passato regolare: ho lavorato/parlato",
+              pt: "passado regular: trabalhei/falei",
+              de: "gehen - Vergangenheit",
+              ko: "가다 - 과거",
+              ja: "行く - 過去",
+              ru: "идти - прошедшее время",
+              ar: "يذهب - الماضي",
+              zh: "去 - 过去式",
+              gn: "joapy - árape oîhate",
+              qu: "rikuy - kuna",
+              wo: "dem - bëj guées",
+              ha: "ya - lokaci na baya",
+              yo: "lọ - asiko ti kọja"
             },
             examples: [
               {
-                t: 'I worked all day. She talked to him.'
+                t: "I worked all day. She talked to him."
               }
             ]
           },
           {
-            id: 'en_a1_g4_13',
-            word: 'went / came / saw / had',
-            emoji: '🔴',
+            id: "en_a1_g4_13",
+            word: "went / came / saw / had",
+            emoji: "🔴",
             translations: {
-              es: 'fui/vine/vi/tuve (irregulares)',
-              en: 'irregular past: went/came/saw/had',
-              fr: 'irrégulier: suis allé/suis venu/ai vu/ai eu',
-              it: 'irregolare: sono andato/venuto/visto/avuto',
-              pt: 'irregular: fui/vim/vi/tive'
+              es: "fui/vine/vi/tuve (irregulares)",
+              en: "irregular past: went/came/saw/had",
+              fr: "irrégulier: suis allé/suis venu/ai vu/ai eu",
+              it: "irregolare: sono andato/venuto/visto/avuto",
+              pt: "irregular: fui/vim/vi/tive",
+              de: "regelmäßige Vergangenheit -ar",
+              ko: "규칙적인 과거 -ar",
+              ja: "規則的な過去形 -ar",
+              ru: "регулярное прошедшее время -ar",
+              ar: "الماضي المنتظم -ar",
+              zh: "规则过去式 -ar",
+              gn: "árape oîhate pyahu -ar",
+              qu: "kuna llaki -ar",
+              wo: "bëj guées bu baax -ar",
+              ha: "lokaci na baya mai tsarki -ar",
+              yo: "asiko ti kọja patapata -ar"
             },
             examples: [
               {
-                t: 'I went home. She came late. We had dinner.'
+                t: "I went home. She came late. We had dinner."
               }
             ]
           },
           {
-            id: 'en_a1_g4_D01',
-            type: 'dialogue',
-            context: 'Talking about what you did yesterday',
+            id: "en_a1_g4_D01",
+            type: "dialogue",
+            context: "Talking about what you did yesterday",
             dialogue: [
               {
-                speaker: 'Valeria',
-                line: 'What did you do yesterday?'
+                speaker: "Valeria",
+                line: "What did you do yesterday?"
               },
               {
-                speaker: 'Thomas',
-                line: 'I went to the gym in the morning and then I had lunch with my family.'
+                speaker: "Thomas",
+                line: "I went to the gym in the morning and then I had lunch with my family."
               },
               {
-                speaker: 'Valeria',
+                speaker: "Valeria",
                 line: "That's nice! Where did you eat?"
               },
               {
-                speaker: 'Thomas',
-                line: 'We went to an Italian restaurant. And you?'
+                speaker: "Thomas",
+                line: "We went to an Italian restaurant. And you?"
               },
               {
-                speaker: 'Valeria',
-                line: 'I stayed home. I had a lot of work.'
+                speaker: "Valeria",
+                line: "I stayed home. I had a lot of work."
               },
               {
-                speaker: 'Thomas',
-                line: 'Could you rest a little?'
+                speaker: "Thomas",
+                line: "Could you rest a little?"
               },
               {
-                speaker: 'Valeria',
-                line: 'Yes, a little. I like working from home.'
+                speaker: "Valeria",
+                line: "Yes, a little. I like working from home."
               }
             ],
-            note: 'Past tense verbs: went, had, stayed, could, worked.',
+            note: "Past tense verbs: went, had, stayed, could, worked.",
             translations: {
-              es: 'Hablar del pasado',
-              en: 'Talking about the past',
-              fr: 'Parler du passé',
-              it: 'Parlare del passato',
-              pt: 'Falar do passado'
+              es: "Hablar del pasado",
+              en: "Talking about the past",
+              fr: "Parler du passé",
+              it: "Parlare del passato",
+              pt: "Falar do passado",
+              de: "Über die Vergangenheit sprechen",
+              ko: "과거에 대해 이야기하다",
+              ja: "過去について話す",
+              ru: "говорить о прошлом",
+              ar: "التحدث عن الماضي",
+              zh: "谈论过去",
+              gn: "Oñe’ẽ ha’eha’ẽmbyryete",
+              qu: "Kunanmanta rimay",
+              wo: "Waxtu bu am bëj guées",
+              ha: "Koya ba lokacin baya",
+              yo: "Gba èdè nípa bíi ajóṣe"
             }
           }
         ]
@@ -3255,60 +3957,93 @@ const FLASHCARD_A1 = {
     ]
   },
   fr: {
-    level: 'A1',
-    levelName: 'Je peux me présenter',
+    level: "A1",
+    levelName: "Je peux me présenter",
     groups: [
       {
-        id: 'fr_a1_g1',
-        name: 'Salutations',
-        icon: '👋',
-        color: '#6366f1',
-        description: 'Saluer, se présenter et dire au revoir',
+        id: "fr_a1_g1",
+        name: "Salutations",
+        icon: "👋",
+        color: "#6366f1",
+        description: "Saluer, se présenter et dire au revoir",
         cards: [
           {
-            id: 'fr_a1_g1_01',
-            word: 'Bonjour / Salut',
-            emoji: '👋',
+            id: "fr_a1_g1_01",
+            word: "Bonjour / Salut",
+            emoji: "👋",
             translations: {
-              es: 'hola',
-              en: 'hello / hi',
-              fr: 'bonjour / salut',
-              it: 'ciao',
-              pt: 'olá / oi'
+              es: "hola",
+              en: "hello / hi",
+              fr: "bonjour / salut",
+              it: "ciao",
+              pt: "olá / oi",
+              de: "Hallo",
+              ko: "안녕하세요",
+              ja: "こんにちは",
+              ru: "привет",
+              ar: "مرحبا",
+              zh: "你好",
+              gn: "Mba'éichapa",
+              qu: "Rimaykullayki",
+              wo: "Salamalekum",
+              ha: "Sannu",
+              yo: "Ẹ n lẹ"
             },
             examples: [
               {
-                t: 'Bonjour! Comment ça va?'
+                t: "Bonjour! Comment ça va?"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_02',
-            word: 'Au revoir',
-            emoji: '🙋',
+            id: "fr_a1_g1_02",
+            word: "Au revoir",
+            emoji: "🙋",
             translations: {
-              es: 'adiós',
-              en: 'goodbye',
-              fr: 'au revoir',
-              it: 'arrivederci',
-              pt: 'adeus'
+              es: "adiós",
+              en: "goodbye",
+              fr: "au revoir",
+              it: "arrivederci",
+              pt: "adeus",
+              de: "Tschüss",
+              ko: "안녕히 가세요",
+              ja: "さようなら",
+              ru: "пока",
+              ar: "وداعا",
+              zh: "再见",
+              gn: "Aguyjevete",
+              qu: "K'uychi",
+              wo: "Ba beneen",
+              ha: "Da ku gode",
+              yo: "O dàbọ̀"
             },
             examples: [
               {
-                t: 'Au revoir! À demain.'
+                t: "Au revoir! À demain."
               }
             ]
           },
           {
-            id: 'fr_a1_g1_03',
-            word: 'Bonsoir',
-            emoji: '🌆',
+            id: "fr_a1_g1_03",
+            word: "Bonsoir",
+            emoji: "🌆",
             translations: {
-              es: 'buenas noches',
-              en: 'good evening',
-              fr: 'bonsoir',
-              it: 'buonasera',
-              pt: 'boa noite'
+              es: "buenas noches",
+              en: "good evening",
+              fr: "bonsoir",
+              it: "buonasera",
+              pt: "boa noite",
+              de: "Guten Tag",
+              ko: "좋은 아침",
+              ja: "おはようございます",
+              ru: "доброе утро",
+              ar: "صباح الخير",
+              zh: "早上好",
+              gn: "Mba'éichapa ha'evéma",
+              qu: "Rimaykullayki punchaw",
+              wo: "Jàmm rekk",
+              ha: "Barka da yamma",
+              yo: "E kaaro"
             },
             examples: [
               {
@@ -3317,15 +4052,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g1_04',
+            id: "fr_a1_g1_04",
             word: "Comment tu t'appelles?",
-            emoji: '🏷️',
+            emoji: "🏷️",
             translations: {
-              es: '¿cómo te llamas?',
+              es: "¿cómo te llamas?",
               en: "what's your name?",
               fr: "comment tu t'appelles?",
-              it: 'come ti chiami?',
-              pt: 'como você se chama?'
+              it: "come ti chiami?",
+              pt: "como você se chama?",
+              de: "Guten Abend",
+              ko: "좋은 저녁",
+              ja: "こんばんは",
+              ru: "добрый вечер",
+              ar: "مساء الخير",
+              zh: "晚上好",
+              gn: "Mba'éichapa pyhare",
+              qu: "Rimaykullayki qhepa simi",
+              wo: "Jàmm alal",
+              ha: "Barka da dare",
+              yo: "E kaaro ale"
             },
             examples: [
               {
@@ -3334,15 +4080,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g1_05',
+            id: "fr_a1_g1_05",
             word: "Je m'appelle",
-            emoji: '😊',
+            emoji: "😊",
             translations: {
-              es: 'me llamo',
-              en: 'my name is',
+              es: "me llamo",
+              en: "my name is",
               fr: "je m'appelle",
-              it: 'mi chiamo',
-              pt: 'me chamo'
+              it: "mi chiamo",
+              pt: "me chamo",
+              de: "Wie heißt du?",
+              ko: "네 이름이 뭐야?",
+              ja: "あなたの名前は何ですか？",
+              ru: "Как тебя зовут?",
+              ar: "ما اسمك؟",
+              zh: "你叫什么名字？",
+              gn: "Mba'éichapa reime?",
+              qu: "Imaynam kallankichu?",
+              wo: "Noo nga jëm?",
+              ha: "Menene sunanka?",
+              yo: "Kí ni orúkọ rẹ?"
             },
             examples: [
               {
@@ -3351,100 +4108,166 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g1_06',
-            word: 'Comment ça va?',
-            emoji: '🤔',
+            id: "fr_a1_g1_06",
+            word: "Comment ça va?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo estás?',
-              en: 'how are you?',
-              fr: 'comment ça va?',
-              it: 'come stai?',
-              pt: 'como vai?'
+              es: "¿cómo estás?",
+              en: "how are you?",
+              fr: "comment ça va?",
+              it: "come stai?",
+              pt: "como vai?",
+              de: "Ich heiße",
+              ko: "제 이름은",
+              ja: "私の名前は",
+              ru: "Меня зовут",
+              ar: "اسمي",
+              zh: "我的名字是",
+              gn: "Che reime",
+              qu: "Niyqa kani",
+              wo: "Jëm laa",
+              ha: "Sunayni",
+              yo: "Orúkọ mi ni"
             },
             examples: [
               {
-                t: 'Comment ça va? — Très bien, merci!'
+                t: "Comment ça va? — Très bien, merci!"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_07',
-            word: 'Très bien / Bien',
-            emoji: '😄',
+            id: "fr_a1_g1_07",
+            word: "Très bien / Bien",
+            emoji: "😄",
             translations: {
-              es: 'muy bien / bien',
-              en: 'very well / fine',
-              fr: 'très bien / bien',
-              it: 'molto bene / bene',
-              pt: 'muito bem / bem'
+              es: "muy bien / bien",
+              en: "very well / fine",
+              fr: "très bien / bien",
+              it: "molto bene / bene",
+              pt: "muito bem / bem",
+              de: "Wie geht es dir?",
+              ko: "어떻게 지내세요?",
+              ja: "お元気ですか？",
+              ru: "Как дела?",
+              ar: "كيف حالك؟",
+              zh: "你好吗？",
+              gn: "Mba'éichapa reiko?",
+              qu: "Imaynallaq kashankichu?",
+              wo: "Naka nga jaay?",
+              ha: "Yaya kake?",
+              yo: "Báwo ni o se wa?"
             },
             examples: [
               {
-                t: 'Ça va? — Très bien, et toi?'
+                t: "Ça va? — Très bien, et toi?"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_08',
-            word: 'Comme ci comme ça',
-            emoji: '🤷',
+            id: "fr_a1_g1_08",
+            word: "Comme ci comme ça",
+            emoji: "🤷",
             translations: {
-              es: 'más o menos',
-              en: 'so-so',
-              fr: 'comme ci comme ça',
-              it: 'così così',
-              pt: 'mais ou menos'
+              es: "más o menos",
+              en: "so-so",
+              fr: "comme ci comme ça",
+              it: "così così",
+              pt: "mais ou menos",
+              de: "Sehr gut",
+              ko: "매우 좋습니다",
+              ja: "とても良いです",
+              ru: "очень хорошо",
+              ar: "جيد جدا",
+              zh: "很好",
+              gn: "Mba'éichapa iporã",
+              qu: "Allinlla",
+              wo: "Buur guèpp",
+              ha: "Daya kamfani",
+              yo: "Dáradára"
             },
             examples: [
               {
-                t: 'Ça va? — Comme ci comme ça.'
+                t: "Ça va? — Comme ci comme ça."
               }
             ]
           },
           {
-            id: 'fr_a1_g1_09',
-            word: 'Enchanté(e)',
-            emoji: '🤝',
+            id: "fr_a1_g1_09",
+            word: "Enchanté(e)",
+            emoji: "🤝",
             translations: {
-              es: 'mucho gusto',
-              en: 'nice to meet you',
-              fr: 'enchanté(e)',
-              it: 'piacere',
-              pt: 'prazer'
+              es: "mucho gusto",
+              en: "nice to meet you",
+              fr: "enchanté(e)",
+              it: "piacere",
+              pt: "prazer",
+              de: "So lala",
+              ko: "그럭저럭",
+              ja: "まあまあ",
+              ru: "так себе",
+              ar: "على ما يرام",
+              zh: "还不错",
+              gn: "Mba'éichapa jepe",
+              qu: "Mana allinchu",
+              wo: "Mëdd mëdd",
+              ha: "Kwai kwai",
+              yo: "Kí í ṣe"
             },
             examples: [
               {
-                t: 'Voici Sophie. — Enchanté, Sophie!'
+                t: "Voici Sophie. — Enchanté, Sophie!"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_10',
-            word: 'Bienvenue',
-            emoji: '🎉',
+            id: "fr_a1_g1_10",
+            word: "Bienvenue",
+            emoji: "🎉",
             translations: {
-              es: 'bienvenido',
-              en: 'welcome',
-              fr: 'bienvenue',
-              it: 'benvenuto',
-              pt: 'bem-vindo'
+              es: "bienvenido",
+              en: "welcome",
+              fr: "bienvenue",
+              it: "benvenuto",
+              pt: "bem-vindo",
+              de: "Freut mich",
+              ko: "만나서 반갑습니다",
+              ja: "お会いできて嬉しいです",
+              ru: "рад встрече",
+              ar: "سعيد بلقائك",
+              zh: "很高兴见到你",
+              gn: "Aguyjevete",
+              qu: "Kuychi",
+              wo: "Mëngi lay baax",
+              ha: "Ina son ki",
+              yo: "Ẹ yìn mọ̀"
             },
             examples: [
               {
-                t: 'Bienvenue dans notre ville!'
+                t: "Bienvenue dans notre ville!"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_11',
+            id: "fr_a1_g1_11",
             word: "Tu viens d'où?",
-            emoji: '🌍',
+            emoji: "🌍",
             translations: {
-              es: '¿de dónde eres?',
-              en: 'where are you from?',
+              es: "¿de dónde eres?",
+              en: "where are you from?",
               fr: "tu viens d'où?",
-              it: 'di dove sei?',
-              pt: 'de onde você é?'
+              it: "di dove sei?",
+              pt: "de onde você é?",
+              de: "Willkommen",
+              ko: "환영합니다",
+              ja: "ようこそ",
+              ru: "добро пожаловать",
+              ar: "أهلا وسهلا",
+              zh: "欢迎",
+              gn: "Bienvenido",
+              qu: "Allin hamut'ana",
+              wo: "Jàmm jigeen",
+              ha: "Barka da zuwa",
+              yo: "Ẹ wà pèlẹ̀"
             },
             examples: [
               {
@@ -3453,66 +4276,110 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g1_12',
-            word: 'Je viens de',
-            emoji: '📍',
+            id: "fr_a1_g1_12",
+            word: "Je viens de",
+            emoji: "📍",
             translations: {
-              es: 'soy de',
+              es: "soy de",
               en: "I'm from",
-              fr: 'je viens de',
-              it: 'sono di',
-              pt: 'sou de'
+              fr: "je viens de",
+              it: "sono di",
+              pt: "sou de",
+              de: "Woher kommst du?",
+              ko: "어디에서 오셨어요?",
+              ja: "どこから来ましたか？",
+              ru: "Откуда ты?",
+              ar: "من أين أنت؟",
+              zh: "你从哪里来？",
+              gn: "Mba'épa ichupe?",
+              qu: "Qhamanpi kashanchu?",
+              wo: "Dóo nga dégg?",
+              ha: "Ina ka zo?",
+              yo: "Níbo ni o wá?"
             },
             examples: [
               {
-                t: 'Je viens de Lyon. Et toi?'
+                t: "Je viens de Lyon. Et toi?"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_13',
-            word: 'Pardon / Excusez-moi',
-            emoji: '🙏',
+            id: "fr_a1_g1_13",
+            word: "Pardon / Excusez-moi",
+            emoji: "🙏",
             translations: {
-              es: 'perdón',
-              en: 'sorry / excuse me',
-              fr: 'pardon / excusez-moi',
-              it: 'scusa / mi scusi',
-              pt: 'desculpe'
+              es: "perdón",
+              en: "sorry / excuse me",
+              fr: "pardon / excusez-moi",
+              it: "scusa / mi scusi",
+              pt: "desculpe",
+              de: "Ich komme aus",
+              ko: "저는 ...에서 왔습니다",
+              ja: "私は...から来ました",
+              ru: "Я из",
+              ar: "أنا من",
+              zh: "我来自",
+              gn: "Che ha'e ...-pe",
+              qu: "Niyqa ...-manta",
+              wo: "Maa nga jóge ...",
+              ha: "Ina na zo ...",
+              yo: "Mo wa ni ..."
             },
             examples: [
               {
-                t: 'Pardon, pouvez-vous répéter plus lentement?'
+                t: "Pardon, pouvez-vous répéter plus lentement?"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_14',
-            word: 'Je ne comprends pas',
-            emoji: '❓',
+            id: "fr_a1_g1_14",
+            word: "Je ne comprends pas",
+            emoji: "❓",
             translations: {
-              es: 'no entiendo',
+              es: "no entiendo",
               en: "I don't understand",
-              fr: 'je ne comprends pas',
-              it: 'non capisco',
-              pt: 'não entendo'
+              fr: "je ne comprends pas",
+              it: "non capisco",
+              pt: "não entendo",
+              de: "Entschuldigung",
+              ko: "미안합니다",
+              ja: "すみません",
+              ru: "извините",
+              ar: "عذرًا",
+              zh: "对不起",
+              gn: "Perdón",
+              qu: "Pakarikuy",
+              wo: "Maaf",
+              ha: "Goma",
+              yo: "E ma binu"
             },
             examples: [
               {
-                t: 'Désolé, je ne comprends pas. Parlez plus lentement?'
+                t: "Désolé, je ne comprends pas. Parlez plus lentement?"
               }
             ]
           },
           {
-            id: 'fr_a1_g1_15',
+            id: "fr_a1_g1_15",
             word: "S'il te plaît / Merci",
-            emoji: '🙏',
+            emoji: "🙏",
             translations: {
-              es: 'por favor / gracias',
-              en: 'please / thank you',
+              es: "por favor / gracias",
+              en: "please / thank you",
               fr: "s'il te plaît / merci",
-              it: 'per favore / grazie',
-              pt: 'por favor / obrigado'
+              it: "per favore / grazie",
+              pt: "por favor / obrigado",
+              de: "Ich verstehe nicht",
+              ko: "이해하지 못하겠어요",
+              ja: "わかりません",
+              ru: "Я не понимаю",
+              ar: "لا أفهم",
+              zh: "我不懂",
+              gn: "Ndaikuaa'ỹrei",
+              qu: "Manam entiendinchu",
+              wo: "Ma nga xamoon naa",
+              ha: "Babu kaina",
+              yo: "Mo ti mo gbọ́"
             },
             examples: [
               {
@@ -3521,97 +4388,130 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g1_D01',
-            type: 'dialogue',
-            context: 'Deux personnes se rencontrent à une soirée',
+            id: "fr_a1_g1_D01",
+            type: "dialogue",
+            context: "Deux personnes se rencontrent à une soirée",
             dialogue: [
               {
-                speaker: 'Sophie',
+                speaker: "Sophie",
                 line: "Salut! Tu t'appelles Julien, c'est ça?"
               },
               {
-                speaker: 'Julien',
+                speaker: "Julien",
                 line: "Oui! Et toi, comment tu t'appelles?"
               },
               {
-                speaker: 'Sophie',
+                speaker: "Sophie",
                 line: "Je m'appelle Sophie. Enchantée!"
               },
               {
-                speaker: 'Julien',
+                speaker: "Julien",
                 line: "Enchanté, Sophie. Tu viens d'où?"
               },
               {
-                speaker: 'Sophie',
-                line: 'Je viens de Bordeaux. Et toi?'
+                speaker: "Sophie",
+                line: "Je viens de Bordeaux. Et toi?"
               },
               {
-                speaker: 'Julien',
-                line: 'Moi, je viens de Lyon. Bienvenue!'
+                speaker: "Julien",
+                line: "Moi, je viens de Lyon. Bienvenue!"
               }
             ],
             note: "Se présenter et demander l'origine.",
             translations: {
-              es: 'Presentarse',
-              en: 'Introducing yourself',
-              fr: 'Se présenter',
-              it: 'Presentarsi',
-              pt: 'Apresentar-se'
+              es: "Presentarse",
+              en: "Introducing yourself",
+              fr: "Se présenter",
+              it: "Presentarsi",
+              pt: "Apresentar-se",
+              de: "Sich vorstellen",
+              ko: "자기소개",
+              ja: "自己紹介",
+              ru: "представиться",
+              ar: "التعريف بالنفس",
+              zh: "自我介绍",
+              gn: "Ojepresenta",
+              qu: "Willana",
+              wo: "Wóor na taxaw",
+              ha: "Bayanin kanka",
+              yo: "Kí í ṣe àtẹ̀jáde"
             }
           },
           {
-            id: 'fr_a1_g1_D02',
-            type: 'dialogue',
+            id: "fr_a1_g1_D02",
+            type: "dialogue",
             context: "Fin d'une conversation",
             dialogue: [
               {
-                speaker: 'Emma',
+                speaker: "Emma",
                 line: "Bon, il faut que j'y aille. C'était un plaisir!"
               },
               {
-                speaker: 'Pierre',
-                line: 'Moi aussi. À bientôt, Emma!'
+                speaker: "Pierre",
+                line: "Moi aussi. À bientôt, Emma!"
               },
               {
-                speaker: 'Emma',
-                line: 'Au revoir! Bonne journée!'
+                speaker: "Emma",
+                line: "Au revoir! Bonne journée!"
               },
               {
-                speaker: 'Pierre',
-                line: 'Toi aussi!'
+                speaker: "Pierre",
+                line: "Toi aussi!"
               }
             ],
-            note: 'Prendre congé poliment.',
+            note: "Prendre congé poliment.",
             translations: {
-              es: 'Despedirse',
-              en: 'Saying goodbye',
-              fr: 'Dire au revoir',
-              it: 'Salutarsi',
-              pt: 'Despedir-se'
+              es: "Despedirse",
+              en: "Saying goodbye",
+              fr: "Dire au revoir",
+              it: "Salutarsi",
+              pt: "Despedir-se",
+              de: "Sich verabschieden",
+              ko: "작별 인사",
+              ja: "お別れ",
+              ru: "прощаться",
+              ar: "الوداع",
+              zh: "告别",
+              gn: "Oje'o",
+              qu: "K'uychi",
+              wo: "Bax na",
+              ha: "Ku tsallaka",
+              yo: "Kí í ṣe ìbẹ̀rẹ̀ ìrìn"
             }
           }
         ]
       },
       {
-        id: 'fr_a1_g2',
-        name: 'Quantités et états',
-        icon: '😋',
-        color: '#f59e0b',
-        description: 'Exprimer ses besoins, sensations et la météo',
+        id: "fr_a1_g2",
+        name: "Quantités et états",
+        icon: "😋",
+        color: "#f59e0b",
+        description: "Exprimer ses besoins, sensations et la météo",
         reviewFrom: [
           "fr_a1_g1"
         ],
         cards: [
           {
-            id: 'fr_a1_g2_01',
+            id: "fr_a1_g2_01",
             word: "J'ai faim",
-            emoji: '🍽️',
+            emoji: "🍽️",
             translations: {
-              es: 'tengo hambre',
+              es: "tengo hambre",
               en: "I'm hungry",
               fr: "j'ai faim",
-              it: 'ho fame',
-              pt: 'estou com fome'
+              it: "ho fame",
+              pt: "estou com fome",
+              de: "Hunger",
+              ko: "배고픔",
+              ja: "空腹",
+              ru: "голод",
+              ar: "جوع",
+              zh: "饥饿",
+              gn: "Añembo'",
+              qu: "Musuy",
+              wo: "Bëcc",
+              ha: "Yankin ciki",
+              yo: "Ìgbèsẹ̀"
             },
             examples: [
               {
@@ -3620,15 +4520,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_02',
+            id: "fr_a1_g2_02",
             word: "J'ai soif",
-            emoji: '💧',
+            emoji: "💧",
             translations: {
-              es: 'tengo sed',
+              es: "tengo sed",
               en: "I'm thirsty",
               fr: "j'ai soif",
-              it: 'ho sete',
-              pt: 'estou com sede'
+              it: "ho sete",
+              pt: "estou com sede",
+              de: "Durst",
+              ko: "목마름",
+              ja: "渇き",
+              ru: "жажда",
+              ar: "عطش",
+              zh: "口渴",
+              gn: "Añembyasy",
+              qu: "P'isyay",
+              wo: "Dëgg",
+              ha: "Yankin ruwa",
+              yo: "Ìfẹ́ ìmọ́lẹ̀"
             },
             examples: [
               {
@@ -3637,15 +4548,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_03',
+            id: "fr_a1_g2_03",
             word: "J'ai froid",
-            emoji: '🥶',
+            emoji: "🥶",
             translations: {
-              es: 'tengo frío',
+              es: "tengo frío",
               en: "I'm cold",
               fr: "j'ai froid",
-              it: 'ho freddo',
-              pt: 'estou com frio'
+              it: "ho freddo",
+              pt: "estou com frio",
+              de: "Kälte",
+              ko: "추위",
+              ja: "寒さ",
+              ru: "холод",
+              ar: "برد",
+              zh: "寒冷",
+              gn: "Añemby",
+              qu: "Chiri",
+              wo: "Bañ",
+              ha: "Yankin sanyi",
+              yo: "Ọkẹ́"
             },
             examples: [
               {
@@ -3654,49 +4576,82 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_04',
+            id: "fr_a1_g2_04",
             word: "J'ai chaud",
-            emoji: '🌡️',
+            emoji: "🌡️",
             translations: {
-              es: 'tengo calor',
+              es: "tengo calor",
               en: "I'm hot",
               fr: "j'ai chaud",
-              it: 'ho caldo',
-              pt: 'estou com calor'
+              it: "ho caldo",
+              pt: "estou com calor",
+              de: "Hitze",
+              ko: "열",
+              ja: "暑さ",
+              ru: "жара",
+              ar: "حرارة",
+              zh: "热",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Il fait chaud. Je vais ouvrir la fenêtre.'
+                t: "Il fait chaud. Je vais ouvrir la fenêtre."
               }
             ]
           },
           {
-            id: 'fr_a1_g2_05',
-            word: 'Je suis fatigué(e)',
-            emoji: '😴',
+            id: "fr_a1_g2_05",
+            word: "Je suis fatigué(e)",
+            emoji: "😴",
             translations: {
-              es: 'estoy cansado',
+              es: "estoy cansado",
               en: "I'm tired",
-              fr: 'je suis fatigué(e)',
-              it: 'sono stanco/a',
-              pt: 'estou cansado'
+              fr: "je suis fatigué(e)",
+              it: "sono stanco/a",
+              pt: "estou cansado",
+              de: "müde",
+              ko: "피곤한",
+              ja: "疲れた",
+              ru: "усталый",
+              ar: "متعب",
+              zh: "累",
+              gn: "pyahu",
+              qu: "lluk'iy",
+              wo: "neex",
+              ha: "talle",
+              yo: "kúkúrú"
             },
             examples: [
               {
-                t: 'Je suis très fatigué. Je veux dormir.'
+                t: "Je suis très fatigué. Je veux dormir."
               }
             ]
           },
           {
-            id: 'fr_a1_g2_06',
-            word: 'Beaucoup',
-            emoji: '📊',
+            id: "fr_a1_g2_06",
+            word: "Beaucoup",
+            emoji: "📊",
             translations: {
-              es: 'mucho',
-              en: 'a lot',
-              fr: 'beaucoup',
-              it: 'molto',
-              pt: 'muito'
+              es: "mucho",
+              en: "a lot",
+              fr: "beaucoup",
+              it: "molto",
+              pt: "muito",
+              de: "viel",
+              ko: "많이",
+              ja: "たくさん",
+              ru: "много",
+              ar: "كثير",
+              zh: "很多",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
@@ -3705,15 +4660,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_07',
-            word: 'Un peu',
-            emoji: '🤏',
+            id: "fr_a1_g2_07",
+            word: "Un peu",
+            emoji: "🤏",
             translations: {
-              es: 'un poco',
-              en: 'a little',
-              fr: 'un peu',
+              es: "un poco",
+              en: "a little",
+              fr: "un peu",
               it: "un po'",
-              pt: 'um pouco'
+              pt: "um pouco",
+              de: "wenig",
+              ko: "조금",
+              ja: "少し",
+              ru: "немного",
+              ar: "قليل",
+              zh: "少",
+              gn: "po'a",
+              qu: "phisi",
+              wo: "benn",
+              ha: "sau",
+              yo: "díẹ̀"
             },
             examples: [
               {
@@ -3722,49 +4688,82 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_08',
-            word: 'Assez',
-            emoji: '👌',
+            id: "fr_a1_g2_08",
+            word: "Assez",
+            emoji: "👌",
             translations: {
-              es: 'bastante',
-              en: 'quite / enough',
-              fr: 'assez',
-              it: 'abbastanza',
-              pt: 'bastante'
+              es: "bastante",
+              en: "quite / enough",
+              fr: "assez",
+              it: "abbastanza",
+              pt: "bastante",
+              de: "ziemlich",
+              ko: "제법",
+              ja: "かなり",
+              ru: "довольно",
+              ar: "كثيرا",
+              zh: "相当",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Je vais assez bien, merci.'
+                t: "Je vais assez bien, merci."
               }
             ]
           },
           {
-            id: 'fr_a1_g2_09',
-            word: 'Trop',
-            emoji: '🙈',
+            id: "fr_a1_g2_09",
+            word: "Trop",
+            emoji: "🙈",
             translations: {
-              es: 'demasiado',
-              en: 'too much',
-              fr: 'trop',
-              it: 'troppo',
-              pt: 'demais'
+              es: "demasiado",
+              en: "too much",
+              fr: "trop",
+              it: "troppo",
+              pt: "demais",
+              de: "zu viel",
+              ko: "너무 많이",
+              ja: "多すぎる",
+              ru: "слишком много",
+              ar: "كثير جدا",
+              zh: "太多",
+              gn: "pyahuite",
+              qu: "pachapacha",
+              wo: "buñ buñ",
+              ha: "yawa guda",
+              yo: "púpọ̀ jùlọ"
             },
             examples: [
               {
-                t: 'Il fait trop chaud pour sortir.'
+                t: "Il fait trop chaud pour sortir."
               }
             ]
           },
           {
-            id: 'fr_a1_g2_10',
+            id: "fr_a1_g2_10",
             word: "J'ai besoin de",
-            emoji: '🙋',
+            emoji: "🙋",
             translations: {
-              es: 'necesito',
-              en: 'I need',
+              es: "necesito",
+              en: "I need",
               fr: "j'ai besoin de",
-              it: 'ho bisogno di',
-              pt: 'preciso de'
+              it: "ho bisogno di",
+              pt: "preciso de",
+              de: "brauchen",
+              ko: "필요로하다",
+              ja: "必要とする",
+              ru: "нуждаться",
+              ar: "يحتاج",
+              zh: "需要",
+              gn: "reikuaa",
+              qu: "munay",
+              wo: "waaj",
+              ha: "bukatar",
+              yo: "wà ní ìwọ́lé"
             },
             examples: [
               {
@@ -3773,15 +4772,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_11',
-            word: 'Ensoleillé',
-            emoji: '☀️',
+            id: "fr_a1_g2_11",
+            word: "Ensoleillé",
+            emoji: "☀️",
             translations: {
-              es: 'soleado',
-              en: 'sunny',
-              fr: 'ensoleillé',
-              it: 'soleggiato',
-              pt: 'ensolarado'
+              es: "soleado",
+              en: "sunny",
+              fr: "ensoleillé",
+              it: "soleggiato",
+              pt: "ensolarado",
+              de: "sonnig",
+              ko: "맑은",
+              ja: "晴れた",
+              ru: "солнечный",
+              ar: "مشمس",
+              zh: "晴朗",
+              gn: "aravẽ",
+              qu: "inti",
+              wo: "ñakku",
+              ha: "ranar",
+              yo: "ọjọ́ òjò"
             },
             examples: [
               {
@@ -3790,15 +4800,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_12',
-            word: 'Nuageux',
-            emoji: '☁️',
+            id: "fr_a1_g2_12",
+            word: "Nuageux",
+            emoji: "☁️",
             translations: {
-              es: 'nublado',
-              en: 'cloudy',
-              fr: 'nuageux',
-              it: 'nuvoloso',
-              pt: 'nublado'
+              es: "nublado",
+              en: "cloudy",
+              fr: "nuageux",
+              it: "nuvoloso",
+              pt: "nublado",
+              de: "bewölkt",
+              ko: "구름 낀",
+              ja: "曇った",
+              ru: "облачно",
+              ar: "غائم",
+              zh: "多云",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
@@ -3807,136 +4828,191 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g2_13',
-            word: 'Il pleut',
-            emoji: '🌧️',
+            id: "fr_a1_g2_13",
+            word: "Il pleut",
+            emoji: "🌧️",
             translations: {
-              es: 'está lloviendo',
+              es: "está lloviendo",
               en: "it's raining",
-              fr: 'il pleut',
-              it: 'piove',
-              pt: 'está chovendo'
+              fr: "il pleut",
+              it: "piove",
+              pt: "está chovendo",
+              de: "regnerisch",
+              ko: "비 오는",
+              ja: "雨の",
+              ru: "дождливый",
+              ar: "ممطر",
+              zh: "多雨",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Il pleut. Prends ton parapluie.'
+                t: "Il pleut. Prends ton parapluie."
               }
             ]
           },
           {
-            id: 'fr_a1_g2_14',
-            word: 'Il fait froid / chaud',
-            emoji: '🌡️',
+            id: "fr_a1_g2_14",
+            word: "Il fait froid / chaud",
+            emoji: "🌡️",
             translations: {
-              es: 'hace frío/calor',
+              es: "hace frío/calor",
               en: "it's cold/hot",
-              fr: 'il fait froid/chaud',
-              it: 'fa freddo/caldo',
-              pt: 'está frio/calor'
+              fr: "il fait froid/chaud",
+              it: "fa freddo/caldo",
+              pt: "está frio/calor",
+              de: "es ist kalt/warm",
+              ko: "추워요/더워요",
+              ja: "寒い/暑い",
+              ru: "холодно/тепло",
+              ar: "بارد/حار",
+              zh: "冷/热",
+              gn: "tembi'u/tembi'u",
+              qu: "q'asa/q'asa",
+              wo: "ñakk/ñakk",
+              ha: "yankin jini/yankin jini",
+              yo: "ìtàn/ìtàn"
             },
             examples: [
               {
-                t: 'Il fait vraiment froid! Tu as un manteau?'
+                t: "Il fait vraiment froid! Tu as un manteau?"
               }
             ]
           },
           {
-            id: 'fr_a1_g2_D01',
-            type: 'dialogue',
-            context: 'En se croisant dans la rue',
+            id: "fr_a1_g2_D01",
+            type: "dialogue",
+            context: "En se croisant dans la rue",
             dialogue: [
               {
-                speaker: 'Louis',
+                speaker: "Louis",
                 line: "Salut! Quel temps fait-il aujourd'hui?"
               },
               {
-                speaker: 'Clara',
+                speaker: "Clara",
                 line: "Il fait très froid et c'est nuageux."
               },
               {
-                speaker: 'Louis',
+                speaker: "Louis",
                 line: "Oui, j'ai très froid. Et toi?"
               },
               {
-                speaker: 'Clara',
+                speaker: "Clara",
                 line: "Moi aussi! J'ai besoin d'un café chaud."
               },
               {
-                speaker: 'Louis',
-                line: 'Bonne idée! On va au café?'
+                speaker: "Louis",
+                line: "Bonne idée! On va au café?"
               }
             ],
-            note: 'Parler de la météo et exprimer ses sensations.',
+            note: "Parler de la météo et exprimer ses sensations.",
             translations: {
-              es: 'Hablar del tiempo',
-              en: 'Talking about weather',
-              fr: 'Parler de la météo',
-              it: 'Parlare del tempo',
-              pt: 'Falar do tempo'
+              es: "Hablar del tiempo",
+              en: "Talking about weather",
+              fr: "Parler de la météo",
+              it: "Parlare del tempo",
+              pt: "Falar do tempo",
+              de: "Über das Wetter sprechen",
+              ko: "날씨에 대해 이야기하다",
+              ja: "天気について話す",
+              ru: "говорить о погоде",
+              ar: "التحدث عن الطقس",
+              zh: "谈论天气",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay q'asa",
+              wo: "waxtu ñakk",
+              ha: "magana game da yankin jini",
+              yo: "sọ̀rọ̀ nípa ìtàn"
             }
           },
           {
-            id: 'fr_a1_g2_D02',
-            type: 'dialogue',
-            context: 'Avant de manger ensemble',
+            id: "fr_a1_g2_D02",
+            type: "dialogue",
+            context: "Avant de manger ensemble",
             dialogue: [
               {
-                speaker: 'Marie',
-                line: 'Tu as faim? Il est deux heures.'
+                speaker: "Marie",
+                line: "Tu as faim? Il est deux heures."
               },
               {
-                speaker: 'Paul',
+                speaker: "Paul",
                 line: "Oui, j'ai très faim. Qu'est-ce qu'il y a à manger?"
               },
               {
-                speaker: 'Marie',
-                line: 'Il y a des pâtes et une salade. Tu veux?'
+                speaker: "Marie",
+                line: "Il y a des pâtes et une salade. Tu veux?"
               },
               {
-                speaker: 'Paul',
+                speaker: "Paul",
                 line: "Parfait! Et j'ai aussi très soif."
               },
               {
-                speaker: 'Marie',
+                speaker: "Marie",
                 line: "Il y a de l'eau et du jus d'orange."
               },
               {
-                speaker: 'Paul',
-                line: 'Super, merci.'
+                speaker: "Paul",
+                line: "Super, merci."
               }
             ],
-            note: 'Exprimer la faim, la soif et les besoins.',
+            note: "Exprimer la faim, la soif et les besoins.",
             translations: {
-              es: 'Hablar de comida',
-              en: 'Talking about food',
-              fr: 'Parler de nourriture',
-              it: 'Parlare di cibo',
-              pt: 'Falar de comida'
+              es: "Hablar de comida",
+              en: "Talking about food",
+              fr: "Parler de nourriture",
+              it: "Parlare di cibo",
+              pt: "Falar de comida",
+              de: "Über Essen sprechen",
+              ko: "음식에 대해 이야기하다",
+              ja: "食べ物について話す",
+              ru: "говорить о еде",
+              ar: "التحدث عن الطعام",
+              zh: "谈论食物",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay mik'i",
+              wo: "waxtu yëngu",
+              ha: "magana game da abinci",
+              yo: "sọ̀rọ̀ nípa ẹ̀wọ̀n"
             }
           }
         ]
       },
       {
-        id: 'fr_a1_g3',
-        name: 'Questions et nombres',
-        icon: '❓',
-        color: '#10b981',
-        description: 'Mots interrogatifs + nombres de 1 à 8',
+        id: "fr_a1_g3",
+        name: "Questions et nombres",
+        icon: "❓",
+        color: "#10b981",
+        description: "Mots interrogatifs + nombres de 1 à 8",
         reviewFrom: [
           "fr_a1_g1",
           "fr_a1_g2"
         ],
         cards: [
           {
-            id: 'fr_a1_g3_01',
+            id: "fr_a1_g3_01",
             word: "Qu'est-ce que c'est?",
-            emoji: '🔍',
+            emoji: "🔍",
             translations: {
-              es: '¿qué?',
-              en: 'what?',
+              es: "¿qué?",
+              en: "what?",
               fr: "qu'est-ce que c'est?",
-              it: 'cosa?',
-              pt: 'o quê?'
+              it: "cosa?",
+              pt: "o quê?",
+              de: "Was?",
+              ko: "뭐?",
+              ja: "何？",
+              ru: "что?",
+              ar: "ماذا؟",
+              zh: "什么？",
+              gn: "mba'épa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kí ni?"
             },
             examples: [
               {
@@ -3945,83 +5021,138 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_02',
-            word: 'Qui?',
-            emoji: '🧑',
+            id: "fr_a1_g3_02",
+            word: "Qui?",
+            emoji: "🧑",
             translations: {
-              es: '¿quién?',
-              en: 'who?',
-              fr: 'qui?',
-              it: 'chi?',
-              pt: 'quem?'
+              es: "¿quién?",
+              en: "who?",
+              fr: "qui?",
+              it: "chi?",
+              pt: "quem?",
+              de: "Wer?",
+              ko: "누구?",
+              ja: "誰？",
+              ru: "кто?",
+              ar: "من؟",
+              zh: "谁？",
+              gn: "nde?",
+              qu: "pipataq?",
+              wo: "këmbu?",
+              ha: "wane?",
+              yo: "ta ni?"
             },
             examples: [
               {
-                t: 'Qui est cette personne?'
+                t: "Qui est cette personne?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_03',
-            word: 'Où?',
-            emoji: '📍',
+            id: "fr_a1_g3_03",
+            word: "Où?",
+            emoji: "📍",
             translations: {
-              es: '¿dónde?',
-              en: 'where?',
-              fr: 'où?',
-              it: 'dove?',
-              pt: 'onde?'
+              es: "¿dónde?",
+              en: "where?",
+              fr: "où?",
+              it: "dove?",
+              pt: "onde?",
+              de: "Wo?",
+              ko: "어디?",
+              ja: "どこ？",
+              ru: "где?",
+              ar: "أين؟",
+              zh: "哪里？",
+              gn: "moõpa?",
+              qu: "maymanta?",
+              wo: "ne fa?",
+              ha: "in?",
+              yo: "níbí ni?"
             },
             examples: [
               {
-                t: 'Où sont les toilettes?'
+                t: "Où sont les toilettes?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_04',
-            word: 'Quand?',
-            emoji: '📅',
+            id: "fr_a1_g3_04",
+            word: "Quand?",
+            emoji: "📅",
             translations: {
-              es: '¿cuándo?',
-              en: 'when?',
-              fr: 'quand?',
-              it: 'quando?',
-              pt: 'quando?'
+              es: "¿cuándo?",
+              en: "when?",
+              fr: "quand?",
+              it: "quando?",
+              pt: "quando?",
+              de: "Wann?",
+              ko: "언제?",
+              ja: "いつ？",
+              ru: "когда?",
+              ar: "متى؟",
+              zh: "什么时候？",
+              gn: "upeicha'ã?",
+              qu: "mayqapataq?",
+              wo: "neegi?",
+              ha: "in?",
+              yo: "nìwájú ni?"
             },
             examples: [
               {
-                t: 'Quand est-ce que tu arrives?'
+                t: "Quand est-ce que tu arrives?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_05',
-            word: 'Pourquoi?',
-            emoji: '💭',
+            id: "fr_a1_g3_05",
+            word: "Pourquoi?",
+            emoji: "💭",
             translations: {
-              es: '¿por qué?',
-              en: 'why?',
-              fr: 'pourquoi?',
-              it: 'perché?',
-              pt: 'por quê?'
+              es: "¿por qué?",
+              en: "why?",
+              fr: "pourquoi?",
+              it: "perché?",
+              pt: "por quê?",
+              de: "Warum?",
+              ko: "왜?",
+              ja: "なぜ？",
+              ru: "почему?",
+              ar: "لماذا؟",
+              zh: "为什么？",
+              gn: "mba'érepa?",
+              qu: "imaynam?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kíní?"
             },
             examples: [
               {
-                t: 'Pourquoi tu es fatigué?'
+                t: "Pourquoi tu es fatigué?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_06',
-            word: 'Comment?',
-            emoji: '🤔',
+            id: "fr_a1_g3_06",
+            word: "Comment?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo?',
-              en: 'how?',
-              fr: 'comment?',
-              it: 'come?',
-              pt: 'como?'
+              es: "¿cómo?",
+              en: "how?",
+              fr: "comment?",
+              it: "come?",
+              pt: "como?",
+              de: "Wie?",
+              ko: "어떻게?",
+              ja: "どう？",
+              ru: "как?",
+              ar: "كيف؟",
+              zh: "怎么？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "báwo ni?"
             },
             examples: [
               {
@@ -4030,15 +5161,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_07',
-            word: 'Combien?',
-            emoji: '💰',
+            id: "fr_a1_g3_07",
+            word: "Combien?",
+            emoji: "💰",
             translations: {
-              es: '¿cuánto?',
-              en: 'how much?',
-              fr: 'combien?',
-              it: 'quanto?',
-              pt: 'quanto?'
+              es: "¿cuánto?",
+              en: "how much?",
+              fr: "combien?",
+              it: "quanto?",
+              pt: "quanto?",
+              de: "Wie viel?",
+              ko: "얼마나?",
+              ja: "どのくらい？",
+              ru: "сколько?",
+              ar: "كم؟",
+              zh: "多少？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "ẹ̀sán ni?"
             },
             examples: [
               {
@@ -4047,32 +5189,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_08',
-            word: 'Combien de?',
-            emoji: '🔢',
+            id: "fr_a1_g3_08",
+            word: "Combien de?",
+            emoji: "🔢",
             translations: {
-              es: '¿cuántos?',
-              en: 'how many?',
-              fr: 'combien de?',
-              it: 'quanti?',
-              pt: 'quantos?'
+              es: "¿cuántos?",
+              en: "how many?",
+              fr: "combien de?",
+              it: "quanti?",
+              pt: "quantos?",
+              de: "Wie viele?",
+              ko: "몇 개?",
+              ja: "いくつ？",
+              ru: "Сколько?",
+              ar: "كم عدد؟",
+              zh: "多少？",
+              gn: "Mba'éichapa?",
+              qu: "Mayqan?",
+              wo: "Ñu benn?",
+              ha: "Wanda yaya?",
+              yo: "Eṣe ni?"
             },
             examples: [
               {
-                t: 'Combien de personnes à table?'
+                t: "Combien de personnes à table?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_09',
-            word: 'un / une',
-            emoji: '1️⃣',
+            id: "fr_a1_g3_09",
+            word: "un / une",
+            emoji: "1️⃣",
             translations: {
-              es: 'uno/una',
-              en: 'one',
-              fr: 'un/une',
-              it: 'uno/una',
-              pt: 'um/uma'
+              es: "uno/una",
+              en: "one",
+              fr: "un/une",
+              it: "uno/una",
+              pt: "um/uma",
+              de: "eins",
+              ko: "하나",
+              ja: "一つ",
+              ru: "один",
+              ar: "واحد",
+              zh: "一",
+              gn: "Peteĩ",
+              qu: "Huk",
+              wo: "Benn",
+              ha: "ɗaya",
+              yo: "okan"
             },
             examples: [
               {
@@ -4081,32 +5245,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_10',
-            word: 'deux',
-            emoji: '2️⃣',
+            id: "fr_a1_g3_10",
+            word: "deux",
+            emoji: "2️⃣",
             translations: {
-              es: 'dos',
-              en: 'two',
-              fr: 'deux',
-              it: 'due',
-              pt: 'dois'
+              es: "dos",
+              en: "two",
+              fr: "deux",
+              it: "due",
+              pt: "dois",
+              de: "zwei",
+              ko: "둘",
+              ja: "二つ",
+              ru: "два",
+              ar: "اثنان",
+              zh: "二",
+              gn: "Mokõi",
+              qu: "Isqun",
+              wo: "Ñaar",
+              ha: "bii",
+              yo: "méjì"
             },
             examples: [
               {
-                t: 'Nous sommes deux. Avez-vous une table?'
+                t: "Nous sommes deux. Avez-vous une table?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_11',
-            word: 'trois',
-            emoji: '3️⃣',
+            id: "fr_a1_g3_11",
+            word: "trois",
+            emoji: "3️⃣",
             translations: {
-              es: 'tres',
-              en: 'three',
-              fr: 'trois',
-              it: 'tre',
-              pt: 'três'
+              es: "tres",
+              en: "three",
+              fr: "trois",
+              it: "tre",
+              pt: "três",
+              de: "drei",
+              ko: "셋",
+              ja: "三つ",
+              ru: "три",
+              ar: "ثلاثة",
+              zh: "三",
+              gn: "Mombarete",
+              qu: "Kimsa",
+              wo: "Ñatt",
+              ha: "ukku",
+              yo: "mẹ́tà"
             },
             examples: [
               {
@@ -4115,32 +5301,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_12',
-            word: 'quatre',
-            emoji: '4️⃣',
+            id: "fr_a1_g3_12",
+            word: "quatre",
+            emoji: "4️⃣",
             translations: {
-              es: 'cuatro',
-              en: 'four',
-              fr: 'quatre',
-              it: 'quattro',
-              pt: 'quatro'
+              es: "cuatro",
+              en: "four",
+              fr: "quatre",
+              it: "quattro",
+              pt: "quatro",
+              de: "vier",
+              ko: "넷",
+              ja: "四つ",
+              ru: "четыре",
+              ar: "أربعة",
+              zh: "四",
+              gn: "Irundú",
+              qu: "Tawqa",
+              wo: "Ñent",
+              ha: "huɗu",
+              yo: "ẹ̀rìn"
             },
             examples: [
               {
-                t: 'Nous sommes quatre. Vous avez de la place?'
+                t: "Nous sommes quatre. Vous avez de la place?"
               }
             ]
           },
           {
-            id: 'fr_a1_g3_13',
-            word: 'cinq',
-            emoji: '5️⃣',
+            id: "fr_a1_g3_13",
+            word: "cinq",
+            emoji: "5️⃣",
             translations: {
-              es: 'cinco',
-              en: 'five',
-              fr: 'cinq',
-              it: 'cinque',
-              pt: 'cinco'
+              es: "cinco",
+              en: "five",
+              fr: "cinq",
+              it: "cinque",
+              pt: "cinco",
+              de: "fünf",
+              ko: "다섯",
+              ja: "五つ",
+              ru: "пять",
+              ar: "خمسة",
+              zh: "五",
+              gn: "Po'i",
+              qu: "Pichqa",
+              wo: "Juróom",
+              ha: "biyyar",
+              yo: "áàrún"
             },
             examples: [
               {
@@ -4149,111 +5357,155 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g3_14',
-            word: 'six',
-            emoji: '6️⃣',
+            id: "fr_a1_g3_14",
+            word: "six",
+            emoji: "6️⃣",
             translations: {
-              es: 'seis',
-              en: 'six',
-              fr: 'six',
-              it: 'sei',
-              pt: 'seis'
+              es: "seis",
+              en: "six",
+              fr: "six",
+              it: "sei",
+              pt: "seis",
+              de: "sechs",
+              ko: "여섯",
+              ja: "六つ",
+              ru: "шесть",
+              ar: "ستة",
+              zh: "六",
+              gn: "Po'ñandú",
+              qu: "Suqta",
+              wo: "Juróom-benn",
+              ha: "shida",
+              yo: "ẹ̀ẹ́dọ́gbọ̀n"
             },
             examples: [
               {
-                t: 'La réunion est à six heures.'
+                t: "La réunion est à six heures."
               }
             ]
           },
           {
-            id: 'fr_a1_g3_15',
-            word: 'sept',
-            emoji: '7️⃣',
+            id: "fr_a1_g3_15",
+            word: "sept",
+            emoji: "7️⃣",
             translations: {
-              es: 'siete',
-              en: 'seven',
-              fr: 'sept',
-              it: 'sette',
-              pt: 'sete'
+              es: "siete",
+              en: "seven",
+              fr: "sept",
+              it: "sette",
+              pt: "sete",
+              de: "sieben",
+              ko: "일곱",
+              ja: "七つ",
+              ru: "семь",
+              ar: "سبعة",
+              zh: "七",
+              gn: "Po'ñavúi",
+              qu: "Qanchis",
+              wo: "Juróom-ñaar",
+              ha: "sagwarka",
+              yo: "ẹ̀ẹ́dọ́gbáa"
             },
             examples: [
               {
-                t: 'Il y a sept personnes dans la classe.'
+                t: "Il y a sept personnes dans la classe."
               }
             ]
           },
           {
-            id: 'fr_a1_g3_16',
-            word: 'huit',
-            emoji: '8️⃣',
+            id: "fr_a1_g3_16",
+            word: "huit",
+            emoji: "8️⃣",
             translations: {
-              es: 'ocho',
-              en: 'eight',
-              fr: 'huit',
-              it: 'otto',
-              pt: 'oito'
+              es: "ocho",
+              en: "eight",
+              fr: "huit",
+              it: "otto",
+              pt: "oito",
+              de: "acht",
+              ko: "여덟",
+              ja: "八つ",
+              ru: "восемь",
+              ar: "ثمانية",
+              zh: "八",
+              gn: "Po'ñavui-peteĩ",
+              qu: "Pusaq",
+              wo: "Juróom-ñent",
+              ha: "takwas",
+              yo: "ẹ̀ẹ́dọ́gbáa-álẹ̀"
             },
             examples: [
               {
-                t: 'Il est huit heures du matin.'
+                t: "Il est huit heures du matin."
               }
             ]
           },
           {
-            id: 'fr_a1_g3_D01',
-            type: 'dialogue',
-            context: 'Au restaurant',
+            id: "fr_a1_g3_D01",
+            type: "dialogue",
+            context: "Au restaurant",
             dialogue: [
               {
-                speaker: 'Serveur',
-                line: 'Bonsoir! Vous êtes combien?'
+                speaker: "Serveur",
+                line: "Bonsoir! Vous êtes combien?"
               },
               {
-                speaker: 'Client',
-                line: 'Nous sommes trois. Avez-vous une table?'
+                speaker: "Client",
+                line: "Nous sommes trois. Avez-vous une table?"
               },
               {
-                speaker: 'Serveur',
-                line: 'Oui, bien sûr. Vous avez une réservation?'
+                speaker: "Serveur",
+                line: "Oui, bien sûr. Vous avez une réservation?"
               },
               {
-                speaker: 'Client',
+                speaker: "Client",
                 line: "Non, nous n'avons pas de réservation."
               },
               {
-                speaker: 'Serveur',
+                speaker: "Serveur",
                 line: "Pas de problème. Par ici, s'il vous plaît."
               },
               {
-                speaker: 'Client',
+                speaker: "Client",
                 line: "Merci. C'est long l'attente?"
               },
               {
-                speaker: 'Serveur',
-                line: 'Juste cinq minutes. Vous voulez boire quelque chose?'
+                speaker: "Serveur",
+                line: "Juste cinq minutes. Vous voulez boire quelque chose?"
               },
               {
-                speaker: 'Client',
+                speaker: "Client",
                 line: "Oui, deux eaux et un jus d'orange."
               }
             ],
-            note: 'Demander la quantité, commander au restaurant.',
+            note: "Demander la quantité, commander au restaurant.",
             translations: {
-              es: 'En el restaurante',
-              en: 'At the restaurant',
-              fr: 'Au restaurant',
-              it: 'Al ristorante',
-              pt: 'No restaurante'
+              es: "En el restaurante",
+              en: "At the restaurant",
+              fr: "Au restaurant",
+              it: "Al ristorante",
+              pt: "No restaurante",
+              de: "Im Restaurant",
+              ko: "레스토랑에서",
+              ja: "レストランで",
+              ru: "В ресторане",
+              ar: "في المطعم",
+              zh: "在餐厅",
+              gn: "Ha'e ha'e'õme'ẽre",
+              qu: "Hatun wasi pi",
+              wo: "Ci reestorañ",
+              ha: "A cikin makarantar",
+              yo: "Ní ilé iṣẹ́ ẹ̀dẹ́"
             }
           }
         ]
       },
       {
-        id: 'fr_a1_g4',
-        name: 'Verbes essentiels',
-        icon: '⚡',
-        color: '#ef4444',
-        description: 'Les verbes les plus utilisés — présent + passé',
+        id: "fr_a1_g4",
+        name: "Verbes essentiels",
+        icon: "⚡",
+        color: "#ef4444",
+        description: "Les verbes les plus utilisés — présent + passé",
         reviewFrom: [
           "fr_a1_g1",
           "fr_a1_g2",
@@ -4261,32 +5513,54 @@ const FLASHCARD_A1 = {
         ],
         cards: [
           {
-            id: 'fr_a1_g4_01',
-            word: 'je suis / tu es / il est',
-            emoji: '🌟',
+            id: "fr_a1_g4_01",
+            word: "je suis / tu es / il est",
+            emoji: "🌟",
             translations: {
-              es: 'ser/estar: soy/eres/es',
-              en: 'to be',
-              fr: 'être: je suis/tu es/il est',
-              it: 'essere: sono/sei/è',
-              pt: 'ser: sou/és/é'
+              es: "ser/estar: soy/eres/es",
+              en: "to be",
+              fr: "être: je suis/tu es/il est",
+              it: "essere: sono/sei/è",
+              pt: "ser: sou/és/é",
+              de: "sein",
+              ko: "이다",
+              ja: "である",
+              ru: "быть",
+              ar: "يكون",
+              zh: "是",
+              gn: "Ko",
+              qu: "Kana",
+              wo: "Mooy",
+              ha: "yake",
+              yo: "jẹ"
             },
             examples: [
               {
-                t: 'Je suis étudiant. Tu es mon ami.'
+                t: "Je suis étudiant. Tu es mon ami."
               }
             ]
           },
           {
-            id: 'fr_a1_g4_02',
+            id: "fr_a1_g4_02",
             word: "j'ai / tu as / il a",
-            emoji: '✋',
+            emoji: "✋",
             translations: {
-              es: 'tener: tengo/tienes/tiene',
-              en: 'to have',
+              es: "tener: tengo/tienes/tiene",
+              en: "to have",
               fr: "avoir: j'ai/tu as/il a",
-              it: 'avere: ho/hai/ha',
-              pt: 'ter: tenho/tens/tem'
+              it: "avere: ho/hai/ha",
+              pt: "ter: tenho/tens/tem",
+              de: "sein",
+              ko: "있다",
+              ja: "ある",
+              ru: "находиться",
+              ar: "يكون",
+              zh: "在",
+              gn: "Iko",
+              qu: "Kachkan",
+              wo: "Jëm",
+              ha: "yana",
+              yo: "wà"
             },
             examples: [
               {
@@ -4295,15 +5569,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_03',
-            word: 'je veux / tu veux',
-            emoji: '❤️',
+            id: "fr_a1_g4_03",
+            word: "je veux / tu veux",
+            emoji: "❤️",
             translations: {
-              es: 'querer: quiero/quieres',
-              en: 'to want',
-              fr: 'vouloir: je veux/tu veux',
-              it: 'volere: voglio/vuoi',
-              pt: 'querer: quero/queres'
+              es: "querer: quiero/quieres",
+              en: "to want",
+              fr: "vouloir: je veux/tu veux",
+              it: "volere: voglio/vuoi",
+              pt: "querer: quero/queres",
+              de: "haben",
+              ko: "가지다",
+              ja: "持つ",
+              ru: "иметь",
+              ar: "يملك",
+              zh: "有",
+              gn: "Ñande",
+              qu: "Kan",
+              wo: "Ñaan",
+              ha: "yana",
+              yo: "ní"
             },
             examples: [
               {
@@ -4312,83 +5597,138 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_04',
-            word: 'je vais / tu vas / il va',
-            emoji: '🚶',
+            id: "fr_a1_g4_04",
+            word: "je vais / tu vas / il va",
+            emoji: "🚶",
             translations: {
-              es: 'ir: voy/vas/va',
-              en: 'to go',
-              fr: 'aller: je vais/tu vas/il va',
-              it: 'andare: vado/vai/va',
-              pt: 'ir: vou/vais/vai'
+              es: "ir: voy/vas/va",
+              en: "to go",
+              fr: "aller: je vais/tu vas/il va",
+              it: "andare: vado/vai/va",
+              pt: "ir: vou/vais/vai",
+              de: "wollen",
+              ko: "원하다",
+              ja: "欲する",
+              ru: "хотеть",
+              ar: "يريد",
+              zh: "想要",
+              gn: "Jahecha",
+              qu: "Munay",
+              wo: "Baat",
+              ha: "so",
+              yo: "fẹ"
             },
             examples: [
               {
-                t: 'Je vais au travail. Tu vas à la salle de sport?'
+                t: "Je vais au travail. Tu vas à la salle de sport?"
               }
             ]
           },
           {
-            id: 'fr_a1_g4_05',
-            word: 'je parle / tu parles',
-            emoji: '🗣️',
+            id: "fr_a1_g4_05",
+            word: "je parle / tu parles",
+            emoji: "🗣️",
             translations: {
-              es: 'hablar: hablo/hablas',
-              en: 'to speak',
-              fr: 'parler: je parle/tu parles',
-              it: 'parlare: parlo/parli',
-              pt: 'falar: falo/falas'
+              es: "hablar: hablo/hablas",
+              en: "to speak",
+              fr: "parler: je parle/tu parles",
+              it: "parlare: parlo/parli",
+              pt: "falar: falo/falas",
+              de: "gehen",
+              ko: "가다",
+              ja: "行く",
+              ru: "идти",
+              ar: "يذهب",
+              zh: "去",
+              gn: "Jajái",
+              qu: "Riy",
+              wo: "Dem",
+              ha: "ya",
+              yo: "lọ"
             },
             examples: [
               {
-                t: 'Je parle français. Tu parles anglais?'
+                t: "Je parle français. Tu parles anglais?"
               }
             ]
           },
           {
-            id: 'fr_a1_g4_06',
-            word: 'je mange / tu manges',
-            emoji: '🍽️',
+            id: "fr_a1_g4_06",
+            word: "je mange / tu manges",
+            emoji: "🍽️",
             translations: {
-              es: 'comer: como/comes',
-              en: 'to eat',
-              fr: 'manger: je mange/tu manges',
-              it: 'mangiare: mangio/mangi',
-              pt: 'comer: como/comes'
+              es: "comer: como/comes",
+              en: "to eat",
+              fr: "manger: je mange/tu manges",
+              it: "mangiare: mangio/mangi",
+              pt: "comer: como/comes",
+              de: "sprechen",
+              ko: "말하다",
+              ja: "話す",
+              ru: "говорить",
+              ar: "يتحدث",
+              zh: "说话",
+              gn: "Ñe'ẽ",
+              qu: "Rimay",
+              wo: "Waxtaan",
+              ha: "yaya",
+              yo: "sọ"
             },
             examples: [
               {
-                t: 'Je mange des pâtes tous les jours.'
+                t: "Je mange des pâtes tous les jours."
               }
             ]
           },
           {
-            id: 'fr_a1_g4_07',
-            word: 'je bois / tu bois',
-            emoji: '🥤',
+            id: "fr_a1_g4_07",
+            word: "je bois / tu bois",
+            emoji: "🥤",
             translations: {
-              es: 'beber: bebo/bebes',
-              en: 'to drink',
-              fr: 'boire: je bois/tu bois',
-              it: 'bere: bevo/bevi',
-              pt: 'beber: bebo/bebes'
+              es: "beber: bebo/bebes",
+              en: "to drink",
+              fr: "boire: je bois/tu bois",
+              it: "bere: bevo/bevi",
+              pt: "beber: bebo/bebes",
+              de: "essen",
+              ko: "먹다",
+              ja: "食べる",
+              ru: "есть",
+              ar: "يأكل",
+              zh: "吃",
+              gn: "Mba'e",
+              qu: "Mikuy",
+              wo: "Ñaan",
+              ha: "ciya",
+              yo: "jẹun"
             },
             examples: [
               {
-                t: 'Je bois du café le matin.'
+                t: "Je bois du café le matin."
               }
             ]
           },
           {
-            id: 'fr_a1_g4_08',
+            id: "fr_a1_g4_08",
             word: "j'habite / tu habites",
-            emoji: '🏠',
+            emoji: "🏠",
             translations: {
-              es: 'vivir: vivo/vives',
-              en: 'to live',
+              es: "vivir: vivo/vives",
+              en: "to live",
               fr: "habiter: j'habite/tu habites",
-              it: 'vivere: vivo/vivi',
-              pt: 'viver: vivo/vives'
+              it: "vivere: vivo/vivi",
+              pt: "viver: vivo/vives",
+              de: "trinken",
+              ko: "마시다",
+              ja: "飲む",
+              ru: "пить",
+              ar: "يشرب",
+              zh: "喝",
+              gn: "Tereré",
+              qu: "Uqhay",
+              wo: "Jëm",
+              ha: "nuna",
+              yo: "mu"
             },
             examples: [
               {
@@ -4397,15 +5737,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_09',
-            word: 'je peux / tu peux',
-            emoji: '💪',
+            id: "fr_a1_g4_09",
+            word: "je peux / tu peux",
+            emoji: "💪",
             translations: {
-              es: 'poder: puedo/puedes',
-              en: 'can',
-              fr: 'pouvoir: je peux/tu peux',
-              it: 'potere: posso/puoi',
-              pt: 'poder: posso/podes'
+              es: "poder: puedo/puedes",
+              en: "can",
+              fr: "pouvoir: je peux/tu peux",
+              it: "potere: posso/puoi",
+              pt: "poder: posso/podes",
+              de: "leben",
+              ko: "살다",
+              ja: "生きる",
+              ru: "жить",
+              ar: "يعيش",
+              zh: "生活",
+              gn: "Jopara",
+              qu: "Kawsay",
+              wo: "Am",
+              ha: "rai",
+              yo: "gba"
             },
             examples: [
               {
@@ -4414,15 +5765,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_10',
+            id: "fr_a1_g4_10",
             word: "j'aime / je n'aime pas",
-            emoji: '👍',
+            emoji: "👍",
             translations: {
-              es: 'me gusta/no me gusta',
+              es: "me gusta/no me gusta",
               en: "I like/I don't like",
               fr: "j'aime/je n'aime pas",
-              it: 'mi piace/non mi piace',
-              pt: 'gosto/não gosto'
+              it: "mi piace/non mi piace",
+              pt: "gosto/não gosto",
+              de: "können",
+              ko: "할 수 있다",
+              ja: "できる",
+              ru: "мочь",
+              ar: "يستطيع",
+              zh: "能够",
+              gn: "Poro",
+              qu: "Atisqa",
+              wo: "Dinaa",
+              ha: "zaka iyi",
+              yo: "le"
             },
             examples: [
               {
@@ -4431,32 +5793,54 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_11',
-            word: 'je suis allé(e)',
-            emoji: '⏪',
+            id: "fr_a1_g4_11",
+            word: "je suis allé(e)",
+            emoji: "⏪",
             translations: {
-              es: 'fui',
-              en: 'I went',
-              fr: 'je suis allé(e)',
-              it: 'sono andato/a',
-              pt: 'fui'
+              es: "fui",
+              en: "I went",
+              fr: "je suis allé(e)",
+              it: "sono andato/a",
+              pt: "fui",
+              de: "mögen",
+              ko: "좋아하다",
+              ja: "好き",
+              ru: "нравиться",
+              ar: "يعجب",
+              zh: "喜欢",
+              gn: "py’a",
+              qu: "kuyua",
+              wo: "bàgg",
+              ha: "so",
+              yo: "fẹ́"
             },
             examples: [
               {
-                t: 'Je suis allé chez le médecin hier.'
+                t: "Je suis allé chez le médecin hier."
               }
             ]
           },
           {
-            id: 'fr_a1_g4_12',
+            id: "fr_a1_g4_12",
             word: "j'ai travaillé / parlé",
-            emoji: '🔵',
+            emoji: "🔵",
             translations: {
-              es: 'trabajé/hablé (regular)',
-              en: 'I worked/talked (regular)',
+              es: "trabajé/hablé (regular)",
+              en: "I worked/talked (regular)",
               fr: "j'ai travaillé/parlé (régulier)",
-              it: 'ho lavorato/parlato',
-              pt: 'trabalhei/falei'
+              it: "ho lavorato/parlato",
+              pt: "trabalhei/falei",
+              de: "gehen - Vergangenheit",
+              ko: "가다 - 과거",
+              ja: "行く - 過去",
+              ru: "идти - прошедшее время",
+              ar: "يذهب - الماضي",
+              zh: "去 - 过去式",
+              gn: "joapy - árape oîhate",
+              qu: "rikuy - kuna",
+              wo: "dem - bëj guées",
+              ha: "ya - lokaci na baya",
+              yo: "lọ - asiko ti kọja"
             },
             examples: [
               {
@@ -4465,15 +5849,26 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_13',
+            id: "fr_a1_g4_13",
             word: "j'ai eu / vu / fait",
-            emoji: '🔴',
+            emoji: "🔴",
             translations: {
-              es: 'tuve/vi/hice (irregulares)',
-              en: 'I had/saw/did (irregular)',
+              es: "tuve/vi/hice (irregulares)",
+              en: "I had/saw/did (irregular)",
               fr: "j'ai eu/vu/fait (irrégulier)",
-              it: 'ho avuto/visto/fatto',
-              pt: 'tive/vi/fiz'
+              it: "ho avuto/visto/fatto",
+              pt: "tive/vi/fiz",
+              de: "regelmäßige Vergangenheit -ar",
+              ko: "규칙적인 과거 -ar",
+              ja: "規則的な過去形 -ar",
+              ru: "регулярное прошедшее время -ar",
+              ar: "الماضي المنتظم -ar",
+              zh: "规则过去式 -ar",
+              gn: "árape oîhate pyahu -ar",
+              qu: "kuna llaki -ar",
+              wo: "bëj guées bu baax -ar",
+              ha: "lokaci na baya mai tsarki -ar",
+              yo: "asiko ti kọja patapata -ar"
             },
             examples: [
               {
@@ -4482,46 +5877,57 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'fr_a1_g4_D01',
-            type: 'dialogue',
+            id: "fr_a1_g4_D01",
+            type: "dialogue",
             context: "Raconter sa journée d'hier",
             dialogue: [
               {
-                speaker: 'Valérie',
+                speaker: "Valérie",
                 line: "Qu'est-ce que tu as fait hier?"
               },
               {
-                speaker: 'Thomas',
+                speaker: "Thomas",
                 line: "Je suis allé au sport le matin, puis j'ai déjeuné avec ma famille."
               },
               {
-                speaker: 'Valérie',
-                line: 'Super! Vous avez mangé où?'
+                speaker: "Valérie",
+                line: "Super! Vous avez mangé où?"
               },
               {
-                speaker: 'Thomas',
-                line: 'Nous sommes allés dans un restaurant italien. Et toi?'
+                speaker: "Thomas",
+                line: "Nous sommes allés dans un restaurant italien. Et toi?"
               },
               {
-                speaker: 'Valérie',
+                speaker: "Valérie",
                 line: "Moi, je suis restée chez moi. J'ai eu beaucoup de travail."
               },
               {
-                speaker: 'Thomas',
-                line: 'Tu as pu te reposer un peu?'
+                speaker: "Thomas",
+                line: "Tu as pu te reposer un peu?"
               },
               {
-                speaker: 'Valérie',
+                speaker: "Valérie",
                 line: "Oui, un peu. J'aime travailler de chez moi."
               }
             ],
-            note: 'Verbes au passé composé: suis allé, ai mangé, ai eu, ai pu.',
+            note: "Verbes au passé composé: suis allé, ai mangé, ai eu, ai pu.",
             translations: {
-              es: 'Hablar del pasado',
-              en: 'Talking about the past',
-              fr: 'Parler du passé',
-              it: 'Parlare del passato',
-              pt: 'Falar do passado'
+              es: "Hablar del pasado",
+              en: "Talking about the past",
+              fr: "Parler du passé",
+              it: "Parlare del passato",
+              pt: "Falar do passado",
+              de: "Über die Vergangenheit sprechen",
+              ko: "과거에 대해 이야기하다",
+              ja: "過去について話す",
+              ru: "говорить о прошлом",
+              ar: "التحدث عن الماضي",
+              zh: "谈论过去",
+              gn: "Oñe’ẽ ha’eha’ẽmbyryete",
+              qu: "Kunanmanta rimay",
+              wo: "Waxtu bu am bëj guées",
+              ha: "Koya ba lokacin baya",
+              yo: "Gba èdè nípa bíi ajóṣe"
             }
           }
         ]
@@ -4529,380 +5935,589 @@ const FLASHCARD_A1 = {
     ]
   },
   it: {
-    level: 'A1',
-    levelName: 'Mi so presentare',
+    level: "A1",
+    levelName: "Mi so presentare",
     groups: [
       {
-        id: 'it_a1_g1',
-        name: 'Saluti e presentazioni',
-        icon: '👋',
-        color: '#6366f1',
-        description: 'Come salutare, presentarsi e congedarsi',
+        id: "it_a1_g1",
+        name: "Saluti e presentazioni",
+        icon: "👋",
+        color: "#6366f1",
+        description: "Come salutare, presentarsi e congedarsi",
         cards: [
           {
-            id: 'it_a1_g1_01',
-            word: 'Ciao / Buongiorno',
-            emoji: '👋',
+            id: "it_a1_g1_01",
+            word: "Ciao / Buongiorno",
+            emoji: "👋",
             translations: {
-              es: 'hola / buenos días',
-              en: 'hi / good morning',
-              fr: 'salut / bonjour',
-              it: 'ciao / buongiorno',
-              pt: 'oi / bom dia'
+              es: "hola / buenos días",
+              en: "hi / good morning",
+              fr: "salut / bonjour",
+              it: "ciao / buongiorno",
+              pt: "oi / bom dia",
+              de: "Hallo",
+              ko: "안녕하세요",
+              ja: "こんにちは",
+              ru: "привет",
+              ar: "مرحبا",
+              zh: "你好",
+              gn: "Mba'éichapa",
+              qu: "Rimaykullayki",
+              wo: "Salamalekum",
+              ha: "Sannu",
+              yo: "Ẹ n lẹ"
             },
             examples: [
               {
-                t: 'Ciao! Come stai?'
+                t: "Ciao! Come stai?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_02',
-            word: 'Arrivederci',
-            emoji: '🙋',
+            id: "it_a1_g1_02",
+            word: "Arrivederci",
+            emoji: "🙋",
             translations: {
-              es: 'adiós',
-              en: 'goodbye',
-              fr: 'au revoir',
-              it: 'arrivederci',
-              pt: 'adeus'
+              es: "adiós",
+              en: "goodbye",
+              fr: "au revoir",
+              it: "arrivederci",
+              pt: "adeus",
+              de: "Tschüss",
+              ko: "안녕히 가세요",
+              ja: "さようなら",
+              ru: "пока",
+              ar: "وداعا",
+              zh: "再见",
+              gn: "Aguyjevete",
+              qu: "K'uychi",
+              wo: "Ba beneen",
+              ha: "Da ku gode",
+              yo: "O dàbọ̀"
             },
             examples: [
               {
-                t: 'Arrivederci! A domani.'
+                t: "Arrivederci! A domani."
               }
             ]
           },
           {
-            id: 'it_a1_g1_03',
-            word: 'Buonasera',
-            emoji: '🌆',
+            id: "it_a1_g1_03",
+            word: "Buonasera",
+            emoji: "🌆",
             translations: {
-              es: 'buenas noches',
-              en: 'good evening',
-              fr: 'bonsoir',
-              it: 'buonasera',
-              pt: 'boa tarde / boa noite'
+              es: "buenas noches",
+              en: "good evening",
+              fr: "bonsoir",
+              it: "buonasera",
+              pt: "boa tarde / boa noite",
+              de: "Guten Tag",
+              ko: "좋은 아침",
+              ja: "おはようございます",
+              ru: "доброе утро",
+              ar: "صباح الخير",
+              zh: "早上好",
+              gn: "Mba'éichapa ha'evéma",
+              qu: "Rimaykullayki punchaw",
+              wo: "Jàmm rekk",
+              ha: "Barka da yamma",
+              yo: "E kaaro"
             },
             examples: [
               {
-                t: 'Buonasera! Come è andata la giornata?'
+                t: "Buonasera! Come è andata la giornata?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_04',
-            word: 'Come ti chiami?',
-            emoji: '🏷️',
+            id: "it_a1_g1_04",
+            word: "Come ti chiami?",
+            emoji: "🏷️",
             translations: {
-              es: '¿cómo te llamas?',
+              es: "¿cómo te llamas?",
               en: "what's your name?",
               fr: "comment tu t'appelles?",
-              it: 'come ti chiami?',
-              pt: 'como você se chama?'
+              it: "come ti chiami?",
+              pt: "como você se chama?",
+              de: "Guten Abend",
+              ko: "좋은 저녁",
+              ja: "こんばんは",
+              ru: "добрый вечер",
+              ar: "مساء الخير",
+              zh: "晚上好",
+              gn: "Mba'éichapa pyhare",
+              qu: "Rimaykullayki qhepa simi",
+              wo: "Jàmm alal",
+              ha: "Barka da dare",
+              yo: "E kaaro ale"
             },
             examples: [
               {
-                t: 'Come ti chiami? — Mi chiamo Luca.'
+                t: "Come ti chiami? — Mi chiamo Luca."
               }
             ]
           },
           {
-            id: 'it_a1_g1_05',
-            word: 'Mi chiamo',
-            emoji: '😊',
+            id: "it_a1_g1_05",
+            word: "Mi chiamo",
+            emoji: "😊",
             translations: {
-              es: 'me llamo',
-              en: 'my name is',
+              es: "me llamo",
+              en: "my name is",
               fr: "je m'appelle",
-              it: 'mi chiamo',
-              pt: 'me chamo'
+              it: "mi chiamo",
+              pt: "me chamo",
+              de: "Wie heißt du?",
+              ko: "네 이름이 뭐야?",
+              ja: "あなたの名前は何ですか？",
+              ru: "Как тебя зовут?",
+              ar: "ما اسمك؟",
+              zh: "你叫什么名字？",
+              gn: "Mba'éichapa reime?",
+              qu: "Imaynam kallankichu?",
+              wo: "Noo nga jëm?",
+              ha: "Menene sunanka?",
+              yo: "Kí ni orúkọ rẹ?"
             },
             examples: [
               {
-                t: 'Mi chiamo Giulia. Piacere!'
+                t: "Mi chiamo Giulia. Piacere!"
               }
             ]
           },
           {
-            id: 'it_a1_g1_06',
-            word: 'Come stai?',
-            emoji: '🤔',
+            id: "it_a1_g1_06",
+            word: "Come stai?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo estás?',
-              en: 'how are you?',
-              fr: 'comment ça va?',
-              it: 'come stai?',
-              pt: 'como vai?'
+              es: "¿cómo estás?",
+              en: "how are you?",
+              fr: "comment ça va?",
+              it: "come stai?",
+              pt: "como vai?",
+              de: "Ich heiße",
+              ko: "제 이름은",
+              ja: "私の名前は",
+              ru: "Меня зовут",
+              ar: "اسمي",
+              zh: "我的名字是",
+              gn: "Che reime",
+              qu: "Niyqa kani",
+              wo: "Jëm laa",
+              ha: "Sunayni",
+              yo: "Orúkọ mi ni"
             },
             examples: [
               {
-                t: 'Come stai? — Molto bene, grazie!'
+                t: "Come stai? — Molto bene, grazie!"
               }
             ]
           },
           {
-            id: 'it_a1_g1_07',
-            word: 'Molto bene / Bene',
-            emoji: '😄',
+            id: "it_a1_g1_07",
+            word: "Molto bene / Bene",
+            emoji: "😄",
             translations: {
-              es: 'muy bien / bien',
-              en: 'very well / fine',
-              fr: 'très bien / bien',
-              it: 'molto bene / bene',
-              pt: 'muito bem / bem'
+              es: "muy bien / bien",
+              en: "very well / fine",
+              fr: "très bien / bien",
+              it: "molto bene / bene",
+              pt: "muito bem / bem",
+              de: "Wie geht es dir?",
+              ko: "어떻게 지내세요?",
+              ja: "お元気ですか？",
+              ru: "Как дела?",
+              ar: "كيف حالك؟",
+              zh: "你好吗？",
+              gn: "Mba'éichapa reiko?",
+              qu: "Imaynallaq kashankichu?",
+              wo: "Naka nga jaay?",
+              ha: "Yaya kake?",
+              yo: "Báwo ni o se wa?"
             },
             examples: [
               {
-                t: 'Come stai? — Bene, e tu?'
+                t: "Come stai? — Bene, e tu?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_08',
-            word: 'Così così',
-            emoji: '🤷',
+            id: "it_a1_g1_08",
+            word: "Così così",
+            emoji: "🤷",
             translations: {
-              es: 'más o menos',
-              en: 'so-so',
-              fr: 'comme ci comme ça',
-              it: 'così così',
-              pt: 'mais ou menos'
+              es: "más o menos",
+              en: "so-so",
+              fr: "comme ci comme ça",
+              it: "così così",
+              pt: "mais ou menos",
+              de: "Sehr gut",
+              ko: "매우 좋습니다",
+              ja: "とても良いです",
+              ru: "очень хорошо",
+              ar: "جيد جدا",
+              zh: "很好",
+              gn: "Mba'éichapa iporã",
+              qu: "Allinlla",
+              wo: "Buur guèpp",
+              ha: "Daya kamfani",
+              yo: "Dáradára"
             },
             examples: [
               {
-                t: 'Come stai? — Così così.'
+                t: "Come stai? — Così così."
               }
             ]
           },
           {
-            id: 'it_a1_g1_09',
-            word: 'Piacere',
-            emoji: '🤝',
+            id: "it_a1_g1_09",
+            word: "Piacere",
+            emoji: "🤝",
             translations: {
-              es: 'mucho gusto',
-              en: 'nice to meet you',
-              fr: 'enchanté',
-              it: 'piacere',
-              pt: 'prazer'
+              es: "mucho gusto",
+              en: "nice to meet you",
+              fr: "enchanté",
+              it: "piacere",
+              pt: "prazer",
+              de: "So lala",
+              ko: "그럭저럭",
+              ja: "まあまあ",
+              ru: "так себе",
+              ar: "على ما يرام",
+              zh: "还不错",
+              gn: "Mba'éichapa jepe",
+              qu: "Mana allinchu",
+              wo: "Mëdd mëdd",
+              ha: "Kwai kwai",
+              yo: "Kí í ṣe"
             },
             examples: [
               {
-                t: 'Ti presento Sofia. — Piacere, Sofia!'
+                t: "Ti presento Sofia. — Piacere, Sofia!"
               }
             ]
           },
           {
-            id: 'it_a1_g1_10',
-            word: 'Benvenuto/a',
-            emoji: '🎉',
+            id: "it_a1_g1_10",
+            word: "Benvenuto/a",
+            emoji: "🎉",
             translations: {
-              es: 'bienvenido',
-              en: 'welcome',
-              fr: 'bienvenue',
-              it: 'benvenuto/a',
-              pt: 'bem-vindo'
+              es: "bienvenido",
+              en: "welcome",
+              fr: "bienvenue",
+              it: "benvenuto/a",
+              pt: "bem-vindo",
+              de: "Freut mich",
+              ko: "만나서 반갑습니다",
+              ja: "お会いできて嬉しいです",
+              ru: "рад встрече",
+              ar: "سعيد بلقائك",
+              zh: "很高兴见到你",
+              gn: "Aguyjevete",
+              qu: "Kuychi",
+              wo: "Mëngi lay baax",
+              ha: "Ina son ki",
+              yo: "Ẹ yìn mọ̀"
             },
             examples: [
               {
-                t: 'Benvenuto nella nostra città!'
+                t: "Benvenuto nella nostra città!"
               }
             ]
           },
           {
-            id: 'it_a1_g1_11',
-            word: 'Di dove sei?',
-            emoji: '🌍',
+            id: "it_a1_g1_11",
+            word: "Di dove sei?",
+            emoji: "🌍",
             translations: {
-              es: '¿de dónde eres?',
-              en: 'where are you from?',
+              es: "¿de dónde eres?",
+              en: "where are you from?",
               fr: "tu viens d'où?",
-              it: 'di dove sei?',
-              pt: 'de onde você é?'
+              it: "di dove sei?",
+              pt: "de onde você é?",
+              de: "Willkommen",
+              ko: "환영합니다",
+              ja: "ようこそ",
+              ru: "добро пожаловать",
+              ar: "أهلا وسهلا",
+              zh: "欢迎",
+              gn: "Bienvenido",
+              qu: "Allin hamut'ana",
+              wo: "Jàmm jigeen",
+              ha: "Barka da zuwa",
+              yo: "Ẹ wà pèlẹ̀"
             },
             examples: [
               {
-                t: 'Di dove sei? — Sono di Roma.'
+                t: "Di dove sei? — Sono di Roma."
               }
             ]
           },
           {
-            id: 'it_a1_g1_12',
-            word: 'Sono di',
-            emoji: '📍',
+            id: "it_a1_g1_12",
+            word: "Sono di",
+            emoji: "📍",
             translations: {
-              es: 'soy de',
+              es: "soy de",
               en: "I'm from",
-              fr: 'je viens de',
-              it: 'sono di',
-              pt: 'sou de'
+              fr: "je viens de",
+              it: "sono di",
+              pt: "sou de",
+              de: "Woher kommst du?",
+              ko: "어디에서 오셨어요?",
+              ja: "どこから来ましたか？",
+              ru: "Откуда ты?",
+              ar: "من أين أنت؟",
+              zh: "你从哪里来？",
+              gn: "Mba'épa ichupe?",
+              qu: "Qhamanpi kashanchu?",
+              wo: "Dóo nga dégg?",
+              ha: "Ina ka zo?",
+              yo: "Níbo ni o wá?"
             },
             examples: [
               {
-                t: 'Sono di Milano. E tu?'
+                t: "Sono di Milano. E tu?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_13',
-            word: 'Scusa / Mi scusi',
-            emoji: '🙏',
+            id: "it_a1_g1_13",
+            word: "Scusa / Mi scusi",
+            emoji: "🙏",
             translations: {
-              es: 'perdón',
-              en: 'sorry / excuse me',
-              fr: 'pardon / excusez-moi',
-              it: 'scusa / mi scusi',
-              pt: 'desculpe'
+              es: "perdón",
+              en: "sorry / excuse me",
+              fr: "pardon / excusez-moi",
+              it: "scusa / mi scusi",
+              pt: "desculpe",
+              de: "Ich komme aus",
+              ko: "저는 ...에서 왔습니다",
+              ja: "私は...から来ました",
+              ru: "Я из",
+              ar: "أنا من",
+              zh: "我来自",
+              gn: "Che ha'e ...-pe",
+              qu: "Niyqa ...-manta",
+              wo: "Maa nga jóge ...",
+              ha: "Ina na zo ...",
+              yo: "Mo wa ni ..."
             },
             examples: [
               {
-                t: 'Scusa, puoi ripetere più lentamente?'
+                t: "Scusa, puoi ripetere più lentamente?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_14',
-            word: 'Non capisco',
-            emoji: '❓',
+            id: "it_a1_g1_14",
+            word: "Non capisco",
+            emoji: "❓",
             translations: {
-              es: 'no entiendo',
+              es: "no entiendo",
               en: "I don't understand",
-              fr: 'je ne comprends pas',
-              it: 'non capisco',
-              pt: 'não entendo'
+              fr: "je ne comprends pas",
+              it: "non capisco",
+              pt: "não entendo",
+              de: "Entschuldigung",
+              ko: "미안합니다",
+              ja: "すみません",
+              ru: "извините",
+              ar: "عذرًا",
+              zh: "对不起",
+              gn: "Perdón",
+              qu: "Pakarikuy",
+              wo: "Maaf",
+              ha: "Goma",
+              yo: "E ma binu"
             },
             examples: [
               {
-                t: 'Scusa, non capisco. Puoi parlare più piano?'
+                t: "Scusa, non capisco. Puoi parlare più piano?"
               }
             ]
           },
           {
-            id: 'it_a1_g1_15',
-            word: 'Per favore / Grazie',
-            emoji: '🙏',
+            id: "it_a1_g1_15",
+            word: "Per favore / Grazie",
+            emoji: "🙏",
             translations: {
-              es: 'por favor / gracias',
-              en: 'please / thank you',
+              es: "por favor / gracias",
+              en: "please / thank you",
               fr: "s'il te plaît / merci",
-              it: 'per favore / grazie',
-              pt: 'por favor / obrigado'
+              it: "per favore / grazie",
+              pt: "por favor / obrigado",
+              de: "Ich verstehe nicht",
+              ko: "이해하지 못하겠어요",
+              ja: "わかりません",
+              ru: "Я не понимаю",
+              ar: "لا أفهم",
+              zh: "我不懂",
+              gn: "Ndaikuaa'ỹrei",
+              qu: "Manam entiendinchu",
+              wo: "Ma nga xamoon naa",
+              ha: "Babu kaina",
+              yo: "Mo ti mo gbọ́"
             },
             examples: [
               {
-                t: 'Un caffè, per favore. — Ecco. — Grazie!'
+                t: "Un caffè, per favore. — Ecco. — Grazie!"
               }
             ]
           },
           {
-            id: 'it_a1_g1_D01',
-            type: 'dialogue',
-            context: 'Due persone si incontrano a una festa',
+            id: "it_a1_g1_D01",
+            type: "dialogue",
+            context: "Due persone si incontrano a una festa",
             dialogue: [
               {
-                speaker: 'Sofia',
-                line: 'Ciao! Sei Marco, vero?'
+                speaker: "Sofia",
+                line: "Ciao! Sei Marco, vero?"
               },
               {
-                speaker: 'Marco',
-                line: 'Sì! E tu, come ti chiami?'
+                speaker: "Marco",
+                line: "Sì! E tu, come ti chiami?"
               },
               {
-                speaker: 'Sofia',
-                line: 'Mi chiamo Sofia. Piacere!'
+                speaker: "Sofia",
+                line: "Mi chiamo Sofia. Piacere!"
               },
               {
-                speaker: 'Marco',
-                line: 'Piacere, Sofia. Di dove sei?'
+                speaker: "Marco",
+                line: "Piacere, Sofia. Di dove sei?"
               },
               {
-                speaker: 'Sofia',
-                line: 'Sono di Napoli. E tu?'
+                speaker: "Sofia",
+                line: "Sono di Napoli. E tu?"
               },
               {
-                speaker: 'Marco',
-                line: 'Io sono di Torino. Benvenuta!'
+                speaker: "Marco",
+                line: "Io sono di Torino. Benvenuta!"
               }
             ],
             note: "Presentarsi e chiedere l'origine.",
             translations: {
-              es: 'Presentarse',
-              en: 'Introducing yourself',
-              fr: 'Se présenter',
-              it: 'Presentarsi',
-              pt: 'Apresentar-se'
+              es: "Presentarse",
+              en: "Introducing yourself",
+              fr: "Se présenter",
+              it: "Presentarsi",
+              pt: "Apresentar-se",
+              de: "Sich vorstellen",
+              ko: "자기소개",
+              ja: "自己紹介",
+              ru: "представиться",
+              ar: "التعريف بالنفس",
+              zh: "自我介绍",
+              gn: "Ojepresenta",
+              qu: "Willana",
+              wo: "Wóor na taxaw",
+              ha: "Bayanin kanka",
+              yo: "Kí í ṣe àtẹ̀jáde"
             }
           },
           {
-            id: 'it_a1_g1_D02',
-            type: 'dialogue',
-            context: 'Fine di una conversazione',
+            id: "it_a1_g1_D02",
+            type: "dialogue",
+            context: "Fine di una conversazione",
             dialogue: [
               {
-                speaker: 'Anna',
-                line: 'Bene, devo andare. È stato un piacere!'
+                speaker: "Anna",
+                line: "Bene, devo andare. È stato un piacere!"
               },
               {
-                speaker: 'Pietro',
-                line: 'Anche per me. A presto, Anna!'
+                speaker: "Pietro",
+                line: "Anche per me. A presto, Anna!"
               },
               {
-                speaker: 'Anna',
-                line: 'Arrivederci! Buona giornata!'
+                speaker: "Anna",
+                line: "Arrivederci! Buona giornata!"
               },
               {
-                speaker: 'Pietro',
-                line: 'Anche a te!'
+                speaker: "Pietro",
+                line: "Anche a te!"
               }
             ],
-            note: 'Congedarsi in modo cordiale.',
+            note: "Congedarsi in modo cordiale.",
             translations: {
-              es: 'Despedirse',
-              en: 'Saying goodbye',
-              fr: 'Dire au revoir',
-              it: 'Salutarsi',
-              pt: 'Despedir-se'
+              es: "Despedirse",
+              en: "Saying goodbye",
+              fr: "Dire au revoir",
+              it: "Salutarsi",
+              pt: "Despedir-se",
+              de: "Sich verabschieden",
+              ko: "작별 인사",
+              ja: "お別れ",
+              ru: "прощаться",
+              ar: "الوداع",
+              zh: "告别",
+              gn: "Oje'o",
+              qu: "K'uychi",
+              wo: "Bax na",
+              ha: "Ku tsallaka",
+              yo: "Kí í ṣe ìbẹ̀rẹ̀ ìrìn"
             }
           }
         ]
       },
       {
-        id: 'it_a1_g2',
-        name: 'Quantità e stati',
-        icon: '😋',
-        color: '#f59e0b',
-        description: 'Esprimere bisogni, sensazioni e il meteo',
+        id: "it_a1_g2",
+        name: "Quantità e stati",
+        icon: "😋",
+        color: "#f59e0b",
+        description: "Esprimere bisogni, sensazioni e il meteo",
         reviewFrom: [
           "it_a1_g1"
         ],
         cards: [
           {
-            id: 'it_a1_g2_01',
-            word: 'Ho fame',
-            emoji: '🍽️',
+            id: "it_a1_g2_01",
+            word: "Ho fame",
+            emoji: "🍽️",
             translations: {
-              es: 'tengo hambre',
+              es: "tengo hambre",
               en: "I'm hungry",
               fr: "j'ai faim",
-              it: 'ho fame',
-              pt: 'estou com fome'
+              it: "ho fame",
+              pt: "estou com fome",
+              de: "Hunger",
+              ko: "배고픔",
+              ja: "空腹",
+              ru: "голод",
+              ar: "جوع",
+              zh: "饥饿",
+              gn: "Añembo'",
+              qu: "Musuy",
+              wo: "Bëcc",
+              ha: "Yankin ciki",
+              yo: "Ìgbèsẹ̀"
             },
             examples: [
               {
-                t: 'Ho molta fame. Mangiamo?'
+                t: "Ho molta fame. Mangiamo?"
               }
             ]
           },
           {
-            id: 'it_a1_g2_02',
-            word: 'Ho sete',
-            emoji: '💧',
+            id: "it_a1_g2_02",
+            word: "Ho sete",
+            emoji: "💧",
             translations: {
-              es: 'tengo sed',
+              es: "tengo sed",
               en: "I'm thirsty",
               fr: "j'ai soif",
-              it: 'ho sete',
-              pt: 'estou com sede'
+              it: "ho sete",
+              pt: "estou com sede",
+              de: "Durst",
+              ko: "목마름",
+              ja: "渇き",
+              ru: "жажда",
+              ar: "عطش",
+              zh: "口渴",
+              gn: "Añembyasy",
+              qu: "P'isyay",
+              wo: "Dëgg",
+              ha: "Yankin ruwa",
+              yo: "Ìfẹ́ ìmọ́lẹ̀"
             },
             examples: [
               {
@@ -4911,83 +6526,138 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'it_a1_g2_03',
-            word: 'Ho freddo',
-            emoji: '🥶',
+            id: "it_a1_g2_03",
+            word: "Ho freddo",
+            emoji: "🥶",
             translations: {
-              es: 'tengo frío',
+              es: "tengo frío",
               en: "I'm cold",
               fr: "j'ai froid",
-              it: 'ho freddo',
-              pt: 'estou com frio'
+              it: "ho freddo",
+              pt: "estou com frio",
+              de: "Kälte",
+              ko: "추위",
+              ja: "寒さ",
+              ru: "холод",
+              ar: "برد",
+              zh: "寒冷",
+              gn: "Añemby",
+              qu: "Chiri",
+              wo: "Bañ",
+              ha: "Yankin sanyi",
+              yo: "Ọkẹ́"
             },
             examples: [
               {
-                t: 'Ho freddo. Posso chiudere la finestra?'
+                t: "Ho freddo. Posso chiudere la finestra?"
               }
             ]
           },
           {
-            id: 'it_a1_g2_04',
-            word: 'Ho caldo',
-            emoji: '🌡️',
+            id: "it_a1_g2_04",
+            word: "Ho caldo",
+            emoji: "🌡️",
             translations: {
-              es: 'tengo calor',
+              es: "tengo calor",
               en: "I'm hot",
               fr: "j'ai chaud",
-              it: 'ho caldo',
-              pt: 'estou com calor'
+              it: "ho caldo",
+              pt: "estou com calor",
+              de: "Hitze",
+              ko: "열",
+              ja: "暑さ",
+              ru: "жара",
+              ar: "حرارة",
+              zh: "热",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Fa caldo. Apro la finestra.'
+                t: "Fa caldo. Apro la finestra."
               }
             ]
           },
           {
-            id: 'it_a1_g2_05',
-            word: 'Sono stanco/a',
-            emoji: '😴',
+            id: "it_a1_g2_05",
+            word: "Sono stanco/a",
+            emoji: "😴",
             translations: {
-              es: 'estoy cansado',
+              es: "estoy cansado",
               en: "I'm tired",
-              fr: 'je suis fatigué',
-              it: 'sono stanco/a',
-              pt: 'estou cansado'
+              fr: "je suis fatigué",
+              it: "sono stanco/a",
+              pt: "estou cansado",
+              de: "müde",
+              ko: "피곤한",
+              ja: "疲れた",
+              ru: "усталый",
+              ar: "متعب",
+              zh: "累",
+              gn: "pyahu",
+              qu: "lluk'iy",
+              wo: "neex",
+              ha: "talle",
+              yo: "kúkúrú"
             },
             examples: [
               {
-                t: 'Sono molto stanco. Voglio dormire.'
+                t: "Sono molto stanco. Voglio dormire."
               }
             ]
           },
           {
-            id: 'it_a1_g2_06',
-            word: 'Molto',
-            emoji: '📊',
+            id: "it_a1_g2_06",
+            word: "Molto",
+            emoji: "📊",
             translations: {
-              es: 'mucho / muy',
-              en: 'a lot / very',
-              fr: 'beaucoup / très',
-              it: 'molto',
-              pt: 'muito'
+              es: "mucho / muy",
+              en: "a lot / very",
+              fr: "beaucoup / très",
+              it: "molto",
+              pt: "muito",
+              de: "viel",
+              ko: "많이",
+              ja: "たくさん",
+              ru: "много",
+              ar: "كثير",
+              zh: "很多",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Ho molto lavoro oggi.'
+                t: "Ho molto lavoro oggi."
               }
             ]
           },
           {
-            id: 'it_a1_g2_07',
+            id: "it_a1_g2_07",
             word: "Un po'",
-            emoji: '🤏',
+            emoji: "🤏",
             translations: {
-              es: 'un poco',
-              en: 'a little',
-              fr: 'un peu',
+              es: "un poco",
+              en: "a little",
+              fr: "un peu",
               it: "un po'",
-              pt: 'um pouco'
+              pt: "um pouco",
+              de: "wenig",
+              ko: "조금",
+              ja: "少し",
+              ru: "немного",
+              ar: "قليل",
+              zh: "少",
+              gn: "po'a",
+              qu: "phisi",
+              wo: "benn",
+              ha: "sau",
+              yo: "díẹ̀"
             },
             examples: [
               {
@@ -4996,100 +6666,166 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'it_a1_g2_08',
-            word: 'Abbastanza',
-            emoji: '👌',
+            id: "it_a1_g2_08",
+            word: "Abbastanza",
+            emoji: "👌",
             translations: {
-              es: 'bastante',
-              en: 'quite / enough',
-              fr: 'assez',
-              it: 'abbastanza',
-              pt: 'bastante'
+              es: "bastante",
+              en: "quite / enough",
+              fr: "assez",
+              it: "abbastanza",
+              pt: "bastante",
+              de: "ziemlich",
+              ko: "제법",
+              ja: "かなり",
+              ru: "довольно",
+              ar: "كثيرا",
+              zh: "相当",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Sto abbastanza bene, grazie.'
+                t: "Sto abbastanza bene, grazie."
               }
             ]
           },
           {
-            id: 'it_a1_g2_09',
-            word: 'Troppo',
-            emoji: '🙈',
+            id: "it_a1_g2_09",
+            word: "Troppo",
+            emoji: "🙈",
             translations: {
-              es: 'demasiado',
-              en: 'too much',
-              fr: 'trop',
-              it: 'troppo',
-              pt: 'demais'
+              es: "demasiado",
+              en: "too much",
+              fr: "trop",
+              it: "troppo",
+              pt: "demais",
+              de: "zu viel",
+              ko: "너무 많이",
+              ja: "多すぎる",
+              ru: "слишком много",
+              ar: "كثير جدا",
+              zh: "太多",
+              gn: "pyahuite",
+              qu: "pachapacha",
+              wo: "buñ buñ",
+              ha: "yawa guda",
+              yo: "púpọ̀ jùlọ"
             },
             examples: [
               {
-                t: 'Fa troppo caldo per uscire.'
+                t: "Fa troppo caldo per uscire."
               }
             ]
           },
           {
-            id: 'it_a1_g2_10',
-            word: 'Ho bisogno di',
-            emoji: '🙋',
+            id: "it_a1_g2_10",
+            word: "Ho bisogno di",
+            emoji: "🙋",
             translations: {
-              es: 'necesito',
-              en: 'I need',
+              es: "necesito",
+              en: "I need",
               fr: "j'ai besoin de",
-              it: 'ho bisogno di',
-              pt: 'preciso de'
+              it: "ho bisogno di",
+              pt: "preciso de",
+              de: "brauchen",
+              ko: "필요로하다",
+              ja: "必要とする",
+              ru: "нуждаться",
+              ar: "يحتاج",
+              zh: "需要",
+              gn: "reikuaa",
+              qu: "munay",
+              wo: "waaj",
+              ha: "bukatar",
+              yo: "wà ní ìwọ́lé"
             },
             examples: [
               {
-                t: 'Ho bisogno di acqua, per favore.'
+                t: "Ho bisogno di acqua, per favore."
               }
             ]
           },
           {
-            id: 'it_a1_g2_11',
-            word: 'Soleggiato',
-            emoji: '☀️',
+            id: "it_a1_g2_11",
+            word: "Soleggiato",
+            emoji: "☀️",
             translations: {
-              es: 'soleado',
-              en: 'sunny',
-              fr: 'ensoleillé',
-              it: 'soleggiato',
-              pt: 'ensolarado'
+              es: "soleado",
+              en: "sunny",
+              fr: "ensoleillé",
+              it: "soleggiato",
+              pt: "ensolarado",
+              de: "sonnig",
+              ko: "맑은",
+              ja: "晴れた",
+              ru: "солнечный",
+              ar: "مشمس",
+              zh: "晴朗",
+              gn: "aravẽ",
+              qu: "inti",
+              wo: "ñakku",
+              ha: "ranar",
+              yo: "ọjọ́ òjò"
             },
             examples: [
               {
-                t: 'È soleggiato oggi. Perfetto per uscire!'
+                t: "È soleggiato oggi. Perfetto per uscire!"
               }
             ]
           },
           {
-            id: 'it_a1_g2_12',
-            word: 'Nuvoloso',
-            emoji: '☁️',
+            id: "it_a1_g2_12",
+            word: "Nuvoloso",
+            emoji: "☁️",
             translations: {
-              es: 'nublado',
-              en: 'cloudy',
-              fr: 'nuageux',
-              it: 'nuvoloso',
-              pt: 'nublado'
+              es: "nublado",
+              en: "cloudy",
+              fr: "nuageux",
+              it: "nuvoloso",
+              pt: "nublado",
+              de: "bewölkt",
+              ko: "구름 낀",
+              ja: "曇った",
+              ru: "облачно",
+              ar: "غائم",
+              zh: "多云",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'È molto nuvoloso. Credo che pioverà.'
+                t: "È molto nuvoloso. Credo che pioverà."
               }
             ]
           },
           {
-            id: 'it_a1_g2_13',
-            word: 'Piove',
-            emoji: '🌧️',
+            id: "it_a1_g2_13",
+            word: "Piove",
+            emoji: "🌧️",
             translations: {
-              es: 'está lloviendo',
+              es: "está lloviendo",
               en: "it's raining",
-              fr: 'il pleut',
-              it: 'piove',
-              pt: 'está chovendo'
+              fr: "il pleut",
+              it: "piove",
+              pt: "está chovendo",
+              de: "regnerisch",
+              ko: "비 오는",
+              ja: "雨の",
+              ru: "дождливый",
+              ar: "ممطر",
+              zh: "多雨",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
@@ -5098,204 +6834,303 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'it_a1_g2_14',
-            word: 'Fa freddo / caldo',
-            emoji: '🌡️',
+            id: "it_a1_g2_14",
+            word: "Fa freddo / caldo",
+            emoji: "🌡️",
             translations: {
-              es: 'hace frío/calor',
+              es: "hace frío/calor",
               en: "it's cold/hot",
-              fr: 'il fait froid/chaud',
-              it: 'fa freddo/caldo',
-              pt: 'está frio/calor'
+              fr: "il fait froid/chaud",
+              it: "fa freddo/caldo",
+              pt: "está frio/calor",
+              de: "es ist kalt/warm",
+              ko: "추워요/더워요",
+              ja: "寒い/暑い",
+              ru: "холодно/тепло",
+              ar: "بارد/حار",
+              zh: "冷/热",
+              gn: "tembi'u/tembi'u",
+              qu: "q'asa/q'asa",
+              wo: "ñakk/ñakk",
+              ha: "yankin jini/yankin jini",
+              yo: "ìtàn/ìtàn"
             },
             examples: [
               {
-                t: 'Che freddo! Hai un cappotto?'
+                t: "Che freddo! Hai un cappotto?"
               }
             ]
           },
           {
-            id: 'it_a1_g2_D01',
-            type: 'dialogue',
-            context: 'Incontrandosi per strada',
+            id: "it_a1_g2_D01",
+            type: "dialogue",
+            context: "Incontrandosi per strada",
             dialogue: [
               {
-                speaker: 'Luigi',
-                line: 'Ciao! Che tempo fa oggi?'
+                speaker: "Luigi",
+                line: "Ciao! Che tempo fa oggi?"
               },
               {
-                speaker: 'Clara',
-                line: 'Fa molto freddo ed è nuvoloso.'
+                speaker: "Clara",
+                line: "Fa molto freddo ed è nuvoloso."
               },
               {
-                speaker: 'Luigi',
-                line: 'Sì, ho molto freddo. E tu?'
+                speaker: "Luigi",
+                line: "Sì, ho molto freddo. E tu?"
               },
               {
-                speaker: 'Clara',
+                speaker: "Clara",
                 line: "Anch'io! Ho bisogno di un caffè caldo."
               },
               {
-                speaker: 'Luigi',
-                line: 'Buona idea! Andiamo al bar?'
+                speaker: "Luigi",
+                line: "Buona idea! Andiamo al bar?"
               }
             ],
-            note: 'Parlare del tempo e delle sensazioni.',
+            note: "Parlare del tempo e delle sensazioni.",
             translations: {
-              es: 'Hablar del tiempo',
-              en: 'Talking about weather',
-              fr: 'Parler de la météo',
-              it: 'Parlare del tempo',
-              pt: 'Falar do tempo'
+              es: "Hablar del tiempo",
+              en: "Talking about weather",
+              fr: "Parler de la météo",
+              it: "Parlare del tempo",
+              pt: "Falar do tempo",
+              de: "Über das Wetter sprechen",
+              ko: "날씨에 대해 이야기하다",
+              ja: "天気について話す",
+              ru: "говорить о погоде",
+              ar: "التحدث عن الطقس",
+              zh: "谈论天气",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay q'asa",
+              wo: "waxtu ñakk",
+              ha: "magana game da yankin jini",
+              yo: "sọ̀rọ̀ nípa ìtàn"
             }
           },
           {
-            id: 'it_a1_g2_D02',
-            type: 'dialogue',
-            context: 'Prima di mangiare insieme',
+            id: "it_a1_g2_D02",
+            type: "dialogue",
+            context: "Prima di mangiare insieme",
             dialogue: [
               {
-                speaker: 'Marta',
-                line: 'Hai fame? Sono le due.'
+                speaker: "Marta",
+                line: "Hai fame? Sono le due."
               },
               {
-                speaker: 'Paolo',
+                speaker: "Paolo",
                 line: "Sì, ho molta fame. Cosa c'è da mangiare?"
               },
               {
-                speaker: 'Marta',
+                speaker: "Marta",
                 line: "C'è pasta e insalata. Ne vuoi?"
               },
               {
-                speaker: 'Paolo',
-                line: 'Perfetto! E ho anche molta sete.'
+                speaker: "Paolo",
+                line: "Perfetto! E ho anche molta sete."
               },
               {
-                speaker: 'Marta',
+                speaker: "Marta",
                 line: "C'è acqua e succo d'arancia."
               },
               {
-                speaker: 'Paolo',
-                line: 'Benissimo, grazie.'
+                speaker: "Paolo",
+                line: "Benissimo, grazie."
               }
             ],
-            note: 'Esprimere fame, sete e bisogni.',
+            note: "Esprimere fame, sete e bisogni.",
             translations: {
-              es: 'Hablar de comida',
-              en: 'Talking about food',
-              fr: 'Parler de nourriture',
-              it: 'Parlare di cibo',
-              pt: 'Falar de comida'
+              es: "Hablar de comida",
+              en: "Talking about food",
+              fr: "Parler de nourriture",
+              it: "Parlare di cibo",
+              pt: "Falar de comida",
+              de: "Über Essen sprechen",
+              ko: "음식에 대해 이야기하다",
+              ja: "食べ物について話す",
+              ru: "говорить о еде",
+              ar: "التحدث عن الطعام",
+              zh: "谈论食物",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay mik'i",
+              wo: "waxtu yëngu",
+              ha: "magana game da abinci",
+              yo: "sọ̀rọ̀ nípa ẹ̀wọ̀n"
             }
           }
         ]
       },
       {
-        id: 'it_a1_g3',
-        name: 'Domande e numeri',
-        icon: '❓',
-        color: '#10b981',
-        description: 'Parole interrogative + numeri da 1 a 8',
+        id: "it_a1_g3",
+        name: "Domande e numeri",
+        icon: "❓",
+        color: "#10b981",
+        description: "Parole interrogative + numeri da 1 a 8",
         reviewFrom: [
           "it_a1_g1",
           "it_a1_g2"
         ],
         cards: [
           {
-            id: 'it_a1_g3_01',
-            word: 'Cosa? / Che cosa?',
-            emoji: '🔍',
+            id: "it_a1_g3_01",
+            word: "Cosa? / Che cosa?",
+            emoji: "🔍",
             translations: {
-              es: '¿qué?',
-              en: 'what?',
-              fr: 'quoi?',
-              it: 'cosa?',
-              pt: 'o quê?'
+              es: "¿qué?",
+              en: "what?",
+              fr: "quoi?",
+              it: "cosa?",
+              pt: "o quê?",
+              de: "Was?",
+              ko: "뭐?",
+              ja: "何？",
+              ru: "что?",
+              ar: "ماذا؟",
+              zh: "什么？",
+              gn: "mba'épa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kí ni?"
             },
             examples: [
               {
-                t: 'Cosa vuoi bere?'
+                t: "Cosa vuoi bere?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_02',
-            word: 'Chi?',
-            emoji: '🧑',
+            id: "it_a1_g3_02",
+            word: "Chi?",
+            emoji: "🧑",
             translations: {
-              es: '¿quién?',
-              en: 'who?',
-              fr: 'qui?',
-              it: 'chi?',
-              pt: 'quem?'
+              es: "¿quién?",
+              en: "who?",
+              fr: "qui?",
+              it: "chi?",
+              pt: "quem?",
+              de: "Wer?",
+              ko: "누구?",
+              ja: "誰？",
+              ru: "кто?",
+              ar: "من؟",
+              zh: "谁？",
+              gn: "nde?",
+              qu: "pipataq?",
+              wo: "këmbu?",
+              ha: "wane?",
+              yo: "ta ni?"
             },
             examples: [
               {
-                t: 'Chi è quella persona?'
+                t: "Chi è quella persona?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_03',
-            word: 'Dove?',
-            emoji: '📍',
+            id: "it_a1_g3_03",
+            word: "Dove?",
+            emoji: "📍",
             translations: {
-              es: '¿dónde?',
-              en: 'where?',
-              fr: 'où?',
-              it: 'dove?',
-              pt: 'onde?'
+              es: "¿dónde?",
+              en: "where?",
+              fr: "où?",
+              it: "dove?",
+              pt: "onde?",
+              de: "Wo?",
+              ko: "어디?",
+              ja: "どこ？",
+              ru: "где?",
+              ar: "أين؟",
+              zh: "哪里？",
+              gn: "moõpa?",
+              qu: "maymanta?",
+              wo: "ne fa?",
+              ha: "in?",
+              yo: "níbí ni?"
             },
             examples: [
               {
-                t: 'Dove sono i bagni?'
+                t: "Dove sono i bagni?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_04',
-            word: 'Quando?',
-            emoji: '📅',
+            id: "it_a1_g3_04",
+            word: "Quando?",
+            emoji: "📅",
             translations: {
-              es: '¿cuándo?',
-              en: 'when?',
-              fr: 'quand?',
-              it: 'quando?',
-              pt: 'quando?'
+              es: "¿cuándo?",
+              en: "when?",
+              fr: "quand?",
+              it: "quando?",
+              pt: "quando?",
+              de: "Wann?",
+              ko: "언제?",
+              ja: "いつ？",
+              ru: "когда?",
+              ar: "متى؟",
+              zh: "什么时候？",
+              gn: "upeicha'ã?",
+              qu: "mayqapataq?",
+              wo: "neegi?",
+              ha: "in?",
+              yo: "nìwájú ni?"
             },
             examples: [
               {
-                t: 'Quando arrivi?'
+                t: "Quando arrivi?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_05',
-            word: 'Perché?',
-            emoji: '💭',
+            id: "it_a1_g3_05",
+            word: "Perché?",
+            emoji: "💭",
             translations: {
-              es: '¿por qué?',
-              en: 'why?',
-              fr: 'pourquoi?',
-              it: 'perché?',
-              pt: 'por quê?'
+              es: "¿por qué?",
+              en: "why?",
+              fr: "pourquoi?",
+              it: "perché?",
+              pt: "por quê?",
+              de: "Warum?",
+              ko: "왜?",
+              ja: "なぜ？",
+              ru: "почему?",
+              ar: "لماذا؟",
+              zh: "为什么？",
+              gn: "mba'érepa?",
+              qu: "imaynam?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kíní?"
             },
             examples: [
               {
-                t: 'Perché sei stanco?'
+                t: "Perché sei stanco?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_06',
-            word: 'Come?',
-            emoji: '🤔',
+            id: "it_a1_g3_06",
+            word: "Come?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo?',
-              en: 'how?',
-              fr: 'comment?',
-              it: 'come?',
-              pt: 'como?'
+              es: "¿cómo?",
+              en: "how?",
+              fr: "comment?",
+              it: "come?",
+              pt: "como?",
+              de: "Wie?",
+              ko: "어떻게?",
+              ja: "どう？",
+              ru: "как?",
+              ar: "كيف؟",
+              zh: "怎么？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "báwo ni?"
             },
             examples: [
               {
@@ -5304,66 +7139,110 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'it_a1_g3_07',
-            word: 'Quanto?',
-            emoji: '💰',
+            id: "it_a1_g3_07",
+            word: "Quanto?",
+            emoji: "💰",
             translations: {
-              es: '¿cuánto?',
-              en: 'how much?',
-              fr: 'combien?',
-              it: 'quanto?',
-              pt: 'quanto?'
+              es: "¿cuánto?",
+              en: "how much?",
+              fr: "combien?",
+              it: "quanto?",
+              pt: "quanto?",
+              de: "Wie viel?",
+              ko: "얼마나?",
+              ja: "どのくらい？",
+              ru: "сколько?",
+              ar: "كم؟",
+              zh: "多少？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "ẹ̀sán ni?"
             },
             examples: [
               {
-                t: 'Quanto costa questo caffè?'
+                t: "Quanto costa questo caffè?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_08',
-            word: 'Quanti?',
-            emoji: '🔢',
+            id: "it_a1_g3_08",
+            word: "Quanti?",
+            emoji: "🔢",
             translations: {
-              es: '¿cuántos?',
-              en: 'how many?',
-              fr: 'combien de?',
-              it: 'quanti?',
-              pt: 'quantos?'
+              es: "¿cuántos?",
+              en: "how many?",
+              fr: "combien de?",
+              it: "quanti?",
+              pt: "quantos?",
+              de: "Wie viele?",
+              ko: "몇 개?",
+              ja: "いくつ？",
+              ru: "Сколько?",
+              ar: "كم عدد؟",
+              zh: "多少？",
+              gn: "Mba'éichapa?",
+              qu: "Mayqan?",
+              wo: "Ñu benn?",
+              ha: "Wanda yaya?",
+              yo: "Eṣe ni?"
             },
             examples: [
               {
-                t: 'Quanti siete al tavolo?'
+                t: "Quanti siete al tavolo?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_09',
-            word: 'uno/una',
-            emoji: '1️⃣',
+            id: "it_a1_g3_09",
+            word: "uno/una",
+            emoji: "1️⃣",
             translations: {
-              es: 'uno/una',
-              en: 'one',
-              fr: 'un/une',
-              it: 'uno/una',
-              pt: 'um/uma'
+              es: "uno/una",
+              en: "one",
+              fr: "un/une",
+              it: "uno/una",
+              pt: "um/uma",
+              de: "eins",
+              ko: "하나",
+              ja: "一つ",
+              ru: "один",
+              ar: "واحد",
+              zh: "一",
+              gn: "Peteĩ",
+              qu: "Huk",
+              wo: "Benn",
+              ha: "ɗaya",
+              yo: "okan"
             },
             examples: [
               {
-                t: 'Un tavolo per due, per favore.'
+                t: "Un tavolo per due, per favore."
               }
             ]
           },
           {
-            id: 'it_a1_g3_10',
-            word: 'due',
-            emoji: '2️⃣',
+            id: "it_a1_g3_10",
+            word: "due",
+            emoji: "2️⃣",
             translations: {
-              es: 'dos',
-              en: 'two',
-              fr: 'deux',
-              it: 'due',
-              pt: 'dois'
+              es: "dos",
+              en: "two",
+              fr: "deux",
+              it: "due",
+              pt: "dois",
+              de: "zwei",
+              ko: "둘",
+              ja: "二つ",
+              ru: "два",
+              ar: "اثنان",
+              zh: "二",
+              gn: "Mokõi",
+              qu: "Isqun",
+              wo: "Ñaar",
+              ha: "bii",
+              yo: "méjì"
             },
             examples: [
               {
@@ -5372,162 +7251,239 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'it_a1_g3_11',
-            word: 'tre',
-            emoji: '3️⃣',
+            id: "it_a1_g3_11",
+            word: "tre",
+            emoji: "3️⃣",
             translations: {
-              es: 'tres',
-              en: 'three',
-              fr: 'trois',
-              it: 'tre',
-              pt: 'três'
+              es: "tres",
+              en: "three",
+              fr: "trois",
+              it: "tre",
+              pt: "três",
+              de: "drei",
+              ko: "셋",
+              ja: "三つ",
+              ru: "три",
+              ar: "ثلاثة",
+              zh: "三",
+              gn: "Mombarete",
+              qu: "Kimsa",
+              wo: "Ñatt",
+              ha: "ukku",
+              yo: "mẹ́tà"
             },
             examples: [
               {
-                t: 'Un tavolo per tre, per favore.'
+                t: "Un tavolo per tre, per favore."
               }
             ]
           },
           {
-            id: 'it_a1_g3_12',
-            word: 'quattro',
-            emoji: '4️⃣',
+            id: "it_a1_g3_12",
+            word: "quattro",
+            emoji: "4️⃣",
             translations: {
-              es: 'cuatro',
-              en: 'four',
-              fr: 'quatre',
-              it: 'quattro',
-              pt: 'quatro'
+              es: "cuatro",
+              en: "four",
+              fr: "quatre",
+              it: "quattro",
+              pt: "quatro",
+              de: "vier",
+              ko: "넷",
+              ja: "四つ",
+              ru: "четыре",
+              ar: "أربعة",
+              zh: "四",
+              gn: "Irundú",
+              qu: "Tawqa",
+              wo: "Ñent",
+              ha: "huɗu",
+              yo: "ẹ̀rìn"
             },
             examples: [
               {
-                t: 'Siamo in quattro. Avete posto?'
+                t: "Siamo in quattro. Avete posto?"
               }
             ]
           },
           {
-            id: 'it_a1_g3_13',
-            word: 'cinque',
-            emoji: '5️⃣',
+            id: "it_a1_g3_13",
+            word: "cinque",
+            emoji: "5️⃣",
             translations: {
-              es: 'cinco',
-              en: 'five',
-              fr: 'cinq',
-              it: 'cinque',
-              pt: 'cinco'
+              es: "cinco",
+              en: "five",
+              fr: "cinq",
+              it: "cinque",
+              pt: "cinco",
+              de: "fünf",
+              ko: "다섯",
+              ja: "五つ",
+              ru: "пять",
+              ar: "خمسة",
+              zh: "五",
+              gn: "Po'i",
+              qu: "Pichqa",
+              wo: "Juróom",
+              ha: "biyyar",
+              yo: "áàrún"
             },
             examples: [
               {
-                t: 'Cinque caffè, per favore.'
+                t: "Cinque caffè, per favore."
               }
             ]
           },
           {
-            id: 'it_a1_g3_14',
-            word: 'sei',
-            emoji: '6️⃣',
+            id: "it_a1_g3_14",
+            word: "sei",
+            emoji: "6️⃣",
             translations: {
-              es: 'seis',
-              en: 'six',
-              fr: 'six',
-              it: 'sei',
-              pt: 'seis'
+              es: "seis",
+              en: "six",
+              fr: "six",
+              it: "sei",
+              pt: "seis",
+              de: "sechs",
+              ko: "여섯",
+              ja: "六つ",
+              ru: "шесть",
+              ar: "ستة",
+              zh: "六",
+              gn: "Po'ñandú",
+              qu: "Suqta",
+              wo: "Juróom-benn",
+              ha: "shida",
+              yo: "ẹ̀ẹ́dọ́gbọ̀n"
             },
             examples: [
               {
-                t: 'La riunione è alle sei.'
+                t: "La riunione è alle sei."
               }
             ]
           },
           {
-            id: 'it_a1_g3_15',
-            word: 'sette',
-            emoji: '7️⃣',
+            id: "it_a1_g3_15",
+            word: "sette",
+            emoji: "7️⃣",
             translations: {
-              es: 'siete',
-              en: 'seven',
-              fr: 'sept',
-              it: 'sette',
-              pt: 'sete'
+              es: "siete",
+              en: "seven",
+              fr: "sept",
+              it: "sette",
+              pt: "sete",
+              de: "sieben",
+              ko: "일곱",
+              ja: "七つ",
+              ru: "семь",
+              ar: "سبعة",
+              zh: "七",
+              gn: "Po'ñavúi",
+              qu: "Qanchis",
+              wo: "Juróom-ñaar",
+              ha: "sagwarka",
+              yo: "ẹ̀ẹ́dọ́gbáa"
             },
             examples: [
               {
-                t: 'Ci sono sette persone in classe.'
+                t: "Ci sono sette persone in classe."
               }
             ]
           },
           {
-            id: 'it_a1_g3_16',
-            word: 'otto',
-            emoji: '8️⃣',
+            id: "it_a1_g3_16",
+            word: "otto",
+            emoji: "8️⃣",
             translations: {
-              es: 'ocho',
-              en: 'eight',
-              fr: 'huit',
-              it: 'otto',
-              pt: 'oito'
+              es: "ocho",
+              en: "eight",
+              fr: "huit",
+              it: "otto",
+              pt: "oito",
+              de: "acht",
+              ko: "여덟",
+              ja: "八つ",
+              ru: "восемь",
+              ar: "ثمانية",
+              zh: "八",
+              gn: "Po'ñavui-peteĩ",
+              qu: "Pusaq",
+              wo: "Juróom-ñent",
+              ha: "takwas",
+              yo: "ẹ̀ẹ́dọ́gbáa-álẹ̀"
             },
             examples: [
               {
-                t: 'Sono le otto di mattina.'
+                t: "Sono le otto di mattina."
               }
             ]
           },
           {
-            id: 'it_a1_g3_D01',
-            type: 'dialogue',
-            context: 'Al ristorante',
+            id: "it_a1_g3_D01",
+            type: "dialogue",
+            context: "Al ristorante",
             dialogue: [
               {
-                speaker: 'Cameriere',
-                line: 'Buonasera! Quanti siete?'
+                speaker: "Cameriere",
+                line: "Buonasera! Quanti siete?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Siamo in tre. Avete un tavolo?'
+                speaker: "Cliente",
+                line: "Siamo in tre. Avete un tavolo?"
               },
               {
-                speaker: 'Cameriere',
-                line: 'Sì, certo. Avete una prenotazione?'
+                speaker: "Cameriere",
+                line: "Sì, certo. Avete una prenotazione?"
               },
               {
-                speaker: 'Cliente',
-                line: 'No, non abbiamo prenotato.'
+                speaker: "Cliente",
+                line: "No, non abbiamo prenotato."
               },
               {
-                speaker: 'Cameriere',
-                line: 'Nessun problema. Da questa parte, prego.'
+                speaker: "Cameriere",
+                line: "Nessun problema. Da questa parte, prego."
               },
               {
-                speaker: 'Cliente',
-                line: 'Grazie. Quanto si aspetta?'
+                speaker: "Cliente",
+                line: "Grazie. Quanto si aspetta?"
               },
               {
-                speaker: 'Cameriere',
-                line: 'Solo cinque minuti. Volete bere qualcosa?'
+                speaker: "Cameriere",
+                line: "Solo cinque minuti. Volete bere qualcosa?"
               },
               {
-                speaker: 'Cliente',
+                speaker: "Cliente",
                 line: "Sì, due acque e un succo d'arancia."
               }
             ],
-            note: 'Chiedere la quantità, ordinare al ristorante.',
+            note: "Chiedere la quantità, ordinare al ristorante.",
             translations: {
-              es: 'En el restaurante',
-              en: 'At the restaurant',
-              fr: 'Au restaurant',
-              it: 'Al ristorante',
-              pt: 'No restaurante'
+              es: "En el restaurante",
+              en: "At the restaurant",
+              fr: "Au restaurant",
+              it: "Al ristorante",
+              pt: "No restaurante",
+              de: "Im Restaurant",
+              ko: "레스토랑에서",
+              ja: "レストランで",
+              ru: "В ресторане",
+              ar: "في المطعم",
+              zh: "在餐厅",
+              gn: "Ha'e ha'e'õme'ẽre",
+              qu: "Hatun wasi pi",
+              wo: "Ci reestorañ",
+              ha: "A cikin makarantar",
+              yo: "Ní ilé iṣẹ́ ẹ̀dẹ́"
             }
           }
         ]
       },
       {
-        id: 'it_a1_g4',
-        name: 'Verbi essenziali',
-        icon: '⚡',
-        color: '#ef4444',
-        description: 'I verbi più usati — presente + passato',
+        id: "it_a1_g4",
+        name: "Verbi essenziali",
+        icon: "⚡",
+        color: "#ef4444",
+        description: "I verbi più usati — presente + passato",
         reviewFrom: [
           "it_a1_g1",
           "it_a1_g2",
@@ -5535,267 +7491,421 @@ const FLASHCARD_A1 = {
         ],
         cards: [
           {
-            id: 'it_a1_g4_01',
-            word: 'sono / sei / è',
-            emoji: '🌟',
+            id: "it_a1_g4_01",
+            word: "sono / sei / è",
+            emoji: "🌟",
             translations: {
-              es: 'ser/estar: soy/eres/es',
-              en: 'to be',
-              fr: 'être: je suis/tu es/il est',
-              it: 'essere: sono/sei/è',
-              pt: 'ser: sou/és/é'
+              es: "ser/estar: soy/eres/es",
+              en: "to be",
+              fr: "être: je suis/tu es/il est",
+              it: "essere: sono/sei/è",
+              pt: "ser: sou/és/é",
+              de: "sein",
+              ko: "이다",
+              ja: "である",
+              ru: "быть",
+              ar: "يكون",
+              zh: "是",
+              gn: "Ko",
+              qu: "Kana",
+              wo: "Mooy",
+              ha: "yake",
+              yo: "jẹ"
             },
             examples: [
               {
-                t: 'Sono studente. Tu sei il mio amico.'
+                t: "Sono studente. Tu sei il mio amico."
               }
             ]
           },
           {
-            id: 'it_a1_g4_02',
-            word: 'ho / hai / ha',
-            emoji: '✋',
+            id: "it_a1_g4_02",
+            word: "ho / hai / ha",
+            emoji: "✋",
             translations: {
-              es: 'tener: tengo/tienes/tiene',
-              en: 'to have',
+              es: "tener: tengo/tienes/tiene",
+              en: "to have",
               fr: "avoir: j'ai/tu as/il a",
-              it: 'avere: ho/hai/ha',
-              pt: 'ter: tenho/tens/tem'
+              it: "avere: ho/hai/ha",
+              pt: "ter: tenho/tens/tem",
+              de: "sein",
+              ko: "있다",
+              ja: "ある",
+              ru: "находиться",
+              ar: "يكون",
+              zh: "在",
+              gn: "Iko",
+              qu: "Kachkan",
+              wo: "Jëm",
+              ha: "yana",
+              yo: "wà"
             },
             examples: [
               {
-                t: 'Ho una domanda. Hai tempo?'
+                t: "Ho una domanda. Hai tempo?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_03',
-            word: 'voglio / vuoi',
-            emoji: '❤️',
+            id: "it_a1_g4_03",
+            word: "voglio / vuoi",
+            emoji: "❤️",
             translations: {
-              es: 'querer: quiero/quieres',
-              en: 'to want',
-              fr: 'vouloir: je veux/tu veux',
-              it: 'volere: voglio/vuoi',
-              pt: 'querer: quero/queres'
+              es: "querer: quiero/quieres",
+              en: "to want",
+              fr: "vouloir: je veux/tu veux",
+              it: "volere: voglio/vuoi",
+              pt: "querer: quero/queres",
+              de: "haben",
+              ko: "가지다",
+              ja: "持つ",
+              ru: "иметь",
+              ar: "يملك",
+              zh: "有",
+              gn: "Ñande",
+              qu: "Kan",
+              wo: "Ñaan",
+              ha: "yana",
+              yo: "ní"
             },
             examples: [
               {
-                t: 'Voglio un caffè. Cosa vuoi tu?'
+                t: "Voglio un caffè. Cosa vuoi tu?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_04',
-            word: 'vado / vai / va',
-            emoji: '🚶',
+            id: "it_a1_g4_04",
+            word: "vado / vai / va",
+            emoji: "🚶",
             translations: {
-              es: 'ir: voy/vas/va',
-              en: 'to go',
-              fr: 'aller: je vais/tu vas/il va',
-              it: 'andare: vado/vai/va',
-              pt: 'ir: vou/vais/vai'
+              es: "ir: voy/vas/va",
+              en: "to go",
+              fr: "aller: je vais/tu vas/il va",
+              it: "andare: vado/vai/va",
+              pt: "ir: vou/vais/vai",
+              de: "wollen",
+              ko: "원하다",
+              ja: "欲する",
+              ru: "хотеть",
+              ar: "يريد",
+              zh: "想要",
+              gn: "Jahecha",
+              qu: "Munay",
+              wo: "Baat",
+              ha: "so",
+              yo: "fẹ"
             },
             examples: [
               {
-                t: 'Vado al lavoro. Tu vai in palestra?'
+                t: "Vado al lavoro. Tu vai in palestra?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_05',
-            word: 'parlo / parli / parla',
-            emoji: '🗣️',
+            id: "it_a1_g4_05",
+            word: "parlo / parli / parla",
+            emoji: "🗣️",
             translations: {
-              es: 'hablar: hablo/hablas/habla',
-              en: 'to speak',
-              fr: 'parler: je parle/tu parles/il parle',
-              it: 'parlare: parlo/parli/parla',
-              pt: 'falar: falo/falas/fala'
+              es: "hablar: hablo/hablas/habla",
+              en: "to speak",
+              fr: "parler: je parle/tu parles/il parle",
+              it: "parlare: parlo/parli/parla",
+              pt: "falar: falo/falas/fala",
+              de: "gehen",
+              ko: "가다",
+              ja: "行く",
+              ru: "идти",
+              ar: "يذهب",
+              zh: "去",
+              gn: "Jajái",
+              qu: "Riy",
+              wo: "Dem",
+              ha: "ya",
+              yo: "lọ"
             },
             examples: [
               {
-                t: 'Parlo italiano. Parli inglese?'
+                t: "Parlo italiano. Parli inglese?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_06',
-            word: 'mangio / mangi',
-            emoji: '🍽️',
+            id: "it_a1_g4_06",
+            word: "mangio / mangi",
+            emoji: "🍽️",
             translations: {
-              es: 'comer: como/comes',
-              en: 'to eat',
-              fr: 'manger: je mange/tu manges',
-              it: 'mangiare: mangio/mangi',
-              pt: 'comer: como/comes'
+              es: "comer: como/comes",
+              en: "to eat",
+              fr: "manger: je mange/tu manges",
+              it: "mangiare: mangio/mangi",
+              pt: "comer: como/comes",
+              de: "sprechen",
+              ko: "말하다",
+              ja: "話す",
+              ru: "говорить",
+              ar: "يتحدث",
+              zh: "说话",
+              gn: "Ñe'ẽ",
+              qu: "Rimay",
+              wo: "Waxtaan",
+              ha: "yaya",
+              yo: "sọ"
             },
             examples: [
               {
-                t: 'Mangio pasta ogni giorno.'
+                t: "Mangio pasta ogni giorno."
               }
             ]
           },
           {
-            id: 'it_a1_g4_07',
-            word: 'bevo / bevi',
-            emoji: '🥤',
+            id: "it_a1_g4_07",
+            word: "bevo / bevi",
+            emoji: "🥤",
             translations: {
-              es: 'beber: bebo/bebes',
-              en: 'to drink',
-              fr: 'boire: je bois/tu bois',
-              it: 'bere: bevo/bevi',
-              pt: 'beber: bebo/bebes'
+              es: "beber: bebo/bebes",
+              en: "to drink",
+              fr: "boire: je bois/tu bois",
+              it: "bere: bevo/bevi",
+              pt: "beber: bebo/bebes",
+              de: "essen",
+              ko: "먹다",
+              ja: "食べる",
+              ru: "есть",
+              ar: "يأكل",
+              zh: "吃",
+              gn: "Mba'e",
+              qu: "Mikuy",
+              wo: "Ñaan",
+              ha: "ciya",
+              yo: "jẹun"
             },
             examples: [
               {
-                t: 'Bevo caffè la mattina.'
+                t: "Bevo caffè la mattina."
               }
             ]
           },
           {
-            id: 'it_a1_g4_08',
-            word: 'vivo / vivi',
-            emoji: '🏠',
+            id: "it_a1_g4_08",
+            word: "vivo / vivi",
+            emoji: "🏠",
             translations: {
-              es: 'vivir: vivo/vives',
-              en: 'to live',
+              es: "vivir: vivo/vives",
+              en: "to live",
               fr: "habiter: j'habite/tu habites",
-              it: 'vivere: vivo/vivi',
-              pt: 'viver: vivo/vives'
+              it: "vivere: vivo/vivi",
+              pt: "viver: vivo/vives",
+              de: "trinken",
+              ko: "마시다",
+              ja: "飲む",
+              ru: "пить",
+              ar: "يشرب",
+              zh: "喝",
+              gn: "Tereré",
+              qu: "Uqhay",
+              wo: "Jëm",
+              ha: "nuna",
+              yo: "mu"
             },
             examples: [
               {
-                t: 'Vivo a Roma. Dove vivi tu?'
+                t: "Vivo a Roma. Dove vivi tu?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_09',
-            word: 'posso / puoi',
-            emoji: '💪',
+            id: "it_a1_g4_09",
+            word: "posso / puoi",
+            emoji: "💪",
             translations: {
-              es: 'poder: puedo/puedes',
-              en: 'can',
-              fr: 'pouvoir: je peux/tu peux',
-              it: 'potere: posso/puoi',
-              pt: 'poder: posso/podes'
+              es: "poder: puedo/puedes",
+              en: "can",
+              fr: "pouvoir: je peux/tu peux",
+              it: "potere: posso/puoi",
+              pt: "poder: posso/podes",
+              de: "leben",
+              ko: "살다",
+              ja: "生きる",
+              ru: "жить",
+              ar: "يعيش",
+              zh: "生活",
+              gn: "Jopara",
+              qu: "Kawsay",
+              wo: "Am",
+              ha: "rai",
+              yo: "gba"
             },
             examples: [
               {
-                t: 'Puoi parlare più lentamente, per favore?'
+                t: "Puoi parlare più lentamente, per favore?"
               }
             ]
           },
           {
-            id: 'it_a1_g4_10',
-            word: 'mi piace / non mi piace',
-            emoji: '👍',
+            id: "it_a1_g4_10",
+            word: "mi piace / non mi piace",
+            emoji: "👍",
             translations: {
-              es: 'me gusta/no me gusta',
+              es: "me gusta/no me gusta",
               en: "I like/I don't like",
               fr: "j'aime/je n'aime pas",
-              it: 'mi piace/non mi piace',
-              pt: 'gosto/não gosto'
+              it: "mi piace/non mi piace",
+              pt: "gosto/não gosto",
+              de: "können",
+              ko: "할 수 있다",
+              ja: "できる",
+              ru: "мочь",
+              ar: "يستطيع",
+              zh: "能够",
+              gn: "Poro",
+              qu: "Atisqa",
+              wo: "Dinaa",
+              ha: "zaka iyi",
+              yo: "le"
             },
             examples: [
               {
-                t: 'Mi piace il caffè. Non mi piace il tè.'
+                t: "Mi piace il caffè. Non mi piace il tè."
               }
             ]
           },
           {
-            id: 'it_a1_g4_11',
-            word: 'sono andato/a',
-            emoji: '⏪',
+            id: "it_a1_g4_11",
+            word: "sono andato/a",
+            emoji: "⏪",
             translations: {
-              es: 'fui',
-              en: 'I went',
-              fr: 'je suis allé(e)',
-              it: 'sono andato/a',
-              pt: 'fui'
+              es: "fui",
+              en: "I went",
+              fr: "je suis allé(e)",
+              it: "sono andato/a",
+              pt: "fui",
+              de: "mögen",
+              ko: "좋아하다",
+              ja: "好き",
+              ru: "нравиться",
+              ar: "يعجب",
+              zh: "喜欢",
+              gn: "py’a",
+              qu: "kuyua",
+              wo: "bàgg",
+              ha: "so",
+              yo: "fẹ́"
             },
             examples: [
               {
-                t: 'Sono andato dal medico ieri.'
+                t: "Sono andato dal medico ieri."
               }
             ]
           },
           {
-            id: 'it_a1_g4_12',
-            word: 'ho lavorato / parlato',
-            emoji: '🔵',
+            id: "it_a1_g4_12",
+            word: "ho lavorato / parlato",
+            emoji: "🔵",
             translations: {
-              es: 'trabajé/hablé (regular)',
-              en: 'I worked/talked (regular)',
+              es: "trabajé/hablé (regular)",
+              en: "I worked/talked (regular)",
               fr: "j'ai travaillé/parlé",
-              it: 'ho lavorato/parlato (regolare)',
-              pt: 'trabalhei/falei'
+              it: "ho lavorato/parlato (regolare)",
+              pt: "trabalhei/falei",
+              de: "gehen - Vergangenheit",
+              ko: "가다 - 과거",
+              ja: "行く - 過去",
+              ru: "идти - прошедшее время",
+              ar: "يذهب - الماضي",
+              zh: "去 - 过去式",
+              gn: "joapy - árape oîhate",
+              qu: "rikuy - kuna",
+              wo: "dem - bëj guées",
+              ha: "ya - lokaci na baya",
+              yo: "lọ - asiko ti kọja"
             },
             examples: [
               {
-                t: 'Ho lavorato tutto il giorno.'
+                t: "Ho lavorato tutto il giorno."
               }
             ]
           },
           {
-            id: 'it_a1_g4_13',
-            word: 'ho avuto / visto / fatto',
-            emoji: '🔴',
+            id: "it_a1_g4_13",
+            word: "ho avuto / visto / fatto",
+            emoji: "🔴",
             translations: {
-              es: 'tuve/vi/hice (irregulares)',
-              en: 'I had/saw/did (irregular)',
+              es: "tuve/vi/hice (irregulares)",
+              en: "I had/saw/did (irregular)",
               fr: "j'ai eu/vu/fait",
-              it: 'ho avuto/visto/fatto (irregolare)',
-              pt: 'tive/vi/fiz'
+              it: "ho avuto/visto/fatto (irregolare)",
+              pt: "tive/vi/fiz",
+              de: "regelmäßige Vergangenheit -ar",
+              ko: "규칙적인 과거 -ar",
+              ja: "規則的な過去形 -ar",
+              ru: "регулярное прошедшее время -ar",
+              ar: "الماضي المنتظم -ar",
+              zh: "规则过去式 -ar",
+              gn: "árape oîhate pyahu -ar",
+              qu: "kuna llaki -ar",
+              wo: "bëj guées bu baax -ar",
+              ha: "lokaci na baya mai tsarki -ar",
+              yo: "asiko ti kọja patapata -ar"
             },
             examples: [
               {
-                t: 'Ho avuto un problema ieri. Ha visto un film.'
+                t: "Ho avuto un problema ieri. Ha visto un film."
               }
             ]
           },
           {
-            id: 'it_a1_g4_D01',
-            type: 'dialogue',
-            context: 'Raccontare cosa hai fatto ieri',
+            id: "it_a1_g4_D01",
+            type: "dialogue",
+            context: "Raccontare cosa hai fatto ieri",
             dialogue: [
               {
-                speaker: 'Valeria',
-                line: 'Cosa hai fatto ieri?'
+                speaker: "Valeria",
+                line: "Cosa hai fatto ieri?"
               },
               {
-                speaker: 'Tommaso',
-                line: 'Sono andato in palestra la mattina e poi ho pranzato con la mia famiglia.'
+                speaker: "Tommaso",
+                line: "Sono andato in palestra la mattina e poi ho pranzato con la mia famiglia."
               },
               {
-                speaker: 'Valeria',
-                line: 'Che bello! Dove avete mangiato?'
+                speaker: "Valeria",
+                line: "Che bello! Dove avete mangiato?"
               },
               {
-                speaker: 'Tommaso',
-                line: 'Siamo andati in un ristorante francese. E tu?'
+                speaker: "Tommaso",
+                line: "Siamo andati in un ristorante francese. E tu?"
               },
               {
-                speaker: 'Valeria',
-                line: 'Io sono rimasta a casa. Ho avuto molto lavoro.'
+                speaker: "Valeria",
+                line: "Io sono rimasta a casa. Ho avuto molto lavoro."
               },
               {
-                speaker: 'Tommaso',
+                speaker: "Tommaso",
                 line: "Hai potuto riposare un po'?"
               },
               {
-                speaker: 'Valeria',
+                speaker: "Valeria",
                 line: "Sì, un po'. Mi piace lavorare da casa."
               }
             ],
-            note: 'Verbi al passato prossimo: sono andato, ho mangiato, ho avuto.',
+            note: "Verbi al passato prossimo: sono andato, ho mangiato, ho avuto.",
             translations: {
-              es: 'Hablar del pasado',
-              en: 'Talking about the past',
-              fr: 'Parler du passé',
-              it: 'Parlare del passato',
-              pt: 'Falar do passado'
+              es: "Hablar del pasado",
+              en: "Talking about the past",
+              fr: "Parler du passé",
+              it: "Parlare del passato",
+              pt: "Falar do passado",
+              de: "Über die Vergangenheit sprechen",
+              ko: "과거에 대해 이야기하다",
+              ja: "過去について話す",
+              ru: "говорить о прошлом",
+              ar: "التحدث عن الماضي",
+              zh: "谈论过去",
+              gn: "Oñe’ẽ ha’eha’ẽmbyryete",
+              qu: "Kunanmanta rimay",
+              wo: "Waxtu bu am bëj guées",
+              ha: "Koya ba lokacin baya",
+              yo: "Gba èdè nípa bíi ajóṣe"
             }
           }
         ]
@@ -5803,773 +7913,1202 @@ const FLASHCARD_A1 = {
     ]
   },
   pt: {
-    level: 'A1',
-    levelName: 'Posso me apresentar',
+    level: "A1",
+    levelName: "Posso me apresentar",
     groups: [
       {
-        id: 'pt_a1_g1',
-        name: 'Cumprimentos',
-        icon: '👋',
-        color: '#6366f1',
-        description: 'Como cumprimentar, apresentar-se e despedir-se',
+        id: "pt_a1_g1",
+        name: "Cumprimentos",
+        icon: "👋",
+        color: "#6366f1",
+        description: "Como cumprimentar, apresentar-se e despedir-se",
         cards: [
           {
-            id: 'pt_a1_g1_01',
-            word: 'Olá / Oi',
-            emoji: '👋',
+            id: "pt_a1_g1_01",
+            word: "Olá / Oi",
+            emoji: "👋",
             translations: {
-              es: 'hola',
-              en: 'hello / hi',
-              fr: 'bonjour / salut',
-              it: 'ciao',
-              pt: 'olá / oi'
+              es: "hola",
+              en: "hello / hi",
+              fr: "bonjour / salut",
+              it: "ciao",
+              pt: "olá / oi",
+              de: "Hallo",
+              ko: "안녕하세요",
+              ja: "こんにちは",
+              ru: "привет",
+              ar: "مرحبا",
+              zh: "你好",
+              gn: "Mba'éichapa",
+              qu: "Rimaykullayki",
+              wo: "Salamalekum",
+              ha: "Sannu",
+              yo: "Ẹ n lẹ"
             },
             examples: [
               {
-                t: 'Olá! Como vai você?'
+                t: "Olá! Como vai você?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_02',
-            word: 'Tchau / Adeus',
-            emoji: '🙋',
+            id: "pt_a1_g1_02",
+            word: "Tchau / Adeus",
+            emoji: "🙋",
             translations: {
-              es: 'adiós',
-              en: 'goodbye',
-              fr: 'au revoir',
-              it: 'arrivederci',
-              pt: 'tchau / adeus'
+              es: "adiós",
+              en: "goodbye",
+              fr: "au revoir",
+              it: "arrivederci",
+              pt: "tchau / adeus",
+              de: "Tschüss",
+              ko: "안녕히 가세요",
+              ja: "さようなら",
+              ru: "пока",
+              ar: "وداعا",
+              zh: "再见",
+              gn: "Aguyjevete",
+              qu: "K'uychi",
+              wo: "Ba beneen",
+              ha: "Da ku gode",
+              yo: "O dàbọ̀"
             },
             examples: [
               {
-                t: 'Tchau! Até amanhã.'
+                t: "Tchau! Até amanhã."
               }
             ]
           },
           {
-            id: 'pt_a1_g1_03',
-            word: 'Bom dia / Boa tarde',
-            emoji: '🌅',
+            id: "pt_a1_g1_03",
+            word: "Bom dia / Boa tarde",
+            emoji: "🌅",
             translations: {
-              es: 'buenos días / buenas tardes',
-              en: 'good morning / good afternoon',
-              fr: 'bonjour / bon après-midi',
-              it: 'buongiorno / buon pomeriggio',
-              pt: 'bom dia / boa tarde'
+              es: "buenos días / buenas tardes",
+              en: "good morning / good afternoon",
+              fr: "bonjour / bon après-midi",
+              it: "buongiorno / buon pomeriggio",
+              pt: "bom dia / boa tarde",
+              de: "Guten Tag",
+              ko: "좋은 아침",
+              ja: "おはようございます",
+              ru: "доброе утро",
+              ar: "صباح الخير",
+              zh: "早上好",
+              gn: "Mba'éichapa ha'evéma",
+              qu: "Rimaykullayki punchaw",
+              wo: "Jàmm rekk",
+              ha: "Barka da yamma",
+              yo: "E kaaro"
             },
             examples: [
               {
-                t: 'Bom dia! Como você está hoje?'
+                t: "Bom dia! Como você está hoje?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_04',
-            word: 'Como você se chama?',
-            emoji: '🏷️',
+            id: "pt_a1_g1_04",
+            word: "Como você se chama?",
+            emoji: "🏷️",
             translations: {
-              es: '¿cómo te llamas?',
+              es: "¿cómo te llamas?",
               en: "what's your name?",
               fr: "comment tu t'appelles?",
-              it: 'come ti chiami?',
-              pt: 'como você se chama?'
+              it: "come ti chiami?",
+              pt: "como você se chama?",
+              de: "Guten Abend",
+              ko: "좋은 저녁",
+              ja: "こんばんは",
+              ru: "добрый вечер",
+              ar: "مساء الخير",
+              zh: "晚上好",
+              gn: "Mba'éichapa pyhare",
+              qu: "Rimaykullayki qhepa simi",
+              wo: "Jàmm alal",
+              ha: "Barka da dare",
+              yo: "E kaaro ale"
             },
             examples: [
               {
-                t: 'Como você se chama? — Me chamo João.'
+                t: "Como você se chama? — Me chamo João."
               }
             ]
           },
           {
-            id: 'pt_a1_g1_05',
-            word: 'Me chamo / Meu nome é',
-            emoji: '😊',
+            id: "pt_a1_g1_05",
+            word: "Me chamo / Meu nome é",
+            emoji: "😊",
             translations: {
-              es: 'me llamo',
-              en: 'my name is',
+              es: "me llamo",
+              en: "my name is",
               fr: "je m'appelle",
-              it: 'mi chiamo',
-              pt: 'me chamo / meu nome é'
+              it: "mi chiamo",
+              pt: "me chamo / meu nome é",
+              de: "Wie heißt du?",
+              ko: "네 이름이 뭐야?",
+              ja: "あなたの名前は何ですか？",
+              ru: "Как тебя зовут?",
+              ar: "ما اسمك؟",
+              zh: "你叫什么名字？",
+              gn: "Mba'éichapa reime?",
+              qu: "Imaynam kallankichu?",
+              wo: "Noo nga jëm?",
+              ha: "Menene sunanka?",
+              yo: "Kí ni orúkọ rẹ?"
             },
             examples: [
               {
-                t: 'Me chamo Ana. Prazer!'
+                t: "Me chamo Ana. Prazer!"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_06',
-            word: 'Como vai você?',
-            emoji: '🤔',
+            id: "pt_a1_g1_06",
+            word: "Como vai você?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo estás?',
-              en: 'how are you?',
-              fr: 'comment ça va?',
-              it: 'come stai?',
-              pt: 'como vai você?'
+              es: "¿cómo estás?",
+              en: "how are you?",
+              fr: "comment ça va?",
+              it: "come stai?",
+              pt: "como vai você?",
+              de: "Ich heiße",
+              ko: "제 이름은",
+              ja: "私の名前は",
+              ru: "Меня зовут",
+              ar: "اسمي",
+              zh: "我的名字是",
+              gn: "Che reime",
+              qu: "Niyqa kani",
+              wo: "Jëm laa",
+              ha: "Sunayni",
+              yo: "Orúkọ mi ni"
             },
             examples: [
               {
-                t: 'Como vai? — Muito bem, obrigado!'
+                t: "Como vai? — Muito bem, obrigado!"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_07',
-            word: 'Muito bem / Tudo bem',
-            emoji: '😄',
+            id: "pt_a1_g1_07",
+            word: "Muito bem / Tudo bem",
+            emoji: "😄",
             translations: {
-              es: 'muy bien / todo bien',
-              en: 'very well / all good',
-              fr: 'très bien / tout va bien',
-              it: 'molto bene / tutto bene',
-              pt: 'muito bem / tudo bem'
+              es: "muy bien / todo bien",
+              en: "very well / all good",
+              fr: "très bien / tout va bien",
+              it: "molto bene / tutto bene",
+              pt: "muito bem / tudo bem",
+              de: "Wie geht es dir?",
+              ko: "어떻게 지내세요?",
+              ja: "お元気ですか？",
+              ru: "Как дела?",
+              ar: "كيف حالك؟",
+              zh: "你好吗？",
+              gn: "Mba'éichapa reiko?",
+              qu: "Imaynallaq kashankichu?",
+              wo: "Naka nga jaay?",
+              ha: "Yaya kake?",
+              yo: "Báwo ni o se wa?"
             },
             examples: [
               {
-                t: 'Como vai? — Tudo bem, e você?'
+                t: "Como vai? — Tudo bem, e você?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_08',
-            word: 'Mais ou menos',
-            emoji: '🤷',
+            id: "pt_a1_g1_08",
+            word: "Mais ou menos",
+            emoji: "🤷",
             translations: {
-              es: 'más o menos',
-              en: 'so-so',
-              fr: 'comme ci comme ça',
-              it: 'così così',
-              pt: 'mais ou menos'
+              es: "más o menos",
+              en: "so-so",
+              fr: "comme ci comme ça",
+              it: "così così",
+              pt: "mais ou menos",
+              de: "Sehr gut",
+              ko: "매우 좋습니다",
+              ja: "とても良いです",
+              ru: "очень хорошо",
+              ar: "جيد جدا",
+              zh: "很好",
+              gn: "Mba'éichapa iporã",
+              qu: "Allinlla",
+              wo: "Buur guèpp",
+              ha: "Daya kamfani",
+              yo: "Dáradára"
             },
             examples: [
               {
-                t: 'Como vai? — Mais ou menos.'
+                t: "Como vai? — Mais ou menos."
               }
             ]
           },
           {
-            id: 'pt_a1_g1_09',
-            word: 'Prazer',
-            emoji: '🤝',
+            id: "pt_a1_g1_09",
+            word: "Prazer",
+            emoji: "🤝",
             translations: {
-              es: 'mucho gusto',
-              en: 'nice to meet you',
-              fr: 'enchanté',
-              it: 'piacere',
-              pt: 'prazer'
+              es: "mucho gusto",
+              en: "nice to meet you",
+              fr: "enchanté",
+              it: "piacere",
+              pt: "prazer",
+              de: "So lala",
+              ko: "그럭저럭",
+              ja: "まあまあ",
+              ru: "так себе",
+              ar: "على ما يرام",
+              zh: "还不错",
+              gn: "Mba'éichapa jepe",
+              qu: "Mana allinchu",
+              wo: "Mëdd mëdd",
+              ha: "Kwai kwai",
+              yo: "Kí í ṣe"
             },
             examples: [
               {
-                t: 'Esta é a Sofia. — Prazer, Sofia!'
+                t: "Esta é a Sofia. — Prazer, Sofia!"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_10',
-            word: 'Bem-vindo/a',
-            emoji: '🎉',
+            id: "pt_a1_g1_10",
+            word: "Bem-vindo/a",
+            emoji: "🎉",
             translations: {
-              es: 'bienvenido',
-              en: 'welcome',
-              fr: 'bienvenue',
-              it: 'benvenuto',
-              pt: 'bem-vindo/a'
+              es: "bienvenido",
+              en: "welcome",
+              fr: "bienvenue",
+              it: "benvenuto",
+              pt: "bem-vindo/a",
+              de: "Freut mich",
+              ko: "만나서 반갑습니다",
+              ja: "お会いできて嬉しいです",
+              ru: "рад встрече",
+              ar: "سعيد بلقائك",
+              zh: "很高兴见到你",
+              gn: "Aguyjevete",
+              qu: "Kuychi",
+              wo: "Mëngi lay baax",
+              ha: "Ina son ki",
+              yo: "Ẹ yìn mọ̀"
             },
             examples: [
               {
-                t: 'Bem-vindo à nossa cidade!'
+                t: "Bem-vindo à nossa cidade!"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_11',
-            word: 'De onde você é?',
-            emoji: '🌍',
+            id: "pt_a1_g1_11",
+            word: "De onde você é?",
+            emoji: "🌍",
             translations: {
-              es: '¿de dónde eres?',
-              en: 'where are you from?',
+              es: "¿de dónde eres?",
+              en: "where are you from?",
               fr: "tu viens d'où?",
-              it: 'di dove sei?',
-              pt: 'de onde você é?'
+              it: "di dove sei?",
+              pt: "de onde você é?",
+              de: "Willkommen",
+              ko: "환영합니다",
+              ja: "ようこそ",
+              ru: "добро пожаловать",
+              ar: "أهلا وسهلا",
+              zh: "欢迎",
+              gn: "Bienvenido",
+              qu: "Allin hamut'ana",
+              wo: "Jàmm jigeen",
+              ha: "Barka da zuwa",
+              yo: "Ẹ wà pèlẹ̀"
             },
             examples: [
               {
-                t: 'De onde você é? — Sou do Brasil.'
+                t: "De onde você é? — Sou do Brasil."
               }
             ]
           },
           {
-            id: 'pt_a1_g1_12',
-            word: 'Sou de',
-            emoji: '📍',
+            id: "pt_a1_g1_12",
+            word: "Sou de",
+            emoji: "📍",
             translations: {
-              es: 'soy de',
+              es: "soy de",
               en: "I'm from",
-              fr: 'je viens de',
-              it: 'sono di',
-              pt: 'sou de'
+              fr: "je viens de",
+              it: "sono di",
+              pt: "sou de",
+              de: "Woher kommst du?",
+              ko: "어디에서 오셨어요?",
+              ja: "どこから来ましたか？",
+              ru: "Откуда ты?",
+              ar: "من أين أنت؟",
+              zh: "你从哪里来？",
+              gn: "Mba'épa ichupe?",
+              qu: "Qhamanpi kashanchu?",
+              wo: "Dóo nga dégg?",
+              ha: "Ina ka zo?",
+              yo: "Níbo ni o wá?"
             },
             examples: [
               {
-                t: 'Sou de São Paulo. E você?'
+                t: "Sou de São Paulo. E você?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_13',
-            word: 'Desculpe / Com licença',
-            emoji: '🙏',
+            id: "pt_a1_g1_13",
+            word: "Desculpe / Com licença",
+            emoji: "🙏",
             translations: {
-              es: 'perdón',
-              en: 'sorry / excuse me',
-              fr: 'pardon / excusez-moi',
-              it: 'scusa / mi scusi',
-              pt: 'desculpe / com licença'
+              es: "perdón",
+              en: "sorry / excuse me",
+              fr: "pardon / excusez-moi",
+              it: "scusa / mi scusi",
+              pt: "desculpe / com licença",
+              de: "Ich komme aus",
+              ko: "저는 ...에서 왔습니다",
+              ja: "私は...から来ました",
+              ru: "Я из",
+              ar: "أنا من",
+              zh: "我来自",
+              gn: "Che ha'e ...-pe",
+              qu: "Niyqa ...-manta",
+              wo: "Maa nga jóge ...",
+              ha: "Ina na zo ...",
+              yo: "Mo wa ni ..."
             },
             examples: [
               {
-                t: 'Desculpe, pode repetir mais devagar?'
+                t: "Desculpe, pode repetir mais devagar?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_14',
-            word: 'Não entendo',
-            emoji: '❓',
+            id: "pt_a1_g1_14",
+            word: "Não entendo",
+            emoji: "❓",
             translations: {
-              es: 'no entiendo',
+              es: "no entiendo",
               en: "I don't understand",
-              fr: 'je ne comprends pas',
-              it: 'non capisco',
-              pt: 'não entendo'
+              fr: "je ne comprends pas",
+              it: "non capisco",
+              pt: "não entendo",
+              de: "Entschuldigung",
+              ko: "미안합니다",
+              ja: "すみません",
+              ru: "извините",
+              ar: "عذرًا",
+              zh: "对不起",
+              gn: "Perdón",
+              qu: "Pakarikuy",
+              wo: "Maaf",
+              ha: "Goma",
+              yo: "E ma binu"
             },
             examples: [
               {
-                t: 'Desculpe, não entendo. Pode falar mais devagar?'
+                t: "Desculpe, não entendo. Pode falar mais devagar?"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_15',
-            word: 'Por favor / Obrigado',
-            emoji: '🙏',
+            id: "pt_a1_g1_15",
+            word: "Por favor / Obrigado",
+            emoji: "🙏",
             translations: {
-              es: 'por favor / gracias',
-              en: 'please / thank you',
+              es: "por favor / gracias",
+              en: "please / thank you",
               fr: "s'il vous plaît / merci",
-              it: 'per favore / grazie',
-              pt: 'por favor / obrigado'
+              it: "per favore / grazie",
+              pt: "por favor / obrigado",
+              de: "Ich verstehe nicht",
+              ko: "이해하지 못하겠어요",
+              ja: "わかりません",
+              ru: "Я не понимаю",
+              ar: "لا أفهم",
+              zh: "我不懂",
+              gn: "Ndaikuaa'ỹrei",
+              qu: "Manam entiendinchu",
+              wo: "Ma nga xamoon naa",
+              ha: "Babu kaina",
+              yo: "Mo ti mo gbọ́"
             },
             examples: [
               {
-                t: 'Um café, por favor. — Aqui. — Obrigado!'
+                t: "Um café, por favor. — Aqui. — Obrigado!"
               }
             ]
           },
           {
-            id: 'pt_a1_g1_D01',
-            type: 'dialogue',
-            context: 'Duas pessoas se conhecem em uma festa',
+            id: "pt_a1_g1_D01",
+            type: "dialogue",
+            context: "Duas pessoas se conhecem em uma festa",
             dialogue: [
               {
-                speaker: 'Sofia',
-                line: 'Oi! Você é o Julião, certo?'
+                speaker: "Sofia",
+                line: "Oi! Você é o Julião, certo?"
               },
               {
-                speaker: 'Julião',
-                line: 'Sim! E você, como se chama?'
+                speaker: "Julião",
+                line: "Sim! E você, como se chama?"
               },
               {
-                speaker: 'Sofia',
-                line: 'Me chamo Sofia. Prazer!'
+                speaker: "Sofia",
+                line: "Me chamo Sofia. Prazer!"
               },
               {
-                speaker: 'Julião',
-                line: 'Prazer, Sofia. De onde você é?'
+                speaker: "Julião",
+                line: "Prazer, Sofia. De onde você é?"
               },
               {
-                speaker: 'Sofia',
-                line: 'Sou de Buenos Aires. E você?'
+                speaker: "Sofia",
+                line: "Sou de Buenos Aires. E você?"
               },
               {
-                speaker: 'Julião',
-                line: 'Eu sou de Lisboa. Bem-vinda!'
+                speaker: "Julião",
+                line: "Eu sou de Lisboa. Bem-vinda!"
               }
             ],
-            note: 'Apresentar-se e perguntar a origem.',
+            note: "Apresentar-se e perguntar a origem.",
             translations: {
-              es: 'Presentarse',
-              en: 'Introducing yourself',
-              fr: 'Se présenter',
-              it: 'Presentarsi',
-              pt: 'Apresentar-se'
+              es: "Presentarse",
+              en: "Introducing yourself",
+              fr: "Se présenter",
+              it: "Presentarsi",
+              pt: "Apresentar-se",
+              de: "Sich vorstellen",
+              ko: "자기소개",
+              ja: "自己紹介",
+              ru: "представиться",
+              ar: "التعريف بالنفس",
+              zh: "自我介绍",
+              gn: "Ojepresenta",
+              qu: "Willana",
+              wo: "Wóor na taxaw",
+              ha: "Bayanin kanka",
+              yo: "Kí í ṣe àtẹ̀jáde"
             }
           },
           {
-            id: 'pt_a1_g1_D02',
-            type: 'dialogue',
-            context: 'Fim de uma conversa',
+            id: "pt_a1_g1_D02",
+            type: "dialogue",
+            context: "Fim de uma conversa",
             dialogue: [
               {
-                speaker: 'Ana',
-                line: 'Bom, preciso ir. Foi um prazer!'
+                speaker: "Ana",
+                line: "Bom, preciso ir. Foi um prazer!"
               },
               {
-                speaker: 'Pedro',
-                line: 'Igualmente. Até breve, Ana!'
+                speaker: "Pedro",
+                line: "Igualmente. Até breve, Ana!"
               },
               {
-                speaker: 'Ana',
-                line: 'Tchau! Tenha um bom dia!'
+                speaker: "Ana",
+                line: "Tchau! Tenha um bom dia!"
               },
               {
-                speaker: 'Pedro',
-                line: 'Você também!'
+                speaker: "Pedro",
+                line: "Você também!"
               }
             ],
-            note: 'Despedir-se de forma amistosa.',
+            note: "Despedir-se de forma amistosa.",
             translations: {
-              es: 'Despedirse',
-              en: 'Saying goodbye',
-              fr: 'Dire au revoir',
-              it: 'Salutarsi',
-              pt: 'Despedir-se'
+              es: "Despedirse",
+              en: "Saying goodbye",
+              fr: "Dire au revoir",
+              it: "Salutarsi",
+              pt: "Despedir-se",
+              de: "Sich verabschieden",
+              ko: "작별 인사",
+              ja: "お別れ",
+              ru: "прощаться",
+              ar: "الوداع",
+              zh: "告别",
+              gn: "Oje'o",
+              qu: "K'uychi",
+              wo: "Bax na",
+              ha: "Ku tsallaka",
+              yo: "Kí í ṣe ìbẹ̀rẹ̀ ìrìn"
             }
           }
         ]
       },
       {
-        id: 'pt_a1_g2',
-        name: 'Quantidades e estados',
-        icon: '😋',
-        color: '#f59e0b',
-        description: 'Expressar necessidades, sensações e o tempo',
+        id: "pt_a1_g2",
+        name: "Quantidades e estados",
+        icon: "😋",
+        color: "#f59e0b",
+        description: "Expressar necessidades, sensações e o tempo",
         reviewFrom: [
           "pt_a1_g1"
         ],
         cards: [
           {
-            id: 'pt_a1_g2_01',
-            word: 'Estou com fome',
-            emoji: '🍽️',
+            id: "pt_a1_g2_01",
+            word: "Estou com fome",
+            emoji: "🍽️",
             translations: {
-              es: 'tengo hambre',
+              es: "tengo hambre",
               en: "I'm hungry",
               fr: "j'ai faim",
-              it: 'ho fame',
-              pt: 'estou com fome'
+              it: "ho fame",
+              pt: "estou com fome",
+              de: "Hunger",
+              ko: "배고픔",
+              ja: "空腹",
+              ru: "голод",
+              ar: "جوع",
+              zh: "饥饿",
+              gn: "Añembo'",
+              qu: "Musuy",
+              wo: "Bëcc",
+              ha: "Yankin ciki",
+              yo: "Ìgbèsẹ̀"
             },
             examples: [
               {
-                t: 'Estou com muita fome. Vamos comer?'
+                t: "Estou com muita fome. Vamos comer?"
               }
             ]
           },
           {
-            id: 'pt_a1_g2_02',
-            word: 'Estou com sede',
-            emoji: '💧',
+            id: "pt_a1_g2_02",
+            word: "Estou com sede",
+            emoji: "💧",
             translations: {
-              es: 'tengo sed',
+              es: "tengo sed",
               en: "I'm thirsty",
               fr: "j'ai soif",
-              it: 'ho sete',
-              pt: 'estou com sede'
+              it: "ho sete",
+              pt: "estou com sede",
+              de: "Durst",
+              ko: "목마름",
+              ja: "渇き",
+              ru: "жажда",
+              ar: "عطش",
+              zh: "口渴",
+              gn: "Añembyasy",
+              qu: "P'isyay",
+              wo: "Dëgg",
+              ha: "Yankin ruwa",
+              yo: "Ìfẹ́ ìmọ́lẹ̀"
             },
             examples: [
               {
-                t: 'Estou com sede. Tem água?'
+                t: "Estou com sede. Tem água?"
               }
             ]
           },
           {
-            id: 'pt_a1_g2_03',
-            word: 'Estou com frio',
-            emoji: '🥶',
+            id: "pt_a1_g2_03",
+            word: "Estou com frio",
+            emoji: "🥶",
             translations: {
-              es: 'tengo frío',
+              es: "tengo frío",
               en: "I'm cold",
               fr: "j'ai froid",
-              it: 'ho freddo',
-              pt: 'estou com frio'
+              it: "ho freddo",
+              pt: "estou com frio",
+              de: "Kälte",
+              ko: "추위",
+              ja: "寒さ",
+              ru: "холод",
+              ar: "برد",
+              zh: "寒冷",
+              gn: "Añemby",
+              qu: "Chiri",
+              wo: "Bañ",
+              ha: "Yankin sanyi",
+              yo: "Ọkẹ́"
             },
             examples: [
               {
-                t: 'Estou com frio. Posso fechar a janela?'
+                t: "Estou com frio. Posso fechar a janela?"
               }
             ]
           },
           {
-            id: 'pt_a1_g2_04',
-            word: 'Estou com calor',
-            emoji: '🌡️',
+            id: "pt_a1_g2_04",
+            word: "Estou com calor",
+            emoji: "🌡️",
             translations: {
-              es: 'tengo calor',
+              es: "tengo calor",
               en: "I'm hot",
               fr: "j'ai chaud",
-              it: 'ho caldo',
-              pt: 'estou com calor'
+              it: "ho caldo",
+              pt: "estou com calor",
+              de: "Hitze",
+              ko: "열",
+              ja: "暑さ",
+              ru: "жара",
+              ar: "حرارة",
+              zh: "热",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Está quente. Vou abrir a janela.'
+                t: "Está quente. Vou abrir a janela."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_05',
-            word: 'Estou cansado/a',
-            emoji: '😴',
+            id: "pt_a1_g2_05",
+            word: "Estou cansado/a",
+            emoji: "😴",
             translations: {
-              es: 'estoy cansado',
+              es: "estoy cansado",
               en: "I'm tired",
-              fr: 'je suis fatigué',
-              it: 'sono stanco',
-              pt: 'estou cansado/a'
+              fr: "je suis fatigué",
+              it: "sono stanco",
+              pt: "estou cansado/a",
+              de: "müde",
+              ko: "피곤한",
+              ja: "疲れた",
+              ru: "усталый",
+              ar: "متعب",
+              zh: "累",
+              gn: "pyahu",
+              qu: "lluk'iy",
+              wo: "neex",
+              ha: "talle",
+              yo: "kúkúrú"
             },
             examples: [
               {
-                t: 'Estou muito cansado. Quero dormir.'
+                t: "Estou muito cansado. Quero dormir."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_06',
-            word: 'Muito',
-            emoji: '📊',
+            id: "pt_a1_g2_06",
+            word: "Muito",
+            emoji: "📊",
             translations: {
-              es: 'mucho / muy',
-              en: 'a lot / very',
-              fr: 'beaucoup / très',
-              it: 'molto',
-              pt: 'muito'
+              es: "mucho / muy",
+              en: "a lot / very",
+              fr: "beaucoup / très",
+              it: "molto",
+              pt: "muito",
+              de: "viel",
+              ko: "많이",
+              ja: "たくさん",
+              ru: "много",
+              ar: "كثير",
+              zh: "很多",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Tenho muito trabalho hoje.'
+                t: "Tenho muito trabalho hoje."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_07',
-            word: 'Um pouco',
-            emoji: '🤏',
+            id: "pt_a1_g2_07",
+            word: "Um pouco",
+            emoji: "🤏",
             translations: {
-              es: 'un poco',
-              en: 'a little',
-              fr: 'un peu',
+              es: "un poco",
+              en: "a little",
+              fr: "un peu",
               it: "un po'",
-              pt: 'um pouco'
+              pt: "um pouco",
+              de: "wenig",
+              ko: "조금",
+              ja: "少し",
+              ru: "немного",
+              ar: "قليل",
+              zh: "少",
+              gn: "po'a",
+              qu: "phisi",
+              wo: "benn",
+              ha: "sau",
+              yo: "díẹ̀"
             },
             examples: [
               {
-                t: 'Tenho um pouco de tempo. Vamos rápido.'
+                t: "Tenho um pouco de tempo. Vamos rápido."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_08',
-            word: 'Bastante',
-            emoji: '👌',
+            id: "pt_a1_g2_08",
+            word: "Bastante",
+            emoji: "👌",
             translations: {
-              es: 'bastante',
-              en: 'quite / enough',
-              fr: 'assez',
-              it: 'abbastanza',
-              pt: 'bastante'
+              es: "bastante",
+              en: "quite / enough",
+              fr: "assez",
+              it: "abbastanza",
+              pt: "bastante",
+              de: "ziemlich",
+              ko: "제법",
+              ja: "かなり",
+              ru: "довольно",
+              ar: "كثيرا",
+              zh: "相当",
+              gn: "pyahu",
+              qu: "pacha",
+              wo: "buñ",
+              ha: "yawa",
+              yo: "púpọ̀"
             },
             examples: [
               {
-                t: 'Estou bastante bem, obrigado.'
+                t: "Estou bastante bem, obrigado."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_09',
-            word: 'Demais',
-            emoji: '🙈',
+            id: "pt_a1_g2_09",
+            word: "Demais",
+            emoji: "🙈",
             translations: {
-              es: 'demasiado',
-              en: 'too much',
-              fr: 'trop',
-              it: 'troppo',
-              pt: 'demais'
+              es: "demasiado",
+              en: "too much",
+              fr: "trop",
+              it: "troppo",
+              pt: "demais",
+              de: "zu viel",
+              ko: "너무 많이",
+              ja: "多すぎる",
+              ru: "слишком много",
+              ar: "كثير جدا",
+              zh: "太多",
+              gn: "pyahuite",
+              qu: "pachapacha",
+              wo: "buñ buñ",
+              ha: "yawa guda",
+              yo: "púpọ̀ jùlọ"
             },
             examples: [
               {
-                t: 'Está quente demais para sair.'
+                t: "Está quente demais para sair."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_10',
-            word: 'Preciso de',
-            emoji: '🙋',
+            id: "pt_a1_g2_10",
+            word: "Preciso de",
+            emoji: "🙋",
             translations: {
-              es: 'necesito',
-              en: 'I need',
+              es: "necesito",
+              en: "I need",
               fr: "j'ai besoin de",
-              it: 'ho bisogno di',
-              pt: 'preciso de'
+              it: "ho bisogno di",
+              pt: "preciso de",
+              de: "brauchen",
+              ko: "필요로하다",
+              ja: "必要とする",
+              ru: "нуждаться",
+              ar: "يحتاج",
+              zh: "需要",
+              gn: "reikuaa",
+              qu: "munay",
+              wo: "waaj",
+              ha: "bukatar",
+              yo: "wà ní ìwọ́lé"
             },
             examples: [
               {
-                t: 'Preciso de água, por favor.'
+                t: "Preciso de água, por favor."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_11',
-            word: 'Ensolarado',
-            emoji: '☀️',
+            id: "pt_a1_g2_11",
+            word: "Ensolarado",
+            emoji: "☀️",
             translations: {
-              es: 'soleado',
-              en: 'sunny',
-              fr: 'ensoleillé',
-              it: 'soleggiato',
-              pt: 'ensolarado'
+              es: "soleado",
+              en: "sunny",
+              fr: "ensoleillé",
+              it: "soleggiato",
+              pt: "ensolarado",
+              de: "sonnig",
+              ko: "맑은",
+              ja: "晴れた",
+              ru: "солнечный",
+              ar: "مشمس",
+              zh: "晴朗",
+              gn: "aravẽ",
+              qu: "inti",
+              wo: "ñakku",
+              ha: "ranar",
+              yo: "ọjọ́ òjò"
             },
             examples: [
               {
-                t: 'Está ensolarado hoje. Perfeito!'
+                t: "Está ensolarado hoje. Perfeito!"
               }
             ]
           },
           {
-            id: 'pt_a1_g2_12',
-            word: 'Nublado',
-            emoji: '☁️',
+            id: "pt_a1_g2_12",
+            word: "Nublado",
+            emoji: "☁️",
             translations: {
-              es: 'nublado',
-              en: 'cloudy',
-              fr: 'nuageux',
-              it: 'nuvoloso',
-              pt: 'nublado'
+              es: "nublado",
+              en: "cloudy",
+              fr: "nuageux",
+              it: "nuvoloso",
+              pt: "nublado",
+              de: "bewölkt",
+              ko: "구름 낀",
+              ja: "曇った",
+              ru: "облачно",
+              ar: "غائم",
+              zh: "多云",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Está muito nublado. Acho que vai chover.'
+                t: "Está muito nublado. Acho que vai chover."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_13',
-            word: 'Está chovendo',
-            emoji: '🌧️',
+            id: "pt_a1_g2_13",
+            word: "Está chovendo",
+            emoji: "🌧️",
             translations: {
-              es: 'está lloviendo',
+              es: "está lloviendo",
               en: "it's raining",
-              fr: 'il pleut',
-              it: 'piove',
-              pt: 'está chovendo'
+              fr: "il pleut",
+              it: "piove",
+              pt: "está chovendo",
+              de: "regnerisch",
+              ko: "비 오는",
+              ja: "雨の",
+              ru: "дождливый",
+              ar: "ممطر",
+              zh: "多雨",
+              gn: "tembi'u",
+              qu: "q'asa",
+              wo: "ñakk",
+              ha: "yankin jini",
+              yo: "ìtàn"
             },
             examples: [
               {
-                t: 'Está chovendo. Leve o guarda-chuva.'
+                t: "Está chovendo. Leve o guarda-chuva."
               }
             ]
           },
           {
-            id: 'pt_a1_g2_14',
-            word: 'Está frio / calor',
-            emoji: '🌡️',
+            id: "pt_a1_g2_14",
+            word: "Está frio / calor",
+            emoji: "🌡️",
             translations: {
-              es: 'hace frío/calor',
+              es: "hace frío/calor",
               en: "it's cold/hot",
-              fr: 'il fait froid/chaud',
-              it: 'fa freddo/caldo',
-              pt: 'está frio/calor'
+              fr: "il fait froid/chaud",
+              it: "fa freddo/caldo",
+              pt: "está frio/calor",
+              de: "es ist kalt/warm",
+              ko: "추워요/더워요",
+              ja: "寒い/暑い",
+              ru: "холодно/тепло",
+              ar: "بارد/حار",
+              zh: "冷/热",
+              gn: "tembi'u/tembi'u",
+              qu: "q'asa/q'asa",
+              wo: "ñakk/ñakk",
+              ha: "yankin jini/yankin jini",
+              yo: "ìtàn/ìtàn"
             },
             examples: [
               {
-                t: 'Que frio! Você tem um casaco?'
+                t: "Que frio! Você tem um casaco?"
               }
             ]
           },
           {
-            id: 'pt_a1_g2_D01',
-            type: 'dialogue',
-            context: 'Encontrando-se na rua',
+            id: "pt_a1_g2_D01",
+            type: "dialogue",
+            context: "Encontrando-se na rua",
             dialogue: [
               {
-                speaker: 'Luis',
-                line: 'Oi! Que tempo está fazendo hoje?'
+                speaker: "Luis",
+                line: "Oi! Que tempo está fazendo hoje?"
               },
               {
-                speaker: 'Clara',
-                line: 'Está muito frio e nublado.'
+                speaker: "Clara",
+                line: "Está muito frio e nublado."
               },
               {
-                speaker: 'Luis',
-                line: 'Sim, estou com muito frio. E você?'
+                speaker: "Luis",
+                line: "Sim, estou com muito frio. E você?"
               },
               {
-                speaker: 'Clara',
-                line: 'Eu também! Preciso de um café quente.'
+                speaker: "Clara",
+                line: "Eu também! Preciso de um café quente."
               },
               {
-                speaker: 'Luis',
-                line: 'Boa ideia! Vamos ao café?'
+                speaker: "Luis",
+                line: "Boa ideia! Vamos ao café?"
               }
             ],
-            note: 'Falar sobre o tempo e expressar sensações.',
+            note: "Falar sobre o tempo e expressar sensações.",
             translations: {
-              es: 'Hablar del tiempo',
-              en: 'Talking about weather',
-              fr: 'Parler de la météo',
-              it: 'Parlare del tempo',
-              pt: 'Falar do tempo'
+              es: "Hablar del tiempo",
+              en: "Talking about weather",
+              fr: "Parler de la météo",
+              it: "Parlare del tempo",
+              pt: "Falar do tempo",
+              de: "Über das Wetter sprechen",
+              ko: "날씨에 대해 이야기하다",
+              ja: "天気について話す",
+              ru: "говорить о погоде",
+              ar: "التحدث عن الطقس",
+              zh: "谈论天气",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay q'asa",
+              wo: "waxtu ñakk",
+              ha: "magana game da yankin jini",
+              yo: "sọ̀rọ̀ nípa ìtàn"
             }
           },
           {
-            id: 'pt_a1_g2_D02',
-            type: 'dialogue',
-            context: 'Antes de comer juntos',
+            id: "pt_a1_g2_D02",
+            type: "dialogue",
+            context: "Antes de comer juntos",
             dialogue: [
               {
-                speaker: 'Marta',
-                line: 'Você está com fome? São duas horas.'
+                speaker: "Marta",
+                line: "Você está com fome? São duas horas."
               },
               {
-                speaker: 'Paulo',
-                line: 'Sim, estou com muita fome. O que tem para comer?'
+                speaker: "Paulo",
+                line: "Sim, estou com muita fome. O que tem para comer?"
               },
               {
-                speaker: 'Marta',
-                line: 'Tem macarrão e salada. Quer?'
+                speaker: "Marta",
+                line: "Tem macarrão e salada. Quer?"
               },
               {
-                speaker: 'Paulo',
-                line: 'Perfeito! E estou com muita sede também.'
+                speaker: "Paulo",
+                line: "Perfeito! E estou com muita sede também."
               },
               {
-                speaker: 'Marta',
-                line: 'Tem água e suco de laranja.'
+                speaker: "Marta",
+                line: "Tem água e suco de laranja."
               },
               {
-                speaker: 'Paulo',
-                line: 'Ótimo, obrigado.'
+                speaker: "Paulo",
+                line: "Ótimo, obrigado."
               }
             ],
-            note: 'Expressar fome, sede e necessidades.',
+            note: "Expressar fome, sede e necessidades.",
             translations: {
-              es: 'Hablar de comida',
-              en: 'Talking about food',
-              fr: 'Parler de nourriture',
-              it: 'Parlare di cibo',
-              pt: 'Falar de comida'
+              es: "Hablar de comida",
+              en: "Talking about food",
+              fr: "Parler de nourriture",
+              it: "Parlare di cibo",
+              pt: "Falar de comida",
+              de: "Über Essen sprechen",
+              ko: "음식에 대해 이야기하다",
+              ja: "食べ物について話す",
+              ru: "говорить о еде",
+              ar: "التحدث عن الطعام",
+              zh: "谈论食物",
+              gn: "mba'e ha'eha tembi'u",
+              qu: "rimay mik'i",
+              wo: "waxtu yëngu",
+              ha: "magana game da abinci",
+              yo: "sọ̀rọ̀ nípa ẹ̀wọ̀n"
             }
           }
         ]
       },
       {
-        id: 'pt_a1_g3',
-        name: 'Perguntas e números',
-        icon: '❓',
-        color: '#10b981',
-        description: 'Palavras interrogativas + números de 1 a 8',
+        id: "pt_a1_g3",
+        name: "Perguntas e números",
+        icon: "❓",
+        color: "#10b981",
+        description: "Palavras interrogativas + números de 1 a 8",
         reviewFrom: [
           "pt_a1_g1",
           "pt_a1_g2"
         ],
         cards: [
           {
-            id: 'pt_a1_g3_01',
-            word: 'O que? / O quê?',
-            emoji: '🔍',
+            id: "pt_a1_g3_01",
+            word: "O que? / O quê?",
+            emoji: "🔍",
             translations: {
-              es: '¿qué?',
-              en: 'what?',
-              fr: 'quoi?',
-              it: 'cosa?',
-              pt: 'o que? / o quê?'
+              es: "¿qué?",
+              en: "what?",
+              fr: "quoi?",
+              it: "cosa?",
+              pt: "o que? / o quê?",
+              de: "Was?",
+              ko: "뭐?",
+              ja: "何？",
+              ru: "что?",
+              ar: "ماذا؟",
+              zh: "什么？",
+              gn: "mba'épa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kí ni?"
             },
             examples: [
               {
-                t: 'O que você quer beber?'
+                t: "O que você quer beber?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_02',
-            word: 'Quem?',
-            emoji: '🧑',
+            id: "pt_a1_g3_02",
+            word: "Quem?",
+            emoji: "🧑",
             translations: {
-              es: '¿quién?',
-              en: 'who?',
-              fr: 'qui?',
-              it: 'chi?',
-              pt: 'quem?'
+              es: "¿quién?",
+              en: "who?",
+              fr: "qui?",
+              it: "chi?",
+              pt: "quem?",
+              de: "Wer?",
+              ko: "누구?",
+              ja: "誰？",
+              ru: "кто?",
+              ar: "من؟",
+              zh: "谁？",
+              gn: "nde?",
+              qu: "pipataq?",
+              wo: "këmbu?",
+              ha: "wane?",
+              yo: "ta ni?"
             },
             examples: [
               {
-                t: 'Quem é essa pessoa?'
+                t: "Quem é essa pessoa?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_03',
-            word: 'Onde?',
-            emoji: '📍',
+            id: "pt_a1_g3_03",
+            word: "Onde?",
+            emoji: "📍",
             translations: {
-              es: '¿dónde?',
-              en: 'where?',
-              fr: 'où?',
-              it: 'dove?',
-              pt: 'onde?'
+              es: "¿dónde?",
+              en: "where?",
+              fr: "où?",
+              it: "dove?",
+              pt: "onde?",
+              de: "Wo?",
+              ko: "어디?",
+              ja: "どこ？",
+              ru: "где?",
+              ar: "أين؟",
+              zh: "哪里？",
+              gn: "moõpa?",
+              qu: "maymanta?",
+              wo: "ne fa?",
+              ha: "in?",
+              yo: "níbí ni?"
             },
             examples: [
               {
-                t: 'Onde fica o banheiro?'
+                t: "Onde fica o banheiro?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_04',
-            word: 'Quando?',
-            emoji: '📅',
+            id: "pt_a1_g3_04",
+            word: "Quando?",
+            emoji: "📅",
             translations: {
-              es: '¿cuándo?',
-              en: 'when?',
-              fr: 'quand?',
-              it: 'quando?',
-              pt: 'quando?'
+              es: "¿cuándo?",
+              en: "when?",
+              fr: "quand?",
+              it: "quando?",
+              pt: "quando?",
+              de: "Wann?",
+              ko: "언제?",
+              ja: "いつ？",
+              ru: "когда?",
+              ar: "متى؟",
+              zh: "什么时候？",
+              gn: "upeicha'ã?",
+              qu: "mayqapataq?",
+              wo: "neegi?",
+              ha: "in?",
+              yo: "nìwájú ni?"
             },
             examples: [
               {
-                t: 'Quando você chega?'
+                t: "Quando você chega?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_05',
-            word: 'Por quê?',
-            emoji: '💭',
+            id: "pt_a1_g3_05",
+            word: "Por quê?",
+            emoji: "💭",
             translations: {
-              es: '¿por qué?',
-              en: 'why?',
-              fr: 'pourquoi?',
-              it: 'perché?',
-              pt: 'por quê?'
+              es: "¿por qué?",
+              en: "why?",
+              fr: "pourquoi?",
+              it: "perché?",
+              pt: "por quê?",
+              de: "Warum?",
+              ko: "왜?",
+              ja: "なぜ？",
+              ru: "почему?",
+              ar: "لماذا؟",
+              zh: "为什么？",
+              gn: "mba'érepa?",
+              qu: "imaynam?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "kíní?"
             },
             examples: [
               {
-                t: 'Por que você está cansado?'
+                t: "Por que você está cansado?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_06',
-            word: 'Como?',
-            emoji: '🤔',
+            id: "pt_a1_g3_06",
+            word: "Como?",
+            emoji: "🤔",
             translations: {
-              es: '¿cómo?',
-              en: 'how?',
-              fr: 'comment?',
-              it: 'come?',
-              pt: 'como?'
+              es: "¿cómo?",
+              en: "how?",
+              fr: "comment?",
+              it: "come?",
+              pt: "como?",
+              de: "Wie?",
+              ko: "어떻게?",
+              ja: "どう？",
+              ru: "как?",
+              ar: "كيف؟",
+              zh: "怎么？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "báwo ni?"
             },
             examples: [
               {
@@ -6578,230 +9117,351 @@ const FLASHCARD_A1 = {
             ]
           },
           {
-            id: 'pt_a1_g3_07',
-            word: 'Quanto?',
-            emoji: '💰',
+            id: "pt_a1_g3_07",
+            word: "Quanto?",
+            emoji: "💰",
             translations: {
-              es: '¿cuánto?',
-              en: 'how much?',
-              fr: 'combien?',
-              it: 'quanto?',
-              pt: 'quanto?'
+              es: "¿cuánto?",
+              en: "how much?",
+              fr: "combien?",
+              it: "quanto?",
+              pt: "quanto?",
+              de: "Wie viel?",
+              ko: "얼마나?",
+              ja: "どのくらい？",
+              ru: "сколько?",
+              ar: "كم؟",
+              zh: "多少？",
+              gn: "mba'éichapa?",
+              qu: "imaynataq?",
+              wo: "luwata?",
+              ha: "me?",
+              yo: "ẹ̀sán ni?"
             },
             examples: [
               {
-                t: 'Quanto custa este café?'
+                t: "Quanto custa este café?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_08',
-            word: 'Quantos?',
-            emoji: '🔢',
+            id: "pt_a1_g3_08",
+            word: "Quantos?",
+            emoji: "🔢",
             translations: {
-              es: '¿cuántos?',
-              en: 'how many?',
-              fr: 'combien de?',
-              it: 'quanti?',
-              pt: 'quantos?'
+              es: "¿cuántos?",
+              en: "how many?",
+              fr: "combien de?",
+              it: "quanti?",
+              pt: "quantos?",
+              de: "Wie viele?",
+              ko: "몇 개?",
+              ja: "いくつ？",
+              ru: "Сколько?",
+              ar: "كم عدد؟",
+              zh: "多少？",
+              gn: "Mba'éichapa?",
+              qu: "Mayqan?",
+              wo: "Ñu benn?",
+              ha: "Wanda yaya?",
+              yo: "Eṣe ni?"
             },
             examples: [
               {
-                t: 'Quantas pessoas na mesa?'
+                t: "Quantas pessoas na mesa?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_09',
-            word: 'um / uma',
-            emoji: '1️⃣',
+            id: "pt_a1_g3_09",
+            word: "um / uma",
+            emoji: "1️⃣",
             translations: {
-              es: 'uno/una',
-              en: 'one',
-              fr: 'un/une',
-              it: 'uno/una',
-              pt: 'um/uma'
+              es: "uno/una",
+              en: "one",
+              fr: "un/une",
+              it: "uno/una",
+              pt: "um/uma",
+              de: "eins",
+              ko: "하나",
+              ja: "一つ",
+              ru: "один",
+              ar: "واحد",
+              zh: "一",
+              gn: "Peteĩ",
+              qu: "Huk",
+              wo: "Benn",
+              ha: "ɗaya",
+              yo: "okan"
             },
             examples: [
               {
-                t: 'Uma mesa para dois, por favor.'
+                t: "Uma mesa para dois, por favor."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_10',
-            word: 'dois',
-            emoji: '2️⃣',
+            id: "pt_a1_g3_10",
+            word: "dois",
+            emoji: "2️⃣",
             translations: {
-              es: 'dos',
-              en: 'two',
-              fr: 'deux',
-              it: 'due',
-              pt: 'dois'
+              es: "dos",
+              en: "two",
+              fr: "deux",
+              it: "due",
+              pt: "dois",
+              de: "zwei",
+              ko: "둘",
+              ja: "二つ",
+              ru: "два",
+              ar: "اثنان",
+              zh: "二",
+              gn: "Mokõi",
+              qu: "Isqun",
+              wo: "Ñaar",
+              ha: "bii",
+              yo: "méjì"
             },
             examples: [
               {
-                t: 'Somos dois. Tem mesa?'
+                t: "Somos dois. Tem mesa?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_11',
-            word: 'três',
-            emoji: '3️⃣',
+            id: "pt_a1_g3_11",
+            word: "três",
+            emoji: "3️⃣",
             translations: {
-              es: 'tres',
-              en: 'three',
-              fr: 'trois',
-              it: 'tre',
-              pt: 'três'
+              es: "tres",
+              en: "three",
+              fr: "trois",
+              it: "tre",
+              pt: "três",
+              de: "drei",
+              ko: "셋",
+              ja: "三つ",
+              ru: "три",
+              ar: "ثلاثة",
+              zh: "三",
+              gn: "Mombarete",
+              qu: "Kimsa",
+              wo: "Ñatt",
+              ha: "ukku",
+              yo: "mẹ́tà"
             },
             examples: [
               {
-                t: 'Uma mesa para três, por favor.'
+                t: "Uma mesa para três, por favor."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_12',
-            word: 'quatro',
-            emoji: '4️⃣',
+            id: "pt_a1_g3_12",
+            word: "quatro",
+            emoji: "4️⃣",
             translations: {
-              es: 'cuatro',
-              en: 'four',
-              fr: 'quatre',
-              it: 'quattro',
-              pt: 'quatro'
+              es: "cuatro",
+              en: "four",
+              fr: "quatre",
+              it: "quattro",
+              pt: "quatro",
+              de: "vier",
+              ko: "넷",
+              ja: "四つ",
+              ru: "четыре",
+              ar: "أربعة",
+              zh: "四",
+              gn: "Irundú",
+              qu: "Tawqa",
+              wo: "Ñent",
+              ha: "huɗu",
+              yo: "ẹ̀rìn"
             },
             examples: [
               {
-                t: 'Somos quatro. Vocês têm lugar?'
+                t: "Somos quatro. Vocês têm lugar?"
               }
             ]
           },
           {
-            id: 'pt_a1_g3_13',
-            word: 'cinco',
-            emoji: '5️⃣',
+            id: "pt_a1_g3_13",
+            word: "cinco",
+            emoji: "5️⃣",
             translations: {
-              es: 'cinco',
-              en: 'five',
-              fr: 'cinq',
-              it: 'cinque',
-              pt: 'cinco'
+              es: "cinco",
+              en: "five",
+              fr: "cinq",
+              it: "cinque",
+              pt: "cinco",
+              de: "fünf",
+              ko: "다섯",
+              ja: "五つ",
+              ru: "пять",
+              ar: "خمسة",
+              zh: "五",
+              gn: "Po'i",
+              qu: "Pichqa",
+              wo: "Juróom",
+              ha: "biyyar",
+              yo: "áàrún"
             },
             examples: [
               {
-                t: 'Cinco cafés, por favor.'
+                t: "Cinco cafés, por favor."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_14',
-            word: 'seis',
-            emoji: '6️⃣',
+            id: "pt_a1_g3_14",
+            word: "seis",
+            emoji: "6️⃣",
             translations: {
-              es: 'seis',
-              en: 'six',
-              fr: 'six',
-              it: 'sei',
-              pt: 'seis'
+              es: "seis",
+              en: "six",
+              fr: "six",
+              it: "sei",
+              pt: "seis",
+              de: "sechs",
+              ko: "여섯",
+              ja: "六つ",
+              ru: "шесть",
+              ar: "ستة",
+              zh: "六",
+              gn: "Po'ñandú",
+              qu: "Suqta",
+              wo: "Juróom-benn",
+              ha: "shida",
+              yo: "ẹ̀ẹ́dọ́gbọ̀n"
             },
             examples: [
               {
-                t: 'A reunião é às seis.'
+                t: "A reunião é às seis."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_15',
-            word: 'sete',
-            emoji: '7️⃣',
+            id: "pt_a1_g3_15",
+            word: "sete",
+            emoji: "7️⃣",
             translations: {
-              es: 'siete',
-              en: 'seven',
-              fr: 'sept',
-              it: 'sette',
-              pt: 'sete'
+              es: "siete",
+              en: "seven",
+              fr: "sept",
+              it: "sette",
+              pt: "sete",
+              de: "sieben",
+              ko: "일곱",
+              ja: "七つ",
+              ru: "семь",
+              ar: "سبعة",
+              zh: "七",
+              gn: "Po'ñavúi",
+              qu: "Qanchis",
+              wo: "Juróom-ñaar",
+              ha: "sagwarka",
+              yo: "ẹ̀ẹ́dọ́gbáa"
             },
             examples: [
               {
-                t: 'Há sete pessoas na aula.'
+                t: "Há sete pessoas na aula."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_16',
-            word: 'oito',
-            emoji: '8️⃣',
+            id: "pt_a1_g3_16",
+            word: "oito",
+            emoji: "8️⃣",
             translations: {
-              es: 'ocho',
-              en: 'eight',
-              fr: 'huit',
-              it: 'otto',
-              pt: 'oito'
+              es: "ocho",
+              en: "eight",
+              fr: "huit",
+              it: "otto",
+              pt: "oito",
+              de: "acht",
+              ko: "여덟",
+              ja: "八つ",
+              ru: "восемь",
+              ar: "ثمانية",
+              zh: "八",
+              gn: "Po'ñavui-peteĩ",
+              qu: "Pusaq",
+              wo: "Juróom-ñent",
+              ha: "takwas",
+              yo: "ẹ̀ẹ́dọ́gbáa-álẹ̀"
             },
             examples: [
               {
-                t: 'São oito da manhã.'
+                t: "São oito da manhã."
               }
             ]
           },
           {
-            id: 'pt_a1_g3_D01',
-            type: 'dialogue',
-            context: 'No restaurante',
+            id: "pt_a1_g3_D01",
+            type: "dialogue",
+            context: "No restaurante",
             dialogue: [
               {
-                speaker: 'Garçom',
-                line: 'Boa noite! Quantas pessoas?'
+                speaker: "Garçom",
+                line: "Boa noite! Quantas pessoas?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Somos três. Tem uma mesa disponível?'
+                speaker: "Cliente",
+                line: "Somos três. Tem uma mesa disponível?"
               },
               {
-                speaker: 'Garçom',
-                line: 'Sim, claro. Vocês têm reserva?'
+                speaker: "Garçom",
+                line: "Sim, claro. Vocês têm reserva?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Não, não temos reserva.'
+                speaker: "Cliente",
+                line: "Não, não temos reserva."
               },
               {
-                speaker: 'Garçom',
-                line: 'Sem problema. Por aqui, por favor.'
+                speaker: "Garçom",
+                line: "Sem problema. Por aqui, por favor."
               },
               {
-                speaker: 'Cliente',
-                line: 'Obrigado. Quanto tempo esperamos?'
+                speaker: "Cliente",
+                line: "Obrigado. Quanto tempo esperamos?"
               },
               {
-                speaker: 'Garçom',
-                line: 'Só cinco minutos. Querem beber algo?'
+                speaker: "Garçom",
+                line: "Só cinco minutos. Querem beber algo?"
               },
               {
-                speaker: 'Cliente',
-                line: 'Sim, duas águas e um suco de laranja.'
+                speaker: "Cliente",
+                line: "Sim, duas águas e um suco de laranja."
               }
             ],
-            note: 'Perguntar quantidade, pedir no restaurante.',
+            note: "Perguntar quantidade, pedir no restaurante.",
             translations: {
-              es: 'En el restaurante',
-              en: 'At the restaurant',
-              fr: 'Au restaurant',
-              it: 'Al ristorante',
-              pt: 'No restaurante'
+              es: "En el restaurante",
+              en: "At the restaurant",
+              fr: "Au restaurant",
+              it: "Al ristorante",
+              pt: "No restaurante",
+              de: "Im Restaurant",
+              ko: "레스토랑에서",
+              ja: "レストランで",
+              ru: "В ресторане",
+              ar: "في المطعم",
+              zh: "在餐厅",
+              gn: "Ha'e ha'e'õme'ẽre",
+              qu: "Hatun wasi pi",
+              wo: "Ci reestorañ",
+              ha: "A cikin makarantar",
+              yo: "Ní ilé iṣẹ́ ẹ̀dẹ́"
             }
           }
         ]
       },
       {
-        id: 'pt_a1_g4',
-        name: 'Verbos essenciais',
-        icon: '⚡',
-        color: '#ef4444',
-        description: 'Os verbos mais usados — presente + passado',
+        id: "pt_a1_g4",
+        name: "Verbos essenciais",
+        icon: "⚡",
+        color: "#ef4444",
+        description: "Os verbos mais usados — presente + passado",
         reviewFrom: [
           "pt_a1_g1",
           "pt_a1_g2",
@@ -6809,267 +9469,421 @@ const FLASHCARD_A1 = {
         ],
         cards: [
           {
-            id: 'pt_a1_g4_01',
-            word: 'sou / és / é',
-            emoji: '🌟',
+            id: "pt_a1_g4_01",
+            word: "sou / és / é",
+            emoji: "🌟",
             translations: {
-              es: 'ser: soy/eres/es',
-              en: 'to be',
-              fr: 'être: je suis/tu es/il est',
-              it: 'essere: sono/sei/è',
-              pt: 'ser: sou/és/é'
+              es: "ser: soy/eres/es",
+              en: "to be",
+              fr: "être: je suis/tu es/il est",
+              it: "essere: sono/sei/è",
+              pt: "ser: sou/és/é",
+              de: "sein",
+              ko: "이다",
+              ja: "である",
+              ru: "быть",
+              ar: "يكون",
+              zh: "是",
+              gn: "Ko",
+              qu: "Kana",
+              wo: "Mooy",
+              ha: "yake",
+              yo: "jẹ"
             },
             examples: [
               {
-                t: 'Sou estudante. Você é meu amigo.'
+                t: "Sou estudante. Você é meu amigo."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_02',
-            word: 'tenho / tens / tem',
-            emoji: '✋',
+            id: "pt_a1_g4_02",
+            word: "tenho / tens / tem",
+            emoji: "✋",
             translations: {
-              es: 'tener: tengo/tienes/tiene',
-              en: 'to have',
+              es: "tener: tengo/tienes/tiene",
+              en: "to have",
               fr: "avoir: j'ai/tu as/il a",
-              it: 'avere: ho/hai/ha',
-              pt: 'ter: tenho/tens/tem'
+              it: "avere: ho/hai/ha",
+              pt: "ter: tenho/tens/tem",
+              de: "sein",
+              ko: "있다",
+              ja: "ある",
+              ru: "находиться",
+              ar: "يكون",
+              zh: "在",
+              gn: "Iko",
+              qu: "Kachkan",
+              wo: "Jëm",
+              ha: "yana",
+              yo: "wà"
             },
             examples: [
               {
-                t: 'Tenho uma pergunta. Você tem tempo?'
+                t: "Tenho uma pergunta. Você tem tempo?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_03',
-            word: 'quero / quer',
-            emoji: '❤️',
+            id: "pt_a1_g4_03",
+            word: "quero / quer",
+            emoji: "❤️",
             translations: {
-              es: 'querer: quiero/quieres',
-              en: 'to want',
-              fr: 'vouloir: je veux/tu veux',
-              it: 'volere: voglio/vuoi',
-              pt: 'querer: quero/quer'
+              es: "querer: quiero/quieres",
+              en: "to want",
+              fr: "vouloir: je veux/tu veux",
+              it: "volere: voglio/vuoi",
+              pt: "querer: quero/quer",
+              de: "haben",
+              ko: "가지다",
+              ja: "持つ",
+              ru: "иметь",
+              ar: "يملك",
+              zh: "有",
+              gn: "Ñande",
+              qu: "Kan",
+              wo: "Ñaan",
+              ha: "yana",
+              yo: "ní"
             },
             examples: [
               {
-                t: 'Quero um café. O que você quer?'
+                t: "Quero um café. O que você quer?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_04',
-            word: 'vou / vai',
-            emoji: '🚶',
+            id: "pt_a1_g4_04",
+            word: "vou / vai",
+            emoji: "🚶",
             translations: {
-              es: 'ir: voy/vas',
-              en: 'to go',
-              fr: 'aller: je vais/tu vas',
-              it: 'andare: vado/vai',
-              pt: 'ir: vou/vai'
+              es: "ir: voy/vas",
+              en: "to go",
+              fr: "aller: je vais/tu vas",
+              it: "andare: vado/vai",
+              pt: "ir: vou/vai",
+              de: "wollen",
+              ko: "원하다",
+              ja: "欲する",
+              ru: "хотеть",
+              ar: "يريد",
+              zh: "想要",
+              gn: "Jahecha",
+              qu: "Munay",
+              wo: "Baat",
+              ha: "so",
+              yo: "fẹ"
             },
             examples: [
               {
-                t: 'Vou ao trabalho. Você vai à academia?'
+                t: "Vou ao trabalho. Você vai à academia?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_05',
-            word: 'falo / fala',
-            emoji: '🗣️',
+            id: "pt_a1_g4_05",
+            word: "falo / fala",
+            emoji: "🗣️",
             translations: {
-              es: 'hablar: hablo/hablas',
-              en: 'to speak',
-              fr: 'parler: je parle/tu parles',
-              it: 'parlare: parlo/parli',
-              pt: 'falar: falo/fala'
+              es: "hablar: hablo/hablas",
+              en: "to speak",
+              fr: "parler: je parle/tu parles",
+              it: "parlare: parlo/parli",
+              pt: "falar: falo/fala",
+              de: "gehen",
+              ko: "가다",
+              ja: "行く",
+              ru: "идти",
+              ar: "يذهب",
+              zh: "去",
+              gn: "Jajái",
+              qu: "Riy",
+              wo: "Dem",
+              ha: "ya",
+              yo: "lọ"
             },
             examples: [
               {
-                t: 'Falo português. Você fala inglês?'
+                t: "Falo português. Você fala inglês?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_06',
-            word: 'como / come',
-            emoji: '🍽️',
+            id: "pt_a1_g4_06",
+            word: "como / come",
+            emoji: "🍽️",
             translations: {
-              es: 'comer: como/comes',
-              en: 'to eat',
-              fr: 'manger: je mange/tu manges',
-              it: 'mangiare: mangio/mangi',
-              pt: 'comer: como/come'
+              es: "comer: como/comes",
+              en: "to eat",
+              fr: "manger: je mange/tu manges",
+              it: "mangiare: mangio/mangi",
+              pt: "comer: como/come",
+              de: "sprechen",
+              ko: "말하다",
+              ja: "話す",
+              ru: "говорить",
+              ar: "يتحدث",
+              zh: "说话",
+              gn: "Ñe'ẽ",
+              qu: "Rimay",
+              wo: "Waxtaan",
+              ha: "yaya",
+              yo: "sọ"
             },
             examples: [
               {
-                t: 'Como macarrão todo dia.'
+                t: "Como macarrão todo dia."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_07',
-            word: 'bebo / bebe',
-            emoji: '🥤',
+            id: "pt_a1_g4_07",
+            word: "bebo / bebe",
+            emoji: "🥤",
             translations: {
-              es: 'beber: bebo/bebes',
-              en: 'to drink',
-              fr: 'boire: je bois/tu bois',
-              it: 'bere: bevo/bevi',
-              pt: 'beber: bebo/bebe'
+              es: "beber: bebo/bebes",
+              en: "to drink",
+              fr: "boire: je bois/tu bois",
+              it: "bere: bevo/bevi",
+              pt: "beber: bebo/bebe",
+              de: "essen",
+              ko: "먹다",
+              ja: "食べる",
+              ru: "есть",
+              ar: "يأكل",
+              zh: "吃",
+              gn: "Mba'e",
+              qu: "Mikuy",
+              wo: "Ñaan",
+              ha: "ciya",
+              yo: "jẹun"
             },
             examples: [
               {
-                t: 'Bebo café de manhã.'
+                t: "Bebo café de manhã."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_08',
-            word: 'moro / mora',
-            emoji: '🏠',
+            id: "pt_a1_g4_08",
+            word: "moro / mora",
+            emoji: "🏠",
             translations: {
-              es: 'vivir: vivo/vives',
-              en: 'to live',
+              es: "vivir: vivo/vives",
+              en: "to live",
               fr: "habiter: j'habite/tu habites",
-              it: 'vivere: vivo/vivi',
-              pt: 'morar: moro/mora'
+              it: "vivere: vivo/vivi",
+              pt: "morar: moro/mora",
+              de: "trinken",
+              ko: "마시다",
+              ja: "飲む",
+              ru: "пить",
+              ar: "يشرب",
+              zh: "喝",
+              gn: "Tereré",
+              qu: "Uqhay",
+              wo: "Jëm",
+              ha: "nuna",
+              yo: "mu"
             },
             examples: [
               {
-                t: 'Moro em São Paulo. Onde você mora?'
+                t: "Moro em São Paulo. Onde você mora?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_09',
-            word: 'posso / pode',
-            emoji: '💪',
+            id: "pt_a1_g4_09",
+            word: "posso / pode",
+            emoji: "💪",
             translations: {
-              es: 'poder: puedo/puedes',
-              en: 'can',
-              fr: 'pouvoir: je peux/tu peux',
-              it: 'potere: posso/puoi',
-              pt: 'poder: posso/pode'
+              es: "poder: puedo/puedes",
+              en: "can",
+              fr: "pouvoir: je peux/tu peux",
+              it: "potere: posso/puoi",
+              pt: "poder: posso/pode",
+              de: "leben",
+              ko: "살다",
+              ja: "生きる",
+              ru: "жить",
+              ar: "يعيش",
+              zh: "生活",
+              gn: "Jopara",
+              qu: "Kawsay",
+              wo: "Am",
+              ha: "rai",
+              yo: "gba"
             },
             examples: [
               {
-                t: 'Você pode falar mais devagar, por favor?'
+                t: "Você pode falar mais devagar, por favor?"
               }
             ]
           },
           {
-            id: 'pt_a1_g4_10',
-            word: 'gosto / não gosto',
-            emoji: '👍',
+            id: "pt_a1_g4_10",
+            word: "gosto / não gosto",
+            emoji: "👍",
             translations: {
-              es: 'me gusta/no me gusta',
+              es: "me gusta/no me gusta",
               en: "I like/I don't like",
               fr: "j'aime/je n'aime pas",
-              it: 'mi piace/non mi piace',
-              pt: 'gosto/não gosto'
+              it: "mi piace/non mi piace",
+              pt: "gosto/não gosto",
+              de: "können",
+              ko: "할 수 있다",
+              ja: "できる",
+              ru: "мочь",
+              ar: "يستطيع",
+              zh: "能够",
+              gn: "Poro",
+              qu: "Atisqa",
+              wo: "Dinaa",
+              ha: "zaka iyi",
+              yo: "le"
             },
             examples: [
               {
-                t: 'Gosto de café. Não gosto de chá.'
+                t: "Gosto de café. Não gosto de chá."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_11',
-            word: 'fui',
-            emoji: '⏪',
+            id: "pt_a1_g4_11",
+            word: "fui",
+            emoji: "⏪",
             translations: {
-              es: 'fui',
-              en: 'I went',
-              fr: 'je suis allé(e)',
-              it: 'sono andato/a',
-              pt: 'fui'
+              es: "fui",
+              en: "I went",
+              fr: "je suis allé(e)",
+              it: "sono andato/a",
+              pt: "fui",
+              de: "mögen",
+              ko: "좋아하다",
+              ja: "好き",
+              ru: "нравиться",
+              ar: "يعجب",
+              zh: "喜欢",
+              gn: "py’a",
+              qu: "kuyua",
+              wo: "bàgg",
+              ha: "so",
+              yo: "fẹ́"
             },
             examples: [
               {
-                t: 'Fui ao médico ontem.'
+                t: "Fui ao médico ontem."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_12',
-            word: 'trabalhei / falei',
-            emoji: '🔵',
+            id: "pt_a1_g4_12",
+            word: "trabalhei / falei",
+            emoji: "🔵",
             translations: {
-              es: 'trabajé/hablé (regulares)',
-              en: 'I worked/talked (regular)',
+              es: "trabajé/hablé (regulares)",
+              en: "I worked/talked (regular)",
               fr: "j'ai travaillé/parlé",
-              it: 'ho lavorato/parlato',
-              pt: 'trabalhei/falei (regular)'
+              it: "ho lavorato/parlato",
+              pt: "trabalhei/falei (regular)",
+              de: "gehen - Vergangenheit",
+              ko: "가다 - 과거",
+              ja: "行く - 過去",
+              ru: "идти - прошедшее время",
+              ar: "يذهب - الماضي",
+              zh: "去 - 过去式",
+              gn: "joapy - árape oîhate",
+              qu: "rikuy - kuna",
+              wo: "dem - bëj guées",
+              ha: "ya - lokaci na baya",
+              yo: "lọ - asiko ti kọja"
             },
             examples: [
               {
-                t: 'Trabalhei o dia todo.'
+                t: "Trabalhei o dia todo."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_13',
-            word: 'tive / vi / fiz',
-            emoji: '🔴',
+            id: "pt_a1_g4_13",
+            word: "tive / vi / fiz",
+            emoji: "🔴",
             translations: {
-              es: 'tuve/vi/hice (irregulares)',
-              en: 'I had/saw/did (irregular)',
+              es: "tuve/vi/hice (irregulares)",
+              en: "I had/saw/did (irregular)",
               fr: "j'ai eu/vu/fait",
-              it: 'ho avuto/visto/fatto',
-              pt: 'tive/vi/fiz (irregular)'
+              it: "ho avuto/visto/fatto",
+              pt: "tive/vi/fiz (irregular)",
+              de: "regelmäßige Vergangenheit -ar",
+              ko: "규칙적인 과거 -ar",
+              ja: "規則的な過去形 -ar",
+              ru: "регулярное прошедшее время -ar",
+              ar: "الماضي المنتظم -ar",
+              zh: "规则过去式 -ar",
+              gn: "árape oîhate pyahu -ar",
+              qu: "kuna llaki -ar",
+              wo: "bëj guées bu baax -ar",
+              ha: "lokaci na baya mai tsarki -ar",
+              yo: "asiko ti kọja patapata -ar"
             },
             examples: [
               {
-                t: 'Tive um problema ontem. Ele viu um filme.'
+                t: "Tive um problema ontem. Ele viu um filme."
               }
             ]
           },
           {
-            id: 'pt_a1_g4_D01',
-            type: 'dialogue',
-            context: 'Contando o que fez ontem',
+            id: "pt_a1_g4_D01",
+            type: "dialogue",
+            context: "Contando o que fez ontem",
             dialogue: [
               {
-                speaker: 'Valéria',
-                line: 'O que você fez ontem?'
+                speaker: "Valéria",
+                line: "O que você fez ontem?"
               },
               {
-                speaker: 'Tomás',
-                line: 'Fui à academia de manhã e depois almocei com minha família.'
+                speaker: "Tomás",
+                line: "Fui à academia de manhã e depois almocei com minha família."
               },
               {
-                speaker: 'Valéria',
-                line: 'Que legal! Onde vocês comeram?'
+                speaker: "Valéria",
+                line: "Que legal! Onde vocês comeram?"
               },
               {
-                speaker: 'Tomás',
-                line: 'Fomos a um restaurante italiano. E você?'
+                speaker: "Tomás",
+                line: "Fomos a um restaurante italiano. E você?"
               },
               {
-                speaker: 'Valéria',
-                line: 'Fiquei em casa. Tive muito trabalho.'
+                speaker: "Valéria",
+                line: "Fiquei em casa. Tive muito trabalho."
               },
               {
-                speaker: 'Tomás',
-                line: 'Conseguiu descansar um pouco?'
+                speaker: "Tomás",
+                line: "Conseguiu descansar um pouco?"
               },
               {
-                speaker: 'Valéria',
-                line: 'Sim, um pouco. Gosto de trabalhar em casa.'
+                speaker: "Valéria",
+                line: "Sim, um pouco. Gosto de trabalhar em casa."
               }
             ],
-            note: 'Verbos no passado: fui, almocei, tive, consegui.',
+            note: "Verbos no passado: fui, almocei, tive, consegui.",
             translations: {
-              es: 'Hablar del pasado',
-              en: 'Talking about the past',
-              fr: 'Parler du passé',
-              it: 'Parlare del passato',
-              pt: 'Falar do passado'
+              es: "Hablar del pasado",
+              en: "Talking about the past",
+              fr: "Parler du passé",
+              it: "Parlare del passato",
+              pt: "Falar do passado",
+              de: "Über die Vergangenheit sprechen",
+              ko: "과거에 대해 이야기하다",
+              ja: "過去について話す",
+              ru: "говорить о прошлом",
+              ar: "التحدث عن الماضي",
+              zh: "谈论过去",
+              gn: "Oñe’ẽ ha’eha’ẽmbyryete",
+              qu: "Kunanmanta rimay",
+              wo: "Waxtu bu am bëj guées",
+              ha: "Koya ba lokacin baya",
+              yo: "Gba èdè nípa bíi ajóṣe"
             }
           }
         ]
