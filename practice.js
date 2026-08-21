@@ -43,9 +43,8 @@ function getCardDisplayWord(card) {
 function getCardTranslation(card) {
     if (!card || card.isLetter) return card?.translation || '';
 
-    // Idioma de traducción = idioma global de la UI (nativo del usuario)
-    // No depende de sourceLang de la barra de idiomas
-    const native = appUILanguage || sourceLang || 'es';
+    // Idioma de traducción = idioma de referencia del usuario (sourceLang)
+    const native = sourceLang || appUILanguage || 'es';
 
     // 1. Buscar en translations enriquecidas
     if (card.translations?.[native]) {
@@ -65,7 +64,7 @@ function getCardTranslation(card) {
 }
 
 function getExampleTranslation(ex) {
-    const native = appUILanguage || sourceLang || 'es';
+    const native = sourceLang || appUILanguage || 'es';
     if (native === 'en') return ex.n || '';
     // Para español y otros: ex.n suele estar en inglés, mostrar entre paréntesis
     return ex.n || '';
