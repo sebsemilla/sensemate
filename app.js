@@ -1436,37 +1436,65 @@ function _renderA0Section(grid, targetCode, src) {
     if (!curr || !curr.groups || curr.level !== 'A0') return;
 
     const states = JSON.parse(localStorage.getItem('ls_card_states') || '{}');
-    const groupsHtml = curr.groups.map(g => {
+    const groups = curr.groups;
+
+    function trunc(str, max) { return str.length > max ? str.slice(0, max) + '…' : str; }
+
+    function groupNode(g) {
         const total   = g.cards.length;
         const learned = g.cards.filter(c => states[c.id] === 'learned').length;
-        const pct     = total ? Math.round(learned / total * 100) : 0;
-        return `
-            <div class="prac-group-card" data-complete="${pct === 100}">
-                <div class="prac-group-left">
-                    <div class="prac-group-icon">${g.icon}</div>
-                    <div class="prac-group-info">
-                        <div class="prac-group-name">${g.name}</div>
-                        <div class="prac-group-count">${total} tarjetas</div>
-                    </div>
-                </div>
-                <div class="prac-group-right">
-                    <div class="prac-group-pct">${pct === 100 ? '✓' : pct + '%'}</div>
-                    <div class="prac-group-bar"><div class="prac-group-fill" style="width:${pct}%"></div></div>
-                </div>
-            </div>`;
-    }).join('');
+        const done    = total > 0 && learned === total;
+        return `<div class="msnake-node ${done ? 'msnake-node--done' : 'msnake-node--pending'}" data-a0-group="${g.id}">
+            <span class="msnake-label">${g.icon} ${trunc(g.name, 14)}</span>
+        </div>`;
+    }
+
+    // Primera fila: hasta 4 grupos en hrow (L→R)
+    const firstRow  = groups.slice(0, 4);
+    const remainder = groups.slice(4);  // grupos que van en vblock derecho
+
+    let snakeHtml = '';
+
+    // hrow con los primeros grupos
+    let hrow = '<div class="msnake-hrow">';
+    firstRow.forEach((g, i) => {
+        hrow += groupNode(g);
+        if (i < firstRow.length - 1) hrow += '<div class="msnake-con-h"></div>';
+    });
+    hrow += '</div>';
+    snakeHtml += hrow;
+
+    if (remainder.length) {
+        // Giro derecho + vblock igual que intro A1
+        snakeHtml += `<div class="msnake-turn msnake-turn--right"><div class="msnake-turn-line"></div></div>`;
+
+        const sm   = remainder.length === 1 ? ' msnake-area--sm' : '';
+        const vcol = remainder.map((g, i) =>
+            groupNode(g) + (i < remainder.length - 1 ? '<div class="msnake-vcon"></div>' : '')
+        ).join('');
+
+        snakeHtml += `<div class="msnake-vblock">
+            <div class="msnake-area msnake-area--right${sm}">
+                <span class="msnake-area-ph">${curr.levelName || 'Abecedario'}</span>
+            </div>
+            <div class="msnake-vcol msnake-vcol--right">${vcol}</div>
+        </div>`;
+    }
 
     const section = document.createElement('div');
     section.id = 'msnake-a0-section';
-    section.style.cssText = 'margin-bottom:1.25rem;cursor:pointer';
+    section.style.cssText = 'margin-bottom:1rem';
     section.innerHTML = `
         <div style="display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem">
             <span style="background:#f97316;color:#fff;font-size:.7rem;font-weight:700;padding:.2rem .5rem;border-radius:6px;letter-spacing:.04em">A0</span>
             <span style="font-weight:600;font-size:.95rem">${curr.levelName || 'Abecedario'}</span>
         </div>
-        <div class="prac-groups">${groupsHtml}</div>`;
-    section.addEventListener('click', () => {
-        if (typeof showPracticeOverview === 'function') showPracticeOverview('A0');
+        <div class="mision-snake">${snakeHtml}</div>`;
+
+    section.querySelectorAll('[data-a0-group]').forEach(el => {
+        el.addEventListener('click', () => {
+            if (typeof showPracticeOverview === 'function') showPracticeOverview('A0');
+        });
     });
     grid.insertAdjacentElement('beforebegin', section);
 }
