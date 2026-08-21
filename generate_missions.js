@@ -87,6 +87,14 @@ function setOpenRouter(model) {
     activeModel        = model || 'meta-llama/llama-3.3-70b-instruct';
     activeProviderName = 'OpenRouter';
 }
+function setCohere(model) {
+    activeClient = new OpenAI({
+        apiKey:  process.env.COHERE_API_KEY,
+        baseURL: 'https://api.cohere.com/compatibility/v1',
+    });
+    activeModel        = model || 'command-a-03-2025';
+    activeProviderName = 'Cohere';
+}
 
 // Parsea "try again in Xh Xm Xs" / "Xm Xs" / "Xs" del mensaje de error 429
 function parseRetryAfterMs(errMsg) {
@@ -108,6 +116,7 @@ function providerDelay() { return activeProviderName === 'Gemini' ? 4500 : 2000;
 
 function initProvider(providerArg, modelArg) {
     const has = {
+        co: !!process.env.COHERE_API_KEY,
         ds: !!process.env.DEEPSEEK_API_KEY,
         ge: !!process.env.GEMINI_API_KEY,
         gr: !!process.env.GROQ_API_KEY,
@@ -115,7 +124,10 @@ function initProvider(providerArg, modelArg) {
         or: !!process.env.OPENROUTER_API_KEY,
     };
 
-    if (providerArg === 'openrouter') {
+    if (providerArg === 'cohere') {
+        if (!has.co) { console.error('❌ Falta COHERE_API_KEY en .env'); process.exit(1); }
+        setCohere(modelArg);
+    } else if (providerArg === 'openrouter') {
         if (!has.or) { console.error('❌ Falta OPENROUTER_API_KEY en .env'); process.exit(1); }
         setOpenRouter(modelArg);
     } else if (providerArg === 'gemini') {
@@ -132,12 +144,15 @@ function initProvider(providerArg, modelArg) {
         if (!has.ds) { console.error('❌ Falta DEEPSEEK_API_KEY en .env'); process.exit(1); }
         setDeepSeek();
     } else {
-        // auto: OpenRouter → DeepSeek → Mistral → Groq → Gemini
-        if (!has.or && !has.ds && !has.mi && !has.gr && !has.ge) {
-            console.error('❌ Falta al menos un API key (OPENROUTER_API_KEY, DEEPSEEK_API_KEY, MISTRAL_API_KEY, GROQ_API_KEY o GEMINI_API_KEY) en .env');
+        // auto: Cohere → OpenRouter → DeepSeek → Mistral → Groq → Gemini
+        if (!has.co && !has.or && !has.ds && !has.mi && !has.gr && !has.ge) {
+            console.error('❌ Falta al menos un API key en .env');
             process.exit(1);
         }
-        if (has.or) {
+        if (has.co) {
+            setCohere(modelArg);
+            fallbackAvailable = has.mi || has.gr || has.ge || has.or;
+        } else if (has.or) {
             setOpenRouter(modelArg);
             fallbackAvailable = has.ds || has.mi || has.gr || has.ge;
         } else if (has.ds) {

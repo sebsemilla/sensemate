@@ -5,7 +5,7 @@
 LOG=/data/data/com.termux/files/home/sensemate/queue_africa.log
 SC_T="node /data/data/com.termux/files/home/sensemate/sensemate/generate_vocab_contextual.js"
 SC_M="node /data/data/com.termux/files/home/sensemate/sensemate/generate_missions.js"
-P="--provider=openrouter"
+P="--provider=cohere"
 
 run_until_done() {
   local TRIES=0

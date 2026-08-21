@@ -61,16 +61,28 @@ function setOpenRouter(model) {
     activeModel = model || 'meta-llama/llama-3.3-70b-instruct';
     activeProviderName = 'OpenRouter';
 }
+function setCohere(model) {
+    activeClient = new OpenAI({
+        apiKey:  process.env.COHERE_API_KEY,
+        baseURL: 'https://api.cohere.com/compatibility/v1',
+    });
+    activeModel = model || 'command-a-03-2025';
+    activeProviderName = 'Cohere';
+}
 
 function initProvider(providerArg, modelArg) {
     const has = {
+        co: !!process.env.COHERE_API_KEY,
         ds: !!process.env.DEEPSEEK_API_KEY,
         mi: !!process.env.MISTRAL_API_KEY,
         ge: !!process.env.GEMINI_API_KEY,
         gr: !!process.env.GROQ_API_KEY,
         or: !!process.env.OPENROUTER_API_KEY,
     };
-    if (providerArg === 'openrouter') {
+    if (providerArg === 'cohere') {
+        if (!has.co) { console.error('❌ Falta COHERE_API_KEY en .env'); process.exit(1); }
+        setCohere(modelArg);
+    } else if (providerArg === 'openrouter') {
         if (!has.or) { console.error('❌ Falta OPENROUTER_API_KEY en .env'); process.exit(1); }
         setOpenRouter(modelArg);
     } else if (providerArg === 'mistral') {
@@ -86,8 +98,9 @@ function initProvider(providerArg, modelArg) {
         if (!has.ds) { console.error('❌ Falta DEEPSEEK_API_KEY en .env'); process.exit(1); }
         setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge || has.or;
     } else {
-        if (!has.ds && !has.mi && !has.ge && !has.gr && !has.or) { console.error('❌ Falta al menos un API key en .env'); process.exit(1); }
-        if (has.or) { setOpenRouter(modelArg); fallbackAvailable = has.ds || has.mi || has.gr || has.ge; }
+        if (!has.co && !has.ds && !has.mi && !has.ge && !has.gr && !has.or) { console.error('❌ Falta al menos un API key en .env'); process.exit(1); }
+        if (has.co) { setCohere(modelArg); fallbackAvailable = has.mi || has.gr || has.ge || has.or; }
+        else if (has.or) { setOpenRouter(modelArg); fallbackAvailable = has.ds || has.mi || has.gr || has.ge; }
         else if (has.ds) { setDeepSeek(); fallbackAvailable = has.mi || has.gr || has.ge; }
         else if (has.mi) { setMistral(); }
         else if (has.gr) { setGroq(); }
