@@ -76,7 +76,7 @@ function getLevelCurriculum(langCode, level) {
 function getAvailableLevels(langCode) {
     const levels = [{ key:'A0', label:'A0' }];
     if (typeof FLASHCARD_A1 !== 'undefined' && (FLASHCARD_A1[langCode] || FLASHCARD_A1['es'])) {
-        levels.push({ key:'A1', label:'A1' });
+        levels.push({ key:'A1', label:'Saludos/Introd.' });
     }
     return levels;
 }
