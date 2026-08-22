@@ -219,6 +219,11 @@ async function loadMembershipSection() {
         if (pr.ok) pricing = await pr.json();
     } catch {}
 
+    // Auto-set region from geo-IP country (latam countries → MercadoPago, others → Stripe)
+    const _LATAM_CODES = new Set(['AR','BR','MX','CL','CO','PE','UY','PY','BO','VE','EC','GT','HN','SV','NI','CR','PA','CU','DO','PR','HT','JM','TT','BB','GY','SR','BZ','GF']);
+    if (!localStorage.getItem('ls_region_manual')) {
+        localStorage.setItem('ls_region', _LATAM_CODES.has(pricing.countryCode) ? 'latam' : 'eu');
+    }
     const region  = localStorage.getItem('ls_region') || 'latam';
     const lang    = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES    = lang !== 'en';
@@ -584,7 +589,10 @@ async function loadMembershipSection() {
                 _plansTab = 'contributors';
             } else {
                 _plansTab = 'region';
-                if (btn.dataset.region) localStorage.setItem('ls_region', btn.dataset.region);
+                if (btn.dataset.region) {
+                    localStorage.setItem('ls_region', btn.dataset.region);
+                    localStorage.setItem('ls_region_manual', '1');
+                }
             }
             loadMembershipSection();
         });
@@ -618,6 +626,10 @@ async function _loadMembershipLite() {
         if (pr.ok) pricing = await pr.json();
     } catch {}
 
+    const _LATAM_CODES2 = new Set(['AR','BR','MX','CL','CO','PE','UY','PY','BO','VE','EC','GT','HN','SV','NI','CR','PA','CU','DO','PR','HT','JM','TT','BB','GY','SR','BZ','GF']);
+    if (!localStorage.getItem('ls_region_manual')) {
+        localStorage.setItem('ls_region', _LATAM_CODES2.has(pricing.countryCode) ? 'latam' : 'eu');
+    }
     const region      = localStorage.getItem('ls_region') || 'latam';
     const lang        = (typeof appUILanguage !== 'undefined' ? appUILanguage : 'es');
     const isES        = lang !== 'en';
@@ -781,6 +793,7 @@ async function _loadMembershipLite() {
     document.querySelectorAll('.plans-region-selector--lite .plans-region-btn').forEach(btn => {
         btn.addEventListener('click', () => {
             localStorage.setItem('ls_region', btn.dataset.region);
+            localStorage.setItem('ls_region_manual', '1');
             _loadMembershipLite();
         });
     });
