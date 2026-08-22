@@ -4865,6 +4865,135 @@ function loadSimpleMode() {
         });
     })();
 
+    // ── Record Example Modal ──────────────────────────────────
+    let _recRec = null, _recChunks = [], _recB64 = null, _recMime = null;
+
+    function _openRecordExampleModal(word, srcLang, tgtLang) {
+        document.querySelector('.smp-rec-modal-overlay')?.remove();
+
+        const overlay = document.createElement('div');
+        overlay.className = 'smp-rec-modal-overlay';
+        overlay.innerHTML = `
+            <div class="smp-rec-modal">
+                <div class="smp-rec-modal-header">
+                    <span class="smp-rec-modal-title">Record your voice</span>
+                    <button class="smp-rec-modal-close">✕</button>
+                </div>
+                <p class="smp-rec-modal-sub">Make your best to leave your example</p>
+                <div class="smp-rec-indicator" id="recIndicator">
+                    <div class="smp-rec-dot"></div>
+                    <span class="smp-rec-status" id="recStatus">Listo para grabar</span>
+                </div>
+                <button class="smp-rec-record-btn" id="recRecordBtn">⏺ Grabar</button>
+                <div class="smp-rec-actions hidden" id="recActions">
+                    <button class="smp-rec-again-btn" id="recAgainBtn">↺ Try again</button>
+                    <button class="smp-rec-save-btn" id="recSaveBtn">💾 Save</button>
+                </div>
+                <textarea class="smp-rec-text" id="recExampleText" placeholder="Escribe el ejemplo (opcional)..." rows="2"></textarea>
+                <div class="smp-rec-feedback hidden" id="recFeedback"></div>
+            </div>`;
+
+        document.body.appendChild(overlay);
+
+        const closeBtn    = overlay.querySelector('.smp-rec-modal-close');
+        const recordBtn   = overlay.querySelector('#recRecordBtn');
+        const actionsDiv  = overlay.querySelector('#recActions');
+        const againBtn    = overlay.querySelector('#recAgainBtn');
+        const saveBtn     = overlay.querySelector('#recSaveBtn');
+        const statusEl    = overlay.querySelector('#recStatus');
+        const indicatorEl = overlay.querySelector('#recIndicator');
+        const feedbackEl  = overlay.querySelector('#recFeedback');
+        _recB64 = null; _recMime = null;
+
+        closeBtn.addEventListener('click', () => { _stopRecording(); overlay.remove(); });
+        overlay.addEventListener('click', e => { if (e.target === overlay) { _stopRecording(); overlay.remove(); } });
+
+        function _stopRecording() {
+            if (_recRec && _recRec.state === 'recording') _recRec.stop();
+        }
+
+        recordBtn.addEventListener('click', async () => {
+            if (_recRec && _recRec.state === 'recording') {
+                _recRec.stop();
+                return;
+            }
+            let stream;
+            try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
+            catch(e) { statusEl.textContent = 'Sin acceso al micrófono'; return; }
+
+            _recChunks = [];
+            _recMime = MediaRecorder.isTypeSupported('audio/webm;codecs=opus') ? 'audio/webm;codecs=opus' : 'audio/webm';
+            _recRec = new MediaRecorder(stream, { mimeType: _recMime });
+            _recRec.ondataavailable = e => { if (e.data.size > 0) _recChunks.push(e.data); };
+            _recRec.onstop = () => {
+                stream.getTracks().forEach(t => t.stop());
+                indicatorEl.classList.remove('recording');
+                recordBtn.textContent = '⏺ Grabar';
+                statusEl.textContent = 'Grabación lista';
+                const blob = new Blob(_recChunks, { type: _recMime });
+                const reader = new FileReader();
+                reader.onloadend = () => {
+                    _recB64 = reader.result.split(',')[1];
+                    actionsDiv.classList.remove('hidden');
+                };
+                reader.readAsDataURL(blob);
+            };
+            _recRec.start();
+            indicatorEl.classList.add('recording');
+            recordBtn.textContent = '⏹ Detener';
+            statusEl.textContent = 'Grabando...';
+            actionsDiv.classList.add('hidden');
+        });
+
+        againBtn.addEventListener('click', () => {
+            _recB64 = null;
+            actionsDiv.classList.add('hidden');
+            statusEl.textContent = 'Listo para grabar';
+            indicatorEl.classList.remove('recording');
+            recordBtn.textContent = '⏺ Grabar';
+            feedbackEl.classList.add('hidden');
+        });
+
+        saveBtn.addEventListener('click', async () => {
+            const exampleText = overlay.querySelector('#recExampleText').value.trim();
+            if (!_recB64 && !exampleText) { feedbackEl.textContent = 'Grabá audio o escribí un ejemplo.'; feedbackEl.className = 'smp-rec-feedback smp-rec-feedback--error'; feedbackEl.classList.remove('hidden'); return; }
+            saveBtn.disabled = true;
+            saveBtn.textContent = 'Guardando...';
+            try {
+                const r = await _authFetch(`${_API_HOST}/examples/record`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ word, sourceLang: srcLang, targetLang: tgtLang, exampleText, audioB64: _recB64, mimeType: _recMime }),
+                });
+                const data = await r.json();
+                if (!r.ok) { feedbackEl.textContent = data.error || 'Error al guardar.'; feedbackEl.className = 'smp-rec-feedback smp-rec-feedback--error'; feedbackEl.classList.remove('hidden'); saveBtn.disabled = false; saveBtn.textContent = '💾 Save'; return; }
+                feedbackEl.textContent = '✅ ¡Ejemplo enviado! Será revisado antes de publicarse.';
+                feedbackEl.className = 'smp-rec-feedback smp-rec-feedback--ok';
+                feedbackEl.classList.remove('hidden');
+                setTimeout(() => overlay.remove(), 2500);
+            } catch(e) { feedbackEl.textContent = 'Error de conexión.'; feedbackEl.className = 'smp-rec-feedback smp-rec-feedback--error'; feedbackEl.classList.remove('hidden'); saveBtn.disabled = false; saveBtn.textContent = '💾 Save'; }
+        });
+    }
+
+    async function _loadCommunityExamples(lexEl, word, srcLang, tgtLang) {
+        try {
+            const r = await fetch(`${_API_HOST}/examples?word=${encodeURIComponent(word)}&source=${srcLang}&target=${tgtLang}`);
+            if (!r.ok) return;
+            const examples = await r.json();
+            if (!examples.length) return;
+            const section = document.createElement('div');
+            section.className = 'smp-community-examples';
+            section.innerHTML = `<div class="smp-community-title">🌍 Ejemplos de la comunidad</div>` +
+                examples.map(ex => `
+                    <div class="smp-community-item">
+                        ${ex.example_text ? `<span class="smp-community-text">"${escapeHtml(ex.example_text)}"</span>` : ''}
+                        ${ex.has_audio ? `<audio controls src="${_API_HOST}/examples/${ex.id}/audio" class="smp-community-audio"></audio>` : ''}
+                        <span class="smp-community-meta">— ${escapeHtml(ex.user_name)}</span>
+                    </div>`).join('');
+            lexEl.appendChild(section);
+        } catch(e) { /* silencioso */ }
+    }
+
     // ── Volver ────────────────────────────────────────────────
     document.getElementById('backMenuBtn').addEventListener('click', showMainMenu);
 
@@ -4982,6 +5111,15 @@ function loadSimpleMode() {
                         if (ex) speakText(ex.target, targetLang);
                     };
                 });
+                // "Record example" button — Premium only (lexical already gated)
+                const recBtn = document.createElement('button');
+                recBtn.className = 'smp-record-example-btn';
+                recBtn.innerHTML = `🎙️ Record example`;
+                recBtn.addEventListener('click', () => _openRecordExampleModal(text, sourceLang, targetLang));
+                lexEl.appendChild(recBtn);
+
+                // Load community examples
+                _loadCommunityExamples(lexEl, text, sourceLang, targetLang);
             } else {
                 lexEl.classList.add('hidden');
             }

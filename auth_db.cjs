@@ -57,6 +57,24 @@ try { db.exec(`ALTER TABLE users ADD COLUMN profile_photo TEXT DEFAULT NULL`); }
 // Idioma de UI elegido por el usuario (persiste cross-device)
 try { db.exec(`ALTER TABLE users ADD COLUMN ui_language TEXT DEFAULT NULL`); } catch {}
 
+// User voice examples
+db.exec(`
+  CREATE TABLE IF NOT EXISTS user_examples (
+    id           TEXT PRIMARY KEY,
+    user_id      TEXT NOT NULL,
+    word         TEXT NOT NULL,
+    source_lang  TEXT NOT NULL,
+    target_lang  TEXT NOT NULL,
+    example_text TEXT,
+    audio_b64    TEXT,
+    mime_type    TEXT DEFAULT 'audio/webm',
+    status       TEXT DEFAULT 'pending',
+    created_at   TEXT NOT NULL,
+    reviewed_at  TEXT,
+    reviewed_by  TEXT
+  )
+`);
+
 // Seed admin user from env vars — no valores hardcodeados
 function seedAdminUser() {
     const adminUsername = process.env.ADMIN_USERNAME;
@@ -974,6 +992,46 @@ function dbGetComments(postId, limit = 50) {
     return db.prepare('SELECT id,author,text,ts FROM post_comments WHERE postId=? ORDER BY ts DESC LIMIT ?').all(postId, limit);
 }
 
+// ─── User Examples ─────────────────────────────────────────────
+function createUserExample({ userId, word, sourceLang, targetLang, exampleText, audioB64, mimeType }) {
+    const id = crypto.randomUUID();
+    db.prepare(`
+        INSERT INTO user_examples (id, user_id, word, source_lang, target_lang, example_text, audio_b64, mime_type, status, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, 'pending', ?)
+    `).run(id, userId, word, sourceLang, targetLang, exampleText || null, audioB64 || null, mimeType || 'audio/webm', new Date().toISOString());
+    return id;
+}
+
+function getApprovedExamples(word, sourceLang, targetLang) {
+    return db.prepare(`
+        SELECT id, user_id, word, source_lang, target_lang, example_text, audio_b64, mime_type, created_at
+        FROM user_examples
+        WHERE word = ? AND source_lang = ? AND target_lang = ? AND status = 'approved'
+        ORDER BY created_at DESC LIMIT 10
+    `).all(word, sourceLang, targetLang);
+}
+
+function getAdminExamples(status = 'pending', limit = 100) {
+    const where = status === 'all' ? '' : `WHERE ue.status = '${status === 'approved' ? 'approved' : status === 'rejected' ? 'rejected' : 'pending'}'`;
+    return db.prepare(`
+        SELECT ue.*, u.name as user_name, u.email as user_email
+        FROM user_examples ue
+        LEFT JOIN users u ON ue.user_id = u.id
+        ${where}
+        ORDER BY ue.created_at DESC LIMIT ?
+    `).all(limit);
+}
+
+function reviewExample(id, status, reviewedBy) {
+    db.prepare(`
+        UPDATE user_examples SET status = ?, reviewed_at = ?, reviewed_by = ? WHERE id = ?
+    `).run(status, new Date().toISOString(), reviewedBy, id);
+}
+
+function deleteUserExample(id) {
+    db.prepare('DELETE FROM user_examples WHERE id = ?').run(id);
+}
+
 module.exports = {
     register, login, loginWithGoogle, verifyToken, optionalAuth, signToken, getUserById, setUserPlan, setClassroomAddon,
     setAuthCookie, clearAuthCookie,
@@ -998,4 +1056,6 @@ module.exports = {
     dbSaveScan, dbLoadScans,
     // Likes & comments
     dbToggleLike, dbGetLikes, dbAddComment, dbGetComments,
+    // User examples
+    createUserExample, getApprovedExamples, getAdminExamples, reviewExample, deleteUserExample,
 };

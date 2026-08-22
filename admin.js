@@ -59,6 +59,7 @@ async function loadAdminPanel() {
                         <button class="admin-sec-item" data-tab="tools">🔧 Herramientas</button>
                         <button class="admin-sec-item" data-tab="membership">💳 Membresías</button>
                         <button class="admin-sec-item" data-tab="bots">🤖 Bots</button>
+                        <button class="admin-sec-item" data-tab="examples">🎙️ Ejemplos</button>
                     </div>
                 </div>
 
@@ -174,6 +175,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderUsers(content);
         } else if (tab === 'bots') {
             await _adminRenderBots(content);
+        } else if (tab === 'examples') {
+            await _adminRenderExamples(content);
         }
     } catch (err) {
         content.innerHTML = `<div class="admin-error">❌ Error: ${escapeHtml(err.message)}</div>`;
@@ -2530,4 +2533,76 @@ function _initBotForm(existingBot, slot, botsArr, container) {
         // Recargar la lista
         await _adminRenderBots(container);
     });
+}
+
+async function _adminRenderExamples(container) {
+    const statusFilters = ['pending', 'approved', 'rejected', 'all'];
+    let activeFilter = 'pending';
+
+    async function load(filter) {
+        activeFilter = filter;
+        const res = await fetch(`${_API_HOST}/admin/examples?status=${filter}`, {
+            headers: { 'x-admin-token': ADMIN_TOKEN }
+        });
+        if (!res.ok) throw new Error('Error al cargar ejemplos');
+        return res.json();
+    }
+
+    async function render(filter = 'pending') {
+        container.innerHTML = `<div class="admin-loading"><div class="school-dots"><span></span><span></span><span></span></div></div>`;
+        let rows;
+        try { rows = await load(filter); } catch(e) { container.innerHTML = `<div class="admin-error">❌ ${escapeHtml(e.message)}</div>`; return; }
+
+        const filterBtns = statusFilters.map(f =>
+            `<button class="admin-filter-btn${f === filter ? ' active' : ''}" data-f="${f}">${f === 'all' ? 'Todos' : f === 'pending' ? '⏳ Pendientes' : f === 'approved' ? '✅ Aprobados' : '❌ Rechazados'}</button>`
+        ).join('');
+
+        container.innerHTML = `
+            <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem">${filterBtns}</div>
+            ${rows.length === 0 ? '<div class="admin-empty">📭 No hay ejemplos con este filtro.</div>' : ''}
+            <div id="adminExamplesList">
+            ${rows.map(r => `
+                <div class="admin-example-card" data-id="${escapeHtml(r.id)}">
+                    <div class="admin-example-meta">
+                        <span class="admin-example-word">"${escapeHtml(r.word)}"</span>
+                        <span class="admin-example-langs">${escapeHtml(r.source_lang)} → ${escapeHtml(r.target_lang)}</span>
+                        <span class="admin-example-user">👤 ${escapeHtml(r.user_name)}</span>
+                        <span class="admin-example-date">${new Date(r.created_at).toLocaleDateString('es-AR')}</span>
+                        <span class="admin-example-status admin-example-status--${r.status}">${r.status}</span>
+                    </div>
+                    ${r.example_text ? `<div class="admin-example-text">"${escapeHtml(r.example_text)}"</div>` : ''}
+                    ${r.has_audio ? `<audio controls src="${_API_HOST}/admin/examples/${r.id}/audio" style="width:100%;margin:.5rem 0;max-width:300px"></audio>` : '<span style="font-size:.75rem;color:#94a3b8">Sin audio</span>'}
+                    <div class="admin-example-actions">
+                        ${r.status !== 'approved' ? `<button class="admin-approve-btn" data-id="${escapeHtml(r.id)}">✅ Aprobar</button>` : ''}
+                        ${r.status !== 'rejected' ? `<button class="admin-reject-btn" data-id="${escapeHtml(r.id)}">❌ Rechazar</button>` : ''}
+                        <button class="admin-delete-btn" data-id="${escapeHtml(r.id)}">🗑️ Eliminar</button>
+                    </div>
+                </div>`).join('')}
+            </div>`;
+
+        container.querySelectorAll('.admin-filter-btn').forEach(b => {
+            b.addEventListener('click', () => render(b.dataset.f));
+        });
+        container.querySelectorAll('.admin-approve-btn').forEach(b => {
+            b.addEventListener('click', async () => {
+                await fetch(`${_API_HOST}/admin/examples/${b.dataset.id}`, { method: 'PATCH', headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN }, body: JSON.stringify({ status: 'approved' }) });
+                render(activeFilter);
+            });
+        });
+        container.querySelectorAll('.admin-reject-btn').forEach(b => {
+            b.addEventListener('click', async () => {
+                await fetch(`${_API_HOST}/admin/examples/${b.dataset.id}`, { method: 'PATCH', headers: { 'Content-Type': 'application/json', 'x-admin-token': ADMIN_TOKEN }, body: JSON.stringify({ status: 'rejected' }) });
+                render(activeFilter);
+            });
+        });
+        container.querySelectorAll('.admin-delete-btn').forEach(b => {
+            b.addEventListener('click', async () => {
+                if (!confirm('¿Eliminar este ejemplo?')) return;
+                await fetch(`${_API_HOST}/admin/examples/${b.dataset.id}`, { method: 'DELETE', headers: { 'x-admin-token': ADMIN_TOKEN } });
+                render(activeFilter);
+            });
+        });
+    }
+
+    await render('pending');
 }
