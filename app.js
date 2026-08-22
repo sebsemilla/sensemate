@@ -4814,6 +4814,53 @@ function loadSimpleMode() {
 
     if (!SpeechRec) micBtn.style.display = 'none';
 
+    // ── Prompt de activación de mic al entrar ─────────────────
+    function _showMicReadyToast() {
+        const t = document.createElement('div');
+        t.className = 'smp-mic-ready-toast';
+        t.innerHTML = `🎤 Micrófono activado — listo para grabar`;
+        document.body.appendChild(t);
+        requestAnimationFrame(() => t.classList.add('visible'));
+        setTimeout(() => {
+            t.classList.remove('visible');
+            setTimeout(() => t.remove(), 400);
+        }, 3000);
+    }
+
+    (function _showMicPrompt() {
+        if (localStorage.getItem('smp_mic_prompt_dismissed')) return;
+        const hasMic = !!navigator.mediaDevices?.getUserMedia;
+        if (!hasMic) return;
+
+        const banner = document.createElement('div');
+        banner.className = 'smp-mic-prompt';
+        banner.innerHTML = `
+            <span class="smp-mic-prompt-icon">🎤</span>
+            <div class="smp-mic-prompt-body">
+                <strong>¿Activar micrófono?</strong>
+                <span>Podés dictar texto. La primera vez puede tardar unos segundos en estar listo.</span>
+            </div>
+            <div class="smp-mic-prompt-actions">
+                <button class="smp-mic-prompt-yes">Activar</button>
+                <button class="smp-mic-prompt-no">Ahora no</button>
+            </div>`;
+
+        const container = document.querySelector('.smp-container') || document.querySelector('#smpContainer') || sourceArea.closest('div');
+        sourceArea.parentElement.insertAdjacentElement('beforebegin', banner);
+
+        banner.querySelector('.smp-mic-prompt-yes').addEventListener('click', () => {
+            banner.remove();
+            localStorage.setItem('smp_mic_prompt_dismissed', '1');
+            voiceSelect.value = 'mms';
+            voiceSelect.dispatchEvent(new Event('change'));
+            setTimeout(_showMicReadyToast, 300);
+        });
+        banner.querySelector('.smp-mic-prompt-no').addEventListener('click', () => {
+            banner.remove();
+            localStorage.setItem('smp_mic_prompt_dismissed', '1');
+        });
+    })();
+
     // ── Volver ────────────────────────────────────────────────
     document.getElementById('backMenuBtn').addEventListener('click', showMainMenu);
 
