@@ -1507,14 +1507,18 @@ function _renderA0Section(grid, targetCode, src, videoMods = []) {
         el.addEventListener('click', () => {
             const videoId = el.dataset.a0Video;
             if (!videoId) return;
-            const area = section.querySelector('.msnake-area');
+            // Usa el área propia del A0 si existe; sino la primera del A1 (donde está el chat IA)
+            const area = section.querySelector('.msnake-area') || grid.querySelector('.msnake-area');
             if (!area) return;
             if (el.classList.contains('msnake-node--playing')) {
                 el.classList.remove('msnake-node--playing');
-                area.innerHTML = `<span class="msnake-area-ph">${curr.levelName || 'Abecedario'}</span>`;
+                area.classList.remove('msnake-area--video');
+                area.innerHTML = `<span class="msnake-area-ph">${area.dataset.origPh || curr.levelName || 'Abecedario'}</span>`;
             } else {
                 section.querySelectorAll('[data-a0-video]').forEach(v => v.classList.remove('msnake-node--playing'));
                 el.classList.add('msnake-node--playing');
+                area.dataset.origPh = area.querySelector('.msnake-area-ph')?.textContent || area.dataset.origPh || '';
+                area.classList.add('msnake-area--video');
                 area.innerHTML = `<div class="msnake-video-embed"><iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`;
             }
         });
