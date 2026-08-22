@@ -286,8 +286,11 @@ function _roundPrice(amount, currency) {
 
 app.get('/api/pricing', async (req, res) => {
     const FALLBACK = { currency: 'ARS', symbol: '$', monthly: 2500, annual: 20000, countryCode: 'AR', countryName: 'Argentina' };
-    const monthlyARS = 2500;
-    const annualARS  = 20000;
+    // Reference prices in USD; ARS has its own fixed local pricing
+    const MONTHLY_USD = 5;
+    const ANNUAL_USD  = 10;
+    const ARS_MONTHLY = 2500;
+    const ARS_ANNUAL  = 20000;
 
     try {
         // 1. Detect country
@@ -306,21 +309,24 @@ app.get('/api/pricing', async (req, res) => {
         const entry = COUNTRY_CURRENCY[countryCode] || { currency: 'USD', symbol: 'u$s', name: countryCode };
         const { currency, symbol, name: countryName } = entry;
 
-        // 3. Fetch exchange rates (cached 6h)
+        // ARS uses fixed local prices (not USD-based)
+        if (currency === 'ARS') {
+            return res.json({ currency, symbol, monthly: ARS_MONTHLY, annual: ARS_ANNUAL, countryCode, countryName });
+        }
+
+        // 3. Fetch exchange rates USD-based (cached 6h)
         const now = Date.now();
         if (!_pricingCache || (now - _pricingCache.fetchedAt) > 6 * 60 * 60 * 1000) {
-            const ratesRes = await axios.get('https://open.er-api.com/v6/latest/ARS', { timeout: 5000 });
+            const ratesRes = await axios.get('https://open.er-api.com/v6/latest/USD', { timeout: 5000 });
             _pricingCache = { rates: ratesRes.data.rates, fetchedAt: now };
         }
         const rates = _pricingCache.rates;
-        const rate  = rates[currency];
+        const rate  = rates[currency]; // local currency per 1 USD
         if (!rate) return res.json(FALLBACK);
 
-        // 4. Convert — fixed overrides for specific currencies (avoid exchange-rate drift)
-        const FIXED_MONTHLY = { BRL: 56 };
-        const FIXED_ANNUAL  = { BRL: 448 };
-        const monthly = FIXED_MONTHLY[currency] ?? _roundPrice(monthlyARS / rate, currency);
-        const annual  = FIXED_ANNUAL[currency]  ?? _roundPrice(annualARS  / rate, currency);
+        // 4. Convert from USD reference prices
+        const monthly = _roundPrice(MONTHLY_USD * rate, currency);
+        const annual  = _roundPrice(ANNUAL_USD  * rate, currency);
 
         return res.json({ currency, symbol, monthly, annual, countryCode, countryName });
     } catch (e) {
