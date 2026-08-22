@@ -9907,6 +9907,25 @@ body.dark-mode .prac-ex-audio-btn { border-color: rgba(99,102,241,0.35); }
 
 /* ============ ADMIN PANEL ============ */
 
+.header-subscribe-btn {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(109,40,217,0.35);
+    letter-spacing: 0.02em;
+}
+.header-subscribe-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px rgba(109,40,217,0.5);
+}
+
 .admin-header-btn {
     background: linear-gradient(135deg, #1e293b, #334155);
     color: #f8fafc;
