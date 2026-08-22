@@ -339,9 +339,8 @@ function _renderBrowser(container) {
   }
 
   const all    = _getAllImmContent();
-  // Filtrar por idioma activo; si no hay contenido para ese idioma mostrar todos
   const byLang = all.filter(c => c.language === activeLang);
-  const filtered = (byLang.length > 0 ? byLang : all).filter(c =>
+  const filtered = byLang.filter(c =>
     _matchesLangFilter(c.level, activeLevel) &&
     _matchesLangFilter(c.targetLanguage, activeTargetLang) &&
     (activeSubLang === 'all' || c.subtitleLang === activeSubLang)
