@@ -2530,23 +2530,23 @@ body.dark-mode .smp-voice-notice {
 }
 .smp-voice-notice svg { flex-shrink: 0; }
 
-/* ── Azure trial notice ── */
-.smp-azure-trial-notice {
+/* ── Meta MMS trial notice ── */
+.smp-mms-trial-notice {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: .5rem;
     margin-top: .5rem;
     padding: .55rem .85rem;
-    background: #eff6ff;
-    border: 1px solid #93c5fd;
+    background: #f0fdf4;
+    border: 1px solid #86efac;
     border-radius: .55rem;
     font-size: .78rem;
-    color: #1e40af;
+    color: #166534;
     line-height: 1.4;
 }
-body.dark-mode .smp-azure-trial-notice { background: rgba(59,130,246,.1); border-color: rgba(59,130,246,.35); color: #93c5fd; }
-.smp-azure-trial-close {
+body.dark-mode .smp-mms-trial-notice { background: rgba(34,197,94,.08); border-color: rgba(34,197,94,.3); color: #86efac; }
+.smp-mms-trial-close {
     flex-shrink: 0;
     background: none;
     border: none;
@@ -2556,7 +2556,7 @@ body.dark-mode .smp-azure-trial-notice { background: rgba(59,130,246,.1); border
     opacity: .6;
     padding: 0 .1rem;
 }
-.smp-azure-trial-close:hover { opacity: 1; }
+.smp-mms-trial-close:hover { opacity: 1; }
 
 /* ── Acciones extra (IA in Context) ── */
 .smp-extra-actions {

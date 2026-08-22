@@ -4453,7 +4453,7 @@ function loadSimpleMode() {
                     <select class="school-level-select" id="voiceMethodSelect">
                         <option value="none">— Ninguna —</option>
                         <option value="webspeech">Web (Chrome)</option>
-                        <option value="azure">☁️ Azure Speech</option>
+                        <option value="mms">🌍 Meta MMS</option>
                     </select>
                 </div>
             </div>
@@ -4618,10 +4618,10 @@ function loadSimpleMode() {
     voiceSelect.addEventListener('change', () => {
         const val = voiceSelect.value;
         const isWeb   = val === 'webspeech';
-        const isAzure = val === 'azure';
-        micBtn.style.display = (isWeb || isAzure) ? '' : 'none';
+        const isMms   = val === 'mms';
+        micBtn.style.display = (isWeb || isMms) ? '' : 'none';
         voiceNotice.classList.toggle('hidden', !isWeb);
-        if (!isAzure) document.querySelector('.smp-azure-trial-notice')?.remove();
+        if (!isMms) document.querySelector('.smp-mms-trial-notice')?.remove();
     });
 
     // ── Contexto opcional ─────────────────────────────────────
@@ -4711,43 +4711,42 @@ function loadSimpleMode() {
         recognition.onerror = () => { isRecording = false; micBtn.dataset.recording = 'false'; _setMicFloatState(false); };
     }
 
-    // ── Azure STT ─────────────────────────────────────────────
-    const _AZURE_LOCALE = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR', zh:'zh-CN', ja:'ja-JP', ko:'ko-KR', ar:'ar-SA', ru:'ru-RU', nl:'nl-NL', pl:'pl-PL', tr:'tr-TR', sw:'sw-KE', am:'am-ET', yo:'yo-NG', ha:'ha-NG', zu:'zu-ZA' };
-    let _azureRec = null, _azureChunks = [], _isAzureRec = false;
+    // ── Meta MMS STT ──────────────────────────────────────────
+    let _mmsRec = null, _mmsChunks = [], _isMmsRec = false;
 
-    function _showAzureTrialNotice(msg) {
-        document.querySelector('.smp-azure-trial-notice')?.remove();
+    function _showMmsNotice(msg) {
+        document.querySelector('.smp-mms-trial-notice')?.remove();
         const el = document.createElement('div');
-        el.className = 'smp-azure-trial-notice';
-        el.innerHTML = `<span>${msg}</span><button class="smp-azure-trial-close" onclick="this.parentElement.remove()">✕</button>`;
+        el.className = 'smp-mms-trial-notice';
+        el.innerHTML = `<span>${msg}</span><button class="smp-mms-trial-close" onclick="this.parentElement.remove()">✕</button>`;
         voiceNotice.insertAdjacentElement('afterend', el);
     }
 
-    async function _startAzureRec() {
-        if (_isAzureRec) { _azureRec?.stop(); return; }
+    async function _startMmsRec() {
+        if (_isMmsRec) { _mmsRec?.stop(); return; }
         let stream;
         try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
-        catch(e) { _showAzureTrialNotice('No se pudo acceder al micrófono. Revisá los permisos del navegador.'); return; }
+        catch(e) { _showMmsNotice('No se pudo acceder al micrófono. Revisá los permisos del navegador.'); return; }
 
-        _azureChunks = [];
-        _isAzureRec = true;
+        _mmsChunks = [];
+        _isMmsRec = true;
         micBtn.dataset.recording = 'true';
         _setMicFloatState(true);
 
         const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus') ? 'audio/webm;codecs=opus' : 'audio/webm';
-        _azureRec = new MediaRecorder(stream, { mimeType });
-        _azureRec.ondataavailable = e => { if (e.data.size > 0) _azureChunks.push(e.data); };
-        _azureRec.onstop = () => {
-            _isAzureRec = false;
+        _mmsRec = new MediaRecorder(stream, { mimeType });
+        _mmsRec.ondataavailable = e => { if (e.data.size > 0) _mmsChunks.push(e.data); };
+        _mmsRec.onstop = () => {
+            _isMmsRec = false;
             micBtn.dataset.recording = 'false';
             _setMicFloatState(false);
             stream.getTracks().forEach(t => t.stop());
-            const blob = new Blob(_azureChunks, { type: mimeType });
+            const blob = new Blob(_mmsChunks, { type: mimeType });
             const reader = new FileReader();
             reader.onloadend = async () => {
                 const b64 = reader.result.split(',')[1];
                 try {
-                    const r = await _authFetch(`${_API_HOST}/speech/azure-stt`, {
+                    const r = await _authFetch(`${_API_HOST}/speech/mms-stt`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ audioBase64: b64, lang: sourceLang, mimeType }),
@@ -4755,11 +4754,11 @@ function loadSimpleMode() {
                     const data = await r.json();
                     if (!r.ok) {
                         if (data.code === 'TRIAL_EXPIRED') {
-                            _showAzureTrialNotice('⏱️ Tu prueba de 7 días de <strong>Azure Speech</strong> expiró. Actualizá a <strong>Premium</strong> para continuar.');
+                            _showMmsNotice('⏱️ Tu prueba de 7 días de <strong>Meta MMS</strong> expiró. Actualizá a <strong>Premium</strong> para continuar.');
                         } else if (data.code === 'AUTH_REQUIRED') {
-                            _showAzureTrialNotice('Iniciá sesión para usar Azure Speech.');
+                            _showMmsNotice('Iniciá sesión para usar Meta MMS.');
                         } else {
-                            _showAzureTrialNotice(data.error || 'Error en Azure Speech.');
+                            _showMmsNotice(data.error || 'Error en Meta MMS.');
                         }
                         return;
                     }
@@ -4769,21 +4768,21 @@ function loadSimpleMode() {
                         clearBtn.classList.toggle('hidden', !data.text.length);
                         if (autoTranslate) doTranslate();
                     } else {
-                        _showAzureTrialNotice('No se detectó voz. Hablá más cerca del micrófono.');
+                        _showMmsNotice('No se detectó voz. Hablá más cerca del micrófono.');
                     }
                     if (data.trialDaysLeft != null) {
-                        _showAzureTrialNotice(`🎁 Azure Speech (prueba): ${data.trialDaysLeft} día${data.trialDaysLeft !== 1 ? 's' : ''} restante${data.trialDaysLeft !== 1 ? 's' : ''}`);
+                        _showMmsNotice(`🎁 Meta MMS (prueba): ${data.trialDaysLeft} día${data.trialDaysLeft !== 1 ? 's' : ''} restante${data.trialDaysLeft !== 1 ? 's' : ''}`);
                     }
-                } catch(e) { console.error('Azure STT:', e); }
+                } catch(e) { console.error('MMS STT:', e); }
             };
             reader.readAsDataURL(blob);
         };
-        _azureRec.start();
+        _mmsRec.start();
     }
 
     // ── Mic click unificado ───────────────────────────────────
     micBtn.addEventListener('click', () => {
-        if (voiceSelect.value === 'azure') { _startAzureRec(); return; }
+        if (voiceSelect.value === 'mms') { _startMmsRec(); return; }
         if (!recognition) return;
         if (isRecording) { recognition.stop(); return; }
         isRecording = true;
@@ -4794,7 +4793,7 @@ function loadSimpleMode() {
 
     // ── MicFloat click unificado ──────────────────────────────
     micFloatBtn?.addEventListener('click', () => {
-        if (voiceSelect.value === 'azure') { _startAzureRec(); return; }
+        if (voiceSelect.value === 'mms') { _startMmsRec(); return; }
         const on = micFloatBtn.classList.contains('active');
         if (on) {
             recognition?.stop();

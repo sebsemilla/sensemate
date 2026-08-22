@@ -684,11 +684,11 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
         }
     });
 
-    // ── Azure Speech STT ───────────────────────────────────────────
-    app.post('/speech/azure-stt', ttsLimiter, async (req, res) => {
+    // ── Meta MMS STT (HuggingFace) ────────────────────────────────
+    app.post('/speech/mms-stt', ttsLimiter, async (req, res) => {
         const user = _getOptionalUser(req);
 
-        if (!user) return res.status(401).json({ error: 'Iniciá sesión para usar Azure Speech.', code: 'AUTH_REQUIRED' });
+        if (!user) return res.status(401).json({ error: 'Iniciá sesión para usar Meta MMS.', code: 'AUTH_REQUIRED' });
 
         const isPremium = !!(user.isDev || user.plan === 'premium' || user.plan === 'gold');
         let trialDaysLeft = null;
@@ -699,7 +699,7 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
             const daysSince = (Date.now() - new Date(userRow.created_at).getTime()) / 86400000;
             if (daysSince > 7) {
                 return res.status(403).json({
-                    error: 'Tu prueba de 7 días de Azure Speech expiró. Actualizá a Premium para continuar.',
+                    error: 'Tu prueba de 7 días de Meta MMS expiró. Actualizá a Premium para continuar.',
                     code: 'TRIAL_EXPIRED',
                 });
             }
@@ -709,43 +709,49 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
         const { audioBase64, lang = 'es', mimeType = 'audio/webm' } = req.body;
         if (!audioBase64) return res.status(400).json({ error: 'Falta el audio.' });
 
-        const key    = process.env.AZURE_SPEECH_KEY;
-        const region = process.env.AZURE_SPEECH_REGION || 'eastus';
-        if (!key) return res.status(503).json({ error: 'Azure Speech no está configurado. Agregá AZURE_SPEECH_KEY en las variables de entorno.' });
+        const hfToken = process.env.HF_TOKEN;
+        if (!hfToken) return res.status(503).json({ error: 'Meta MMS no está configurado. Agregá HF_TOKEN en las variables de entorno.' });
 
-        const LOCALE = {
-            es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT',
-            pt:'pt-BR', zh:'zh-CN', ja:'ja-JP', ko:'ko-KR', ar:'ar-SA',
-            ru:'ru-RU', nl:'nl-NL', pl:'pl-PL', tr:'tr-TR',
-            sw:'sw-KE', am:'am-ET', yo:'yo-NG', ha:'ha-NG', zu:'zu-ZA',
-            af:'af-ZA', rw:'rw-RW',
+        // ISO 639-1 → ISO 639-3 (formato que usa MMS)
+        const MMS_LANG = {
+            es:'spa', en:'eng', fr:'fra', de:'deu', it:'ita',
+            pt:'por', zh:'zho', ja:'jpn', ko:'kor', ar:'ara',
+            ru:'rus', nl:'nld', pl:'pol', tr:'tur',
+            sw:'swh', am:'amh', yo:'yor', ha:'hau', zu:'zul',
+            af:'afr', rw:'kin', qu:'que', wo:'wol', gn:'grn',
+            om:'orm', so:'som', ln:'lin', bm:'bam',
         };
-        const locale = LOCALE[lang] || `${lang}-XX`;
+        const langId = MMS_LANG[lang] || 'spa';
 
-        // Validar tipo de audio (whitelist)
-        const ALLOWED_MIME = /^audio\/(webm|ogg|mp4|mpeg|wav)(;.*)?$/;
+        // Validar mimeType (whitelist)
+        const ALLOWED_MIME = /^audio\/(webm|ogg|mp4|mpeg|wav|flac)(;.*)?$/;
         const safeMime = ALLOWED_MIME.test(mimeType) ? mimeType : 'audio/webm';
 
         try {
             const audioBuffer = Buffer.from(audioBase64, 'base64');
-            const azureRes = await axios.post(
-                `https://${region}.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=${locale}&format=detailed`,
-                audioBuffer,
+            const hfRes = await axios.post(
+                'https://api-inference.huggingface.co/models/facebook/mms-300m',
+                { inputs: audioBuffer.toString('base64'), parameters: { lang_id: langId } },
                 {
                     headers: {
-                        'Ocp-Apim-Subscription-Key': key,
-                        'Content-Type': safeMime,
-                        'Accept': 'application/json',
+                        'Authorization': `Bearer ${hfToken}`,
+                        'Content-Type': 'application/json',
+                        'X-Use-Cache': 'false',
                     },
-                    timeout: 20000,
+                    timeout: 30000,
                 }
             );
-            const recognized = azureRes.data?.DisplayText || '';
-            return res.json({ text: recognized, trialDaysLeft });
+            const text = hfRes.data?.text || hfRes.data?.[0]?.text || '';
+            return res.json({ text, trialDaysLeft });
         } catch (e) {
+            const status = e.response?.status;
             const detail = e.response?.data;
-            console.error('[/speech/azure-stt]', detail || e.message);
-            return res.status(500).json({ error: 'Error en Azure Speech. Intentá de nuevo.' });
+            // Modelo en cold start → avisar al usuario que reintente
+            if (status === 503) {
+                return res.status(503).json({ error: 'El modelo está iniciando (frío). Esperá unos segundos e intentá de nuevo.' });
+            }
+            console.error('[/speech/mms-stt]', detail || e.message);
+            return res.status(500).json({ error: 'Error en Meta MMS. Intentá de nuevo.' });
         }
     });
 
