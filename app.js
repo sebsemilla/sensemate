@@ -4453,6 +4453,7 @@ function loadSimpleMode() {
                     <select class="school-level-select" id="voiceMethodSelect">
                         <option value="none">— Ninguna —</option>
                         <option value="webspeech">Web (Chrome)</option>
+                        <option value="azure">☁️ Azure Speech</option>
                     </select>
                 </div>
             </div>
@@ -4616,9 +4617,11 @@ function loadSimpleMode() {
 
     voiceSelect.addEventListener('change', () => {
         const val = voiceSelect.value;
-        const isWeb = val === 'webspeech';
-        micBtn.style.display = isWeb ? '' : 'none';
+        const isWeb   = val === 'webspeech';
+        const isAzure = val === 'azure';
+        micBtn.style.display = (isWeb || isAzure) ? '' : 'none';
         voiceNotice.classList.toggle('hidden', !isWeb);
+        if (!isAzure) document.querySelector('.smp-azure-trial-notice')?.remove();
     });
 
     // ── Contexto opcional ─────────────────────────────────────
@@ -4680,15 +4683,23 @@ function loadSimpleMode() {
 
     // ── Microfono (voz a texto) ───────────────────────────────
     const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SpeechRec) {
-        micBtn.style.display = 'none'; // navegador no soporta
-    } else {
-        const recognition  = new SpeechRec();
-        const langMap      = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR', zh:'zh-CN', ja:'ja-JP' };
-        recognition.lang          = langMap[sourceLang] || 'es-ES';
-        recognition.continuous    = false;
-        recognition.interimResults = true;
+    const _langMap  = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR', zh:'zh-CN', ja:'ja-JP', ko:'ko-KR', ar:'ar-SA', ru:'ru-RU', nl:'nl-NL', pl:'pl-PL', tr:'tr-TR' };
 
+    // Shared float button + state
+    const micFloatBtn = document.getElementById('smpMicFloatBtn');
+    function _setMicFloatState(on) {
+        if (!micFloatBtn) return;
+        micFloatBtn.classList.toggle('active', on);
+        micFloatBtn.querySelector('.smp-mic-float-state').textContent = on ? 'ON' : 'OFF';
+    }
+
+    // ── WebSpeech ─────────────────────────────────────────────
+    let recognition = null;
+    if (SpeechRec) {
+        recognition = new SpeechRec();
+        recognition.lang           = _langMap[sourceLang] || 'es-ES';
+        recognition.continuous     = false;
+        recognition.interimResults = true;
         recognition.onresult = e => {
             const transcript = Array.from(e.results).map(r => r[0].transcript).join('');
             sourceArea.value = transcript;
@@ -4698,39 +4709,111 @@ function loadSimpleMode() {
         };
         recognition.onend  = () => { isRecording = false; micBtn.dataset.recording = 'false'; _setMicFloatState(false); };
         recognition.onerror = () => { isRecording = false; micBtn.dataset.recording = 'false'; _setMicFloatState(false); };
+    }
 
-        micBtn.addEventListener('click', () => {
-            if (isRecording) { recognition.stop(); return; }
+    // ── Azure STT ─────────────────────────────────────────────
+    const _AZURE_LOCALE = { es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT', pt:'pt-BR', zh:'zh-CN', ja:'ja-JP', ko:'ko-KR', ar:'ar-SA', ru:'ru-RU', nl:'nl-NL', pl:'pl-PL', tr:'tr-TR', sw:'sw-KE', am:'am-ET', yo:'yo-NG', ha:'ha-NG', zu:'zu-ZA' };
+    let _azureRec = null, _azureChunks = [], _isAzureRec = false;
+
+    function _showAzureTrialNotice(msg) {
+        document.querySelector('.smp-azure-trial-notice')?.remove();
+        const el = document.createElement('div');
+        el.className = 'smp-azure-trial-notice';
+        el.innerHTML = `<span>${msg}</span><button class="smp-azure-trial-close" onclick="this.parentElement.remove()">✕</button>`;
+        voiceNotice.insertAdjacentElement('afterend', el);
+    }
+
+    async function _startAzureRec() {
+        if (_isAzureRec) { _azureRec?.stop(); return; }
+        let stream;
+        try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
+        catch(e) { _showAzureTrialNotice('No se pudo acceder al micrófono. Revisá los permisos del navegador.'); return; }
+
+        _azureChunks = [];
+        _isAzureRec = true;
+        micBtn.dataset.recording = 'true';
+        _setMicFloatState(true);
+
+        const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus') ? 'audio/webm;codecs=opus' : 'audio/webm';
+        _azureRec = new MediaRecorder(stream, { mimeType });
+        _azureRec.ondataavailable = e => { if (e.data.size > 0) _azureChunks.push(e.data); };
+        _azureRec.onstop = () => {
+            _isAzureRec = false;
+            micBtn.dataset.recording = 'false';
+            _setMicFloatState(false);
+            stream.getTracks().forEach(t => t.stop());
+            const blob = new Blob(_azureChunks, { type: mimeType });
+            const reader = new FileReader();
+            reader.onloadend = async () => {
+                const b64 = reader.result.split(',')[1];
+                try {
+                    const r = await _authFetch(`${_API_HOST}/speech/azure-stt`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ audioBase64: b64, lang: sourceLang, mimeType }),
+                    });
+                    const data = await r.json();
+                    if (!r.ok) {
+                        if (data.code === 'TRIAL_EXPIRED') {
+                            _showAzureTrialNotice('⏱️ Tu prueba de 7 días de <strong>Azure Speech</strong> expiró. Actualizá a <strong>Premium</strong> para continuar.');
+                        } else if (data.code === 'AUTH_REQUIRED') {
+                            _showAzureTrialNotice('Iniciá sesión para usar Azure Speech.');
+                        } else {
+                            _showAzureTrialNotice(data.error || 'Error en Azure Speech.');
+                        }
+                        return;
+                    }
+                    if (data.text) {
+                        sourceArea.value = data.text;
+                        charCount.textContent = String(data.text.length);
+                        clearBtn.classList.toggle('hidden', !data.text.length);
+                        if (autoTranslate) doTranslate();
+                    } else {
+                        _showAzureTrialNotice('No se detectó voz. Hablá más cerca del micrófono.');
+                    }
+                    if (data.trialDaysLeft != null) {
+                        _showAzureTrialNotice(`🎁 Azure Speech (prueba): ${data.trialDaysLeft} día${data.trialDaysLeft !== 1 ? 's' : ''} restante${data.trialDaysLeft !== 1 ? 's' : ''}`);
+                    }
+                } catch(e) { console.error('Azure STT:', e); }
+            };
+            reader.readAsDataURL(blob);
+        };
+        _azureRec.start();
+    }
+
+    // ── Mic click unificado ───────────────────────────────────
+    micBtn.addEventListener('click', () => {
+        if (voiceSelect.value === 'azure') { _startAzureRec(); return; }
+        if (!recognition) return;
+        if (isRecording) { recognition.stop(); return; }
+        isRecording = true;
+        micBtn.dataset.recording = 'true';
+        recognition.lang = _langMap[sourceLang] || 'es-ES';
+        recognition.start();
+    });
+
+    // ── MicFloat click unificado ──────────────────────────────
+    micFloatBtn?.addEventListener('click', () => {
+        if (voiceSelect.value === 'azure') { _startAzureRec(); return; }
+        const on = micFloatBtn.classList.contains('active');
+        if (on) {
+            recognition?.stop();
+            _setMicFloatState(false);
+        } else {
+            if (voiceSelect.value !== 'webspeech') {
+                voiceSelect.value = 'webspeech';
+                voiceSelect.dispatchEvent(new Event('change'));
+            }
+            if (!recognition) return;
+            _setMicFloatState(true);
             isRecording = true;
             micBtn.dataset.recording = 'true';
-            recognition.lang = langMap[sourceLang] || 'es-ES';
+            recognition.lang = _langMap[sourceLang] || 'es-ES';
             recognition.start();
-        });
-
-        const micFloatBtn = document.getElementById('smpMicFloatBtn');
-        function _setMicFloatState(on) {
-            if (!micFloatBtn) return;
-            micFloatBtn.classList.toggle('active', on);
-            micFloatBtn.querySelector('.smp-mic-float-state').textContent = on ? 'ON' : 'OFF';
         }
-        micFloatBtn?.addEventListener('click', () => {
-            const on = micFloatBtn.classList.contains('active');
-            if (on) {
-                recognition.stop();
-                _setMicFloatState(false);
-            } else {
-                if (voiceSelect.value !== 'webspeech') {
-                    voiceSelect.value = 'webspeech';
-                    voiceSelect.dispatchEvent(new Event('change'));
-                }
-                _setMicFloatState(true);
-                isRecording = true;
-                micBtn.dataset.recording = 'true';
-                recognition.lang = langMap[sourceLang] || 'es-ES';
-                recognition.start();
-            }
-        });
-    }
+    });
+
+    if (!SpeechRec) micBtn.style.display = 'none';
 
     // ── Volver ────────────────────────────────────────────────
     document.getElementById('backMenuBtn').addEventListener('click', showMainMenu);

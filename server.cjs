@@ -331,7 +331,7 @@ app.get('/api/pricing', async (req, res) => {
 // Limiter global para todos los endpoints /admin
 app.use('/admin', adminLimiter);
 
-registerAiRoutes(app, { translateLimiter, chatLimiter, ttsLimiter });
+registerAiRoutes(app, { translateLimiter, chatLimiter, ttsLimiter, authDb });
 
 registerAuthRoutes(app, { authDb, authLimiter, _detectCountryFromReq, _countryToRegion });
 

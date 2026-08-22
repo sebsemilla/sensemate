@@ -2530,6 +2530,34 @@ body.dark-mode .smp-voice-notice {
 }
 .smp-voice-notice svg { flex-shrink: 0; }
 
+/* ── Azure trial notice ── */
+.smp-azure-trial-notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-top: .5rem;
+    padding: .55rem .85rem;
+    background: #eff6ff;
+    border: 1px solid #93c5fd;
+    border-radius: .55rem;
+    font-size: .78rem;
+    color: #1e40af;
+    line-height: 1.4;
+}
+body.dark-mode .smp-azure-trial-notice { background: rgba(59,130,246,.1); border-color: rgba(59,130,246,.35); color: #93c5fd; }
+.smp-azure-trial-close {
+    flex-shrink: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: .9rem;
+    color: inherit;
+    opacity: .6;
+    padding: 0 .1rem;
+}
+.smp-azure-trial-close:hover { opacity: 1; }
+
 /* ── Acciones extra (IA in Context) ── */
 .smp-extra-actions {
     margin-top: 1rem;

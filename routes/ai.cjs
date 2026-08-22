@@ -26,7 +26,7 @@ const {
     _validText,
 } = require('../lib/validators.cjs');
 
-module.exports = function registerAiRoutes(app, { translateLimiter, chatLimiter, ttsLimiter }) {
+module.exports = function registerAiRoutes(app, { translateLimiter, chatLimiter, ttsLimiter, authDb }) {
 
     app.post('/translate', translateLimiter, async (req, res) => {
         const { text, sourceLang, targetLang, context } = req.body;
@@ -681,6 +681,71 @@ Podés mencionar el exilio, Montevideo, el amor y la vida cotidiana. Jamás salg
             const detail = error.response?.data ? Buffer.from(error.response.data).toString() : error.message;
             console.error('Error generando audio con Voxtral:', detail);
             res.status(500).json({ error: "Failed to generate speech" });
+        }
+    });
+
+    // ── Azure Speech STT ───────────────────────────────────────────
+    app.post('/speech/azure-stt', ttsLimiter, async (req, res) => {
+        const user = _getOptionalUser(req);
+
+        if (!user) return res.status(401).json({ error: 'Iniciá sesión para usar Azure Speech.', code: 'AUTH_REQUIRED' });
+
+        const isPremium = !!(user.isDev || user.plan === 'premium' || user.plan === 'gold');
+        let trialDaysLeft = null;
+
+        if (!isPremium) {
+            const userRow = authDb ? authDb.getUserById(user.id) : null;
+            if (!userRow) return res.status(403).json({ error: 'Usuario no encontrado.' });
+            const daysSince = (Date.now() - new Date(userRow.created_at).getTime()) / 86400000;
+            if (daysSince > 7) {
+                return res.status(403).json({
+                    error: 'Tu prueba de 7 días de Azure Speech expiró. Actualizá a Premium para continuar.',
+                    code: 'TRIAL_EXPIRED',
+                });
+            }
+            trialDaysLeft = Math.max(0, Math.ceil(7 - daysSince));
+        }
+
+        const { audioBase64, lang = 'es', mimeType = 'audio/webm' } = req.body;
+        if (!audioBase64) return res.status(400).json({ error: 'Falta el audio.' });
+
+        const key    = process.env.AZURE_SPEECH_KEY;
+        const region = process.env.AZURE_SPEECH_REGION || 'eastus';
+        if (!key) return res.status(503).json({ error: 'Azure Speech no está configurado. Agregá AZURE_SPEECH_KEY en las variables de entorno.' });
+
+        const LOCALE = {
+            es:'es-ES', en:'en-US', fr:'fr-FR', de:'de-DE', it:'it-IT',
+            pt:'pt-BR', zh:'zh-CN', ja:'ja-JP', ko:'ko-KR', ar:'ar-SA',
+            ru:'ru-RU', nl:'nl-NL', pl:'pl-PL', tr:'tr-TR',
+            sw:'sw-KE', am:'am-ET', yo:'yo-NG', ha:'ha-NG', zu:'zu-ZA',
+            af:'af-ZA', rw:'rw-RW',
+        };
+        const locale = LOCALE[lang] || `${lang}-XX`;
+
+        // Validar tipo de audio (whitelist)
+        const ALLOWED_MIME = /^audio\/(webm|ogg|mp4|mpeg|wav)(;.*)?$/;
+        const safeMime = ALLOWED_MIME.test(mimeType) ? mimeType : 'audio/webm';
+
+        try {
+            const audioBuffer = Buffer.from(audioBase64, 'base64');
+            const azureRes = await axios.post(
+                `https://${region}.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1?language=${locale}&format=detailed`,
+                audioBuffer,
+                {
+                    headers: {
+                        'Ocp-Apim-Subscription-Key': key,
+                        'Content-Type': safeMime,
+                        'Accept': 'application/json',
+                    },
+                    timeout: 20000,
+                }
+            );
+            const recognized = azureRes.data?.DisplayText || '';
+            return res.json({ text: recognized, trialDaysLeft });
+        } catch (e) {
+            const detail = e.response?.data;
+            console.error('[/speech/azure-stt]', detail || e.message);
+            return res.status(500).json({ error: 'Error en Azure Speech. Intentá de nuevo.' });
         }
     });
 
