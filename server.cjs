@@ -274,7 +274,7 @@ const COUNTRY_CURRENCY = {
     IN: { currency: 'INR', symbol: '₹',    name: 'India' },
 };
 
-const _NO_DECIMALS_CURRENCIES = new Set(['ARS','CLP','COP','PYG','JPY','IDR','KRW']);
+const _NO_DECIMALS_CURRENCIES = new Set(['ARS','BRL','CLP','COP','PYG','JPY','IDR','KRW']);
 
 let _pricingCache = null; // { rates, fetchedAt }
 
@@ -316,9 +316,11 @@ app.get('/api/pricing', async (req, res) => {
         const rate  = rates[currency];
         if (!rate) return res.json(FALLBACK);
 
-        // 4. Convert
-        const monthly = _roundPrice(monthlyARS / rate, currency);
-        const annual  = _roundPrice(annualARS  / rate, currency);
+        // 4. Convert — fixed overrides for specific currencies (avoid exchange-rate drift)
+        const FIXED_MONTHLY = { BRL: 56 };
+        const FIXED_ANNUAL  = { BRL: 448 };
+        const monthly = FIXED_MONTHLY[currency] ?? _roundPrice(monthlyARS / rate, currency);
+        const annual  = FIXED_ANNUAL[currency]  ?? _roundPrice(annualARS  / rate, currency);
 
         return res.json({ currency, symbol, monthly, annual, countryCode, countryName });
     } catch (e) {

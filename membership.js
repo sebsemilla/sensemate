@@ -162,7 +162,7 @@ function _todayKey() {
 // ─── Pricing helpers ──────────────────────────────────────────
 
 function _fmtPrice(pricing, amount) {
-    const noDecimals = ['ARS','CLP','COP','PYG','JPY','IDR','KRW'];
+    const noDecimals = ['ARS','BRL','CLP','COP','PYG','JPY','IDR','KRW'];
     const localeMap  = {
         ARS:'es-AR', BRL:'pt-BR', MXN:'es-MX', CLP:'es-CL', COP:'es-CO',
         PEN:'es-PE', UYU:'es-UY', PYG:'es-PY', BOB:'es-BO',
