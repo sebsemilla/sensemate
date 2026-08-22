@@ -2449,6 +2449,56 @@ body.dark-mode .smp-paste-btn:hover { background: rgba(255,255,255,.1); color: #
 }
 body.dark-mode .smp-synonyms-strip { background: rgba(255,255,255,.04); border-color: rgba(255,255,255,.1); }
 
+/* ── Fila proveedor voz/mic ── */
+.smp-provider-row {
+    display: flex;
+    align-items: center;
+    padding: .35rem .1rem .1rem;
+}
+
+/* ── Botón flotante MIC ── */
+.smp-textarea-wrap { position: relative; }
+.smp-textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2.2rem;
+    padding-right: .75rem;
+    font-family: inherit;
+}
+.smp-mic-float-btn {
+    position: absolute;
+    top: .45rem;
+    right: .45rem;
+    z-index: 3;
+    display: inline-flex;
+    align-items: center;
+    gap: .22rem;
+    padding: .26rem .55rem;
+    background: var(--card-bg, #fff);
+    border: 1.5px solid var(--border, #e2e8f0);
+    border-radius: 2rem;
+    font-size: .72rem;
+    font-weight: 700;
+    color: var(--text-muted, #64748b);
+    cursor: pointer;
+    transition: background .15s, border-color .15s, color .15s;
+    line-height: 1;
+}
+.smp-mic-float-btn:hover { border-color: #94a3b8; color: var(--text, #1e293b); }
+.smp-mic-float-btn.active {
+    background: #fee2e2;
+    border-color: #ef4444;
+    color: #dc2626;
+    animation: mic-float-pulse .9s ease-in-out infinite alternate;
+}
+@keyframes mic-float-pulse {
+    from { box-shadow: 0 0 0 0 rgba(239,68,68,.35); }
+    to   { box-shadow: 0 0 0 7px rgba(239,68,68,0); }
+}
+body.dark-mode .smp-mic-float-btn { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.14); color: #94a3b8; }
+body.dark-mode .smp-mic-float-btn:hover { border-color: #64748b; color: #e2e8f0; }
+body.dark-mode .smp-mic-float-btn.active { background: rgba(239,68,68,.18); border-color: #ef4444; color: #f87171; }
+
 /* ── Selector de voz/mic ── */
 .smp-voice-select-group {
     display: flex;

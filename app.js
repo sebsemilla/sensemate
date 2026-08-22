@@ -4376,6 +4376,11 @@ function loadSimpleMode() {
 
                 <!-- Textarea + mic + clear -->
                 <div class="smp-textarea-wrap">
+                    <button class="smp-mic-float-btn" id="smpMicFloatBtn" title="Activar/desactivar micrófono">
+                        <span class="smp-mic-float-label">MIC:</span>
+                        <span class="smp-mic-float-icon">🎤</span>
+                        <span class="smp-mic-float-state">OFF</span>
+                    </button>
                     <textarea class="smp-textarea" id="sourceText" rows="3"
                         placeholder="${t.escribe_o_pega || 'Escribe o pega tu frase aquí...'}"></textarea>
                     <div class="smp-textarea-foot">
@@ -4424,13 +4429,6 @@ function loadSimpleMode() {
                     <button class="smp-extra-btn smp-syn-inline-btn hidden" id="smpSynonymsBtn">📚 ${t.ver_sinonimos_btn}</button>
                 </div>
                 <div class="smp-controls-right">
-                    <div class="smp-voice-select-group">
-                        <span class="smp-voice-label">Voz/Mic:</span>
-                        <select class="school-level-select" id="voiceMethodSelect">
-                            <option value="none">— Ninguna —</option>
-                            <option value="webspeech">Web (Chrome)</option>
-                        </select>
-                    </div>
                     <select class="school-level-select" id="speedSelect" title="${t.speed_label || 'Velocidad'}">
                         <option value="0.8">${t.speed_lento || 'Lento'}</option>
                         <option value="1.0" selected>${t.speed_normal || 'Normal'}</option>
@@ -4445,6 +4443,17 @@ function loadSimpleMode() {
                             <polyline points="12 5 19 12 12 19"/>
                         </svg>
                     </button>
+                </div>
+            </div>
+
+            <!-- Fila proveedor voz/mic -->
+            <div class="smp-provider-row">
+                <div class="smp-voice-select-group">
+                    <span class="smp-voice-label">Voz/Mic:</span>
+                    <select class="school-level-select" id="voiceMethodSelect">
+                        <option value="none">— Ninguna —</option>
+                        <option value="webspeech">Web (Chrome)</option>
+                    </select>
                 </div>
             </div>
 
@@ -4687,8 +4696,8 @@ function loadSimpleMode() {
             clearBtn.classList.toggle('hidden', transcript.length === 0);
             if (e.results[0].isFinal && autoTranslate) doTranslate();
         };
-        recognition.onend  = () => { isRecording = false; micBtn.dataset.recording = 'false'; };
-        recognition.onerror = () => { isRecording = false; micBtn.dataset.recording = 'false'; };
+        recognition.onend  = () => { isRecording = false; micBtn.dataset.recording = 'false'; _setMicFloatState(false); };
+        recognition.onerror = () => { isRecording = false; micBtn.dataset.recording = 'false'; _setMicFloatState(false); };
 
         micBtn.addEventListener('click', () => {
             if (isRecording) { recognition.stop(); return; }
@@ -4696,6 +4705,30 @@ function loadSimpleMode() {
             micBtn.dataset.recording = 'true';
             recognition.lang = langMap[sourceLang] || 'es-ES';
             recognition.start();
+        });
+
+        const micFloatBtn = document.getElementById('smpMicFloatBtn');
+        function _setMicFloatState(on) {
+            if (!micFloatBtn) return;
+            micFloatBtn.classList.toggle('active', on);
+            micFloatBtn.querySelector('.smp-mic-float-state').textContent = on ? 'ON' : 'OFF';
+        }
+        micFloatBtn?.addEventListener('click', () => {
+            const on = micFloatBtn.classList.contains('active');
+            if (on) {
+                recognition.stop();
+                _setMicFloatState(false);
+            } else {
+                if (voiceSelect.value !== 'webspeech') {
+                    voiceSelect.value = 'webspeech';
+                    voiceSelect.dispatchEvent(new Event('change'));
+                }
+                _setMicFloatState(true);
+                isRecording = true;
+                micBtn.dataset.recording = 'true';
+                recognition.lang = langMap[sourceLang] || 'es-ES';
+                recognition.start();
+            }
         });
     }
 
