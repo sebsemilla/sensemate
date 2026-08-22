@@ -1,6 +1,6 @@
 #!/bin/bash
-# Cola: Idiomas africanos en orden de importancia — sc-tarjetas + sc-misiones
-# Orden: Swahili → Amharic → Oromo → Lingala → Somali → Zulu → Kinyarwanda → Twi → Bambara
+# Cola: Idiomas africanos + amerindios — sc-tarjetas + sc-misiones
+# Orden: Swahili → Amharic → Oromo → Lingala → Somali → Zulu → Kinyarwanda → Twi → Bambara → Quechua → Nahuatl
 
 LOG=/data/data/com.termux/files/home/sensemate/queue_africa.log
 SC_T="node /data/data/com.termux/files/home/sensemate/sensemate/generate_vocab_contextual.js"
@@ -77,5 +77,7 @@ run_lang zu  "Zulu"
 run_lang rw  "Kinyarwanda"
 run_lang tw  "Twi"
 run_lang bm  "Bambara"
+run_lang qu  "Quechua"
+run_lang nah "Nahuatl"
 
 echo "[$(date)] ✅ COLA AFRICA COMPLETADA" >> $LOG

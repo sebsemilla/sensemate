@@ -1,0 +1,694 @@
+[
+  {
+    "id": "sw_A1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Greet and introduce yourself",
+    "bridge": "Katika Kihispania, kusalimu tunasema 'Hola' au 'Buenos días' na kujifunza tunasema 'Me llamo...' au 'Soy...'. Katika Kiingereza ni kama hivyo: tunatumia 'Hello' au 'Good morning' na tunasema 'My name is...' au 'I am...'. Tofa muhimu ni kwamba katika Kiingereza hatutaki 'I am called...' (ingawa ni sahihi ya kiagramari, inaonekana sana rasmi na isiyo tabia katika mazungumzo ya kila siku). Pia kumbuka kwamba katika Kiingereza tunatumia sifa 'to be' kwa kuweka jina: 'What is your name?' (si 'How are you called?').",
+    "rule": "Kusalimu: 'Hello' (Hola), 'Hi' (zaidi ya kawaida), 'Good morning' (Buenos días), 'Good afternoon' (Buenas tardes), 'Good evening' (Buenas noches al llegar). Kujifunza: 'My name is...' (Me llamo...) au 'I am...' (Soy...). Kuweka jina: 'What is your name?' (¿Cómo te llamas?). Kujibu salamu: 'Nice to meet you' (Encantado/a de conocerte) na jibu ni 'Nice to meet you too'. Kushtuka: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hola, my name is Maria.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Good morning, I am Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Nice to meet you.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "What is your name?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am called Anna.",
+      "correct": "My name is Anna.",
+      "correct_alt": "I am Anna.",
+      "explanation": "Katika Kihispania tunasema 'Me llamo Anna', lakini katika Kiingereza njia ya kawaida zaidi ya kujifunza ni 'My name is...' au 'I am...'. 'I am called' ni sahihi lakini inaonekana sana rasmi na isiyo tabia katika mazingira ya kila siku."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Salamu ya msingi",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Hello!",
+            "note": "Salamu ya kawaida."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Kujifunza",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "My name is John.",
+            "note": "Njia ya kawaida ya kutoa jina lako."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Kuweka jina",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "What is your name?",
+            "note": "Swali tofauti kwa kujua jina."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Kushtuka",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "See you tomorrow!",
+            "note": "Kushtuka isiyo rasmi."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": {
+        "Greet and introduce yourself": "Salamu na kujifunza",
+        "Hello": "Hallo",
+        "Good morning": "Asubuhi njema",
+        "Good afternoon": "Mchana njema",
+        "Good evening": "Jioni njema",
+        "My name is...": "Jina langu ni...",
+        "I am...": "Mimi ni...",
+        "What is your name?": "Jina lako ni nani?",
+        "Nice to meet you": "Nafurahi kukutana nawe",
+        "Goodbye": "Kwaheri",
+        "Bye": "Bye",
+        "See you later": "Tutaonana baadaye"
+      }
+    }
+  },
+  {
+    "id": "sw_A1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "Katika Kihispania, kutoa umri husema 'Tengo 25 años' (kutumia fisia 'tener'), lakini kiingereza husema 'I am 25 years old' (kutumia fisia 'to be'). Pia kwa ajili ya nchi husema 'Soy español' (bila kina), lakini kiingereza husema 'I am Spanish' (bila kina). Kwa ajili ya kazi, katika Kihispania husema 'Soy profesor' (bila kina), lakini kiingereza inahitaji kina: 'I am a teacher'.",
+    "rule": "Kwa ajili ya umri: 'I am [namba] years old' (mfano: I am 25 years old). Kwa ajili ya nchi: 'I am [nchi]' (mfano: I am Spanish, I am Mexican). Kwa ajili ya kazi: 'I am a/an [kazi]' (mfano: I am a doctor, I am an engineer). Kwa kuhusu maswali: 'How old are you?' (Una miaka mingi?), 'Where are you from?' (Umetoka wapi?), 'What do you do?' (Unafanya nini?) au 'What is your job?'.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Nina miaka 25.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Spanish.",
+        "translation": "Ni Hisipania.",
+        "phonetic": "/aɪ æm ˈspænɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Ni mwalimu.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Una miaka mingi?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "",
+      "explanation": "Katika Kihispania husema 'Tengo 25 años' kutumia fisia 'tener', lakini kiingereza hutumia fisia 'to be' kwa ajili ya umri. Ni mojawapo ya makosa yanayotokeza zaidi kwa wanaoongea Kihispania."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Umri",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Nina miaka 30.",
+            "note": "Tunatumia 'to be' kwa ajili ya umri."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Nchi",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Ni Mekisiko.",
+            "note": "Bila kina kwa ajili ya nchi."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Kazi",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Yeye ni mwanamuziki.",
+            "note": "Na kina 'a' au 'an' kwa ajili ya kazi."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Maswali",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Umetoka wapi?",
+            "note": "Swali kuhusu asili."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Swahili"
+    }
+  },
+  {
+    "id": "sw_A1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Describe objects and people (basic)",
+    "bridge": "Katika Kiswahili, ili kuwasilisha viwango vya kina na watu tunaweka sifa baada ya jina: 'gari nyekundu', 'msichana mrefu'. Katika Kiingereza, sifa inaonekana KABLA ya jina: 'a red car', 'a tall girl'. Pia tunatumia fisla 'to be' kwa maelezo ya jumla (She is tall) na 'have got' kwa sifa za kimwili (She has got blue eyes).",
+    "rule": "Kwa kuwasilisha: 1) Sifa + jina (a big house). 2) Mwadilishi + fisla 'to be' + sifa (The house is big). 3) Mwadilishi + 'have/has got' + sifa (She has got long hair). Sifa za kawaida: big (kubwa), small (ndogo), tall (mrefu), short (fupi), beautiful (nzuri), old (zee), young (vijana), fast (haraka), slow (poteza).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Hii ni nyumba kubwa.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Yeye ni mrefu na mkongowe.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Yeye ana macho ya buluu.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Gari ni nyekundu.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "a car red",
+      "correct": "a red car",
+      "correct_alt": "",
+      "explanation": "Katika Kiswahili, sifa inaonekana baada ya jina ('gari nyekundu'), lakini Katika Kiingereza sifa inaonekana KABLA ya jina ('a red car'). Ni moja ya makosa ya kawaida zaidi kwa wanaoongea Kiswahili."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Sifa + jina",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "mbwa ndogo",
+            "note": "Sifa inaonekana kabla ya jina."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Mwadilishi + to be + sifa",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Kitabu ni kina.",
+            "note": "Tunatumia 'to be' kwa maelezo ya jumla."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got kwa sifa",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Yeye ana nywele zipi.",
+            "note": "Tunatumia 'have got' kwa sifa za kimwili."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Maelezo ya makusanyo",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Dada yangu ni vijana na ana macho ya kijani.",
+            "note": "Makusanyo ya 'to be' na 'have got'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Kiswahili"
+    }
+  },
+  {
+    "id": "sw_A1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Talk about daily routines",
+    "bridge": "Katika Kiingereza, kusema kuhusu rutini za kila siku hutumia kipindi cha sasa: 'I get up at 7, have breakfast and go to work'. Katika Kiingereza, hutumia kipindi cha sasa kwa njia isiyo tofautiana: 'I get up at 7, have breakfast and go to work'. Tofauti kubwa ni kwamba katika Kiingereza hutumia mifano ya 'at' kwa saa ('at 7 o'clock'), 'in' kwa sehemu za siku ('in the morning') na 'on' kwa siku ('on Monday'). Pia hutumia mifano ya ukivu kama 'always', 'usually', 'sometimes' kabla ya fikia.",
+    "rule": "Kusema kuhusu rutini: 1) Tumia kipindi cha sasa (I get up, she works). 2) Tumia mifano ya muda: 'at' + saa (at 8 am), 'in' + sehemu ya siku (in the morning), 'on' + siku (on Friday). 3) Tumia mifano ya ukivu kabla ya fikia (I always eat breakfast). 4) Kusali: 'What time do you get up?' au 'When do you have lunch?'.",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Ninastaa saa 7 asubuhi.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Yeye kawaida anafungua chakula saa 8 asubuhi.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Hatuenda kazini saa 9 asubuhi.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Je, saa ngapi unakula jioni?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am eating breakfast every morning.",
+      "correct": "I eat breakfast every morning.",
+      "correct_alt": "",
+      "explanation": "Katika Kiswahili, mara nyingi hutumia kipindi cha kuendelea kwa matukio ya kawaida ('ninakula kila asubuhi'), lakini katika Kiingereza, kwa rutini na tabia, hutumia kipindi cha sasa, si cha kuendelea."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Matukio ya kila siku",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Ninastaa mapema.",
+            "note": "Fikia katika kipindi cha sasa kwa rutini."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Mifano ya muda",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Ninalipa chakula saa 1 mchana.",
+            "note": "Hutumia 'at' kwa saa tofauti."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Mifano ya ukivu",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Yeye hawakati hata kahawa.",
+            "note": "Mfano wa ukivu kabla ya fikia."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Maswali kuhusu rutini",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Je, saa ngapi unalala?",
+            "note": "Swali na 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Kiswahili"
+    }
+  },
+  {
+    "id": "sw_A1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Kutaja furaha na upasuaji (Ninapenda / Sienapenda)",
+    "bridge": "Katika Kiingereza, kutaja furaha hutumia fisla 'like': 'I like pizza'. Togori kubwa ni kwamba fisla 'like' hufanana na mstari wa kisubjecti (I like pizza, He likes pizza). Pia kumbuka kwamba kutaja upasuaji husema 'I don't like' (sienapenda).",
+    "rule": "Kutaja furaha: 1) Kithibitisho: I/you/we/they like + kiuno (I like coffee). He/she/it likes + kiuno (She likes coffee). 2) Ufunguo: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Maswali: Do you like...? (Unapenda...?), Does she like...? (Anapenda...?). 4) Kuongezeka: 'I like it very much' (Ninapenda sana) au 'I really like it' (Ninapenda sana).",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Ninapenda pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Anapenda kusoma.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Hatupendi chakula haraka.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Unapenda muziki?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I like very much pizza.",
+      "correct": "I like pizza very much.",
+      "correct_alt": "",
+      "explanation": "Katika Kiingereza, neno 'very much' huondoka mwisho wa jina la kusema au baada ya kiuno: 'I like pizza very much'. Kuiondoa kati ya fisla na kiuno ni hitilafu wa kawaida."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Kithibitisho na I/you/we/they",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Ninapenda chocolate.",
+            "note": "Fisla 'like' katika utaratibu wa msingi."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Kithibitisho na he/she/it",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Anapenda mpira wa miguu.",
+            "note": "Tunongeza -s katika waatu wa tatu."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Ufunguo na don't/doesn't",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Hahapendi kahawa.",
+            "note": "Tunatumia 'doesn't' + fisla ya msingi."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Maswali na Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Unapenda wanyama wa mbwa?",
+            "note": "Swali na 'do' + mstari + fisla ya msingi."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Swahili"
+    }
+  },
+  {
+    "id": "sw_A1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Kuhakikisha na kutoa bei",
+    "bridge": "Katika Kiingereza, kuwapoza bei tusema 'How much is it?' (kwa kitu kimoja) au 'How much are they?' (kwa vitu vingi). Pia tunatumia 'How much does it cost?' (Ina bei gani?). Tofauti kubwa ni kwamba katika Kiingereza tunatumia fisadi 'to be' au fisadi 'cost' na msaada 'does' kuwapoza. Kutoa bei, tusema 'It is [namba] dollars/euros' au 'It costs [namba].'",
+    "rule": "Kuwapoza bei: 1) 'How much is it?' (kwa kitu kimoja) au 'How much are they?' (kwa vitu vingi). 2) 'How much does it cost?' (Ina bei gani?). 3) 'How much is the T-shirt?' (Ina bei gani kivazi?). Kujibu: 'It is 25 dollars' au 'It costs 25 dollars'. Katika maswali, tunatumia fisadi 'to be' au msaada 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Ina bei gani?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Ina bei gani?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Ina bei 10 dola.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Ina bei gani viatu hivi?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "Katika Kispanishi husema '¿Cuánto cuesta?' bila msaada. Katika Kiingereza, na fisadi 'cost', tunahitaji msaada 'does' kuwapoza. Hii ni hitilafu wa kawaida kwa wanaoongea Kispanishi kwa sababu ya tarjama ya harfia."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Kuwapoza bei na 'to be'",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Ina bei gani kitabu hiki?",
+            "note": "Tunatumia 'to be' kuwapoza bei."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Kuwapoza bei na 'cost'",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Ina bei gani mkoba huu?",
+            "note": "Tunatumia 'does' + 'cost' kuwapoza."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Kutoa bei",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Ina bei 5 euro.",
+            "note": "Tunatumia 'costs' katika mwongozo wa kwanza wa mtu mmoja."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Maswali ya jungwa",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Ina bei gani matunda haya ya epurua?",
+            "note": "Tunatumia 'are' kwa ajili ya jungwa."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Kuhakikisha na kutoa bei"
+    }
+  },
+  {
+    "id": "sw_A1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Taja mahali pa sehemu",
+    "bridge": "Kiingereza, kutoa mahali pa sehemu husema 'It is on the street...', 'It is next to the bank', 'It is near the station'. Tunatumia mifano ya mahali kama 'on', 'in', 'at', 'next to', 'near', 'opposite', 'behind', 'in front of'. Changamoto kwa wanaoongea Kihispania ni kwamba tunatumia 'en' kwa kila kitu, lakini Kiingereza inatumia mfano inayohusiana na mazingira. Pia kumbuka kwamba kwa mahali tunatumia fisadi 'to be' (It is...).",
+    "rule": "Kutoa mahali: 1) Tumia fisadi 'to be' (The bank is...). 2) Mifano ya mahali: 'on' (juu ya sehemu au mtaa), 'in' (ndani ya sehemu), 'at' (sehemu ya kipekee), 'next to' (karibu na), 'near' (karibu na), 'opposite' (mbio), 'behind' (nyuma ya), 'in front of' (mbele ya). 3) Kuswali: 'Where is the...?' (Mahali pa nini ni...) au 'Is there a... near here?' (Kuna... karibu hapa?).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Duka la mafuniko liko karibu na bustani.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Shule ina karibu na kanisa.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Duka la dawa liko kwenye mtaa wa Mkuu.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Mahali pa nini ni stesheni ya basi?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Is in the corner.",
+      "correct": "It is in the corner.",
+      "correct_alt": "It is on the corner.",
+      "explanation": "Kihispania husema 'Está en la esquina' na mara nyingi hutua mwanzo. Kiingereza, mwanzo 'It' au 'He/She' ni lazima. Pia, 'en la esquina' husema 'on the corner' (si 'in the corner') wakati mahali ni kwenye mbio wa mitaa."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Mahali ya msingi na 'in'",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Paka ina ndani ya bustani.",
+            "note": "Tunatumia 'in' kwa sehemu zilizofungwa."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Mahali na 'next to'",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Restorani ina karibu na hoteli.",
+            "note": "Tunatumia 'next to' kwa karibu na upande."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Mahali na 'near' na 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Benki ina mbio ya bustani.",
+            "note": "Tunatumia 'opposite' kwa mbio."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Swali na Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Mahali pa nini ni stesheni ya polisi?",
+            "note": "Swali rasmi na 'Where'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "sw": "Taja mahali pa sehemu"
+    }
+  }
+]

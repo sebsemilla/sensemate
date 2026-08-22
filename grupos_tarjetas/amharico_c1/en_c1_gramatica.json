@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "en_C1_gram_01",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አጠቃላይ ሰኞ ስብስብ / Advanced Sentence Structures",
+    "bridge": "While English relies heavily on word order (SVO) and auxiliary verbs for complex sentences, Amharic uses a combination of relativization, nominalization, and unique clausal connectors. English speakers often struggle with Amharic's postpositional phrases and the positioning of relative clauses, which can come before or after the modified noun. Additionally, Amharic's use of converbs for sequential actions differs significantly from English's '-ing' forms, as converbs can function as both adverbial and complement clauses.",
+    "rule": "Amharic employs relativization to form complex sentences, often placing relative clauses before or after the head noun. Nominalization is common, where clauses are turned into nouns using suffixes like '-t' or '-n'. Converbs (formed with suffixes like '-chi', '-n', '-i') are used to express sequential or conditional actions, often translating to English '-ing' forms but with broader functions. Postpositional phrases modify nouns and often appear at the end of clauses. Note that Amharic lacks articles, and word order is more flexible than in English, with focus determining the sentence structure.",
+    "concept_examples": [
+      {
+        "text": "በአዲስ አበባ የሚያልፈው ሰው በቀላሉ ይሄዳል።",
+        "translation": "The person who arrives in Addis Ababa walks quickly.",
+        "phonetic": "/bəʼadɨsʼ abɨba jəmɨʼaləfɛw sɛw bɛʼkʼalalu jɨhɛdal/"
+      },
+      {
+        "text": "መጽሐፍ ትምህርት የሚሰጥበት ምን ነው፧",
+        "translation": "What is the book that is being given for education?",
+        "phonetic": "/mɛtʼsʼɨhaf tɨmɨrɨt jəmɨsɛɡətbɛt mɨn nɛw/"
+      },
+      {
+        "text": "በመጽሐፍ ትምህርት የተጻፈነውን ጥቅል ትንሽ ነው።",
+        "translation": "The lesson written in the book is very good.",
+        "phonetic": "/bɛmɛtʼsʼɨhaf tɨmɨrɨt jɛtɛɡʼsʼafɛnɛwɨn ɡʼɨkʼɨl tɨnɨʃ nɛw/"
+      },
+      {
+        "text": "የተማርዘው ልጅ በጥቂት ጊዜ ተገቢ ነበር።",
+        "translation": "The child who studied was suitable in a short time.",
+        "phonetic": "/jɛtɛmarzɛw ɫɨdʒ bɛɡʼɨtʼ ɡɨdʒɛ bɛɡʼɛbɨ nɛbɛr/"
+      }
+    ],
+    "common_error": {
+      "wrong": "ሰው በአዲስ አበባ የሚያልፈው በቀላሉ ይሄዳል።",
+      "correct": "በአዲስ አበባ የሚያልፈው ሰው በቀላሉ ይሄዳል።",
+      "correct_alt": "",
+      "explanation": "English speakers often place the relative clause after the noun, following English word order. In Amharic, the relative clause typically precedes the noun it modifies, especially when using relativizers like 'የሚ...' (who/that...). Placing the clause after the noun can lead to ambiguity or incorrect emphasis."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "አጠቃላይ ሰኞ / Basic Complex Sentences",
+        "translation": "Basic Complex Sentences",
+        "examples": [
+          {
+            "original": "በቤት የሚቀርበው ሰው አስቀድሞ ይጠየቃል።",
+            "phonetic": "/bɛbet jəmɨʼkʼɛrbɛw sɛw asʼkʼɛdɨmo jɨtʼɛjɛkal/",
+            "translation": "The person who stays at home rests early.",
+            "note": "Notice the relativizer 'የሚ...' before the noun 'ሰው'."
+          },
+          {
+            "original": "የተቀረበው ሰው አስቀድሞ ይጠየቃል።",
+            "phonetic": "/jɛtɛkʼɛrɛbɛw sɛw asʼkʼɛdɨmo jɨtʼɛjɛkal/",
+            "translation": "The person who stayed rests early.",
+            "note": "Past tense relativization using 'የተ...'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ኮንቨርብስ / Converbs",
+        "translation": "Converbs",
+        "examples": [
+          {
+            "original": "በሙቀቱ የሚተዳደርገው ሰው በቀላሉ ይሄዳል።",
+            "phonetic": "/bɛmuqʼɛtu jəmɨtʼɛdadɛrgɛw sɛw bɛʼkʼalalu jɨhɛdal/",
+            "translation": "The person running in the morning walks quickly.",
+            "note": "Converb 'የሚተዳደርገው' expresses simultaneous action."
+          },
+          {
+            "original": "በትምህርቱ የተማረው ልጅ በጥቂት ጊዜ ተገቢ ነበር።",
+            "phonetic": "/bɛtɨmɨrɨtu jɛtɛmarɛw ɫɨdʒ bɛɡʼɨtʼ ɡɨdʒɛ bɛɡʼɛbɨ nɛbɛr/",
+            "translation": "The child who studied in school was suitable in a short time.",
+            "note": "Converb 'የተማረው' functions as a relative clause."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ኖሚናሊዘሽን / Nominalization",
+        "translation": "Nominalization",
+        "examples": [
+          {
+            "original": "የተጻፈው ጥቅል ትንሽ ነው።",
+            "phonetic": "/jɛtɛɡʼsʼafɛw ɡʼɨkʼɨl tɨnɨʃ nɛw/",
+            "translation": "The written lesson is very good.",
+            "note": "Nominalization using '-t' suffix in 'የተጻፈው'."
+          },
+          {
+            "original": "የተሰጠው መጽሐፍ ትምህርት ትንሽ ነው።",
+            "phonetic": "/jɛtɛsɛtʼɛw mɛtʼsʼɨhaf tɨmɨrɨt tɨnɨʃ nɛw/",
+            "translation": "The given book for education is very good.",
+            "note": "Nominalization using '-t' suffix in 'የተሰጠው'."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced Syntax and Sentence Structures"
+    }
+  },
+  {
+    "id": "en_C1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "መጽሐፍ እና ስትል / Register and Style",
+    "bridge": "In Amharic, register and style are marked by distinct grammatical structures and vocabulary choices, unlike English where tone and word choice primarily differentiate formal and informal speech. Amharic uses specific verb forms and honorifics for formal contexts, while informal speech often employs contractions and colloquial expressions. English speakers may struggle with the nuanced use of honorifics and the formal/informal verb conjugations in Amharic.",
+    "rule": "Amharic distinguishes between formal, informal, and neutral styles through verb conjugations, pronouns, and vocabulary. Formal style uses the gerund form (-ች) for verbs and honorific pronouns like እኔ (I, humble) and እርስዎ (you, respectful). Informal style uses the base verb form and pronouns like አኔ (I, familiar) and አንተ (you, familiar). Neutral style typically follows the formal structure but omits honorifics. Exceptions include specific idiomatic expressions that remain consistent across styles.",
+    "concept_examples": [
+      {
+        "text": "እኔ እንደገና ይኸውን ነው።",
+        "translation": "I am fine, thank you.",
+        "phonetic": "/ɐnne ɐndegena jəxʷən nɛw/"
+      },
+      {
+        "text": "እርስዎ እንዴት ነዎት?",
+        "translation": "How are you? (formal)",
+        "phonetic": "/ɐrsso ɐndet nɛwot/"
+      },
+      {
+        "text": "አንተ መጣህ አለህ?",
+        "translation": "Did you come? (informal)",
+        "phonetic": "/ante metah alɛh/"
+      },
+      {
+        "text": "እህቶ የመጣ ነው።",
+        "translation": "He came. (neutral)",
+        "phonetic": "/ɐhto jɛmɛta nɛw/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am fine, thank you. (using informal style in a formal context)",
+      "correct": "እኔ እንደገና ይኸውን ነው።",
+      "correct_alt": "",
+      "explanation": "English speakers often overlook the importance of formal and informal distinctions in Amharic. Using informal pronouns or verb forms in formal contexts can be perceived as disrespectful. Always use honorifics and formal verb conjugations when addressing superiors or in professional settings."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ፍላጎት",
+        "translation": "Formal",
+        "examples": [
+          {
+            "original": "እርስዎን ሰላም በእግዚአብሔር ስም ሰጠው።",
+            "phonetic": "/ɐrssohn selam bɛɡziabəher səm sɛtɛw/",
+            "translation": "I greet you in the name of God. (formal)",
+            "note": "Uses honorific pronoun እርስዎን and formal verb conjugation."
+          },
+          {
+            "original": "እኔ በእርስዎ አስተያየት የሚያስገኘ ነኝ።",
+            "phonetic": "/ɐnne bɛɐrsso astɛjajət jɛmijassɛɡnɛ nɛɲ/",
+            "translation": "I am pleased with your advice. (formal)",
+            "note": "Uses humble pronoun እኔ and formal verb structure."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ቀላል",
+        "translation": "Informal",
+        "examples": [
+          {
+            "original": "አንተ እንዴት ነህ?",
+            "phonetic": "/ante ɐndet nɛh/",
+            "translation": "How are you? (informal)",
+            "note": "Uses familiar pronoun አንተ and base verb form."
+          },
+          {
+            "original": "አኔ እየችኋለሁ ነኝ።",
+            "phonetic": "/anne ɐjɛtʃʼualehu nɛɲ/",
+            "translation": "I am going. (informal)",
+            "note": "Uses familiar pronoun አኔ and informal verb conjugation."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ነዋዊ",
+        "translation": "Neutral",
+        "examples": [
+          {
+            "original": "የኢትዮጵያ ፕሮግራም በአዲስ አበባ እየሰራ ነው።",
+            "phonetic": "/jɛitʲopija progəram bɛadis abeba ɐjɛsera nɛw/",
+            "translation": "Ethiopia's program is being implemented in Addis Ababa. (neutral)",
+            "note": "Uses neutral verb structure without honorifics."
+          },
+          {
+            "original": "እህቶ አሁን የምትመጣ ነው።",
+            "phonetic": "/ɐhto ahun jɛmtɛmɛta nɛw/",
+            "translation": "She is coming now. (neutral)",
+            "note": "Uses neutral verb form without formal or informal markers."
+          }
+        ]
+      }
+    ],
+    "emoji": "📝",
+    "phonetic": "",
+    "translations": {
+      "en": "Register and Style"
+    }
+  },
+  {
+    "id": "en_C1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አስከተች ልዩ ስርዓት / Advanced Inversion and Fronting",
+    "bridge": "In English, inversion typically occurs with auxiliary verbs in questions or after negative adverbials. Amharic, however, employs inversion and fronting more extensively, often involving the verb 'ነበር' (was/were) or 'ያለ' (has/have) for emphasis or stylistic purposes. English speakers may overuse inversion in Amharic, leading to awkward constructions. Note that Amharic fronting can shift focus to different parts of the sentence, unlike English where word order is more rigid.",
+    "rule": "In Amharic, inversion involves placing the verb or auxiliary before the subject for emphasis or stylistic effect. Fronting shifts a phrase or clause to the beginning of the sentence for focus. Common structures include: 1) Verb + Subject (e.g., 'ነበር እሱ' instead of 'እሱ ነበር'), 2) Fronted Object + Verb + Subject (e.g., 'መጽሐፍ አነበብዋል እሱ'). Exceptions occur in questions, where inversion is mandatory. Avoid overusing inversion in declarative sentences, as it can sound unnatural.",
+    "concept_examples": [
+      {
+        "text": "ነበር እሱ ቤቱ ውስጥ",
+        "translation": "He was in his house.",
+        "phonetic": "/næbər ʔəsu bætu t͡ʃʼətʼ/"
+      },
+      {
+        "text": "ያለው እሱ ጥበብ",
+        "translation": "He has a car.",
+        "phonetic": "/jaleu ʔəsu tʼəbæb/"
+      },
+      {
+        "text": "በአገልግሎት እንደሚሰማር ነበር እሱ",
+        "translation": "He was praised in the service.",
+        "phonetic": "/bæʔagəlgəlotʼ ʔəndæmɪsəmar næbər ʔəsu/"
+      },
+      {
+        "text": "ለማን ነበር ይገልጥ?",
+        "translation": "Who was he looking for?",
+        "phonetic": "/læman næbər jɪgəltʼ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "እሱ ነበር ቤቱ ውስጥ እንደገና",
+      "correct": "ነበር እሱ ቤቱ ውስጥ እንደገና",
+      "correct_alt": "",
+      "explanation": "English speakers often place the subject before the verb in Amharic, mirroring English word order. However, inversion with 'ነበር' or 'ያለ' requires the verb to come first for emphasis. Failing to invert can make the sentence sound less natural or weaken the intended focus."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "አስከተች ልዩ ስርዓት",
+        "translation": "Basic Inversion",
+        "examples": [
+          {
+            "original": "ነበር እሱ ቤቱ ውስጥ",
+            "phonetic": "/næbər ʔəsu bætu t͡ʃʼətʼ/",
+            "translation": "He was in his house.",
+            "note": "Standard inversion with 'ነበር' for emphasis."
+          },
+          {
+            "original": "ያለው እሱ ጥበብ",
+            "phonetic": "/jaleu ʔəsu tʼəbæb/",
+            "translation": "He has a car.",
+            "note": "Inversion with 'ያለ' to highlight possession."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ፋና ልዩ ስርዓት",
+        "translation": "Fronting with Objects",
+        "examples": [
+          {
+            "original": "መጽሐፍ አነበብዋል እሱ",
+            "phonetic": "/məsʼħafʼ anabæwal ʔəsu/",
+            "translation": "He read the book.",
+            "note": "Fronted object 'መጽሐፍ' shifts focus to the object."
+          },
+          {
+            "original": "በአዲስ አበባ ያለው እሱ ቤት",
+            "phonetic": "/bæʔadɪs abæba jaleu ʔəsu bætʼ/",
+            "translation": "He has a house in Addis Ababa.",
+            "note": "Fronted location 'በአዲስ አበባ' emphasizes the place."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "አጠቃላይ ልዩ ስርዓት",
+        "translation": "Complex Inversion and Fronting",
+        "examples": [
+          {
+            "original": "በአገልግሎት እንደሚሰማር ነበር እሱ",
+            "phonetic": "/bæʔagəlgəlotʼ ʔəndæmɪsəmar næbər ʔəsu/",
+            "translation": "He was praised in the service.",
+            "note": "Fronted prepositional phrase 'በአገልግሎት' with inversion for emphasis."
+          },
+          {
+            "original": "ለማን ነበር ይገልጥ?",
+            "phonetic": "/læman næbər jɪgəltʼ/",
+            "translation": "Who was he looking for?",
+            "note": "Inversion in questions with fronted object 'ለማን'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced Inversion and Fronting"
+    }
+  },
+  {
+    "id": "en_C1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አማርኛና እንግሊዝኛ ውስጥ ኮምፒክስ ኖማልዚሽን / Complex Nominalization in Amharic and English",
+    "bridge": "In English, complex nominalization often involves adding suffixes like '-tion', '-ment', or '-ing' to verbs (e.g., 'process' → 'processing'). In Amharic, nominalization is achieved through suffixation with '-ት' (e.g., 'አደረገ' → 'አደረግት') or '-ን' (e.g., 'አስተያየ' → 'አስተያየን'). A key difference is that Amharic nominalizations often retain verbal roots more explicitly, while English may abstract them further. Beware of overusing '-ት' for all cases, as it’s specific to certain verb classes.",
+    "rule": "In Amharic, complex nominalization transforms verbs into nouns by adding suffixes like '-ት' (for action nouns) or '-ን' (for gerunds). The suffix '-ት' is used with transitive verbs (e.g., 'አጠናቀቀ' → 'አጠናቀቅት'), while '-ን' is used for infinitive forms (e.g., 'መጽሐፍ' → 'መጽሐፍን'). Exceptions include verbs ending in '-ሰ' or '-ረ', which may require vowel adjustments. Nominalizations can function as subjects, objects, or complements, mirroring English usage but with more explicit verbal roots.",
+    "concept_examples": [
+      {
+        "text": "አስተያየን ነው የሚደረግ ሥራ",
+        "translation": "It is the analysis that is being done.",
+        "phonetic": "/ʔastajäjɛn nɛw jəmɪdɛrəg sɨra/"
+      },
+      {
+        "text": "አደረግት ሂዲ ነው",
+        "translation": "The process is hidden.",
+        "phonetic": "/ʔadarəɡɨt hɪdi nɛw/"
+      },
+      {
+        "text": "መጽሐፍን አስተያየ",
+        "translation": "He analyzed the book.",
+        "phonetic": "/mɛt͡s’ħafɨn ʔastajäjɛ/"
+      },
+      {
+        "text": "ተማሪዎች እየተሟላቸው አለ",
+        "translation": "The students are in the process of learning.",
+        "phonetic": "/təmarɪwot͡ʃ ʔəjətəmalat͡ʃɛw ʔalɛ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "አደረገ ሂዲ ነው",
+      "correct": "አደረግት ሂዲ ነው",
+      "correct_alt": "",
+      "explanation": "English speakers often omit the nominalization suffix '-ት', treating the verb as a noun. In Amharic, the suffix is required to transform the verb 'አደረገ' (he did) into a noun 'አደረግት' (the doing). Always add '-ት' for action nouns derived from transitive verbs."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "አንድን አድርግ / Nominalizing Transitive Verbs",
+        "translation": "Nominalizing Transitive Verbs",
+        "examples": [
+          {
+            "original": "አጠናቀቀ → አጠናቀቅት",
+            "phonetic": "/ʔat’ənnaqɛqɛ → ʔat’ənnaqɛqɨt/",
+            "translation": "He explained → The explanation",
+            "note": "Add '-ት' to transitive verbs ending in '-ቀ'."
+          },
+          {
+            "original": "አስተማረ → አስተማረት",
+            "phonetic": "/ʔastəmarɛ → ʔastəmarɨt/",
+            "translation": "He taught → The teaching",
+            "note": "Regular suffixation for '-ረ' verbs."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ግራማት አድርግ / Nominalizing Intransitive Verbs",
+        "translation": "Nominalizing Intransitive Verbs",
+        "examples": [
+          {
+            "original": "አለቀ → አለቅት",
+            "phonetic": "/ʔallɛqɛ → ʔallɛqɨt/",
+            "translation": "He sat → The sitting",
+            "note": "Use '-ት' for intransitive verbs ending in '-ቀ'."
+          },
+          {
+            "original": "አጠነቀ → አጠነቅት",
+            "phonetic": "/ʔat’ɛnɛqɛ → ʔat’ɛnɛqɨt/",
+            "translation": "He arrived → The arrival",
+            "note": "Vowel adjustment before '-ት'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "እርሳስ አድርግ / Gerund Forms with '-ን'",
+        "translation": "Gerund Forms with '-ን'",
+        "examples": [
+          {
+            "original": "መጽሐፍን አጠናቀቀ",
+            "phonetic": "/mɛt͡s’ħafɨn ʔat’ənnaqɛqɛ/",
+            "translation": "He explained the book.",
+            "note": "Use '-ን' for infinitive forms as direct objects."
+          },
+          {
+            "original": "ትምህርትን ያልተሰራ",
+            "phonetic": "/tɨmħɨrtɨn jalət’əsɛra/",
+            "translation": "He didn’t study the lesson.",
+            "note": "Gerunds with '-ን' function as objects."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Complex Nominalization in Amharic"
+    }
+  },
+  {
+    "id": "en_C1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "እኔ እንደምን ነው / Ellipsis and Substitution in Amharic",
+    "bridge": "In English, ellipsis and substitution often involve phrases like 'so do I' or 'neither have we'. In Amharic, similar structures exist but with distinct patterns. Amharic uses the verb 'ነው' (is) or 'ናል' (are) for substitution, often omitting the main verb, which contrasts with English where the verb is typically repeated. Be cautious of over-applying English ellipsis rules, as Amharic relies more on contextual verbs and pronoun clarity.",
+    "rule": "In Amharic, ellipsis and substitution occur when a verb or phrase is omitted and replaced by 'ነው' (is) or 'ናል' (are), often with a pronoun. The structure is: Pronoun + ነው/ናል. This is used in affirmative and negative sentences. For example, 'እኔ እንደምን ነው' (So do I). Negation uses 'አይ' (not) before the pronoun. Exceptions include questions, where the full verb may be required for clarity. Typical use cases include agreements, disagreements, and emphasis.",
+    "concept_examples": [
+      {
+        "text": "እኔ እንደምን ነው",
+        "translation": "So do I",
+        "phonetic": "/ˈʔɪnɛ ˈʔɪndəmɪn nɛw/"
+      },
+      {
+        "text": "እኛ እንደሌላቸው አይናለን",
+        "translation": "Neither have we",
+        "phonetic": "/ˈʔɪnʲə ˈʔɪndəlɛlat͡ʃɛw ʔajnəˈnɛlən/"
+      },
+      {
+        "text": "እርስዎ እንደዚያ ነው?",
+        "translation": "Are you like that too?",
+        "phonetic": "/ˈʔərswo ˈʔɪndɛzɪja nɛw/"
+      },
+      {
+        "text": "እርሷ እንደዚያ አይነሳልም",
+        "translation": "She is not like that either",
+        "phonetic": "/ˈʔərsuː ˈʔɪndɛzɪja ʔajnɛˈsalləm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "እኔ እንደምን እየደረገ",
+      "correct": "እኔ እንደምን ነው",
+      "correct_alt": "",
+      "explanation": "English speakers often repeat the verb in ellipsis, but Amharic replaces it with 'ነው' or 'ናል'. Repeating the verb is redundant and incorrect in Amharic. Focus on using the substitution marker instead of the full verb."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "እኔ እንደምን ነው",
+        "translation": "So do I",
+        "examples": [
+          {
+            "original": "እኔ እንደምን ነው",
+            "phonetic": "/ˈʔɪnɛ ˈʔɪndəmɪn nɛw/",
+            "translation": "So do I",
+            "note": "Basic affirmative substitution using 'ነው'."
+          },
+          {
+            "original": "እርሱ እንደዚያ ነው",
+            "phonetic": "/ˈʔərsu ˈʔɪndɛzɪja nɛw/",
+            "translation": "He is like that too",
+            "note": "Third-person singular substitution with 'ነው'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "እኛ እንደሌላቸው አይናለን",
+        "translation": "Neither have we",
+        "examples": [
+          {
+            "original": "እኛ እንደሌላቸው አይናለን",
+            "phonetic": "/ˈʔɪnʲə ˈʔɪndəlɛlat͡ʃɛw ʔajnəˈnɛlən/",
+            "translation": "Neither have we",
+            "note": "Negative substitution using 'አይናለን'."
+          },
+          {
+            "original": "እርሷ እንደዚያ አይነሳልም",
+            "phonetic": "/ˈʔərsuː ˈʔɪndɛzɪja ʔajnɛˈsalləm/",
+            "translation": "She is not like that either",
+            "note": "Third-person singular negative substitution."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "እርስዎ እንደዚያ ነው?",
+        "translation": "Are you like that too?",
+        "examples": [
+          {
+            "original": "እርስዎ እንደዚያ ነው?",
+            "phonetic": "/ˈʔərswo ˈʔɪndɛzɪja nɛw/",
+            "translation": "Are you like that too?",
+            "note": "Substitution in questions with 'ነው'."
+          },
+          {
+            "original": "እናንተ እንደምን ነው?",
+            "phonetic": "/ˈʔəndante ˈʔɪndəmɪn nɛw/",
+            "translation": "Do you too?",
+            "note": "Second-person plural substitution in questions."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔄",
+    "phonetic": "",
+    "translations": {
+      "en": "Ellipsis and Substitution in Amharic"
+    }
+  },
+  {
+    "id": "en_C1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አካባቢ ምልክቶች / Advanced Discourse Markers",
+    "bridge": "In English, discourse markers like 'however', 'moreover', and 'therefore' are used to connect ideas and manage the flow of discourse. In Amharic, these markers often take the form of conjunctions or adverbial phrases, and their placement can be more flexible. A key difference is that Amharic discourse markers frequently involve reduplication or specific particles like 'እና' (and) or 'ከሆኑ' (if). Be cautious not to overuse English equivalents directly, as Amharic has distinct preferences for cohesion.",
+    "rule": "Amharic uses discourse markers to signal relationships between clauses or sentences, such as contrast, addition, or consequence. Common markers include 'እና' (and), 'ከሆኑ' (if), 'እንደ' (as), and reduplicated forms like 'ስለምን ስለ' (because). These markers often appear at the beginning of a clause or sentence. Reduplication is a notable feature, where a word or phrase is repeated for emphasis or cohesion. Placement and choice of marker depend on the context and the relationship being expressed.",
+    "concept_examples": [
+      {
+        "text": "እሱ አይቀር እንደ, እኔ ደግሞ አይቀር.",
+        "translation": "He doesn’t come, and neither do I.",
+        "phonetic": "ɪsʊ ʔajʈɛr ʔɪndɛ, ʔɪnɛ dɛɡomo ʔaʈɛr."
+      },
+      {
+        "text": "ስለምን ስለ, እኔ በአንድ ሰዓት አልተከሰሰሁም.",
+        "translation": "Because of that, I didn’t arrive on time.",
+        "phonetic": "sɪlɛmɪn sɪlɛ, ʔɪnɛ bɛʔand vasaʈ ʔaltɛkɛsɛsɛhʊm."
+      },
+      {
+        "text": "እሱ መደበረ, እና እኔ በዚያ አልነበረሁም.",
+        "translation": "He went there, and I didn’t.",
+        "phonetic": "ɪsʊ mɛdɛbɛrɛ, ʔɪna ʔɪnɛ bɛzija ʔalnɛbɛrɛhʊm."
+      },
+      {
+        "text": "ከሆኑ እርስዎ ይፈልጋሉ, ይገቡ.",
+        "translation": "If you want, come in.",
+        "phonetic": "kɛhɔnʊ ʔɪrsvo jɪfɛlgalu, jɪɡɛbu."
+      }
+    ],
+    "common_error": {
+      "wrong": "He doesn’t come, so neither do I.",
+      "correct": "እሱ አይቀር እንደ, እኔ ደግሞ አይቀር.",
+      "correct_alt": "እሱ አይቀር እና, እኔ አይቀርም.",
+      "explanation": "English speakers often directly translate 'so' or 'therefore' without considering Amharic’s preference for reduplication or specific particles like 'እንደ' (as) or 'እና' (and). Avoid literal translations and focus on the natural flow of Amharic discourse markers."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "አማራጭ አካባቢ",
+        "translation": "Additive Markers",
+        "examples": [
+          {
+            "original": "እሱ መደበረ, እና እኔ በዚያ አልነበረሁም.",
+            "phonetic": "ɪsʊ mɛdɛbɛrɛ, ʔɪna ʔɪnɛ bɛzija ʔalnɛbɛrɛhʊm.",
+            "translation": "He went there, and I didn’t.",
+            "note": "Use 'እና' to add information or contrast."
+          },
+          {
+            "original": "እኔ አበላለሁ, እና እርስዎ ደግሞ አበላላቹ.",
+            "phonetic": "ʔɪnɛ ʔabɛlalɛhʊ, ʔɪna ʔɪrsvo dɛɡomo ʔabɛlalatʃʊ.",
+            "translation": "I ate, and you did too.",
+            "note": "Reduplication emphasizes the added idea."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "ስለምን ስለ",
+        "translation": "Causal Markers",
+        "examples": [
+          {
+            "original": "ስለምን ስለ, እኔ በአንድ ሰዓት አልተከሰሰሁም.",
+            "phonetic": "sɪlɛmɪn sɪlɛ, ʔɪnɛ bɛʔand vasaʈ ʔaltɛkɛsɛsɛhʊm.",
+            "translation": "Because of that, I didn’t arrive on time.",
+            "note": "Reduplication of 'ስለ' highlights causation."
+          },
+          {
+            "original": "እሱ አይፈልግም, ስለምን ስለ እኔ አይገባሁም.",
+            "phonetic": "ɪsʊ ʔajfɛlgɪm, sɪlɛmɪn sɪlɛ ʔɪnɛ ʔajɡɛbahʊm.",
+            "translation": "He doesn’t want to, so I won’t go either.",
+            "note": "Use 'ስለምን ስለ' to express cause and effect."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ከሆኑ",
+        "translation": "Conditional Markers",
+        "examples": [
+          {
+            "original": "ከሆኑ እርስዎ ይፈልጋሉ, ይገቡ.",
+            "phonetic": "kɛhɔnʊ ʔɪrsvo jɪfɛlgalu, jɪɡɛbu.",
+            "translation": "If you want, come in.",
+            "note": "Use 'ከሆኑ' for conditional statements."
+          },
+          {
+            "original": "ከሆኑ እሱ መጣ, እኔ ደግሞ እመጣለሁ.",
+            "phonetic": "kɛhɔnʊ ɪsʊ mɛt’a, ʔɪnɛ dɛɡomo ʔɛmɛtalɛhʊ.",
+            "translation": "If he comes, I will come too.",
+            "note": "Conditional markers often introduce hypothetical situations."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔗",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced Discourse Markers for Cohesion"
+    }
+  },
+  {
+    "id": "en_C1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አልባ ተግባራት / Hedging and Tentativeness",
+    "bridge": "In Amharic, hedging and tentativeness are often expressed using modal verbs, adverbial phrases, and specific grammatical structures that differ significantly from English. While English relies heavily on words like 'maybe', 'possibly', or 'I think', Amharic uses constructions like እንደሚኸውን ('as it seems') or ከአልፈላኝ በኋላ ('if it pleases me'). Beware of directly translating English hedging phrases, as Amharic often requires rephrasing to sound natural.",
+    "rule": "Amharic employs several strategies for hedging and tentativeness: 1) Modal verbs like ሊችል ('to be able') or ሊፈልጋም ('to want') can soften statements. 2) Adverbial phrases such as ወደጀት ('somewhat') or በቂ ('a little') add nuance. 3) Conditional clauses with ከ... በኋላ ('if... then') or እንደ... ('as... ') introduce uncertainty. 4) The use of ወይም ('or') or ወይስተ ('maybe') can also signal tentativeness. Exceptions include idiomatic expressions where literal translation fails.",
+    "concept_examples": [
+      {
+        "text": "እንደሚኸውን, እንደገና ሊያገኙ ይችላሉ።",
+        "translation": "As it seems, they might meet again.",
+        "phonetic": "/ʔɪndəmɪkʰoːn ʔɪndəɡɪnna lɪjagɪnnu jɪt͡ʃʼalalu/"
+      },
+      {
+        "text": "ወደጀት አልተረሱም።",
+        "translation": "They are somewhat not convinced.",
+        "phonetic": "/wədəsɛtʼ ʔaltərəsʊm/"
+      },
+      {
+        "text": "ከአልፈላኝ በኋላ, እንደገና ሊያዙ ይችላሉ።",
+        "translation": "If it pleases me, they might come again.",
+        "phonetic": "/kʼəʔalfəlanj bəxwala ʔɪndəɡɪnna lɪjazʊ jɪt͡ʃʼalalu/"
+      },
+      {
+        "text": "ወይም እንደገና ሊያገኙ ይችላሉ።",
+        "translation": "Maybe they might meet again.",
+        "phonetic": "/wejɪm ʔɪndəɡɪnna lɪjagɪnnu jɪt͡ʃʼalalu/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Maybe they will meet again.",
+      "correct": "ወይም ሊያገኙ ይችላሉ።",
+      "correct_alt": "እንደሚኸውን ሊያገኙ ይችላሉ።",
+      "explanation": "Directly translating 'maybe' as 'maybe' in Amharic often sounds unnatural. Instead, use structures like ወይም ('maybe') or እንደሚኸውን ('as it seems') to convey tentativeness more idiomatically."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ሞዳል ተግባራት",
+        "translation": "Modal Verbs",
+        "examples": [
+          {
+            "original": "ሊችል ይችላል።",
+            "phonetic": "/lɪt͡ʃʼɪl jɪt͡ʃʼal/",
+            "translation": "He might be able to.",
+            "note": "Use modal verbs like ሊችል to express possibility."
+          },
+          {
+            "original": "ሊፈልጋም አይችልም።",
+            "phonetic": "/lɪfɪlɡam ajɪt͡ʃʼɪlm/",
+            "translation": "He might not want to.",
+            "note": "Negation with አይችልም adds tentativeness."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "አዝመላክ ፍጹሞች",
+        "translation": "Adverbial Phrases",
+        "examples": [
+          {
+            "original": "ወደጀት ይገኛል።",
+            "phonetic": "/wədəsɛtʼ jɪɡɪnjal/",
+            "translation": "He is somewhat convinced.",
+            "note": "Use ወደጀት to soften statements."
+          },
+          {
+            "original": "በቂ ያደረገ።",
+            "phonetic": "/bɛkʼɪ jadərəɡɛ/",
+            "translation": "He did it a little.",
+            "note": "በቂ adds nuance to actions."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "የሚያነጩ ሰዎች",
+        "translation": "Conditional Clauses",
+        "examples": [
+          {
+            "original": "ከአልፈላኝ በኋላ ሊያዙ ይችላሉ።",
+            "phonetic": "/kʼəʔalfəlanj bəxwala lɪjazʊ jɪt͡ʃʼalalu/",
+            "translation": "If it pleases me, they might come.",
+            "note": "Use ከ... በኋላ for conditional tentativeness."
+          },
+          {
+            "original": "እንደሚኸውን ሊያገኙ ይችላሉ።",
+            "phonetic": "/ʔɪndəmɪkʰoːn lɪjagɪnnu jɪt͡ʃʼalalu/",
+            "translation": "As it seems, they might meet.",
+            "note": "እንደ... introduces uncertainty."
+          }
+        ]
+      }
+    ],
+    "emoji": "🤔",
+    "phonetic": "",
+    "translations": {
+      "en": "Hedging and Tentativeness"
+    }
+  },
+  {
+    "id": "en_C1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አጠቃላይ እንቅስቃሴ ስምምነጫ / Complex Verb Patterns",
+    "bridge": "In Amharic, complex verb patterns involving double objects or indirect objects often require specific word order and morphological adjustments, unlike English where word order is more flexible. Amharic uses postpositions and verb suffixes to indicate the recipient or beneficiary, which can be a trap for English speakers who might directly translate 'give to' as 'ለ... ሰጥ' without considering the verb's conjugation. Additionally, Amharic verbs often incorporate the object within the verb structure, which contrasts with English's reliance on prepositions and separate pronouns.",
+    "rule": "In Amharic, when a verb takes both a direct and indirect object, the indirect object is typically marked with the postposition 'ለ' (to/for) and the verb is conjugated to agree with the direct object. The word order is generally Subject-Object-Verb (SOV), with the indirect object preceding the direct object. For example, 'I gave the book to him' becomes 'እሱን መጽሐፍቱን ሰጥዋሁ' (እሱን ለእሱ መጽሐፍቱን ሰጥዋሁ). Exceptions occur with certain verbs that require specific constructions, such as 'አስገባ' (to give) which can also be used with the dative suffix '-ለ' instead of the postposition 'ለ'.",
+    "concept_examples": [
+      {
+        "text": "እሱን መጽሐፍቱን ሰጥዋሁ",
+        "translation": "I gave him the book.",
+        "phonetic": "/ʔəsʊn mət͡s’əḥafʊtʊn səɡet’awahu/"
+      },
+      {
+        "text": "እርሷን እጅነቱን አስገባሁ",
+        "translation": "I showed her the picture.",
+        "phonetic": "/ʔərʃan ʔəɡ͡ʒɛnɛtʊn ʔasɡəbahu/"
+      },
+      {
+        "text": "እርሱን መልስ ሰጠው",
+        "translation": "He sent him an answer.",
+        "phonetic": "/ʔərsʊn mələs səɡet’əw/"
+      },
+      {
+        "text": "እሷን አትክልት አስተማረው",
+        "translation": "He taught her the skill.",
+        "phonetic": "/ʔəʃan ʔat’kɨlt ʔast’əmarəw/"
+      }
+    ],
+    "common_error": {
+      "wrong": "ለእሱ መጽሐፍቱን ሰጥዋሁ",
+      "correct": "እሱን መጽሐፍቱን ሰጥዋሁ",
+      "correct_alt": "መጽሐፍቱን ለእሱ ሰጥዋሁ",
+      "explanation": "English speakers often mistakenly place the indirect object marked with 'ለ' at the beginning or end of the sentence, assuming it works like English prepositions. In Amharic, the indirect object typically precedes the direct object, and the verb must agree with the direct object. The correct order ensures clarity and grammatical accuracy."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "አዲስ እንቅስቃሴ / Basic Patterns",
+        "translation": "Basic Patterns",
+        "examples": [
+          {
+            "original": "እሱን መጽሐፍቱን ሰጥዋሁ",
+            "phonetic": "/ʔəsʊn mət͡s’əḥafʊtʊn səɡet’awahu/",
+            "translation": "I gave him the book.",
+            "note": "Notice how the indirect object 'እሱን' precedes the direct object 'መጽሐፍቱን'."
+          },
+          {
+            "original": "እርሷን እጅነቱን አስገባሁ",
+            "phonetic": "/ʔərʃan ʔəɡ͡ʒɛnɛtʊn ʔasɡəbahu/",
+            "translation": "I showed her the picture.",
+            "note": "The verb 'አስገባሁ' agrees with the direct object 'እጅነቱን'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "አጠቃላይ እንቅስቃሴ / Intermediate Patterns",
+        "translation": "Intermediate Patterns",
+        "examples": [
+          {
+            "original": "እርሱን መልስ ሰጠው",
+            "phonetic": "/ʔərsʊn mələs səɡet’əw/",
+            "translation": "He sent him an answer.",
+            "note": "Here, 'መልስ' is the direct object, and 'እርሱን' is the indirect object."
+          },
+          {
+            "original": "እሷን አትክልት አስተማረው",
+            "phonetic": "/ʔəʃan ʔat’kɨlt ʔast’əmarəw/",
+            "translation": "He taught her the skill.",
+            "note": "The verb 'አስተማረው' incorporates the direct object 'አትክልት'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "አጠቃላይ እንቅስቃሴ / Advanced Patterns",
+        "translation": "Advanced Patterns",
+        "examples": [
+          {
+            "original": "ለእሱ መጽሐፍቱን ሰጥዋሁለት",
+            "phonetic": "/ləʔəsʊ mət͡s’əḥafʊtʊn səɡet’awələt/",
+            "translation": "I gave the book to him (using dative suffix).",
+            "note": "The dative suffix '-ለት' is used instead of the postposition 'ለ'."
+          },
+          {
+            "original": "እሱን ለእሱ መጽሐፍቱን ሰጥዋሁ",
+            "phonetic": "/ʔəsʊn ləʔəsʊ mət͡s’əḥafʊtʊn səɡet’awahu/",
+            "translation": "I gave him the book (emphasizing the recipient).",
+            "note": "Both forms are correct, but the emphasis differs based on word order."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Complex Verb Patterns"
+    }
+  },
+  {
+    "id": "en_C1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "አግባብ መጨረሻት እና ሰንጠረዥ / Tense and Aspect Nuances",
+    "bridge": "While English primarily uses auxiliary verbs and suffixes to indicate tense and aspect, Amharic relies heavily on suffix conjugations and contextual cues. English speakers often struggle with Amharic's perfective vs. imperfective distinctions, as these don't directly map to English's simple past vs. past continuous. Additionally, Amharic's 'gerundive' forms (-ኣለ, -ኣለሁ) for ongoing actions can be mistaken for future tense by English speakers.",
+    "rule": "Amharic verbs conjugate for tense and aspect using suffixes that indicate completed (perfective) vs. ongoing/habitual (imperfective) actions. The perfective aspect uses suffixes like -አ, -አሁ, -አል, while the imperfective uses -ኣለ, -ኣለሁ, -ኣለች. The gerundive form (-ኣለ) is used for ongoing actions but doesn't imply future tense. Aspect often overrides tense, so context is crucial. For example, አገኘው (he found) is perfective, while አገኛለው (he was finding/used to find) is imperfective.",
+    "concept_examples": [
+      {
+        "text": "አገኘው ነው።",
+        "translation": "He found it.",
+        "phonetic": "/ʔaɡɛt’nɛw nɛw/"
+      },
+      {
+        "text": "አገኛለው ነው።",
+        "translation": "He was finding it / He used to find it.",
+        "phonetic": "/ʔaɡɛnt’alɛw nɛw/"
+      },
+      {
+        "text": "ትተኛልለት ነችው።",
+        "translation": "She is learning it.",
+        "phonetic": "/t’ət’ɛnjalɛt’ nɛt’əw/"
+      },
+      {
+        "text": "ትተኛለች ነችው።",
+        "translation": "She has learned it.",
+        "phonetic": "/t’ət’ɛnat’ɛt’ʃ nɛt’əw/"
+      }
+    ],
+    "common_error": {
+      "wrong": "He will find it (አገኛለው ነው).",
+      "correct": "He is finding it (ትተኛልለት ነችው).",
+      "correct_alt": "He finds it (አገኛለ ነው).",
+      "explanation": "English speakers often misuse the gerundive form (-ኣለ) as future tense due to its similarity to English '-ing' forms. However, in Amharic, -ኣለ indicates ongoing action, not future. Use the present tense or contextual cues to express future actions."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "ፍጹም መጨረሻት",
+        "translation": "Perfective Aspect",
+        "examples": [
+          {
+            "original": "አገኘው ነው።",
+            "phonetic": "/ʔaɡɛt’nɛw nɛw/",
+            "translation": "He found it.",
+            "note": "Use perfective for completed actions."
+          },
+          {
+            "original": "ጻፉአል ነው።",
+            "phonetic": "/s’af’uʔal nɛw/",
+            "translation": "He wrote it.",
+            "note": "Suffix -አል indicates perfective past."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "እርሻውያን መጨረሻት",
+        "translation": "Imperfective Aspect",
+        "examples": [
+          {
+            "original": "አገኛለው ነው።",
+            "phonetic": "/ʔaɡɛnt’alɛw nɛw/",
+            "translation": "He was finding it.",
+            "note": "Use imperfective for ongoing/habitual actions."
+          },
+          {
+            "original": "ጻፋለው ነው።",
+            "phonetic": "/s’afat’alɛw nɛw/",
+            "translation": "He was writing it.",
+            "note": "Suffix -ኣለ indicates imperfective."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "ጄረንዲቭ አግባብ",
+        "translation": "Gerundive Forms",
+        "examples": [
+          {
+            "original": "ትተኛልለት ነችው።",
+            "phonetic": "/t’ət’ɛnjalɛt’ nɛt’əw/",
+            "translation": "She is learning it.",
+            "note": "Gerundive indicates ongoing action, not future."
+          },
+          {
+            "original": "እስከ አገኛልለ ሐረግኋለን።",
+            "phonetic": "/ʔəsk’ə ʔaɡɛnt’alɛ ħarɛɡʷon’alɛn/",
+            "translation": "Until I find it, I’ll wait.",
+            "note": "Gerundive used in subordinate clauses."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏳",
+    "phonetic": "",
+    "translations": {
+      "en": "Nuances of Tense and Aspect"
+    }
+  },
+  {
+    "id": "en_C1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "እንደሚመሰረት የሚከተለው / Advanced Passive Constructions",
+    "bridge": "In English, advanced passive constructions like 'it is believed' or 'there is said to be' often use impersonal subjects. Amharic, however, typically employs the passive voice with the verb የሚመሰረት (yəməsərət) or የተተከሰ (yətətəkəsə) to convey similar meanings. Unlike English, Amharic does not use impersonal subjects like 'it' or 'there' in these constructions, relying instead on the passive verb form alone. Be cautious of overusing English structures like 'there is said to be,' as they do not directly translate into Amharic.",
+    "rule": "In Amharic, advanced passive constructions are formed using the passive participle የሚመሰረት (yəməsərət) or የተተከሰ (yətətəkəsə), followed by the main verb in its infinitive form. These constructions are used to express actions or states where the agent is unknown, unimportant, or intentionally omitted. The passive participle agrees in gender and number with the subject. For example, 'የሚመሰረት ነው' (yəməsərət nəw) means 'it is believed.' Note that Amharic does not use impersonal subjects like English 'it' or 'there' in these constructions.",
+    "concept_examples": [
+      {
+        "text": "የሚመሰረት ነው ምርጥ እንደሆነ ይሆናል",
+        "translation": "It is believed that the decision will be made.",
+        "phonetic": "jəməsərət nəw mərt’ əndəhəhənə jəhonaal"
+      },
+      {
+        "text": "የተተከሰ ነው በዚህ ከተማ ያለ ህክምና",
+        "translation": "There is said to be a hospital in this city.",
+        "phonetic": "jətətəkəsə nəw bəzih kətəma jalə həkəmna"
+      },
+      {
+        "text": "የተሰራ ልጅ ነበር በቤቱ",
+        "translation": "A book was written at home.",
+        "phonetic": "jətəsərra ləj nəbər bəbetu"
+      },
+      {
+        "text": "የተሰራው መጽሐፍ ተማሪዎች ያነቡት ነበር",
+        "translation": "The book that was written was read by the students.",
+        "phonetic": "jətəsərraw məts’ḥaf təmarriwot janəbbət nəbər"
+      }
+    ],
+    "common_error": {
+      "wrong": "There is said to be a hospital in this city.",
+      "correct": "የተተከሰ ነው በዚህ ከተማ ያለ ህክምና",
+      "correct_alt": "",
+      "explanation": "English speakers often directly translate 'there is said to be' into Amharic, but this structure does not exist in Amharic. Instead, use the passive construction የተተከሰ ነው (yətətəkəsə nəw) followed by the noun phrase. Avoid the temptation to include an impersonal subject like 'there,' as it is not necessary in Amharic."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "የመጀመሪያ ጥያቄ",
+        "translation": "Basic Questions",
+        "examples": [
+          {
+            "original": "የተተከሰ ነው የእንግሊዝኛ ትርጉም?",
+            "phonetic": "jətətəkəsə nəw jəŋəlizəñña tərəgəm?",
+            "translation": "Is there said to be an English translation?",
+            "note": "Use የተተከሰ ነው (yətətəkəsə nəw) to express 'is said to be' in questions."
+          },
+          {
+            "original": "የተሰራ ልጅ ነበር በቤቱ?",
+            "phonetic": "jətəsərra ləj nəbər bəbetu?",
+            "translation": "Was a book written at home?",
+            "note": "Use the past passive የተሰራ (jətəsərra) for completed actions."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "የመጨረሻ ጥያቄ",
+        "translation": "Advanced Questions",
+        "examples": [
+          {
+            "original": "የሚመሰረት ነው የሚገባ መለያ?",
+            "phonetic": "jəməsərət nəw jəməgəba mələja?",
+            "translation": "Is it believed that the document will be found?",
+            "note": "Use የሚመሰረት ነው (jəməsərət nəw) for future or general beliefs."
+          },
+          {
+            "original": "የተተከሰ ነው የተሰራው ሥራ?",
+            "phonetic": "jətətəkəsə nəw jətəsərraw səra?",
+            "translation": "Is there said to be a completed project?",
+            "note": "Combine passive constructions to express complex ideas."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "የማጥናት ጥያቄ",
+        "translation": "Nuanced Questions",
+        "examples": [
+          {
+            "original": "የተሰራውን መጽሐፍ ማን ያነቡት ነበር?",
+            "phonetic": "jətəsərrawən məts’ḥaf man janəbbət nəbər?",
+            "translation": "Who read the book that was written?",
+            "note": "Use relative clauses with passive verbs to add complexity."
+          },
+          {
+            "original": "የተተከሰ ነው የተሰራው ሥራ በጣም ጥሩ?",
+            "phonetic": "jətətəkəsə nəw jətəsərraw səra bəṭam t’əru?",
+            "translation": "Is there said to be a very good completed project?",
+            "note": "Add adjectives to modify the noun in passive constructions."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Advanced Passive Constructions"
+    }
+  }
+]

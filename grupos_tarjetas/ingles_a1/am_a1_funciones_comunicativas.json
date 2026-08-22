@@ -1,0 +1,293 @@
+[
+  {
+    "id": "am_A1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Greet and introduce yourself",
+    "bridge": "ስፓኒሽኛአን, ለሰላም መልእክት ማድረግ የሚጠቀሙት 'Hola' ወይም 'Buenos días' ናቸው፣ ለራስን መግቢያ መስጠትም 'Me llamo...' ወይም 'Soy...' ይላሉ። እንግሊዝኛ በሙሉ አግባብ ነው፤ 'Hello' ወይም 'Good morning' እና 'My name is...' ወይም 'I am...' እንደሚለዉ ይሄን ይጠቀማሉ። የተለየ ልዩነት እንግሊዝኛ ውስጥ 'I am called...' እንደሚል አይደለም (የተላኪ ጥያቄ ነው፣ የቀጥታ መገለጫ ግን በቀጣይ የሚያስፈልጉ የማይሆን ነው)። በእንግሊዝኛ ስማ ማረጋገጫ ለማውጣት 'to be' ተሰኪውን በቀጣይ ይጠቀማሉ፤ 'What is your name?' (ሰኞ 'How are you called?' አይደለም)።",
+    "rule": "ሰላም መልእክት፦ 'Hello' (Hola), 'Hi' (በጣም የተለየ), 'Good morning' (Buenos días), 'Good afternoon' (Buenas tardes), 'Good evening' (Buenas noches በማጸው)። ራስን መግቢያ መስጠት፦ 'My name is...' (Me llamo...) ወይም 'I am...' (Soy...)። ስም ማረጋገጫ፦ 'What is your name?' (¿Cómo te llamas?)። ሰላም መልእክት መመርመር፦ 'Nice to meet you' (Encantado/a de conocerte) እና መልሱ 'Nice to meet you too' ። መወዳኅት፦ 'Goodbye', 'Bye', 'See you later'።",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hola, me llamo María.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Buenos días, soy Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Encantado/a de conocerte.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "¿Cómo te llamas?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am called Anna.",
+      "correct": "My name is Anna.",
+      "correct_alt": "I am Anna.",
+      "explanation": "ስፓኒሽኛ ውስጥ 'Me llamo Anna' እንደሚል እንደሚለዉ እንደሚያውቁናቸው ነው፣ የእንግሊዝኛ ግን 'My name is...' ወይም 'I am...' ሲሆን 'I am called' በቀጣይ የሚያስፈልጉ የማይሆን በቀጥታ መገለጫ ነው።"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "የተለየ ሰላም መልእክት",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "¡Hola!",
+            "note": "የተለየ ሰላም መልእክት።"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "ራስን መግቢያ መስጠት",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Me llamo John.",
+            "note": "ስሙን ማገልገል የተለየ ሁኔታ።"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "ስም ማረጋገጫ",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "¿Cómo te llamas?",
+            "note": "ስም ማረጋገጫ የተለየ ሁኔታ።"
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "መወዳኅት",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "¡Hasta mañana!",
+            "note": "የተለየ መወዳኅት።"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "am": "Amharic"
+    }
+  },
+  {
+    "id": "am_A1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "ስፓኒሽኛአን, የወጣትን ዘመን ማገልገል ለማወቅ 'Tengo 25 años' (የ'ተን' እንቅስቃሴ የሚጠቀም) እንላለን፣ የእንግሊዝኛ ግን 'I am 25 years old' (የ'to be' እንቅስቃሴ የሚጠቀም) ማለትም ነው። የብሄር ስም ማገልገል ለማወቅ ደግሞ 'Soy español' (በርድ ያልሆነ) እንላለን፣ የእንግሊዝኛ ግን 'I am Spanish' (በርድ ያልሆነ) ማለትም ነው። የሥራ ስም ማገልገል ለማወቅ ደግሞ፣ ስፓኒሽኛአን 'Soy profesor' (በርድ ያልሆነ) እንላለን፣ የእንግሊዝኛ ግን በርድ ያስፈልጋል፦ 'I am a teacher'።",
+    "rule": "የወጣትን ዘመን፦ 'I am [ቁጥር] years old' (ሙሉ መጣህል፦ I am 25 years old)። የብሄር ስም፦ 'I am [ብሄር ስም]' (ሙሉ መጣህል፦ I am Spanish, I am Mexican)። የሥራ ስም፦ 'I am a/an [የሥራ ስም]' (ሙሉ መጣህል፦ I am a doctor, I am an engineer)። ለመጠየቅ፦ 'How old are you?' (መዓልትዎ ስለሚሆን?)፣ 'Where are you from?' (ከየት ነው?)፣ 'What do you do?' (ምን ትሰራለት?) ወይም 'What is your job?'።",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "የኔ 25 ዓመት ነው።",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Spanish.",
+        "translation": "ስፓኒሽ ነኝ/ና።",
+        "phonetic": "/aɪ æm ˈspænɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "ምክትል ነኝ/ና።",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "መዓልትዎ ስለሚሆን?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "",
+      "explanation": "ስፓኒሽኛአን 'Tengo 25 años' በማለት የ'ተን' እንቅስቃሴን እንጠቀም፣ የእንግሊዝኛ ግን ለወጪት ዘመን የ'to be' እንቅስቃሴ እንዲጠቀም አለበት። ይህ ለአስፓኒሽ ቋንቋ የሚናገሩት ምርጥ ልዩ ስህተቶች አንዱ ነው።"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "ወጪት ዘመን",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "የኔ 30 ዓመት ነው።",
+            "note": "የ'to be' እንቅስቃሴን ለወጪት ዘመን እንጠቀም።"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "ብሄር ስም",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "መክሲኮ ነኝ/ና።",
+            "note": "ብሄር ስም ለማገልገል በርድ አይጠቀም።"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "የሥራ ስም",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "እርሷ ሆስፒታል ነው።",
+            "note": "የሥራ ስም ለማገልገል 'a' ወይም 'an' በርድ ያስፈልጋል።"
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "ጠየቃዎች",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "ከየት ነው?",
+            "note": "የምድብ ስለት ጠየቂያ።"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "am": "Amharic"
+    }
+  },
+  {
+    "id": "am_A1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Describe objects and people (basic)",
+    "bridge": "እስከት ውስጥ, መገንባትን እና ሰዎችን ያልተለመዱ ስም በኋላ ያለ አጭብግ ይጠቀማል: 'አንድ ቀዳማይ መኪና', 'አንድ ታላቅ ልጅ'። እንግሊዝኛ ውስጥ, አጭብግ ስም በፊት ይመጣል: 'a red car', 'a tall girl'። ደግሞ የ'to be' እንዲሁም 'have got' ሥልጣናትን ለአጠቃላይ መግለጫት (She is tall) እና ለጥንታዊ ልዩነቶች (She has got blue eyes) ይጠቀማል።",
+    "rule": "መግለጫ: 1) አጭብግ + ስም (a big house)። 2) ትርጉም + 'to be' + አጭብግ (The house is big)። 3) ትርጉም + 'have/has got' + ልዩነት (She has got long hair)። ጥሩ አጭብግዎች: big (ታላቅ), small (ጥቁር), tall (ታላቅ), short (ጥቁር), beautiful (ጥበብ), old (እያንዳንዱ), young (ወጣት), fast (በፍጹም), slow (በቀላሉ)።",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "ይህ ታላቅ ቤት ነው።",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "እርስዋ ታላቅ እና ጥቁር ነው።",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "እሱ ሰበሰብ ሆይ አስተዳደር አላቸው።",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "መኪናው ቀዳማይ ነው።",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "a car red",
+      "correct": "a red car",
+      "correct_alt": "",
+      "explanation": "እስከት ውስጥ, አጭብግ ስም በኋላ ይመጣል ('አንድ ቀዳማይ መኪና')፣ ይሁን እንግሊዝኛ ውስጥ አጭብግ ስም በፊት ይመጣል ('a red car')። ይህ ለእስከት ቋንቋ ወቅቶች ምርጥ ስህተት ነው።"
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "አጭብግ + ስም",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "አንድ ጥቁር ዶግ",
+            "note": "አጭብግ ስም በፊት ይመጣል።"
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "ትርጉም + to be + አጭብግ",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "መጽሐፍው የሚያስተዳደር ነው።",
+            "note": "'to be' ለአጠቃላይ መግለጫት ይጠቀማል።"
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got ለልዩነቶች",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "እርስዋ ተራራ አስተዳደር አላታ።",
+            "note": "'have got' ለጥንታዊ ልዩነቶች ይጠቀማል።"
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "አካባቢ መግለጫ",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "ወንድም ወንድሟዬ ወጣት ነው እና ሰበሰብ ሆይ አስተዳደር አላቸው።",
+            "note": "'to be' እና 'have got' አካባቢ።"
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "am": "አማርኛ"
+    }
+  }
+]

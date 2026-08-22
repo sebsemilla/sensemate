@@ -98,5 +98,1741 @@
     "translations": {
       "en": "Verb to be"
     }
+  },
+  {
+    "id": "en_A1_gram_02",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Pronomii za mtu / Personal Pronouns",
+    "bridge": "In Swahili, personal pronouns are similar to English in function but differ in form and usage. Unlike English, Swahili pronouns do not change based on grammatical case (e.g., 'I' vs. 'me'), and there is no distinction between singular 'you' and plural 'you'. Additionally, Swahili pronouns often omit the subject if it’s clear from context, which can be a trap for English speakers who are used to explicit subjects.",
+    "rule": "Swahili personal pronouns are used to replace nouns. The basic pronouns are: mimi (I), wewe (you), yeye (he/she), sisi (we), ninyi (you plural), and wao (they). There is no gender distinction in the third-person singular (yeye means both 'he' and 'she'). Pronouns are often omitted when the subject is clear from context or verb conjugation. Note that 'it' does not have a direct equivalent in Swahili; objects are referred to by their nouns or contextually.",
+    "concept_examples": [
+      {
+        "text": "Mimi ninapenda chakula.",
+        "translation": "I like food.",
+        "phonetic": "/miˈmi niˈnɑpendɑ tʃɑˈkula/"
+      },
+      {
+        "text": "Yeye anajifunza Kiswahili.",
+        "translation": "He/She is learning Swahili.",
+        "phonetic": "/ˈjɛjɛ ɑnɑjiˈfunzɑ kiswɑˈhili/"
+      },
+      {
+        "text": "Sisi tunakwenda shuleni.",
+        "translation": "We are going to school.",
+        "phonetic": "/ˈsisi tuˈnɑkwɛndɑ shuˈleni/"
+      },
+      {
+        "text": "Wao wanacheza mpira.",
+        "translation": "They are playing soccer.",
+        "phonetic": "/ˈwao wɑˈnɑtʃɛzɑ ˈmpɪrɑ/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mimi likes food.",
+      "correct": "Mimi ninapenda chakula.",
+      "correct_alt": "",
+      "explanation": "English speakers often directly translate 'I' as 'mimi' without adding the verb conjugation. In Swahili, the verb must agree with the subject, so 'ninapenda' (I like) is necessary instead of just 'likes'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mimi na wewe",
+        "translation": "I and you",
+        "examples": [
+          {
+            "original": "Mimi ninataka maji.",
+            "phonetic": "/miˈmi niˈnɑtɑkɑ ˈmɑji/",
+            "translation": "I want water.",
+            "note": "Use 'mimi' for 'I' and conjugate the verb accordingly."
+          },
+          {
+            "original": "Wewe unajua nini?",
+            "phonetic": "/ˈwɛwɛ uˈnɑʒuɑ ˈnini/",
+            "translation": "What do you know?",
+            "note": "Use 'wewe' for 'you' and conjugate the verb to match."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Yeye",
+        "translation": "He/She",
+        "examples": [
+          {
+            "original": "Yeye ananunua viazi.",
+            "phonetic": "/ˈjɛjɛ ɑˈnɑnunua viˈɑzi/",
+            "translation": "He/She is buying potatoes.",
+            "note": "Use 'yeye' for both 'he' and 'she' without gender distinction."
+          },
+          {
+            "original": "Yeye anapoenda nyumbani?",
+            "phonetic": "/ˈjɛjɛ ɑnɑˈpɔɛndɑ nʉmˈbɑni/",
+            "translation": "When is he/she going home?",
+            "note": "The pronoun remains 'yeye' regardless of the verb tense."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Sisi, ninyi, na wao",
+        "translation": "We, you plural, and they",
+        "examples": [
+          {
+            "original": "Sisi tunakula samaki.",
+            "phonetic": "/ˈsisi tuˈnɑkula sɑˈmɑki/",
+            "translation": "We are eating fish.",
+            "note": "Use 'sisi' for 'we' and conjugate the verb accordingly."
+          },
+          {
+            "original": "Ninyi mnanunua nguo?",
+            "phonetic": "/ˈninyi mˈnɑnunua ˈŋɡuo/",
+            "translation": "Are you (plural) buying clothes?",
+            "note": "Use 'ninyi' for 'you plural' and conjugate the verb to match."
+          },
+          {
+            "original": "Wao wanapiga picha.",
+            "phonetic": "/ˈwao wɑˈnɑpɪɡɑ ˈpitʃɑ/",
+            "translation": "They are taking photos.",
+            "note": "Use 'wao' for 'they' and conjugate the verb accordingly."
+          }
+        ]
+      }
+    ],
+    "emoji": "👥",
+    "phonetic": "",
+    "translations": {
+      "en": "Personal Pronouns"
+    }
+  },
+  {
+    "id": "en_A1_gram_03",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mifano ya Kiingereza na Kiswahili: Artículos definidos e indefinidos / Definite and Indefinite Articles",
+    "bridge": "In English, we use 'a/an' for indefinite articles and 'the' for definite articles. In Swahili, there is no direct equivalent to 'a/an' or 'the'. Instead, Swahili uses demonstrative pronouns like 'hii' (this) or 'hiyo' (that) to indicate definiteness, but often the article is simply omitted. This can be confusing for English speakers, who might mistakenly add 'a' or 'the' when speaking Swahili.",
+    "rule": "Swahili does not have articles like 'a', 'an', or 'the'. When referring to a specific noun, you simply use the noun as is. For nonspecific nouns, context is key. There are no exceptions to this rule, making it straightforward but requiring learners to rely on context more than in English.",
+    "concept_examples": [
+      {
+        "text": "Ninataka kitabu.",
+        "translation": "I want a book.",
+        "phonetic": "/ni.na.ˈta.ka ki.ˈta.bu/"
+      },
+      {
+        "text": "Kitabu hiki ni jema.",
+        "translation": "This book is good.",
+        "phonetic": "/ki.ˈta.bu ˈhi.ki ni ˈʒe.ma/"
+      },
+      {
+        "text": "Nimeona mwanamke.",
+        "translation": "I saw a woman.",
+        "phonetic": "/ni.me.ˈo.na mwa.na.ˈmke/"
+      },
+      {
+        "text": "Mwanamke yule anaitwa Maria.",
+        "translation": "That woman is called Maria.",
+        "phonetic": "/mwa.na.ˈmke ˈju.le a.nai.ˈtwa ma.ˈri.a/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Ninataka the kitabu.",
+      "correct": "Ninataka kitabu.",
+      "correct_alt": "",
+      "explanation": "English speakers often mistakenly add 'the' or 'a' when speaking Swahili. Remember, Swahili does not use articles, so simply use the noun as is."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mifano ya kwanza",
+        "translation": "Basic Examples",
+        "examples": [
+          {
+            "original": "Ninataka nyama.",
+            "phonetic": "/ni.na.ˈta.ka ˈɲa.ma/",
+            "translation": "I want meat.",
+            "note": "No article is needed; the noun stands alone."
+          },
+          {
+            "original": "Nimeona mti.",
+            "phonetic": "/ni.me.ˈo.na mti/",
+            "translation": "I saw a tree.",
+            "note": "Context indicates nonspecific reference."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mifano ya kati",
+        "translation": "Intermediate Examples",
+        "examples": [
+          {
+            "original": "Ninapenda nguo hii.",
+            "phonetic": "/ni.na.ˈpen.da ˈŋɡo ˈhi.i/",
+            "translation": "I like this dress.",
+            "note": "Demonstrative 'hii' indicates definiteness."
+          },
+          {
+            "original": "Nataka kula chakula kile.",
+            "phonetic": "/na.ˈta.ka ˈku.la ˈtʃa.ku.la ˈki.le/",
+            "translation": "I want to eat that food.",
+            "note": "Demonstrative 'kile' specifies the food."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mifano ya mwisho",
+        "translation": "Advanced Examples",
+        "examples": [
+          {
+            "original": "Yule msichana anaitwa Fatuma.",
+            "phonetic": "/ˈju.le msi.ˈtʃa.na a.nai.ˈtwa fa.ˈtu.ma/",
+            "translation": "That girl is called Fatuma.",
+            "note": "Demonstrative 'yule' specifies the girl."
+          },
+          {
+            "original": "Sisi hii ni nzuri.",
+            "phonetic": "/ˈsi.si ˈhi.i ni ˈnzu.ri/",
+            "translation": "This chair is new.",
+            "note": "Demonstrative 'hii' indicates definiteness."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Definite and Indefinite Articles"
+    }
+  },
+  {
+    "id": "en_A1_gram_04",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Jina na idadi / Gender and Number of Nouns",
+    "bridge": "Unlike English, Swahili nouns have grammatical gender (m/f/n) and number (singular/plural), which affect agreement with adjectives, pronouns, and verbs. English nouns only change for plural (e.g., 'cat' → 'cats'), but Swahili nouns often change their prefix and sometimes their stem. Beware: gender is not always predictable, and some nouns have irregular plurals.",
+    "rule": "Swahili nouns belong to one of 9 classes (Noun Classes 1-9), each with a specific prefix indicating gender and number. Singular nouns typically have prefixes like 'm-' (masculine), 'wa-' (plural), or 'ki-' (tools/abstracts). Plurals often change the prefix (e.g., 'm-' → 'wa-') and sometimes the stem. Agreement with adjectives and verbs follows the noun class. Exceptions include loanwords and irregular plurals.",
+    "concept_examples": [
+      {
+        "text": "Mjomba wangu anakuja kesho.",
+        "translation": "My uncle is coming tomorrow.",
+        "phonetic": "mʒɔmba wangu anakuja kɛʃɔ"
+      },
+      {
+        "text": "Watoto wanacheza kwenye uwanja.",
+        "translation": "Children are playing in the field.",
+        "phonetic": "watoːto wanatʃɛza kwɛnje uwandʒa"
+      },
+      {
+        "text": "Kitabu changu kimepotea.",
+        "translation": "My book is lost.",
+        "phonetic": "kitabu tʃangu kimɛpɔtea"
+      },
+      {
+        "text": "Mavazi yangu yanataka ufumbuzi.",
+        "translation": "My clothes need washing.",
+        "phonetic": "mavazi jangu janataka ufumbusi"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mwanamke wanajionea.",
+      "correct": "Wanawake wanajionea.",
+      "correct_alt": "",
+      "explanation": "English speakers often incorrectly pluralize nouns by adding '-s' or keeping the singular prefix. In Swahili, plurals require changing the noun class prefix (e.g., 'mwanamke' → 'wanawake'). Always learn the correct plural form for each noun."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mbinu ya mmoja",
+        "translation": "Singular Nouns",
+        "examples": [
+          {
+            "original": "Mwanamke mmoja",
+            "phonetic": "mwanaːmke moːja",
+            "translation": "One woman",
+            "note": "Singular nouns use prefixes like 'm-' for people."
+          },
+          {
+            "original": "Kitu cha kwanza",
+            "phonetic": "kitʊ tʃa kwanza",
+            "translation": "The first thing",
+            "note": "Abstract nouns use prefixes like 'ki-'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mbinu ya wengi",
+        "translation": "Plural Nouns",
+        "examples": [
+          {
+            "original": "Wanawake wengi",
+            "phonetic": "wanaːwake wɛŋi",
+            "translation": "Many women",
+            "note": "Plurals often change the prefix (e.g., 'm-' → 'wa-')."
+          },
+          {
+            "original": "Vitabu vingi",
+            "phonetic": "vitabu viŋi",
+            "translation": "Many books",
+            "note": "Some plurals use 'vi-' for inanimate objects."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Umbali wa kijinsi",
+        "translation": "Gender Agreement",
+        "examples": [
+          {
+            "original": "Mjomba mzuri",
+            "phonetic": "mʒɔmba mzuri",
+            "translation": "A handsome uncle",
+            "note": "Adjectives agree with the noun's gender (m-)."
+          },
+          {
+            "original": "Watoto wazuri",
+            "phonetic": "watoːto wazuri",
+            "translation": "Beautiful children",
+            "note": "Adjectives agree with the plural prefix (wa-)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Gender and Number of Nouns"
+    }
+  },
+  {
+    "id": "en_A1_gram_05",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kufanya / Verbs in Present Tense",
+    "bridge": "In Swahili, regular verbs in the present tense are simpler than in English because they don’t change based on the subject. Unlike English, where verbs like 'I walk' and 'he walks' differ, Swahili verbs stay the same for all subjects. However, be careful with the prefix 'hu-' for the third person singular (he/she/it), which doesn’t exist in English. Also, Swahili verbs often end in '-a' in their base form, which is added to directly without conjugation changes.",
+    "rule": "Regular Swahili verbs in the present tense have a consistent structure: Subject + Verb Stem (with appropriate prefix). For all subjects except the third person singular, the verb stem remains unchanged. For the third person singular (he/she/it), add the prefix 'hu-' to the verb stem. Example: 'kufanya' (to do) becomes 'anafanya' (he/she/it does). The base form of the verb always ends in '-a'. There are no exceptions for regular verbs at the A1 level.",
+    "concept_examples": [
+      {
+        "text": "Ninafanya kazi.",
+        "translation": "I work.",
+        "phonetic": "nɪnaɸana kazi"
+      },
+      {
+        "text": "Wanafanya kazi.",
+        "translation": "They work.",
+        "phonetic": "wanaɸana kazi"
+      },
+      {
+        "text": "Anafanya kazi.",
+        "translation": "He/She works.",
+        "phonetic": "anaɸana kazi"
+      },
+      {
+        "text": "Tunafanya kazi.",
+        "translation": "We work.",
+        "phonetic": "tunafana kazi"
+      }
+    ],
+    "common_error": {
+      "wrong": "He does work.",
+      "correct": "Anafanya kazi.",
+      "correct_alt": "",
+      "explanation": "English speakers often directly translate 'he does' to Swahili, but the correct form is 'anafanya' because Swahili adds the prefix 'hu-' (here 'ana-') for the third person singular. Avoid using 'does' as an auxiliary verb since Swahili doesn’t require it in the present tense."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mimi na Wewe",
+        "translation": "I and You",
+        "examples": [
+          {
+            "original": "Ninaonga maji.",
+            "phonetic": "nɪnaoŋga maci",
+            "translation": "I drink water.",
+            "note": "Focus on the subject 'mimi' (I) and the verb 'kuonga' (to drink) without changes."
+          },
+          {
+            "original": "Wewe unakula.",
+            "phonetic": "wewe unakula",
+            "translation": "You eat.",
+            "note": "The verb 'kula' (to eat) stays the same for 'wewe' (you)."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Sisi na Nyinyi",
+        "translation": "We and You (plural)",
+        "examples": [
+          {
+            "original": "Tunakimbia.",
+            "phonetic": "tunakɪmbɪa",
+            "translation": "We run.",
+            "note": "The verb 'kimbia' (to run) is used directly for 'sisi' (we)."
+          },
+          {
+            "original": "Mnakimbia.",
+            "phonetic": "mnakɪmbɪa",
+            "translation": "You (plural) run.",
+            "note": "The verb remains unchanged for 'nyinyi' (you plural)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Yeye na Waosawa",
+        "translation": "He/She/It and They",
+        "examples": [
+          {
+            "original": "Anakimbia.",
+            "phonetic": "anakɪmbɪa",
+            "translation": "He/She runs.",
+            "note": "Add 'ana-' to 'kimbia' for the third person singular."
+          },
+          {
+            "original": "Wanakimbia.",
+            "phonetic": "wanakɪmbɪa",
+            "translation": "They run.",
+            "note": "The verb stays the same for 'waosawa' (they)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📖",
+    "phonetic": "",
+    "translations": {
+      "en": "Regular Verbs in Present Tense"
+    }
+  },
+  {
+    "id": "en_A1_gram_06",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kuwa na 'si' / Using 'si' for Negation",
+    "bridge": "In Swahili, negation is typically expressed using the word 'si' before the verb, unlike English where 'not' usually follows the verb. Be careful not to place 'si' after the verb, as this is incorrect in Swahili. Also, note that Swahili does not use auxiliary verbs like 'do' for negation, unlike English questions or emphasis.",
+    "rule": "To negate a sentence in Swahili, place 'si' directly before the verb. This structure is consistent across tenses and does not change based on the subject. For example: 'Si-na-penda' (I do not like). There are no exceptions for basic negation at the A1 level.",
+    "concept_examples": [
+      {
+        "text": "Si-na-takwa.",
+        "translation": "I am not afraid.",
+        "phonetic": "si.na.ta.kwa"
+      },
+      {
+        "text": "Yule mtu si-a-juu.",
+        "translation": "That person is not tall.",
+        "phonetic": "yu.le m.tu si.a.juu"
+      },
+      {
+        "text": "Si-tu-fahamu.",
+        "translation": "We do not understand.",
+        "phonetic": "si.tu.fa.hu.mu"
+      },
+      {
+        "text": "Si-wa-ona.",
+        "translation": "They do not see.",
+        "phonetic": "si.wa.o.na"
+      }
+    ],
+    "common_error": {
+      "wrong": "Nina si-penda.",
+      "correct": "Si-na-penda.",
+      "correct_alt": "",
+      "explanation": "English speakers often place 'si' after the subject, mimicking the English structure with 'not'. In Swahili, 'si' must always precede the verb. Remember the correct order: Subject + si + verb."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Si na mimi",
+        "translation": "Negation with 'I'",
+        "examples": [
+          {
+            "original": "Si-na-hungry.",
+            "phonetic": "si.na.hun.gri",
+            "translation": "I am not hungry.",
+            "note": "Use 'si' before the verb to negate statements about yourself."
+          },
+          {
+            "original": "Si-na-takwa.",
+            "phonetic": "si.na.ta.kwa",
+            "translation": "I am not afraid.",
+            "note": "Negation works the same for adjectives and verbs."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Si na wengine",
+        "translation": "Negation with others",
+        "examples": [
+          {
+            "original": "Yule mtu si-a-juu.",
+            "phonetic": "yu.le m.tu si.a.juu",
+            "translation": "That person is not tall.",
+            "note": "Apply the same rule for third-person subjects."
+          },
+          {
+            "original": "Wao si-wa-jaa.",
+            "phonetic": "wa.o si.wa.jaa",
+            "translation": "They are not full.",
+            "note": "Plural subjects follow the same negation pattern."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Si na maswali",
+        "translation": "Negation in questions",
+        "examples": [
+          {
+            "original": "Si-u-takwa?",
+            "phonetic": "si.u.ta.kwa",
+            "translation": "Are you not afraid?",
+            "note": "Negation in questions still uses 'si' before the verb."
+          },
+          {
+            "original": "Si-wa-ona?",
+            "phonetic": "si.wa.o.na",
+            "translation": "Do they not see?",
+            "note": "No auxiliary verbs like 'do' are needed in Swahili."
+          }
+        ]
+      }
+    ],
+    "emoji": "❌",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Negation"
+    }
+  },
+  {
+    "id": "en_A1_gram_07",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Maswali ya Msingi / Basic Questions",
+    "bridge": "In Swahili, question words like 'nani' (who), 'nini' (what), and 'wapi' (where) typically come at the beginning of the sentence, similar to English. However, Swahili does not invert the subject and verb in yes/no questions, unlike English. Additionally, the tone and word order in Swahili questions can be more straightforward, with less reliance on auxiliary verbs like 'do' or 'does'.",
+    "rule": "Swahili questions are formed by placing the question word at the start of the sentence. For yes/no questions, the structure remains the same as a statement, with no verb inversion. Common question words include: 'nani' (who), 'nini' (what), 'wapi' (where), 'lini' (when), 'vipi' (how), and 'kwa nini' (why). The verb and subject order stays consistent, and the tone of the sentence often indicates it’s a question.",
+    "concept_examples": [
+      {
+        "text": "Nani anajifunza Kiswahili?",
+        "translation": "Who is learning Swahili?",
+        "phonetic": "/naˈni aˈnaɟiˈfunza kiˈswahili/"
+      },
+      {
+        "text": "Unaenda wapi?",
+        "translation": "Where are you going?",
+        "phonetic": "/uˈnaɛnda ˈwapi/"
+      },
+      {
+        "text": "Je, unapenda chakula cha Kiswahili?",
+        "translation": "Do you like Swahili food?",
+        "phonetic": "/ɟe uˈnapenda ˈtʃakula ˈtʃa kiˈswahili/"
+      },
+      {
+        "text": "Nini unataka kula?",
+        "translation": "What do you want to eat?",
+        "phonetic": "/ˈnini uˈnataka ˈkula/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Do you go to school?",
+      "correct": "Je, unapiga shule?",
+      "correct_alt": "Unapiga shule?",
+      "explanation": "English speakers often try to use 'do' or 'does' for yes/no questions, which is unnecessary in Swahili. The correct structure is to use 'je' at the beginning or simply state the sentence with a questioning tone."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Maswali ya Ndani/Nje",
+        "translation": "Yes/No Questions",
+        "examples": [
+          {
+            "original": "Je, unaona jua?",
+            "phonetic": "/ɟe uˈnaona ˈɟua/",
+            "translation": "Do you see the sun?",
+            "note": "Use 'je' at the start for emphasis, but it’s optional."
+          },
+          {
+            "original": "Mwalimu anapoenda shule?",
+            "phonetic": "/mwaˈlimu aˈnaɠoɛnda ˈshule/",
+            "translation": "Does the teacher go to school?",
+            "note": "No verb inversion, just a questioning tone."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Maswali ya Nani/Nini",
+        "translation": "Who/What Questions",
+        "examples": [
+          {
+            "original": "Nani anasoma kitabu?",
+            "phonetic": "/ˈnani aˈnasoma kiˈtabu/",
+            "translation": "Who is reading the book?",
+            "note": "Place 'nani' at the beginning of the sentence."
+          },
+          {
+            "original": "Nini huko kwenye meza?",
+            "phonetic": "/ˈnini ˈhuko ˈkwenye ˈmeza/",
+            "translation": "What is on the table?",
+            "note": "Use 'nini' for asking about things."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Maswali ya Mahali na Muda",
+        "translation": "Where/When Questions",
+        "examples": [
+          {
+            "original": "Wapi unakaa?",
+            "phonetic": "/ˈwapi uˈnakaa/",
+            "translation": "Where do you sit?",
+            "note": "Use 'wapi' for asking about places."
+          },
+          {
+            "original": "Lini utakwenda nyumbani?",
+            "phonetic": "/ˈlini uˈtakwenda nɟumˈbani/",
+            "translation": "When will you go home?",
+            "note": "Use 'lini' for asking about time."
+          }
+        ]
+      }
+    ],
+    "emoji": "❓",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Questions"
+    }
+  },
+  {
+    "id": "en_A1_gram_08",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Namba 1-100 / Numbers 1-100",
+    "bridge": "In Swahili, numbers from 1 to 10 are unique, but numbers 11-19 are formed by combining 'kumi' (ten) with the unit digit, similar to English 'eleven' to 'nineteen'. However, unlike English, numbers 20, 30, etc., are formed by multiplying 'kumi' (e.g., 'thelathini' for 30). Additionally, Swahili does not use hyphens in compound numbers, which can be a trap for English speakers.",
+    "rule": "Numbers 1-10 are unique: 'moja', 'mbili', 'tatu', 'nne', 'tano', 'sita', 'saba', 'nane', 'tisa', 'kumi'. Numbers 11-19 are formed by adding the unit digit to 'kumi' (e.g., 'kumi na moja' for 11). Tens are multiples of 'kumi' (e.g., 'thelathini' for 30). For numbers 21-99, combine the ten and the unit (e.g., 'thelathini na moja' for 31). There are no exceptions in this range.",
+    "concept_examples": [
+      {
+        "text": "Kumi na mbili",
+        "translation": "Twelve",
+        "phonetic": "ˈkumi na ˈmbili"
+      },
+      {
+        "text": "Thelathini",
+        "translation": "Thirty",
+        "phonetic": "ˈθɛlɑθini"
+      },
+      {
+        "text": "Arbaini na tano",
+        "translation": "Forty-five",
+        "phonetic": "ɑrˈbɑini na ˈtɑno"
+      },
+      {
+        "text": "Elfu moja",
+        "translation": "One thousand",
+        "phonetic": "ˈelfu ˈmoja"
+      }
+    ],
+    "common_error": {
+      "wrong": "Kumi-moja",
+      "correct": "Kumi na moja",
+      "correct_alt": "",
+      "explanation": "English speakers often incorrectly use a hyphen in compound numbers like 'eleven'. In Swahili, 'kumi na moja' (ten and one) is the correct form, not 'kumi-moja'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Namba 1-10",
+        "translation": "Numbers 1-10",
+        "examples": [
+          {
+            "original": "Moja",
+            "phonetic": "ˈmoja",
+            "translation": "One",
+            "note": "Basic cardinal number."
+          },
+          {
+            "original": "Tano",
+            "phonetic": "ˈtɑno",
+            "translation": "Five",
+            "note": "Another unique number in Swahili."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Namba 11-50",
+        "translation": "Numbers 11-50",
+        "examples": [
+          {
+            "original": "Kumi na mbili",
+            "phonetic": "ˈkumi na ˈmbili",
+            "translation": "Twelve",
+            "note": "Combines 'kumi' (ten) and 'mbili' (two)."
+          },
+          {
+            "original": "Thelathini",
+            "phonetic": "ˈθɛlɑθini",
+            "translation": "Thirty",
+            "note": "Multiple of 'kumi' (three tens)."
+          },
+          {
+            "original": "Arbaini",
+            "phonetic": "ɑrˈbɑini",
+            "translation": "Forty",
+            "note": "Four tens."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Namba 51-100",
+        "translation": "Numbers 51-100",
+        "examples": [
+          {
+            "original": "Hamsini na saba",
+            "phonetic": "hɑmˈsini na ˈsɑbɑ",
+            "translation": "Fifty-seven",
+            "note": "Combines 'hamsini' (fifty) and 'saba' (seven)."
+          },
+          {
+            "original": "Themanini",
+            "phonetic": "ˈθɛmɑnini",
+            "translation": "Eighty",
+            "note": "Eight tens."
+          },
+          {
+            "original": "Mia",
+            "phonetic": "ˈmia",
+            "translation": "One hundred",
+            "note": "Basic cardinal number for 100."
+          }
+        ]
+      }
+    ],
+    "emoji": "🔢",
+    "phonetic": "",
+    "translations": {
+      "en": "Numbers 1-100"
+    }
+  },
+  {
+    "id": "en_A1_gram_09",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mifano ya Kiswahili / Basic Swahili Adjectives",
+    "bridge": "In Swahili, adjectives agree with the noun they describe in class and number, unlike English where adjectives remain the same. For example, 'big' in English is 'kubwa' in Swahili, but it changes to 'kubwa' (class 1), 'kubwa' (class 2), etc., depending on the noun. Be cautious of this agreement rule, as it doesn't exist in English.",
+    "rule": "Swahili adjectives must agree with the noun they modify in terms of noun class and number. There are 16 noun classes in Swahili, each with its own adjective form. For example, 'mwenzake' (his/her friend) uses the prefix 'mwen-' for class 1, while 'nyumba' (house) uses 'ny-' for class 7. Adjectives also have singular and plural forms, often marked by prefixes. Learn the noun classes and their corresponding adjective prefixes to ensure correct agreement.",
+    "concept_examples": [
+      {
+        "text": "Mjomba wangu ni mkubwa.",
+        "translation": "My uncle is tall.",
+        "phonetic": "/mʒɔmba wangu ni mkubwa/"
+      },
+      {
+        "text": "Watoto wanaongea lugha tofauti.",
+        "translation": "The children speak different languages.",
+        "phonetic": "/watoto wanaɡea luɣa tofauti/"
+      },
+      {
+        "text": "Nyumba hii ni ndogo.",
+        "translation": "This house is small.",
+        "phonetic": "/nʒumba hiː ni ndoɡo/"
+      },
+      {
+        "text": "Mavazi haya ni mazuri.",
+        "translation": "These clothes are nice.",
+        "phonetic": "/mavazi haya ni mazuri/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Rafiki yangu ni kubwa.",
+      "correct": "Rafiki yangu ni mkubwa.",
+      "correct_alt": "",
+      "explanation": "English speakers often forget to add the correct prefix to the adjective. 'Kubwa' (big) needs the prefix 'm-' to agree with 'rafiki' (friend), which is in class 1. Always check the noun class and add the appropriate prefix to the adjective."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mifano ya Kiswahili",
+        "translation": "Basic Examples",
+        "examples": [
+          {
+            "original": "Mjomba wangu ni mkubwa.",
+            "phonetic": "/mʒɔmba wangu ni mkubwa/",
+            "translation": "My uncle is tall.",
+            "note": "Notice the prefix 'm-' in 'mkubwa' to agree with 'mjomba' (class 1)."
+          },
+          {
+            "original": "Nyumba hii ni ndogo.",
+            "phonetic": "/nʒumba hiː ni ndoɡo/",
+            "translation": "This house is small.",
+            "note": "The adjective 'ndogo' agrees with 'nyumba' (class 7) without a prefix."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mifano ya Watu",
+        "translation": "People Examples",
+        "examples": [
+          {
+            "original": "Mwalimu yule ni mzuri.",
+            "phonetic": "/mwalimu jule ni mzuri/",
+            "translation": "That teacher is nice.",
+            "note": "The prefix 'm-' in 'mzuri' agrees with 'mwalimu' (class 1)."
+          },
+          {
+            "original": "Watoto wanaongea lugha tofauti.",
+            "phonetic": "/watoto wanaɡea luɣa tofauti/",
+            "translation": "The children speak different languages.",
+            "note": "The plural prefix 'wa-' is used for 'watoto' (class 2)."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mifano ya Vitu",
+        "translation": "Object Examples",
+        "examples": [
+          {
+            "original": "Mavazi haya ni mazuri.",
+            "phonetic": "/mavazi haya ni mazuri/",
+            "translation": "These clothes are nice.",
+            "note": "The plural prefix 'ma-' is used for 'mavazi' (class 6)."
+          },
+          {
+            "original": "Kitabu hiki ni kikubwa.",
+            "phonetic": "/kitabu hiki ni kikubwa/",
+            "translation": "This book is big.",
+            "note": "The prefix 'ki-' in 'kikubwa' agrees with 'kitabu' (class 7)."
+          }
+        ]
+      }
+    ],
+    "emoji": "📚",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Adjectives and Agreement"
+    }
+  },
+  {
+    "id": "en_A1_gram_10",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Mili / Possessives",
+    "bridge": "In Swahili, possessive adjectives agree with the noun they modify in class and number, unlike English where they remain constant. For example, 'my' in Swahili changes depending on the noun class of the object being possessed. Be careful not to directly translate English possessives, as Swahili uses a different system that requires matching the noun class.",
+    "rule": "Swahili possessive adjectives must agree with the noun they modify in class and number. The forms are: 'wangu' (my), 'wako' (your), 'wake' (his/her), 'wetu' (our), 'wenu' (your, plural), 'wao' (their). Note that 'wake' is used for both masculine and feminine singular possession. The possessive adjective follows the noun it modifies. For example, 'kitabu changu' (my book) uses 'changu' because 'kitabu' is in noun class 7/8.",
+    "concept_examples": [
+      {
+        "text": "Nyumba yangu ni kubwa.",
+        "translation": "My house is big.",
+        "phonetic": "/ˈɲʊmba ˈjaŋɡu ni ˈkubwa/"
+      },
+      {
+        "text": "Jina lako ni nani?",
+        "translation": "What is your name?",
+        "phonetic": "/ˈdʒina ˈlako ni ˈnani/"
+      },
+      {
+        "text": "Mke wake ni mzuri.",
+        "translation": "His wife is beautiful.",
+        "phonetic": "/ˈmke ˈwake ni ˈmzuri/"
+      },
+      {
+        "text": "Watoto wetu wanajifunza.",
+        "translation": "Our children are learning.",
+        "phonetic": "/waˈtoto ˈwetu wanaˈdʒifunzə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Kitabu wangu ni nzuri.",
+      "correct": "Kitabu changu ni nzuri.",
+      "correct_alt": "",
+      "explanation": "English speakers often incorrectly use 'wangu' for all possessive forms. In Swahili, the possessive must agree with the noun class. 'Kitabu' is in noun class 7/8, so 'changu' is the correct form, not 'wangu'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Mili yangu",
+        "translation": "My possessives",
+        "examples": [
+          {
+            "original": "Nyumba yangu",
+            "phonetic": "/ˈɲʊmba ˈjaŋɡu/",
+            "translation": "My house",
+            "note": "Use 'yangu' for noun class 1/2."
+          },
+          {
+            "original": "Kitabu changu",
+            "phonetic": "/ˈkitabu ˈtʃaŋɡu/",
+            "translation": "My book",
+            "note": "Use 'changu' for noun class 7/8."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mili yako",
+        "translation": "Your possessives",
+        "examples": [
+          {
+            "original": "Jina lako",
+            "phonetic": "/ˈdʒina ˈlako/",
+            "translation": "Your name",
+            "note": "Use 'lako' for noun class 5/6."
+          },
+          {
+            "original": "Mji wako",
+            "phonetic": "/ˈmdʒi ˈwako/",
+            "translation": "Your city",
+            "note": "Use 'wako' for noun class 9/10."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mili yao",
+        "translation": "Their possessives",
+        "examples": [
+          {
+            "original": "Watoto wao",
+            "phonetic": "/waˈtoto ˈwao/",
+            "translation": "Their children",
+            "note": "Use 'wao' for noun class 2."
+          },
+          {
+            "original": "Mashua yao",
+            "phonetic": "/maˈʃua ˈyao/",
+            "translation": "Their cars",
+            "note": "Use 'yao' for noun class 10."
+          }
+        ]
+      }
+    ],
+    "emoji": "👤",
+    "phonetic": "",
+    "translations": {
+      "en": "Possessives"
+    }
+  },
+  {
+    "id": "en_A1_gram_11",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Hii, Hiyo, Hizi, Hiyo / This, That, These, Those",
+    "bridge": "In Swahili, demonstratives agree in number and sometimes in class with the noun they modify, unlike English where 'this' and 'that' remain the same regardless of the noun. Swahili also distinguishes between 'hii/hiyo' (singular) and 'hizi/hiyo' (plural), similar to English 'this/that' and 'these/those'. However, the choice between 'hii' and 'hiyo' depends on proximity and context, which is less strict in English.",
+    "rule": "Swahili demonstratives have four main forms: 'hii' (this, singular), 'hiyo' (that, singular), 'hizi' (these, plural), and 'hiyo' (those, plural). The singular forms 'hii' and 'hiyo' are used for nouns in classes 1, 3, 5, and 7, while 'hizi' and 'hiyo' are used for plural nouns. Note that 'hiyo' is used for both singular and plural when referring to distant objects. The demonstrative must agree with the noun in class and number.",
+    "concept_examples": [
+      {
+        "text": "Hii ni nyumba yangu.",
+        "translation": "This is my house.",
+        "phonetic": "/hiː ni nʲumba jaŋu/"
+      },
+      {
+        "text": "Hiyo ni jina la mwanamke.",
+        "translation": "That is a woman's name.",
+        "phonetic": "/hijo ni ʤina la mwanamke/"
+      },
+      {
+        "text": "Hizi ni vitabu vya shule.",
+        "translation": "These are school books.",
+        "phonetic": "/hizi ni vitabu vja shule/"
+      },
+      {
+        "text": "Hiyo ni magari yao.",
+        "translation": "Those are their cars.",
+        "phonetic": "/hijo ni magari jaɣo/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Hii ni vitabu.",
+      "correct": "Hizi ni vitabu.",
+      "correct_alt": "",
+      "explanation": "English speakers often mistakenly use the singular form 'hii' for plural nouns. Remember that 'hizi' is the correct plural form for nouns in classes that use 'hizi/hiyo'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Hii/Hiyo (Singular)",
+        "translation": "This/That (Singular)",
+        "examples": [
+          {
+            "original": "Hii ni kitabu changu.",
+            "phonetic": "/hiː ni kitabu ʧaŋu/",
+            "translation": "This is my book.",
+            "note": "Use 'hii' for singular nouns in classes 1, 3, 5, and 7."
+          },
+          {
+            "original": "Hiyo ni mti.",
+            "phonetic": "/hijo ni mti/",
+            "translation": "That is a tree.",
+            "note": "Use 'hiyo' for distant singular nouns."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Hizi/Hiyo (Plural)",
+        "translation": "These/Those (Plural)",
+        "examples": [
+          {
+            "original": "Hizi ni nyumba.",
+            "phonetic": "/hizi ni nʲumba/",
+            "translation": "These are houses.",
+            "note": "Use 'hizi' for plural nouns in classes that use 'hizi/hiyo'."
+          },
+          {
+            "original": "Hiyo ni watoto.",
+            "phonetic": "/hijo ni watoto/",
+            "translation": "Those are children.",
+            "note": "Use 'hiyo' for distant plural nouns."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Mischievous Context",
+        "translation": "Contextual Usage",
+        "examples": [
+          {
+            "original": "Hii ni ya nani?",
+            "phonetic": "/hiː ni ja nani/",
+            "translation": "Whose is this?",
+            "note": "Use 'hii' when asking about a nearby object."
+          },
+          {
+            "original": "Hiyo ni wapi?",
+            "phonetic": "/hijo ni wapi/",
+            "translation": "Where is that?",
+            "note": "Use 'hiyo' when asking about a distant object."
+          }
+        ]
+      }
+    ],
+    "emoji": "👉",
+    "phonetic": "",
+    "translations": {
+      "en": "Demonstratives"
+    }
+  },
+  {
+    "id": "en_A1_gram_12",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kuna / Kuna wengine / Kuna (Ujumla) / There is / There are",
+    "bridge": "In English, 'There is' and 'There are' are used to express existence, but Swahili uses 'Kuna' for both singular and plural. Unlike English, Swahili does not change the verb form based on the quantity of the noun. Be careful not to add 's' or 'wengine' to 'Kuna' when referring to plural nouns, as this is a common mistake for English speakers.",
+    "rule": "In Swahili, 'Kuna' is used to express the existence of something, regardless of whether it is singular or plural. The structure is: 'Kuna' + noun. For example, 'Kuna kitabu' means 'There is a book' and 'Kuna vitabu' means 'There are books'. The verb 'Kuna' does not change, and no additional words are needed to indicate plurality. This is different from English, where 'There is' is used for singular and 'There are' for plural.",
+    "concept_examples": [
+      {
+        "text": "Kuna nyumba karibu na mjini.",
+        "translation": "There is a house near the city.",
+        "phonetic": "kʊna nʲʊmba karibu na mʲini"
+      },
+      {
+        "text": "Kuna watu wengi kwenye baridi.",
+        "translation": "There are many people on the street.",
+        "phonetic": "kʊna watu wengi kwenye baridi"
+      },
+      {
+        "text": "Kuna mti mmoja kwenye bustani.",
+        "translation": "There is one tree in the garden.",
+        "phonetic": "kʊna mti mmoja kwenye bustani"
+      },
+      {
+        "text": "Kuna maji mengi katika mto.",
+        "translation": "There is a lot of water in the river.",
+        "phonetic": "kʊna maji mengi katika mto"
+      }
+    ],
+    "common_error": {
+      "wrong": "Kuna watu wengi kwenye baridi.",
+      "correct": "Kuna watu wengi kwenye baridi.",
+      "correct_alt": "",
+      "explanation": "English speakers often mistakenly add 'wengi' (many) after 'Kuna' when referring to plural nouns, thinking it is necessary to indicate plurality. However, 'Kuna' already covers both singular and plural, so adding 'wengi' is redundant and incorrect."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kuna (Ujumla)",
+        "translation": "There is / There are (Existence)",
+        "examples": [
+          {
+            "original": "Kuna nyumba.",
+            "phonetic": "kʊna nʲʊmba",
+            "translation": "There is a house.",
+            "note": "Use 'Kuna' for both singular and plural nouns."
+          },
+          {
+            "original": "Kuna watoto.",
+            "phonetic": "kʊna watoːto",
+            "translation": "There are children.",
+            "note": "No need to change 'Kuna' for plural nouns."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Mahali pa Kuna",
+        "translation": "Location with 'Kuna'",
+        "examples": [
+          {
+            "original": "Kuna kuku kwenye shamba.",
+            "phonetic": "kʊna kʊkʊ kwenye shamba",
+            "translation": "There is a chicken in the farm.",
+            "note": "Add location after the noun using 'kwenye'."
+          },
+          {
+            "original": "Kuna magari mengi kwenye njia.",
+            "phonetic": "kʊna magari mengi kwenye nʲia",
+            "translation": "There are many cars on the road.",
+            "note": "Use 'mengi' for 'many' after the noun."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Kuna na Adjectives",
+        "translation": "'Kuna' with Adjectives",
+        "examples": [
+          {
+            "original": "Kuna nyumba kubwa.",
+            "phonetic": "kʊna nʲʊmba kubwa",
+            "translation": "There is a big house.",
+            "note": "Place adjectives after the noun."
+          },
+          {
+            "original": "Kuna watu wazuri.",
+            "phonetic": "kʊna watu wazuri",
+            "translation": "There are good people.",
+            "note": "Adjectives agree with the noun in class."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "en": "There is / There are (Existence)"
+    }
+  },
+  {
+    "id": "en_A1_gram_13",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Preposiciones básicas de lugar / Basic Prepositions of Place",
+    "bridge": "In Swahili, prepositions of place are simpler than in English, as they often combine the idea of 'in', 'on', and 'at' into fewer words. For example, 'kati ya' means 'in the middle of' or 'between', while 'mwa' is used for 'in' or 'inside'. Be careful not to directly translate English prepositions, as Swahili uses different structures, like 'kwenye' for 'on' or 'at' specific locations.",
+    "rule": "Swahili uses specific prepositions for location: 'kwenye' for 'on' or 'at' a specific place, 'kati ya' for 'between' or 'in the middle of', 'mwa' for 'in' or 'inside', and 'karibu na' for 'near'. These prepositions are often followed by the noun they describe. Note that 'kwenye' is used for specific locations, while 'karibu na' is used for proximity. There are no direct equivalents to English prepositions like 'under' or 'over' at the A1 level.",
+    "concept_examples": [
+      {
+        "text": "Kitabu kimoja kiko kwenye mezani.",
+        "translation": "One book is on the table.",
+        "phonetic": "kiˈtubu kiˈmoɲa ˈkiko kweˈnye meˈzani"
+      },
+      {
+        "text": "Watoto wanacheza kati ya nyumba.",
+        "translation": "The children are playing in the middle of the house.",
+        "phonetic": "waˈtoto waˈnacheza ˈkati ˈya ˈɲumba"
+      },
+      {
+        "text": "Mimi ni karibu na shule.",
+        "translation": "I am near the school.",
+        "phonetic": "ˈmimi ni kaˈribu na ˈshule"
+      },
+      {
+        "text": "Samaki wako mwa maji.",
+        "translation": "The fish are in the water.",
+        "phonetic": "saˈmaki ˈwako ˈmwa ˈmaji"
+      }
+    ],
+    "common_error": {
+      "wrong": "Niko in the house.",
+      "correct": "Niko ndani ya nyumba.",
+      "correct_alt": "Niko nyumbani.",
+      "explanation": "English speakers often directly translate 'in' to 'in', but Swahili uses 'ndani ya' or 'nyumbani' for 'in the house'. 'Nyumbani' is a specific locative form for 'at home', while 'ndani ya' is more general for 'inside'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kwenye",
+        "translation": "On/At",
+        "examples": [
+          {
+            "original": "Kwenye mezani kuna maji.",
+            "phonetic": "kweˈnye meˈzani ˈkuna ˈmaji",
+            "translation": "On the table there is water.",
+            "note": "Use 'kwenye' for specific locations like tables or chairs."
+          },
+          {
+            "original": "Kwenye jikoni kuna sukari.",
+            "phonetic": "kweˈnye jiˈkoni ˈkuna suˈkari",
+            "translation": "In the kitchen there is sugar.",
+            "note": "Swahili uses 'kwenye' for both 'on' and 'in' specific places."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Kati ya",
+        "translation": "Between/In the middle of",
+        "examples": [
+          {
+            "original": "Mimi niko kati ya watu.",
+            "phonetic": "ˈmimi ˈniko ˈkati ˈya ˈwatu",
+            "translation": "I am in the middle of people.",
+            "note": "Use 'kati ya' to describe being between or in the middle of something."
+          },
+          {
+            "original": "Jiji hili liko kati ya mababa.",
+            "phonetic": "ˈdʒiji ˈhili ˈliko ˈkati ˈya maˈbaba",
+            "translation": "This city is between hills.",
+            "note": "Swahili uses 'kati ya' for both 'between' and 'in the middle of'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Karibu na",
+        "translation": "Near",
+        "examples": [
+          {
+            "original": "Karibu na shule kuna duka.",
+            "phonetic": "kaˈribu na ˈshule ˈkuna ˈduka",
+            "translation": "Near the school there is a shop.",
+            "note": "Use 'karibu na' to describe proximity to a location."
+          },
+          {
+            "original": "Mimi niko karibu na mto.",
+            "phonetic": "ˈmimi ˈniko kaˈribu na ˈmto",
+            "translation": "I am near the river.",
+            "note": "Swahili uses 'karibu na' for 'near', followed by the noun."
+          }
+        ]
+      }
+    ],
+    "emoji": "📍",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Prepositions of Place"
+    }
+  },
+  {
+    "id": "en_A1_gram_14",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Siku, Miezi na Maza / Days, Months and Seasons",
+    "bridge": "In Swahili, days of the week and months of the year are similar to English in structure but have distinct names. Unlike English, Swahili does not capitalize days or months. Seasons are also unique and do not directly translate to English seasons, as they are based on rainfall patterns. Be careful not to confuse Swahili days with English ones, as they sound completely different.",
+    "rule": "Swahili days of the week start with 'Juma' for Sunday, followed by 'Jumatatu' (Monday), 'Jumanne' (Tuesday), 'Jumatano' (Wednesday), 'Alhamisi' (Thursday), 'Ijumaa' (Friday), and 'Jumamosi' (Saturday). Months follow a numerical pattern: 'Januari' (January), 'Februari' (February), 'Machi' (March), 'Aprili' (April), 'Mei' (May), 'Juni' (June), 'Julai' (July), 'Agosti' (August), 'Septemba' (September), 'Oktoba' (October), 'Novemba' (November), 'Desemba' (December). Seasons are 'Mvua' (Rainy), 'Joto' (Hot), and 'Bardu' (Cold), though these are less commonly used and vary by region.",
+    "concept_examples": [
+      {
+        "text": "Leo ni Jumatatu.",
+        "translation": "Today is Monday.",
+        "phonetic": "/leo ni dʒumatatu/"
+      },
+      {
+        "text": "Mwezi huu ni Aprili.",
+        "translation": "This month is April.",
+        "phonetic": "/mwezi huu ni aprili/"
+      },
+      {
+        "text": "Sasa ni maza ya joto.",
+        "translation": "Now it is the hot season.",
+        "phonetic": "/sasa ni maza ya joto/"
+      },
+      {
+        "text": "Jumatano ni siku ya kati ya wiki.",
+        "translation": "Wednesday is the middle day of the week.",
+        "phonetic": "/dʒumatano ni siku ya kati ya wiki/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Leo ni Monday.",
+      "correct": "Leo ni Jumatatu.",
+      "correct_alt": "",
+      "explanation": "English speakers often directly translate English days into Swahili, which is incorrect. Swahili has its own unique names for days, months, and seasons that must be learned separately."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Siku za Wiki",
+        "translation": "Days of the Week",
+        "examples": [
+          {
+            "original": "Juma",
+            "phonetic": "/dʒuma/",
+            "translation": "Sunday",
+            "note": "Note that 'Juma' starts the week in Swahili, unlike English where Sunday is the last day."
+          },
+          {
+            "original": "Alhamisi",
+            "phonetic": "/alhamisi/",
+            "translation": "Thursday",
+            "note": "This day is named after the Arabic word for Thursday, reflecting cultural influences."
+          },
+          {
+            "original": "Jumamosi",
+            "phonetic": "/dʒumamosi/",
+            "translation": "Saturday",
+            "note": "Literally means 'first day' in Swahili, though it’s the last day of the week."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Miezi ya Mwaka",
+        "translation": "Months of the Year",
+        "examples": [
+          {
+            "original": "Januari",
+            "phonetic": "/dʒanuari/",
+            "translation": "January",
+            "note": "Similar to English but spelled and pronounced slightly differently."
+          },
+          {
+            "original": "Machi",
+            "phonetic": "/machi/",
+            "translation": "March",
+            "note": "Derived from the Swahili word for 'month,' but specifically refers to March."
+          },
+          {
+            "original": "Desemba",
+            "phonetic": "/desemba/",
+            "translation": "December",
+            "note": "Ends the year, just like in English."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Maza",
+        "translation": "Seasons",
+        "examples": [
+          {
+            "original": "Mvua",
+            "phonetic": "/mvua/",
+            "translation": "Rainy Season",
+            "note": "Refers to the heavy rainfall period, common in East Africa."
+          },
+          {
+            "original": "Joto",
+            "phonetic": "/joto/",
+            "translation": "Hot Season",
+            "note": "Describes the dry and hot period, often after the rains."
+          },
+          {
+            "original": "Bardu",
+            "phonetic": "/bardu/",
+            "translation": "Cold Season",
+            "note": "Less common and varies by region, often cooler but not freezing."
+          }
+        ]
+      }
+    ],
+    "emoji": "📅",
+    "phonetic": "",
+    "translations": {
+      "en": "Days, Months and Seasons"
+    }
+  },
+  {
+    "id": "en_A1_gram_15",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kuna / To Have",
+    "bridge": "In Swahili, the verb 'to have' is expressed using the word 'kuna', which is quite different from English. Unlike English, 'kuna' does not conjugate based on the subject, making it simpler in some ways. However, English speakers often mistakenly try to conjugate 'kuna' like English verbs, which is incorrect. Additionally, 'kuna' can also mean 'there is/are', which is a key difference from English.",
+    "rule": "The verb 'kuna' is used to express possession or existence in Swahili. It does not change form based on the subject or tense. For possession, it is often followed by the noun being possessed. For existence, it is used to indicate that something is present. Common structures include: 'Kuna [noun]' (There is/are [noun]) and 'Kuna [noun] kwangu/kwako/kwake' (I/You/He/She has [noun]).",
+    "concept_examples": [
+      {
+        "text": "Kuna nyumba.",
+        "translation": "There is a house.",
+        "phonetic": "/kʊˈna nʲʊˈmba/"
+      },
+      {
+        "text": "Kuna mashamba makubwa.",
+        "translation": "There are large farms.",
+        "phonetic": "/kʊˈna maˈʃamba maˈkʊbwa/"
+      },
+      {
+        "text": "Kuna kitabu kwangu.",
+        "translation": "I have a book.",
+        "phonetic": "/kʊˈna kiˈtabu kʷaˈŋʊ/"
+      },
+      {
+        "text": "Kuna watoto wengi.",
+        "translation": "There are many children.",
+        "phonetic": "/kʊˈna waˈtoto ˈwɛŋi/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Kuna nyumba kwangu.",
+      "correct": "Kuna nyumba.",
+      "correct_alt": "Nina nyumba.",
+      "explanation": "English speakers often incorrectly add 'kwangu' (at my place) when using 'kuna' for existence. 'Kuna' already implies existence, so adding 'kwangu' is redundant. For possession, use 'nina' (I have) instead of 'kuna'."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kuna kwa ajili ya utu",
+        "translation": "Kuna for existence",
+        "examples": [
+          {
+            "original": "Kuna mti.",
+            "phonetic": "/kʊˈna mti/",
+            "translation": "There is a tree.",
+            "note": "Use 'kuna' to indicate the existence of something."
+          },
+          {
+            "original": "Kuna maji.",
+            "phonetic": "/kʊˈna maˈji/",
+            "translation": "There is water.",
+            "note": "Singular and plural nouns use the same form of 'kuna'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Kuna kwa ajili ya milki",
+        "translation": "Kuna for possession",
+        "examples": [
+          {
+            "original": "Kuna gari kwangu.",
+            "phonetic": "/kʊˈna ɡaˈri kʷaˈŋʊ/",
+            "translation": "I have a car.",
+            "note": "While 'kuna' can be used for possession, 'nina' is more common and correct."
+          },
+          {
+            "original": "Kuna pesa kwake.",
+            "phonetic": "/kʊˈna ˈpesa kʷaˈke/",
+            "translation": "He/She has money.",
+            "note": "Avoid conjugating 'kuna' based on the subject; it remains the same."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Kuna na nina",
+        "translation": "Kuna vs. Nina",
+        "examples": [
+          {
+            "original": "Nina nyumba.",
+            "phonetic": "/ˈnina nʲʊˈmba/",
+            "translation": "I have a house.",
+            "note": "Use 'nina' for clear possession statements."
+          },
+          {
+            "original": "Kuna watu wengi kwenye baridi.",
+            "phonetic": "/kʊˈna ˈwatu ˈwɛŋi kʷɛˈnje baˈridi/",
+            "translation": "There are many people in the cold.",
+            "note": "Use 'kuna' to describe the existence of people or things in a place."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏠",
+    "phonetic": "",
+    "translations": {
+      "en": "To Have / Verb 'kuna'"
+    }
+  },
+  {
+    "id": "en_A1_gram_16",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kuwa na uwezo / To be able to",
+    "bridge": "In Swahili, the verb 'kuwa na uwezo' is used to express ability, similar to the English modal verb 'can'. However, unlike English, Swahili does not have a direct equivalent to 'can' as a separate verb. Instead, 'kuwa na uwezo' is a phrase that literally means 'to have ability'. Additionally, Swahili does not change the form of 'kuwa na uwezo' based on the subject, whereas in English, 'can' remains the same for all subjects but negates to 'cannot' or 'can't'.",
+    "rule": "The phrase 'kuwa na uwezo' is used to express ability or possibility. It is followed by the infinitive form of the verb. The structure is: 'Subject + kuwa na uwezo + infinitive verb'. For negation, use 'hakuna uwezo' (no ability) or 'si na uwezo' (I am not able). The phrase remains the same for all subjects and tenses, unlike English where 'can' changes to 'could' in the past.",
+    "concept_examples": [
+      {
+        "text": "Nina uwezo ya kusoma Kiswahili.",
+        "translation": "I can read Swahili.",
+        "phonetic": "/ni.na u.we.zo ja ku.so.ma ki.swa.hi.li/"
+      },
+      {
+        "text": "Yeye hana uwezo ya kuandika.",
+        "translation": "She cannot write.",
+        "phonetic": "/ja.je ha.na u.we.zo ja kuan.di.ka/"
+      },
+      {
+        "text": "Tunaweza kufanya kazi sasa.",
+        "translation": "We can work now.",
+        "phonetic": "/tu.na.we.za ku.fa.nya ka.zi sa.sa/"
+      },
+      {
+        "text": "Wanafunzi wanaweza kujibu swali.",
+        "translation": "The students can answer the question.",
+        "phonetic": "/wa.na.fun.zi wa.na.we.za ku.ji.bu swa.li/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Mimi can kusoma.",
+      "correct": "Mimi nina uwezo ya kusoma.",
+      "correct_alt": "Mimi naweza kusoma.",
+      "explanation": "English speakers often directly translate 'can' into Swahili, which is incorrect. Swahili uses 'nina uwezo ya' or 'naweza' to express ability, not 'can'. Avoid directly borrowing English modal verbs into Swahili."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kuongea kuhusu uwezo",
+        "translation": "Talking about ability",
+        "examples": [
+          {
+            "original": "Nina uwezo ya kula.",
+            "phonetic": "/ni.na u.we.zo ja ku.la/",
+            "translation": "I can eat.",
+            "note": "Use 'nina uwezo ya' to express personal ability."
+          },
+          {
+            "original": "Yeye anaweza kucheza.",
+            "phonetic": "/ja.je a.na.we.za ku.che.za/",
+            "translation": "She can play.",
+            "note": "Use 'anaweza' for third-person ability."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Kufanya mambo sasa",
+        "translation": "Doing things now",
+        "examples": [
+          {
+            "original": "Tunaweza kufanya sasa.",
+            "phonetic": "/tu.na.we.za ku.fa.nya sa.sa/",
+            "translation": "We can do it now.",
+            "note": "Use 'tunaweza' for present ability in plural."
+          },
+          {
+            "original": "Wengine hawana uwezo ya kufanya.",
+            "phonetic": "/wen.gi.ne ha.wa.na u.we.zo ja ku.fa.nya/",
+            "translation": "Others cannot do it.",
+            "note": "Use 'hawana uwezo ya' for negation in plural."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Kupanga mambo baadaye",
+        "translation": "Planning for later",
+        "examples": [
+          {
+            "original": "Nitaweza kuja kesho.",
+            "phonetic": "/ni.ta.we.za ku.ja ke.sho/",
+            "translation": "I will be able to come tomorrow.",
+            "note": "Use 'nitaweza' for future ability."
+          },
+          {
+            "original": "Hataweza kufikia wakati.",
+            "phonetic": "/ha.ta.we.za ku.fi.ki.a wa.ka.ti/",
+            "translation": "He will not be able to arrive on time.",
+            "note": "Use 'hataweza' for future negation."
+          }
+        ]
+      }
+    ],
+    "emoji": "💪",
+    "phonetic": "",
+    "translations": {
+      "en": "Can / To be able to"
+    }
+  },
+  {
+    "id": "en_A1_gram_17",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Verba Isiyostahili / Basic Irregular Verbs",
+    "bridge": "In Swahili, irregular verbs like 'kuja' (come) and 'kwenda' (go) have unique forms that don't follow the regular -a suffix pattern. Unlike English, Swahili verbs don't change based on the subject, but their stems can vary in irregular verbs. Watch out for 'kufanya' (do) and 'kuandaa' (make), which have distinct forms in the present tense, unlike English 'do' and 'make' that remain constant.",
+    "rule": "Swahili irregular verbs have specific stems in the present tense. For example, 'kuja' (come) becomes 'huja' (he/she comes), and 'kwenda' (go) becomes 'huwenda'. 'Kufanya' (do) becomes 'hufanya', and 'kuandaa' (make) becomes 'huanzaa'. These forms do not change based on the subject. In negative sentences, add 'ha-' before the stem, e.g., 'hakujali' (he/she did not come).",
+    "concept_examples": [
+      {
+        "text": "Mimi ninaenda shule.",
+        "translation": "I go to school.",
+        "phonetic": "ˈmiːmi ˈniːnaɺeːnda ˈʃule"
+      },
+      {
+        "text": "Yeye anajia hapa.",
+        "translation": "He/She comes here.",
+        "phonetic": "ˈjeːje ˈanaˈdʒia ˈhapa"
+      },
+      {
+        "text": "Watu wanafanya kazi.",
+        "translation": "People do work.",
+        "phonetic": "ˈwatu ˈwanaˈfanya ˈkazi"
+      },
+      {
+        "text": "Mama aanzaa chakula.",
+        "translation": "Mom makes food.",
+        "phonetic": "ˈmama ˈaːnˈzaː ˈtʃakula"
+      }
+    ],
+    "common_error": {
+      "wrong": "Yeye kujali kwenye nyumbani.",
+      "correct": "Yeye hujali kwenye nyumbani.",
+      "correct_alt": "",
+      "explanation": "English speakers often directly translate 'comes' to 'kujali' without adding the subject prefix 'hu-'. Remember, Swahili irregular verbs require specific subject prefixes like 'hu-' for he/she/it, even though the verb stem changes."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Kuja na Kwenda",
+        "translation": "Come and Go",
+        "examples": [
+          {
+            "original": "Ninaenda duka.",
+            "phonetic": "ˈniːnaɺeːnda ˈduka",
+            "translation": "I go to the shop.",
+            "note": "Use 'ninaenda' for 'I go'."
+          },
+          {
+            "original": "Yeye hujali.",
+            "phonetic": "ˈjeːje ˈhudʒali",
+            "translation": "He/She comes.",
+            "note": "Use 'hujali' for 'he/she comes'."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Kufanya",
+        "translation": "Do",
+        "examples": [
+          {
+            "original": "Wanafunzi wanafanya kazi.",
+            "phonetic": "ˈwanaˈfunzi ˈwanaˈfanya ˈkazi",
+            "translation": "Students do work.",
+            "note": "Use 'wanafanya' for 'they do'."
+          },
+          {
+            "original": "Yeye hufanya mazoezi.",
+            "phonetic": "ˈjeːje ˈhufanya ˈmazoezi",
+            "translation": "He/She does exercises.",
+            "note": "Use 'hufanya' for 'he/she does'."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Kuandaa",
+        "translation": "Make",
+        "examples": [
+          {
+            "original": "Mama huanzaa chai.",
+            "phonetic": "ˈmama ˈhuanˈzaː ˈtʃai",
+            "translation": "Mom makes tea.",
+            "note": "Use 'huanzaa' for 'she makes'."
+          },
+          {
+            "original": "Watu huanzaa chakula.",
+            "phonetic": "ˈwatu ˈhuːanˈzaː ˈtʃakula",
+            "translation": "People make food.",
+            "note": "Use 'huanzaa' for 'they make'."
+          }
+        ]
+      }
+    ],
+    "emoji": "🏃",
+    "phonetic": "",
+    "translations": {
+      "en": "Basic Irregular Verbs"
+    }
+  },
+  {
+    "id": "en_A1_gram_18",
+    "type": "concept",
+    "category": "Gramática",
+    "title": "Kusema Muda / Telling the Time",
+    "bridge": "In Swahili, telling the time is similar to English in structure but uses the word 'saa' for 'hour' and 'dakika' for 'minute'. Unlike English, Swahili does not use 'past' or 'to' when describing time after the hour or before the hour. For example, 'quarter past' in English is simply 'dakika 15' in Swahili. Additionally, Swahili uses a 24-hour clock system, which might be unfamiliar to English speakers.",
+    "rule": "To tell the time in Swahili, use the format 'Saa [hour] na [minutes]' for times after the hour, and 'Saa [hour] dakika [minutes]' for times before the hour. For exact hours, simply say 'Saa [hour]'. The 24-hour clock is standard, so 'Saa 13' means 1 PM. Minutes are always stated as numbers, and there are no specific terms for 'quarter' or 'half' past/to the hour.",
+    "concept_examples": [
+      {
+        "text": "Saa mbili na thelathini.",
+        "translation": "It is two thirty.",
+        "phonetic": "saː m̩bili na tʰelatini"
+      },
+      {
+        "text": "Saa tisa dakika nne.",
+        "translation": "It is four minutes past nine.",
+        "phonetic": "saː tisa dakika nːe"
+      },
+      {
+        "text": "Saa kumi na moja.",
+        "translation": "It is eleven o'clock.",
+        "phonetic": "saː kumi na moja"
+      },
+      {
+        "text": "Saa kumi na mbili dakika hamsini.",
+        "translation": "It is fifty minutes past twelve.",
+        "phonetic": "saː kumi na m̩bili dakika hamsini"
+      }
+    ],
+    "common_error": {
+      "wrong": "Saa mbili past na thelathini.",
+      "correct": "Saa mbili na thelathini.",
+      "correct_alt": "",
+      "explanation": "English speakers often incorrectly use 'past' or 'to' when telling the time in Swahili. Remember, Swahili uses 'na' for times after the hour and does not use 'past' or 'to'. Stick to the format 'Saa [hour] na [minutes]' for clarity."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Saa Tamaduni",
+        "translation": "O'clock",
+        "examples": [
+          {
+            "original": "Saa moja.",
+            "phonetic": "saː moja",
+            "translation": "It is one o'clock.",
+            "note": "Use this format for exact hours."
+          },
+          {
+            "original": "Saa saba.",
+            "phonetic": "saː saba",
+            "translation": "It is seven o'clock.",
+            "note": "Simple and direct for full hours."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Dakika Baada ya Saa",
+        "translation": "Minutes Past the Hour",
+        "examples": [
+          {
+            "original": "Saa tatu na dakika kumi.",
+            "phonetic": "saː tatu na dakika kumi",
+            "translation": "It is ten minutes past three.",
+            "note": "Use 'na' to indicate minutes after the hour."
+          },
+          {
+            "original": "Saa nne na dakika thelathini.",
+            "phonetic": "saː nːe na dakika tʰelatini",
+            "translation": "It is thirty minutes past four.",
+            "note": "Always state the exact number of minutes."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Dakika Kabla ya Saa",
+        "translation": "Minutes to the Hour",
+        "examples": [
+          {
+            "original": "Saa tano dakika hamsini.",
+            "phonetic": "saː tano dakika hamsini",
+            "translation": "It is fifty minutes past five.",
+            "note": "For times close to the next hour, state the minutes directly."
+          },
+          {
+            "original": "Saa nne dakika nne.",
+            "phonetic": "saː nːe dakika nːe",
+            "translation": "It is four minutes past four.",
+            "note": "Use this format for minutes after the hour."
+          }
+        ]
+      }
+    ],
+    "emoji": "⏰",
+    "phonetic": "",
+    "translations": {
+      "en": "Telling the Time"
+    }
   }
 ]

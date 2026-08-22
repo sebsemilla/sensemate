@@ -30,7 +30,7 @@ let targetLang = localStorage.getItem('targetLang') || '';
 let currentMode = null;
 let currentUser = null;
 // Idiomas soportados en la UI
-const _supportedLangs = ['es','en','fr','de','it','pt','gn','qu','zh','ja','ru','ar','ko','nl','pl','tr','wo','ha','yo'];
+const _supportedLangs = ['es','en','fr','de','it','pt','gn','qu','nah','zh','ja','ru','ar','ko','nl','pl','tr','wo','ha','yo'];
 
 // Mapeo país (ISO 3166-1 alpha-2) → idioma de UI sugerido
 const _COUNTRY_UI_LANG = {
@@ -283,6 +283,7 @@ function _langOptionsHtml() {
             <option value="fr">Français</option>
             <option value="gn">Guaraní</option>
             <option value="qu">Quechua</option>
+            <option value="nah">Náhuatl</option>
             <option value="ht">Kreyòl ayisyen</option>
         </optgroup>
         <optgroup label="🌍 Europa Occidental">
@@ -703,7 +704,7 @@ function _initMisionHub() {
     const _LANG_DISPLAY = {
         es:'Español', en:'Inglés', fr:'Francés', pt:'Português', de:'Alemán',
         it:'Italiano', zh:'Chino', ja:'Japonés', ko:'Coreano', ru:'Ruso',
-        ar:'Árabe', gn:'Guaraní', qu:'Quechua', wo:'Wolof', ha:'Hausa', yo:'Yoruba',
+        ar:'Árabe', gn:'Guaraní', qu:'Quechua', nah:'Náhuatl', wo:'Wolof', ha:'Hausa', yo:'Yoruba',
     };
     const titleEl = document.querySelector('.mision-path-title em');
     if (titleEl) titleEl.textContent = _LANG_DISPLAY[targetLang] || targetLang;
@@ -1052,7 +1053,7 @@ function _misionPlayVideo(nodeEl, videoUrl) {
 
 const _MISION_LANG_NAMES = {
     es: 'Español',  en: 'English',   fr: 'Français',  de: 'Deutsch',
-    it: 'Italiano', pt: 'Português', gn: 'Guaraní',   qu: 'Quechua',
+    it: 'Italiano', pt: 'Português', gn: 'Guaraní',   qu: 'Quechua',  nah: 'Náhuatl',
     wo: 'Wolof',    ha: 'Hausa',     yo: 'Yorùbá',
 };
 
@@ -1429,7 +1430,7 @@ function _renderModuleAccordion(grid, mods) {
 }
 
 // ── A0 block — se inserta antes de la serpentina A1 en cada hub ───────────────────────────
-function _renderA0Section(grid, targetCode, src) {
+function _renderA0Section(grid, targetCode, src, videoMods = []) {
     document.getElementById('msnake-a0-section')?.remove();
     if (typeof FLASHCARD_CURRICULUM === 'undefined') return;
     const curr = FLASHCARD_CURRICULUM[`${targetCode}_${src}`] || FLASHCARD_CURRICULUM[targetCode];
@@ -1437,6 +1438,7 @@ function _renderA0Section(grid, targetCode, src) {
 
     const states = JSON.parse(localStorage.getItem('ls_card_states') || '{}');
     const groups = curr.groups;
+    const videoMod = Array.isArray(videoMods) && videoMods.length ? videoMods[0] : null;
 
     function trunc(str, max) { return str.length > max ? str.slice(0, max) + '…' : str; }
 
@@ -1449,32 +1451,36 @@ function _renderA0Section(grid, targetCode, src) {
         </div>`;
     }
 
-    // Primera fila: hasta 4 grupos en hrow (L→R)
-    const firstRow  = groups.slice(0, 4);
-    const remainder = groups.slice(4);  // grupos que van en vblock derecho
+    // Construir lista de nodos A0: grupos con video inyectado en posición 1
+    const allA0 = [...groups];
+    if (videoMod) allA0.splice(1, 0, { _isVideo: true, ...videoMod });
 
-    let snakeHtml = '';
+    const firstRow  = allA0.slice(0, 4);
+    const remainder = allA0.slice(4);
 
-    // hrow con los primeros grupos
-    let hrow = '<div class="msnake-hrow">';
-    firstRow.forEach((g, i) => {
-        hrow += groupNode(g);
-        if (i < firstRow.length - 1) hrow += '<div class="msnake-con-h"></div>';
-    });
-    hrow += '</div>';
-    snakeHtml += hrow;
+    function nodeHtml(item, isLast) {
+        const html = item._isVideo
+            ? `<div class="msnake-node msnake-node--play" data-a0-video="${item.videoId}"><span class="msnake-label">▶ ${trunc(item.title, 14)}</span></div>`
+            : groupNode(item);
+        return html + (isLast ? '' : '<div class="msnake-con-h"></div>');
+    }
+
+    let snakeHtml = '<div class="msnake-hrow">' +
+        firstRow.map((item, i) => nodeHtml(item, i === firstRow.length - 1)).join('') +
+        '</div>';
 
     if (remainder.length) {
-        // Giro derecho + vblock igual que intro A1
         snakeHtml += `<div class="msnake-turn msnake-turn--right"><div class="msnake-turn-line"></div></div>`;
 
-        const sm   = remainder.length === 1 ? ' msnake-area--sm' : '';
-        const vcol = remainder.map((g, i) =>
-            groupNode(g) + (i < remainder.length - 1 ? '<div class="msnake-vcon"></div>' : '')
+        const vcol = remainder.map((item, i) =>
+            (item._isVideo
+                ? `<div class="msnake-node msnake-node--play" data-a0-video="${item.videoId}"><span class="msnake-label">▶ ${trunc(item.title, 14)}</span></div>`
+                : groupNode(item)) +
+            (i < remainder.length - 1 ? '<div class="msnake-vcon"></div>' : '')
         ).join('');
 
         snakeHtml += `<div class="msnake-vblock">
-            <div class="msnake-area msnake-area--right${sm}">
+            <div class="msnake-area msnake-area--right" id="msnake-a0-area">
                 <span class="msnake-area-ph">${curr.levelName || 'Abecedario'}</span>
             </div>
             <div class="msnake-vcol msnake-vcol--right">${vcol}</div>
@@ -1496,6 +1502,24 @@ function _renderA0Section(grid, targetCode, src) {
             if (typeof showPracticeOverview === 'function') showPracticeOverview('A0');
         });
     });
+
+    section.querySelectorAll('[data-a0-video]').forEach(el => {
+        el.addEventListener('click', () => {
+            const videoId = el.dataset.a0Video;
+            if (!videoId) return;
+            const area = section.querySelector('.msnake-area');
+            if (!area) return;
+            if (el.classList.contains('msnake-node--playing')) {
+                el.classList.remove('msnake-node--playing');
+                area.innerHTML = `<span class="msnake-area-ph">${curr.levelName || 'Abecedario'}</span>`;
+            } else {
+                section.querySelectorAll('[data-a0-video]').forEach(v => v.classList.remove('msnake-node--playing'));
+                el.classList.add('msnake-node--playing');
+                area.innerHTML = `<div class="msnake-video-embed"><iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`;
+            }
+        });
+    });
+
     grid.insertAdjacentElement('beforebegin', section);
 }
 
@@ -1507,7 +1531,7 @@ const _MISION_LANG_DIRS = {
     pt: 'portugues', de: 'aleman',   it: 'italiano',
     zh: 'chino',     ja: 'japones',  ko: 'coreano',
     ru: 'ruso',      ar: 'arabe',
-    gn: 'guarani',   qu: 'quechua',
+    gn: 'guarani',   qu: 'quechua',  nah: 'nahuatl',
     wo: 'wolof',     ha: 'hausa',    yo: 'yoruba',
 };
 
@@ -1516,7 +1540,7 @@ const _MISION_LANG_LABELS = {
     pt: 'Portugués', de: 'Alemán',   it: 'Italiano',
     zh: 'Chino',     ja: 'Japonés',  ko: 'Coreano',
     ru: 'Ruso',      ar: 'Árabe',
-    gn: 'Guaraní',   qu: 'Quechua',
+    gn: 'Guaraní',   qu: 'Quechua',  nah: 'Náhuatl',
     wo: 'Wolof',     ha: 'Hausa',    yo: 'Yoruba',
 };
 
@@ -1563,13 +1587,8 @@ function _initGenericLangHub(targetCode, tab = 'curriculum') {
         safeJson(base + 'video_modules.json'),
     ]).then(([gram, func, conv, videoMods]) => {
         let mods = _interleaveInglesA1(gram, func, conv);
-        // Inyectar video_modules en sus posiciones indicadas (orden inverso para preservar índices)
-        if (Array.isArray(videoMods) && videoMods.length) {
-            [...videoMods].sort((a, b) => b.position - a.position)
-                          .forEach(v => mods.splice(v.position, 0, v));
-        }
         _renderModuleAccordion(grid, mods);
-        _renderA0Section(grid, targetCode, src);
+        _renderA0Section(grid, targetCode, src, videoMods);
         if (!mods.length) {
             grid.innerHTML = `
                 <div style="text-align:center;padding:2rem 1rem;color:var(--text-muted)">
@@ -3119,7 +3138,7 @@ function showMainMenu() {
                     <p class="mision-intro-text">Avanzá módulo a módulo con tu tutor IA. Completá cada paso para desbloquear el siguiente.</p>
                     <button class="mision-tutorial-btn" id="misionTutorialBtn">📖 Tutorial</button>
                 </div>
-                <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","en":"Inglés","fr":"Francés","pt":"Português","de":"Alemán","it":"Italiano","zh":"Chino","ja":"Japonés","ko":"Coreano","ru":"Ruso","ar":"Árabe","gn":"Guaraní","qu":"Quechua","wo":"Wolof","ha":"Hausa","yo":"Yoruba"})[targetLang] || targetLang || 'Español'}</em></h3>
+                <h3 class="mision-path-title">Da tus primeros pasos en <em>${({"es":"Español","en":"Inglés","fr":"Francés","pt":"Português","de":"Alemán","it":"Italiano","zh":"Chino","ja":"Japonés","ko":"Coreano","ru":"Ruso","ar":"Árabe","gn":"Guaraní","qu":"Quechua","nah":"Náhuatl","wo":"Wolof","ha":"Hausa","yo":"Yoruba"})[targetLang] || targetLang || 'Español'}</em></h3>
                 <div class="mision-path-grid" id="misionPathGrid"></div>
             </div>` : ''}
 
