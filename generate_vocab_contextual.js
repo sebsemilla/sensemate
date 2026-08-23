@@ -163,6 +163,27 @@ const LANGS = {
     rw: { name: 'Kinyarwanda',nameEn: 'Kinyarwanda',dir: 'kinyarwanda'},
     tw: { name: 'Twi',        nameEn: 'Twi',        dir: 'twi'       },
     bm: { name: 'Bambara',    nameEn: 'Bambara',    dir: 'bambara'   },
+    // Europeos
+    el: { name: 'Griego',     nameEn: 'Greek',      dir: 'griego'    },
+    ca: { name: 'Catalán',    nameEn: 'Catalan',    dir: 'catalan'   },
+    is: { name: 'Islandés',   nameEn: 'Icelandic',  dir: 'islandes'  },
+    ga: { name: 'Irlandés',   nameEn: 'Irish',      dir: 'irlandes'  },
+    no: { name: 'Noruego',    nameEn: 'Norwegian',  dir: 'noruego'   },
+    da: { name: 'Danés',      nameEn: 'Danish',     dir: 'danes'     },
+    nl: { name: 'Holandés',   nameEn: 'Dutch',      dir: 'holandes'  },
+    sv: { name: 'Sueco',      nameEn: 'Swedish',    dir: 'sueco'     },
+    sl: { name: 'Esloveno',   nameEn: 'Slovenian',  dir: 'esloveno'  },
+    sk: { name: 'Eslovaco',   nameEn: 'Slovak',     dir: 'eslovaco'  },
+    cs: { name: 'Checo',      nameEn: 'Czech',      dir: 'checo'     },
+    tr: { name: 'Turco',      nameEn: 'Turkish',    dir: 'turco'     },
+    pl: { name: 'Polaco',     nameEn: 'Polish',     dir: 'polaco'    },
+    ro: { name: 'Rumano',     nameEn: 'Romanian',   dir: 'rumano'    },
+    fi: { name: 'Finlandés',  nameEn: 'Finnish',    dir: 'finlandes' },
+    hu: { name: 'Húngaro',    nameEn: 'Hungarian',  dir: 'hungaro'   },
+    bg: { name: 'Búlgaro',    nameEn: 'Bulgarian',  dir: 'bulgaro'   },
+    hr: { name: 'Croata',     nameEn: 'Croatian',   dir: 'croata'    },
+    uk: { name: 'Ucraniano',  nameEn: 'Ukrainian',  dir: 'ucraniano' },
+    sr: { name: 'Serbio',     nameEn: 'Serbian',    dir: 'serbio'    },
 };
 
 // ─── Bandas de frecuencia por nivel ───────────────────────────
