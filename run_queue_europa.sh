@@ -1,20 +1,19 @@
 #!/bin/bash
-# Cola: Idiomas europeos — sc-tarjetas + sc-misiones
+# Cola: Idiomas europeos — sc-tarjetas + sc-misiones (Cohere AI)
 # Orden: griego → catalán → islandés → irlandés → noruego → danés → holandés → sueco →
 #        esloveno → eslovaco → checo → turco → polaco → rumano → finlandés →
 #        húngaro → búlgaro → croata → ucraniano → serbio
 
 LOG=/data/data/com.termux/files/home/sensemate/queue_europa.log
-SC_T="node /data/data/com.termux/files/home/sensemate/sensemate/generate_vocab_contextual.js"
-SC_M="node /data/data/com.termux/files/home/sensemate/sensemate/generate_missions.js"
-P="--provider=cohere"
+SC_T="node /data/data/com.termux/files/home/sensemate/sensemate/generate_vocab_contextual.js --provider=cohere"
+SC_M="node /data/data/com.termux/files/home/sensemate/sensemate/generate_missions.js --provider=cohere"
 
 run_until_done() {
   local TRIES=0
   while true; do
     TRIES=$((TRIES+1))
     echo "[$(date '+%H:%M:%S')] Intento $TRIES: $@" >> $LOG
-    OUT=$(eval "$@ $P" 2>&1)
+    OUT=$(eval "$@" 2>&1)
     echo "$OUT" >> $LOG
     if echo "$OUT" | grep -q "Faltan"; then
       echo "[$(date '+%H:%M:%S')] Parcial, reintentando..." >> $LOG
