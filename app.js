@@ -1499,7 +1499,13 @@ function _renderA0Section(grid, targetCode, src, videoMods = []) {
 
     section.querySelectorAll('[data-a0-group]').forEach(el => {
         el.addEventListener('click', () => {
-            if (typeof showPracticeOverview === 'function') showPracticeOverview('A0');
+            const groupId  = el.dataset.a0Group;
+            const groupIdx = groups.findIndex(g => g.id === groupId);
+            if (groupIdx !== -1 && typeof startStudySession === 'function') {
+                startStudySession(curr, groupIdx, 'A0');
+            } else if (typeof showPracticeOverview === 'function') {
+                showPracticeOverview('A0');
+            }
         });
     });
 
