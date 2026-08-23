@@ -6645,6 +6645,25 @@ body.dark-mode .msnake-node--pending[data-category="Funktionskommunikation"] {
     display: block;
 }
 
+.admin-skip-level {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0 0.5rem;
+}
+.admin-skip-btn {
+    background: linear-gradient(135deg, #1e293b, #334155);
+    color: #f8fafc;
+    border: 2px dashed #475569;
+    border-radius: 10px;
+    padding: 0.5rem 1.25rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    cursor: pointer;
+    opacity: 0.85;
+    transition: opacity 0.2s, transform 0.2s;
+}
+.admin-skip-btn:hover { opacity: 1; transform: scale(1.04); }
+
 .msnake-node--start-level {
     background: linear-gradient(135deg, rgba(16,185,129,0.14), rgba(5,150,105,0.08));
     border-color: #10b981;

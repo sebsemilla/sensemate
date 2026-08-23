@@ -1799,6 +1799,15 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
 
     grid.querySelector('[data-ntype="start_level"]')?.addEventListener('click', goB1);
 
+    // Botón "Ir a siguiente" — solo Admin/Dev
+    if (hasB1 && currentUser?.isDev) {
+        const skipBtn = document.createElement('div');
+        skipBtn.className = 'admin-skip-level';
+        skipBtn.innerHTML = `<button class="admin-skip-btn">🛡️ Ir a siguiente nivel →</button>`;
+        grid.appendChild(skipBtn);
+        skipBtn.querySelector('button').addEventListener('click', goB1);
+    }
+
     _misionWireChatTriggers(grid);
 
     if (_misionLastKey) {
@@ -2334,6 +2343,16 @@ function _renderSimpleSnake(grid, mods, { levelKey, milestoneLabel, onExamPass, 
 
     html += '</div>';
     grid.innerHTML = html;
+
+    // Botón "Ir a siguiente" — solo Admin/Dev
+    if (nextLevelFn && currentUser?.isDev) {
+        const skipBtn = document.createElement('div');
+        skipBtn.className = 'admin-skip-level';
+        skipBtn.innerHTML = `<button class="admin-skip-btn">🛡️ Ir a siguiente nivel →</button>`;
+        grid.appendChild(skipBtn);
+        skipBtn.querySelector('button').addEventListener('click', nextLevelFn);
+    }
+
     _misionWireChatTriggers(grid);
 
     grid.querySelectorAll('[data-ntype="mod"]').forEach(el => {
