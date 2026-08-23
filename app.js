@@ -1438,7 +1438,7 @@ function _renderA0Section(grid, targetCode, src, videoMods = []) {
 
     const states = JSON.parse(localStorage.getItem('ls_card_states') || '{}');
     const groups = curr.groups;
-    const videoMod = Array.isArray(videoMods) && videoMods.length ? videoMods[0] : null;
+    const vMods  = Array.isArray(videoMods) ? videoMods : [];
 
     function trunc(str, max) { return str.length > max ? str.slice(0, max) + '…' : str; }
 
@@ -1451,9 +1451,17 @@ function _renderA0Section(grid, targetCode, src, videoMods = []) {
         </div>`;
     }
 
-    // Construir lista de nodos A0: grupos con video inyectado en posición 1
+    // Construir lista de nodos A0: insertar videos por posición numérica o afterGroup
     const allA0 = [...groups];
-    if (videoMod) allA0.splice(1, 0, { _isVideo: true, ...videoMod });
+    // Separar por tipo de posición y ordenar de atrás hacia adelante para no desplazar índices
+    const byPos      = vMods.filter(v => v.position !== undefined).sort((a, b) => b.position - a.position);
+    const byGroup    = vMods.filter(v => v.afterGroup);
+    byPos.forEach(vm => allA0.splice(vm.position, 0, { _isVideo: true, ...vm }));
+    // afterGroup: buscar el índice DESPUÉS de insertar los de posición fija
+    byGroup.forEach(vm => {
+        const idx = allA0.findIndex(item => !item._isVideo && item.id === vm.afterGroup);
+        if (idx !== -1) allA0.splice(idx + 1, 0, { _isVideo: true, ...vm });
+    });
 
     const firstRow  = allA0.slice(0, 4);
     const remainder = allA0.slice(4);
