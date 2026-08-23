@@ -5972,6 +5972,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     let selectedStyle   = currentAvatarStyle;
 
     function renderGallery() {
+        if (!gallery) return;
         const styles = avatarStyles[selectedGroup];
         gallery.innerHTML = '';
         Object.entries(styles).forEach(([key, style]) => {
@@ -5988,18 +5989,18 @@ window.addEventListener('DOMContentLoaded', async () => {
         });
     }
 
-    avatarTrigger.addEventListener('click', () => {
+    avatarTrigger?.addEventListener('click', () => {
         selectedGroup = currentAvatarGroup; selectedStyle = currentAvatarStyle;
-        groupCatsBtn.classList.toggle('active', selectedGroup === 'cats');
-        groupDogsBtn.classList.toggle('active', selectedGroup === 'dogs');
+        groupCatsBtn?.classList.toggle('active', selectedGroup === 'cats');
+        groupDogsBtn?.classList.toggle('active', selectedGroup === 'dogs');
         renderGallery();
-        avatarModal.classList.remove('hidden');
+        avatarModal?.classList.remove('hidden');
     });
-    groupCatsBtn.addEventListener('click', () => {
-        selectedGroup = 'cats'; groupCatsBtn.classList.add('active'); groupDogsBtn.classList.remove('active'); renderGallery();
+    groupCatsBtn?.addEventListener('click', () => {
+        selectedGroup = 'cats'; groupCatsBtn.classList.add('active'); groupDogsBtn?.classList.remove('active'); renderGallery();
     });
-    groupDogsBtn.addEventListener('click', () => {
-        selectedGroup = 'dogs'; groupDogsBtn.classList.add('active'); groupCatsBtn.classList.remove('active'); renderGallery();
+    groupDogsBtn?.addEventListener('click', () => {
+        selectedGroup = 'dogs'; groupDogsBtn.classList.add('active'); groupCatsBtn?.classList.remove('active'); renderGallery();
     });
     document.getElementById('saveAvatarBtn').addEventListener('click', () => {
         currentAvatarGroup = selectedGroup; currentAvatarStyle = selectedStyle;
