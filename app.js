@@ -1551,6 +1551,18 @@ const _MISION_LANG_DIRS = {
     ru: 'ruso',      ar: 'arabe',
     gn: 'guarani',   qu: 'quechua',  nah: 'nahuatl',
     wo: 'wolof',     ha: 'hausa',    yo: 'yoruba',
+    // Africanos
+    sw: 'swahili',   am: 'amharico', om: 'oromo',
+    ln: 'lingala',   so: 'somali',   zu: 'zulu',
+    rw: 'kinyarwanda', tw: 'twi',   bm: 'bambara',
+    // Europeos
+    el: 'griego',    ca: 'catalan',  is: 'islandes',
+    ga: 'irlandes',  no: 'noruego',  da: 'danes',
+    nl: 'holandes',  sv: 'sueco',    sl: 'esloveno',
+    sk: 'eslovaco',  cs: 'checo',    tr: 'turco',
+    pl: 'polaco',    ro: 'rumano',   fi: 'finlandes',
+    hu: 'hungaro',   bg: 'bulgaro',  hr: 'croata',
+    uk: 'ucraniano', sr: 'serbio',
 };
 
 const _MISION_LANG_LABELS = {
@@ -1560,6 +1572,18 @@ const _MISION_LANG_LABELS = {
     ru: 'Ruso',      ar: 'Árabe',
     gn: 'Guaraní',   qu: 'Quechua',  nah: 'Náhuatl',
     wo: 'Wolof',     ha: 'Hausa',    yo: 'Yoruba',
+    // Africanos
+    sw: 'Swahili',   am: 'Amhárico', om: 'Oromo',
+    ln: 'Lingala',   so: 'Somalí',   zu: 'Zulú',
+    rw: 'Kinyarwanda', tw: 'Twi',   bm: 'Bambara',
+    // Europeos
+    el: 'Griego',    ca: 'Catalán',  is: 'Islandés',
+    ga: 'Irlandés',  no: 'Noruego',  da: 'Danés',
+    nl: 'Holandés',  sv: 'Sueco',    sl: 'Esloveno',
+    sk: 'Eslovaco',  cs: 'Checo',    tr: 'Turco',
+    pl: 'Polaco',    ro: 'Rumano',   fi: 'Finlandés',
+    hu: 'Húngaro',   bg: 'Búlgaro',  hr: 'Croata',
+    uk: 'Ucraniano', sr: 'Serbio',
 };
 
 function _initGenericLangHub(targetCode, tab = 'curriculum') {
