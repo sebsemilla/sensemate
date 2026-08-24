@@ -5639,7 +5639,7 @@ window.addEventListener('DOMContentLoaded', async () => {
             if (verified) {
                 currentUser = verified;
                 if (typeof MembershipPlan !== 'undefined') MembershipPlan.syncFromUser(verified);
-                updateAdminButton(); updateSubscribeButton();
+                updateAdminButton(); updatePromotorButton(); updateSubscribeButton();
                 // Dispara notificaciones programadas (daily tip, subscription reminder) silenciosamente
                 _authFetch(`${_API_HOST}/notifications/check`, { method: 'POST', body: '{}' }).catch(() => {});
                 _updateDayStreak();
@@ -6138,11 +6138,21 @@ window.addEventListener('DOMContentLoaded', async () => {
         }
     }
 
+    function updatePromotorButton() {
+        const btn = document.getElementById('promotorBtn');
+        if (!btn) return;
+        btn.classList.toggle('hidden', currentUser?.role !== 'promotor');
+    }
+
     document.getElementById('adminBtn')?.addEventListener('click', () => {
         if (typeof loadAdminPanel === 'function') loadAdminPanel();
     });
 
-    updateAdminButton(); updateSubscribeButton();
+    document.getElementById('promotorBtn')?.addEventListener('click', () => {
+        if (typeof loadPromotorPanel === 'function') loadPromotorPanel();
+    });
+
+    updateAdminButton(); updatePromotorButton(); updateSubscribeButton();
 
     // ── Botón Subscribe (header) ──────────────────────────────
 
@@ -6188,7 +6198,7 @@ window.addEventListener('DOMContentLoaded', async () => {
             }
         }
 
-        updateAdminButton(); updateSubscribeButton();
+        updateAdminButton(); updatePromotorButton(); updateSubscribeButton();
         if (user?.isNew === true && typeof loadMembershipSection === 'function') {
             setTimeout(() => loadMembershipSection(), 300);
         } else {

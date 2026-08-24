@@ -251,7 +251,7 @@ module.exports = function registerMembershipRoutes(app, { authDb }) {
                     currency_id: 'USD',
                 }],
                 payer: { email: userEmail || 'guest@sensemate.app' },
-                external_reference: JSON.stringify({ userId: req.jwtUser.id, period, tier: _tierFromPeriod(period) }),
+                external_reference: JSON.stringify({ userId: req.jwtUser.id, period, tier: _tierFromPeriod(period), referralCode: req.body.referralCode || null }),
             };
             if (!isLocalhost) {
                 body.back_urls = {
@@ -308,6 +308,14 @@ module.exports = function registerMembershipRoutes(app, { authDb }) {
 
             const plan = _applyApprovedPayment(ref, data.id);
             console.log(`✅ MP webhook: usuario ${ref.userId} activado como ${plan}`);
+
+            // Calcular comisiones de promotores
+            try {
+                const price = PLAN_PRICES[ref.period] || 0;
+                authDb.calculateAndSaveCommissions(ref.userId, data.id, price, ref.referralCode || null);
+            } catch (ce) {
+                console.error('❌ Error calculando comisiones:', ce.message);
+            }
         } catch (e) {
             console.error('❌ MP webhook error:', e.message);
         }

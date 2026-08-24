@@ -68,6 +68,7 @@ async function loadAdminPanel() {
                     <button class="admin-tab active" data-tab="feedback">📢 Feedback</button>
                     <button class="admin-tab" data-tab="stats">📊 Estadísticas</button>
                     <button class="admin-tab" data-tab="users">👤 Usuarios</button>
+                    <button class="admin-tab" data-tab="promotores">⭐ Promotores</button>
                 </div>
 
             </div>
@@ -177,6 +178,8 @@ async function _adminLoadTab(tab) {
             await _adminRenderBots(content);
         } else if (tab === 'examples') {
             await _adminRenderExamples(content);
+        } else if (tab === 'promotores') {
+            await _adminRenderPromotores(content);
         }
     } catch (err) {
         content.innerHTML = `<div class="admin-error">❌ Error: ${escapeHtml(err.message)}</div>`;
@@ -2605,4 +2608,200 @@ async function _adminRenderExamples(container) {
     }
 
     await render('pending');
+}
+
+async function _adminRenderPromotores(container) {
+    const session = JSON.parse(localStorage.getItem('ls_session') || '{}');
+
+    async function loadAll() {
+        const res = await fetch(`${_API_HOST}/promotores/admin/all`, {
+            headers: { 'Authorization': `Bearer ${session.token}` }
+        });
+        if (!res.ok) throw new Error('Error al cargar promotores');
+        return (await res.json()).promotors;
+    }
+
+    async function render() {
+        const promotors = await loadAll();
+        if (!promotors.length) {
+            container.innerHTML = `
+                <div class="admin-empty">Sin promotores registrados.</div>
+                ${_adminCreatePromotorForm()}`;
+            _adminBindCreatePromotor(container, session, render);
+            return;
+        }
+
+        const stageLabel = p => {
+            if (p.referral_count < 20) return 'Etapa 1 (80%)';
+            if (p.region_member_count <= 100) return 'Etapa 2';
+            if (p.region_member_count <= 300) return 'Etapa 3';
+            return 'Etapa 4';
+        };
+        const payFreq = p => {
+            if (p.referral_count < 20) return 'Semanal';
+            if (p.region_member_count <= 100) return 'c/15 días';
+            return 'Mensual';
+        };
+
+        container.innerHTML = `
+            <div class="admin-users-header">
+                <span class="admin-count">${promotors.length} promotor${promotors.length !== 1 ? 'es' : ''}</span>
+            </div>
+            <div class="promotor-admin-grid">
+                ${promotors.map(p => `
+                    <div class="promotor-admin-card" data-id="${p.user_id}">
+                        <div class="promotor-admin-card-header">
+                            <strong>${escapeHtml(p.name)}</strong>
+                            <span class="promotor-code-badge">${p.code}</span>
+                        </div>
+                        <div class="promotor-admin-card-meta">
+                            ${escapeHtml(p.email)} · ${p.assigned_country}
+                        </div>
+                        <div class="promotor-admin-stats">
+                            <span title="Etapa">${stageLabel(p)}</span>
+                            <span title="Frecuencia">${payFreq(p)}</span>
+                            <span title="Miembros en región">${p.region_member_count} miembros</span>
+                            <span title="Referidos propios">${p.referral_count} referidos</span>
+                        </div>
+                        <div class="promotor-admin-pending">
+                            Saldo pendiente: <strong class="green">$${p.pending_amount.toFixed(2)}</strong>
+                            ${p.last_payout_at ? `<span class="promotor-last-payout">Último pago: ${new Date(p.last_payout_at).toLocaleDateString('es-AR')}</span>` : ''}
+                        </div>
+                        ${p.pending_amount > 0 ? `<button class="admin-action-btn promotor-pay-btn" data-pid="${p.user_id}" data-name="${escapeHtml(p.name)}" data-amount="${p.pending_amount.toFixed(2)}">💳 Registrar pago ($${p.pending_amount.toFixed(2)})</button>` : ''}
+                        <button class="admin-action-btn promotor-detail-btn" data-pid="${p.user_id}">Ver detalle</button>
+                    </div>
+                `).join('')}
+            </div>
+            <hr style="margin:2rem 0;border-color:var(--border)">
+            <h4 style="margin-bottom:1rem;color:var(--text-secondary)">Crear nuevo promotor</h4>
+            ${_adminCreatePromotorForm()}
+        `;
+
+        container.querySelectorAll('.promotor-pay-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                const pid    = btn.dataset.pid;
+                const name   = btn.dataset.name;
+                const amount = btn.dataset.amount;
+                const note   = prompt(`Nota para el pago a ${name} ($${amount}):`, '');
+                if (note === null) return;
+
+                // Obtener earning IDs pendientes
+                const detailRes = await fetch(`${_API_HOST}/promotores/admin/dashboard/${pid}`, {
+                    headers: { 'Authorization': `Bearer ${session.token}` }
+                });
+                const detail = await detailRes.json();
+                const pendingIds = (detail.earnings || []).filter(e => !e.payout_id).map(e => e.id);
+
+                const res = await fetch(`${_API_HOST}/promotores/admin/payout`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.token}` },
+                    body: JSON.stringify({ promotorId: pid, earningIds: pendingIds, note })
+                });
+                const data = await res.json();
+                if (data.ok) {
+                    alert(`✅ Pago de $${data.amount.toFixed(2)} registrado. Se notificó al promotor.`);
+                    render();
+                } else {
+                    alert('❌ Error: ' + (data.error || 'desconocido'));
+                }
+            });
+        });
+
+        container.querySelectorAll('.promotor-detail-btn').forEach(btn => {
+            btn.addEventListener('click', async () => {
+                const res = await fetch(`${_API_HOST}/promotores/admin/dashboard/${btn.dataset.pid}`, {
+                    headers: { 'Authorization': `Bearer ${session.token}` }
+                });
+                const data = await res.json();
+                _adminShowPromotorDetail(data);
+            });
+        });
+
+        _adminBindCreatePromotor(container, session, render);
+    }
+
+    await render();
+}
+
+function _adminCreatePromotorForm() {
+    return `
+        <form id="adminCreatePromotorForm" class="promotor-create-form">
+            <div class="promotor-form-row">
+                <input type="text" id="promotorUserSearch" placeholder="ID o email del usuario" class="admin-input" required>
+                <input type="text" id="promotorCountry" placeholder="País (ej: AR)" maxlength="3" class="admin-input" required>
+                <input type="text" id="promotorCode" placeholder="Código único (ej: JUANARG)" class="admin-input" required>
+                <button type="submit" class="admin-action-btn">Crear promotor</button>
+            </div>
+            <div id="promotorCreateMsg" style="font-size:.85rem;margin-top:.5rem"></div>
+        </form>`;
+}
+
+function _adminBindCreatePromotor(container, session, onSuccess) {
+    container.querySelector('#adminCreatePromotorForm')?.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const userId       = container.querySelector('#promotorUserSearch').value.trim();
+        const country      = container.querySelector('#promotorCountry').value.trim();
+        const code         = container.querySelector('#promotorCode').value.trim();
+        const msgEl        = container.querySelector('#promotorCreateMsg');
+
+        const res = await fetch(`${_API_HOST}/promotores/admin/create`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${session.token}` },
+            body: JSON.stringify({ userId, assignedCountry: country, code })
+        });
+        const data = await res.json();
+        if (data.ok) {
+            msgEl.innerHTML = `<span style="color:var(--success)">✅ Promotor creado correctamente.</span>`;
+            onSuccess();
+        } else {
+            msgEl.innerHTML = `<span style="color:var(--danger)">❌ ${escapeHtml(data.error || 'Error')}</span>`;
+        }
+    });
+}
+
+function _adminShowPromotorDetail(data) {
+    const { profile, stage, currentPct, refCount, memberCount, pending, earnings, payouts } = data;
+    const pendingEarnings = earnings.filter(e => !e.payout_id);
+
+    const overlay = document.createElement('div');
+    overlay.className = 'admin-modal-overlay';
+    overlay.innerHTML = `
+        <div class="admin-modal" style="max-width:640px;max-height:80vh;overflow-y:auto">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem">
+                <h3 style="margin:0">Detalle promotor: ${escapeHtml(profile.code)}</h3>
+                <button class="school-close-btn" id="promotorDetailClose">✕</button>
+            </div>
+            <p><strong>País:</strong> ${profile.assigned_country} · <strong>Etapa:</strong> ${stage} · <strong>Comisión:</strong> ${currentPct}%</p>
+            <p><strong>Referidos:</strong> ${refCount} · <strong>Miembros región:</strong> ${memberCount} · <strong>Pendiente:</strong> <span class="green">$${pending.toFixed(2)}</span></p>
+
+            <h4>Comisiones pendientes (${pendingEarnings.length})</h4>
+            ${pendingEarnings.length === 0 ? '<p style="color:var(--text-secondary)">Ninguna.</p>' : `
+            <table class="promotor-table" style="font-size:.8rem">
+                <thead><tr><th>Fecha</th><th>Etapa</th><th>%</th><th>Pago base</th><th>Comisión</th></tr></thead>
+                <tbody>${pendingEarnings.map(e => `
+                    <tr>
+                        <td>${new Date(e.created_at).toLocaleDateString('es-AR')}</td>
+                        <td>${e.stage}</td><td>${e.commission_pct}%</td>
+                        <td>$${e.payment_amount.toFixed(2)}</td>
+                        <td class="green">$${e.commission_amount.toFixed(2)}</td>
+                    </tr>`).join('')}
+                </tbody>
+            </table>`}
+
+            <h4 style="margin-top:1rem">Historial de pagos (${payouts.length})</h4>
+            ${payouts.length === 0 ? '<p style="color:var(--text-secondary)">Sin pagos registrados.</p>' : `
+            <table class="promotor-table" style="font-size:.8rem">
+                <thead><tr><th>Fecha</th><th>Monto</th><th>Nota</th></tr></thead>
+                <tbody>${payouts.map(p => `
+                    <tr>
+                        <td>${new Date(p.paid_at).toLocaleDateString('es-AR')}</td>
+                        <td class="green">$${p.amount.toFixed(2)}</td>
+                        <td>${escapeHtml(p.note || '—')}</td>
+                    </tr>`).join('')}
+                </tbody>
+            </table>`}
+        </div>`;
+    document.body.appendChild(overlay);
+    overlay.querySelector('#promotorDetailClose')?.addEventListener('click', () => overlay.remove());
+    overlay.addEventListener('click', e => { if (e.target === overlay) overlay.remove(); });
 }

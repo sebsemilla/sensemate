@@ -1,0 +1,691 @@
+[
+  {
+    "id": "ga_A1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Greet and introduce yourself",
+    "bridge": "San eagraíocht na Gaeilge, le haghaidh fáilte a chur romhat déanaimis 'Dia dhuit' nó 'Dia dhiot' agus le haghaidh do chuid a rá déanaimis 'Is mise...' nó 'Tá mé...'. Is cosúil é sin le Béarla: úsáidimid 'Hello' nó 'Good morning' agus déanaimis 'My name is...' nó 'I am...'. Tá difríocht mhór ann, mar nach ndéanaimis 'I am called...' (cé go bhfuil sé ceart go gramadaíochta, is formal agus neamhnáisiúnta é i gcomhrá laethúil). Cuimhnigh freisin go bhfuil an fhocal 'to be' i gcónaí againn i mBéarla chun do chuid ainm a fháil: 'What is your name?' (ní 'How are you called?').",
+    "rule": "Le haghaidh fáilte a chur romhat: 'Hello' (Dia dhuit), 'Hi' (níos neamhfhoirmiúla), 'Good morning' (Maidin mhaith), 'Good afternoon' (Tráthnóna maith), 'Good evening' (Oíche mhaith ag teacht). Le haghaidh do chuid a rá: 'My name is...' (Is mise...) nó 'I am...' (Tá mé...). Le haghaidh do chuid ainm a fháil: 'What is your name?' (Cad is ainm duit?). Le haghaidh fáilte a fháil: 'Nice to meet you' (Sásta tú a bheith agam) agus an freagra 'Nice to meet you too'. Le haghaidh slán a chur: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Dia dhuit, is mise Máire.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Maidin mhaith, tá mé Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Sásta tú a bheith agam.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "Cad is ainm duit?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am called Anna.",
+      "correct": "My name is Anna.",
+      "correct_alt": "I am Anna.",
+      "explanation": "Sa Ghaeilge déanaimis 'Is mise Anna', ach i mBéarla is coitianta 'My name is...' nó 'I am...'. Tá 'I am called' ceart ach is formal agus neamhnáisiúnta é i gcomhtéacsanna laethúla."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Fáilte bhuncéime",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "Dia dhuit!",
+            "note": "Fáilte chaighdeánach."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Do chuid a rá",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Is mise Seán.",
+            "note": "Formhaisean coitianta chun d'ainm a rá."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Do chuid ainm a fháil",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "Cad is ainm duit?",
+            "note": "Ceist dhíreach chun ainm a fháil."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Slán a chur",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "Slán go dtí amárach!",
+            "note": "Slán neamhfhoirmiúil."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Irish"
+    }
+  },
+  {
+    "id": "ga_A1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "San eagraíocht na Gaeilge, chun d’aois a thabhairt, deirtear ‘Tá mé 25 bliain d’aois’ (ag úsáid an fhriathail ‘a bheith’), ach san Béarla deirtear ‘I am 25 years old’ (ag úsáid an fhriathail ‘to be’). Mar sin féin, chun do náisiúlacht a thabhairt, deirtear ‘Is Éireach mé’ (gan alt), ach san Béarla deirtear ‘I am Irish’ (gan alt). Chun do ghairm a thabhairt, san eagraíocht na Gaeilge deirtear ‘Is múinteoir mé’ (gan alt), ach san Béarla deirtear ‘I am a teacher’ (le haelt).",
+    "rule": "Cun d’aois: ‘I am [uimhir] years old’ (e.g.: I am 25 years old). Cun do náisiúlacht: ‘I am [náisiúlacht]’ (e.g.: I am Irish, I am Mexican). Cun do ghairm: ‘I am a/an [ghairm]’ (e.g.: I am a doctor, I am an engineer). Chun ceist a chur: ‘How old are you?’ (Cia do aois?), ‘Where are you from?’ (Cá as tú?), ‘What do you do?’ (Céard a dhéanann tú?) nó ‘What is your job?’.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Tá mé 25 bliain d’aois.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Spanish.",
+        "translation": "Is Éireach mé.",
+        "phonetic": "/aɪ æm ˈspænɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Is múinteoir mé.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Cia do aois?",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "",
+      "explanation": "San eagraíocht na Gaeilge, deirtear ‘Tá mé 25 bliain d’aois’ ag úsáid an fhriathail ‘a bheith’, ach san Béarla úsáidtear an fhriathal ‘to be’ chun d’aois a thabhairt. Is ceann de na hearráidí is coitianta é seo do dhaoine a labhraíonn Gaeilge."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Aois",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Tá mé 30 bliain d’aois.",
+            "note": "Úsáidtear ‘to be’ chun d’aois a thabhairt."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Náisiúlacht",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Is Meicsiceach mé.",
+            "note": "Gan alt chun náisiúlacht a thabhairt."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Gairm",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Is altranais í.",
+            "note": "Le haelt ‘a’ nó ‘an’ chun gairm a thabhairt."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Ceisteanna",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Cá as tú?",
+            "note": "Ceist faoi do bhunadh."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Irish"
+    }
+  },
+  {
+    "id": "ga_A1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Describe objects and people (basic)",
+    "bridge": "Sa Bhéarla, chun rudíní agus daoine a thuairisciú, cuirtear an aidiacht roimh an ainmneacha: 'a red car', 'a tall girl'. Sa Spáinnis, cuirtear an aidiacht ina dhiaidh: 'un coche rojo', 'una chica alta'. Úsáidimid an fheadach 'to be' le haghaidh tuairiscí ginearálta (She is tall) agus 'have got' le haghaidh gnéithe fisiceacha (She has got blue eyes).",
+    "rule": "Chun a thuairisciú: 1) Aidiacht + ainmfhocal (a big house). 2) Réamhfhocal + an fheadach 'to be' + aidiacht (The house is big). 3) Réamhfhocal + 'have/has got' + gné (She has got long hair). Aidiachtaí coitianta: big (mór), small (bheag), tall (ard), short (gear), beautiful (álainn), old (sean), young (óig), fast (luaithe), slow (mall).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "This is a big house.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "She is tall and slim.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "He has blue eyes.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "The car is red.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "a car red",
+      "correct": "a red car",
+      "correct_alt": "",
+      "explanation": "Sa Spáinnis, cuirtear an aidiacht ina dhiaidh an ainmnigh ('un coche rojo'), ach sa Bhéarla cuirtear an aidiacht roimh an ainmneacha ('a red car'). Is é seo ceann de na botúin is coitianta atá ag daoine a labhraíonn Spáinnis."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Aidiacht + ainmfhocal",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "a small dog",
+            "note": "Cuirtear an aidiacht roimh an ainmneacha."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Réamhfhocal + to be + aidiacht",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "The book is interesting.",
+            "note": "Úsáidimid 'to be' le haghaidh tuairiscí ginearálta."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got le haghaidh gnéithe",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "She has curly hair.",
+            "note": "Úsáidimid 'have got' le haghaidh gnéithe fisiceacha."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Tuairisc chomhtháite",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "My brother is young and has green eyes.",
+            "note": "Comhcheangailt de 'to be' agus 'have got'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": {
+        "big": "mór",
+        "small": "bheag",
+        "tall": "ard",
+        "short": "gear",
+        "beautiful": "álainn",
+        "old": "sean",
+        "young": "óig",
+        "fast": "luaithe",
+        "slow": "mall"
+      }
+    }
+  },
+  {
+    "id": "ga_A1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Talk about daily routines",
+    "bridge": "San Gaeilge, chun caint faoi rúin laethúla, úsáidimid an aimsir láithreach: 'Éirím am 7, iteann mé mo bhricfeasta agus téim chun obair'. I mBéarla, úsáidtear an aimsir láithreach ar an gcaoi céanna: 'I get up at 7, have breakfast and go to work'. Tá difríocht phríomha, áfach, ina n-úsáidtear na réamhfhocail 'at' le huaireanta ('at 7 o'clock'), 'in' le háiteanna lae ('in the morning') agus 'on' le laethanta ('on Monday'). Úsáidtear focal-forálacha cosúlachta mar 'always', 'usually', 'sometimes' roimh an bhriatháras príomha chomh maith.",
+    "rule": "Chun caint faoi rúin: 1) Úsáid an aimsir láithreach (I get up, she works). 2) Úsáid tréithe ama: 'at' + uair (at 8 am), 'in' + cuid den lá (in the morning), 'on' + lá (on Friday). 3) Úsáid focal-forálacha cosúlachta roimh an bhriatháras (I always eat breakfast). 4) Chun ceisteanna a chur: 'What time do you get up?' nó 'When do you have lunch?'.",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Éirím am 7 go díreach.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "De ghnáth, iteann sí a béile mhaidine am 8 ar maidin.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Téimid chun obair am 9 ar maidin.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Cad é an t-am a itheann tú do dhinnéar?",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am eating breakfast every morning.",
+      "correct": "I eat breakfast every morning.",
+      "correct_alt": "",
+      "explanation": "I nGaeilge, úsáidtear an aimsir láithreach le haghaidh gníomhaíochtaí coitianta ('iteann mé mo bhricfeasta gach maidin'), ach i mBéarla, úsáidtear an aimsir láithreach, ní an t-aimsir leanúnach, le haghaidh rúin agus gnáthóg."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Gníomhaíochtaí laethúla",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Éirím go luath.",
+            "note": "Briatháras i n-aimsir láithreach le haghaidh rúin."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Tréithe ama",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Iteann mé mo lón am 1 iarnóin.",
+            "note": "Úsáidtear 'at' le huaireanta sonracha."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Focal-forálacha cosúlachta",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Ní ólann sí coffa riamh.",
+            "note": "Focal-forálach cosúlachta roimh an bhriatháras príomha."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Ceisteanna faoi rúin",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Cad é an t-am a leann tú isteach?",
+            "note": "Ceist le 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Talk about daily routines"
+    }
+  },
+  {
+    "id": "ga_A1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Express likes and dislikes (Is maith liom / Ní maith liom)",
+    "bridge": "Sa Ghaeilge, chun taitneamh a chríochnú, úsáidimid an fheadach 'maith': 'Is maith liom an pizza' (go litreach 'Taitníonn an pizza liom'). Sa Béarla, úsáidimid an fheadach 'like' le struchtúr réiméadar + like + cuspóir: 'I like pizza'. Is é an difríocht phríomhaidh ná go gcomhoiriúnaíonn an fheadach 'gustar' sa Spáinnis leis an gcuspóir (is maith liom an pizza, is maith liom na pizzeacha), cé go gcomhoiriúnaíonn 'like' sa Bhéarla leis an réiméadar (I like pizza, He likes pizza). Cuimhnigh freisin go n-inseoidh muid 'I don't like' chun neamhtaitneamh a chríochnú (ní maith liom).",
+    "rule": "Chun taitneamh a chríochnú: 1) Diopháiteach: I/you/we/they like + cuspóir (Is maith liom an caife). He/she/it likes + cuspóir (Is maith léi an caife). 2) Diúltach: I/you/we/they don't like (Ní maith liom an tae). He/she/it doesn't like (Ní maith leis an tae). 3) Ceisteanna: Do you like...? (An maith leat...?), Does she like...? (An maith léi...?). 4) Chun a dhéanamh níos láidre: 'Is maith liom go mór é' (Is maith liom go mór) nó 'Is maith liom go ró-mhaith é' (Is maith liom go ró-mhaith).",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Is maith liom an pizza.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Is maith léi an léitheoireacht.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Ní maith linn an bia trash.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "An maith leat an ceol?",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I like very much pizza.",
+      "correct": "I like pizza very much.",
+      "correct_alt": "",
+      "explanation": "Sa Ghaeilge, cuirtear an focal 'go mór' tar éis an fhocail: 'Is maith liom go mór an pizza'. Sa Bhéarla, cuirtear an focal 'very much' ar deireadh an abairt nó tar éis an chuspóir: 'I like pizza very much'. Is miste a chur idir an fheadach agus an cuspóir."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Diopháiteach le I/you/we/they",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Is maith liom an seacláid.",
+            "note": "An fheadach 'like' i bhfoirm bunúsach."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Diopháiteach le he/she/it",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Is maith leis an sacair.",
+            "note": "Cuirtear -s leis an tríú duine."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Diúltach le don't/doesn't",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Ní maith léi an tae.",
+            "note": "Úsáidtear 'doesn't' + an fheadach bunúsach."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Ceisteanna le Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "An maith leat na madraí?",
+            "note": "Ceist le 'do' + an réiméadar + an fheadach bunúsach."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Irish"
+    }
+  },
+  {
+    "id": "ga_A1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ask for and give prices",
+    "bridge": "San bhriathraíonn tú Gaeilge, chun praghas a fháil, deirtear 'Cé mhéad atá sé?' nó 'Cé mhéad a chostaíonn sé?'. Sa Bhéarla, deirtear 'How much is it?' (singular) nó 'How much are they?' (plural). Úsáidtear 'How much does it cost?' chomh maith. Tá difríocht mhór idir na teangacha mar úsáidtear an fheadach 'to be' nó 'cost' le 'does' sa Bhéarla chun ceist a chur.",
+    "rule": "Chun praghas a fháil: 1) 'How much is it?' (dán-uirthear) nó 'How much are they?' (il-uirthear). 2) 'How much does it cost?'. 3) 'How much is the T-shirt?'. Chun freagra a thabhairt: 'It is 25 dollars' nó 'It costs 25 dollars'. I gcás ceisteanna, úsáidtear an fheadach 'to be' nó 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Cé mhéad atá sé?",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Cé mhéad a chostaíonn sé?",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Tá sé 10 dollar.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Cé mhéad a chostaíonn na bróga seo?",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "Sa Spáinnis, deirtear '¿Cuánto cuesta?' gan fheadach cabhrach. Sa Bhéarla, nuair a úsáidtear an fheadach 'cost', caithfear an fheadach cabhrach 'does' a úsáid chun ceist a chur. Is botún coitianta é seo i measc Gaeilgeoirí de bharr aistriúchán litreach."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Praghas a fháil le 'to be'",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Cé mhéad a chostaíonn an leabhar?",
+            "note": "Úsáidtear 'to be' chun praghas a fháil."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Praghas a fháil le 'cost'",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Cé mhéad a chostaíonn an mála?",
+            "note": "Úsáidtear 'does' + 'cost' chun ceist a chur."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Praghas a thabhairt",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Chostaíonn sé 5 euro.",
+            "note": "Úsáidtear 'costs' i dtríú persóna aonair."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Ceisteanna i lior-uirthear",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Cé mhéad a chostaíonn na húlla seo?",
+            "note": "Úsáidtear 'are' le haghaidh lior-uirthear."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Praghas a fháil agus a thabhairt"
+    }
+  },
+  {
+    "id": "ga_A1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Indicate location of places / Taispeáin suíomh áiteanna",
+    "bridge": "Sa Bhéarla, chun suíomh áite a thaispeáint, déanaimis úsáid de riarfhocail mar 'on', 'in', 'at', 'next to', 'near', 'opposite', 'behind', 'in front of'. Is é an deacracht do dhaoine a labhraíonn Spáinnis ná go bhfuil 'en' in úsáid acu i gcomhthéacsanna éagsúla, cé go bhfuil an riarfhocal sa Bhéarla ag brath ar an gcomhthéacs. Cuimhnigh freisin go bhfuil an fheadach 'to be' in úsáid againn chun suíomh a thaispeáint (It is...).",
+    "rule": "Chun suíomh a thaispeáint: 1) Úsáid an fheadach 'to be' (The bank is...). 2) Riarfhocail: 'on' (ar, os cionn), 'in' (istigh i), 'at' (ag), 'next to' (in aice le), 'near' (gar do), 'opposite' (ar an taobh eile de), 'behind' (taobh thiar de), 'in front of' (os comhair). 3) Ceisteanna: 'Where is the...?' (Cá bhfuil...) nó 'Is there a... near here?' (An bhfuil... gar do thuairimse?).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Tá an siopa mhór gar don pháirc.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Tá an scoil in aice leis an eaglais.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Tá an chógaslann ar an gcaoi mhór.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Cá bhfuil an stáisiún bus?",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Is in the corner.",
+      "correct": "It is in the corner.",
+      "correct_alt": "It is on the corner.",
+      "explanation": "Sa Spáinnis, deirtear 'Está en la esquina' agus déantar an t-ábhar a fhágáil amach uaireanta. Sa Bhéarla, is gá an t-ábhar 'It' nó 'He/She' a úsáid. Ina theannta sin, deirtear 'on the corner' (ní 'in the corner') nuair atá an suíomh ag croílár dhá bhóthar."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Suíomh bunúsach le 'in'",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Tá an cat sa ghairdín.",
+            "note": "Úsáidtear 'in' le haghaidh spásanna dul chun siúil."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Suíomh le 'next to'",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Tá an tsiopa bíde in aice leis an óstán.",
+            "note": "Úsáidtear 'next to' le haghaidh gairmiúlachta gar do."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Suíomh le 'near' agus 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Tá an banc ar an taobh eile den pháirc.",
+            "note": "Úsáidtear 'opposite' le haghaidh áiteanna ar an taobh eile."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Ceist le Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Cá bhfuil an stáisiún póilíní?",
+            "note": "Ceist dhíreach le 'Where'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "ga": "Irish"
+    }
+  }
+]

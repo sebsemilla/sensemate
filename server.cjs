@@ -19,6 +19,7 @@ const registerClassroomRoutes = require('./routes/classroom.cjs');
 const registerBotRoutes       = require('./routes/bots.cjs');
 const registerCameraRoutes    = require('./routes/camera.cjs');
 const registerExamplesRoutes  = require('./routes/examples.cjs');
+const { registerPromotoresRoutes } = require('./routes/promotores.cjs');
 const { registerMcpRoutes }   = require('./mcp_server.cjs');
 const { loadContributors }    = require('./routes/content.cjs');
 const { loadBots, runBot }    = require('./bot_runner.cjs');
@@ -354,6 +355,7 @@ registerBotRoutes(app);
 
 registerCameraRoutes(app);
 registerExamplesRoutes(app, { authDb, ttsLimiter });
+registerPromotoresRoutes(app);
 
 // ── Pricing por geo-IP ─────────────────────────────────────────
 {

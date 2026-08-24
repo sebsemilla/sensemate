@@ -992,6 +992,186 @@ function dbGetComments(postId, limit = 50) {
     return db.prepare('SELECT id,author,text,ts FROM post_comments WHERE postId=? ORDER BY ts DESC LIMIT ?').all(postId, limit);
 }
 
+// ─── Promotores ───────────────────────────────────────────────
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS promotor_profiles (
+    user_id          TEXT PRIMARY KEY,
+    assigned_country TEXT NOT NULL,
+    code             TEXT UNIQUE NOT NULL,
+    created_at       TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS promotor_referrals (
+    id               TEXT PRIMARY KEY,
+    promotor_id      TEXT NOT NULL,
+    referred_user_id TEXT UNIQUE NOT NULL,
+    created_at       TEXT NOT NULL
+  );
+  CREATE TABLE IF NOT EXISTS promotor_earnings (
+    id               TEXT PRIMARY KEY,
+    promotor_id      TEXT NOT NULL,
+    payer_user_id    TEXT NOT NULL,
+    payment_id       TEXT NOT NULL,
+    payment_amount   REAL NOT NULL,
+    commission_pct   REAL NOT NULL,
+    commission_amount REAL NOT NULL,
+    stage            INTEGER NOT NULL,
+    created_at       TEXT NOT NULL,
+    payout_id        TEXT DEFAULT NULL
+  );
+  CREATE TABLE IF NOT EXISTS promotor_payouts (
+    id           TEXT PRIMARY KEY,
+    promotor_id  TEXT NOT NULL,
+    amount       REAL NOT NULL,
+    earning_ids  TEXT NOT NULL,
+    paid_at      TEXT NOT NULL,
+    admin_id     TEXT NOT NULL,
+    note         TEXT DEFAULT NULL
+  );
+`);
+
+function createPromotorProfile(userId, assignedCountry, code) {
+    db.prepare(`INSERT INTO promotor_profiles (user_id, assigned_country, code, created_at)
+                VALUES (?, ?, ?, ?)`).run(userId, assignedCountry.toUpperCase(), code.toUpperCase(), new Date().toISOString());
+    db.prepare(`UPDATE users SET role = 'promotor' WHERE id = ?`).run(userId);
+}
+
+function getPromotorProfile(userId) {
+    return db.prepare('SELECT * FROM promotor_profiles WHERE user_id = ?').get(userId);
+}
+
+function getPromotorByCode(code) {
+    return db.prepare('SELECT * FROM promotor_profiles WHERE code = ?').get(code.toUpperCase());
+}
+
+function getPromotorsByCountry(country) {
+    return db.prepare('SELECT * FROM promotor_profiles WHERE assigned_country = ? LIMIT 2').all(country.toUpperCase());
+}
+
+function addPromotorReferral(promotorId, referredUserId) {
+    try {
+        const id = `ref_${Date.now()}_${Math.random().toString(36).slice(2,6)}`;
+        db.prepare(`INSERT INTO promotor_referrals (id, promotor_id, referred_user_id, created_at)
+                    VALUES (?, ?, ?, ?)`).run(id, promotorId, referredUserId, new Date().toISOString());
+    } catch {}
+}
+
+function getPromotorReferralCount(promotorId) {
+    return db.prepare('SELECT COUNT(*) AS c FROM promotor_referrals WHERE promotor_id = ?').get(promotorId)?.c || 0;
+}
+
+function getPaidMemberCountByCountry(country) {
+    return db.prepare(`SELECT COUNT(*) AS c FROM users WHERE country = ? AND plan != 'free'`).get(country)?.c || 0;
+}
+
+function savePromotorEarning({ promotorId, payerUserId, paymentId, paymentAmount, commissionPct, stage }) {
+    const id = `earn_${Date.now()}_${Math.random().toString(36).slice(2,6)}`;
+    const commissionAmount = Math.round(paymentAmount * commissionPct / 100 * 100) / 100;
+    db.prepare(`INSERT INTO promotor_earnings
+        (id, promotor_id, payer_user_id, payment_id, payment_amount, commission_pct, commission_amount, stage, created_at)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`
+    ).run(id, promotorId, payerUserId, paymentId, paymentAmount, commissionPct, commissionAmount, stage, new Date().toISOString());
+    return commissionAmount;
+}
+
+function calculateAndSaveCommissions(payerUserId, paymentId, paymentAmount, referralCode) {
+    const payer = db.prepare('SELECT country FROM users WHERE id = ?').get(payerUserId);
+    if (!payer?.country) return;
+    const country = payer.country.toUpperCase();
+
+    if (referralCode) {
+        const promotor = getPromotorByCode(referralCode);
+        if (promotor && promotor.assigned_country === country) {
+            const refCount = getPromotorReferralCount(promotor.user_id);
+            if (refCount < 20) {
+                savePromotorEarning({ promotorId: promotor.user_id, payerUserId, paymentId, paymentAmount, commissionPct: 80, stage: 1 });
+                addPromotorReferral(promotor.user_id, payerUserId);
+                return;
+            }
+        }
+    }
+
+    const regionPromotors = getPromotorsByCountry(country);
+    if (!regionPromotors.length) return;
+
+    const memberCount = getPaidMemberCountByCountry(country);
+    let stage, pctEach;
+
+    if (memberCount <= 100) {
+        stage = 2;
+        pctEach = regionPromotors.length === 1 ? 60 : 30;
+    } else if (memberCount <= 300) {
+        stage = 3;
+        pctEach = regionPromotors.length === 1 ? 50 : 25;
+    } else {
+        stage = 4;
+        pctEach = 8;
+    }
+
+    for (const p of regionPromotors) {
+        savePromotorEarning({ promotorId: p.user_id, payerUserId, paymentId, paymentAmount, commissionPct: pctEach, stage });
+    }
+}
+
+function getPromotorEarnings(promotorId, { paid } = {}) {
+    const where = paid === true ? 'AND payout_id IS NOT NULL' : paid === false ? 'AND payout_id IS NULL' : '';
+    return db.prepare(`SELECT * FROM promotor_earnings WHERE promotor_id = ? ${where} ORDER BY created_at DESC`).all(promotorId);
+}
+
+function getPromotorPendingTotal(promotorId) {
+    return db.prepare(`SELECT COALESCE(SUM(commission_amount),0) AS total FROM promotor_earnings WHERE promotor_id = ? AND payout_id IS NULL`).get(promotorId)?.total || 0;
+}
+
+function createPromotorPayout({ promotorId, amount, earningIds, adminId, note }) {
+    const id = `payout_${Date.now()}_${Math.random().toString(36).slice(2,6)}`;
+    const now = new Date().toISOString();
+    db.prepare(`INSERT INTO promotor_payouts (id, promotor_id, amount, earning_ids, paid_at, admin_id, note)
+                VALUES (?, ?, ?, ?, ?, ?, ?)`).run(id, promotorId, amount, JSON.stringify(earningIds), now, adminId, note || null);
+    if (earningIds?.length) {
+        const placeholders = earningIds.map(() => '?').join(',');
+        db.prepare(`UPDATE promotor_earnings SET payout_id = ? WHERE id IN (${placeholders})`).run(id, ...earningIds);
+    }
+    return { id, paid_at: now };
+}
+
+function getPromotorPayouts(promotorId) {
+    return db.prepare('SELECT * FROM promotor_payouts WHERE promotor_id = ? ORDER BY paid_at DESC').all(promotorId)
+        .map(p => ({ ...p, earning_ids: JSON.parse(p.earning_ids || '[]') }));
+}
+
+function getAllPromotorsAdmin() {
+    const promotors = db.prepare(`
+        SELECT pp.*, u.name, u.email, u.plan
+        FROM promotor_profiles pp
+        JOIN users u ON u.id = pp.user_id
+        ORDER BY pp.created_at DESC
+    `).all();
+    return promotors.map(p => {
+        const refCount    = getPromotorReferralCount(p.user_id);
+        const memberCount = getPaidMemberCountByCountry(p.assigned_country);
+        const pending     = getPromotorPendingTotal(p.user_id);
+        const lastPayout  = db.prepare('SELECT paid_at FROM promotor_payouts WHERE promotor_id = ? ORDER BY paid_at DESC LIMIT 1').get(p.user_id);
+        return { ...p, referral_count: refCount, region_member_count: memberCount, pending_amount: pending, last_payout_at: lastPayout?.paid_at || null };
+    });
+}
+
+function getPromotorDashboard(userId) {
+    const profile = getPromotorProfile(userId);
+    if (!profile) return null;
+    const refCount    = getPromotorReferralCount(userId);
+    const memberCount = getPaidMemberCountByCountry(profile.assigned_country);
+    const pending     = getPromotorPendingTotal(userId);
+    const earnings    = getPromotorEarnings(userId);
+    const payouts     = getPromotorPayouts(userId);
+
+    let stage = refCount < 20 ? 1 : memberCount <= 100 ? 2 : memberCount <= 300 ? 3 : 4;
+    const nextThreshold = stage === 1 ? 20 : stage === 2 ? 100 : stage === 3 ? 300 : null;
+    const currentPct = stage === 1 ? 80 : stage === 2 ? (getPromotorsByCountry(profile.assigned_country).length === 1 ? 60 : 30)
+                     : stage === 3 ? (getPromotorsByCountry(profile.assigned_country).length === 1 ? 50 : 25) : 8;
+
+    return { profile, stage, currentPct, refCount, memberCount, nextThreshold, pending, earnings, payouts };
+}
+
 // ─── User Examples ─────────────────────────────────────────────
 function createUserExample({ userId, word, sourceLang, targetLang, exampleText, audioB64, mimeType }) {
     const id = crypto.randomUUID();
@@ -1058,4 +1238,10 @@ module.exports = {
     dbToggleLike, dbGetLikes, dbAddComment, dbGetComments,
     // User examples
     createUserExample, getApprovedExamples, getAdminExamples, reviewExample, deleteUserExample,
+    // Promotores
+    createPromotorProfile, getPromotorProfile, getPromotorByCode, getPromotorsByCountry,
+    addPromotorReferral, getPromotorReferralCount, getPaidMemberCountByCountry,
+    savePromotorEarning, calculateAndSaveCommissions, getPromotorEarnings,
+    getPromotorPendingTotal, createPromotorPayout, getPromotorPayouts,
+    getAllPromotorsAdmin, getPromotorDashboard,
 };

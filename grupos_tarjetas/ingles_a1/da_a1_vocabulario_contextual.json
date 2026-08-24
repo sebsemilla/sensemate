@@ -1,0 +1,2833 @@
+[
+  {
+    "id": "da_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "hello",
+        "pos": "interjection",
+        "translation": "hej",
+        "note": "Standardhilsen",
+        "phonetic": "/həˈloʊ/"
+      },
+      {
+        "word": "my",
+        "pos": "possessive adjective",
+        "translation": "min",
+        "note": "",
+        "phonetic": "/maɪ/"
+      },
+      {
+        "word": "name",
+        "pos": "noun",
+        "translation": "navn",
+        "note": "",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "word": "be",
+        "pos": "verb",
+        "translation": "være",
+        "note": "Verbet 'to be'",
+        "phonetic": "/biː/"
+      },
+      {
+        "word": "meet",
+        "pos": "verb",
+        "translation": "møde/lære at kende",
+        "note": "Bruges i præsentationer: 'Nice to meet you'",
+        "phonetic": "/miːt/"
+      },
+      {
+        "word": "you",
+        "pos": "pronoun",
+        "translation": "dig",
+        "note": "",
+        "phonetic": "/juː/"
+      },
+      {
+        "word": "I",
+        "pos": "pronoun",
+        "translation": "jeg",
+        "note": "Skrives altid med stort begyndelsesbogstav",
+        "phonetic": "/aɪ/"
+      },
+      {
+        "word": "this",
+        "pos": "determiner/pronoun",
+        "translation": "dette/denne",
+        "note": "Til at præsentere nogen",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "from",
+        "pos": "preposition",
+        "translation": "fra (oprindelse)",
+        "note": "",
+        "phonetic": "/frʌm/"
+      },
+      {
+        "word": "and",
+        "pos": "conjunction",
+        "translation": "og",
+        "note": "",
+        "phonetic": "/ænd/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello! My name is Ana.",
+        "translation": "Hej! Mit navn er Ana.",
+        "highlights": [
+          "Hello",
+          "My",
+          "name",
+          "is"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hi, Ana. Nice to meet you. I am Carlos.",
+        "translation": "Hej, Ana. Rart at møde dig. Jeg er Carlos.",
+        "highlights": [
+          "meet",
+          "you",
+          "I",
+          "am"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Nice to meet you too. This is my friend, Luis.",
+        "translation": "Rart at møde dig også. Dette er min ven, Luis.",
+        "highlights": [
+          "you",
+          "This",
+          "is",
+          "my"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "Hello, Luis. I am from Spain.",
+        "translation": "Hej, Luis. Jeg er fra Spanien.",
+        "highlights": [
+          "Hello",
+          "I",
+          "am",
+          "from"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "And I am from Mexico. Welcome!",
+        "translation": "Og jeg er fra Mexico. Velkommen!",
+        "highlights": [
+          "And",
+          "I",
+          "am",
+          "from"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Nice to meet you",
+        "translation": "Rart at møde dig"
+      },
+      {
+        "phrase": "My name is...",
+        "translation": "Mit navn er..."
+      },
+      {
+        "phrase": "I am from...",
+        "translation": "Jeg er fra..."
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "where",
+        "pos": "adv",
+        "translation": "dónde",
+        "note": "Brugt til at spørge om et sted.",
+        "phonetic": "/wɛr/"
+      },
+      {
+        "word": "is",
+        "pos": "verb",
+        "translation": "está / es",
+        "note": "Tredje person ental af verbet 'to be'.",
+        "phonetic": "/ɪz/"
+      },
+      {
+        "word": "it",
+        "pos": "pron",
+        "translation": "eso / lo",
+        "note": "Stedfortræder for at referere til noget, der allerede er nævnt.",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "word": "there",
+        "pos": "adv",
+        "translation": "allí / ahí",
+        "note": "Angiver sted.",
+        "phonetic": "/ðɛr/"
+      },
+      {
+        "word": "over",
+        "pos": "prep",
+        "translation": "al otro lado / sobre",
+        "note": "I 'over there' betyder det 'derovre'.",
+        "phonetic": "/ˈoʊvər/"
+      },
+      {
+        "word": "right",
+        "pos": "adj",
+        "translation": "correcto / a la derecha",
+        "note": "I 'right there' betyder det 'lige der'.",
+        "phonetic": "/raɪt/"
+      },
+      {
+        "word": "on",
+        "pos": "prep",
+        "translation": "en / sobre",
+        "note": "Angiver position på en overflade.",
+        "phonetic": "/ɑn/"
+      },
+      {
+        "word": "shelf",
+        "pos": "noun",
+        "translation": "estante / balda",
+        "note": "Møbel eller horisontal overflade til at placere ting på.",
+        "phonetic": "/ʃɛlf/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "note": "Utrykker behov.",
+        "phonetic": "/nid/"
+      },
+      {
+        "word": "get",
+        "pos": "verb",
+        "translation": "coger / obtener",
+        "note": "I butikssammenhæng betyder det 'tage' eller 'nå'.",
+        "phonetic": "/ɡɛt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, where is the bread?",
+        "translation": "Undskyld, hvor er brødet?",
+        "highlights": [
+          "where",
+          "is"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It is over there, on that shelf.",
+        "translation": "Det er derovre, på det hynde.",
+        "highlights": [
+          "It",
+          "over",
+          "there",
+          "on",
+          "shelf"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is it right there?",
+        "translation": "Er det lige der?",
+        "highlights": [
+          "right",
+          "there"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes. You need to get it from the top.",
+        "translation": "Ja. Du skal tage det øverst.",
+        "highlights": [
+          "need",
+          "get",
+          "it"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you!",
+        "translation": "Tak!",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Where is...?",
+        "translation": "Hvor er...?"
+      },
+      {
+        "phrase": "over there",
+        "translation": "derovre"
+      },
+      {
+        "phrase": "right there",
+        "translation": "lige der"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "can",
+        "pos": "verb",
+        "translation": "kunne",
+        "note": "Brugt til at bede om noget på en høflig måde: 'Can I have...?'",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "have / få",
+        "note": "I denne kontekst betyder det at 'få' en drikkevare.",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "coffee",
+        "pos": "noun",
+        "translation": "kaffe",
+        "phonetic": "/ˈkɔː.fi/"
+      },
+      {
+        "word": "or",
+        "pos": "conj",
+        "translation": "eller",
+        "phonetic": "/ɔːr/"
+      },
+      {
+        "word": "tea",
+        "pos": "noun",
+        "translation": "te",
+        "phonetic": "/tiː/"
+      },
+      {
+        "word": "hot",
+        "pos": "adj",
+        "translation": "varm",
+        "phonetic": "/hɒt/"
+      },
+      {
+        "word": "cold",
+        "pos": "adj",
+        "translation": "kold",
+        "phonetic": "/koʊld/"
+      },
+      {
+        "word": "please",
+        "pos": "adv",
+        "translation": "vær så venlig",
+        "phonetic": "/pliːz/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "her",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "what",
+        "pos": "pron",
+        "translation": "hvad",
+        "phonetic": "/wʌt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What can I get for you?",
+        "translation": "Hvad kan jeg hente til dig?",
+        "highlights": [
+          "What",
+          "can"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Can I have a coffee, please?",
+        "translation": "Kan jeg få en kaffe, vær så venlig?",
+        "highlights": [
+          "Can",
+          "have",
+          "coffee",
+          "please"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Hot or cold?",
+        "translation": "Varm eller kold?",
+        "highlights": [
+          "Hot",
+          "or",
+          "cold"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hot, please. And what tea do you have?",
+        "translation": "Varm, vær så venlig. Og hvilken te har I?",
+        "highlights": [
+          "Hot",
+          "please",
+          "what",
+          "tea",
+          "have"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here you go. Your coffee and tea.",
+        "translation": "Her har du. Din kaffe og te.",
+        "highlights": [
+          "Here"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Can I have...?",
+        "translation": "Kan jeg få...?"
+      },
+      {
+        "phrase": "What can I get for you?",
+        "translation": "Hvad kan jeg hente til dig?"
+      },
+      {
+        "phrase": "Here you go.",
+        "translation": "Her har du."
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "to",
+        "pos": "prep",
+        "translation": "til, mod",
+        "note": "Angiver destination eller retning.",
+        "phonetic": "/tuː/"
+      },
+      {
+        "word": "one",
+        "pos": "det/pron",
+        "translation": "en, et",
+        "note": "Bruges til at referere til en billet, f.eks. 'one ticket'.",
+        "phonetic": "/wʌn/"
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "translation": "til, for",
+        "note": "Angiver formål eller modtager.",
+        "phonetic": "/fɔːr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "med",
+        "note": "Angiver selskab eller inklusion.",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "but",
+        "pos": "conj",
+        "translation": "men",
+        "note": "Kontrastforbindelse.",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "gå, tage",
+        "note": "Bevægelsesverb, meget almindelig.",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "want",
+        "pos": "verb",
+        "translation": "ville",
+        "note": "Bruges til at udtrykke ønsker.",
+        "phonetic": "/wɑːnt/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "nu",
+        "note": "Angiver nutid.",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "så, derefter",
+        "note": "Angiver tidssekvens.",
+        "phonetic": "/ðɛn/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "meget",
+        "note": "Forstærker adjektiver.",
+        "phonetic": "/ˈvɛri/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I want one ticket to London, please.",
+        "translation": "Jeg vil gerne have en billet til London, tak.",
+        "highlights": [
+          "want",
+          "one",
+          "to"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "For today, with the train now?",
+        "translation": "Til i dag, med toget nu?",
+        "highlights": [
+          "For",
+          "with",
+          "now"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, but very early, and then I go to work.",
+        "translation": "Ja, men meget tidligt, og så tager jeg på arbejde.",
+        "highlights": [
+          "but",
+          "very",
+          "then",
+          "go"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "OK, you have the train at six. That is good.",
+        "translation": "OK, du har toget klokken seks. Det er fint.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I want one ticket to",
+        "translation": "Jeg vil gerne have en billet til"
+      },
+      {
+        "phrase": "For today",
+        "translation": "Til i dag"
+      },
+      {
+        "phrase": "very early",
+        "translation": "meget tidligt"
+      },
+      {
+        "phrase": "go to work",
+        "translation": "tage på arbejde"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "have",
+        "note": "Bruges til at udtrykke besiddelse eller behov.",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "we",
+        "pos": "pron",
+        "translation": "vi",
+        "phonetic": "/wiː/"
+      },
+      {
+        "word": "your",
+        "pos": "det",
+        "translation": "din/deres",
+        "phonetic": "/jɔːr/"
+      },
+      {
+        "word": "room",
+        "pos": "noun",
+        "translation": "værelse",
+        "phonetic": "/ruːm/"
+      },
+      {
+        "word": "key",
+        "pos": "noun",
+        "translation": "nøgle",
+        "phonetic": "/kiː/"
+      },
+      {
+        "word": "floor",
+        "pos": "noun",
+        "translation": "gulv/etage",
+        "phonetic": "/flɔːr/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "behove",
+        "phonetic": "/niːd/"
+      },
+      {
+        "word": "help",
+        "pos": "noun",
+        "translation": "hjælp",
+        "phonetic": "/hɛlp/"
+      },
+      {
+        "word": "stay",
+        "pos": "verb",
+        "translation": "blive/bo",
+        "phonetic": "/steɪ/"
+      },
+      {
+        "word": "how",
+        "pos": "adv",
+        "translation": "hvordan",
+        "phonetic": "/haʊ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Good evening. Do you have a reservation?",
+        "translation": "God aften. Har I en reservation?",
+        "highlights": [
+          "have"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, we have a room for two nights.",
+        "translation": "Ja, vi har et værelse i to nætter.",
+        "highlights": [
+          "we",
+          "have",
+          "room"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here is your key. Your room is on the third floor.",
+        "translation": "Her er nøglen. Deres værelse er på tredje sal.",
+        "highlights": [
+          "your",
+          "key",
+          "room",
+          "floor"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Thank you. We need help with our bags.",
+        "translation": "Tak. Vi har brug for hjælp med vores tasker.",
+        "highlights": [
+          "need",
+          "help"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Of course. How long do you want to stay?",
+        "translation": "Selvfølgelig. Hvor længe vil I bo her?",
+        "highlights": [
+          "how",
+          "stay"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Do you have a reservation?",
+        "translation": "Har I en reservation?"
+      },
+      {
+        "phrase": "Here is your key.",
+        "translation": "Her er nøglen."
+      },
+      {
+        "phrase": "We need help.",
+        "translation": "Vi har brug for hjælp."
+      },
+      {
+        "phrase": "How long do you want to stay?",
+        "translation": "Hvor længe vil I bo her?"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "live",
+        "pos": "verb",
+        "translation": "bo",
+        "note": "Bruges til at tale om, hvor du bor.",
+        "phonetic": "/lɪv/"
+      },
+      {
+        "word": "house",
+        "pos": "noun",
+        "translation": "hus",
+        "note": "Bygning, hvor nogen bor.",
+        "phonetic": "/haʊs/"
+      },
+      {
+        "word": "new",
+        "pos": "adj",
+        "translation": "ny",
+        "note": "Modsat 'gammel'.",
+        "phonetic": "/nuː/"
+      },
+      {
+        "word": "just",
+        "pos": "adv",
+        "translation": "lige / præcis",
+        "note": "Angiver, at noget skete for nylig.",
+        "phonetic": "/dʒʌst/"
+      },
+      {
+        "word": "move",
+        "pos": "verb",
+        "translation": "flytte / bevæge",
+        "note": "I denne kontekst betyder 'move' at skifte bolig.",
+        "phonetic": "/muːv/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "dag",
+        "note": "En periode på 24 timer.",
+        "phonetic": "/deɪ/"
+      },
+      {
+        "word": "door",
+        "pos": "noun",
+        "translation": "dør",
+        "note": "Åbning til at komme ind eller ud.",
+        "phonetic": "/dɔːr/"
+      },
+      {
+        "word": "open",
+        "pos": "adj",
+        "translation": "åben",
+        "note": "Ikke lukket.",
+        "phonetic": "/ˈoʊpən/"
+      },
+      {
+        "word": "so",
+        "pos": "conj",
+        "translation": "så",
+        "note": "Forbinder, der angiver følge.",
+        "phonetic": "/soʊ/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "på / hos",
+        "note": "Bruges til at angive sted eller tid.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hi! I see you just moved into the house next door.",
+        "translation": "Hej! Jeg ser, at du lige er flyttet ind i huset ved siden af.",
+        "highlights": [
+          "just",
+          "moved",
+          "house"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I live here now. It is my new home.",
+        "translation": "Ja, jeg bor her nu. Det er mit nye hjem.",
+        "highlights": [
+          "live",
+          "new"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "That is great! So, do you need help with your things today?",
+        "translation": "Det er fantastisk! Har du brug for hjælp med dine ting i dag?",
+        "highlights": [
+          "So",
+          "day"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Maybe later. Oh, the door is open. Let me close it.",
+        "translation": "Måske senere. Oh, døren er åben. Lad mig lukke den.",
+        "highlights": [
+          "door",
+          "open"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "No problem. I am at home all morning. Come by any time.",
+        "translation": "Ingen problem. Jeg er hjemme hele formiddagen. Kom forbi når som helst.",
+        "highlights": [
+          "at"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I just moved in",
+        "translation": "Jeg er lige flyttet ind"
+      },
+      {
+        "phrase": "next door",
+        "translation": "ved siden af"
+      },
+      {
+        "phrase": "come by",
+        "translation": "kom forbi"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "time",
+        "pos": "noun",
+        "translation": "tid",
+        "note": "Bruges til at spørge efter tiden: 'What time is it?'",
+        "phonetic": "/taɪm/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "have",
+        "note": "I denne kontekst betyder 'Do you have the time?' = Har du tid?",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "tell",
+        "pos": "verb",
+        "translation": "sige",
+        "note": "I 'Can you tell me...' = Kan du sige mig...",
+        "phonetic": "/tɛl/"
+      },
+      {
+        "word": "know",
+        "pos": "verb",
+        "translation": "vide",
+        "note": "Bruges til at udtrykke uvidenhed: 'I don't know.'",
+        "phonetic": "/noʊ/"
+      },
+      {
+        "word": "sorry",
+        "pos": "adj",
+        "translation": "undskyld / jeg beklager",
+        "note": "Udtryk for undskyldning.",
+        "phonetic": "/ˈsɑri/"
+      },
+      {
+        "word": "late",
+        "pos": "adj",
+        "translation": "sent",
+        "note": "Bruges til at angive forsinkelse eller sen tid.",
+        "phonetic": "/leɪt/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "nu",
+        "note": "Angiver nutidsmomentet.",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "about",
+        "pos": "adv",
+        "translation": "omkring",
+        "note": "I 'about three' = omkring klokken tre.",
+        "phonetic": "/əˈbaʊt/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "så",
+        "note": "I 'see you then' = ses så.",
+        "phonetic": "/ðɛn/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "klokken",
+        "note": "Bruges til tider: 'at three' = klokken tre.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, do you have the time?",
+        "translation": "Undskyld, har du tiden?",
+        "highlights": [
+          "have",
+          "time"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sorry, I don't know. I don't have a watch.",
+        "translation": "Undskyld, jeg ved det ikke. Jeg har ikke et ur.",
+        "highlights": [
+          "sorry",
+          "know",
+          "have"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Oh, but can you tell me if it's late?",
+        "translation": "Åh, men kan du sige mig, om det er sent?",
+        "highlights": [
+          "tell",
+          "late"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I think it's about three now.",
+        "translation": "Jeg tror det er omkring klokken tre nu.",
+        "highlights": [
+          "about",
+          "now"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you! See you at three then.",
+        "translation": "Tak! Ses klokken tre så.",
+        "highlights": [
+          "at",
+          "then"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Do you have the time?",
+        "translation": "Har du tiden?"
+      },
+      {
+        "phrase": "I don't know.",
+        "translation": "Jeg ved det ikke."
+      },
+      {
+        "phrase": "See you at three.",
+        "translation": "Ses klokken tre."
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "feel",
+        "pos": "verb",
+        "translation": "sentirse",
+        "note": "Bruges til at tale om, hvordan du fysisk har det.",
+        "phonetic": "/fiːl/"
+      },
+      {
+        "word": "better",
+        "pos": "adj",
+        "translation": "mejor",
+        "note": "Sammenligningsform af 'good'.",
+        "phonetic": "/ˈbɛtər/"
+      },
+      {
+        "word": "all",
+        "pos": "det",
+        "translation": "todo / todos",
+        "note": "Bruges til at referere til helheden.",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "word": "some",
+        "pos": "det",
+        "translation": "algo de / algunos",
+        "note": "Bruges med både tællelige og utællelige substantiver.",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "word": "more",
+        "pos": "adv",
+        "translation": "más",
+        "note": "Sammenligningsform af 'much/many'.",
+        "phonetic": "/mɔːr/"
+      },
+      {
+        "word": "than",
+        "pos": "conj",
+        "translation": "que",
+        "note": "Bruges i sammenligninger.",
+        "phonetic": "/ðæn/"
+      },
+      {
+        "word": "should",
+        "pos": "verb",
+        "translation": "debería",
+        "note": "Modalverb til at give råd.",
+        "phonetic": "/ʃʊd/"
+      },
+      {
+        "word": "take",
+        "pos": "verb",
+        "translation": "tomar",
+        "note": "Bruges i forbindelse med medicin.",
+        "phonetic": "/teɪk/"
+      },
+      {
+        "word": "much",
+        "pos": "adv",
+        "translation": "mucho",
+        "note": "Bruges med utællelige substantiver.",
+        "phonetic": "/mʌtʃ/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "día",
+        "note": "Tidsenhed.",
+        "phonetic": "/deɪ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "How do you feel today?",
+        "translation": "Hvordan har du det i dag?",
+        "highlights": [
+          "feel"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Not better than yesterday. I have some pain here.",
+        "translation": "Ikke bedre end i går. Jeg har lidt smerter her.",
+        "highlights": [
+          "better",
+          "than",
+          "some"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "You should take this medicine. All is fine, but rest more.",
+        "translation": "Du burde tage denne medicin. Alt er fint, men hvile mere.",
+        "highlights": [
+          "should",
+          "take",
+          "all",
+          "more"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "How much do I take each day?",
+        "translation": "Hvor meget skal jeg tage hver dag?",
+        "highlights": [
+          "much",
+          "day"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "How do you feel?",
+        "translation": "Hvordan har du det?"
+      },
+      {
+        "phrase": "You should take this medicine.",
+        "translation": "Du burde tage denne medicin."
+      },
+      {
+        "phrase": "Rest more.",
+        "translation": "Hvile mere."
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "pay",
+        "pos": "verb",
+        "translation": "betale",
+        "note": "Regulart verb: pay - paid - paid",
+        "phonetic": "/peɪ/"
+      },
+      {
+        "word": "cash",
+        "pos": "noun",
+        "translation": "kontanter",
+        "note": "Penge i sedler og mønter",
+        "phonetic": "/kæʃ/"
+      },
+      {
+        "word": "card",
+        "pos": "noun",
+        "translation": "kort",
+        "note": "Kredit- eller debetkort",
+        "phonetic": "/kɑːrd/"
+      },
+      {
+        "word": "total",
+        "pos": "noun",
+        "translation": "total",
+        "note": "Den samlede beløb, der skal betales",
+        "phonetic": "/ˈtoʊ.təl/"
+      },
+      {
+        "word": "price",
+        "pos": "noun",
+        "translation": "pris",
+        "note": "Kostnad for et produkt",
+        "phonetic": "/praɪs/"
+      },
+      {
+        "word": "cost",
+        "pos": "verb",
+        "translation": "koste",
+        "note": "Uregelmæssigt verb: cost - cost - cost",
+        "phonetic": "/kɔːst/"
+      },
+      {
+        "word": "change",
+        "pos": "noun",
+        "translation": "byttepenge",
+        "note": "Penge, der returneres efter betaling",
+        "phonetic": "/tʃeɪndʒ/"
+      },
+      {
+        "word": "receipt",
+        "pos": "noun",
+        "translation": "kvittering",
+        "note": "Købsbevis",
+        "phonetic": "/rɪˈsiːt/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "her",
+        "note": "Angiver sted",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "out",
+        "pos": "prep/adv",
+        "translation": "uden for",
+        "note": "I 'out of' (af) – mængde af noget",
+        "phonetic": "/aʊt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "That is the total. The price is twenty dollars.",
+        "translation": "Det er det samlede beløb. Prisen er tyve dollar.",
+        "highlights": [
+          "total",
+          "price"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "OK. How much does it cost? Can I pay with a card?",
+        "translation": "OK. Hvad koster det? Kan jeg betale med kort?",
+        "highlights": [
+          "cost",
+          "pay",
+          "card"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Yes, here is the card machine. And here is your receipt.",
+        "translation": "Ja, her er kortlæseren. Og her er din kvittering.",
+        "highlights": [
+          "here",
+          "receipt"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Thank you. I am out of cash, so card is good.",
+        "translation": "Tak. Jeg er uden kontanter, så kort er fint.",
+        "highlights": [
+          "out",
+          "cash"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Here is your change. Have a nice day!",
+        "translation": "Her er dine byttepenge. Hav en god dag!",
+        "highlights": [
+          "change"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "How much does it cost?",
+        "translation": "Hvad koster det?"
+      },
+      {
+        "phrase": "pay with a card",
+        "translation": "betale med kort"
+      },
+      {
+        "phrase": "out of cash",
+        "translation": "uden kontanter"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "call",
+        "pos": "verb",
+        "translation": "ringe",
+        "note": "Brugt til at tale i telefonen.",
+        "phonetic": "/kɔːl/"
+      },
+      {
+        "word": "me",
+        "pos": "pron",
+        "translation": "mig",
+        "phonetic": "/miː/"
+      },
+      {
+        "word": "this",
+        "pos": "det",
+        "translation": "dette/denne",
+        "note": "Bruges til at pege på noget tæt på.",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "you",
+        "pos": "pron",
+        "translation": "dig",
+        "phonetic": "/juː/"
+      },
+      {
+        "word": "can",
+        "pos": "verb",
+        "translation": "kan",
+        "note": "Modalverb for evne eller mulighed.",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "see",
+        "pos": "verb",
+        "translation": "se",
+        "phonetic": "/siː/"
+      },
+      {
+        "word": "on",
+        "pos": "prep",
+        "translation": "på",
+        "phonetic": "/ɒn/"
+      },
+      {
+        "word": "today",
+        "pos": "adv",
+        "translation": "i dag",
+        "phonetic": "/təˈdeɪ/"
+      },
+      {
+        "word": "tomorrow",
+        "pos": "adv",
+        "translation": "i morgen",
+        "phonetic": "/təˈmɒroʊ/"
+      },
+      {
+        "word": "where",
+        "pos": "adv",
+        "translation": "hvor",
+        "phonetic": "/weər/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hi, this is me. Can you call me today?",
+        "translation": "Hej, det er mig. Kan du ringe til mig i dag?",
+        "highlights": [
+          "this",
+          "me",
+          "can",
+          "call",
+          "today"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I can call you now. Where are you?",
+        "translation": "Ja, jeg kan ringe til dig nu. Hvor er du?",
+        "highlights": [
+          "can",
+          "you",
+          "where"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I am at home. Can you see me tomorrow?",
+        "translation": "Jeg er hjemme. Kan du se mig i morgen?",
+        "highlights": [
+          "can",
+          "see",
+          "me",
+          "tomorrow"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I can see you tomorrow. Where do we meet?",
+        "translation": "Ja, jeg kan se dig i morgen. Hvor mødes vi?",
+        "highlights": [
+          "can",
+          "see",
+          "you",
+          "tomorrow",
+          "where"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Meet me on this street, near the park.",
+        "translation": "Mød mig på denne gade, tæt på parken.",
+        "highlights": [
+          "me",
+          "on",
+          "this"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "this is me",
+        "translation": "det er mig"
+      },
+      {
+        "phrase": "can you call me?",
+        "translation": "kan du ringe til mig?"
+      },
+      {
+        "phrase": "where are you?",
+        "translation": "hvor er du?"
+      },
+      {
+        "phrase": "can you see me tomorrow?",
+        "translation": "kan du se mig i morgen?"
+      },
+      {
+        "phrase": "meet me on this street",
+        "translation": "mød mig på denne gade"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "family",
+        "pos": "noun",
+        "translation": "familie",
+        "note": "Brugt til at referere til husstandens medlemmer eller slægtninge.",
+        "phonetic": "/ˈfæməli/"
+      },
+      {
+        "word": "mother",
+        "pos": "noun",
+        "translation": "mor",
+        "note": "Formelt for 'mamma'.",
+        "phonetic": "/ˈmʌðər/"
+      },
+      {
+        "word": "father",
+        "pos": "noun",
+        "translation": "far",
+        "note": "Formelt for 'papa'.",
+        "phonetic": "/ˈfɑːðər/"
+      },
+      {
+        "word": "sister",
+        "pos": "noun",
+        "translation": "søster",
+        "note": "Brugt for søster, uden at specificere ældre eller yngre.",
+        "phonetic": "/ˈsɪstər/"
+      },
+      {
+        "word": "brother",
+        "pos": "noun",
+        "translation": "bror",
+        "note": "Brugt for bror, uden at specificere ældre eller yngre.",
+        "phonetic": "/ˈbrʌðər/"
+      },
+      {
+        "word": "old",
+        "pos": "adj",
+        "translation": "gammel, ældre",
+        "note": "Beskriver alder eller levetid.",
+        "phonetic": "/oʊld/"
+      },
+      {
+        "word": "young",
+        "pos": "adj",
+        "translation": "ung",
+        "note": "Beskriver lille alder.",
+        "phonetic": "/jʌŋ/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "med",
+        "note": "Angiver selskab eller besiddelse.",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "meget",
+        "note": "Intensiverer adjektiver.",
+        "phonetic": "/ˈvɛri/"
+      },
+      {
+        "word": "and",
+        "pos": "conj",
+        "translation": "og",
+        "note": "Forbinder elementer.",
+        "phonetic": "/ænd/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Tell me about your family.",
+        "translation": "Fortæl mig om din familie.",
+        "highlights": [
+          "family"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I live with my mother, father, and two sisters. My brother is not at home.",
+        "translation": "Jeg bor med min mor, far og to søstre. Min bror er ikke hjemme.",
+        "highlights": [
+          "with",
+          "mother",
+          "father",
+          "and",
+          "sisters",
+          "brother"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is your father old or young?",
+        "translation": "Er din far gammel eller ung?",
+        "highlights": [
+          "father",
+          "old",
+          "young"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "He is not very old, but my mother is very young.",
+        "translation": "Han er ikke meget gammel, men min mor er meget ung.",
+        "highlights": [
+          "very",
+          "old",
+          "mother",
+          "very",
+          "young"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "And your sisters? Are they young too?",
+        "translation": "Og dine søstre? Er de også unge?",
+        "highlights": [
+          "And",
+          "sisters",
+          "young"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Tell me about your family",
+        "translation": "Fortæl mig om din familie"
+      },
+      {
+        "phrase": "live with my mother and father",
+        "translation": "bor med min mor og far"
+      },
+      {
+        "phrase": "old or young",
+        "translation": "gammel eller ung"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "gå",
+        "note": "Almindelig brug for at angive bevægelse.",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "left",
+        "pos": "adverb/noun",
+        "translation": "venstre",
+        "note": "Retning.",
+        "phonetic": "/lɛft/"
+      },
+      {
+        "word": "right",
+        "pos": "adverb/noun",
+        "translation": "højre",
+        "note": "Retning.",
+        "phonetic": "/raɪt/"
+      },
+      {
+        "word": "straight",
+        "pos": "adverb",
+        "translation": "ligeud",
+        "note": "Fortsæt uden at dreje.",
+        "phonetic": "/streɪt/"
+      },
+      {
+        "word": "turn",
+        "pos": "verb",
+        "translation": "dreje",
+        "note": "Skift retning.",
+        "phonetic": "/tɜrn/"
+      },
+      {
+        "word": "street",
+        "pos": "noun",
+        "translation": "gade",
+        "note": "Offentlig vej.",
+        "phonetic": "/strit/"
+      },
+      {
+        "word": "near",
+        "pos": "preposition",
+        "translation": "tæt på",
+        "note": "Angiver nærhed.",
+        "phonetic": "/nɪr/"
+      },
+      {
+        "word": "far",
+        "pos": "adverb/adjective",
+        "translation": "langt",
+        "note": "Angiver afstand.",
+        "phonetic": "/fɑr/"
+      },
+      {
+        "word": "next",
+        "pos": "adjective/adverb",
+        "translation": "næste",
+        "note": "Efter noget.",
+        "phonetic": "/nɛkst/"
+      },
+      {
+        "word": "from",
+        "pos": "preposition",
+        "translation": "fra",
+        "note": "Angiver oprindelse.",
+        "phonetic": "/frʌm/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, is the station far from here?",
+        "translation": "Undskyld, er stationen langt herfra?",
+        "highlights": [
+          "far",
+          "from"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "No, it's near. Go straight and turn left at the next street.",
+        "translation": "Nej, den er tæt på. Gå ligeud og drej til venstre ved næste gade.",
+        "highlights": [
+          "near",
+          "Go",
+          "straight",
+          "turn",
+          "left",
+          "next",
+          "street"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Go straight and turn left? Is that right?",
+        "translation": "Gå ligeud og drej til venstre? Er det rigtigt?",
+        "highlights": [
+          "Go",
+          "straight",
+          "turn",
+          "left",
+          "right"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, that's right. Then go straight again. The station is on your right.",
+        "translation": "Ja, det er rigtigt. Så gå ligeud igen. Stationen er på din højre hånd.",
+        "highlights": [
+          "right",
+          "go",
+          "straight",
+          "right"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Go straight",
+        "translation": "Gå ligeud"
+      },
+      {
+        "phrase": "Turn left",
+        "translation": "Drej til venstre"
+      },
+      {
+        "phrase": "Turn right",
+        "translation": "Drej til højre"
+      },
+      {
+        "phrase": "Is it far?",
+        "translation": "Er det langt?"
+      },
+      {
+        "phrase": "Is it near?",
+        "translation": "Er det tæt på?"
+      },
+      {
+        "phrase": "On your right",
+        "translation": "På din højre hånd"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "stop",
+        "pos": "noun",
+        "translation": "stop",
+        "note": "Bruges til at referere til busstoppestedet.",
+        "phonetic": "/stɑp/"
+      },
+      {
+        "word": "get",
+        "pos": "verb",
+        "translation": "stige af / få",
+        "note": "I denne kontekst betyder 'get off' at stige af.",
+        "phonetic": "/ɡɛt/"
+      },
+      {
+        "word": "off",
+        "pos": "adv",
+        "translation": "af / fra",
+        "note": "Del af phrasal verbet 'get off' (stige af).",
+        "phonetic": "/ɔf/"
+      },
+      {
+        "word": "how",
+        "pos": "adv",
+        "translation": "hvordan",
+        "note": "Bruges til at spørge om måden at gøre noget på.",
+        "phonetic": "/haʊ/"
+      },
+      {
+        "word": "which",
+        "pos": "pron",
+        "translation": "hvilken / hvad",
+        "note": "Bruges til at spørge om en valgmulighed blandt flere.",
+        "phonetic": "/wɪtʃ/"
+      },
+      {
+        "word": "help",
+        "pos": "verb",
+        "translation": "hjælpe",
+        "note": "Meget almindeligt verb til at bede om bistand.",
+        "phonetic": "/hɛlp/"
+      },
+      {
+        "word": "please",
+        "pos": "adv",
+        "translation": "vær så venlig",
+        "note": "Essentielt høflighedsudtryk i anmodninger.",
+        "phonetic": "/pliz/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "behove",
+        "note": "Utrykker behov eller krav.",
+        "phonetic": "/nid/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "her",
+        "note": "Angiver sted tæt på taleren.",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "down",
+        "pos": "adv",
+        "translation": "ned / mod ned",
+        "note": "Bruges med 'down' for at angive retning.",
+        "phonetic": "/daʊn/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Excuse me, can you help me? I need to get off at the next stop.",
+        "translation": "Undskyld, kan du hjælpe mig? Jeg skal stige af ved næste stop.",
+        "highlights": [
+          "help",
+          "need",
+          "get",
+          "off",
+          "stop"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Sure. Which stop do you want? This is the next stop.",
+        "translation": "Selvfølgelig. Hvilket stop vil du af? Dette er næste stop.",
+        "highlights": [
+          "which",
+          "stop",
+          "this"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I want the stop near the hospital. How many stops from here?",
+        "translation": "Jeg vil have stoppet ved hospitalet. Hvor mange stop fra her?",
+        "highlights": [
+          "stop",
+          "how",
+          "here"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It's three stops down. Please sit down, I will tell you.",
+        "translation": "Det er tre stop længere nede. Vær så venlig at sætte dig, jeg vil fortælle dig.",
+        "highlights": [
+          "down",
+          "please"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get off at the next stop",
+        "translation": "stige af ved næste stop"
+      },
+      {
+        "phrase": "How many stops from here?",
+        "translation": "Hvor mange stop fra her?"
+      },
+      {
+        "phrase": "Please sit down",
+        "translation": "Vær så venlig at sætte dig"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "work",
+        "pos": "noun",
+        "translation": "arbejde",
+        "note": "Bruges til at referere til arbejdspladsen eller arbejdsaktiviteten.",
+        "phonetic": "/wɜːrk/"
+      },
+      {
+        "word": "new",
+        "pos": "adj",
+        "translation": "ny",
+        "note": "Bruges til at præsentere en person, der er nytilkommen.",
+        "phonetic": "/njuː/"
+      },
+      {
+        "word": "name",
+        "pos": "noun",
+        "translation": "navn",
+        "phonetic": "/neɪm/"
+      },
+      {
+        "word": "meet",
+        "pos": "verb",
+        "translation": "møde, lære at kende",
+        "note": "I denne kontekst betyder 'meet' at møde eller lære at kende for første gang.",
+        "phonetic": "/miːt/"
+      },
+      {
+        "word": "our",
+        "pos": "det",
+        "translation": "vores",
+        "phonetic": "/aʊər/"
+      },
+      {
+        "word": "she",
+        "pos": "pron",
+        "translation": "hun",
+        "phonetic": "/ʃiː/"
+      },
+      {
+        "word": "he",
+        "pos": "pron",
+        "translation": "han",
+        "phonetic": "/hiː/"
+      },
+      {
+        "word": "good",
+        "pos": "adj",
+        "translation": "god",
+        "note": "Bruges til at udtrykke godkendelse eller tilfredshed.",
+        "phonetic": "/ɡʊd/"
+      },
+      {
+        "word": "want",
+        "pos": "verb",
+        "translation": "ville",
+        "phonetic": "/wɒnt/"
+      },
+      {
+        "word": "what",
+        "pos": "pron",
+        "translation": "hvad",
+        "note": "Bruges til at spørge om information.",
+        "phonetic": "/wɒt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello, this is our new colleague. Her name is Ana.",
+        "translation": "Hej, det her er vores nye kollega. Hendes navn er Ana.",
+        "highlights": [
+          "our",
+          "new",
+          "name"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Nice to meet you, Ana. What do you do here?",
+        "translation": "Rart at møde dig, Ana. Hvad laver du her?",
+        "highlights": [
+          "meet",
+          "what"
+        ]
+      },
+      {
+        "speaker": "C",
+        "text": "She works in our team. He is her manager.",
+        "translation": "Hun arbejder i vores team. Han er hendes chef.",
+        "highlights": [
+          "she",
+          "he"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Good! I want to work with you.",
+        "translation": "Godt! Jeg vil gerne arbejde sammen med dig.",
+        "highlights": [
+          "good",
+          "want",
+          "work"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Nice to meet you",
+        "translation": "Rart at møde dig"
+      },
+      {
+        "phrase": "our new colleague",
+        "translation": "vores nye kollega"
+      },
+      {
+        "phrase": "What do you do?",
+        "translation": "Hvad laver du?"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "leave",
+        "pos": "verb",
+        "translation": "efterlade",
+        "note": "Brugt til 'at efterlade en besked'.",
+        "phonetic": "/liːv/"
+      },
+      {
+        "word": "message",
+        "pos": "noun",
+        "translation": "besked",
+        "note": "Almindelig i kommunikationssammenhænge.",
+        "phonetic": "/ˈmɛsɪdʒ/"
+      },
+      {
+        "word": "after",
+        "pos": "prep",
+        "translation": "efter",
+        "note": "Angiver efterfølgende tid.",
+        "phonetic": "/ˈæftər/"
+      },
+      {
+        "word": "beep",
+        "pos": "noun",
+        "translation": "bip",
+        "note": "Lyd der angiver, at du kan tale.",
+        "phonetic": "/biːp/"
+      },
+      {
+        "word": "call",
+        "pos": "verb",
+        "translation": "ringe",
+        "note": "Meget hypigt verb for at ringe.",
+        "phonetic": "/kɔːl/"
+      },
+      {
+        "word": "back",
+        "pos": "adverb",
+        "translation": "tilbage",
+        "note": "I 'call back' = ring tilbage.",
+        "phonetic": "/bæk/"
+      },
+      {
+        "word": "your",
+        "pos": "det",
+        "translation": "din, jeres",
+        "note": "Almindelig besiddelsesform.",
+        "phonetic": "/jɔːr/"
+      },
+      {
+        "word": "number",
+        "pos": "noun",
+        "translation": "nummer",
+        "note": "Henviser til telefonnummer.",
+        "phonetic": "/ˈnʌmbər/"
+      },
+      {
+        "word": "soon",
+        "pos": "adverb",
+        "translation": "snart",
+        "note": "Angiver nærhed i tid.",
+        "phonetic": "/suːn/"
+      },
+      {
+        "word": "thank",
+        "pos": "verb",
+        "translation": "takke",
+        "note": "I 'thank you' = tak.",
+        "phonetic": "/θæŋk/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hello, this is Ana. Please leave a message after the beep.",
+        "translation": "Hej, det er Ana. Efterlad venligst en besked efter bippen.",
+        "highlights": [
+          "leave",
+          "message",
+          "after",
+          "beep"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hi Ana, this is Luis. Please call me back soon.",
+        "translation": "Hej Ana, det er Luis. Ring venligst tilbage snart.",
+        "highlights": [
+          "call",
+          "back",
+          "soon"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Okay, Luis. What is your number?",
+        "translation": "Okay, Luis. Hvad er dit nummer?",
+        "highlights": [
+          "your",
+          "number"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "It is 555-1234. Thank you!",
+        "translation": "Det er 555-1234. Tak!",
+        "highlights": [
+          "thank"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "leave a message",
+        "translation": "efterlade en besked"
+      },
+      {
+        "phrase": "call back",
+        "translation": "ring tilbage"
+      },
+      {
+        "phrase": "after the beep",
+        "translation": "efter bippen"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "send",
+        "pos": "verb",
+        "translation": "sende",
+        "note": "Regulart verb: send - sent - sent",
+        "phonetic": "/sɛnd/"
+      },
+      {
+        "word": "package",
+        "pos": "noun",
+        "translation": "pakke",
+        "note": "Synonym for 'parcel'",
+        "phonetic": "/ˈpækɪdʒ/"
+      },
+      {
+        "word": "to",
+        "pos": "prep",
+        "translation": "til",
+        "note": "Angiver destination eller retning",
+        "phonetic": "/tuː/"
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "translation": "til, for",
+        "note": "Angiver formål eller modtager",
+        "phonetic": "/fɔːr/"
+      },
+      {
+        "word": "it",
+        "pos": "pron",
+        "translation": "det",
+        "note": "Objektpronomen",
+        "phonetic": "/ɪt/"
+      },
+      {
+        "word": "we",
+        "pos": "pron",
+        "translation": "vi",
+        "phonetic": "/wiː/"
+      },
+      {
+        "word": "have",
+        "pos": "verb",
+        "translation": "har, have",
+        "note": "I denne sammenhæng bruges 'have' som hjælpeverb i nutid perfekt",
+        "phonetic": "/hæv/"
+      },
+      {
+        "word": "this",
+        "pos": "det",
+        "translation": "dette",
+        "phonetic": "/ðɪs/"
+      },
+      {
+        "word": "all",
+        "pos": "adj",
+        "translation": "alt, alle",
+        "phonetic": "/ɔːl/"
+      },
+      {
+        "word": "at",
+        "pos": "prep",
+        "translation": "på, ved",
+        "note": "Angiver sted eller punkt",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I want to send this package to my friend.",
+        "translation": "Jeg vil gerne sende denne pakke til min ven.",
+        "highlights": [
+          "send",
+          "to",
+          "this",
+          "package"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "We have it at the counter. Please fill out this form for the package.",
+        "translation": "Vi har det ved disken. Udfyld venligst denne formular for pakken.",
+        "highlights": [
+          "We",
+          "have",
+          "it",
+          "at",
+          "for",
+          "package"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Is this all for the package?",
+        "translation": "Er det alt for pakken?",
+        "highlights": [
+          "this",
+          "all",
+          "for",
+          "package"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, we have all we need. You can send it now.",
+        "translation": "Ja, vi har alt, hvad vi har brug for. Du kan sende den nu.",
+        "highlights": [
+          "we",
+          "have",
+          "all",
+          "send",
+          "it"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Thank you.",
+        "translation": "Tak.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "send a package",
+        "translation": "sende en pakke"
+      },
+      {
+        "phrase": "fill out this form",
+        "translation": "udfyld denne formular"
+      },
+      {
+        "phrase": "at the counter",
+        "translation": "ved disken"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "get up",
+        "pos": "verb",
+        "translation": "stå op",
+        "note": "Frasal verb, der betyder 'at stå op af sengen'.",
+        "phonetic": "/ɡet ˈʌp/"
+      },
+      {
+        "word": "morning",
+        "pos": "noun",
+        "translation": "morgen",
+        "note": "Tidsrummet fra kl. 6 til 12.",
+        "phonetic": "/ˈmɔːrnɪŋ/"
+      },
+      {
+        "word": "then",
+        "pos": "adv",
+        "translation": "så / derefter",
+        "note": "Brugt til at sætte handlinger i rækkefølge.",
+        "phonetic": "/ðen/"
+      },
+      {
+        "word": "breakfast",
+        "pos": "noun",
+        "translation": "morgenmad",
+        "note": "Dagens første måltid.",
+        "phonetic": "/ˈbrekfəst/"
+      },
+      {
+        "word": "work",
+        "pos": "verb",
+        "translation": "arbejde",
+        "note": "Her brugt som verb, ikke som substantiv.",
+        "phonetic": "/wɜːrk/"
+      },
+      {
+        "word": "home",
+        "pos": "noun",
+        "translation": "hjem",
+        "note": "Brugt med 'at home'.",
+        "phonetic": "/hoʊm/"
+      },
+      {
+        "word": "evening",
+        "pos": "noun",
+        "translation": "aften",
+        "note": "Cirka fra kl. 18 til 22.",
+        "phonetic": "/ˈiːvnɪŋ/"
+      },
+      {
+        "word": "watch",
+        "pos": "verb",
+        "translation": "se",
+        "note": "Brugt i forbindelse med fjernsyn eller noget visuelt.",
+        "phonetic": "/wɑːtʃ/"
+      },
+      {
+        "word": "because",
+        "pos": "conj",
+        "translation": "fordi",
+        "note": "Forbinder årsag og virkning.",
+        "phonetic": "/bɪˈkɔːz/"
+      },
+      {
+        "word": "sleep",
+        "pos": "verb",
+        "translation": "sove",
+        "note": "Uregelmæssigt verb: sleep, slept, slept.",
+        "phonetic": "/sliːp/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I get up at seven in the morning.",
+        "translation": "Jeg står op kl. syv om morgenen.",
+        "highlights": [
+          "get up",
+          "morning"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Then I have breakfast and go to work.",
+        "translation": "Derefter spiser jeg morgenmad og går på arbejde.",
+        "highlights": [
+          "Then",
+          "breakfast",
+          "work"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "I work at home in the evening.",
+        "translation": "Jeg arbejder hjemme om aftenen.",
+        "highlights": [
+          "work",
+          "home",
+          "evening"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I watch TV because I like it.",
+        "translation": "Jeg ser fjernsyn, fordi jeg kan lide det.",
+        "highlights": [
+          "watch",
+          "because"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Then I sleep at ten.",
+        "translation": "Derefter lægger jeg mig at sove kl. 22.",
+        "highlights": [
+          "sleep"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "get up at seven",
+        "translation": "stå op kl. syv"
+      },
+      {
+        "phrase": "in the morning",
+        "translation": "om morgenen"
+      },
+      {
+        "phrase": "have breakfast",
+        "translation": "spise morgenmad"
+      },
+      {
+        "phrase": "go to work",
+        "translation": "gå på arbejde"
+      },
+      {
+        "phrase": "at home",
+        "translation": "hjemme"
+      },
+      {
+        "phrase": "in the evening",
+        "translation": "om aftenen"
+      },
+      {
+        "phrase": "watch TV",
+        "translation": "se fjernsyn"
+      },
+      {
+        "phrase": "because I like it",
+        "translation": "fordi jeg kan lide det"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "open",
+        "pos": "adjective",
+        "translation": "åben",
+        "note": "Brugt til at beskrive, at et sted er tilgængeligt for offentligheden.",
+        "phonetic": "/ˈoʊ.pən/"
+      },
+      {
+        "word": "close",
+        "pos": "verb",
+        "translation": "lukke",
+        "note": "Angiver handlingen med at lukke, her brugt i nutid.",
+        "phonetic": "/kloʊz/"
+      },
+      {
+        "word": "time",
+        "pos": "noun",
+        "translation": "tid",
+        "note": "I dette sammenhæng henviser det til uretid.",
+        "phonetic": "/taɪm/"
+      },
+      {
+        "word": "day",
+        "pos": "noun",
+        "translation": "dag",
+        "note": "Henviser til ugens dage.",
+        "phonetic": "/deɪ/"
+      },
+      {
+        "word": "today",
+        "pos": "adverb",
+        "translation": "i dag",
+        "note": "Angiver den nuværende dag.",
+        "phonetic": "/təˈdeɪ/"
+      },
+      {
+        "word": "can",
+        "pos": "modal verb",
+        "translation": "kan",
+        "note": "Brugt til at udtrykke mulighed eller evne.",
+        "phonetic": "/kæn/"
+      },
+      {
+        "word": "on",
+        "pos": "preposition",
+        "translation": "på, den (dag)",
+        "note": "Brugt foran ugens dage.",
+        "phonetic": "/ɑːn/"
+      },
+      {
+        "word": "until",
+        "pos": "preposition",
+        "translation": "indtil",
+        "note": "Angiver tidsgrænsen.",
+        "phonetic": "/ənˈtɪl/"
+      },
+      {
+        "word": "but",
+        "pos": "conjunction",
+        "translation": "men",
+        "note": "Brugt til at kontrastere information.",
+        "phonetic": "/bʌt/"
+      },
+      {
+        "word": "at",
+        "pos": "preposition",
+        "translation": "klokken",
+        "note": "Brugt foran specifikke tidspunkter.",
+        "phonetic": "/æt/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Can you tell me the open time today?",
+        "translation": "Kan du fortælle mig åbningstiden i dag?",
+        "highlights": [
+          "Can",
+          "open",
+          "time",
+          "today"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "We open at nine, but we close at five.",
+        "translation": "Vi åbner klokken ni, men vi lukker klokken fem.",
+        "highlights": [
+          "open",
+          "at",
+          "but",
+          "close"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "And on Saturday, until what time are you open?",
+        "translation": "Og på lørdag, indtil hvilken tid er I åbne?",
+        "highlights": [
+          "on",
+          "until",
+          "time",
+          "open"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "On Saturday, we close at one.",
+        "translation": "På lørdag lukker vi klokken én.",
+        "highlights": [
+          "on",
+          "close",
+          "at"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "open time",
+        "translation": "åbningstid"
+      },
+      {
+        "phrase": "close at",
+        "translation": "lukke klokken"
+      },
+      {
+        "phrase": "until what time",
+        "translation": "indtil hvilken tid"
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "like",
+        "pos": "verb",
+        "translation": "synes om",
+        "note": "Bruges til at udtrykke præference.",
+        "phonetic": "/laɪk/"
+      },
+      {
+        "word": "eat",
+        "pos": "verb",
+        "translation": "spise",
+        "phonetic": "/iːt/"
+      },
+      {
+        "word": "fish",
+        "pos": "noun",
+        "translation": "fisk",
+        "phonetic": "/fɪʃ/"
+      },
+      {
+        "word": "or",
+        "pos": "conj",
+        "translation": "eller",
+        "phonetic": "/ɔːr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "med",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "rice",
+        "pos": "noun",
+        "translation": "ris",
+        "phonetic": "/raɪs/"
+      },
+      {
+        "word": "some",
+        "pos": "det",
+        "translation": "nogle",
+        "phonetic": "/sʌm/"
+      },
+      {
+        "word": "very",
+        "pos": "adv",
+        "translation": "meget",
+        "phonetic": "/ˈveri/"
+      },
+      {
+        "word": "good",
+        "pos": "adj",
+        "translation": "god",
+        "phonetic": "/ɡʊd/"
+      },
+      {
+        "word": "try",
+        "pos": "verb",
+        "translation": "prøve",
+        "phonetic": "/traɪ/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "What do you like to eat?",
+        "translation": "Hvad kan du lide at spise?",
+        "highlights": [
+          "like",
+          "eat"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "I like fish or chicken with rice.",
+        "translation": "Jeg kan lide fisk eller kylling med ris.",
+        "highlights": [
+          "like",
+          "fish",
+          "or",
+          "with",
+          "rice"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "The fish is very good here.",
+        "translation": "Fisken er meget god her.",
+        "highlights": [
+          "fish",
+          "very",
+          "good"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Then I try some fish, please.",
+        "translation": "Så prøver jeg nogle fisk, tak.",
+        "highlights": [
+          "try",
+          "some",
+          "fish"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "What do you like to eat?",
+        "translation": "Hvad kan du lide at spise?"
+      },
+      {
+        "phrase": "The fish is very good here.",
+        "translation": "Fisken er meget god her."
+      },
+      {
+        "phrase": "I try some fish.",
+        "translation": "Jeg prøver nogle fisk."
+      }
+    ]
+  },
+  {
+    "id": "da_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of English",
+    "vocabulary": [
+      {
+        "word": "money",
+        "pos": "noun",
+        "translation": "dinero",
+        "note": "Udtælligt substantiv på engelsk: 'money' har ikke flertal.",
+        "phonetic": "/ˈmʌni/"
+      },
+      {
+        "word": "need",
+        "pos": "verb",
+        "translation": "necesitar",
+        "phonetic": "/niːd/"
+      },
+      {
+        "word": "here",
+        "pos": "adv",
+        "translation": "aquí",
+        "phonetic": "/hɪr/"
+      },
+      {
+        "word": "go",
+        "pos": "verb",
+        "translation": "ir",
+        "phonetic": "/ɡoʊ/"
+      },
+      {
+        "word": "give",
+        "pos": "verb",
+        "translation": "dar",
+        "phonetic": "/ɡɪv/"
+      },
+      {
+        "word": "more",
+        "pos": "det/adv",
+        "translation": "más",
+        "note": "Kan være determinans ('more money') eller adverb ('more quickly').",
+        "phonetic": "/mɔːr/"
+      },
+      {
+        "word": "now",
+        "pos": "adv",
+        "translation": "ahora",
+        "phonetic": "/naʊ/"
+      },
+      {
+        "word": "there",
+        "pos": "adv",
+        "translation": "allí",
+        "phonetic": "/ðɛr/"
+      },
+      {
+        "word": "with",
+        "pos": "prep",
+        "translation": "con",
+        "phonetic": "/wɪð/"
+      },
+      {
+        "word": "will",
+        "pos": "verb (modal)",
+        "translation": "will (futuro: 'haré', 'será')",
+        "note": "Bruges til at danne den simple fremtid.",
+        "phonetic": "/wɪl/"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "I need money now.",
+        "translation": "Jeg har brug for penge nu.",
+        "highlights": [
+          "need",
+          "money",
+          "now"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Here is your card. Go there with your ID.",
+        "translation": "Her er dit kort. Gå derhen med dit ID.",
+        "highlights": [
+          "Here",
+          "Go",
+          "there",
+          "with"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Will you give me more cash?",
+        "translation": "Vil du give mig flere kontanter?",
+        "highlights": [
+          "Will",
+          "give",
+          "more"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Yes, I will give you the money now. Go there.",
+        "translation": "Ja, jeg vil give dig pengene nu. Gå derhen.",
+        "highlights": [
+          "will",
+          "give",
+          "money",
+          "now",
+          "Go",
+          "there"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "I need money",
+        "translation": "Jeg har brug for penge"
+      },
+      {
+        "phrase": "Go there",
+        "translation": "Gå derhen"
+      },
+      {
+        "phrase": "give me more",
+        "translation": "giv mig mere"
+      },
+      {
+        "phrase": "here is your card",
+        "translation": "her er dit kort"
+      }
+    ]
+  }
+]

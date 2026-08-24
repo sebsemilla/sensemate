@@ -16112,3 +16112,54 @@ body.dark-mode .tut-text { color: #94a3b8; }
   line-height: 1.3;
 }
 /* ============ ACORDEÓN CONTENIDOS — fin ============ */
+
+/* ============ PROMOTORES ============ */
+.promotor-panel { padding: 1rem; max-width: 900px; margin: 0 auto; }
+.promotor-content { margin-top: 1rem; }
+
+.promotor-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.promotor-stat-card {
+  background: var(--card-bg, #fff);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  text-align: center;
+}
+.promotor-stat-card.highlight { border-color: #2d6a4f; background: #f0fdf4; }
+.promotor-stat-label { font-size: .75rem; color: var(--text-secondary); margin-bottom: .5rem; text-transform: uppercase; letter-spacing: .05em; }
+.promotor-stat-value { font-size: 1.8rem; font-weight: 700; color: var(--text-primary, #1e293b); }
+.promotor-stat-sub { font-size: .78rem; color: var(--text-secondary); margin-top: .4rem; }
+.promotor-code { font-family: monospace; font-size: 1.4rem; letter-spacing: .1em; color: #2d6a4f; }
+.green { color: #15803d; }
+
+.promotor-section { margin-bottom: 2rem; }
+.promotor-section-title { font-size: 1rem; font-weight: 600; margin-bottom: .75rem; color: var(--text-primary, #1e293b); border-bottom: 1px solid var(--border); padding-bottom: .4rem; }
+
+.promotor-table { width: 100%; border-collapse: collapse; font-size: .85rem; }
+.promotor-table th { text-align: left; padding: .4rem .6rem; color: var(--text-secondary); font-weight: 600; border-bottom: 2px solid var(--border); }
+.promotor-table td { padding: .4rem .6rem; border-bottom: 1px solid var(--border); }
+
+/* Admin promotores */
+.promotor-admin-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.promotor-admin-card { background: var(--card-bg, #fff); border: 1px solid var(--border); border-radius: .75rem; padding: 1rem; }
+.promotor-admin-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: .35rem; }
+.promotor-admin-card-meta { font-size: .8rem; color: var(--text-secondary); margin-bottom: .5rem; }
+.promotor-code-badge { background: #dcfce7; color: #15803d; border-radius: .4rem; padding: .1rem .5rem; font-size: .78rem; font-family: monospace; font-weight: 700; }
+.promotor-admin-stats { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: .6rem; }
+.promotor-admin-stats span { background: var(--bg-secondary, #f1f5f9); border-radius: .4rem; padding: .15rem .5rem; font-size: .75rem; color: var(--text-secondary); }
+.promotor-admin-pending { font-size: .85rem; margin-bottom: .5rem; }
+.promotor-last-payout { display: block; font-size: .75rem; color: var(--text-muted); }
+.promotor-pay-btn { width: 100%; margin-bottom: .4rem; background: #2d6a4f; color: #fff; border: none; border-radius: .5rem; padding: .5rem; cursor: pointer; font-size: .85rem; }
+.promotor-pay-btn:hover { background: #1b4332; }
+.promotor-detail-btn { width: 100%; background: transparent; border: 1px solid var(--border); border-radius: .5rem; padding: .4rem; cursor: pointer; font-size: .82rem; color: var(--text-secondary); }
+.promotor-detail-btn:hover { background: var(--bg-secondary, #f1f5f9); }
+.promotor-create-form { background: var(--bg-secondary, #f1f5f9); border-radius: .75rem; padding: 1rem; }
+.promotor-form-row { display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+.admin-modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,.5); z-index: 9999; display: flex; align-items: center; justify-content: center; padding: 1rem; }
+.admin-modal { background: var(--card-bg, #fff); border-radius: 1rem; padding: 1.5rem; width: 100%; box-shadow: 0 8px 32px rgba(0,0,0,.15); }
+/* ============ PROMOTORES — fin ============ */

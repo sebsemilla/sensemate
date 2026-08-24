@@ -1,0 +1,2831 @@
+[
+  {
+    "id": "en_A1_vctx_01",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Greeting someone for the first time",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "være",
+        "pos": "verb",
+        "phonetic": "/ˈvɛrə/",
+        "translation": "to be",
+        "note": "Present tense form: er"
+      },
+      {
+        "word": "jeg",
+        "pos": "pron",
+        "phonetic": "/jeɪ/",
+        "translation": "I",
+        "note": "Subject pronoun"
+      },
+      {
+        "word": "og",
+        "pos": "conj",
+        "phonetic": "/ɔɡ/",
+        "translation": "and",
+        "note": "Connector"
+      },
+      {
+        "word": "du",
+        "pos": "pron",
+        "phonetic": "/duː/",
+        "translation": "you",
+        "note": "Subject pronoun"
+      },
+      {
+        "word": "i",
+        "pos": "prep",
+        "phonetic": "/iː/",
+        "translation": "in",
+        "note": "Preposition"
+      },
+      {
+        "word": "på",
+        "pos": "prep",
+        "phonetic": "/pɔ/",
+        "translation": "on",
+        "note": "Preposition"
+      },
+      {
+        "word": "ny",
+        "pos": "adj",
+        "phonetic": "/nyː/",
+        "translation": "new",
+        "note": "Describes something recently acquired or created"
+      },
+      {
+        "word": "her",
+        "pos": "adv",
+        "phonetic": "/hɛr/",
+        "translation": "here",
+        "note": "Indicates location"
+      },
+      {
+        "word": "ha",
+        "pos": "verb",
+        "phonetic": "/hɑ/",
+        "translation": "to have",
+        "note": "Present tense form: har"
+      },
+      {
+        "word": "det",
+        "pos": "pron",
+        "phonetic": "/dɛt/",
+        "translation": "it",
+        "note": "Subject pronoun"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, er du ny her?",
+        "translation": "Hi, are you new here?",
+        "highlights": [
+          "er",
+          "du",
+          "ny",
+          "her"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, jeg er ny i byen. Og du?",
+        "translation": "Yes, I am new in the city. And you?",
+        "highlights": [
+          "jeg",
+          "er",
+          "ny",
+          "i",
+          "og",
+          "du"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg har bodd her på en stund. Velkommen!",
+        "translation": "I have lived here for a while. Welcome!",
+        "highlights": [
+          "jeg",
+          "har",
+          "her",
+          "på"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Takk! Det er hyggelig.",
+        "translation": "Thanks! It is nice.",
+        "highlights": [
+          "det",
+          "er"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Er du ny her?",
+        "translation": "Are you new here?"
+      },
+      {
+        "phrase": "Jeg har bodd her på en stund.",
+        "translation": "I have lived here for a while."
+      },
+      {
+        "phrase": "Velkommen!",
+        "translation": "Welcome!"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_03",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking where something is in a store",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "finne",
+        "pos": "verb",
+        "phonetic": "/ˈfɪnːə/",
+        "translation": "to find",
+        "note": "Used to express the action of locating something."
+      },
+      {
+        "word": "hjelp",
+        "pos": "noun",
+        "phonetic": "/jeːlp/",
+        "translation": "help",
+        "note": "Used to ask for assistance."
+      },
+      {
+        "word": "søke",
+        "pos": "verb",
+        "phonetic": "/ˈsøːkə/",
+        "translation": "to look for",
+        "note": "Used to describe the action of searching."
+      },
+      {
+        "word": "nå",
+        "pos": "adv",
+        "phonetic": "/noː/",
+        "translation": "now",
+        "note": "Used to indicate the present moment."
+      },
+      {
+        "word": "måte",
+        "pos": "noun",
+        "phonetic": "/ˈmoːtə/",
+        "translation": "way",
+        "note": "Used to describe a method or direction."
+      },
+      {
+        "word": "se",
+        "pos": "verb",
+        "phonetic": "/seː/",
+        "translation": "to see",
+        "note": "Used to describe the action of looking."
+      },
+      {
+        "word": "likevel",
+        "pos": "adv",
+        "phonetic": "/ˈliːkəvel/",
+        "translation": "still",
+        "note": "Used to emphasize a point despite something else."
+      },
+      {
+        "word": "siden",
+        "pos": "prep",
+        "phonetic": "/ˈsiːdən/",
+        "translation": "since",
+        "note": "Used to indicate a starting point in time."
+      },
+      {
+        "word": "endre",
+        "pos": "verb",
+        "phonetic": "/ˈɛndrə/",
+        "translation": "to change",
+        "note": "Used to describe altering something."
+      },
+      {
+        "word": "samt",
+        "pos": "conj",
+        "phonetic": "/sɑmt/",
+        "translation": "also",
+        "note": "Used to add information."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Unnskyld, kan du hjelpe meg? Jeg prøver å finne kaffen.",
+        "translation": "Excuse me, can you help me? I’m trying to find the coffee.",
+        "highlights": [
+          "hjelpe",
+          "finne"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Selvfølgelig! Jeg kan søke etter den nå. Har du sett den i nærheten?",
+        "translation": "Of course! I can look for it now. Have you seen it nearby?",
+        "highlights": [
+          "søke",
+          "nå",
+          "sett"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Nei, jeg har ikke sett den. Kan du vise meg måten til hyllen?",
+        "translation": "No, I haven’t seen it. Can you show me the way to the shelf?",
+        "highlights": [
+          "sett",
+          "måten"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, den er likevel der borte. Følg meg, siden jeg skal dit samt.",
+        "translation": "Yes, it’s still over there. Follow me, since I’m going there also.",
+        "highlights": [
+          "likevel",
+          "siden",
+          "samt"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk skal du ha! Jeg må endre min handleliste etter dette.",
+        "translation": "Thank you! I need to change my shopping list after this.",
+        "highlights": [
+          "endre"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "kan du hjelpe meg?",
+        "translation": "can you help me?"
+      },
+      {
+        "phrase": "jeg kan søke etter den nå",
+        "translation": "I can look for it now"
+      },
+      {
+        "phrase": "kan du vise meg måten?",
+        "translation": "can you show me the way?"
+      },
+      {
+        "phrase": "følg meg, siden jeg skal dit samt",
+        "translation": "follow me, since I’m going there also"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_05",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Ordering a drink at a café",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "kan",
+        "pos": "verb",
+        "phonetic": "kɑn",
+        "translation": "can",
+        "note": "Auxiliary verb to express ability or possibility."
+      },
+      {
+        "word": "en",
+        "pos": "det",
+        "phonetic": "en",
+        "translation": "a",
+        "note": "Indefinite article for masculine nouns."
+      },
+      {
+        "word": "stor",
+        "pos": "adj",
+        "phonetic": "stuːr",
+        "translation": "large",
+        "note": "Describes size."
+      },
+      {
+        "word": "med",
+        "pos": "prep",
+        "phonetic": "meː",
+        "translation": "with",
+        "note": "Indicates accompaniment or inclusion."
+      },
+      {
+        "word": "vil",
+        "pos": "verb",
+        "phonetic": "viːl",
+        "translation": "want",
+        "note": "Expresses desire or intention."
+      },
+      {
+        "word": "kaffe",
+        "pos": "noun",
+        "phonetic": "kɑfə",
+        "translation": "coffee",
+        "note": "Beverage."
+      },
+      {
+        "word": "tak",
+        "pos": "noun",
+        "phonetic": "tɑk",
+        "translation": "thank you",
+        "note": "Expression of gratitude."
+      },
+      {
+        "word": "men",
+        "pos": "conj",
+        "phonetic": "men",
+        "translation": "but",
+        "note": "Connects contrasting ideas."
+      },
+      {
+        "word": "inn",
+        "pos": "adv",
+        "phonetic": "in",
+        "translation": "in",
+        "note": "Indicates direction or location."
+      },
+      {
+        "word": "så",
+        "pos": "adv",
+        "phonetic": "sɔ",
+        "translation": "then",
+        "note": "Used to indicate sequence or consequence."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Kan jeg få en stor kaffe, vær så snill?",
+        "translation": "Can I get a large coffee, please?",
+        "highlights": [
+          "kan",
+          "en",
+          "stor",
+          "kaffe"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, selvfølgelig. Vil du ha noe med?",
+        "translation": "Yes, of course. Do you want something with it?",
+        "highlights": [
+          "vil",
+          "med"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Nei, tak. Bare kaffen.",
+        "translation": "No, thank you. Just the coffee.",
+        "highlights": [
+          "tak",
+          "kaffe"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Men skal du sitte inn eller ta med?",
+        "translation": "But will you sit in or take away?",
+        "highlights": [
+          "men",
+          "inn"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg tar med. Så kan jeg drikke mens jeg går.",
+        "translation": "I’ll take away. Then I can drink while I walk.",
+        "highlights": [
+          "så"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Kan jeg få en stor kaffe?",
+        "translation": "Can I get a large coffee?"
+      },
+      {
+        "phrase": "Vil du ha noe med?",
+        "translation": "Do you want something with it?"
+      },
+      {
+        "phrase": "Nei, tak.",
+        "translation": "No, thank you."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_07",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Buying a ticket at a station",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "gå",
+        "pos": "verb",
+        "phonetic": "/ɡɔ/",
+        "translation": "go",
+        "note": "Used to indicate movement or direction."
+      },
+      {
+        "word": "til",
+        "pos": "prep",
+        "phonetic": "/til/",
+        "translation": "to",
+        "note": "Indicates direction or destination."
+      },
+      {
+        "word": "skal",
+        "pos": "verb",
+        "phonetic": "/skɑl/",
+        "translation": "will",
+        "note": "Used to express future intention."
+      },
+      {
+        "word": "fra",
+        "pos": "prep",
+        "phonetic": "/frɑ/",
+        "translation": "from",
+        "note": "Indicates origin or starting point."
+      },
+      {
+        "word": "hvor",
+        "pos": "adv",
+        "phonetic": "/hvoːr/",
+        "translation": "where",
+        "note": "Used to ask about location."
+      },
+      {
+        "word": "mye",
+        "pos": "adv",
+        "phonetic": "/myː/",
+        "translation": "much",
+        "note": "Indicates a large quantity or degree."
+      },
+      {
+        "word": "betale",
+        "pos": "verb",
+        "phonetic": "/bəˈtɑːlə/",
+        "translation": "pay",
+        "note": "To give money in exchange for goods or services."
+      },
+      {
+        "word": "neste",
+        "pos": "det",
+        "phonetic": "/ˈnɛstə/",
+        "translation": "next",
+        "note": "Refers to the following item or step."
+      },
+      {
+        "word": "vær",
+        "pos": "verb",
+        "phonetic": "/vær/",
+        "translation": "be",
+        "note": "Imperative form of 'å være' (to be)."
+      },
+      {
+        "word": "snakke",
+        "pos": "verb",
+        "phonetic": "/ˈsnɑkə/",
+        "translation": "speak",
+        "note": "To communicate verbally."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg vil kjøpe en billett. Hvor går jeg til?",
+        "translation": "Hi, I want to buy a ticket. Where should I go?",
+        "highlights": [
+          "gå",
+          "til"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Du skal gå til vinduet der borte. Hvor skal du dra?",
+        "translation": "You should go to the window over there. Where are you going?",
+        "highlights": [
+          "skal",
+          "fra"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg skal til Oslo. Hvor mye koster det?",
+        "translation": "I'm going to Oslo. How much does it cost?",
+        "highlights": [
+          "til",
+          "mye"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Det koster 200 kroner. Du kan betale her.",
+        "translation": "It costs 200 kroner. You can pay here.",
+        "highlights": [
+          "betale"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk! Hvor er neste tog?",
+        "translation": "Thanks! Where is the next train?",
+        "highlights": [
+          "neste",
+          "vær"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Hvor går jeg til?",
+        "translation": "Where should I go?"
+      },
+      {
+        "phrase": "Hvor mye koster det?",
+        "translation": "How much does it cost?"
+      },
+      {
+        "phrase": "Du kan betale her.",
+        "translation": "You can pay here."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_09",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Checking in at a hotel reception",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "komme",
+        "pos": "verb",
+        "phonetic": "/ˈkɔmːə/",
+        "translation": "to come",
+        "note": "Used to indicate arrival or movement towards a place."
+      },
+      {
+        "word": "rom",
+        "pos": "noun",
+        "phonetic": "/ruːm/",
+        "translation": "room",
+        "note": "A space in a building for a specific purpose, like sleeping."
+      },
+      {
+        "word": "få",
+        "pos": "verb",
+        "phonetic": "/fɔː/",
+        "translation": "to get",
+        "note": "Used to express receiving something."
+      },
+      {
+        "word": "alltid",
+        "pos": "adv",
+        "phonetic": "/ˈɔlːtiː/",
+        "translation": "always",
+        "note": "Indicates something happens every time or continuously."
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "phonetic": "/fɔr/",
+        "translation": "for",
+        "note": "Used to indicate the purpose or recipient of something."
+      },
+      {
+        "word": "dette",
+        "pos": "pron",
+        "phonetic": "/ˈdɛtːə/",
+        "translation": "this",
+        "note": "Refers to something close in context or time."
+      },
+      {
+        "word": "god",
+        "pos": "adj",
+        "phonetic": "/guːd/",
+        "translation": "good",
+        "note": "Describes something positive or of high quality."
+      },
+      {
+        "word": "om",
+        "pos": "prep",
+        "phonetic": "/ʊm/",
+        "translation": "about",
+        "note": "Used to indicate the topic or subject of discussion."
+      },
+      {
+        "word": "når",
+        "pos": "adv",
+        "phonetic": "/nɔːr/",
+        "translation": "when",
+        "note": "Asks or indicates the time of an event."
+      },
+      {
+        "word": "sammen",
+        "pos": "adv",
+        "phonetic": "/ˈsɑmːən/",
+        "translation": "together",
+        "note": "Indicates being in each other’s company or combined."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "God kveld! Jeg vil gjerne sjekke inn.",
+        "translation": "Good evening! I would like to check in.",
+        "highlights": []
+      },
+      {
+        "speaker": "B",
+        "text": "Velkommen! Når komme dere an?",
+        "translation": "Welcome! When did you arrive?",
+        "highlights": [
+          "komme"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Vi komme nettopp an. Kan vi få et rom for to netter?",
+        "translation": "We just arrived. Can we get a room for two nights?",
+        "highlights": [
+          "komme",
+          "få",
+          "rom",
+          "for"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, alltid mulig. Dette er nøkkelen til rommet deres.",
+        "translation": "Yes, always possible. This is the key to your room.",
+        "highlights": [
+          "alltid",
+          "dette",
+          "rom"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk! Er det noe god restaurant sammen med hotellet?",
+        "translation": "Thanks! Is there a good restaurant together with the hotel?",
+        "highlights": [
+          "god",
+          "sammen"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, vi har en god restaurant her. Om dere vil spise, bare komme ned.",
+        "translation": "Yes, we have a good restaurant here. If you want to eat, just come down.",
+        "highlights": [
+          "god",
+          "om",
+          "komme"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Kan vi få et rom for to netter?",
+        "translation": "Can we get a room for two nights?"
+      },
+      {
+        "phrase": "Dette er nøkkelen til rommet deres.",
+        "translation": "This is the key to your room."
+      },
+      {
+        "phrase": "Er det noe god restaurant sammen med hotellet?",
+        "translation": "Is there a good restaurant together with the hotel?"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_11",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Meeting a new neighbor",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "bo",
+        "pos": "verb",
+        "phonetic": "buː",
+        "translation": "to live",
+        "note": "Used to describe where someone resides."
+      },
+      {
+        "word": "hus",
+        "pos": "noun",
+        "phonetic": "huːs",
+        "translation": "house",
+        "note": "A building for habitation."
+      },
+      {
+        "word": "lenge",
+        "pos": "adv",
+        "phonetic": "lɛŋə",
+        "translation": "long",
+        "note": "Indicates duration of time."
+      },
+      {
+        "word": "over",
+        "pos": "prep",
+        "phonetic": "ʊvər",
+        "translation": "over",
+        "note": "Used to indicate position above or movement across."
+      },
+      {
+        "word": "selv",
+        "pos": "pron",
+        "phonetic": "sɛlv",
+        "translation": "self",
+        "note": "Refers to the person speaking."
+      },
+      {
+        "word": "snakker",
+        "pos": "verb",
+        "phonetic": "snɑkər",
+        "translation": "speak",
+        "note": "To communicate verbally."
+      },
+      {
+        "word": "to",
+        "pos": "prep",
+        "phonetic": "tuː",
+        "translation": "two",
+        "note": "Cardinal number."
+      },
+      {
+        "word": "år",
+        "pos": "noun",
+        "phonetic": "oːr",
+        "translation": "year",
+        "note": "A period of 365 days."
+      },
+      {
+        "word": "bare",
+        "pos": "adv",
+        "phonetic": "bɑrə",
+        "translation": "just",
+        "note": "Used to emphasize simplicity or exclusivity."
+      },
+      {
+        "word": "hvis",
+        "pos": "conj",
+        "phonetic": "vis",
+        "translation": "if",
+        "note": "Introduces a condition."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei! Har du flyttet inn i huset over?",
+        "translation": "Hi! Have you moved into the house above?",
+        "highlights": [
+          "huset",
+          "over"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, jeg har bodd her i to år nå.",
+        "translation": "Yes, I have lived here for two years now.",
+        "highlights": [
+          "bodd",
+          "to",
+          "år"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Lenge! Jeg har bodd her bare ett år.",
+        "translation": "Long time! I have lived here just one year.",
+        "highlights": [
+          "lenge",
+          "bare",
+          "år"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hvis du trenger noe, så snakker du bare med meg.",
+        "translation": "If you need anything, just speak to me.",
+        "highlights": [
+          "hvis",
+          "snakker",
+          "bare"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk, jeg klarer meg selv, men det er hyggelig!",
+        "translation": "Thanks, I manage by myself, but it's nice!",
+        "highlights": [
+          "selv"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Har du flyttet inn i huset over?",
+        "translation": "Have you moved into the house above?"
+      },
+      {
+        "phrase": "Jeg har bodd her i to år nå.",
+        "translation": "I have lived here for two years now."
+      },
+      {
+        "phrase": "Hvis du trenger noe, så snakker du bare med meg.",
+        "translation": "If you need anything, just speak to me."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_13",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking the time on the street",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "klokka",
+        "pos": "noun",
+        "phonetic": "/ˈklɔkːa/",
+        "translation": "clock",
+        "note": "Used to ask for the time."
+      },
+      {
+        "word": "hva",
+        "pos": "pron",
+        "phonetic": "/ˈkva/",
+        "translation": "what",
+        "note": "Used to ask questions."
+      },
+      {
+        "word": "er",
+        "pos": "verb",
+        "phonetic": "/eːr/",
+        "translation": "is",
+        "note": "Auxiliary verb in present tense."
+      },
+      {
+        "word": "tid",
+        "pos": "noun",
+        "phonetic": "/ˈtiːd/",
+        "translation": "time",
+        "note": "General term for time."
+      },
+      {
+        "word": "den",
+        "pos": "det",
+        "phonetic": "/den/",
+        "translation": "the",
+        "note": "Definite article for masculine nouns."
+      },
+      {
+        "word": "sine",
+        "pos": "det",
+        "phonetic": "/ˈsiːne/",
+        "translation": "his/her/its",
+        "note": "Possessive pronoun."
+      },
+      {
+        "word": "viser",
+        "pos": "verb",
+        "phonetic": "/ˈviːsər/",
+        "translation": "shows",
+        "note": "Present tense of 'å vise' (to show)."
+      },
+      {
+        "word": "fem",
+        "pos": "noun",
+        "phonetic": "/feim/",
+        "translation": "five",
+        "note": "Number used to tell time."
+      },
+      {
+        "word": "over",
+        "pos": "prep",
+        "phonetic": "/ˈuːvər/",
+        "translation": "past",
+        "note": "Used to indicate time past the hour."
+      },
+      {
+        "word": "og",
+        "pos": "conj",
+        "phonetic": "/ɔk/",
+        "translation": "and",
+        "note": "Connector between words or phrases."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Unnskyld, hva er klokka?",
+        "translation": "Excuse me, what time is it?",
+        "highlights": [
+          "hva",
+          "er",
+          "klokka"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Den er fem over halv tre.",
+        "translation": "It is five past half three.",
+        "highlights": [
+          "den",
+          "er",
+          "fem",
+          "over"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk! Er du sikker på at klokka viser riktig tid?",
+        "translation": "Thanks! Are you sure the clock shows the correct time?",
+        "highlights": [
+          "tid",
+          "viser",
+          "klokka"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, den er sine egen klokka, og den er alltid riktig.",
+        "translation": "Yes, it’s his own watch, and it’s always correct.",
+        "highlights": [
+          "den",
+          "sine",
+          "og"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Hva er klokka?",
+        "translation": "What time is it?"
+      },
+      {
+        "phrase": "Den er fem over halv tre.",
+        "translation": "It is five past half three."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_15",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the doctor for a basic checkup",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "ha",
+        "pos": "verb",
+        "phonetic": "/hɑ/",
+        "translation": "to have",
+        "note": "Used to indicate possession or to have something."
+      },
+      {
+        "word": "på",
+        "pos": "prep",
+        "phonetic": "/pɔ/",
+        "translation": "on",
+        "note": "Indicates location or position."
+      },
+      {
+        "word": "jeg",
+        "pos": "pron",
+        "phonetic": "/jei/",
+        "translation": "I",
+        "note": "First-person singular pronoun."
+      },
+      {
+        "word": "du",
+        "pos": "pron",
+        "phonetic": "/dʉ/",
+        "translation": "you",
+        "note": "Second-person singular pronoun."
+      },
+      {
+        "word": "her",
+        "pos": "adv",
+        "phonetic": "/hær/",
+        "translation": "here",
+        "note": "Indicates a location close to the speaker."
+      },
+      {
+        "word": "ny",
+        "pos": "adj",
+        "phonetic": "/ny/",
+        "translation": "new",
+        "note": "Describes something recently made or discovered."
+      },
+      {
+        "word": "etter",
+        "pos": "prep",
+        "phonetic": "/ɛtər/",
+        "translation": "after",
+        "note": "Indicates a following event or time."
+      },
+      {
+        "word": "syk",
+        "pos": "adj",
+        "phonetic": "/syːk/",
+        "translation": "sick",
+        "note": "Describes a state of illness."
+      },
+      {
+        "word": "lege",
+        "pos": "noun",
+        "phonetic": "/leːɡə/",
+        "translation": "doctor",
+        "note": "A person qualified to practice medicine."
+      },
+      {
+        "word": "og",
+        "pos": "conj",
+        "phonetic": "/ɔɡ/",
+        "translation": "and",
+        "note": "Connects words, phrases, or clauses."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg er her for en vanlig kontroll.",
+        "translation": "Hi, I am here for a regular checkup.",
+        "highlights": [
+          "jeg",
+          "her"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Velkommen. Har du vært syk på siste tid?",
+        "translation": "Welcome. Have you been sick lately?",
+        "highlights": [
+          "ha",
+          "syk",
+          "på"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Nei, jeg har ikke vært syk, men jeg har noen nye symptomer.",
+        "translation": "No, I haven’t been sick, but I have some new symptoms.",
+        "highlights": [
+          "ha",
+          "ny",
+          "og"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Fortell meg mer om det etter undersøkelsen.",
+        "translation": "Tell me more about it after the examination.",
+        "highlights": [
+          "etter",
+          "lege"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "OK, takk. Jeg er klar når du er.",
+        "translation": "OK, thanks. I’m ready when you are.",
+        "highlights": [
+          "jeg",
+          "du"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Har du vært syk på siste tid?",
+        "translation": "Have you been sick lately?"
+      },
+      {
+        "phrase": "Jeg har noen nye symptomer.",
+        "translation": "I have some new symptoms."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_17",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Paying at a supermarket checkout",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "være",
+        "pos": "verb",
+        "phonetic": "/ˈvɛrə/",
+        "translation": "to be",
+        "note": "Present tense form: er"
+      },
+      {
+        "word": "i",
+        "pos": "prep",
+        "phonetic": "/iː/",
+        "translation": "in",
+        "note": "Used to indicate location"
+      },
+      {
+        "word": "det",
+        "pos": "pron",
+        "phonetic": "/dɛt/",
+        "translation": "it",
+        "note": "Neuter pronoun"
+      },
+      {
+        "word": "ja",
+        "pos": "adv",
+        "phonetic": "/jaː/",
+        "translation": "yes",
+        "note": "Used to agree or confirm"
+      },
+      {
+        "word": "eller",
+        "pos": "conj",
+        "phonetic": "/ˈɛlːər/",
+        "translation": "or",
+        "note": "Used to present alternatives"
+      },
+      {
+        "word": "nå",
+        "pos": "adv",
+        "phonetic": "/noː/",
+        "translation": "now",
+        "note": "Indicates present time"
+      },
+      {
+        "word": "mot",
+        "pos": "prep",
+        "phonetic": "/muːt/",
+        "translation": "toward",
+        "note": "Indicates direction"
+      },
+      {
+        "word": "end",
+        "pos": "conj",
+        "phonetic": "/ɛn/",
+        "translation": "and",
+        "note": "Joins clauses or sentences"
+      },
+      {
+        "word": "siden",
+        "pos": "prep",
+        "phonetic": "/ˈsiːdən/",
+        "translation": "since",
+        "note": "Indicates time elapsed"
+      },
+      {
+        "word": "gjør",
+        "pos": "verb",
+        "phonetic": "/jœr/",
+        "translation": "do",
+        "note": "Present tense form of 'gjøre'"
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Er det alt i kurven din?",
+        "translation": "Is that everything in your basket?",
+        "highlights": [
+          "er",
+          "det",
+          "i"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, det er alt nå.",
+        "translation": "Yes, that’s everything now.",
+        "highlights": [
+          "ja",
+          "det",
+          "nå"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Vil du betale med kort eller kontanter?",
+        "translation": "Will you pay by card or cash?",
+        "highlights": [
+          "eller"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Jeg betaler med kort, takk.",
+        "translation": "I’ll pay by card, thanks.",
+        "highlights": [
+          "mot",
+          "gjør"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Totalt blir det 250 kroner. Siden du betaler med kort, kan du signere her.",
+        "translation": "The total is 250 kroner. Since you’re paying by card, you can sign here.",
+        "highlights": [
+          "siden",
+          "end"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Er det alt i kurven din?",
+        "translation": "Is that everything in your basket?"
+      },
+      {
+        "phrase": "Vil du betale med kort eller kontanter?",
+        "translation": "Will you pay by card or cash?"
+      },
+      {
+        "phrase": "Jeg betaler med kort, takk.",
+        "translation": "I’ll pay by card, thanks."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_19",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Calling a friend to make simple plans",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "ringe",
+        "pos": "verb",
+        "phonetic": "/ˈrɪŋə/",
+        "translation": "to call",
+        "note": "Used to describe the action of making a phone call."
+      },
+      {
+        "word": "siden",
+        "pos": "prep",
+        "phonetic": "/ˈsiːdən/",
+        "translation": "since",
+        "note": "Indicates a starting point in time."
+      },
+      {
+        "word": "møte",
+        "pos": "noun",
+        "phonetic": "/ˈmøːtə/",
+        "translation": "meeting",
+        "note": "Refers to a planned gathering or appointment."
+      },
+      {
+        "word": "kjøpe",
+        "pos": "verb",
+        "phonetic": "/ˈçøːpə/",
+        "translation": "to buy",
+        "note": "Used to describe the action of purchasing something."
+      },
+      {
+        "word": "mat",
+        "pos": "noun",
+        "phonetic": "/mɑːt/",
+        "translation": "food",
+        "note": "General term for edible items."
+      },
+      {
+        "word": "men",
+        "pos": "conj",
+        "phonetic": "/men/",
+        "translation": "but",
+        "note": "Used to introduce a contrast or exception."
+      },
+      {
+        "word": "snakke",
+        "pos": "verb",
+        "phonetic": "/ˈsnɑkə/",
+        "translation": "to talk",
+        "note": "Describes the action of conversing."
+      },
+      {
+        "word": "mer",
+        "pos": "adv",
+        "phonetic": "/meːr/",
+        "translation": "more",
+        "note": "Indicates a greater amount or degree."
+      },
+      {
+        "word": "når",
+        "pos": "adv",
+        "phonetic": "/nɔr/",
+        "translation": "when",
+        "note": "Used to ask about or refer to a specific time."
+      },
+      {
+        "word": "hjem",
+        "pos": "noun",
+        "phonetic": "/hjem/",
+        "translation": "home",
+        "note": "Refers to one's place of residence."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg prøver å ringe deg for å planlegge et møte.",
+        "translation": "Hi, I’m trying to call you to plan a meeting.",
+        "highlights": [
+          "ringe",
+          "møte"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hei! Jeg har vært opptatt siden morgenen, men jeg er ledig nå.",
+        "translation": "Hi! I’ve been busy since morning, but I’m free now.",
+        "highlights": [
+          "siden",
+          "men"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Flott! Skal vi kjøpe mat og spise sammen?",
+        "translation": "Great! Should we buy food and eat together?",
+        "highlights": [
+          "kjøpe",
+          "mat"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, det høres bra ut. Vi kan snakke mer om det når vi møtes.",
+        "translation": "Yes, that sounds good. We can talk more about it when we meet.",
+        "highlights": [
+          "snakke",
+          "mer",
+          "når"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Enig. Skal vi gå hjem til meg etterpå?",
+        "translation": "Agreed. Should we go to my home afterward?",
+        "highlights": [
+          "hjem"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "planlegge et møte",
+        "translation": "to plan a meeting"
+      },
+      {
+        "phrase": "kjøpe mat",
+        "translation": "to buy food"
+      },
+      {
+        "phrase": "snakke mer",
+        "translation": "to talk more"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_21",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your family to someone",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "familie",
+        "pos": "noun",
+        "phonetic": "/faˈmiːli/",
+        "translation": "family",
+        "note": ""
+      },
+      {
+        "word": "stor",
+        "pos": "adj",
+        "phonetic": "/stuːr/",
+        "translation": "big",
+        "note": ""
+      },
+      {
+        "word": "søster",
+        "pos": "noun",
+        "phonetic": "/ˈsøstər/",
+        "translation": "sister",
+        "note": ""
+      },
+      {
+        "word": "bror",
+        "pos": "noun",
+        "phonetic": "/bruːr/",
+        "translation": "brother",
+        "note": ""
+      },
+      {
+        "word": "gammel",
+        "pos": "adj",
+        "phonetic": "/ˈɡɑmːəl/",
+        "translation": "old",
+        "note": ""
+      },
+      {
+        "word": "jobbe",
+        "pos": "verb",
+        "phonetic": "/ˈjɔbːə/",
+        "translation": "work",
+        "note": ""
+      },
+      {
+        "word": "men",
+        "pos": "conj",
+        "phonetic": "/men/",
+        "translation": "but",
+        "note": ""
+      },
+      {
+        "word": "kjæreste",
+        "pos": "noun",
+        "phonetic": "/ˈçærəstə/",
+        "translation": "partner",
+        "note": ""
+      },
+      {
+        "word": "snakker",
+        "pos": "verb",
+        "phonetic": "/ˈsnɑkər/",
+        "translation": "speak",
+        "note": ""
+      },
+      {
+        "word": "mye",
+        "pos": "adv",
+        "phonetic": "/myː/",
+        "translation": "a lot",
+        "note": ""
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Jeg har en stor familie.",
+        "translation": "I have a big family.",
+        "highlights": [
+          "stor",
+          "familie"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Fortell meg mer!",
+        "translation": "Tell me more!",
+        "highlights": []
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg har en søster og en bror. Min søster er gammel og jobber i Oslo.",
+        "translation": "I have a sister and a brother. My sister is old and works in Oslo.",
+        "highlights": [
+          "søster",
+          "bror",
+          "gammel",
+          "jobbe"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Og din bror?",
+        "translation": "And your brother?",
+        "highlights": [
+          "bror"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Han har en kjæreste, men de snakker mye om å flytte sammen.",
+        "translation": "He has a partner, but they talk a lot about moving in together.",
+        "highlights": [
+          "kjæreste",
+          "men",
+          "snakker",
+          "mye"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Jeg har en stor familie.",
+        "translation": "I have a big family."
+      },
+      {
+        "phrase": "Min søster er gammel og jobber i Oslo.",
+        "translation": "My sister is old and works in Oslo."
+      },
+      {
+        "phrase": "Han har en kjæreste, men de snakker mye om å flytte sammen.",
+        "translation": "He has a partner, but they talk a lot about moving in together."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_23",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking for directions in the street",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "gå",
+        "pos": "verb",
+        "phonetic": "/ɡɔ/",
+        "translation": "to walk",
+        "note": "Used to describe the action of walking."
+      },
+      {
+        "word": "veien",
+        "pos": "noun",
+        "phonetic": "/ˈveɪen/",
+        "translation": "the road",
+        "note": "Refers to the path or street."
+      },
+      {
+        "word": "til",
+        "pos": "prep",
+        "phonetic": "/til/",
+        "translation": "to",
+        "note": "Indicates direction towards something."
+      },
+      {
+        "word": "hvor",
+        "pos": "adv",
+        "phonetic": "/ʂvɔr/",
+        "translation": "where",
+        "note": "Used to ask about location."
+      },
+      {
+        "word": "før",
+        "pos": "adv",
+        "phonetic": "/før/",
+        "translation": "before",
+        "note": "Indicates something happening earlier."
+      },
+      {
+        "word": "sammen",
+        "pos": "adv",
+        "phonetic": "/ˈsɑmən/",
+        "translation": "together",
+        "note": "Describes being with someone or something."
+      },
+      {
+        "word": "mye",
+        "pos": "adv",
+        "phonetic": "/ˈmyːə/",
+        "translation": "much",
+        "note": "Indicates a large amount or degree."
+      },
+      {
+        "word": "enn",
+        "pos": "conj",
+        "phonetic": "/ɛn/",
+        "translation": "than",
+        "note": "Used for comparison."
+      },
+      {
+        "word": "alltid",
+        "pos": "adv",
+        "phonetic": "/ˈɔltid/",
+        "translation": "always",
+        "note": "Indicates something happening every time."
+      },
+      {
+        "word": "nær",
+        "pos": "adj",
+        "phonetic": "/næːr/",
+        "translation": "near",
+        "note": "Describes something close in proximity."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Unnskyld, kan du hjelpe meg? Jeg prøver å finne veien til stasjonen.",
+        "translation": "Excuse me, can you help me? I’m trying to find the way to the station.",
+        "highlights": [
+          "veien"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, selvfølgelig! Du må gå til høyre her og deretter rett frem.",
+        "translation": "Yes, of course! You need to go to the right here and then straight ahead.",
+        "highlights": [
+          "gå",
+          "til"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Hvor langt er det? Jeg har ikke mye tid.",
+        "translation": "How far is it? I don’t have much time.",
+        "highlights": [
+          "hvor",
+          "mye"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Det er ikke så langt, bare fem minutter å gå. Du kommer dit før togene går.",
+        "translation": "It’s not very far, just five minutes to walk. You’ll get there before the trains leave.",
+        "highlights": [
+          "gå",
+          "før"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk skal du ha! Jeg er alltid redd for å gå feil vei.",
+        "translation": "Thank you! I’m always afraid of going the wrong way.",
+        "highlights": [
+          "alltid",
+          "veien"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ingen problem! Stasjonen er nær, så du kan ikke gå vill.",
+        "translation": "No problem! The station is near, so you can’t get lost.",
+        "highlights": [
+          "nær"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Unnskyld, kan du hjelpe meg?",
+        "translation": "Excuse me, can you help me?"
+      },
+      {
+        "phrase": "Du må gå til høyre her.",
+        "translation": "You need to go to the right here."
+      },
+      {
+        "phrase": "Det er ikke så langt.",
+        "translation": "It’s not very far."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_25",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "On a bus asking the driver for help",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "kan",
+        "pos": "verb",
+        "phonetic": "kɑn",
+        "translation": "can",
+        "note": "Used to express ability or possibility."
+      },
+      {
+        "word": "meg",
+        "pos": "pron",
+        "phonetic": "meɪ",
+        "translation": "me",
+        "note": "Object pronoun referring to the speaker."
+      },
+      {
+        "word": "hjelpe",
+        "pos": "verb",
+        "phonetic": "jɛlpə",
+        "translation": "help",
+        "note": "To assist or support someone."
+      },
+      {
+        "word": "vet",
+        "pos": "verb",
+        "phonetic": "veɪt",
+        "translation": "know",
+        "note": "To have knowledge or be aware of something."
+      },
+      {
+        "word": "ikke",
+        "pos": "adv",
+        "phonetic": "ɪkə",
+        "translation": "not",
+        "note": "Used to negate a statement."
+      },
+      {
+        "word": "stopp",
+        "pos": "noun",
+        "phonetic": "stɔp",
+        "translation": "stop",
+        "note": "A place where the bus halts."
+      },
+      {
+        "word": "neste",
+        "pos": "det",
+        "phonetic": "nɛstə",
+        "translation": "next",
+        "note": "Referring to the following item or place."
+      },
+      {
+        "word": "før",
+        "pos": "prep",
+        "phonetic": "føːr",
+        "translation": "before",
+        "note": "Indicating a time or place earlier than another."
+      },
+      {
+        "word": "så",
+        "pos": "adv",
+        "phonetic": "sɔ",
+        "translation": "then",
+        "note": "Used to introduce a consequence or next step."
+      },
+      {
+        "word": "takker",
+        "pos": "verb",
+        "phonetic": "tɑkər",
+        "translation": "thank",
+        "note": "To express gratitude."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "Passenger",
+        "text": "Unnskyld, kan du hjelpe meg?",
+        "translation": "Excuse me, can you help me?",
+        "highlights": [
+          "kan",
+          "hjelpe",
+          "meg"
+        ]
+      },
+      {
+        "speaker": "Driver",
+        "text": "Ja, hva trenger du?",
+        "translation": "Yes, what do you need?",
+        "highlights": []
+      },
+      {
+        "speaker": "Passenger",
+        "text": "Vet du når neste stopp er?",
+        "translation": "Do you know when the next stop is?",
+        "highlights": [
+          "vet",
+          "neste",
+          "stopp"
+        ]
+      },
+      {
+        "speaker": "Driver",
+        "text": "Ikke ennå, men det er snart.",
+        "translation": "Not yet, but it’s coming soon.",
+        "highlights": [
+          "ikke"
+        ]
+      },
+      {
+        "speaker": "Passenger",
+        "text": "Takker! Kan du si ifra før vi er der?",
+        "translation": "Thanks! Can you let me know before we get there?",
+        "highlights": [
+          "takker",
+          "før",
+          "så"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "kan du hjelpe meg?",
+        "translation": "can you help me?"
+      },
+      {
+        "phrase": "neste stopp",
+        "translation": "next stop"
+      },
+      {
+        "phrase": "før vi er der",
+        "translation": "before we get there"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_27",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Introducing a colleague at work",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "komme",
+        "pos": "verb",
+        "phonetic": "/ˈkɔmːə/",
+        "translation": "to come",
+        "note": "Used to indicate arrival or movement towards a place."
+      },
+      {
+        "word": "fra",
+        "pos": "prep",
+        "phonetic": "/frɑː/",
+        "translation": "from",
+        "note": "Indicates origin or starting point."
+      },
+      {
+        "word": "person",
+        "pos": "noun",
+        "phonetic": "/ˈpær.sɔn/",
+        "translation": "person",
+        "note": "A general term for an individual."
+      },
+      {
+        "word": "denne",
+        "pos": "det",
+        "phonetic": "/ˈdɛnːə/",
+        "translation": "this",
+        "note": "Used to point out someone or something nearby."
+      },
+      {
+        "word": "arbeide",
+        "pos": "verb",
+        "phonetic": "/ˈɑr.bɑɪ.də/",
+        "translation": "to work",
+        "note": "Refers to performing tasks or having a job."
+      },
+      {
+        "word": "med",
+        "pos": "prep",
+        "phonetic": "/me/",
+        "translation": "with",
+        "note": "Indicates companionship or involvement."
+      },
+      {
+        "word": "også",
+        "pos": "adv",
+        "phonetic": "/ˈɔɡ.søː/",
+        "translation": "also",
+        "note": "Adds information to what has already been said."
+      },
+      {
+        "word": "viktig",
+        "pos": "adj",
+        "phonetic": "/ˈvɪk.tɪɡ/",
+        "translation": "important",
+        "note": "Describes something of significance."
+      },
+      {
+        "word": "for",
+        "pos": "prep",
+        "phonetic": "/fɔr/",
+        "translation": "for",
+        "note": "Indicates purpose or beneficiary."
+      },
+      {
+        "word": "men",
+        "pos": "conj",
+        "phonetic": "/men/",
+        "translation": "but",
+        "note": "Used to introduce a contrast or exception."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg vil gjerne presentere deg for en ny kollega. Han komme fra Sverige.",
+        "translation": "Hi, I’d like to introduce you to a new colleague. He comes from Sweden.",
+        "highlights": [
+          "komme",
+          "fra"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Velkommen! Det er hyggelig å møte deg. Hva er din rolle her?",
+        "translation": "Welcome! It’s nice to meet you. What’s your role here?",
+        "highlights": []
+      },
+      {
+        "speaker": "A",
+        "text": "Han er en viktig person i teamet vårt. Han arbeide med prosjektledelse.",
+        "translation": "He’s an important person in our team. He works with project management.",
+        "highlights": [
+          "viktig",
+          "person",
+          "arbeide",
+          "med"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Det er flott! Jeg er også i et lignende felt. Kanskje vi kan samarbeide?",
+        "translation": "That’s great! I’m also in a similar field. Maybe we can collaborate?",
+        "highlights": [
+          "også"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ja, det er en god idé. For oss er det viktig å jobbe sammen.",
+        "translation": "Yes, that’s a good idea. For us, it’s important to work together.",
+        "highlights": [
+          "for",
+          "viktig"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "presentere deg for",
+        "translation": "introduce you to"
+      },
+      {
+        "phrase": "viktig person",
+        "translation": "important person"
+      },
+      {
+        "phrase": "arbeide med",
+        "translation": "work with"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_29",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Leaving a voicemail message",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "ha",
+        "pos": "verb",
+        "phonetic": "/hɑ/",
+        "translation": "to have",
+        "note": "Used to indicate possession or to form perfect tenses."
+      },
+      {
+        "word": "på",
+        "pos": "prep",
+        "phonetic": "/pɔ/",
+        "translation": "on",
+        "note": "Common preposition used to indicate location or time."
+      },
+      {
+        "word": "og",
+        "pos": "conj",
+        "phonetic": "/ɔ/",
+        "translation": "and",
+        "note": "Used to connect words, phrases, or clauses."
+      },
+      {
+        "word": "til",
+        "pos": "prep",
+        "phonetic": "/til/",
+        "translation": "to",
+        "note": "Indicates direction or purpose."
+      },
+      {
+        "word": "et",
+        "pos": "det",
+        "phonetic": "/e/",
+        "translation": "a",
+        "note": "Indefinite article used before masculine nouns."
+      },
+      {
+        "word": "ny",
+        "pos": "adj",
+        "phonetic": "/nyː/",
+        "translation": "new",
+        "note": "Describes something recently made or discovered."
+      },
+      {
+        "word": "nummer",
+        "pos": "noun",
+        "phonetic": "/ˈnʏmər/",
+        "translation": "number",
+        "note": "Refers to a numerical value or phone number."
+      },
+      {
+        "word": "sende",
+        "pos": "verb",
+        "phonetic": "/ˈsɛnə/",
+        "translation": "to send",
+        "note": "Used to describe the action of sending something."
+      },
+      {
+        "word": "beskjed",
+        "pos": "noun",
+        "phonetic": "/ˈbɛʃəd/",
+        "translation": "message",
+        "note": "Refers to a piece of information or communication."
+      },
+      {
+        "word": "igjen",
+        "pos": "adv",
+        "phonetic": "/ɪˈjeːn/",
+        "translation": "again",
+        "note": "Indicates repetition of an action."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg prøver å ringe, men du svarer ikke. Jeg vil ha et ny nummer til deg.",
+        "translation": "Hi, I’m trying to call, but you’re not answering. I want to have a new number for you.",
+        "highlights": [
+          "ha",
+          "ny",
+          "til"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Jeg er på møte nå, så jeg kan ikke snakke. La meg sende en beskjed igjen senere.",
+        "translation": "I’m in a meeting now, so I can’t talk. Let me send a message again later.",
+        "highlights": [
+          "på",
+          "sende",
+          "beskjed",
+          "igjen"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "OK, og husk å ringe meg tilbake etter møtet.",
+        "translation": "OK, and remember to call me back after the meeting.",
+        "highlights": [
+          "og",
+          "til"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, jeg skal gjøre det. Ha en fin dag!",
+        "translation": "Yes, I’ll do that. Have a nice day!",
+        "highlights": [
+          "ha"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Jeg vil ha et ny nummer til deg.",
+        "translation": "I want to have a new number for you."
+      },
+      {
+        "phrase": "La meg sende en beskjed igjen senere.",
+        "translation": "Let me send a message again later."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_31",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the post office sending a package",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "pakke",
+        "pos": "noun",
+        "phonetic": "/ˈpɑkə/",
+        "translation": "package",
+        "note": ""
+      },
+      {
+        "word": "være",
+        "pos": "verb",
+        "phonetic": "/ˈvɛrə/",
+        "translation": "to be",
+        "note": ""
+      },
+      {
+        "word": "her",
+        "pos": "adv",
+        "phonetic": "/hɛr/",
+        "translation": "here",
+        "note": ""
+      },
+      {
+        "word": "i",
+        "pos": "prep",
+        "phonetic": "/iː/",
+        "translation": "in",
+        "note": ""
+      },
+      {
+        "word": "det",
+        "pos": "pron",
+        "phonetic": "/dɛt/",
+        "translation": "it",
+        "note": ""
+      },
+      {
+        "word": "skal",
+        "pos": "verb",
+        "phonetic": "/skɑl/",
+        "translation": "will",
+        "note": "modal verb"
+      },
+      {
+        "word": "til",
+        "pos": "prep",
+        "phonetic": "/til/",
+        "translation": "to",
+        "note": ""
+      },
+      {
+        "word": "og",
+        "pos": "conj",
+        "phonetic": "/ɔɡ/",
+        "translation": "and",
+        "note": ""
+      },
+      {
+        "word": "da",
+        "pos": "adv",
+        "phonetic": "/daː/",
+        "translation": "then",
+        "note": ""
+      },
+      {
+        "word": "nå",
+        "pos": "adv",
+        "phonetic": "/noː/",
+        "translation": "now",
+        "note": ""
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Jeg vil sende denne pakke til Oslo.",
+        "translation": "I want to send this package to Oslo.",
+        "highlights": [
+          "pakke",
+          "til"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Være den pakken her i skranken, da skal jeg veie den.",
+        "translation": "Put the package here on the counter, then I will weigh it.",
+        "highlights": [
+          "være",
+          "her",
+          "da",
+          "skal"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Det er ganske tungt, er det dyrt å sende det?",
+        "translation": "It’s quite heavy, is it expensive to send it?",
+        "highlights": [
+          "det",
+          "det"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Det koster litt mer, men ikke så mye. Nå skal jeg pakke den inn.",
+        "translation": "It costs a bit more, but not too much. Now I will wrap it up.",
+        "highlights": [
+          "det",
+          "nå",
+          "skal"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk, og hvor lenge tar det før den ankommer?",
+        "translation": "Thanks, and how long does it take before it arrives?",
+        "highlights": [
+          "og",
+          "før"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "sende denne pakke til",
+        "translation": "send this package to"
+      },
+      {
+        "phrase": "være den pakken her",
+        "translation": "put the package here"
+      },
+      {
+        "phrase": "det koster litt mer",
+        "translation": "it costs a bit more"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_33",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Describing your daily routine",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "å stå opp",
+        "pos": "verb",
+        "phonetic": "/ɔ stɔ op/",
+        "translation": "to get up",
+        "note": "Used to describe the action of waking up and getting out of bed."
+      },
+      {
+        "word": "morgen",
+        "pos": "noun",
+        "phonetic": "/ˈmɔrɡən/",
+        "translation": "morning",
+        "note": "Refers to the early part of the day."
+      },
+      {
+        "word": "spise",
+        "pos": "verb",
+        "phonetic": "/ˈspiːse/",
+        "translation": "to eat",
+        "note": "General verb for consuming food."
+      },
+      {
+        "word": "frokost",
+        "pos": "noun",
+        "phonetic": "/ˈfrʊkɔst/",
+        "translation": "breakfast",
+        "note": "The first meal of the day."
+      },
+      {
+        "word": "derefter",
+        "pos": "adv",
+        "phonetic": "/ˈdærɛftər/",
+        "translation": "after that",
+        "note": "Used to indicate the sequence of events."
+      },
+      {
+        "word": "ta",
+        "pos": "verb",
+        "phonetic": "/ˈtɑ/",
+        "translation": "to take",
+        "note": "Can mean to grab or to have something."
+      },
+      {
+        "word": "buss",
+        "pos": "noun",
+        "phonetic": "/bʉsː/",
+        "translation": "bus",
+        "note": "A common mode of public transportation."
+      },
+      {
+        "word": "vanlig",
+        "pos": "adj",
+        "phonetic": "/ˈvɑnli/",
+        "translation": "usual",
+        "note": "Describes something that is common or typical."
+      },
+      {
+        "word": "klokken",
+        "pos": "noun",
+        "phonetic": "/ˈklɔkən/",
+        "translation": "the clock",
+        "note": "Often used to refer to the time."
+      },
+      {
+        "word": "når",
+        "pos": "adv",
+        "phonetic": "/nɔr/",
+        "translation": "when",
+        "note": "Used to ask about or refer to a specific time."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Jeg står opp tidlig hver morgen.",
+        "translation": "I get up early every morning.",
+        "highlights": [
+          "står",
+          "morgen"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hva gjør du derefter?",
+        "translation": "What do you do after that?",
+        "highlights": [
+          "derefter"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg spiser frokost og tar bussen til jobben.",
+        "translation": "I eat breakfast and take the bus to work.",
+        "highlights": [
+          "spiser",
+          "frokost",
+          "tar",
+          "buss"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Er det vanlig for deg å ta bussen?",
+        "translation": "Is it usual for you to take the bus?",
+        "highlights": [
+          "vanlig",
+          "ta"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Ja, klokken 7 hver dag. Når tar du bussen?",
+        "translation": "Yes, at 7 o'clock every day. When do you take the bus?",
+        "highlights": [
+          "klokken",
+          "når"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Jeg står opp tidlig hver morgen.",
+        "translation": "I get up early every morning."
+      },
+      {
+        "phrase": "Jeg spiser frokost og tar bussen.",
+        "translation": "I eat breakfast and take the bus."
+      },
+      {
+        "phrase": "Er det vanlig for deg?",
+        "translation": "Is it usual for you?"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_35",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Asking about opening hours",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "åpne",
+        "pos": "verb",
+        "phonetic": "/ˈøːpnə/",
+        "translation": "to open",
+        "note": "Used to describe the action of opening something."
+      },
+      {
+        "word": "butikk",
+        "pos": "noun",
+        "phonetic": "/bʉˈtɪkː/",
+        "translation": "shop",
+        "note": "A place where goods are sold."
+      },
+      {
+        "word": "klokka",
+        "pos": "noun",
+        "phonetic": "/ˈklɔkːa/",
+        "translation": "clock",
+        "note": "Refers to time or a specific hour."
+      },
+      {
+        "word": "siden",
+        "pos": "prep",
+        "phonetic": "/ˈsiːdən/",
+        "translation": "since",
+        "note": "Indicates a starting point in time."
+      },
+      {
+        "word": "åpen",
+        "pos": "adj",
+        "phonetic": "/ˈøːpən/",
+        "translation": "open",
+        "note": "Describes something that is not closed."
+      },
+      {
+        "word": "nå",
+        "pos": "adv",
+        "phonetic": "/noː/",
+        "translation": "now",
+        "note": "Refers to the present moment."
+      },
+      {
+        "word": "lukke",
+        "pos": "verb",
+        "phonetic": "/ˈlʉkːə/",
+        "translation": "to close",
+        "note": "Opposite of 'åpne', means to shut something."
+      },
+      {
+        "word": "hver",
+        "pos": "det",
+        "phonetic": "/ˈhver/",
+        "translation": "every",
+        "note": "Used to refer to all individuals or instances."
+      },
+      {
+        "word": "dag",
+        "pos": "noun",
+        "phonetic": "/dɑːɡ/",
+        "translation": "day",
+        "note": "A 24-hour period."
+      },
+      {
+        "word": "men",
+        "pos": "conj",
+        "phonetic": "/men/",
+        "translation": "but",
+        "note": "Used to introduce a contrast."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Unnskyld, hva tid er butikken åpen i dag?",
+        "translation": "Excuse me, what time is the shop open today?",
+        "highlights": [
+          "åpen",
+          "i",
+          "dag"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Den er åpen fra klokka ni til fem.",
+        "translation": "It is open from nine o'clock to five.",
+        "highlights": [
+          "åpen",
+          "fra",
+          "klokka"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Er den åpen nå?",
+        "translation": "Is it open now?",
+        "highlights": [
+          "åpen",
+          "nå"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Ja, den er åpen hver dag unntatt søndager.",
+        "translation": "Yes, it is open every day except Sundays.",
+        "highlights": [
+          "åpen",
+          "hver",
+          "dag",
+          "men"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk, og hva tid lukker den?",
+        "translation": "Thanks, and what time does it close?",
+        "highlights": [
+          "lukke",
+          "tid"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Er den åpen nå?",
+        "translation": "Is it open now?"
+      },
+      {
+        "phrase": "Den er åpen fra klokka ni til fem.",
+        "translation": "It is open from nine o'clock to five."
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_37",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "Choosing a dish from a menu",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "se",
+        "pos": "verb",
+        "phonetic": "/seː/",
+        "translation": "to see",
+        "note": "Used to express looking at something."
+      },
+      {
+        "word": "mat",
+        "pos": "noun",
+        "phonetic": "/mɑt/",
+        "translation": "food",
+        "note": "General term for food."
+      },
+      {
+        "word": "god",
+        "pos": "adj",
+        "phonetic": "/guːd/",
+        "translation": "good",
+        "note": "Describes something positive or tasty."
+      },
+      {
+        "word": "mye",
+        "pos": "adv",
+        "phonetic": "/myː/",
+        "translation": "much",
+        "note": "Indicates a large quantity."
+      },
+      {
+        "word": "hva",
+        "pos": "pron",
+        "phonetic": "/kva/",
+        "translation": "what",
+        "note": "Used for asking questions."
+      },
+      {
+        "word": "sammen",
+        "pos": "adv",
+        "phonetic": "/sɑmən/",
+        "translation": "together",
+        "note": "Indicates being with someone or something."
+      },
+      {
+        "word": "like",
+        "pos": "adv",
+        "phonetic": "/liːkə/",
+        "translation": "likewise",
+        "note": "Used to agree or compare."
+      },
+      {
+        "word": "endre",
+        "pos": "verb",
+        "phonetic": "/ɛndrə/",
+        "translation": "to change",
+        "note": "Indicates altering something."
+      },
+      {
+        "word": "alltid",
+        "pos": "adv",
+        "phonetic": "/ˈɔltid/",
+        "translation": "always",
+        "note": "Indicates something happening every time."
+      },
+      {
+        "word": "selv",
+        "pos": "pron",
+        "phonetic": "/sɛlv/",
+        "translation": "self",
+        "note": "Refers to oneself."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Se på menyen, de har mye god mat her.",
+        "translation": "Look at the menu, they have a lot of good food here.",
+        "highlights": [
+          "se",
+          "mye",
+          "god",
+          "mat"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Hva synes du om fiskretten?",
+        "translation": "What do you think about the fish dish?",
+        "highlights": [
+          "hva"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Den ser god ut, men jeg vil prøve noe nytt sammen med deg.",
+        "translation": "It looks good, but I want to try something new together with you.",
+        "highlights": [
+          "god",
+          "sammen"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Like bra, jeg er alltid åpen for å endre valget.",
+        "translation": "Likewise, I’m always open to changing the choice.",
+        "highlights": [
+          "like",
+          "alltid",
+          "endre"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Selv om jeg elsker kjøtt, jeg vil prøve fisk denne gangen.",
+        "translation": "Even though I love meat, I’ll try fish this time.",
+        "highlights": [
+          "selv"
+        ]
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Se på menyen",
+        "translation": "Look at the menu"
+      },
+      {
+        "phrase": "Hva synes du om?",
+        "translation": "What do you think about?"
+      },
+      {
+        "phrase": "Jeg vil prøve noe nytt",
+        "translation": "I want to try something new"
+      },
+      {
+        "phrase": "Alltid åpen for å endre",
+        "translation": "Always open to change"
+      }
+    ]
+  },
+  {
+    "id": "en_A1_vctx_39",
+    "type": "vocabulario_contextual",
+    "category": "Vocabulario Contextual",
+    "level": "A1",
+    "scenario": "At the bank for a simple transaction",
+    "frequency_note": "top 300 most frequent words of Norwegian",
+    "vocabulary": [
+      {
+        "word": "gå",
+        "pos": "verb",
+        "phonetic": "/ɡɔ/",
+        "translation": "go",
+        "note": "Used to indicate movement or direction."
+      },
+      {
+        "word": "snakke",
+        "pos": "verb",
+        "phonetic": "/snɑkə/",
+        "translation": "speak",
+        "note": "To communicate verbally."
+      },
+      {
+        "word": "penge",
+        "pos": "noun",
+        "phonetic": "/peŋə/",
+        "translation": "money",
+        "note": "Currency or funds."
+      },
+      {
+        "word": "hjelp",
+        "pos": "noun",
+        "phonetic": "/jeːlp/",
+        "translation": "help",
+        "note": "Assistance or support."
+      },
+      {
+        "word": "inn",
+        "pos": "adv",
+        "phonetic": "/in/",
+        "translation": "in",
+        "note": "Indicates direction or location inside."
+      },
+      {
+        "word": "ut",
+        "pos": "adv",
+        "phonetic": "/ʉt/",
+        "translation": "out",
+        "note": "Indicates direction or location outside."
+      },
+      {
+        "word": "siden",
+        "pos": "prep",
+        "phonetic": "/siːdən/",
+        "translation": "since",
+        "note": "Used to indicate a starting point in time."
+      },
+      {
+        "word": "endre",
+        "pos": "verb",
+        "phonetic": "/ɛndrə/",
+        "translation": "change",
+        "note": "To alter or modify something."
+      },
+      {
+        "word": "fort",
+        "pos": "adv",
+        "phonetic": "/fɔrt/",
+        "translation": "quickly",
+        "note": "Indicates speed or rapidity."
+      },
+      {
+        "word": "så",
+        "pos": "conj",
+        "phonetic": "/sɔ/",
+        "translation": "so",
+        "note": "Used to connect thoughts or to indicate a result."
+      }
+    ],
+    "dialogue": [
+      {
+        "speaker": "A",
+        "text": "Hei, jeg vil gå inn for å snakke om å endre kontoen min.",
+        "translation": "Hi, I want to go in to talk about changing my account.",
+        "highlights": [
+          "gå",
+          "inn",
+          "snakke",
+          "endre"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Selvfølgelig, hvordan kan jeg hjelpe deg i dag?",
+        "translation": "Of course, how can I help you today?",
+        "highlights": [
+          "hjelp"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Jeg trenger å ta ut noen penge fort, så jeg vil endre overføringsgrensen.",
+        "translation": "I need to withdraw some money quickly, so I want to change the transfer limit.",
+        "highlights": [
+          "ut",
+          "penge",
+          "fort",
+          "så",
+          "endre"
+        ]
+      },
+      {
+        "speaker": "B",
+        "text": "Siden du er kunde hos oss, kan vi gjøre det fort.",
+        "translation": "Since you are our customer, we can do it quickly.",
+        "highlights": [
+          "siden",
+          "fort"
+        ]
+      },
+      {
+        "speaker": "A",
+        "text": "Takk skal du ha, det var alt.",
+        "translation": "Thank you, that’s all.",
+        "highlights": []
+      }
+    ],
+    "key_phrases": [
+      {
+        "phrase": "Jeg vil gå inn for å snakke om å endre kontoen min.",
+        "translation": "I want to go in to talk about changing my account."
+      },
+      {
+        "phrase": "Hvordan kan jeg hjelpe deg i dag?",
+        "translation": "How can I help you today?"
+      },
+      {
+        "phrase": "Jeg trenger å ta ut noen penge fort.",
+        "translation": "I need to withdraw some money quickly."
+      }
+    ]
+  }
+]
