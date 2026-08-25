@@ -1533,7 +1533,7 @@ function _renderA0Section(grid, targetCode, src, videoMods = []) {
                 el.classList.add('msnake-node--playing');
                 area.dataset.origPh = area.querySelector('.msnake-area-ph')?.textContent || area.dataset.origPh || '';
                 area.classList.add('msnake-area--video');
-                area.innerHTML = `<div class="msnake-video-embed"><iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>`;
+                area.innerHTML = `<div class="msnake-video-embed"><iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>`;
             }
         });
     });
@@ -1782,7 +1782,7 @@ function _renderInglesA1Snake(grid, mods, opts = {}) {
             if (area) {
                 area.innerHTML = `
                     <div class="msnake-video-embed">
-                        <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>`;
             }
         });
