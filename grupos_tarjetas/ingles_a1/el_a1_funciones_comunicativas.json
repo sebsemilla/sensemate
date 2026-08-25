@@ -1,0 +1,686 @@
+[
+  {
+    "id": "el_A1_func_01",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Greet and introduce yourself",
+    "bridge": "Στα ισπανικά, για να χαιρετήσουμε λέμε 'Hola' ή 'Buenos días' και για να συστηθούμε λέμε 'Me llamo...' ή 'Soy...'. Στα αγγλικά είναι παρόμοιο: χρησιμοποιούμε 'Hello' ή 'Good morning' και λέμε 'My name is...' ή 'I am...'. Η βασική διαφορά είναι ότι στα αγγλικά δεν λέμε 'I am called...' (αν και είναι γραμματικά σωστό, ακούγεται πολύ επίσημο και όχι φυσικό σε καθημερινή συζήτηση). Επίσης, θυμήσου ότι στα αγγλικά πάντα χρησιμοποιούμε το ρήμα 'to be' για να ρωτήσουμε το όνομα: 'What is your name?' (όχι 'How are you called?').",
+    "rule": "Για να χαιρετήσετε: 'Hello' (Hola), 'Hi' (πιο ανεπίσημο), 'Good morning' (Buenos días), 'Good afternoon' (Buenas tardes), 'Good evening' (Buenas noches όταν φτάνετε). Για να συστηθείτε: 'My name is...' (Me llamo...) ή 'I am...' (Soy...). Για να ρωτήσετε το όνομα: 'What is your name?' (¿Cómo te llamas?). Για να απαντήσετε σε έναν χαιρετισμό: 'Nice to meet you' (Encantado/a de conocerte) και η απάντηση είναι 'Nice to meet you too'. Για να αποχαιρετήσετε: 'Goodbye', 'Bye', 'See you later'.",
+    "concept_examples": [
+      {
+        "text": "Hello, my name is Maria.",
+        "translation": "Hola, me llamo María.",
+        "phonetic": "/həˈləʊ maɪ neɪm ɪz məˈriːə/"
+      },
+      {
+        "text": "Good morning, I am Peter.",
+        "translation": "Buenos días, soy Peter.",
+        "phonetic": "/ɡʊd ˈmɔːnɪŋ aɪ æm ˈpiːtə/"
+      },
+      {
+        "text": "Nice to meet you.",
+        "translation": "Encantado/a de conocerte.",
+        "phonetic": "/naɪs tə miːt juː/"
+      },
+      {
+        "text": "What is your name?",
+        "translation": "¿Cómo te llamas?",
+        "phonetic": "/wɒt ɪz jɔː neɪm/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am called Anna.",
+      "correct": "My name is Anna.",
+      "correct_alt": "I am Anna.",
+      "explanation": "Στα ισπανικά λέμε 'Me llamo Anna', αλλά στα αγγλικά η πιο κοινή μορφή για να συστηθείς είναι 'My name is...' ή 'I am...'. Το 'I am called' είναι σωστό αλλά ακούγεται πολύ επίσημο και όχι φυσικό σε καθημερινούς contextos."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic greeting",
+        "translation": "Βασικός χαιρετισμός",
+        "examples": [
+          {
+            "original": "Hello!",
+            "phonetic": "/həˈləʊ/",
+            "translation": "¡Hola!",
+            "note": "Στάνταρ χαιρετισμός."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Introduce yourself",
+        "translation": "Σύσταση",
+        "examples": [
+          {
+            "original": "My name is John.",
+            "phonetic": "/maɪ neɪm ɪz dʒɒn/",
+            "translation": "Me llamo John.",
+            "note": "Κοινή μορφή για να πεις το όνομά σου."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Ask someone's name",
+        "translation": "Ερώτηση για το όνομα",
+        "examples": [
+          {
+            "original": "What is your name?",
+            "phonetic": "/wɒt ɪz jɔː neɪm/",
+            "translation": "¿Cómo te llamas?",
+            "note": "Άμεση ερώτηση για να μάθεις το όνομα."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Farewell",
+        "translation": "Αποχαιρετισμός",
+        "examples": [
+          {
+            "original": "See you tomorrow!",
+            "phonetic": "/siː juː təˈmɒrəʊ/",
+            "translation": "¡Hasta mañana!",
+            "note": "Ανεπίσημος αποχαιρετισμός."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": {
+        "greeting": "Χαιρετισμός",
+        "introduction": "Σύσταση",
+        "ask_name": "Ερώτηση για το όνομα",
+        "farewell": "Αποχαιρετισμός"
+      }
+    }
+  },
+  {
+    "id": "el_A1_func_02",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Give personal information (age, nationality, profession)",
+    "bridge": "Στα ισπανικά, για να δηλώσουμε την ηλικία λέμε 'Tengo 25 años' (χρησιμοποιώντας το ρήμα 'tener'), αλλά στα αγγλικά λέμε 'I am 25 years old' (χρησιμοποιώντας το ρήμα 'to be'). Επίσης, για την εθνικότητα λέμε 'Soy español' (χωρίς άρθρο), αλλά στα αγγλικά λέμε 'I am Spanish' (χωρίς άρθρο). Για το επάγγελμα, στα ισπανικά λέμε 'Soy profesor' (χωρίς άρθρο), αλλά στα αγγλικά χρειαζόμαστε το άρθρο: 'I am a teacher'.",
+    "rule": "Για την ηλικία: 'I am [αριθμός] years old' (π.χ.: I am 25 years old). Για την εθνικότητα: 'I am [εθνικότητα]' (π.χ.: I am Spanish, I am Mexican). Για το επάγγελμα: 'I am a/an [επάγγελμα]' (π.χ.: I am a doctor, I am an engineer). Για να ρωτήσετε: 'How old are you?' (Πόσων ετών είσαι;), 'Where are you from?' (Από πού είσαι;), 'What do you do?' (Τι κάνεις;) ή 'What is your job?'.",
+    "concept_examples": [
+      {
+        "text": "I am 25 years old.",
+        "translation": "Είμαι 25 ετών.",
+        "phonetic": "/aɪ æm ˈtwenti faɪv jɪəz əʊld/"
+      },
+      {
+        "text": "I am Spanish.",
+        "translation": "Είμαι Ισπανός/Ισπανίδα.",
+        "phonetic": "/aɪ æm ˈspænɪʃ/"
+      },
+      {
+        "text": "I am a teacher.",
+        "translation": "Είμαι καθηγητής/καθηγήτρια.",
+        "phonetic": "/aɪ æm ə ˈtiːtʃə/"
+      },
+      {
+        "text": "How old are you?",
+        "translation": "Πόσων ετών είσαι;",
+        "phonetic": "/haʊ əʊld ɑːr juː/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "correct_alt": "",
+      "explanation": "Στα ισπανικά λέμε 'Tengo 25 años' χρησιμοποιώντας το ρήμα 'tener', αλλά στα αγγλικά χρησιμοποιείται το ρήμα 'to be' για την ηλικία. Είναι ένα από τα πιο κοινά λάθη για τους ισπανόφωνους."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Age",
+        "translation": "Ηλικία",
+        "examples": [
+          {
+            "original": "I am 30 years old.",
+            "phonetic": "/aɪ æm ˈθɜːti jɪəz əʊld/",
+            "translation": "Είμαι 30 ετών.",
+            "note": "Χρησιμοποιούμε το 'to be' για την ηλικία."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Nationality",
+        "translation": "Εθνικότητα",
+        "examples": [
+          {
+            "original": "I am Mexican.",
+            "phonetic": "/aɪ æm ˈmeksɪkən/",
+            "translation": "Είμαι Μεξικανός/Μεξικάνα.",
+            "note": "Χωρίς άρθρο για την εθνικότητα."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Profession",
+        "translation": "Επάγγελμα",
+        "examples": [
+          {
+            "original": "She is a nurse.",
+            "phonetic": "/ʃiː ɪz ə nɜːs/",
+            "translation": "Αυτή είναι νοσοκόμα.",
+            "note": "Με άρθρο 'a' ή 'an' για επαγγέλματα."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions",
+        "translation": "Ερωτήσεις",
+        "examples": [
+          {
+            "original": "Where are you from?",
+            "phonetic": "/weə ɑːr juː frɒm/",
+            "translation": "Από πού είσαι;",
+            "note": "Ερώτηση για την προέλευση."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Greek"
+    }
+  },
+  {
+    "id": "el_A1_func_03",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Περιγραφή αντικειμένων και ανθρώπων (βασική)",
+    "bridge": "Στα ισπανικά, για να περιγράψουμε αντικείμενα και ανθρώπους τοποθετούμε το επίθετο μετά το ουσιαστικό: 'un coche rojo', 'una chica alta'. Στα αγγλικά, το επίθετο τοποθετείται ΠΡΙΝ το ουσιαστικό: 'a red car', 'a tall girl'. Επίσης, χρησιμοποιούμε το ρήμα 'to be' για γενικές περιγραφές (She is tall) και 'have got' για φυσικά χαρακτηριστικά (She has got blue eyes).",
+    "rule": "Για να περιγράψουμε: 1) Επίθετο + ουσιαστικό (a big house). 2) Υποκείμενο + ρήμα 'to be' + επίθετο (The house is big). 3) Υποκείμενο + 'have/has got' + χαρακτηριστικό (She has got long hair). Κοινά επίθετα: big (μεγάλος), small (μικρός), tall (ψηλός), short (κοντός), beautiful (όμορφος), old (παλιός), young (νέος), fast (γρήγορος), slow (αργός).",
+    "concept_examples": [
+      {
+        "text": "This is a big house.",
+        "translation": "Αυτό είναι ένα μεγάλο σπίτι.",
+        "phonetic": "/ðɪs ɪz ə bɪɡ haʊs/"
+      },
+      {
+        "text": "She is tall and thin.",
+        "translation": "Αυτή είναι ψηλή και λεπτή.",
+        "phonetic": "/ʃiː ɪz tɔːl ænd θɪn/"
+      },
+      {
+        "text": "He has got blue eyes.",
+        "translation": "Αυτός έχει μπλε μάτια.",
+        "phonetic": "/hiː hæz ɡɒt bluː aɪz/"
+      },
+      {
+        "text": "The car is red.",
+        "translation": "Το αυτοκίνητο είναι κόκκινο.",
+        "phonetic": "/ðə kɑːr ɪz red/"
+      }
+    ],
+    "common_error": {
+      "wrong": "a car red",
+      "correct": "a red car",
+      "correct_alt": "",
+      "explanation": "Στα ισπανικά, το επίθετο τοποθετείται μετά το ουσιαστικό ('un coche rojo'), αλλά στα αγγλικά το επίθετο τοποθετείται ΠΡΙΝ το ουσιαστικό ('a red car'). Αυτό είναι ένα από τα πιο κοινά λάθη για τους ισπανόφωνους."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Adjective + noun",
+        "translation": "Επίθετο + ουσιαστικό",
+        "examples": [
+          {
+            "original": "a small dog",
+            "phonetic": "/ə smɔːl dɒɡ/",
+            "translation": "ένας μικρός σκύλος",
+            "note": "Το επίθετο τοποθετείται πριν το ουσιαστικό."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Subject + to be + adjective",
+        "translation": "Υποκείμενο + to be + επίθετο",
+        "examples": [
+          {
+            "original": "The book is interesting.",
+            "phonetic": "/ðə bʊk ɪz ˈɪntrəstɪŋ/",
+            "translation": "Το βιβλίο είναι ενδιαφέρον.",
+            "note": "Χρησιμοποιούμε 'to be' για γενικές περιγραφές."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "have/has got for features",
+        "translation": "have/has got για χαρακτηριστικά",
+        "examples": [
+          {
+            "original": "She has got curly hair.",
+            "phonetic": "/ʃiː hæz ɡɒt ˈkɜːli heə/",
+            "translation": "Αυτή έχει σγουρά μαλλιά.",
+            "note": "Χρησιμοποιούμε 'have got' για φυσικά χαρακτηριστικά."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Combined description",
+        "translation": "Συνδυασμένη περιγραφή",
+        "examples": [
+          {
+            "original": "My brother is young and he has got green eyes.",
+            "phonetic": "/maɪ ˈbrʌðə ɪz jʌŋ ænd hiː hæz ɡɒt ɡriːn aɪz/",
+            "translation": "Ο αδερφός μου είναι νέος και έχει πράσινα μάτια.",
+            "note": "Συνδυασμός 'to be' και 'have got'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Ελληνικά"
+    }
+  },
+  {
+    "id": "el_A1_func_04",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Talk about daily routines",
+    "bridge": "Στα ισπανικά, για να μιλήσουμε για καθημερινές ρουτίνες χρησιμοποιούμε τον ενεστώτα: 'Me levanto a las 7, desayuno y voy al trabajo'. Στα αγγλικά, χρησιμοποιούμε τον απλό ενεστώτα με τον ίδιο τρόπο: 'I get up at 7, have breakfast and go to work'. Η κύρια διαφορά είναι ότι στα αγγλικά χρησιμοποιούμε τις προθέσεις 'at' για ώρες ('at 7 o'clock'), 'in' για μέρη της ημέρας ('in the morning') και 'on' για ημέρες ('on Monday'). Επίσης, χρησιμοποιούμε επιρρήματα συχνότητας όπως 'always', 'usually', 'sometimes' πριν από το κύριο ρήμα.",
+    "rule": "Για να μιλήσετε για ρουτίνες: 1) Χρησιμοποιήστε τον απλό ενεστώτα (I get up, she works). 2) Χρησιμοποιήστε εκφράσεις χρόνου: 'at' + ώρα (at 8 am), 'in' + μέρος της ημέρας (in the morning), 'on' + ημέρα (on Friday). 3) Χρησιμοποιήστε επιρρήματα συχνότητας πριν από το ρήμα (I always eat breakfast). 4) Για ερωτήσεις: 'What time do you get up?' ή 'When do you have lunch?'",
+    "concept_examples": [
+      {
+        "text": "I get up at 7 o'clock.",
+        "translation": "Σηκώνομαι στις 7 ακριβώς.",
+        "phonetic": "/aɪ ɡet ʌp æt ˈsevən əˈklɒk/"
+      },
+      {
+        "text": "She usually has breakfast at 8 am.",
+        "translation": "Αυτή συνήθως τρώει πρωινό στις 8 το πρωί.",
+        "phonetic": "/ʃiː ˈjuːʒuəli hæz ˈbrekfəst æt eɪt æm/"
+      },
+      {
+        "text": "We go to work at 9 in the morning.",
+        "translation": "Πηγαίνουμε στη δουλειά στις 9 το πρωί.",
+        "phonetic": "/wiː ɡəʊ tə wɜːk æt naɪn ɪn ðə ˈmɔːnɪŋ/"
+      },
+      {
+        "text": "What time do you have dinner?",
+        "translation": "Τι ώρα τρως βραδινό;",
+        "phonetic": "/wɒt taɪm duː juː hæv ˈdɪnə/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I am eating breakfast every morning.",
+      "correct": "I eat breakfast every morning.",
+      "correct_alt": "",
+      "explanation": "Στα ισπανικά, μερικές φορές χρησιμοποιούμε τον ενεστώτα συνεχούς για συνήθεις ενέργειες ('estoy desayunando cada mañana'), αλλά στα αγγλικά, για ρουτίνες και συνήθειες, χρησιμοποιούμε τον απλό ενεστώτα, όχι τον συνεχή."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Daily actions",
+        "translation": "Καθημερινές ενέργειες",
+        "examples": [
+          {
+            "original": "I get up early.",
+            "phonetic": "/aɪ ɡet ʌp ˈɜːli/",
+            "translation": "Σηκώνομαι νωρίς.",
+            "note": "Ρήμα σε απλό ενεστώτα για ρουτίνα."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Time expressions",
+        "translation": "Εκφράσεις χρόνου",
+        "examples": [
+          {
+            "original": "I have lunch at 1 pm.",
+            "phonetic": "/aɪ hæv lʌntʃ æt wʌn piː em/",
+            "translation": "Τρώω μεσημεριανό στις 1 το μεσημέρι.",
+            "note": "Χρησιμοποιούμε 'at' για συγκεκριμένες ώρες."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Frequency adverbs",
+        "translation": "Επιρρήματα συχνότητας",
+        "examples": [
+          {
+            "original": "She never drinks coffee.",
+            "phonetic": "/ʃiː ˈnevə drɪŋks ˈkɒfi/",
+            "translation": "Αυτή ποτέ δεν πίνει καφέ.",
+            "note": "Επίρρημα πριν από το κύριο ρήμα."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions about routines",
+        "translation": "Ερωτήσεις για ρουτίνες",
+        "examples": [
+          {
+            "original": "What time do you go to bed?",
+            "phonetic": "/wɒt taɪm duː juː ɡəʊ tə bed/",
+            "translation": "Τι ώρα πηγαίνεις για ύπνο;",
+            "note": "Ερώτηση με 'what time' + do/does."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Greek"
+    }
+  },
+  {
+    "id": "el_A1_func_05",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Express likes and dislikes (I like / Μου αρέσει, Δεν μου αρέσει)",
+    "bridge": "Στα ισπανικά, για να εκφράσουμε προτιμήσεις χρησιμοποιούμε το ρήμα 'gustar': 'Me gusta la pizza' (κυριολεκτικά 'Η πίτσα μου αρέσει'). Στα αγγλικά, χρησιμοποιούμε το ρήμα 'like' με τη δομή υποκείμενο + like + αντικείμενο: 'I like pizza'. Η κύρια διαφορά είναι ότι στα ισπανικά το ρήμα 'gustar' συμφωνεί με το αντικείμενο (me gusta la pizza, me gustan las pizzas), ενώ στα αγγλικά το 'like' συμφωνεί με το υποκείμενο (I like pizza, He likes pizza). Επίσης, θυμήσου ότι για να εκφράσεις δυσαρέσκεια λες 'I don't like' (no me gusta).",
+    "rule": "Για να εκφράσεις προτιμήσεις: 1) Καταφατικό: I/you/we/they like + αντικείμενο (I like coffee). He/she/it likes + αντικείμενο (She likes coffee). 2) Αρνητικό: I/you/we/they don't like (I don't like tea). He/she/it doesn't like (He doesn't like tea). 3) Ερωτήσεις: Do you like...? (¿Te gusta...?), Does she like...? (¿Le gusta a ella...?). 4) Για έμφαση: 'I like it very much' (Me gusta mucho) ή 'I really like it' (Me gusta mucho).",
+    "concept_examples": [
+      {
+        "text": "I like pizza.",
+        "translation": "Μου αρέσει η πίτσα.",
+        "phonetic": "/aɪ laɪk ˈpiːtsə/"
+      },
+      {
+        "text": "She likes reading.",
+        "translation": "Της αρέσει να διαβάζει.",
+        "phonetic": "/ʃiː laɪks ˈriːdɪŋ/"
+      },
+      {
+        "text": "We don't like fast food.",
+        "translation": "Δεν μας αρέσει το φαστ φουντ.",
+        "phonetic": "/wiː dəʊnt laɪk fɑːst fuːd/"
+      },
+      {
+        "text": "Do you like music?",
+        "translation": "Σου αρέσει η μουσική;",
+        "phonetic": "/duː juː laɪk ˈmjuːzɪk/"
+      }
+    ],
+    "common_error": {
+      "wrong": "I like very much pizza.",
+      "correct": "I like pizza very much.",
+      "correct_alt": "",
+      "explanation": "Στα ισπανικά, το επίρρημα 'mucho' τοποθετείται μετά το ρήμα: 'Me gusta mucho la pizza'. Στα αγγλικά, το επίρρημα 'very much' τοποθετείται στο τέλος της πρότασης ή μετά το αντικείμενο: 'I like pizza very much'. Η τοποθέτησή του μεταξύ του ρήματος και του αντικειμένου είναι ένα συνηθισμένο λάθος."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Affirmative with I/you/we/they",
+        "translation": "Καταφατικό με I/you/we/they",
+        "examples": [
+          {
+            "original": "I like chocolate.",
+            "phonetic": "/aɪ laɪk ˈtʃɒkələt/",
+            "translation": "Μου αρέσει η σοκολάτα.",
+            "note": "Το ρήμα 'like' σε βασική μορφή."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Affirmative with he/she/it",
+        "translation": "Καταφατικό με he/she/it",
+        "examples": [
+          {
+            "original": "He likes football.",
+            "phonetic": "/hiː laɪks ˈfʊtbɔːl/",
+            "translation": "Του αρέσει το ποδόσφαιρο.",
+            "note": "Προσθέτουμε -s στο τρίτο πρόσωπο."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Negative with don't/doesn't",
+        "translation": "Αρνητικό με don't/doesn't",
+        "examples": [
+          {
+            "original": "She doesn't like coffee.",
+            "phonetic": "/ʃiː ˈdʌznt laɪk ˈkɒfi/",
+            "translation": "Δεν της αρέσει ο καφές.",
+            "note": "Χρησιμοποιούμε 'doesn't' + ρήμα σε βασική μορφή."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Questions with Do/Does",
+        "translation": "Ερωτήσεις με Do/Does",
+        "examples": [
+          {
+            "original": "Do you like dogs?",
+            "phonetic": "/duː juː laɪk dɒɡz/",
+            "translation": "Σου αρέσουν τα σκυλιά;",
+            "note": "Ερώτηση με 'do' + υποκείμενο + ρήμα σε βασική μορφή."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Greek"
+    }
+  },
+  {
+    "id": "el_A1_func_06",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Ask for and give prices",
+    "bridge": "Στα ισπανικά, για να ρωτήσουμε την τιμή λέμε '¿Cuánto cuesta?' ή '¿Cuánto es?'. Στα αγγλικά, λέμε 'How much is it?' (ενικός) ή 'How much are they?' (πληθυντικός). Επίσης χρησιμοποιείται το 'How much does it cost?' (¿Cuánto cuesta?). Η κύρια διαφορά είναι ότι στα αγγλικά χρησιμοποιούμε το ρήμα 'to be' ή το ρήμα 'cost' με το βοηθητικό 'does' για να ρωτήσουμε. Για να δώσουμε την τιμή, λέμε 'It is [αριθμός] dollars/euros' ή 'It costs [αριθμός].'",
+    "rule": "Για να ρωτήσετε την τιμή: 1) 'How much is it?' (για ένα αντικείμενο) ή 'How much are they?' (για πολλά). 2) 'How much does it cost?' (¿Cuánto cuesta?). 3) 'How much is the T-shirt?' (¿Cuánto cuesta la camiseta?). Για να απαντήσετε: 'It is 25 dollars' ή 'It costs 25 dollars'. Στις ερωτήσεις, πάντα χρησιμοποιούμε το ρήμα 'to be' ή το βοηθητικό 'does' + 'cost'.",
+    "concept_examples": [
+      {
+        "text": "How much is it?",
+        "translation": "Πόσο κοστίζει;",
+        "phonetic": "/haʊ mʌtʃ ɪz ɪt/"
+      },
+      {
+        "text": "How much does it cost?",
+        "translation": "Πόσο κοστίζει;",
+        "phonetic": "/haʊ mʌtʃ dʌz ɪt kɒst/"
+      },
+      {
+        "text": "It is 10 dollars.",
+        "translation": "Κοστούν 10 δολάρια.",
+        "phonetic": "/ɪt ɪz ten ˈdɒləz/"
+      },
+      {
+        "text": "How much are these shoes?",
+        "translation": "Πόσο κοστίζουν αυτά τα παπούτσια;",
+        "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ʃuːz/"
+      }
+    ],
+    "common_error": {
+      "wrong": "How much cost it?",
+      "correct": "How much does it cost?",
+      "correct_alt": "How much is it?",
+      "explanation": "Στα ισπανικά λέμε '¿Cuánto cuesta?' χωρίς βοηθητικό. Στα αγγλικά, με το ρήμα 'cost', χρειάζεται το βοηθητικό 'does' για να κάνουμε ερωτήσεις. Είναι ένα συνηθισμένο λάθος μεταξύ των ισπανόφωνων λόγω κυριολεκτικής μετάφρασης."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Ask price with 'to be'",
+        "translation": "Ρωτήστε την τιμή με 'to be'",
+        "examples": [
+          {
+            "original": "How much is the book?",
+            "phonetic": "/haʊ mʌtʃ ɪz ðə bʊk/",
+            "translation": "Πόσο κοστίζει το βιβλίο;",
+            "note": "Χρησιμοποιούμε 'to be' για να ρωτήσουμε την τιμή."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Ask price with 'cost'",
+        "translation": "Ρωτήστε την τιμή με 'cost'",
+        "examples": [
+          {
+            "original": "How much does the bag cost?",
+            "phonetic": "/haʊ mʌtʃ dʌz ðə bæɡ kɒst/",
+            "translation": "Πόσο κοστίζει η τσάντα;",
+            "note": "Χρησιμοποιούμε 'does' + 'cost' για να ρωτήσουμε."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Give price",
+        "translation": "Δώστε την τιμή",
+        "examples": [
+          {
+            "original": "It costs 5 euros.",
+            "phonetic": "/ɪt kɒsts faɪv ˈjʊərəʊz/",
+            "translation": "Κοστάει 5 ευρώ.",
+            "note": "Χρησιμοποιούμε 'costs' σε τρίτη personne ενικού."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Plural questions",
+        "translation": "Ερωτήσεις στον πληθυντικό",
+        "examples": [
+          {
+            "original": "How much are these apples?",
+            "phonetic": "/haʊ mʌtʃ ɑːr ðiːz ˈæpəlz/",
+            "translation": "Πόσο κοστίζουν αυτά τα μήλα;",
+            "note": "Χρησιμοποιούμε 'are' για τον πληθυντικό."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Greek"
+    }
+  },
+  {
+    "id": "el_A1_func_07",
+    "type": "concept",
+    "category": "Funciones comunicativas",
+    "title": "Indicate location of places",
+    "bridge": "Στα ισπανικά, για να υποδείξουμε τη θέση ενός τόπου λέμε 'Está en la calle...', 'Está al lado del banco', 'Está cerca de la estación'. Στα αγγλικά, χρησιμοποιούμε προθέσεις τόπου όπως 'on', 'in', 'at', 'next to', 'near', 'opposite', 'behind', 'in front of'. Η δυσκολία για τους ισπανόφωνους είναι ότι στα ισπανικά χρησιμοποιούμε 'en' για σχεδόν τα πάντα, ενώ στα αγγλικά η πρόθεση εξαρτάται από το πλαίσιο. Επίσης, θυμήσου ότι για τη θέση χρησιμοποιούμε το ρήμα 'to be' (It is...).",
+    "rule": "Για να υποδείξεις θέση: 1) Χρησιμοποίησε το ρήμα 'to be' (The bank is...). 2) Προθέσεις τόπου: 'on' (σε, πάνω σε επιφάνεια ή δρόμο), 'in' (μέσα σε χώρο), 'at' (σε συγκεκριμένο σημείο), 'next to' (δίπλα σε), 'near' (κοντά σε), 'opposite' (απέναντι από), 'behind' (πίσω από), 'in front of' (μπροστά από). 3) Για να ρωτήσεις: 'Where is the...?' (Πού είναι το...;) ή 'Is there a... near here?' (Υπάρχει ένα... κοντά εδώ;).",
+    "concept_examples": [
+      {
+        "text": "The supermarket is near the park.",
+        "translation": "Το σούπερ μάρκετ είναι κοντά στο πάρκο.",
+        "phonetic": "/ðə ˈsuːpəmɑːkɪt ɪz nɪə ðə pɑːk/"
+      },
+      {
+        "text": "The school is next to the church.",
+        "translation": "Το σχολείο είναι δίπλα στην εκκλησία.",
+        "phonetic": "/ðə skuːl ɪz nekst tə ðə tʃɜːtʃ/"
+      },
+      {
+        "text": "The pharmacy is on Main Street.",
+        "translation": "Το φαρμακείο είναι στην οδό Principal.",
+        "phonetic": "/ðə ˈfɑːməsi ɪz ɒn meɪn striːt/"
+      },
+      {
+        "text": "Where is the bus station?",
+        "translation": "Πού είναι ο σταθμός των λεωφορείων;",
+        "phonetic": "/weə ɪz ðə bʌs ˈsteɪʃən/"
+      }
+    ],
+    "common_error": {
+      "wrong": "Is in the corner.",
+      "correct": "It is in the corner.",
+      "correct_alt": "It is on the corner.",
+      "explanation": "Στα ισπανικά λέμε 'Está en la esquina' και μερικές φορές παραλείπουμε το υποκείμενο. Στα αγγλικά, το υποκείμενο 'It' ή 'He/She' είναι υποχρεωτικό. Επιπλέον, 'en la esquina' λέγεται 'on the corner' (όχι 'in the corner') όταν η θέση είναι στη διασταύρωση δρόμων."
+    },
+    "levels": [
+      {
+        "level": 1,
+        "label": "Basic location with 'in'",
+        "translation": "Βασική θέση με 'in'",
+        "examples": [
+          {
+            "original": "The cat is in the garden.",
+            "phonetic": "/ðə kæt ɪz ɪn ðə ˈɡɑːdən/",
+            "translation": "Η γάτα είναι στον κήπο.",
+            "note": "Χρησιμοποιούμε 'in' για κλειστούς χώρους."
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "label": "Location with 'next to'",
+        "translation": "Θέση με 'next to'",
+        "examples": [
+          {
+            "original": "The restaurant is next to the hotel.",
+            "phonetic": "/ðə ˈrestrɒnt ɪz nekst tə ðə həʊˈtel/",
+            "translation": "Το εστιατόριο είναι δίπλα στο ξενοδοχείο.",
+            "note": "Χρησιμοποιούμε 'next to' για πλευρική εγγύτητα."
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "label": "Location with 'near' and 'opposite'",
+        "translation": "Θέση με 'near' και 'opposite'",
+        "examples": [
+          {
+            "original": "The bank is opposite the park.",
+            "phonetic": "/ðə bæŋk ɪz ˈɒpəzɪt ðə pɑːk/",
+            "translation": "Η τράπεζα είναι απέναντι από το πάρκο.",
+            "note": "Χρησιμοποιούμε 'opposite' για απέναντι."
+          }
+        ]
+      },
+      {
+        "level": 4,
+        "label": "Question with Where",
+        "translation": "Ερώτηση με Where",
+        "examples": [
+          {
+            "original": "Where is the police station?",
+            "phonetic": "/weə ɪz ðə pəˈliːs ˈsteɪʃən/",
+            "translation": "Πού είναι το αστυνομικό τμήμα;",
+            "note": "Άμεση ερώτηση με 'Where'."
+          }
+        ]
+      }
+    ],
+    "conversation": {
+      "vocabulary": [],
+      "dialogue": []
+    },
+    "translations": {
+      "el": "Greek"
+    }
+  }
+]
